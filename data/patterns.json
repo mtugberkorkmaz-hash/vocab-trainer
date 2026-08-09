@@ -1,0 +1,527 @@
+[
+  {
+    "id": "pat001",
+    "term": "I was wondering if...",
+    "pronunciation": "ay woz WUN-der-ing if",
+    "translation": "acaba ...-mı diye düşünüyordum",
+    "explanation": "Nazikçe bir istek/soru sormak için kullanılır, doğrudan sormaktan daha kibardır. Yapı: 'I was wondering if + [özne] + [could/would] + fiil': geçmiş zaman kullanılsa da anlam şimdiki zamana aittir (kibarlık için).",
+    "sentences": [
+      "I was wondering if you could send me the report today.",
+      "I was wondering if we could reschedule our meeting.",
+      "I was wondering if you had time to review my draft.",
+      "I was wondering if there's an update on the shipment.",
+      "I was wondering if you'd like to join us for lunch."
+    ],
+    "translations": [
+      "Acaba raporu bugün bana gönderebilir misin diye düşünüyordum.",
+      "Acaba toplantımızı yeniden planlayabilir miyiz diye düşünüyordum.",
+      "Acaba taslağımı inceleyecek vaktin var mı diye düşünüyordum.",
+      "Acaba sevkiyatla ilgili bir gelişme var mı diye düşünüyordum.",
+      "Acaba bize öğle yemeğinde katılmak ister misin diye düşünüyordum."
+    ]
+  },
+  {
+    "id": "pat002",
+    "term": "Would you mind...?",
+    "pronunciation": "wood yoo mynd",
+    "translation": "sakıncası var mı / rica etsem",
+    "explanation": "Çok nazik bir rica kalıbıdır. Yapı: 'Would you mind + fiil-ing?': would you mind + gerund (fiil+ing), asla 'to + fiil' ile kullanılmaz.",
+    "sentences": [
+      "Would you mind closing the door?",
+      "Would you mind sending me that file again?",
+      "Would you mind if I joined the call late?",
+      "Would you mind repeating that, please?",
+      "Would you mind waiting a few minutes?"
+    ],
+    "translations": [
+      "Kapıyı kapatır mısınız, sakıncası var mı?",
+      "O dosyayı bana tekrar gönderir misiniz, sakıncası var mı?",
+      "Görüşmeye geç katılsam sakıncası olur mu?",
+      "Bunu tekrar eder misiniz lütfen, sakıncası var mı?",
+      "Birkaç dakika bekler misiniz, sakıncası var mı?"
+    ]
+  },
+  {
+    "id": "pat003",
+    "term": "Let me know if...",
+    "pronunciation": "let mee noh if",
+    "translation": "eğer ... olursa haber ver",
+    "explanation": "Karşı tarafa bir durumu bildirmesini rica etmek için kullanılır. Yapı: 'Let me know if + [koşul cümlesi]': emir kipi (let me know) + if + şart cümlesi.",
+    "sentences": [
+      "Let me know if you need any help.",
+      "Let me know if the schedule changes.",
+      "Let me know if you have any questions.",
+      "Let me know if you can make it to the meeting.",
+      "Let me know if something comes up."
+    ],
+    "translations": [
+      "Yardıma ihtiyacın olursa haber ver.",
+      "Program değişirse haber ver.",
+      "Herhangi bir sorun olursa haber ver.",
+      "Toplantıya gelebilirsen haber ver.",
+      "Bir şey çıkarsa haber ver."
+    ]
+  },
+  {
+    "id": "pat004",
+    "term": "I guess...",
+    "pronunciation": "ay ges",
+    "translation": "sanırım / galiba",
+    "explanation": "Kesin olmayan bir fikir belirtirken kullanılır, 'I think' e göre daha az emin bir ton taşır. Yapı: 'I guess + [cümle]': özne + fiil + tam cümle.",
+    "sentences": [
+      "I guess we'll have to wait for the approval.",
+      "I guess that's the best option we have.",
+      "I guess I should double-check the numbers.",
+      "I guess it depends on the client's response.",
+      "I guess we can finish this by Friday."
+    ],
+    "translations": [
+      "Sanırım onayı beklememiz gerekecek.",
+      "Sanırım elimizdeki en iyi seçenek bu.",
+      "Sanırım rakamları tekrar kontrol etmeliyim.",
+      "Sanırım bu müşterinin cevabına bağlı.",
+      "Sanırım bunu Cuma'ya kadar bitirebiliriz."
+    ]
+  },
+  {
+    "id": "pat005",
+    "term": "As far as I know...",
+    "pronunciation": "az fahr az ay noh",
+    "translation": "bildiğim kadarıyla",
+    "explanation": "Sahip olunan bilginin sınırlı/kesin olmayabileceğini belirtmek için kullanılır. Yapı: 'As far as I know, + [cümle]': cümle başı zarf öbeği + virgül + tam cümle.",
+    "sentences": [
+      "As far as I know, the shipment arrives on Monday.",
+      "As far as I know, nobody has raised any objections.",
+      "As far as I know, the budget hasn't changed.",
+      "As far as I know, he's still working on it.",
+      "As far as I know, that's the final version."
+    ],
+    "translations": [
+      "Bildiğim kadarıyla sevkiyat Pazartesi geliyor.",
+      "Bildiğim kadarıyla kimse itirazda bulunmadı.",
+      "Bildiğim kadarıyla bütçe değişmedi.",
+      "Bildiğim kadarıyla o hâlâ bunun üzerinde çalışıyor.",
+      "Bildiğim kadarıyla bu son versiyon."
+    ]
+  },
+  {
+    "id": "pat006",
+    "term": "It depends on...",
+    "pronunciation": "it dih-PENDS on",
+    "translation": "...-a bağlı",
+    "explanation": "Bir durumun başka bir faktöre bağlı olduğunu ifade eder. Yapı: 'It depends on + [isim/fiil-ing]': depend fiili her zaman 'on' edatıyla kullanılır.",
+    "sentences": [
+      "It depends on the client's final decision.",
+      "It depends on how fast we get the approval.",
+      "It depends on the weather this weekend.",
+      "It depends on whether the vendor confirms the date.",
+      "It depends on your availability next week."
+    ],
+    "translations": [
+      "Bu, müşterinin nihai kararına bağlı.",
+      "Bu, onayı ne kadar hızlı alacağımıza bağlı.",
+      "Bu, bu hafta sonu havaya bağlı.",
+      "Bu, tedarikçinin tarihi teyit edip etmemesine bağlı.",
+      "Bu, gelecek hafta müsait olup olmamana bağlı."
+    ]
+  },
+  {
+    "id": "pat007",
+    "term": "I'd rather...",
+    "pronunciation": "eyed RAH-ther",
+    "translation": "tercih ederim / ...-mayı yeğlerim",
+    "explanation": "Tercih belirtmek için kullanılır. Yapı: 'I'd rather + fiil (mastar hali, 'to' almadan)': I'd rather + V1. Karşılaştırma yapılırsa 'than' eklenir.",
+    "sentences": [
+      "I'd rather finish this today than leave it for tomorrow.",
+      "I'd rather call him instead of sending an email.",
+      "I'd rather wait for the official confirmation.",
+      "I'd rather we discuss this in person.",
+      "I'd rather not commit to a date yet."
+    ],
+    "translations": [
+      "Bunu yarına bırakmaktansa bugün bitirmeyi tercih ederim.",
+      "E-posta göndermek yerine onu aramayı tercih ederim.",
+      "Resmi onayı beklemeyi tercih ederim.",
+      "Bunu yüz yüze konuşmayı tercih ederim.",
+      "Henüz bir tarihe bağlanmamayı tercih ederim."
+    ]
+  },
+  {
+    "id": "pat008",
+    "term": "What if...?",
+    "pronunciation": "wot if",
+    "translation": "ya ... olursa? / peki ya?",
+    "explanation": "Bir olasılığı veya öneriyi ortaya atmak için kullanılır. Yapı: 'What if + [özne] + [fiil]?': soru kalıbı, genelde şimdiki zaman ile.",
+    "sentences": [
+      "What if the client asks for more time?",
+      "What if we start the review earlier?",
+      "What if the vendor can't meet the deadline?",
+      "What if we split the task between two teams?",
+      "What if I send you a draft first?"
+    ],
+    "translations": [
+      "Ya müşteri daha fazla zaman isterse?",
+      "Ya incelemeye daha erken başlarsak?",
+      "Ya tedarikçi son tarihe yetişemezse?",
+      "Ya görevi iki ekip arasında bölüştürürsek?",
+      "Ya sana önce bir taslak gönderirsem?"
+    ]
+  },
+  {
+    "id": "pat009",
+    "term": "By the way...",
+    "pronunciation": "by thuh way",
+    "translation": "bu arada",
+    "explanation": "Konuşmanın ana konusundan farklı, ek bir bilgi eklemek için kullanılır. Yapı: cümle başında veya sonunda bağımsız bir ifade olarak kullanılır: 'By the way, + [cümle]'.",
+    "sentences": [
+      "By the way, did you get my last email?",
+      "By the way, the meeting has been moved to 3 PM.",
+      "By the way, I really liked your presentation.",
+      "By the way, we need to renew the software license.",
+      "By the way, have you talked to the client yet?"
+    ],
+    "translations": [
+      "Bu arada, son e-postamı aldın mı?",
+      "Bu arada, toplantı saat 15:00'e alındı.",
+      "Bu arada, sunumunu gerçekten beğendim.",
+      "Bu arada, yazılım lisansını yenilememiz gerekiyor.",
+      "Bu arada, müşteriyle konuştun mu henüz?"
+    ]
+  },
+  {
+    "id": "pat010",
+    "term": "In case...",
+    "pronunciation": "in keys",
+    "translation": "...ihtimaline karşı",
+    "explanation": "Bir önlem almak için kullanılır. Yapı: 'In case + [cümle], + [ana eylem]': şart bildiren zarf cümlesi, 'if' den farklı olarak önlem anlamı taşır.",
+    "sentences": [
+      "In case the client calls, please let me know.",
+      "In case we run out of time, let's prioritize the key items.",
+      "In case anything changes, I'll update the group.",
+      "In case you missed it, the deadline moved to Friday.",
+      "In case of delay, we have a backup plan ready."
+    ],
+    "translations": [
+      "Müşteri ararsa ihtimaline karşı, lütfen haber ver.",
+      "Vaktimiz biterse ihtimaline karşı, önemli maddelere öncelik verelim.",
+      "Bir şey değişirse ihtimaline karşı, grubu bilgilendireceğim.",
+      "Kaçırmış olma ihtimaline karşı, son tarih Cuma'ya alındı.",
+      "Gecikme ihtimaline karşı, hazır bir yedek planımız var."
+    ]
+  },
+  {
+    "id": "pat011",
+    "term": "I mean...",
+    "pronunciation": "ay meen",
+    "translation": "yani / demek istediğim",
+    "explanation": "Söylenen bir şeyi açıklamak veya düzeltmek için kullanılır. Yapı: 'I mean, + [açıklama]': konuşma dilinde cümleye ara vermek/netleştirmek için kullanılır.",
+    "sentences": [
+      "I mean, it's not a big issue, but we should fix it.",
+      "I mean, we could try a different approach.",
+      "I mean, the deadline is tight, but it's doable.",
+      "I mean, technically it's possible, just not ideal.",
+      "I mean, let's just ask the client directly."
+    ],
+    "translations": [
+      "Yani, büyük bir sorun değil ama düzeltmeliyiz.",
+      "Yani, farklı bir yaklaşım deneyebiliriz.",
+      "Yani, son tarih dar ama yapılabilir.",
+      "Yani, teknik olarak mümkün ama ideal değil.",
+      "Yani, doğrudan müşteriye soralım."
+    ]
+  },
+  {
+    "id": "pat012",
+    "term": "kind of / sort of",
+    "pronunciation": "kynd uv / sawrt uv",
+    "translation": "bir nevi / gibi bir şey",
+    "explanation": "Kesin olmayan, yumuşatılmış bir ifade için kullanılır. Yapı: 'kind of/sort of + sıfat/fiil': cümle içinde herhangi bir yere eklenebilir, konuşma dilini yumuşatır.",
+    "sentences": [
+      "This is kind of urgent, can we talk now?",
+      "I sort of agree, but I have some concerns.",
+      "It's kind of complicated to explain over email.",
+      "We're sort of behind schedule this week.",
+      "He kind of hinted that the budget might increase."
+    ],
+    "translations": [
+      "Bu bir nevi acil, şimdi konuşabilir miyiz?",
+      "Bir nevi katılıyorum ama bazı endişelerim var.",
+      "E-postayla açıklaması bir nevi karmaşık.",
+      "Bu hafta bir nevi programın gerisindeyiz.",
+      "Bütçenin artabileceğine bir nevi ima etti."
+    ]
+  },
+  {
+    "id": "pat013",
+    "term": "No wonder...",
+    "pronunciation": "noh WUN-der",
+    "translation": "şaşmamalı / hiç şaşırmadım ki",
+    "explanation": "Bir sonucun mantıklı/beklenen olduğunu belirtmek için kullanılır. Yapı: 'No wonder + [cümle]': 'it's no wonder that' ifadesinin kısaltılmış hali.",
+    "sentences": [
+      "No wonder he's tired, he worked all weekend.",
+      "No wonder the schedule slipped, we lost two engineers.",
+      "No wonder the client is upset, the report was late.",
+      "No wonder it's expensive, the material is imported.",
+      "No wonder you're confused, the instructions weren't clear."
+    ],
+    "translations": [
+      "Şaşmamalı, yorgun; tüm hafta sonu çalıştı.",
+      "Şaşmamalı program kaydı, iki mühendisi kaybettik.",
+      "Şaşmamalı müşteri üzgün, rapor gecikmişti.",
+      "Şaşmamalı pahalı, malzeme ithal.",
+      "Şaşmamalı kafan karışık, talimatlar net değildi."
+    ]
+  },
+  {
+    "id": "pat014",
+    "term": "I can't help but...",
+    "pronunciation": "ay kant help but",
+    "translation": "elimde değil / ...madan edemiyorum",
+    "explanation": "Kontrol edilemeyen bir duygu/tepkiyi anlatır. Yapı: 'I can't help but + fiil (mastar hali)': sabit kalıp, 'can't help + fiil-ing' şeklinde de kullanılabilir.",
+    "sentences": [
+      "I can't help but wonder why the plan changed.",
+      "I can't help but feel a bit worried about the deadline.",
+      "I can't help but notice the numbers don't match.",
+      "I can't help but think we missed something.",
+      "I can't help but smile when the project goes well."
+    ],
+    "translations": [
+      "Planın neden değiştiğini merak etmeden edemiyorum.",
+      "Son tarih konusunda biraz endişelenmeden edemiyorum.",
+      "Rakamların uyuşmadığını fark etmeden edemiyorum.",
+      "Bir şeyi kaçırdığımızı düşünmeden edemiyorum.",
+      "Proje iyi gittiğinde gülümsemeden edemiyorum."
+    ]
+  },
+  {
+    "id": "pat015",
+    "term": "The thing is...",
+    "pronunciation": "thuh thing iz",
+    "translation": "mesele şu ki / işin aslı",
+    "explanation": "Asıl önemli noktayı veya bir sorunu tanıtmak için kullanılır. Yapı: 'The thing is, + [açıklama cümlesi]': konuşmayı ana noktaya getirmek için kullanılır.",
+    "sentences": [
+      "The thing is, we don't have the client's approval yet.",
+      "The thing is, this will take longer than expected.",
+      "The thing is, the budget doesn't cover this change.",
+      "The thing is, nobody confirmed the final scope.",
+      "The thing is, we need more data before deciding."
+    ],
+    "translations": [
+      "Mesele şu ki, henüz müşterinin onayı yok.",
+      "Mesele şu ki, bu beklenenden daha uzun sürecek.",
+      "Mesele şu ki, bütçe bu değişikliği karşılamıyor.",
+      "Mesele şu ki, kimse nihai kapsamı teyit etmedi.",
+      "Mesele şu ki, karar vermeden önce daha fazla veriye ihtiyacımız var."
+    ]
+  },
+  {
+    "id": "pat016",
+    "term": "On top of that...",
+    "pronunciation": "on top uv that",
+    "translation": "üstüne üstlük / ayrıca",
+    "explanation": "Önceki bir duruma ek bir şey eklemek için kullanılır (genelde olumsuz durumlar). Yapı: 'On top of that, + [ek durum]': cümle başında bağlaç gibi kullanılır.",
+    "sentences": [
+      "We're behind schedule, and on top of that, a vendor delayed delivery.",
+      "The scope changed, and on top of that, the budget was cut.",
+      "It was raining, and on top of that, the site had no power.",
+      "The report was late, and on top of that, it had errors.",
+      "We lost a team member, and on top of that, gained new tasks."
+    ],
+    "translations": [
+      "Programın gerisindeyiz, üstüne üstlük bir tedarikçi teslimatı geciktirdi.",
+      "Kapsam değişti, üstüne üstlük bütçe kısıldı.",
+      "Yağmur yağıyordu, üstüne üstlük sahada elektrik yoktu.",
+      "Rapor gecikti, üstüne üstlük hatalar da vardı.",
+      "Bir ekip üyesini kaybettik, üstüne üstlük yeni görevler de aldık."
+    ]
+  },
+  {
+    "id": "pat017",
+    "term": "Either way...",
+    "pronunciation": "EE-ther way",
+    "translation": "her iki durumda da",
+    "explanation": "İki seçenekten hangisi olursa olsun sonucun aynı/önemsiz olduğunu belirtir. Yapı: 'Either way, + [sonuç cümlesi]': cümle başı bağlaç ifadesi.",
+    "sentences": [
+      "Either way, we need to inform the client today.",
+      "Either way, the deadline stays the same.",
+      "Either way, I'll be at the office tomorrow.",
+      "Either way, we should prepare both options.",
+      "Either way, thank you for your effort."
+    ],
+    "translations": [
+      "Her iki durumda da bugün müşteriyi bilgilendirmemiz gerekiyor.",
+      "Her iki durumda da son tarih aynı kalıyor.",
+      "Her iki durumda da yarın ofiste olacağım.",
+      "Her iki durumda da iki seçeneği de hazırlamalıyız.",
+      "Her iki durumda da emeğin için teşekkürler."
+    ]
+  },
+  {
+    "id": "pat018",
+    "term": "That being said...",
+    "pronunciation": "that BEE-ing sed",
+    "translation": "bununla birlikte / öyle olsa da",
+    "explanation": "Önceki cümleyle çelişen veya onu dengeleyen bir noktaya geçiş yapmak için kullanılır. Yapı: 'That being said, + [zıt/dengeleyici cümle]': resmi konuşmalarda çok kullanılır.",
+    "sentences": [
+      "The design looks good. That being said, we should double-check the calculations.",
+      "He's new to the team. That being said, he's learning fast.",
+      "The cost is high. That being said, the quality justifies it.",
+      "We're behind schedule. That being said, we can still recover.",
+      "It's a tight deadline. That being said, we've done it before."
+    ],
+    "translations": [
+      "Tasarım iyi görünüyor. Bununla birlikte, hesaplamaları tekrar kontrol etmeliyiz.",
+      "Ekipte yeni. Bununla birlikte, hızlı öğreniyor.",
+      "Maliyet yüksek. Bununla birlikte, kalite bunu haklı çıkarıyor.",
+      "Programın gerisindeyiz. Bununla birlikte, hâlâ telafi edebiliriz.",
+      "Son tarih dar. Bununla birlikte, bunu daha önce de yaptık."
+    ]
+  },
+  {
+    "id": "pat019",
+    "term": "I'm afraid...",
+    "pronunciation": "eyem uh-FRAYD",
+    "translation": "korkarım ki / maalesef",
+    "explanation": "Kötü bir haberi nazikçe vermek için kullanılır (korku anlamı taşımaz). Yapı: 'I'm afraid + [cümle]' veya 'I'm afraid not/so': kötü haberi yumuşatmak için kullanılır.",
+    "sentences": [
+      "I'm afraid the deadline can't be extended.",
+      "I'm afraid we don't have enough budget for that.",
+      "I'm afraid I can't attend the meeting today.",
+      "I'm afraid the vendor hasn't confirmed yet.",
+      "I'm afraid that's not possible at this stage."
+    ],
+    "translations": [
+      "Korkarım son tarih uzatılamıyor.",
+      "Korkarım bunun için yeterli bütçemiz yok.",
+      "Korkarım bugün toplantıya katılamayacağım.",
+      "Korkarım tedarikçi henüz teyit etmedi.",
+      "Korkarım bu aşamada bu mümkün değil."
+    ]
+  },
+  {
+    "id": "pat020",
+    "term": "Just in case...",
+    "pronunciation": "just in keys",
+    "translation": "her ihtimale karşı",
+    "explanation": "Bir önlem amacıyla ek bir şey yapmayı önerir. Yapı: cümle sonunda veya başında kullanılır: '[Ana eylem], just in case.' veya 'Just in case, [ana eylem].'",
+    "sentences": [
+      "I'll bring the backup files, just in case.",
+      "Just in case, let's prepare an alternative plan.",
+      "Send me a copy, just in case something goes wrong.",
+      "Just in case he asks, have the numbers ready.",
+      "We booked an extra day, just in case of delays."
+    ],
+    "translations": [
+      "Her ihtimale karşı yedek dosyaları getireceğim.",
+      "Her ihtimale karşı, alternatif bir plan hazırlayalım.",
+      "Bir şeyler ters giderse diye bana bir kopya gönder.",
+      "Sorması ihtimaline karşı, rakamları hazır tut.",
+      "Gecikme ihtimaline karşı fazladan bir gün ayırttık."
+    ]
+  },
+  {
+    "id": "pat021",
+    "term": "It turns out...",
+    "pronunciation": "it ternz owt",
+    "translation": "meğer / sonradan anlaşıldığına göre",
+    "explanation": "Sonradan ortaya çıkan, önceden bilinmeyen bir bilgiyi anlatır. Yapı: 'It turns out (that) + [cümle]': geçmişte olmuşsa 'it turned out that' kullanılır.",
+    "sentences": [
+      "It turns out the vendor already sent the documents.",
+      "It turns out we didn't need the extra approval.",
+      "It turns out the delay was on our side, not theirs.",
+      "It turns out the client had already reviewed the draft.",
+      "It turns out the issue was a simple data entry error."
+    ],
+    "translations": [
+      "Meğer tedarikçi dokümanları çoktan göndermiş.",
+      "Meğer ek onaya ihtiyacımız yokmuş.",
+      "Meğer gecikme onlardan değil bizden kaynaklanıyormuş.",
+      "Meğer müşteri taslağı çoktan incelemiş.",
+      "Meğer sorun basit bir veri girişi hatasıymış."
+    ]
+  },
+  {
+    "id": "pat022",
+    "term": "To be honest...",
+    "pronunciation": "too bee ON-ist",
+    "translation": "dürüst olmak gerekirse",
+    "explanation": "Açık ve dürüst bir görüş belirtmeden önce kullanılır. Yapı: 'To be honest, + [görüş cümlesi]': cümle başı zarf öbeği.",
+    "sentences": [
+      "To be honest, I don't think we'll make the deadline.",
+      "To be honest, this option seems risky to me.",
+      "To be honest, the client's request is unclear.",
+      "To be honest, I'd prefer a different approach.",
+      "To be honest, we should have started this earlier."
+    ],
+    "translations": [
+      "Dürüst olmak gerekirse, son tarihe yetişeceğimizi sanmıyorum.",
+      "Dürüst olmak gerekirse, bu seçenek bana riskli görünüyor.",
+      "Dürüst olmak gerekirse, müşterinin talebi net değil.",
+      "Dürüst olmak gerekirse, farklı bir yaklaşımı tercih ederim.",
+      "Dürüst olmak gerekirse, buna daha erken başlamalıydık."
+    ]
+  },
+  {
+    "id": "pat023",
+    "term": "I'd better...",
+    "pronunciation": "eyed BET-er",
+    "translation": "-sem iyi olur",
+    "explanation": "Yapılması tavsiye edilen/gerekli bir eylemi belirtir, hafif bir zorunluluk taşır. Yapı: 'I'd better + fiil (mastar hali, 'to' almadan)': 'had better' kalıbının kısaltması.",
+    "sentences": [
+      "I'd better call the client before the meeting.",
+      "I'd better double-check these numbers.",
+      "I'd better leave now if I want to catch the bus.",
+      "I'd better send this email today.",
+      "I'd better review the drawing one more time."
+    ],
+    "translations": [
+      "Toplantıdan önce müşteriyi arasam iyi olur.",
+      "Bu rakamları tekrar kontrol etsem iyi olur.",
+      "Otobüsü yakalamak istiyorsam şimdi çıksam iyi olur.",
+      "Bu e-postayı bugün göndersem iyi olur.",
+      "Çizimi bir kez daha gözden geçirsem iyi olur."
+    ]
+  },
+  {
+    "id": "pat024",
+    "term": "How come...?",
+    "pronunciation": "how kum",
+    "translation": "nasıl oluyor da / neden acaba",
+    "explanation": "'Why' den daha gayri resmi bir 'neden' sorusudur. Yapı: 'How come + [düz cümle sırası]?': normal soru devrik yapısı KULLANILMAZ, düz cümle sırası korunur.",
+    "sentences": [
+      "How come the schedule changed without notice?",
+      "How come nobody told me about the meeting?",
+      "How come the numbers don't match the report?",
+      "How come he left the project so suddenly?",
+      "How come we haven't heard back from the vendor?"
+    ],
+    "translations": [
+      "Program nasıl oluyor da haber verilmeden değişti?",
+      "Nasıl oluyor da toplantı hakkında bana kimse söylemedi?",
+      "Nasıl oluyor da rakamlar raporla uyuşmuyor?",
+      "Nasıl oluyor da projeden bu kadar ani ayrıldı?",
+      "Nasıl oluyor da tedarikçiden hâlâ cevap alamadık?"
+    ]
+  },
+  {
+    "id": "pat025",
+    "term": "Come to think of it...",
+    "pronunciation": "kum too think uv it",
+    "translation": "hazır aklıma gelmişken",
+    "explanation": "Konuşma sırasında aniden hatırlanan bir şeyi eklemek için kullanılır. Yapı: 'Come to think of it, + [yeni hatırlanan bilgi]': cümle başı bağımsız ifade.",
+    "sentences": [
+      "Come to think of it, we never got the final approval.",
+      "Come to think of it, the deadline might have moved.",
+      "Come to think of it, I should call the vendor today.",
+      "Come to think of it, that document is still missing.",
+      "Come to think of it, we discussed this last month too."
+    ],
+    "translations": [
+      "Hazır aklıma gelmişken, nihai onayı hiç almadık.",
+      "Hazır aklıma gelmişken, son tarih değişmiş olabilir.",
+      "Hazır aklıma gelmişken, bugün tedarikçiyi aramalıyım.",
+      "Hazır aklıma gelmişken, o doküman hâlâ eksik.",
+      "Hazır aklıma gelmişken, bunu geçen ay da konuşmuştuk."
+    ]
+  }
+]

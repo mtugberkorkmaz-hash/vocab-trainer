@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(pip install *)",
+      "Bash(mkdir -p \"/c/Users/PC/AppData/Local/Temp/claude/C--Users-PC-Desktop-Yeni-klas-r-vocab-trainer/46bb41ba-7531-429d-a8c3-101b9c567836/scratchpad\" *)",
+      "Bash(python3 build_artifact.py)"
+    ]
+  }
+}

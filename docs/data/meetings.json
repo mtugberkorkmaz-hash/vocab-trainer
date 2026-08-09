@@ -1,0 +1,638 @@
+[
+  {
+    "id": "mt01",
+    "title_tr": "Kick-off Toplantısı",
+    "title_en": "Project Kick-off Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Good morning everyone, thank you for joining. Could you start by giving us a brief overview of the project scope?",
+        "prompt_tr": "Günaydın herkese, katıldığınız için teşekkürler. Projenin kapsamı hakkında kısa bir özet verebilir misiniz?",
+        "options": [
+          {"text": "Good morning. Certainly — this project covers the detailed engineering of the piping and fire protection systems for the new storage terminal.", "text_tr": "Günaydın. Elbette — bu proje, yeni depolama terminali için boru hatları ve yangın koruma sistemlerinin detay mühendisliğini kapsıyor.", "correct": true, "note_tr": "Doğru: net, hazırlıklı ve profesyonel bir kapsam özeti veriyor."},
+          {"text": "Umm, I don't really know, someone else prepared the scope.", "text_tr": "Şey, aslında bilmiyorum, kapsamı başka biri hazırladı.", "correct": false, "note_tr": "Yanlış: hazırlıksız ve güven vermeyen bir cevap."},
+          {"text": "The scope is huge, we'll talk about it some other time.", "text_tr": "Kapsam çok geniş, bunu başka bir zaman konuşuruz.", "correct": false, "note_tr": "Yanlış: konuyu erteliyor, toplantının amacına uygun değil."}
+        ]
+      },
+      {
+        "prompt_en": "What is the current status of the deliverables list?",
+        "prompt_tr": "Teslim edilecekler listesinin şu anki durumu nedir?",
+        "options": [
+          {"text": "We've finalized the deliverables list and shared it with your team for review; we're expecting your comments by Friday.", "text_tr": "Teslim edilecekler listesini tamamladık ve inceleme için ekibinizle paylaştık; yorumlarınızı Cuma'ya kadar bekliyoruz.", "correct": true, "note_tr": "Doğru: durumu net belirtiyor ve bir sonraki adımı tanımlıyor."},
+          {"text": "It's not ready yet, we'll send it whenever we can.", "text_tr": "Henüz hazır değil, elimize geçtiğinde göndeririz.", "correct": false, "note_tr": "Yanlış: taahhüt içermiyor, belirsiz."},
+          {"text": "I'm not sure, I'd have to check.", "text_tr": "Emin değilim, kontrol etmem lazım.", "correct": false, "note_tr": "Yanlış: toplantıya hazırlıksız gelindiğini gösteriyor."}
+        ]
+      },
+      {
+        "prompt_en": "Who will be our main point of contact from your side?",
+        "prompt_tr": "Sizin tarafınızdan ana irtibat kişimiz kim olacak?",
+        "options": [
+          {"text": "I'll be your main point of contact for technical matters, and our project manager will handle commercial topics.", "text_tr": "Teknik konularda ana irtibat noktanız ben olacağım, ticari konuları ise proje yöneticimiz yürütecek.", "correct": true, "note_tr": "Doğru: net rol tanımı yapıyor, sorumluluk paylaşımını açıklıyor."},
+          {"text": "You can email anyone in our office.", "text_tr": "Ofisimizdeki herkese e-posta atabilirsiniz.", "correct": false, "note_tr": "Yanlış: profesyonel değil, net bir irtibat noktası vermiyor."},
+          {"text": "I'm not sure yet, we haven't decided.", "text_tr": "Henüz emin değilim, karar vermedik.", "correct": false, "note_tr": "Yanlış: organizasyon eksikliği izlenimi veriyor."}
+        ]
+      },
+      {
+        "prompt_en": "What potential risks do you foresee at this stage?",
+        "prompt_tr": "Bu aşamada öngördüğünüz potansiyel riskler nelerdir?",
+        "options": [
+          {"text": "The main risk we've identified is the vendor data delivery schedule, which could affect the piping design timeline.", "text_tr": "Belirlediğimiz asıl risk, boru hattı tasarım takvimini etkileyebilecek olan tedarikçi veri teslim programı.", "correct": true, "note_tr": "Doğru: somut bir risk belirtiyor, proaktif yaklaşım gösteriyor."},
+          {"text": "No risks, everything will be fine.", "text_tr": "Hiçbir risk yok, her şey yolunda olacak.", "correct": false, "note_tr": "Yanlış: gerçekçi değil, deneyimsiz izlenimi veriyor."},
+          {"text": "That's too early to say.", "text_tr": "Bunu söylemek için çok erken.", "correct": false, "note_tr": "Yanlış: kaçamak bir cevap, müşteri güven duymaz."}
+        ]
+      },
+      {
+        "prompt_en": "Great, let's schedule our next progress meeting. Does next Wednesday work for you?",
+        "prompt_tr": "Harika, bir sonraki ilerleme toplantımızı planlayalım. Önümüzdeki Çarşamba size uygun mu?",
+        "options": [
+          {"text": "Yes, Wednesday works well for us. Shall we say 10 AM your time?", "text_tr": "Evet, Çarşamba bize uygun. Sizin saatinizle 10:00 diyelim mi?", "correct": true, "note_tr": "Doğru: onaylıyor ve netleştirici bir soru soruyor."},
+          {"text": "Maybe, I'll let you know later.", "text_tr": "Belki, size daha sonra haber veririm.", "correct": false, "note_tr": "Yanlış: kararsız ve profesyonel olmayan bir cevap."},
+          {"text": "I don't have my calendar with me, can we skip this?", "text_tr": "Takvimim yanımda değil, bunu atlayabilir miyiz?", "correct": false, "note_tr": "Yanlış: hazırlıksızlık gösteriyor, toplantıyı erteletmeye çalışıyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt02",
+    "title_tr": "Piping %90 Model Review Toplantısı",
+    "title_en": "Piping 90% Model Review Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "We've reviewed the 90% model. Can you walk us through the major changes since the 60% review?",
+        "prompt_tr": "%90 modeli inceledik. %60 incelemesinden bu yana yapılan büyük değişiklikleri anlatır mısınız?",
+        "options": [
+          {"text": "Sure. Since the 60% review, we've rerouted the 12-inch line to avoid the structural clash near column C4, and updated the insulation thickness per the revised heat loss calculation.", "text_tr": "Tabii. %60 incelemesinden bu yana, C4 kolonu yakınındaki yapısal çakışmayı önlemek için 12 inçlik hattı yeniden güzergahlandırdık ve revize edilmiş ısı kaybı hesabına göre izolasyon kalınlığını güncelledik.", "correct": true, "note_tr": "Doğru: spesifik, teknik ve doğrulanabilir bir açıklama."},
+          {"text": "Not much has changed, just small stuff.", "text_tr": "Pek bir şey değişmedi, sadece küçük şeyler.", "correct": false, "note_tr": "Yanlış: belirsiz, teknik detay içermiyor."},
+          {"text": "I'd need to check with my colleague, I don't remember.", "text_tr": "Meslektaşıma sormam lazım, hatırlamıyorum.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık gösteriyor."}
+        ]
+      },
+      {
+        "prompt_en": "We noticed a clearance issue near the pump area. Has that been resolved?",
+        "prompt_tr": "Pompa bölgesinde bir açıklık (clearance) sorunu fark ettik. Bu çözüldü mü?",
+        "options": [
+          {"text": "Yes, we increased the clearance to meet the minimum maintenance access requirement, and it's reflected in the current model.", "text_tr": "Evet, minimum bakım erişim gereksinimini karşılamak için açıklığı artırdık ve bu, mevcut modele yansıtıldı.", "correct": true, "note_tr": "Doğru: sorunun çözüldüğünü ve nasıl çözüldüğünü açıklıyor."},
+          {"text": "That's not our responsibility.", "text_tr": "Bu bizim sorumluluğumuz değil.", "correct": false, "note_tr": "Yanlış: sorumluluktan kaçınma, müşteriyle çatışma yaratır."},
+          {"text": "We'll look into it eventually.", "text_tr": "Zamanla bir bakarız.", "correct": false, "note_tr": "Yanlış: aciliyet göstermiyor, taahhüt yok."}
+        ]
+      },
+      {
+        "prompt_en": "What is your plan for closing out the remaining open comments?",
+        "prompt_tr": "Kalan açık yorumları kapatma planınız nedir?",
+        "options": [
+          {"text": "We'll close all open comments within two weeks and issue the 100% model for final approval.", "text_tr": "Tüm açık yorumları iki hafta içinde kapatacağız ve nihai onay için %100 modeli yayınlayacağız.", "correct": true, "note_tr": "Doğru: net bir zaman çizelgesi ve sonraki adım veriyor."},
+          {"text": "We'll do it when we have time.", "text_tr": "Vaktimiz olduğunda yaparız.", "correct": false, "note_tr": "Yanlış: taahhüt yok, öncelik göstermiyor."},
+          {"text": "There aren't many comments left, don't worry about it.", "text_tr": "Fazla yorum kalmadı, bunun için endişelenmeyin.", "correct": false, "note_tr": "Yanlış: müşterinin endişesini küçümsüyor."}
+        ]
+      },
+      {
+        "prompt_en": "Is the model aligned with the latest P&IDs?",
+        "prompt_tr": "Model en güncel P&ID'lerle uyumlu mu?",
+        "options": [
+          {"text": "Yes, the model is fully aligned with P&ID revision D, which was issued last week.", "text_tr": "Evet, model geçen hafta yayınlanan P&ID revizyon D ile tamamen uyumlu.", "correct": true, "note_tr": "Doğru: kesin bilgi, referans revizyon numarası veriyor."},
+          {"text": "I think so, probably.", "text_tr": "Sanırım öyle, muhtemelen.", "correct": false, "note_tr": "Yanlış: belirsiz, güven vermiyor."},
+          {"text": "We haven't checked that yet.", "text_tr": "Bunu henüz kontrol etmedik.", "correct": false, "note_tr": "Yanlış: kritik bir kontrolün yapılmadığını gösteriyor."}
+        ]
+      },
+      {
+        "prompt_en": "When can we expect the isometric drawings to be issued?",
+        "prompt_tr": "İzometrik çizimlerin ne zaman yayınlanmasını bekleyebiliriz?",
+        "options": [
+          {"text": "The isometric drawings will be issued for construction within ten working days after your approval of the 100% model.", "text_tr": "İzometrik çizimler, %100 modeli onayladıktan sonra on iş günü içinde inşaat için yayınlanacak.", "correct": true, "note_tr": "Doğru: net bir zaman çizelgesi ve koşul veriyor."},
+          {"text": "Soon.", "text_tr": "Yakında.", "correct": false, "note_tr": "Yanlış: çok belirsiz, profesyonel değil."},
+          {"text": "We haven't started them yet.", "text_tr": "Onlara henüz başlamadık.", "correct": false, "note_tr": "Yanlış: gecikme izlenimi veriyor, plan sunmuyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt03",
+    "title_tr": "Hidrolik Analiz Tasarımı Değerlendirmesi",
+    "title_en": "Hydraulic Analysis Design Review",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Can you summarize the results of the hydraulic analysis for the main transfer line?",
+        "prompt_tr": "Ana transfer hattı için hidrolik analiz sonuçlarını özetler misiniz?",
+        "options": [
+          {"text": "The analysis shows the pressure drop is within the allowable limit, and the flow velocity stays below the erosional velocity threshold.", "text_tr": "Analiz, basınç düşüşünün izin verilen sınır içinde olduğunu ve akış hızının erozyon eşiğinin altında kaldığını gösteriyor.", "correct": true, "note_tr": "Doğru: teknik ve somut sonuçlar sunuyor."},
+          {"text": "The numbers look fine, I think.", "text_tr": "Rakamlar iyi görünüyor sanırım.", "correct": false, "note_tr": "Yanlış: teknik dayanağı yok, belirsiz."},
+          {"text": "We haven't finished the calculation yet.", "text_tr": "Hesabı henüz bitirmedik.", "correct": false, "note_tr": "Yanlış: toplantıya hazırlıksız gelindiğini gösteriyor."}
+        ]
+      },
+      {
+        "prompt_en": "Did you consider the worst-case operating scenario in the model?",
+        "prompt_tr": "Modelde en kötü senaryo (worst-case) durumunu göz önünde bulundurdunuz mu?",
+        "options": [
+          {"text": "Yes, we modeled both the minimum and maximum flow scenarios, including the pump trip case.", "text_tr": "Evet, pompa devre dışı kalma durumu dahil hem minimum hem maksimum akış senaryolarını modelledik.", "correct": true, "note_tr": "Doğru: kapsamlı ve spesifik bir cevap."},
+          {"text": "We only checked the normal case.", "text_tr": "Sadece normal durumu kontrol ettik.", "correct": false, "note_tr": "Yanlış: analiz eksik, mühendislik açısından zayıf."},
+          {"text": "That wasn't required, was it?", "text_tr": "Bu gerekli değildi, değil mi?", "correct": false, "note_tr": "Yanlış: sorumluluğu müşteriye atma girişimi, güven sarsar."}
+        ]
+      },
+      {
+        "prompt_en": "How does the pressure drop compare with the previous revision?",
+        "prompt_tr": "Basınç düşüşü önceki revizyonla karşılaştırıldığında nasıl?",
+        "options": [
+          {"text": "The pressure drop decreased by about 8% after we optimized the pipe routing and reduced the number of fittings.", "text_tr": "Boru güzergahını optimize edip bağlantı elemanı sayısını azalttıktan sonra basınç düşüşü yaklaşık %8 azaldı.", "correct": true, "note_tr": "Doğru: sayısal ve nedensel açıklama içeriyor."},
+          {"text": "It's roughly the same, nothing changed really.", "text_tr": "Aşağı yukarı aynı, aslında bir şey değişmedi.", "correct": false, "note_tr": "Yanlış: karşılaştırma yapılmamış izlenimi veriyor."},
+          {"text": "I don't have that comparison ready.", "text_tr": "O karşılaştırma elimde hazır değil.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "Are there any recommendations arising from this analysis?",
+        "prompt_tr": "Bu analizden çıkan herhangi bir öneriniz var mı?",
+        "options": [
+          {"text": "We recommend increasing the line size on the discharge header by one size to reduce the pressure drop margin.", "text_tr": "Basınç düşüşü marjını azaltmak için deşarj hattı boru çapının bir ölçü artırılmasını öneriyoruz.", "correct": true, "note_tr": "Doğru: somut, uygulanabilir bir öneri sunuyor."},
+          {"text": "No recommendations, everything is fine.", "text_tr": "Öneri yok, her şey yolunda.", "correct": false, "note_tr": "Yanlış: mühendislik değerlendirmesi eksik görünüyor."},
+          {"text": "We'll think about it later.", "text_tr": "Bunu sonra düşünürüz.", "correct": false, "note_tr": "Yanlış: toplantının amacına aykırı, karar erteleniyor."}
+        ]
+      },
+      {
+        "prompt_en": "When will the final hydraulic report be issued?",
+        "prompt_tr": "Nihai hidrolik rapor ne zaman yayınlanacak?",
+        "options": [
+          {"text": "The final report will be issued by the end of this week, incorporating today's comments.", "text_tr": "Nihai rapor, bugünkü yorumlar da dahil edilerek bu hafta sonuna kadar yayınlanacak.", "correct": true, "note_tr": "Doğru: net tarih ve bağlam veriyor."},
+          {"text": "Whenever it's ready.", "text_tr": "Hazır olduğunda.", "correct": false, "note_tr": "Yanlış: taahhüt yok."},
+          {"text": "We haven't set a date yet.", "text_tr": "Henüz bir tarih belirlemedik.", "correct": false, "note_tr": "Yanlış: plansızlık izlenimi veriyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt04",
+    "title_tr": "İşe Alım Görüşmesi",
+    "title_en": "Recruitment Interview",
+    "speaker_role": "Interviewer",
+    "questions": [
+      {
+        "prompt_en": "Can you tell us a bit about your background and current role?",
+        "prompt_tr": "Bize geçmişiniz ve mevcut rolünüz hakkında biraz bahseder misiniz?",
+        "options": [
+          {"text": "I'm currently a piping engineer working on oil and gas storage terminal projects, mainly focused on layout design and fire protection systems.", "text_tr": "Şu anda petrol ve gaz depolama terminali projelerinde çalışan bir boru hattı mühendisiyim, ağırlıklı olarak yerleşim tasarımı ve yangın koruma sistemlerine odaklanıyorum.", "correct": true, "note_tr": "Doğru: net, öz ve ilgili deneyimi vurguluyor."},
+          {"text": "I do engineering stuff, nothing special.", "text_tr": "Mühendislik işleri yapıyorum, özel bir şey değil.", "correct": false, "note_tr": "Yanlış: kendine güvensiz ve belirsiz bir tanıtım."},
+          {"text": "It's a long story, let me think...", "text_tr": "Uzun hikaye, bir düşüneyim...", "correct": false, "note_tr": "Yanlış: hazırlıksızlık gösteriyor."}
+        ]
+      },
+      {
+        "prompt_en": "What was the most challenging project you've worked on?",
+        "prompt_tr": "Üzerinde çalıştığınız en zorlu proje neydi?",
+        "options": [
+          {"text": "The most challenging one was a terminal expansion project where we had to redesign the piping layout under a tight schedule due to changing client requirements.", "text_tr": "En zorlusu, değişen müşteri gereksinimleri nedeniyle dar bir zaman çizelgesinde boru hattı yerleşimini yeniden tasarlamak zorunda kaldığımız bir terminal genişletme projesiydi.", "correct": true, "note_tr": "Doğru: somut örnek, zorluk ve çözüm sürecini gösteriyor."},
+          {"text": "I don't remember any challenging projects.", "text_tr": "Zorlu bir proje hatırlamıyorum.", "correct": false, "note_tr": "Yanlış: deneyim eksikliği izlenimi veriyor."},
+          {"text": "All my projects were pretty easy, honestly.", "text_tr": "Açıkçası tüm projelerim oldukça kolaydı.", "correct": false, "note_tr": "Yanlış: inandırıcı değil, sorunun amacına uygun değil."}
+        ]
+      },
+      {
+        "prompt_en": "Why are you interested in this position?",
+        "prompt_tr": "Bu pozisyonla neden ilgileniyorsunuz?",
+        "options": [
+          {"text": "I'm looking for an opportunity to work on larger-scale international projects and further develop my expertise in piping and fire protection design.", "text_tr": "Daha büyük ölçekli uluslararası projelerde çalışma ve boru hattı ile yangın koruma tasarımı konusundaki uzmanlığımı daha da geliştirme fırsatı arıyorum.", "correct": true, "note_tr": "Doğru: motivasyonu ve kariyer hedefini net anlatıyor."},
+          {"text": "I just need a job.", "text_tr": "Sadece bir işe ihtiyacım var.", "correct": false, "note_tr": "Yanlış: motivasyonsuz görünüyor."},
+          {"text": "Because the salary is better.", "text_tr": "Çünkü maaş daha iyi.", "correct": false, "note_tr": "Yanlış: tek başına yeterli/profesyonel bir cevap değil."}
+        ]
+      },
+      {
+        "prompt_en": "How do you handle tight deadlines and pressure?",
+        "prompt_tr": "Sıkı teslim tarihlerini ve baskıyı nasıl yönetiyorsunuz?",
+        "options": [
+          {"text": "I prioritize tasks clearly, communicate early with my team about risks, and focus on the critical path items first.", "text_tr": "Görevleri net şekilde önceliklendiririm, riskler hakkında ekibimle erkenden iletişim kurarım ve önce kritik yol maddelerine odaklanırım.", "correct": true, "note_tr": "Doğru: somut bir yöntem/strateji anlatıyor."},
+          {"text": "I just work faster.", "text_tr": "Sadece daha hızlı çalışırım.", "correct": false, "note_tr": "Yanlış: yüzeysel, strateji göstermiyor."},
+          {"text": "I usually get stressed, but it's fine.", "text_tr": "Genelde strese girerim ama sorun değil.", "correct": false, "note_tr": "Yanlış: olumsuz bir izlenim bırakıyor."}
+        ]
+      },
+      {
+        "prompt_en": "Do you have any questions for us?",
+        "prompt_tr": "Bize sormak istediğiniz bir şey var mı?",
+        "options": [
+          {"text": "Yes, could you tell me more about the team structure and the types of projects I'd be working on?", "text_tr": "Evet, ekip yapısı ve üzerinde çalışacağım proje türleri hakkında bana daha fazla bilgi verebilir misiniz?", "correct": true, "note_tr": "Doğru: ilgi ve profesyonellik gösteren iyi bir soru."},
+          {"text": "No, not really.", "text_tr": "Hayır, aslında yok.", "correct": false, "note_tr": "Yanlış: ilgisiz görünüyor."},
+          {"text": "How much is the salary?", "text_tr": "Maaş ne kadar?", "correct": false, "note_tr": "Yanlış: bu aşamada çok doğrudan/erken bir soru."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt05",
+    "title_tr": "Haftalık İlerleme Toplantısı",
+    "title_en": "Weekly Progress Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Can you give us an update on this week's progress?",
+        "prompt_tr": "Bu haftaki ilerleme hakkında bize bilgi verebilir misiniz?",
+        "options": [
+          {"text": "This week we completed the piping stress analysis for line 200 and started the material take-off for the fire protection package.", "text_tr": "Bu hafta 200 numaralı hat için boru gerilim analizini tamamladık ve yangın koruma paketi için malzeme metrajına başladık.", "correct": true, "note_tr": "Doğru: somut, ölçülebilir bir ilerleme raporu."},
+          {"text": "We did some work, nothing major.", "text_tr": "Biraz iş yaptık, önemli bir şey değil.", "correct": false, "note_tr": "Yanlış: belirsiz, hiçbir bilgi vermiyor."},
+          {"text": "I'll send an update later.", "text_tr": "Güncellemeyi daha sonra gönderirim.", "correct": false, "note_tr": "Yanlış: toplantı anında cevap verilmesi bekleniyor."}
+        ]
+      },
+      {
+        "prompt_en": "Are we still on track for the deadline?",
+        "prompt_tr": "Hala teslim tarihine göre yolunda mıyız?",
+        "options": [
+          {"text": "Yes, we're on track, though we're monitoring the vendor data delivery closely since it could affect the schedule.", "text_tr": "Evet, planımıza uygun gidiyoruz, ancak programı etkileyebileceği için tedarikçi veri teslimatını yakından takip ediyoruz.", "correct": true, "note_tr": "Doğru: dürüst ve proaktif, potansiyel riski de belirtiyor."},
+          {"text": "I'm not sure, maybe.", "text_tr": "Emin değilim, belki.", "correct": false, "note_tr": "Yanlış: güven vermiyor."},
+          {"text": "We're behind, but don't worry about it.", "text_tr": "Gerideyiz ama bunun için endişelenmeyin.", "correct": false, "note_tr": "Yanlış: ciddiyetsiz, müşteriyi tedirgin eder."}
+        ]
+      },
+      {
+        "prompt_en": "Is there anything you need from us to keep moving forward?",
+        "prompt_tr": "İlerlemeye devam etmek için bizden ihtiyacınız olan bir şey var mı?",
+        "options": [
+          {"text": "Yes, we need the updated process data sheet for line 305 to finalize the sizing calculation.", "text_tr": "Evet, boyutlandırma hesabını tamamlamak için 305 numaralı hattın güncellenmiş proses veri sayfasına ihtiyacımız var.", "correct": true, "note_tr": "Doğru: net bir ihtiyaç belirtiyor, işi ilerletir."},
+          {"text": "No, we're fine.", "text_tr": "Hayır, bir şeye ihtiyacımız yok.", "correct": false, "note_tr": "Yanlış: eğer gerçekten bir ihtiyaç varsa, bunu söylememek ileride gecikmeye yol açar."},
+          {"text": "We'll figure it out ourselves.", "text_tr": "Bunu kendimiz hallederiz.", "correct": false, "note_tr": "Yanlış: iletişimi kapatıyor, işbirliğine kapalı görünüyor."}
+        ]
+      },
+      {
+        "prompt_en": "Any risks we should be aware of?",
+        "prompt_tr": "Haberdar olmamız gereken herhangi bir risk var mı?",
+        "options": [
+          {"text": "The main risk is a possible delay in vendor documentation, which could push back the isometric issue date by a week.", "text_tr": "Asıl risk, izometrik yayın tarihini bir hafta geciktirebilecek olası bir tedarikçi dokümantasyon gecikmesi.", "correct": true, "note_tr": "Doğru: şeffaf ve somut risk bildirimi."},
+          {"text": "No risks at all.", "text_tr": "Hiç risk yok.", "correct": false, "note_tr": "Yanlış: gerçekçi değil."},
+          {"text": "Too early to tell.", "text_tr": "Söylemek için çok erken.", "correct": false, "note_tr": "Yanlış: kaçamak bir cevap."}
+        ]
+      },
+      {
+        "prompt_en": "Let's plan the next check-in. Same time next week?",
+        "prompt_tr": "Bir sonraki görüşmeyi planlayalım. Gelecek hafta aynı saat uygun mu?",
+        "options": [
+          {"text": "That works for us. I'll send the updated schedule before our next call.", "text_tr": "Bu bize uygun. Bir sonraki görüşmemizden önce güncellenmiş programı göndereceğim.", "correct": true, "note_tr": "Doğru: onaylıyor ve ek bir taahhütte bulunuyor."},
+          {"text": "Maybe, I'll check my calendar.", "text_tr": "Belki, takvimime bakarım.", "correct": false, "note_tr": "Yanlış: kararsız."},
+          {"text": "Let's skip next week.", "text_tr": "Gelecek haftayı atlayalım.", "correct": false, "note_tr": "Yanlış: düzenli takibin önemini göz ardı ediyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt06",
+    "title_tr": "HSE (İş Sağlığı, Güvenliği ve Çevre) Toplantısı",
+    "title_en": "HSE (Health, Safety & Environment) Meeting",
+    "speaker_role": "HSE Manager",
+    "questions": [
+      {
+        "prompt_en": "Have there been any safety incidents on site this week?",
+        "prompt_tr": "Bu hafta sahada herhangi bir güvenlik olayı yaşandı mı?",
+        "options": [
+          {"text": "No incidents to report this week; we completed our daily toolbox talks and safety walkdowns as scheduled.", "text_tr": "Bu hafta bildirilecek bir olay yok; günlük güvenlik toplantılarımızı (toolbox talk) ve güvenlik yürüyüşlerimizi planlandığı gibi tamamladık.", "correct": true, "note_tr": "Doğru: net bir durum raporu, rutin güvenlik faaliyetlerini de belirtiyor."},
+          {"text": "Nothing happened, I think.", "text_tr": "Sanırım bir şey olmadı.", "correct": false, "note_tr": "Yanlış: güvenlik konusunda kesinlik gerekir, 'I think' yetersiz."},
+          {"text": "I'd have to check with the site team.", "text_tr": "Saha ekibine sormam lazım.", "correct": false, "note_tr": "Yanlış: güvenlik toplantısına hazırlıksız gelinmiş."}
+        ]
+      },
+      {
+        "prompt_en": "How is the team ensuring compliance with the permit-to-work system?",
+        "prompt_tr": "Ekip, çalışma izni sistemine uyumu nasıl sağlıyor?",
+        "options": [
+          {"text": "All work is carried out under an approved permit, and our supervisor verifies the checklist before any hot work begins.", "text_tr": "Tüm işler onaylı bir çalışma izni altında yürütülüyor ve herhangi bir sıcak işe başlanmadan önce süpervizörümüz kontrol listesini doğruluyor.", "correct": true, "note_tr": "Doğru: sistematik ve kontrollü bir süreç anlatıyor."},
+          {"text": "We try to follow the rules.", "text_tr": "Kurallara uymaya çalışıyoruz.", "correct": false, "note_tr": "Yanlış: güvenlik konusunda yetersiz bir güvence."},
+          {"text": "The site team handles that, not me.", "text_tr": "Onu saha ekibi hallediyor, ben değil.", "correct": false, "note_tr": "Yanlış: sorumluluktan kaçınma."}
+        ]
+      },
+      {
+        "prompt_en": "Are there any near-miss reports to discuss?",
+        "prompt_tr": "Görüşülecek herhangi bir ramak kala (near-miss) raporu var mı?",
+        "options": [
+          {"text": "Yes, we had one near-miss involving a dropped tool, and we've since reinforced the tool tethering procedure.", "text_tr": "Evet, düşen bir aletle ilgili bir ramak kala yaşadık ve o zamandan beri alet bağlama prosedürünü güçlendirdik.", "correct": true, "note_tr": "Doğru: şeffaf raporlama ve düzeltici aksiyon gösteriyor."},
+          {"text": "No, nothing worth mentioning.", "text_tr": "Hayır, bahsetmeye değer bir şey yok.", "correct": false, "note_tr": "Yanlış: güvenlik kültürüne aykırı, raporlama kültürünü zedeler."},
+          {"text": "I haven't looked into it.", "text_tr": "Bunu araştırmadım.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "What is your plan for the upcoming high-risk lifting activity?",
+        "prompt_tr": "Yaklaşan yüksek riskli kaldırma faaliyeti için planınız nedir?",
+        "options": [
+          {"text": "We've prepared a detailed lift plan, reviewed by a certified rigger, and it will be shared with your HSE team before execution.", "text_tr": "Sertifikalı bir rigger tarafından incelenen detaylı bir kaldırma planı hazırladık ve uygulamadan önce HSE ekibinizle paylaşılacak.", "correct": true, "note_tr": "Doğru: detaylı, doğrulanmış ve şeffaf bir plan sunuyor."},
+          {"text": "We'll figure it out on the day.", "text_tr": "O gün hallederiz.", "correct": false, "note_tr": "Yanlış: yüksek riskli işlerde kabul edilemez bir yaklaşım."},
+          {"text": "The crane operator knows what to do.", "text_tr": "Vinç operatörü ne yapacağını biliyor.", "correct": false, "note_tr": "Yanlış: resmi bir plan/dokümantasyon eksikliği."}
+        ]
+      },
+      {
+        "prompt_en": "Any additional PPE requirements for next week's activities?",
+        "prompt_tr": "Gelecek haftaki faaliyetler için ek KKD (kişisel koruyucu donanım) gereksinimi var mı?",
+        "options": [
+          {"text": "Yes, we'll require fire-resistant clothing for the hot work area starting Monday.", "text_tr": "Evet, Pazartesi'den itibaren sıcak iş alanında yanmaz giysi gerekecek.", "correct": true, "note_tr": "Doğru: net ve zamanlı bir bilgi veriyor."},
+          {"text": "Standard PPE should be enough.", "text_tr": "Standart KKD yeterli olmalı.", "correct": false, "note_tr": "Yanlış: özel riskler için yeterli değerlendirme yapılmamış."},
+          {"text": "We haven't decided yet.", "text_tr": "Henüz karar vermedik.", "correct": false, "note_tr": "Yanlış: güvenlik planlamasında gecikme."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt07",
+    "title_tr": "Maliyet Değerlendirme Toplantısı",
+    "title_en": "Cost Review Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Can you explain the reason for the cost increase in the piping package?",
+        "prompt_tr": "Boru hattı paketindeki maliyet artışının nedenini açıklar mısınız?",
+        "options": [
+          {"text": "The increase is mainly due to additional stainless steel material required after the process update, which added about 12% to the material cost.", "text_tr": "Artış esas olarak proses güncellemesinden sonra gereken ek paslanmaz çelik malzemeden kaynaklanıyor, bu da malzeme maliyetine yaklaşık %12 ekledi.", "correct": true, "note_tr": "Doğru: sayısal ve nedensel bir açıklama."},
+          {"text": "Prices just went up.", "text_tr": "Fiyatlar sadece arttı.", "correct": false, "note_tr": "Yanlış: yetersiz, spesifik değil."},
+          {"text": "I'm not sure, I'd need to check.", "text_tr": "Emin değilim, kontrol etmem lazım.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "Is this increase within the approved contingency?",
+        "prompt_tr": "Bu artış onaylanmış yedek bütçe (contingency) içinde mi?",
+        "options": [
+          {"text": "Yes, it's within the approved contingency, but it will use about 60% of the remaining budget.", "text_tr": "Evet, onaylı yedek bütçe içinde ama kalan bütçenin yaklaşık %60'ını kullanacak.", "correct": true, "note_tr": "Doğru: net ve ek bağlam sağlayan bir cevap."},
+          {"text": "I don't know the contingency numbers.", "text_tr": "Yedek bütçe rakamlarını bilmiyorum.", "correct": false, "note_tr": "Yanlış: mali konularda hazırlıksızlık kabul edilemez."},
+          {"text": "It should be fine, probably.", "text_tr": "Muhtemelen sorun olmaz.", "correct": false, "note_tr": "Yanlış: belirsiz."}
+        ]
+      },
+      {
+        "prompt_en": "What options do we have to reduce the cost?",
+        "prompt_tr": "Maliyeti azaltmak için hangi seçeneklerimiz var?",
+        "options": [
+          {"text": "We could optimize the pipe routing to reduce the material quantity, or consider an alternative vendor for the specialty fittings.", "text_tr": "Malzeme miktarını azaltmak için boru güzergahını optimize edebilir ya da özel bağlantı elemanları için alternatif bir tedarikçi düşünebiliriz.", "correct": true, "note_tr": "Doğru: somut, uygulanabilir çözüm önerileri."},
+          {"text": "There's nothing we can do.", "text_tr": "Yapabileceğimiz bir şey yok.", "correct": false, "note_tr": "Yanlış: çözüm odaklı değil."},
+          {"text": "We'll think about it.", "text_tr": "Bunu düşünürüz.", "correct": false, "note_tr": "Yanlış: erteleyici, aksiyon içermiyor."}
+        ]
+      },
+      {
+        "prompt_en": "When can you provide the updated cost estimate?",
+        "prompt_tr": "Güncellenmiş maliyet tahminini ne zaman sağlayabilirsiniz?",
+        "options": [
+          {"text": "We'll provide the updated cost estimate by end of next week, after confirming vendor quotations.", "text_tr": "Tedarikçi tekliflerini teyit ettikten sonra, güncellenmiş maliyet tahminini gelecek hafta sonuna kadar sunacağız.", "correct": true, "note_tr": "Doğru: net tarih ve koşul belirtiyor."},
+          {"text": "Soon.", "text_tr": "Yakında.", "correct": false, "note_tr": "Yanlış: belirsiz."},
+          {"text": "We haven't started yet.", "text_tr": "Henüz başlamadık.", "correct": false, "note_tr": "Yanlış: gecikme izlenimi."}
+        ]
+      },
+      {
+        "prompt_en": "Does this affect the overall project budget?",
+        "prompt_tr": "Bu durum genel proje bütçesini etkiliyor mu?",
+        "options": [
+          {"text": "It has a minor impact on the overall budget, about 2%, which is still within the project's approved contingency.", "text_tr": "Genel bütçe üzerinde küçük bir etkisi var, yaklaşık %2, bu da hâlâ projenin onaylı yedek bütçesi içinde.", "correct": true, "note_tr": "Doğru: net, sayısal ve güven verici bir açıklama."},
+          {"text": "Yes, it's a big problem.", "text_tr": "Evet, büyük bir sorun.", "correct": false, "note_tr": "Yanlış: gereksiz alarm yaratıyor, detay eksik."},
+          {"text": "I'm not sure how it affects the total.", "text_tr": "Toplamı nasıl etkilediğinden emin değilim.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt08",
+    "title_tr": "Program (Schedule) Değerlendirme Toplantısı",
+    "title_en": "Schedule Review Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Are we still meeting the milestone for the 100% IFC drawings?",
+        "prompt_tr": "%100 IFC (Issued for Construction) çizimleri için kilometre taşını hala karşılıyor muyuz?",
+        "options": [
+          {"text": "Yes, we're on track for the 100% IFC issue date, with the piping package about 85% complete.", "text_tr": "Evet, %100 IFC yayın tarihi için planımıza uygun gidiyoruz, boru hattı paketi yaklaşık %85 tamamlandı.", "correct": true, "note_tr": "Doğru: net durum ve ölçülebilir ilerleme yüzdesi."},
+          {"text": "I hope so.", "text_tr": "Umarım öyledir.", "correct": false, "note_tr": "Yanlış: güven vermiyor."},
+          {"text": "We're a bit behind, no big deal.", "text_tr": "Biraz gerideyiz, önemli değil.", "correct": false, "note_tr": "Yanlış: gecikmeyi küçümsüyor, plan sunmuyor."}
+        ]
+      },
+      {
+        "prompt_en": "Which activities are on the critical path right now?",
+        "prompt_tr": "Şu anda hangi faaliyetler kritik yol (critical path) üzerinde?",
+        "options": [
+          {"text": "The critical path is currently the stress analysis for the high-temperature lines, since it depends on the finalized process data.", "text_tr": "Kritik yol şu anda yüksek sıcaklık hatları için gerilim analizi, çünkü bu nihai proses verisine bağlı.", "correct": true, "note_tr": "Doğru: spesifik ve teknik bir cevap."},
+          {"text": "Everything is critical right now.", "text_tr": "Şu anda her şey kritik.", "correct": false, "note_tr": "Yanlış: gerçek kritik yolu tanımlamıyor."},
+          {"text": "I'd have to check the schedule.", "text_tr": "Programı kontrol etmem lazım.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "What's causing the delay in the stress analysis?",
+        "prompt_tr": "Gerilim analizindeki gecikmeye ne sebep oluyor?",
+        "options": [
+          {"text": "The delay is due to a two-day hold on the process data sheet, which we've now received and are working through.", "text_tr": "Gecikme, proses veri sayfasındaki iki günlük bekleme nedeniyle oldu; artık elimize geçti ve üzerinde çalışıyoruz.", "correct": true, "note_tr": "Doğru: net sebep ve mevcut durum açıklaması."},
+          {"text": "The engineer is just slow.", "text_tr": "Mühendis sadece yavaş.", "correct": false, "note_tr": "Yanlış: profesyonel değil, ekip arkadaşını suçluyor."},
+          {"text": "No particular reason.", "text_tr": "Özel bir sebep yok.", "correct": false, "note_tr": "Yanlış: inandırıcı değil."}
+        ]
+      },
+      {
+        "prompt_en": "Can we recover the lost time?",
+        "prompt_tr": "Kaybedilen zamanı telafi edebilir miyiz?",
+        "options": [
+          {"text": "Yes, we can recover it by running the stress analysis and the isometric development in parallel this week.", "text_tr": "Evet, bu hafta gerilim analizini ve izometrik geliştirmeyi paralel yürüterek bunu telafi edebiliriz.", "correct": true, "note_tr": "Doğru: somut bir toparlanma planı sunuyor."},
+          {"text": "Probably not.", "text_tr": "Muhtemelen hayır.", "correct": false, "note_tr": "Yanlış: çözüm arayışı göstermiyor."},
+          {"text": "We'll try our best.", "text_tr": "Elimizden geleni yaparız.", "correct": false, "note_tr": "Yanlış: belirsiz, somut bir plan yok."}
+        ]
+      },
+      {
+        "prompt_en": "When will the updated schedule be issued?",
+        "prompt_tr": "Güncellenmiş program ne zaman yayınlanacak?",
+        "options": [
+          {"text": "The updated schedule will be issued by tomorrow afternoon, reflecting the recovery plan.", "text_tr": "Güncellenmiş program, telafi planını yansıtacak şekilde yarın öğleden sonra yayınlanacak.", "correct": true, "note_tr": "Doğru: net tarih ve içerik belirtiyor."},
+          {"text": "Whenever it's ready.", "text_tr": "Hazır olduğunda.", "correct": false, "note_tr": "Yanlış: belirsiz."},
+          {"text": "We haven't updated it yet.", "text_tr": "Henüz güncellemedik.", "correct": false, "note_tr": "Yanlış: gecikme izlenimi."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt09",
+    "title_tr": "Teknik Netleştirme Görüşmesi (Tedarikçi ile)",
+    "title_en": "Technical Clarification Call (Vendor)",
+    "speaker_role": "Vendor",
+    "questions": [
+      {
+        "prompt_en": "We need clarification on the flange rating specified in your data sheet.",
+        "prompt_tr": "Veri sayfanızda belirtilen flanş sınıfı (rating) hakkında netleştirmeye ihtiyacımız var.",
+        "options": [
+          {"text": "The flange rating should be Class 300 per the piping class specification; I'll confirm this in writing today.", "text_tr": "Boru sınıfı şartnamesine göre flanş sınıfı Class 300 olmalı; bunu bugün yazılı olarak teyit edeceğim.", "correct": true, "note_tr": "Doğru: net bilgi veriyor ve yazılı teyit taahhüdünde bulunuyor."},
+          {"text": "I think it's 150, but I'm not sure.", "text_tr": "Sanırım 150 ama emin değilim.", "correct": false, "note_tr": "Yanlış: teknik konularda belirsizlik kabul edilemez."},
+          {"text": "You should check the drawing yourself.", "text_tr": "Çizimi kendiniz kontrol etmelisiniz.", "correct": false, "note_tr": "Yanlış: saygısız ve işbirliğine kapalı."}
+        ]
+      },
+      {
+        "prompt_en": "Can you confirm the delivery lead time for the valves?",
+        "prompt_tr": "Vanalar için teslimat süresini (lead time) teyit edebilir misiniz?",
+        "options": [
+          {"text": "The confirmed lead time is 10 weeks from purchase order date, assuming no changes to the specification.", "text_tr": "Şartnamede değişiklik olmaması koşuluyla, teyit edilen teslimat süresi sipariş tarihinden itibaren 10 hafta.", "correct": true, "note_tr": "Doğru: net, koşullu ve ölçülebilir bir cevap."},
+          {"text": "It depends, hard to say.", "text_tr": "Değişir, söylemesi zor.", "correct": false, "note_tr": "Yanlış: yetersiz bilgi."},
+          {"text": "Probably a few months.", "text_tr": "Muhtemelen birkaç ay.", "correct": false, "note_tr": "Yanlış: çok belirsiz, planlama için kullanılamaz."}
+        ]
+      },
+      {
+        "prompt_en": "Is there an alternative material option that could reduce cost?",
+        "prompt_tr": "Maliyeti azaltabilecek alternatif bir malzeme seçeneği var mı?",
+        "options": [
+          {"text": "Yes, we could consider a duplex stainless steel alternative, which may reduce cost by around 8% without affecting performance.", "text_tr": "Evet, performansı etkilemeden maliyeti yaklaşık %8 azaltabilecek dupleks paslanmaz çelik alternatifini değerlendirebiliriz.", "correct": true, "note_tr": "Doğru: somut, teknik ve faydalı bir öneri."},
+          {"text": "Not really, this is the only option.", "text_tr": "Pek değil, tek seçenek bu.", "correct": false, "note_tr": "Yanlış: alternatif değerlendirme yapılmamış izlenimi."},
+          {"text": "Maybe, I'd need to check with my team.", "text_tr": "Belki, ekibime sormam lazım.", "correct": false, "note_tr": "Kısmen kabul edilebilir ama daha az proaktif; net bir öneri sunulmuyor."}
+        ]
+      },
+      {
+        "prompt_en": "Can you send the updated technical datasheet by this week?",
+        "prompt_tr": "Güncellenmiş teknik veri sayfasını bu hafta gönderebilir misiniz?",
+        "options": [
+          {"text": "Yes, I'll send the updated datasheet by Thursday, including the revised weight and dimension data.", "text_tr": "Evet, revize edilmiş ağırlık ve boyut verilerini içeren güncellenmiş veri sayfasını Perşembe'ye kadar göndereceğim.", "correct": true, "note_tr": "Doğru: net tarih ve içerik taahhüdü."},
+          {"text": "I'll try.", "text_tr": "Denerim.", "correct": false, "note_tr": "Yanlış: taahhüt vermiyor."},
+          {"text": "It's not ready yet.", "text_tr": "Henüz hazır değil.", "correct": false, "note_tr": "Yanlış: bir sonraki adım/tarih belirtilmiyor."}
+        ]
+      },
+      {
+        "prompt_en": "Do you foresee any issues meeting the project specification?",
+        "prompt_tr": "Proje spesifikasyonunu karşılamada herhangi bir sorun öngörüyor musunuz?",
+        "options": [
+          {"text": "No major issues; we may need a minor clarification on the testing requirements, which I'll confirm by email.", "text_tr": "Büyük bir sorun yok; test gereksinimleri konusunda küçük bir netleştirmeye ihtiyacımız olabilir, bunu e-posta ile teyit edeceğim.", "correct": true, "note_tr": "Doğru: dürüst, şeffaf ve takip taahhüdü içeren bir cevap."},
+          {"text": "There might be some problems, we'll see.", "text_tr": "Bazı sorunlar olabilir, göreceğiz.", "correct": false, "note_tr": "Yanlış: belirsiz ve endişe yaratan bir cevap."},
+          {"text": "Everything is fine, no need to worry.", "text_tr": "Her şey yolunda, endişelenmeye gerek yok.", "correct": false, "note_tr": "Yanlış: detay içermiyor, güven verici değil."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt10",
+    "title_tr": "Müşteri Sorunu Çözme Toplantısı",
+    "title_en": "Client Issue Resolution Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "We've noticed repeated delays in document submission. Can you explain?",
+        "prompt_tr": "Doküman teslimatında tekrarlayan gecikmeler fark ettik. Açıklayabilir misiniz?",
+        "options": [
+          {"text": "You're right, and I apologize for the delays. The main cause has been a resourcing gap, which we've now addressed by adding a second reviewer.", "text_tr": "Haklısınız, gecikmeler için özür dilerim. Ana sebep bir kaynak eksikliğiydi; artık ikinci bir incelemeci ekleyerek bunu giderdik.", "correct": true, "note_tr": "Doğru: sorumluluğu kabul ediyor, sebep ve çözümü birlikte sunuyor."},
+          {"text": "It's not really our fault, there were many reasons.", "text_tr": "Aslında bizim hatamız değil, birçok sebebi vardı.", "correct": false, "note_tr": "Yanlış: savunmacı, sorumluluk almıyor."},
+          {"text": "We're doing our best, that's all I can say.", "text_tr": "Elimizden geleni yapıyoruz, söyleyebileceğim tek şey bu.", "correct": false, "note_tr": "Yanlış: somut bir açıklama/çözüm sunmuyor."}
+        ]
+      },
+      {
+        "prompt_en": "What steps will you take to prevent this in the future?",
+        "prompt_tr": "Bunun gelecekte tekrarlanmaması için hangi adımları atacaksınız?",
+        "options": [
+          {"text": "We've set up a weekly internal review to track document status and will share a tracker with your team for full visibility.", "text_tr": "Doküman durumunu takip etmek için haftalık bir iç inceleme kurduk ve tam görünürlük için ekibinizle bir takip tablosu paylaşacağız.", "correct": true, "note_tr": "Doğru: somut, sistematik bir önlem sunuyor."},
+          {"text": "We'll try to be faster.", "text_tr": "Daha hızlı olmaya çalışırız.", "correct": false, "note_tr": "Yanlış: somut bir plan içermiyor."},
+          {"text": "It shouldn't happen again, hopefully.", "text_tr": "Umarım tekrar olmaz.", "correct": false, "note_tr": "Yanlış: güven vermiyor, taahhüt yok."}
+        ]
+      },
+      {
+        "prompt_en": "Can you commit to a recovery schedule for the outstanding documents?",
+        "prompt_tr": "Bekleyen dokümanlar için bir toparlanma programına taahhüt verebilir misiniz?",
+        "options": [
+          {"text": "Yes, we can commit to submitting all outstanding documents within two weeks, and I'll send a detailed recovery plan by tomorrow.", "text_tr": "Evet, bekleyen tüm dokümanları iki hafta içinde teslim etmeyi taahhüt edebiliriz ve yarın detaylı bir toparlanma planı göndereceğim.", "correct": true, "note_tr": "Doğru: net taahhüt ve takip eylemi içeriyor."},
+          {"text": "We'll do our best to catch up.", "text_tr": "Yetişmek için elimizden geleni yaparız.", "correct": false, "note_tr": "Yanlış: somut bir tarih içermiyor."},
+          {"text": "It depends on our workload.", "text_tr": "Bu iş yükümüze bağlı.", "correct": false, "note_tr": "Yanlış: taahhütten kaçınıyor."}
+        ]
+      },
+      {
+        "prompt_en": "How will you keep us updated going forward?",
+        "prompt_tr": "Bundan sonra bizi nasıl bilgilendirmeye devam edeceksiniz?",
+        "options": [
+          {"text": "We'll send a weekly status report every Friday, including document status and any risks to the schedule.", "text_tr": "Her Cuma, doküman durumu ve programa yönelik riskleri içeren haftalık bir durum raporu göndereceğiz.", "correct": true, "note_tr": "Doğru: düzenli, öngörülebilir bir iletişim planı."},
+          {"text": "We'll let you know if something comes up.", "text_tr": "Bir şey çıkarsa size haber veririz.", "correct": false, "note_tr": "Yanlış: pasif, düzenli iletişim taahhüdü yok."},
+          {"text": "You can always call us.", "text_tr": "Bizi her zaman arayabilirsiniz.", "correct": false, "note_tr": "Yanlış: sorumluluğu müşteriye devrediyor."}
+        ]
+      },
+      {
+        "prompt_en": "We appreciate the transparency. Can we schedule a follow-up in two weeks?",
+        "prompt_tr": "Şeffaflığınız için teşekkür ederiz. İki hafta sonra bir takip görüşmesi planlayabilir miyiz?",
+        "options": [
+          {"text": "Absolutely, let's schedule a follow-up call in two weeks to review the recovery progress.", "text_tr": "Kesinlikle, toparlanma ilerlemesini gözden geçirmek için iki hafta sonra bir takip görüşmesi planlayalım.", "correct": true, "note_tr": "Doğru: olumlu ve net bir onay."},
+          {"text": "Sure, if needed.", "text_tr": "Tabii, gerekirse.", "correct": false, "note_tr": "Yanlış: takip toplantısının önemini küçümsüyor."},
+          {"text": "Let's see how it goes first.", "text_tr": "Önce nasıl gittiğine bakalım.", "correct": false, "note_tr": "Yanlış: proaktif takibi erteliyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt11",
+    "title_tr": "Sözleşme Görüşmesi",
+    "title_en": "Contract Negotiation Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "We'd like to discuss the payment terms in the draft contract.",
+        "prompt_tr": "Sözleşme taslağındaki ödeme koşullarını görüşmek istiyoruz.",
+        "options": [
+          {"text": "Of course, we're open to discussing the payment terms — what changes did you have in mind?", "text_tr": "Elbette, ödeme koşullarını görüşmeye açığız — aklınızda ne gibi değişiklikler vardı?", "correct": true, "note_tr": "Doğru: açık iletişime hazır olduğunu gösteriyor ve karşı tarafın önerisini soruyor."},
+          {"text": "The terms are fixed, we can't change them.", "text_tr": "Koşullar sabit, değiştiremeyiz.", "correct": false, "note_tr": "Yanlış: müzakereye kapalı, ilişkiyi zedeleyebilir."},
+          {"text": "I'm not authorized to discuss that.", "text_tr": "Bunu görüşmeye yetkim yok.", "correct": false, "note_tr": "Yanlış: toplantının amacına aykırı, yetkisiz görünüyor."}
+        ]
+      },
+      {
+        "prompt_en": "Can you extend the warranty period from 12 to 18 months?",
+        "prompt_tr": "Garanti süresini 12 aydan 18 aya uzatabilir misiniz?",
+        "options": [
+          {"text": "We can consider extending the warranty to 18 months, but it would require a small adjustment to the contract price.", "text_tr": "Garantiyi 18 aya uzatmayı düşünebiliriz ama bu, sözleşme fiyatında küçük bir ayarlama gerektirir.", "correct": true, "note_tr": "Doğru: esneklik gösteriyor ve karşılıklı dengeyi belirtiyor."},
+          {"text": "No, that's not possible.", "text_tr": "Hayır, bu mümkün değil.", "correct": false, "note_tr": "Yanlış: müzakereye kapalı, kesin bir ret."},
+          {"text": "Maybe, I'll ask my manager and get back to you eventually.", "text_tr": "Belki, yöneticime sorup size sonunda dönerim.", "correct": false, "note_tr": "Yanlış: belirsiz zaman çizelgesi, taahhüt yok."}
+        ]
+      },
+      {
+        "prompt_en": "What is your position on the liquidated damages clause?",
+        "prompt_tr": "Gecikme cezası (liquidated damages) maddesi hakkındaki görüşünüz nedir?",
+        "options": [
+          {"text": "We're comfortable with a liquidated damages clause, provided it's capped at a reasonable percentage of the contract value.", "text_tr": "Sözleşme değerinin makul bir yüzdesiyle sınırlandırılması şartıyla, gecikme cezası maddesiyle sorunumuz yok.", "correct": true, "note_tr": "Doğru: net bir pozisyon, koşullu kabul sunuyor."},
+          {"text": "We don't like penalty clauses.", "text_tr": "Ceza maddelerini sevmiyoruz.", "correct": false, "note_tr": "Yanlış: yapıcı olmayan, gerekçesiz bir tutum."},
+          {"text": "That's not really my area.", "text_tr": "Bu aslında benim alanım değil.", "correct": false, "note_tr": "Yanlış: sorumluluktan kaçınma."}
+        ]
+      },
+      {
+        "prompt_en": "Can we finalize the contract by the end of this month?",
+        "prompt_tr": "Sözleşmeyi bu ay sonuna kadar sonuçlandırabilir miyiz?",
+        "options": [
+          {"text": "Yes, we're aiming to finalize it by the end of this month, assuming we agree on the remaining commercial points today.", "text_tr": "Evet, bugün kalan ticari noktalarda anlaşırsak, bu ay sonuna kadar sonuçlandırmayı hedefliyoruz.", "correct": true, "note_tr": "Doğru: net hedef ve koşul belirtiyor."},
+          {"text": "That's a tight deadline, we'll see.", "text_tr": "Bu dar bir son tarih, göreceğiz.", "correct": false, "note_tr": "Yanlış: belirsiz, taahhüt yok."},
+          {"text": "It depends on legal, hard to say.", "text_tr": "Bu hukuk departmanına bağlı, söylemesi zor.", "correct": false, "note_tr": "Yanlış: sorumluluğu tamamen başka bir tarafa devrediyor."}
+        ]
+      },
+      {
+        "prompt_en": "Great, let's schedule a final review with both legal teams.",
+        "prompt_tr": "Harika, her iki hukuk ekibiyle nihai bir inceleme planlayalım.",
+        "options": [
+          {"text": "Agreed. I'll coordinate with our legal team and propose a few dates for the final review this week.", "text_tr": "Anlaştık. Hukuk ekibimizle koordine olup bu hafta nihai inceleme için birkaç tarih öneririm.", "correct": true, "note_tr": "Doğru: onaylıyor ve somut bir sonraki adım belirtiyor."},
+          {"text": "Sure, whenever works.", "text_tr": "Tabii, ne zaman uygun olursa.", "correct": false, "note_tr": "Yanlış: proaktif değil, planlama sorumluluğu almıyor."},
+          {"text": "Let's wait until everything else is settled first.", "text_tr": "Önce diğer her şey netleşene kadar bekleyelim.", "correct": false, "note_tr": "Yanlış: süreci geciktiriyor."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt12",
+    "title_tr": "Proje Kapanış / Devir Teslim Toplantısı",
+    "title_en": "Project Closeout / Handover Meeting",
+    "speaker_role": "Client",
+    "questions": [
+      {
+        "prompt_en": "Can you confirm that all deliverables have been submitted?",
+        "prompt_tr": "Tüm teslim edileceklerin gönderildiğini teyit edebilir misiniz?",
+        "options": [
+          {"text": "Yes, all deliverables have been submitted and accepted, including the as-built drawings and final data books.", "text_tr": "Evet, as-built çizimler ve nihai veri kitapları dahil tüm çıktılar teslim edildi ve kabul edildi.", "correct": true, "note_tr": "Doğru: kesin ve kapsamlı bir teyit."},
+          {"text": "Most of them, I think.", "text_tr": "Sanırım çoğu.", "correct": false, "note_tr": "Yanlış: kapanış toplantısında kesinlik gerekir."},
+          {"text": "I'd have to double-check the list.", "text_tr": "Listeyi tekrar kontrol etmem lazım.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "Are there any outstanding punch list items?",
+        "prompt_tr": "Bekleyen herhangi bir punch list maddesi var mı?",
+        "options": [
+          {"text": "There are three minor punch list items remaining, all scheduled to be closed within the next five working days.", "text_tr": "Kalan üç küçük punch list maddesi var, hepsinin önümüzdeki beş iş günü içinde kapatılması planlanıyor.", "correct": true, "note_tr": "Doğru: net sayı ve kapatma planı veriyor."},
+          {"text": "Just a few, nothing important.", "text_tr": "Sadece birkaç tane, önemli değil.", "correct": false, "note_tr": "Yanlış: belirsiz, sayı ve plan yok."},
+          {"text": "I'm not sure, the site team would know.", "text_tr": "Emin değilim, saha ekibi bilir.", "correct": false, "note_tr": "Yanlış: hazırlıksızlık."}
+        ]
+      },
+      {
+        "prompt_en": "Has the operations team been trained on the new system?",
+        "prompt_tr": "Operasyon ekibi yeni sistem konusunda eğitildi mi?",
+        "options": [
+          {"text": "Yes, we completed the operator training last week, and all attendees received training completion certificates.", "text_tr": "Evet, operatör eğitimini geçen hafta tamamladık ve tüm katılımcılar eğitim tamamlama sertifikası aldı.", "correct": true, "note_tr": "Doğru: eğitimin tamamlandığını ve belgelendiğini teyit ediyor."},
+          {"text": "We did some training, not sure if everyone attended.", "text_tr": "Biraz eğitim verdik, herkesin katılıp katılmadığından emin değilim.", "correct": false, "note_tr": "Yanlış: eksik/kesin olmayan bir teyit."},
+          {"text": "That wasn't part of our scope.", "text_tr": "Bu bizim kapsamımızda değildi.", "correct": false, "note_tr": "Yanlış: eğer scope içindeyse sorumluluktan kaçınma anlamına gelir."}
+        ]
+      },
+      {
+        "prompt_en": "Can you provide the final project documentation package?",
+        "prompt_tr": "Nihai proje dokümantasyon paketini sağlayabilir misiniz?",
+        "options": [
+          {"text": "Yes, the final documentation package will be handed over by Friday, including all as-built drawings and certificates.", "text_tr": "Evet, tüm as-built çizimler ve sertifikalar dahil nihai dokümantasyon paketi Cuma'ya kadar teslim edilecek.", "correct": true, "note_tr": "Doğru: net tarih ve kapsam belirtiyor."},
+          {"text": "It's mostly ready, we'll send it soon.", "text_tr": "Çoğunlukla hazır, yakında göndeririz.", "correct": false, "note_tr": "Yanlış: belirsiz zaman çizelgesi."},
+          {"text": "We'll compile it after this meeting.", "text_tr": "Bu toplantıdan sonra derleriz.", "correct": false, "note_tr": "Yanlış: kapanış toplantısında hazır olması beklenir."}
+        ]
+      },
+      {
+        "prompt_en": "Thank you for your work on this project. Any final comments?",
+        "prompt_tr": "Bu projedeki emeğiniz için teşekkür ederiz. Son yorumunuz var mı?",
+        "options": [
+          {"text": "Thank you as well — it's been a pleasure working with your team, and we're happy to support any post-handover questions.", "text_tr": "Ben de teşekkür ederim — ekibinizle çalışmak bir zevkti ve devir sonrası sorularınızda destek olmaktan memnuniyet duyarız.", "correct": true, "note_tr": "Doğru: profesyonel, olumlu bir kapanış ve destek taahhüdü."},
+          {"text": "Glad it's finally over.", "text_tr": "Sonunda bittiğine sevindim.", "correct": false, "note_tr": "Yanlış: profesyonel olmayan, olumsuz bir izlenim bırakıyor."},
+          {"text": "No comments.", "text_tr": "Yorum yok.", "correct": false, "note_tr": "Yanlış: fırsatı değerlendirmiyor, ilişkiyi güçlendirmiyor."}
+        ]
+      }
+    ]
+  }
+]

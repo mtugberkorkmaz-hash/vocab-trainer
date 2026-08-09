@@ -1,0 +1,680 @@
+{
+  "engineering": [
+    {
+      "id": "eng001",
+      "term": "flow rate",
+      "pronunciation": "floh reyt",
+      "translation": "akış hızı / debi",
+      "sentences": [
+        "The flow rate of the pipeline must not exceed 5 m/s.",
+        "We measured the flow rate before starting the pump.",
+        "A higher flow rate can cause erosion inside the pipe.",
+        "Can you check the flow rate on the control panel?",
+        "The engineer calculated the required flow rate for the new line."
+      ],
+      "translations": [
+        "Boru hattının akış hızı 5 m/s'yi geçmemelidir.",
+        "Pompayı çalıştırmadan önce akış hızını ölçtük.",
+        "Daha yüksek bir akış hızı boru içinde erozyona neden olabilir.",
+        "Kontrol panelinden akış hızını kontrol edebilir misin?",
+        "Mühendis yeni hat için gereken akış hızını hesapladı."
+      ],
+      "explanation": "\"Flow rate\" (akış hızı/debi) bir sıvının birim zamanda geçtiği miktardır. Cümle yapısı genelde 'the flow rate of X' veya 'flow rate + verb' şeklindedir: 'The flow rate of the pipeline must not exceed...' -> özne (flow rate) + modal (must) + fiil."
+    },
+    {
+      "id": "eng002",
+      "term": "pressure drop",
+      "pronunciation": "PRESH-er drop",
+      "translation": "basınç düşüşü / kaybı",
+      "sentences": [
+        "There is a significant pressure drop across the valve.",
+        "We need to reduce the pressure drop in this section.",
+        "The pressure drop was higher than expected during the test.",
+        "Long pipe runs usually cause more pressure drop.",
+        "Please calculate the pressure drop for the new design."
+      ],
+      "translations": [
+        "Vana boyunca önemli bir basınç düşüşü var.",
+        "Bu bölümdeki basınç düşüşünü azaltmamız gerekiyor.",
+        "Test sırasında basınç düşüşü beklenenden daha yüksekti.",
+        "Uzun boru hatları genellikle daha fazla basınç düşüşüne neden olur.",
+        "Lütfen yeni tasarım için basınç düşüşünü hesaplayın."
+      ],
+      "explanation": "\"Pressure drop\" (basınç düşüşü) bir hat boyunca oluşan basınç kaybıdır. Sık kullanılan yapı: 'pressure drop across/in + [ekipman]': 'There is a pressure drop across the valve.' -> 'there is/are' + isim tamlaması + across/in."
+    },
+    {
+      "id": "eng003",
+      "term": "nominal pipe size (NPS)",
+      "pronunciation": "NOM-in-al payp sayz",
+      "translation": "nominal boru çapı",
+      "sentences": [
+        "This line uses a 6-inch nominal pipe size.",
+        "The nominal pipe size doesn't always match the actual diameter.",
+        "We selected NPS 8 for the cooling water system.",
+        "Check the nominal pipe size before ordering the flange.",
+        "The datasheet lists the nominal pipe size for each line."
+      ],
+      "translations": [
+        "Bu hat 6 inç nominal boru çapı kullanıyor.",
+        "Nominal boru çapı her zaman gerçek çapla eşleşmez.",
+        "Soğutma suyu sistemi için NPS 8 seçtik.",
+        "Flanşı sipariş etmeden önce nominal boru çapını kontrol et.",
+        "Veri sayfası her hat için nominal boru çapını listeler."
+      ],
+      "explanation": "\"Nominal pipe size (NPS)\" gerçek çaptan farklı olabilen standart boru boyutlandırma sistemidir. Yapı: 'NPS + sayı' bir sıfat gibi kullanılır: 'We selected NPS 8...' -> özne + fiil + NPS+sayı (nesne)."
+    },
+    {
+      "id": "eng004",
+      "term": "corrosion allowance",
+      "pronunciation": "kuh-ROH-zhun uh-LOW-ans",
+      "translation": "korozyon payı",
+      "sentences": [
+        "We added a corrosion allowance of 3 mm to the wall thickness.",
+        "The corrosion allowance depends on the fluid being transported.",
+        "Without a corrosion allowance, the pipe would fail sooner.",
+        "The client requested a higher corrosion allowance for this project.",
+        "Corrosion allowance is included in the mechanical design."
+      ],
+      "translations": [
+        "Et kalınlığına 3 mm korozyon payı ekledik.",
+        "Korozyon payı taşınan akışkana bağlıdır.",
+        "Korozyon payı olmadan boru daha erken arızalanır.",
+        "Müşteri bu proje için daha yüksek bir korozyon payı talep etti.",
+        "Korozyon payı mekanik tasarıma dahil edilmiştir."
+      ],
+      "explanation": "\"Corrosion allowance\" (korozyon payı) boru et kalınlığına eklenen ek pay. Yapı: 'add a corrosion allowance of X mm to Y': fiil (add) + miktar + 'to' + hedef."
+    },
+    {
+      "id": "eng005",
+      "term": "flange",
+      "pronunciation": "flanj",
+      "translation": "flanş",
+      "sentences": [
+        "Tighten the bolts on the flange evenly.",
+        "The flange connects the pipe to the valve.",
+        "We inspected the flange for leaks after the test.",
+        "This flange rating is 300#.",
+        "Replace the gasket before reassembling the flange."
+      ],
+      "translations": [
+        "Flanş üzerindeki cıvataları eşit şekilde sıkın.",
+        "Flanş boruyu vanaya bağlar.",
+        "Testten sonra flanşı sızıntılara karşı kontrol ettik.",
+        "Bu flanşın basınç sınıfı 300#'dır.",
+        "Flanşı yeniden monte etmeden önce contayı değiştirin."
+      ],
+      "explanation": "\"Flange\" (flanş) iki boru parçasını birleştiren disk şeklindeki bağlantı elemanı. Basit özne-fiil-nesne yapısı sık görülür: 'The flange connects the pipe to the valve.'"
+    },
+    {
+      "id": "eng006",
+      "term": "hydrostatic test",
+      "pronunciation": "hy-droh-STAT-ik test",
+      "translation": "hidrostatik test",
+      "sentences": [
+        "The pipeline passed the hydrostatic test yesterday.",
+        "We schedule a hydrostatic test before commissioning.",
+        "During the hydrostatic test, we found a small leak.",
+        "The hydrostatic test pressure is 1.5 times the design pressure.",
+        "Fill the line with water for the hydrostatic test."
+      ],
+      "translations": [
+        "Boru hattı dün hidrostatik testi geçti.",
+        "Devreye almadan önce bir hidrostatik test planlıyoruz.",
+        "Hidrostatik test sırasında küçük bir sızıntı bulduk.",
+        "Hidrostatik test basıncı, tasarım basıncının 1,5 katıdır.",
+        "Hidrostatik test için hattı suyla doldurun."
+      ],
+      "explanation": "\"Hydrostatic test\" (hidrostatik test) hattın su ile basınç dayanımının test edilmesi. Yapı: 'pass/fail + the hydrostatic test': 'The pipeline passed the hydrostatic test yesterday.' -> özne + geçmiş zaman fiil + nesne + zaman zarfı."
+    },
+    {
+      "id": "eng007",
+      "term": "isometric drawing",
+      "pronunciation": "eye-so-MET-rik DRAW-ing",
+      "translation": "izometrik çizim",
+      "sentences": [
+        "Please update the isometric drawing with the new valve location.",
+        "The isometric drawing shows all fittings and dimensions.",
+        "I sent you the isometric drawing for review.",
+        "This isometric drawing needs a revision.",
+        "The fabrication team works directly from the isometric drawing."
+      ],
+      "translations": [
+        "Lütfen izometrik çizimi yeni vana konumuyla güncelleyin.",
+        "İzometrik çizim tüm bağlantı elemanlarını ve ölçüleri gösterir.",
+        "İncelemen için sana izometrik çizimi gönderdim.",
+        "Bu izometrik çizimin revize edilmesi gerekiyor.",
+        "İmalat ekibi doğrudan izometrik çizimden çalışır."
+      ],
+      "explanation": "\"Isometric drawing\" (izometrik çizim) boru hattının üç boyutlu şematik gösterimi. Yapı: 'update/send/review + the isometric drawing': fiil + belirli nesne."
+    },
+    {
+      "id": "eng008",
+      "term": "insulation thickness",
+      "pronunciation": "in-suh-LAY-shun THIK-nes",
+      "translation": "izolasyon kalınlığı",
+      "sentences": [
+        "The insulation thickness depends on the operating temperature.",
+        "We increased the insulation thickness to reduce heat loss.",
+        "Check the insulation thickness against the specification.",
+        "Standard insulation thickness for this line is 50 mm.",
+        "The contractor applied the wrong insulation thickness."
+      ],
+      "translations": [
+        "İzolasyon kalınlığı işletme sıcaklığına bağlıdır.",
+        "Isı kaybını azaltmak için izolasyon kalınlığını artırdık.",
+        "İzolasyon kalınlığını şartnameye göre kontrol edin.",
+        "Bu hat için standart izolasyon kalınlığı 50 mm'dir.",
+        "Yüklenici yanlış izolasyon kalınlığını uyguladı."
+      ],
+      "explanation": "\"Insulation thickness\" (izolasyon kalınlığı) borunun ısı kaybını azaltmak için sarılan malzeme kalınlığı. Yapı: 'insulation thickness depends on X': özne + fiil (depends on) + sebep."
+    },
+    {
+      "id": "eng009",
+      "term": "valve actuator",
+      "pronunciation": "valv AK-choo-ay-tor",
+      "translation": "vana aktüatörü",
+      "sentences": [
+        "The valve actuator failed to open remotely.",
+        "We installed a new valve actuator on line 12.",
+        "The valve actuator runs on compressed air.",
+        "Check the valve actuator signal from the control room.",
+        "This valve actuator needs calibration."
+      ],
+      "translations": [
+        "Vana aktüatörü uzaktan açılamadı.",
+        "12 numaralı hatta yeni bir vana aktüatörü kurduk.",
+        "Vana aktüatörü basınçlı havayla çalışır.",
+        "Vana aktüatörü sinyalini kontrol odasından kontrol edin.",
+        "Bu vana aktüatörünün kalibrasyona ihtiyacı var."
+      ],
+      "explanation": "\"Valve actuator\" (vana aktüatörü) vanayı uzaktan açıp kapatan mekanik/elektrikli sistem. Yapı: 'the valve actuator + fiil (failed/runs/needs)': özne + fiil + tamamlayıcı."
+    },
+    {
+      "id": "eng010",
+      "term": "design pressure",
+      "pronunciation": "dih-ZAYN PRESH-er",
+      "translation": "tasarım basıncı",
+      "sentences": [
+        "The design pressure of this vessel is 10 bar.",
+        "We must never exceed the design pressure.",
+        "The design pressure was set by the process team.",
+        "Confirm the design pressure before ordering the pipe.",
+        "The safety valve opens above the design pressure."
+      ],
+      "translations": [
+        "Bu kabın tasarım basıncı 10 bardır.",
+        "Tasarım basıncını asla aşmamalıyız.",
+        "Tasarım basıncı proses ekibi tarafından belirlendi.",
+        "Boruyu sipariş etmeden önce tasarım basıncını teyit edin.",
+        "Emniyet vanası tasarım basıncının üzerinde açılır."
+      ],
+      "explanation": "\"Design pressure\" (tasarım basıncı) ekipmanın güvenle çalışabileceği maksimum basınç. Yapı: 'the design pressure of X is Y': özne + is + değer, veya 'must never exceed the design pressure' (modal + fiil + nesne)."
+    },
+    {
+      "id": "eng011",
+      "term": "wall thickness",
+      "pronunciation": "wawl THIK-nes",
+      "translation": "et kalınlığı",
+      "sentences": [
+        "The wall thickness must meet the code requirement.",
+        "We measured the wall thickness with an ultrasonic gauge.",
+        "Reduced wall thickness can lead to failure.",
+        "The wall thickness calculation includes the corrosion allowance.",
+        "This schedule 40 pipe has a standard wall thickness."
+      ],
+      "translations": [
+        "Et kalınlığı, yönetmelik gereksinimini karşılamalıdır.",
+        "Et kalınlığını ultrasonik ölçer ile ölçtük.",
+        "Azalan et kalınlığı arızaya yol açabilir.",
+        "Et kalınlığı hesabı korozyon payını içerir.",
+        "Bu schedule 40 boru standart bir et kalınlığına sahiptir."
+      ],
+      "explanation": "\"Wall thickness\" (et kalınlığı) borunun duvar kalınlığı. Yapı: 'wall thickness must meet/include X': özne + modal + fiil + nesne."
+    },
+    {
+      "id": "eng012",
+      "term": "as-built drawing",
+      "pronunciation": "az-bilt DRAW-ing",
+      "translation": "yapıldığı gibi (as-built) çizim",
+      "sentences": [
+        "Please submit the as-built drawing after construction.",
+        "The as-built drawing shows the final field changes.",
+        "We compare the as-built drawing with the original design.",
+        "The as-built drawing must be signed by the site engineer.",
+        "This as-built drawing will go into the project archive."
+      ],
+      "translations": [
+        "İnşaat sonrası lütfen as-built çizimi teslim edin.",
+        "As-built çizim, sahadaki nihai değişiklikleri gösterir.",
+        "As-built çizimi orijinal tasarımla karşılaştırıyoruz.",
+        "As-built çizim saha mühendisi tarafından imzalanmalıdır.",
+        "Bu as-built çizim proje arşivine girecek."
+      ],
+      "explanation": "\"As-built drawing\" (yapıldığı gibi çizim) inşaat sonrası sahadaki gerçek durumu yansıtan çizim. Yapı: 'submit/compare + the as-built drawing': emir/fiil + belirli nesne."
+    }
+  ],
+  "meeting": [
+    {
+      "id": "mtg001",
+      "term": "to circle back",
+      "pronunciation": "too SUR-kuhl bak",
+      "translation": "tekrar dönmek / geri dönüp konuşmak",
+      "sentences": [
+        "Let's circle back to this topic next week.",
+        "I'll circle back with you after I check the numbers.",
+        "Can we circle back to the budget question?",
+        "We didn't finish this, so let's circle back tomorrow.",
+        "She promised to circle back once she has an update."
+      ],
+      "translations": [
+        "Bu konuya gelecek hafta tekrar dönelim.",
+        "Rakamları kontrol ettikten sonra sana tekrar döneceğim.",
+        "Bütçe konusuna tekrar dönebilir miyiz?",
+        "Bunu bitiremedik, o yüzden yarın tekrar dönelim.",
+        "Bir güncelleme olduğunda tekrar döneceğine söz verdi."
+      ],
+      "explanation": "\"To circle back\" bir konuya daha sonra tekrar dönmek demektir. Yapı: 'let's circle back to + [konu]': teklif kalıbı (let's) + fiil + to + nesne. Toplantılarda konuyu ertelemeden nazikçe kapatmak için kullanılır."
+    },
+    {
+      "id": "mtg002",
+      "term": "action item",
+      "pronunciation": "AK-shun EYE-tem",
+      "translation": "yapılacak iş / aksiyon maddesi",
+      "sentences": [
+        "Let's list the action items before we close the meeting.",
+        "I'll take this as my action item for this week.",
+        "Each action item needs an owner and a deadline.",
+        "We reviewed the action items from last meeting.",
+        "Please send the action items by email."
+      ],
+      "translations": [
+        "Toplantıyı kapatmadan önce aksiyon maddelerini listeleyelim.",
+        "Bunu bu haftaki aksiyon maddem olarak alacağım.",
+        "Her aksiyon maddesinin bir sorumlusu ve son tarihi olmalı.",
+        "Geçen toplantının aksiyon maddelerini gözden geçirdik.",
+        "Aksiyon maddelerini lütfen e-posta ile gönderin."
+      ],
+      "explanation": "\"Action item\" bir toplantıdan çıkan, sorumlusu ve teslim tarihi olan yapılacak iştir. Yapı: 'take/list + action item(s)': fiil + nesne. Her zaman bir sahibi (owner) ve tarihi olmalı."
+    },
+    {
+      "id": "mtg003",
+      "term": "to touch base",
+      "pronunciation": "too tuch beys",
+      "translation": "kısa bilgi alışverişi yapmak",
+      "sentences": [
+        "Let's touch base tomorrow morning.",
+        "I wanted to touch base before the client call.",
+        "Can we touch base at 3 PM about the schedule?",
+        "I'll touch base with the site team first.",
+        "We should touch base once a week on this project."
+      ],
+      "translations": [
+        "Yarın sabah kısa bir görüşelim.",
+        "Müşteri görüşmesinden önce seninle kısaca konuşmak istedim.",
+        "Saat 15:00'te program hakkında kısaca konuşabilir miyiz?",
+        "Önce saha ekibiyle kısa bir görüşeceğim.",
+        "Bu projede haftada bir kısa bir görüşmeliyiz."
+      ],
+      "explanation": "\"To touch base\" kısa, gayri resmi bir bilgi alışverişi yapmak anlamına gelir. Yapı: 'let's touch base + [zaman]': teklif + fiil + zaman zarfı. 'Meet' kelimesinden daha kısa/samimi bir toplantı önerir."
+    },
+    {
+      "id": "mtg004",
+      "term": "to follow up",
+      "pronunciation": "too FOL-oh up",
+      "translation": "takip etmek",
+      "sentences": [
+        "I'll follow up with the supplier about the delivery date.",
+        "Please follow up on this email if you don't hear back.",
+        "We need to follow up on the open action items.",
+        "I followed up twice, but there's still no response.",
+        "Let's follow up after the drawings are approved."
+      ],
+      "translations": [
+        "Teslimat tarihi konusunda tedarikçiyi takip edeceğim.",
+        "Cevap alamazsan lütfen bu e-postayı takip et.",
+        "Açık aksiyon maddelerini takip etmemiz gerekiyor.",
+        "İki kez takip ettim ama hâlâ cevap yok.",
+        "Çizimler onaylandıktan sonra takip edelim."
+      ],
+      "explanation": "\"To follow up\" bir konuyu takip etmek, hatırlatmak demektir. Yapı: 'follow up on/with + [konu/kişi]': fiil + edat + nesne. E-posta ve toplantı sonrası çok kullanılır."
+    },
+    {
+      "id": "mtg005",
+      "term": "to be on track",
+      "pronunciation": "too bee on trak",
+      "translation": "planına uygun gitmek / yolunda olmak",
+      "sentences": [
+        "The project is on track for the July deadline.",
+        "Are we still on track with the piping installation?",
+        "This task is not on track; we need more resources.",
+        "Good news, the budget is on track this month.",
+        "Let's check if the fabrication schedule is on track."
+      ],
+      "translations": [
+        "Proje, Temmuz son tarihi için planına uygun gidiyor.",
+        "Boru montajı hâlâ planına uygun mu gidiyor?",
+        "Bu görev planına uygun gitmiyor; daha fazla kaynağa ihtiyacımız var.",
+        "İyi haber, bu ay bütçe planına uygun gidiyor.",
+        "İmalat programının planına uygun gidip gitmediğini kontrol edelim."
+      ],
+      "explanation": "\"To be on track\" bir işin planına uygun ilerlemesi. Yapı: 'X is on track for/with + [hedef]': özne + is + sıfat öbeği + for. Zıttı 'behind schedule' dir."
+    },
+    {
+      "id": "mtg006",
+      "term": "to table something",
+      "pronunciation": "too TAY-buhl SUM-thing",
+      "translation": "bir konuyu ertelemek / gündeme sonra almak",
+      "sentences": [
+        "Let's table this discussion until next week.",
+        "We don't have time, so let's table the budget topic.",
+        "I suggest we table this item for now.",
+        "This point was tabled during the last meeting.",
+        "Can we table the design change until we get more data?"
+      ],
+      "translations": [
+        "Bu tartışmayı gelecek haftaya erteleyelim.",
+        "Vaktimiz yok, o yüzden bütçe konusunu erteleyelim.",
+        "Şimdilik bu maddeyi ertelemeyi öneriyorum.",
+        "Bu konu son toplantıda ertelenmişti.",
+        "Daha fazla veri alana kadar tasarım değişikliğini erteleyebilir miyiz?"
+      ],
+      "explanation": "\"To table something\" bir konuyu şimdilik ertelemek, gündeme sonra almak. Yapı: 'let's table + [konu]': teklif + fiil + nesne. Dikkat: İngiliz İngilizcesinde tam tersi anlama da gelebilir, bağlama dikkat!"
+    },
+    {
+      "id": "mtg007",
+      "term": "could you clarify...?",
+      "pronunciation": "kood yoo KLAIR-uh-fy",
+      "translation": "açıklar mısınız? / netleştirir misiniz?",
+      "sentences": [
+        "Could you clarify what you mean by 'critical path'?",
+        "Could you clarify the deadline for this deliverable?",
+        "Could you clarify who is responsible for this task?",
+        "Could you clarify the scope before we start?",
+        "Could you clarify this point in the specification?"
+      ],
+      "translations": [
+        "'Kritik yol' ile ne demek istediğinizi açıklar mısınız?",
+        "Bu teslimatın son tarihini netleştirir misiniz?",
+        "Bu görevden kimin sorumlu olduğunu açıklar mısınız?",
+        "Başlamadan önce kapsamı netleştirir misiniz?",
+        "Şartnamedeki bu noktayı açıklar mısınız?"
+      ],
+      "explanation": "\"Could you clarify...?\" nazikçe açıklama istemek için kullanılan kalıp sorudur. Yapı: 'could you clarify + [wh-soru/nesne]?': modal (could) + you + fiil + nesne. 'Can you' dan daha resmi/nazik."
+    },
+    {
+      "id": "mtg008",
+      "term": "to bring someone up to speed",
+      "pronunciation": "too bring SUM-wun up too speed",
+      "translation": "birini bilgilendirmek / güncel bilgi vermek",
+      "sentences": [
+        "Let me bring you up to speed on the project status.",
+        "Can you bring the new engineer up to speed?",
+        "I'll bring the client up to speed tomorrow.",
+        "We spent ten minutes bringing everyone up to speed.",
+        "Please bring me up to speed before the meeting."
+      ],
+      "translations": [
+        "Seni proje durumu hakkında bilgilendireyim.",
+        "Yeni mühendisi güncel bilgilerle bilgilendirebilir misin?",
+        "Yarın müşteriyi güncel bilgilerle bilgilendireceğim.",
+        "Herkesi bilgilendirmek için on dakika harcadık.",
+        "Toplantıdan önce lütfen beni güncel bilgilerle bilgilendir."
+      ],
+      "explanation": "\"To bring someone up to speed\" birine güncel bilgiyi hızlıca vermek. Yapı: 'bring + [kişi] + up to speed (on + konu)': fiil + nesne + sabit ifade."
+    },
+    {
+      "id": "mtg009",
+      "term": "deliverable",
+      "pronunciation": "dih-LIV-er-uh-buhl",
+      "translation": "teslim edilecek çıktı / iş çıktısı",
+      "sentences": [
+        "The first deliverable is due on Friday.",
+        "We reviewed all deliverables for this phase.",
+        "This document is a key deliverable for the client.",
+        "Please check the deliverable list in the contract.",
+        "The deliverable was delayed due to missing data."
+      ],
+      "translations": [
+        "İlk teslim edilecek çıktının son tarihi Cuma.",
+        "Bu aşamanın tüm çıktılarını gözden geçirdik.",
+        "Bu doküman müşteri için önemli bir çıktıdır.",
+        "Lütfen sözleşmedeki çıktı listesini kontrol edin.",
+        "Çıktı, eksik veri nedeniyle gecikti."
+      ],
+      "explanation": "\"Deliverable\" bir projede teslim edilmesi gereken somut çıktı (rapor, çizim, doküman). Yapı: 'the deliverable is due + [tarih]': özne + is due + zaman."
+    },
+    {
+      "id": "mtg010",
+      "term": "to loop someone in",
+      "pronunciation": "too loop SUM-wun in",
+      "translation": "birini sürece dahil etmek / bilgilendirmek",
+      "sentences": [
+        "Please loop in the project manager on this email.",
+        "I'll loop you in once I get the updated drawing.",
+        "Let's loop in the client before we finalize this.",
+        "She was looped in late, so she missed the context.",
+        "Can you loop in the piping team on this issue?"
+      ],
+      "translations": [
+        "Lütfen bu e-postada proje yöneticisini de sürece dahil edin.",
+        "Güncellenmiş çizimi alınca seni sürece dahil edeceğim.",
+        "Bunu sonuçlandırmadan önce müşteriyi sürece dahil edelim.",
+        "Sürece geç dahil edildi, bu yüzden bağlamı kaçırdı.",
+        "Bu konuda boru hattı ekibini sürece dahil edebilir misin?"
+      ],
+      "explanation": "\"To loop someone in\" birini bir sürece/yazışmaya dahil etmek. Yapı: 'loop + [kişi] + in (on + konu)': fiil + nesne + edat. E-postalarda çok kullanılır: 'I'll loop you in.'"
+    },
+    {
+      "id": "mtg011",
+      "term": "to push back (a deadline)",
+      "pronunciation": "too poosh bak",
+      "translation": "(bir tarihi) ertelemek",
+      "sentences": [
+        "We need to push back the deadline by two days.",
+        "The client asked us to push back the meeting.",
+        "Let's push back the review to next Monday.",
+        "The delivery date was pushed back due to the strike.",
+        "I don't want to push back this milestone again."
+      ],
+      "translations": [
+        "Son tarihi iki gün ertelememiz gerekiyor.",
+        "Müşteri toplantıyı ertelememizi istedi.",
+        "İncelemeyi gelecek Pazartesi'ye erteleyelim.",
+        "Teslimat tarihi grev nedeniyle ertelendi.",
+        "Bu kilometre taşını tekrar ertelemek istemiyorum."
+      ],
+      "explanation": "\"To push back (a deadline)\" bir tarihi ertelemek. Yapı: 'push back + [nesne] + by + [süre]': fiil + nesne + miktar. 'Postpone' ile eş anlamlı ama daha konuşma diline yakın."
+    },
+    {
+      "id": "mtg012",
+      "term": "to get on the same page",
+      "pronunciation": "too get on thuh seym peyj",
+      "translation": "aynı anlayışa/görüşe sahip olmak",
+      "sentences": [
+        "Let's make sure we're all on the same page before we start.",
+        "This call helped us get on the same page.",
+        "I don't think we're on the same page about the scope.",
+        "We need a short meeting to get on the same page.",
+        "Are we on the same page regarding the budget?"
+      ],
+      "translations": [
+        "Başlamadan önce hepimizin aynı anlayışta olduğundan emin olalım.",
+        "Bu görüşme aynı anlayışa gelmemize yardımcı oldu.",
+        "Kapsam konusunda aynı anlayışta olduğumuzu sanmıyorum.",
+        "Aynı anlayışa gelmek için kısa bir toplantıya ihtiyacımız var.",
+        "Bütçe konusunda aynı anlayışta mıyız?"
+      ],
+      "explanation": "\"To get on the same page\" aynı anlayışa/görüşe sahip olmak. Yapı: 'be/get on the same page (about + konu)': fiil + sabit ifade + about. Yanlış anlaşılmaları önlemek için kullanılır."
+    }
+  ],
+  "daily": [
+    {
+      "id": "day001",
+      "term": "to run late",
+      "pronunciation": "too run leyt",
+      "translation": "geç kalmak",
+      "sentences": [
+        "Sorry, I'm running late because of traffic.",
+        "The bus is running late again today.",
+        "I hate running late for appointments.",
+        "She texted me to say she was running late.",
+        "We're running late, so let's hurry."
+      ],
+      "translations": [
+        "Üzgünüm, trafik yüzünden geç kalıyorum.",
+        "Otobüs bugün yine gecikiyor.",
+        "Randevulara geç kalmaktan nefret ederim.",
+        "Geç kalacağını söylemek için bana mesaj attı.",
+        "Geç kalıyoruz, o yüzden acele edelim."
+      ],
+      "explanation": "\"To run late\" geç kalmak anlamına gelir (bir randevuya, otobüse vb.). Yapı: 'be running late (because of + sebep)': to be + running late + sebep. Şu anki devam eden bir durumu anlatır."
+    },
+    {
+      "id": "day002",
+      "term": "to grab a bite",
+      "pronunciation": "too grab uh byt",
+      "translation": "bir şeyler atıştırmak",
+      "sentences": [
+        "Let's grab a bite before the movie.",
+        "I only had time to grab a bite at lunch.",
+        "Do you want to grab a bite after work?",
+        "We grabbed a bite at the airport.",
+        "I'm hungry, let's grab a bite somewhere nearby."
+      ],
+      "translations": [
+        "Filmden önce bir şeyler atıştıralım.",
+        "Öğle yemeğinde sadece bir şeyler atıştıracak vaktim oldu.",
+        "İşten sonra bir şeyler atıştırmak ister misin?",
+        "Havaalanında bir şeyler atıştırdık.",
+        "Açım, yakınlarda bir yerde bir şeyler atıştıralım."
+      ],
+      "explanation": "\"To grab a bite\" hızlıca bir şeyler yemek. Yapı: 'grab a bite (before/after + [olay])': fiil + nesne + zaman edatı. Gayri resmi, günlük konuşmada çok yaygın."
+    },
+    {
+      "id": "day003",
+      "term": "to figure out",
+      "pronunciation": "too FIG-yur owt",
+      "translation": "çözmek / anlamaya çalışmak",
+      "sentences": [
+        "I can't figure out how this works.",
+        "Let's figure out a plan for the weekend.",
+        "She figured out the problem on her own.",
+        "We need to figure out where to meet.",
+        "I'm still trying to figure out this app."
+      ],
+      "translations": [
+        "Bunun nasıl çalıştığını çözemiyorum.",
+        "Hafta sonu için bir plan bulalım.",
+        "Sorunu kendi başına çözdü.",
+        "Nerede buluşacağımızı bulmamız gerekiyor.",
+        "Bu uygulamayı hâlâ anlamaya çalışıyorum."
+      ],
+      "explanation": "\"To figure out\" bir şeyi çözmek, anlamaya çalışmak. Yapı: 'figure out + how/what/where + cümle': fiil + wh-kelime + cümlecik, veya 'figure out + nesne' doğrudan."
+    },
+    {
+      "id": "day004",
+      "term": "to be worth it",
+      "pronunciation": "too bee wurth it",
+      "translation": "değmek / buna değer olmak",
+      "sentences": [
+        "The trip was long, but it was worth it.",
+        "Is this course worth it for beginners?",
+        "I think the extra effort is worth it.",
+        "It's not worth it to argue about this.",
+        "The view from the top was totally worth it."
+      ],
+      "translations": [
+        "Yolculuk uzundu ama buna değdi.",
+        "Bu kurs yeni başlayanlar için değer mi?",
+        "Bence ekstra çaba buna değer.",
+        "Bu konuda tartışmaya değmez.",
+        "Tepeden manzara kesinlikle buna değerdi."
+      ],
+      "explanation": "\"To be worth it\" bir şeyin harcanan çabaya/paraya değmesi. Yapı: '[nesne/durum] + is/was worth it': özne + be fiili + worth it (sabit ifade)."
+    },
+    {
+      "id": "day005",
+      "term": "to keep an eye on",
+      "pronunciation": "too keep an eye on",
+      "translation": "göz kulak olmak / takip etmek",
+      "sentences": [
+        "Can you keep an eye on my bag for a second?",
+        "I'll keep an eye on the weather this weekend.",
+        "Please keep an eye on the oven timer.",
+        "We need to keep an eye on the budget.",
+        "Keep an eye on your email for updates."
+      ],
+      "translations": [
+        "Bir saniyeliğine çantama göz kulak olabilir misin?",
+        "Bu hafta sonu havayı takip edeceğim.",
+        "Lütfen fırın zamanlayıcısını takip et.",
+        "Bütçeyi yakından takip etmemiz gerekiyor.",
+        "Güncellemeler için e-postanı takip et."
+      ],
+      "explanation": "\"To keep an eye on\" bir şeye/kişiye göz kulak olmak, takip etmek. Yapı: 'keep an eye on + [nesne]': fiil + sabit ifade + on + nesne."
+    },
+    {
+      "id": "day006",
+      "term": "to be up to",
+      "pronunciation": "too bee up too",
+      "translation": "(ne) yapıyor olmak / niyetinde olmak",
+      "sentences": [
+        "What are you up to this weekend?",
+        "I'm not up to going out tonight, I'm tired.",
+        "What is he up to these days?",
+        "We're up to something exciting next month.",
+        "Are you up to a walk in the park?"
+      ],
+      "translations": [
+        "Bu hafta sonu ne yapıyorsun?",
+        "Bu akşam dışarı çıkmaya niyetim yok, yorgunum.",
+        "Bu aralar ne yapıyor?",
+        "Gelecek ay heyecan verici bir şey planlıyoruz.",
+        "Parkta yürüyüşe çıkmaya var mısın?"
+      ],
+      "explanation": "\"To be up to\" ne yapıyor olmak / niyetinde olmak. Yapı: 'what are you up to?' soru kalıbı, veya 'not be up to + [fiil-ing]': olumsuzlukla isteksizlik belirtir."
+    },
+    {
+      "id": "day007",
+      "term": "to give someone a hand",
+      "pronunciation": "too giv SUM-wun uh hand",
+      "translation": "birine yardım etmek",
+      "sentences": [
+        "Can you give me a hand with these bags?",
+        "I gave my neighbor a hand moving furniture.",
+        "Would you mind giving me a hand here?",
+        "He always gives a hand when someone needs help.",
+        "Let me give you a hand with that."
+      ],
+      "translations": [
+        "Bu çantalarla bana yardım edebilir misin?",
+        "Komşuma mobilya taşırken yardım ettim.",
+        "Burada bana yardım eder misin, sakıncası var mı?",
+        "Birinin yardıma ihtiyacı olduğunda her zaman yardım eder.",
+        "Bu konuda sana yardım edeyim."
+      ],
+      "explanation": "\"To give someone a hand\" birine yardım etmek. Yapı: 'give + [kişi] + a hand (with + iş)': fiil + nesne + sabit ifade + with."
+    },
+    {
+      "id": "day008",
+      "term": "to make it",
+      "pronunciation": "too meyk it",
+      "translation": "yetişmek / başarmak (bir yere/işe)",
+      "sentences": [
+        "I don't think I'll make it to the party on time.",
+        "We made it to the airport just in time.",
+        "Did you make it to the meeting yesterday?",
+        "I'm not sure I can make it this weekend.",
+        "She worked hard and finally made it."
+      ],
+      "translations": [
+        "Partiye zamanında yetişebileceğimi sanmıyorum.",
+        "Havaalanına tam zamanında yetiştik.",
+        "Dün toplantıya yetişebildin mi?",
+        "Bu hafta sonu gelebileceğimden emin değilim.",
+        "Çok çalıştı ve sonunda başardı."
+      ],
+      "explanation": "\"To make it\" bir yere yetişmek veya bir işi başarmak. Yapı: 'make it (to + yer) (on time)': fiil + sabit ifade, genelde zaman/yer belirteci ile birlikte."
+    }
+  ]
+}

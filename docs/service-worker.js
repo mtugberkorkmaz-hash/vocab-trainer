@@ -1,7 +1,11 @@
-/* Cache-first service worker so the whole app (shell + data) works fully
- * offline once it's been opened one time. Bump CACHE_NAME when shipping
- * new data/content so clients pick up the update. */
-const CACHE_NAME = 'vocab-trainer-v1';
+/* Network-first service worker: whenever the phone is online, it always
+ * fetches the latest deployed files and refreshes the cache in the
+ * background, so content updates (new words, fixes) show up immediately
+ * instead of being stuck behind a stale cache. The cache is only used as a
+ * fallback when the network request fails (i.e. actually offline), which is
+ * what makes the app work with no connection after the first successful
+ * load. Bump CACHE_NAME on any release so old cache entries get cleared out. */
+const CACHE_NAME = 'vocab-trainer-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -22,9 +26,17 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (event) => {
+  // Fetch with cache: 'no-store' — plain cache.addAll() can be satisfied by
+  // the browser's own HTTP cache (the static file server here sends no
+  // Cache-Control headers), which would seed our offline cache with stale
+  // bytes from before a content update.
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(ASSETS))
+      .then((cache) => Promise.all(
+        ASSETS.map((url) =>
+          fetch(url, { cache: 'no-store' }).then((res) => cache.put(url, res))
+        )
+      ))
       .then(() => self.skipWaiting())
   );
 });
@@ -40,17 +52,14 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const network = fetch(event.request)
-        .then((response) => {
-          if (response && response.ok) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          }
-          return response;
-        })
-        .catch(() => cached);
-      return cached || network;
-    })
+    fetch(event.request, { cache: 'no-store' })
+      .then((response) => {
+        if (response && response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

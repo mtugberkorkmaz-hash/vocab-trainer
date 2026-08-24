@@ -86,7 +86,22 @@ const IRREGULAR_VERBS = {
   circle: ['circle', 'circles', 'circled', 'circling'],
   clarify: ['clarify', 'clarifies', 'clarified', 'clarifying'],
   keep: ['keep', 'keeps', 'kept', 'keeping'],
+  specify: ['specify', 'specifies', 'specified', 'specifying'],
+  comply: ['comply', 'complies', 'complied', 'complying'],
+  apply: ['apply', 'applies', 'applied', 'applying'],
+  qualify: ['qualify', 'qualifies', 'qualified', 'qualifying'],
+  identify: ['identify', 'identifies', 'identified', 'identifying'],
+  verify: ['verify', 'verifies', 'verified', 'verifying'],
+  notify: ['notify', 'notifies', 'notified', 'notifying'],
 };
+
+// For terms like "finite element analysis (FEA)" or "bill of materials (BOM)",
+// example sentences often use only the abbreviation. Matching the abbreviation
+// too (not just the spelled-out phrase) keeps the blank meaningful in both cases.
+function extractAbbreviation(term) {
+  const m = term.match(/\(([A-Za-z0-9]{2,8})\)\s*$/);
+  return m ? m[1] : null;
+}
 
 function reEscape(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -114,8 +129,11 @@ function buildTermRegex(term) {
     return wordAltPattern(clean);
   }).filter(Boolean);
   if (!parts.length) return null;
+  let pattern = parts.join('\\s+');
+  const abbr = extractAbbreviation(term);
+  if (abbr) pattern = '(?:' + pattern + '|\\b' + reEscape(abbr) + '\\b)';
   try {
-    return new RegExp(parts.join('\\s+'), 'i');
+    return new RegExp(pattern, 'i');
   } catch (e) {
     return null;
   }
@@ -125,14 +143,21 @@ function buildBlank(term, sentence) {
   const re = buildTermRegex(term);
   const m = re && re.exec(sentence);
   if (m) return sentence.slice(0, m.index) + '_____' + sentence.slice(m.index + m[0].length);
-  // Fallback: blank just the first meaningful keyword so a blank always appears.
+  // Fallback: try each meaningful keyword (in order) and blank the first one
+  // that actually appears in this sentence, so a blank always appears even
+  // when the full phrase doesn't match verbatim.
   const core = term.replace(/^to\s+/i, '').replace(/^(?:get|be)\s+/i, '')
     .replace(/\s*\([^)]*\)/g, '').replace(/\.\.\.\??$/, '').replace(/\?$/, '').trim();
-  const tokens = core.split(/\s+/);
-  const firstTok = tokens.find((t) => !/^someone'?s?$/i.test(t) && !/^something$/i.test(t)) || tokens[0] || term;
-  const clean = firstTok.replace(/[^a-zA-Z'-]/g, '');
-  const kwRe = clean ? new RegExp(wordAltPattern(clean), 'i') : null;
-  const m2 = kwRe && kwRe.exec(sentence);
-  if (m2) return sentence.slice(0, m2.index) + '_____' + sentence.slice(m2.index + m2[0].length);
+  const tokens = core.split(/\s+/)
+    .filter((t) => !/^someone'?s?$/i.test(t) && !/^something$/i.test(t));
+  const abbr = extractAbbreviation(term);
+  const candidates = (abbr ? [abbr] : []).concat(tokens.length ? tokens : [term]);
+  for (const tok of candidates) {
+    const clean = tok.replace(/[^a-zA-Z'-]/g, '');
+    if (!clean) continue;
+    const kwRe = new RegExp(wordAltPattern(clean), 'i');
+    const m2 = kwRe.exec(sentence);
+    if (m2) return sentence.slice(0, m2.index) + '_____' + sentence.slice(m2.index + m2[0].length);
+  }
   return sentence + ' (_____)';
 }

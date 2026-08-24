@@ -94,14 +94,20 @@
       "As far as I know, nobody has raised any objections.",
       "As far as I know, the budget hasn't changed.",
       "As far as I know, he's still working on it.",
-      "As far as I know, that's the final version."
+      "As far as I know, that's the final version.",
+      "As far as I know, the PMP exam format hasn't changed.",
+      "As far as I know, it's done.",
+      "As far as I know, they arrived."
     ],
     "translations": [
       "Bildiğim kadarıyla sevkiyat Pazartesi geliyor.",
       "Bildiğim kadarıyla kimse itirazda bulunmadı.",
       "Bildiğim kadarıyla bütçe değişmedi.",
       "Bildiğim kadarıyla o hâlâ bunun üzerinde çalışıyor.",
-      "Bildiğim kadarıyla bu son versiyon."
+      "Bildiğim kadarıyla bu son versiyon.",
+      "Bildiğim kadarıyla, PMP sınav formatı değişmedi.",
+      "Bildiğim kadarıyla bitti.",
+      "Bildiğim kadarıyla geldiler."
     ]
   },
   {
@@ -522,6 +528,244 @@
       "Hazır aklıma gelmişken, bugün tedarikçiyi aramalıyım.",
       "Hazır aklıma gelmişken, o doküman hâlâ eksik.",
       "Hazır aklıma gelmişken, bunu geçen ay da konuşmuştuk."
+    ]
+  },
+  {
+    "id": "pat026",
+    "term": "First things first",
+    "pronunciation": "furst thingz furst",
+    "translation": "Öncelikle / önce ilk iş olarak",
+    "explanation": "Bir işe başlarken önceliği belirtir.",
+    "sentences": [
+      "First things first, let's review the ASME B31.3 requirements.",
+      "First things first, check the SDR.",
+      "First things first, open AFT Fathom."
+    ],
+    "translations": [
+      "Öncelikle, ASME B31.3 gereksinimlerini inceleyelim.",
+      "İlk iş olarak SDR'yi kontrol edin.",
+      "Öncelikle AFT Fathom'u açın."
+    ]
+  },
+  {
+    "id": "pat027",
+    "term": "Either of these would work",
+    "pronunciation": "EE-ther uhv theez wood wurk",
+    "translation": "Bunlardan herhangi biri iş görür",
+    "explanation": "İki seçeneğin de kabul edilebilir olduğunu belirtir.",
+    "sentences": [
+      "For the dietitian ad design, either of these would work.",
+      "Either of these would work for the test.",
+      "Either of these would work fine."
+    ],
+    "translations": [
+      "Diyetisyen reklam tasarımı için bunlardan herhangi biri iş görür.",
+      "Test için bunlardan herhangi biri işe yarar.",
+      "Bunlardan herhangi biri gayet iyi iş görür."
+    ]
+  },
+  {
+    "id": "pat028",
+    "term": "Between the two, I would prefer this one",
+    "pronunciation": "bih-TWEEN thuh too, ahy wood pri-FUR this wuhn",
+    "translation": "İkisi arasında bunu tercih ederim",
+    "explanation": "Seçim yaparken kullanılır.",
+    "sentences": [
+      "Between the VW Polo and Clio, I would prefer this one.",
+      "Between the two, I would prefer this one.",
+      "Between the two options, I prefer this."
+    ],
+    "translations": [
+      "VW Polo ve Clio arasında bunu tercih ederim.",
+      "İkisi arasında bunu tercih ederim.",
+      "İki seçenek arasında bunu tercih ederim."
+    ]
+  },
+  {
+    "id": "pat029",
+    "term": "It depends on the situation",
+    "pronunciation": "it dih-PENDZ on thuh sich-oo-EY-shuhn",
+    "translation": "Duruma bağlı",
+    "explanation": "Kesin bir cevabın olmadığını belirtir.",
+    "sentences": [
+      "The wall thickness calculation? It depends on the situation.",
+      "It depends on the situation.",
+      "Well, it depends on the situation."
+    ],
+    "translations": [
+      "Et kalınlığı hesabı mı? Duruma bağlı.",
+      "Duruma bağlı.",
+      "Şey, duruma bağlı."
+    ]
+  },
+  {
+    "id": "pat030",
+    "term": "Please keep me updated",
+    "pronunciation": "pleez keep mee uhp-DEY-tid",
+    "translation": "Lütfen beni gelişmelerden haberdar edin",
+    "explanation": "Süreci takip etmek için söylenir.",
+    "sentences": [
+      "Please keep me updated on the car purchase process.",
+      "Please keep me updated.",
+      "Keep me updated on the project."
+    ],
+    "translations": [
+      "Araba satın alma süreci hakkında lütfen beni bilgilendirin.",
+      "Lütfen beni gelişmelerden haberdar edin.",
+      "Proje hakkında beni güncel tutun."
+    ]
+  },
+  {
+    "id": "pat031",
+    "term": "I will get back to you",
+    "pronunciation": "ahy wil get bak too yoo",
+    "translation": "Size geri dönüş yapacağım",
+    "explanation": "Daha sonra cevap verileceğini belirtir.",
+    "sentences": [
+      "Let me check the hydraulic calculation, and I will get back to you.",
+      "I will get back to you.",
+      "I'll get back to you soon."
+    ],
+    "translations": [
+      "Hidrolik hesabı kontrol edeyim, size geri dönüş yapacağım.",
+      "Size geri dönüş yapacağım.",
+      "Yakında size döneceğim."
+    ]
+  },
+  {
+    "id": "pat032",
+    "term": "Let me check that first",
+    "pronunciation": "let mee chek that furst",
+    "translation": "Önce onu kontrol edeyim",
+    "explanation": "Doğrulamak için zaman isterken.",
+    "sentences": [
+      "Let me check that first in Caesar II.",
+      "Let me check that first.",
+      "Let me check that first before deciding."
+    ],
+    "translations": [
+      "Bunu önce Caesar II'de kontrol edeyim.",
+      "Önce onu kontrol edeyim.",
+      "Karar vermeden önce onu bir kontrol edeyim."
+    ]
+  },
+  {
+    "id": "pat033",
+    "term": "Could you clarify this point?",
+    "pronunciation": "kood yoo KLAR-uh-fahy this poynt",
+    "translation": "Bu noktayı açıklığa kavuşturabilir misiniz?",
+    "explanation": "Anlaşılmayan bir yeri sorarken.",
+    "sentences": [
+      "Could you clarify this point about the interface?",
+      "Could you clarify this point?",
+      "Please, could you clarify this point?"
+    ],
+    "translations": [
+      "Arayüz hakkındaki bu noktayı açıklığa kavuşturabilir misiniz?",
+      "Bu noktayı açıklığa kavuşturabilir misiniz?",
+      "Lütfen, bu noktayı netleştirebilir misiniz?"
+    ]
+  },
+  {
+    "id": "pat034",
+    "term": "We need to look into this",
+    "pronunciation": "wee need too look IN-too this",
+    "translation": "Bunu incelememiz gerekiyor",
+    "explanation": "Detaylı araştırma gerektiğini ifade eder.",
+    "sentences": [
+      "The sudden pressure drop is strange, we need to look into this.",
+      "We need to look into this.",
+      "We definitely need to look into this."
+    ],
+    "translations": [
+      "Ani basınç düşüşü tuhaf, bunu incelememiz gerekiyor.",
+      "Bunu incelememiz gerekiyor.",
+      "Bunu kesinlikle incelememiz gerekiyor."
+    ]
+  },
+  {
+    "id": "pat035",
+    "term": "We need to conduct a failure analysis",
+    "pronunciation": "wee need too kuhn-DUHKT uh FEYL-yer uh-NAL-uh-sis",
+    "translation": "Bir hasar analizi yapmamız gerekiyor",
+    "explanation": "Mekanik arızalardan sonra atılacak ilk adım.",
+    "sentences": [
+      "Before replacing the valve, we need to conduct a failure analysis.",
+      "We need to conduct a failure analysis.",
+      "Management said we need to conduct a failure analysis."
+    ],
+    "translations": [
+      "Vanayı değiştirmeden önce bir hasar analizi yapmamız gerekiyor.",
+      "Bir hasar analizi yapmamız gerekiyor.",
+      "Yönetim hasar analizi yapmamız gerektiğini söyledi."
+    ]
+  },
+  {
+    "id": "pat036",
+    "term": "Check the factor of safety for this design",
+    "pronunciation": "chek thuh FAK-ter uhv SEYF-tee fawr this dih-ZAHYN",
+    "translation": "Bu tasarım için emniyet katsayısını kontrol edin",
+    "explanation": "Tasarım onayı sırasında kullanılır.",
+    "sentences": [
+      "Check the factor of safety for this design in the calculation note.",
+      "Check the factor of safety for this design.",
+      "Please check the factor of safety for this design."
+    ],
+    "translations": [
+      "Hesap notundaki bu tasarım için emniyet katsayısını kontrol edin.",
+      "Bu tasarım için emniyet katsayısını kontrol edin.",
+      "Lütfen bu tasarım için emniyet katsayısını kontrol edin."
+    ]
+  },
+  {
+    "id": "pat037",
+    "term": "Please update the Bill of Materials",
+    "pronunciation": "pleez uhp-DEYT thuh bil uhv muh-TEER-ee-uhlz",
+    "translation": "Lütfen malzeme listesini güncelleyin",
+    "explanation": "Tasarım veya satın alma değişikliğinde söylenir.",
+    "sentences": [
+      "Now that we changed the flanges, please update the Bill of Materials.",
+      "Please update the Bill of Materials.",
+      "Can you please update the Bill of Materials?"
+    ],
+    "translations": [
+      "Flanşları değiştirdiğimize göre, lütfen malzeme listesini güncelleyin.",
+      "Lütfen malzeme listesini güncelleyin.",
+      "Lütfen malzeme listesini güncelleyebilir misiniz?"
+    ]
+  },
+  {
+    "id": "pat038",
+    "term": "Is thermal expansion taken into account?",
+    "pronunciation": "iz THUR-muhl ik-SPAN-shuhn TEY-kuhn in-too uh-KOUNT",
+    "translation": "Isıl genleşme hesaba katıldı mı?",
+    "explanation": "Yüksek sıcaklık hatlarında kontrol sorusu.",
+    "sentences": [
+      "For this steam line, is thermal expansion taken into account?",
+      "Is thermal expansion taken into account?",
+      "I wonder, is thermal expansion taken into account?"
+    ],
+    "translations": [
+      "Bu buhar hattı için, ısıl genleşme hesaba katıldı mı?",
+      "Isıl genleşme hesaba katıldı mı?",
+      "Acaba ısıl genleşme hesaba katıldı mı?"
+    ]
+  },
+  {
+    "id": "pat039",
+    "term": "The pressure drop is higher than expected",
+    "pronunciation": "thuh PRESH-er drop iz HAHY-er than ik-SPEK-tid",
+    "translation": "Basınç düşümü beklenenden daha yüksek",
+    "explanation": "Hidrolik analiz sonucunu değerlendirirken.",
+    "sentences": [
+      "According to AFT Fathom, the pressure drop is higher than expected.",
+      "The pressure drop is higher than expected.",
+      "The pressure drop is higher than expected here."
+    ],
+    "translations": [
+      "AFT Fathom'a göre, basınç düşümü beklenenden daha yüksek.",
+      "Basınç düşümü beklenenden daha yüksek.",
+      "Buradaki basınç düşümü beklenenden yüksek."
     ]
   }
 ]

@@ -50,20 +50,22 @@ function renderSummary(opts) {
 }
 
 /* ---------- Main menu ---------- */
-const MODE_META = [
-  { key: 'flashcards', icon: 'book', title: 'Kelime Kartları', sub: 'Öğren, biliyorum / bilmiyorum' },
-  { key: 'test', icon: 'target', title: 'Test Modu', sub: 'Çoktan seçmeli sınav' },
-  { key: 'fillblank', icon: 'pencil', title: 'Boşluk Doldurma', sub: 'Cümledeki eksik kelime' },
-  { key: 'meeting', icon: 'users', title: 'Meeting Modu', sub: '12 gerçekçi toplantı senaryosu' },
-  { key: 'patterns', icon: 'sparkle', title: 'Günlük Kalıplar', sub: '25 günlük İngilizce kalıp' },
-  { key: 'hizli', icon: 'bolt', title: 'Hızlı Tur', sub: 'Skorlu bonus round' },
-];
+function modeMeta() {
+  return [
+    { key: 'flashcards', icon: 'book', title: 'Kelime Kartları', sub: `${Data.words.length} kelime — öğren, biliyorum / bilmiyorum` },
+    { key: 'test', icon: 'target', title: 'Test Modu', sub: 'Çoktan seçmeli sınav' },
+    { key: 'fillblank', icon: 'pencil', title: 'Boşluk Doldurma', sub: 'Cümledeki eksik kelime' },
+    { key: 'meeting', icon: 'users', title: 'Meeting Modu', sub: `${Data.meetings.length} gerçekçi toplantı senaryosu` },
+    { key: 'patterns', icon: 'sparkle', title: 'Günlük Kalıplar', sub: `${Data.patterns.length} günlük İngilizce kalıp` },
+    { key: 'hizli', icon: 'bolt', title: 'Hızlı Tur', sub: 'Skorlu bonus round' },
+  ];
+}
 
 function renderMenu() {
   setHeader('Kelime Antrenörü');
   const stats = Storage.getStats();
   const weakN = Storage.getWeakPool().length;
-  const cards = MODE_META.map((m) => `
+  const cards = modeMeta().map((m) => `
     <button class="mode-card" data-key="${m.key}">
       <span class="mode-icon">${icon(m.icon, 22)}</span>
       <span class="mode-text">

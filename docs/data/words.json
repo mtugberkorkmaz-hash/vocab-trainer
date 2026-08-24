@@ -10,14 +10,20 @@
         "We measured the flow rate before starting the pump.",
         "A higher flow rate can cause erosion inside the pipe.",
         "Can you check the flow rate on the control panel?",
-        "The engineer calculated the required flow rate for the new line."
+        "The engineer calculated the required flow rate for the new line.",
+        "We need to check the required flow rate.",
+        "The flow rate is stable.",
+        "Increase the flow rate."
       ],
       "translations": [
         "Boru hattının akış hızı 5 m/s'yi geçmemelidir.",
         "Pompayı çalıştırmadan önce akış hızını ölçtük.",
         "Daha yüksek bir akış hızı boru içinde erozyona neden olabilir.",
         "Kontrol panelinden akış hızını kontrol edebilir misin?",
-        "Mühendis yeni hat için gereken akış hızını hesapladı."
+        "Mühendis yeni hat için gereken akış hızını hesapladı.",
+        "Gerekli debiyi kontrol etmeliyiz.",
+        "Debi stabildir.",
+        "Debiyi artırın."
       ],
       "explanation": "\"Flow rate\" (akış hızı/debi) bir sıvının birim zamanda geçtiği miktardır. Cümle yapısı genelde 'the flow rate of X' veya 'flow rate + verb' şeklindedir: 'The flow rate of the pipeline must not exceed...' -> özne (flow rate) + modal (must) + fiil."
     },
@@ -31,14 +37,20 @@
         "We need to reduce the pressure drop in this section.",
         "The pressure drop was higher than expected during the test.",
         "Long pipe runs usually cause more pressure drop.",
-        "Please calculate the pressure drop for the new design."
+        "Please calculate the pressure drop for the new design.",
+        "AFT Fathom calculated the pressure drop.",
+        "The pressure drop is too high.",
+        "Minimize the pressure drop."
       ],
       "translations": [
         "Vana boyunca önemli bir basınç düşüşü var.",
         "Bu bölümdeki basınç düşüşünü azaltmamız gerekiyor.",
         "Test sırasında basınç düşüşü beklenenden daha yüksekti.",
         "Uzun boru hatları genellikle daha fazla basınç düşüşüne neden olur.",
-        "Lütfen yeni tasarım için basınç düşüşünü hesaplayın."
+        "Lütfen yeni tasarım için basınç düşüşünü hesaplayın.",
+        "AFT Fathom basınç düşümünü hesapladı.",
+        "Basınç düşümü çok yüksek.",
+        "Basınç düşümünü en aza indirin."
       ],
       "explanation": "\"Pressure drop\" (basınç düşüşü) bir hat boyunca oluşan basınç kaybıdır. Sık kullanılan yapı: 'pressure drop across/in + [ekipman]': 'There is a pressure drop across the valve.' -> 'there is/are' + isim tamlaması + across/in."
     },
@@ -73,14 +85,20 @@
         "The corrosion allowance depends on the fluid being transported.",
         "Without a corrosion allowance, the pipe would fail sooner.",
         "The client requested a higher corrosion allowance for this project.",
-        "Corrosion allowance is included in the mechanical design."
+        "Corrosion allowance is included in the mechanical design.",
+        "Add a 3mm corrosion allowance.",
+        "What is the corrosion allowance?",
+        "The corrosion allowance is required."
       ],
       "translations": [
         "Et kalınlığına 3 mm korozyon payı ekledik.",
         "Korozyon payı taşınan akışkana bağlıdır.",
         "Korozyon payı olmadan boru daha erken arızalanır.",
         "Müşteri bu proje için daha yüksek bir korozyon payı talep etti.",
-        "Korozyon payı mekanik tasarıma dahil edilmiştir."
+        "Korozyon payı mekanik tasarıma dahil edilmiştir.",
+        "3 mm korozyon payı ekleyin.",
+        "Korozyon payı nedir?",
+        "Korozyon payı gereklidir."
       ],
       "explanation": "\"Corrosion allowance\" (korozyon payı) boru et kalınlığına eklenen ek pay. Yapı: 'add a corrosion allowance of X mm to Y': fiil (add) + miktar + 'to' + hedef."
     },
@@ -199,14 +217,20 @@
         "We must never exceed the design pressure.",
         "The design pressure was set by the process team.",
         "Confirm the design pressure before ordering the pipe.",
-        "The safety valve opens above the design pressure."
+        "The safety valve opens above the design pressure.",
+        "The design pressure must meet ASME codes.",
+        "Check the design pressure.",
+        "It exceeds design pressure."
       ],
       "translations": [
         "Bu kabın tasarım basıncı 10 bardır.",
         "Tasarım basıncını asla aşmamalıyız.",
         "Tasarım basıncı proses ekibi tarafından belirlendi.",
         "Boruyu sipariş etmeden önce tasarım basıncını teyit edin.",
-        "Emniyet vanası tasarım basıncının üzerinde açılır."
+        "Emniyet vanası tasarım basıncının üzerinde açılır.",
+        "Tasarım basıncı ASME kodlarını karşılamalıdır.",
+        "Tasarım basıncını kontrol edin.",
+        "Tasarım basıncını aşıyor."
       ],
       "explanation": "\"Design pressure\" (tasarım basıncı) ekipmanın güvenle çalışabileceği maksimum basınç. Yapı: 'the design pressure of X is Y': özne + is + değer, veya 'must never exceed the design pressure' (modal + fiil + nesne)."
     },
@@ -220,14 +244,20 @@
         "We measured the wall thickness with an ultrasonic gauge.",
         "Reduced wall thickness can lead to failure.",
         "The wall thickness calculation includes the corrosion allowance.",
-        "This schedule 40 pipe has a standard wall thickness."
+        "This schedule 40 pipe has a standard wall thickness.",
+        "The PVC wall thickness depends on the SDR.",
+        "Calculate the wall thickness.",
+        "The wall thickness is adequate."
       ],
       "translations": [
         "Et kalınlığı, yönetmelik gereksinimini karşılamalıdır.",
         "Et kalınlığını ultrasonik ölçer ile ölçtük.",
         "Azalan et kalınlığı arızaya yol açabilir.",
         "Et kalınlığı hesabı korozyon payını içerir.",
-        "Bu schedule 40 boru standart bir et kalınlığına sahiptir."
+        "Bu schedule 40 boru standart bir et kalınlığına sahiptir.",
+        "PVC et kalınlığı SDR'ye bağlıdır.",
+        "Et kalınlığını hesaplayın.",
+        "Et kalınlığı yeterlidir."
       ],
       "explanation": "\"Wall thickness\" (et kalınlığı) borunun duvar kalınlığı. Yapı: 'wall thickness must meet/include X': özne + modal + fiil + nesne."
     },
@@ -251,6 +281,635 @@
         "Bu as-built çizim proje arşivine girecek."
       ],
       "explanation": "\"As-built drawing\" (yapıldığı gibi çizim) inşaat sonrası sahadaki gerçek durumu yansıtan çizim. Yapı: 'submit/compare + the as-built drawing': emir/fiil + belirli nesne."
+    },
+    {
+      "id": "eng013",
+      "term": "specify",
+      "pronunciation": "SPES-uh-fahy",
+      "translation": "belirtmek, şart koşmak",
+      "sentences": [
+        "The standard specifies the use of SDR for PVC.",
+        "Please specify the color.",
+        "They didn't specify the time."
+      ],
+      "translations": [
+        "Standart, PVC için SDR kullanımını şart koşar.",
+        "Lütfen rengi belirtin.",
+        "Zamanı belirtmediler."
+      ],
+      "explanation": "Açıkça ifade etmek."
+    },
+    {
+      "id": "eng014",
+      "term": "comply",
+      "pronunciation": "kuhm-PLAHY",
+      "translation": "uymak",
+      "sentences": [
+        "The design must comply with ASME B31.3.",
+        "We comply with regulations.",
+        "Failure to comply is risky."
+      ],
+      "translations": [
+        "Tasarım ASME B31.3'e uymalıdır.",
+        "Yönetmeliklere uyuyoruz.",
+        "Uymamak risklidir."
+      ],
+      "explanation": "Kurallara uygun olmak."
+    },
+    {
+      "id": "eng015",
+      "term": "revise",
+      "pronunciation": "ri-VAIZ",
+      "translation": "revize etmek",
+      "sentences": [
+        "I need to revise the dietitian website.",
+        "Revise the drawing.",
+        "The document is revised."
+      ],
+      "translations": [
+        "Diyetisyen web sitesini revize etmem gerekiyor.",
+        "Çizimi revize edin.",
+        "Belge revize edildi."
+      ],
+      "explanation": "Gözden geçirip düzeltmek."
+    },
+    {
+      "id": "eng016",
+      "term": "failure analysis",
+      "pronunciation": "FEYL-yer uh-NAL-uh-sis",
+      "translation": "hasar analizi",
+      "sentences": [
+        "We performed a failure analysis on the pump.",
+        "The failure analysis report is ready.",
+        "He specializes in failure analysis."
+      ],
+      "translations": [
+        "Pompa üzerinde hasar analizi yaptık.",
+        "Hasar analizi raporu hazır.",
+        "O hasar analizi konusunda uzmandır."
+      ],
+      "explanation": "Bozulma nedenini inceleme."
+    },
+    {
+      "id": "eng017",
+      "term": "fatigue life",
+      "pronunciation": "fuh-TEEG lahyf",
+      "translation": "yorulma ömrü",
+      "sentences": [
+        "Caesar II helps calculate the fatigue life.",
+        "The fatigue life is over.",
+        "Increase the fatigue life."
+      ],
+      "translations": [
+        "Caesar II yorulma ömrünü hesaplamaya yardımcı olur.",
+        "Yorulma ömrü bitti.",
+        "Yorulma ömrünü artırın."
+      ],
+      "explanation": "Malzemenin tekrarlı yüke dayanma süresi."
+    },
+    {
+      "id": "eng018",
+      "term": "finite element analysis (FEA)",
+      "pronunciation": "FAHY-nahyt EL-uh-muhnt uh-NAL-uh-sis",
+      "translation": "sonlu elemanlar analizi",
+      "sentences": [
+        "FEA is required for this nozzle.",
+        "Run an FEA simulation.",
+        "The FEA results are accurate."
+      ],
+      "translations": [
+        "Bu nozul için FEA gereklidir.",
+        "Bir FEA simülasyonu çalıştırın.",
+        "FEA sonuçları doğrudur."
+      ],
+      "explanation": "Karmaşık yapısal analiz yöntemi."
+    },
+    {
+      "id": "eng019",
+      "term": "factor of safety",
+      "pronunciation": "FAK-ter uhv SEYF-tee",
+      "translation": "emniyet katsayısı",
+      "sentences": [
+        "What is the factor of safety for this pipe?",
+        "Use a higher factor of safety.",
+        "The factor of safety is 2.5."
+      ],
+      "translations": [
+        "Bu boru için emniyet katsayısı nedir?",
+        "Daha yüksek bir emniyet katsayısı kullanın.",
+        "Emniyet katsayısı 2.5'tir."
+      ],
+      "explanation": "Tasarımda güvenliği sağlayan oran."
+    },
+    {
+      "id": "eng020",
+      "term": "manufacturing tolerance",
+      "pronunciation": "man-yuh-FAK-cher-ing TOL-er-uhns",
+      "translation": "imalat toleransı",
+      "sentences": [
+        "Check the manufacturing tolerance.",
+        "The tolerance is very tight.",
+        "It exceeds manufacturing tolerance."
+      ],
+      "translations": [
+        "İmalat toleransını kontrol edin.",
+        "Tolerans çok dar.",
+        "İmalat toleransını aşıyor."
+      ],
+      "explanation": "Üretimde kabul edilebilir sapma."
+    },
+    {
+      "id": "eng021",
+      "term": "bill of materials (BOM)",
+      "pronunciation": "bil uhv muh-TEER-ee-uhlz",
+      "translation": "malzeme listesi",
+      "sentences": [
+        "Add the PVC pipes to the BOM.",
+        "The BOM is updated.",
+        "Check the BOM again."
+      ],
+      "translations": [
+        "PVC boruları malzeme listesine ekleyin.",
+        "Malzeme listesi güncellendi.",
+        "Malzeme listesini tekrar kontrol et."
+      ],
+      "explanation": "Gerekli parçaların listesi."
+    },
+    {
+      "id": "eng022",
+      "term": "clearance",
+      "pronunciation": "KLEER-uhns",
+      "translation": "boşluk / açıklık",
+      "sentences": [
+        "Ensure there is enough clearance for the valve.",
+        "The clearance is too small.",
+        "Check the required clearance."
+      ],
+      "translations": [
+        "Vana için yeterli boşluk olduğundan emin olun.",
+        "Boşluk çok küçük.",
+        "Gerekli boşluğu kontrol edin."
+      ],
+      "explanation": "İki parça arasındaki mesafe."
+    },
+    {
+      "id": "eng023",
+      "term": "wear and tear",
+      "pronunciation": "wair uhnd tair",
+      "translation": "aşınma ve yıpranma",
+      "sentences": [
+        "The gasket failed due to normal wear and tear.",
+        "Watch out for wear and tear.",
+        "It resists wear and tear."
+      ],
+      "translations": [
+        "Conta normal aşınma ve yıpranma nedeniyle hasar gördü.",
+        "Aşınma ve yıpranmaya dikkat edin.",
+        "Aşınma ve yıpranmaya karşı dayanıklıdır."
+      ],
+      "explanation": "Normal kullanımdan kaynaklanan hasar."
+    },
+    {
+      "id": "eng024",
+      "term": "tensile strength",
+      "pronunciation": "TEN-sil strengkth",
+      "translation": "çekme dayanımı",
+      "sentences": [
+        "The tensile strength of the steel is high.",
+        "Test the tensile strength.",
+        "Low tensile strength causes failure."
+      ],
+      "translations": [
+        "Çeliğin çekme dayanımı yüksektir.",
+        "Çekme dayanımını test edin.",
+        "Düşük çekme dayanımı hasara neden olur."
+      ],
+      "explanation": "Malzemenin kopmaya karşı direnci."
+    },
+    {
+      "id": "eng025",
+      "term": "fluid dynamics",
+      "pronunciation": "FLOO-id dahy-NAM-iks",
+      "translation": "akışkanlar mekaniği",
+      "sentences": [
+        "AFT Fathom is based on fluid dynamics.",
+        "I studied fluid dynamics.",
+        "Fluid dynamics is complex."
+      ],
+      "translations": [
+        "AFT Fathom akışkanlar mekaniğine dayanır.",
+        "Akışkanlar mekaniği okudum.",
+        "Akışkanlar mekaniği karmaşıktır."
+      ],
+      "explanation": "Sıvı ve gazların hareketi."
+    },
+    {
+      "id": "eng026",
+      "term": "thermal expansion",
+      "pronunciation": "THUR-muhl ik-SPAN-shuhn",
+      "translation": "ısıl genleşme",
+      "sentences": [
+        "Caesar II handles thermal expansion well.",
+        "Account for thermal expansion.",
+        "Thermal expansion caused the leak."
+      ],
+      "translations": [
+        "Caesar II ısıl genleşmeyi iyi yönetir.",
+        "Isıl genleşmeyi hesaba katın.",
+        "Sızıntıya ısıl genleşme neden oldu."
+      ],
+      "explanation": "Sıcaklıkla hacim artışı."
+    },
+    {
+      "id": "eng027",
+      "term": "vibration damping",
+      "pronunciation": "vahy-BREY-shuhn DAM-ping",
+      "translation": "titreşim sönümleme",
+      "sentences": [
+        "We need better vibration damping for the pump.",
+        "Vibration damping is applied.",
+        "It lacks vibration damping."
+      ],
+      "translations": [
+        "Pompa için daha iyi titreşim sönümlemeye ihtiyacımız var.",
+        "Titreşim sönümleme uygulandı.",
+        "Titreşim sönümlemesi eksik."
+      ],
+      "explanation": "Titreşimi azaltma."
+    },
+    {
+      "id": "eng028",
+      "term": "torque wrench",
+      "pronunciation": "tawrk rench",
+      "translation": "tork anahtarı",
+      "sentences": [
+        "Use a torque wrench for the flanges.",
+        "The torque wrench is calibrated.",
+        "Hand me the torque wrench."
+      ],
+      "translations": [
+        "Flanşlar için bir tork anahtarı kullanın.",
+        "Tork anahtarı kalibre edilmiştir.",
+        "Bana tork anahtarını uzat."
+      ],
+      "explanation": "Sıkma kuvvetini ayarlayan alet."
+    },
+    {
+      "id": "eng029",
+      "term": "preventive maintenance",
+      "pronunciation": "pri-VEN-tiv MEYN-tuh-nuhns",
+      "translation": "önleyici bakım",
+      "sentences": [
+        "Preventive maintenance extends equipment life.",
+        "Schedule the preventive maintenance.",
+        "We skip preventive maintenance sometimes."
+      ],
+      "translations": [
+        "Önleyici bakım ekipman ömrünü uzatır.",
+        "Önleyici bakımı planlayın.",
+        "Bazen önleyici bakımı atlıyoruz."
+      ],
+      "explanation": "Arıza öncesi yapılan bakım."
+    },
+    {
+      "id": "eng030",
+      "term": "rotating equipment",
+      "pronunciation": "ROH-tey-ting ih-KWIP-muhnt",
+      "translation": "dönen ekipman",
+      "sentences": [
+        "Pumps and compressors are rotating equipment.",
+        "Check the rotating equipment.",
+        "Rotating equipment needs alignment."
+      ],
+      "translations": [
+        "Pompalar ve kompresörler dönen ekipmanlardır.",
+        "Dönen ekipmanı kontrol edin.",
+        "Dönen ekipman hizalama gerektirir."
+      ],
+      "explanation": "Motor, pompa gibi dönen makinalar."
+    },
+    {
+      "id": "eng031",
+      "term": "static load",
+      "pronunciation": "STAT-ik lohd",
+      "translation": "statik yük",
+      "sentences": [
+        "Calculate the static load on the support.",
+        "The static load is constant.",
+        "It can hold heavy static load."
+      ],
+      "translations": [
+        "Destek üzerindeki statik yükü hesaplayın.",
+        "Statik yük sabittir.",
+        "Ağır statik yük taşıyabilir."
+      ],
+      "explanation": "Hareket etmeyen sabit ağırlık."
+    },
+    {
+      "id": "eng032",
+      "term": "assembly drawing",
+      "pronunciation": "uh-SEM-blee DRAW-ing",
+      "translation": "montaj resmi",
+      "sentences": [
+        "Follow the assembly drawing carefully.",
+        "The assembly drawing is missing.",
+        "Revise the assembly drawing."
+      ],
+      "translations": [
+        "Montaj resmini dikkatlice takip edin.",
+        "Montaj resmi eksik.",
+        "Montaj resmini revize edin."
+      ],
+      "explanation": "Parçaların birleşimini gösteren çizim."
+    },
+    {
+      "id": "eng033",
+      "term": "friction coefficient",
+      "pronunciation": "FRIK-shuhn koh-uh-FISH-uhnt",
+      "translation": "sürtünme katsayısı",
+      "sentences": [
+        "The friction coefficient is entered in AFT Fathom.",
+        "It has a low friction coefficient.",
+        "Find the friction coefficient."
+      ],
+      "translations": [
+        "Sürtünme katsayısı AFT Fathom'a girilir.",
+        "Düşük bir sürtünme katsayısına sahiptir.",
+        "Sürtünme katsayısını bulun."
+      ],
+      "explanation": "Yüzeyler arası direnç değeri."
+    },
+    {
+      "id": "eng034",
+      "term": "spare parts",
+      "pronunciation": "spair pahrts",
+      "translation": "yedek parçalar",
+      "sentences": [
+        "Order the spare parts for the valve.",
+        "Keep spare parts in stock.",
+        "The spare parts arrived."
+      ],
+      "translations": [
+        "Vana için yedek parçaları sipariş edin.",
+        "Yedek parçaları stokta tutun.",
+        "Yedek parçalar geldi."
+      ],
+      "explanation": "Arıza durumunda kullanılacak parçalar."
+    },
+    {
+      "id": "eng035",
+      "term": "design temperature",
+      "pronunciation": "dih-ZAHYN TEM-per-uh-cher",
+      "translation": "tasarım sıcaklığı",
+      "sentences": [
+        "The design temperature affects material choice.",
+        "Input the design temperature.",
+        "The design temperature is high."
+      ],
+      "translations": [
+        "Tasarım sıcaklığı malzeme seçimini etkiler.",
+        "Tasarım sıcaklığını girin.",
+        "Tasarım sıcaklığı yüksektir."
+      ],
+      "explanation": "Tasarımda baz alınan sıcaklık."
+    },
+    {
+      "id": "eng036",
+      "term": "operating pressure",
+      "pronunciation": "OP-uh-rey-ting PRESH-er",
+      "translation": "işletme basıncı",
+      "sentences": [
+        "The operating pressure is lower than design.",
+        "Monitor the operating pressure.",
+        "Operating pressure dropped."
+      ],
+      "translations": [
+        "İşletme basıncı tasarımdan daha düşüktür.",
+        "İşletme basıncını izleyin.",
+        "İşletme basıncı düştü."
+      ],
+      "explanation": "Normal çalışma sırasındaki basınç."
+    },
+    {
+      "id": "eng037",
+      "term": "operating temperature",
+      "pronunciation": "OP-uh-rey-ting TEM-per-uh-cher",
+      "translation": "işletme sıcaklığı",
+      "sentences": [
+        "Maintain the operating temperature.",
+        "The operating temperature fluctuates.",
+        "Check the operating temperature."
+      ],
+      "translations": [
+        "İşletme sıcaklığını koruyun.",
+        "İşletme sıcaklığı dalgalanıyor.",
+        "İşletme sıcaklığını kontrol edin."
+      ],
+      "explanation": "Normal çalışma sıcaklığı."
+    },
+    {
+      "id": "eng038",
+      "term": "pipe support",
+      "pronunciation": "pahyp suh-PAWRT",
+      "translation": "boru desteği",
+      "sentences": [
+        "Caesar II highlights the failed pipe support.",
+        "Install the pipe support here.",
+        "The pipe support is broken."
+      ],
+      "translations": [
+        "Caesar II hasarlı boru desteğini vurgular.",
+        "Boru desteğini buraya kurun.",
+        "Boru desteği kırık."
+      ],
+      "explanation": "Boruyu taşıyan eleman."
+    },
+    {
+      "id": "eng039",
+      "term": "branch connection",
+      "pronunciation": "branch kuh-NEK-shuhn",
+      "translation": "branşman bağlantısı",
+      "sentences": [
+        "Reinforce the branch connection.",
+        "Design the branch connection.",
+        "The branch connection leaked."
+      ],
+      "translations": [
+        "Branşman bağlantısını güçlendirin.",
+        "Branşman bağlantısını tasarlayın.",
+        "Branşman bağlantısı sızdırdı."
+      ],
+      "explanation": "Ana hattan ayrılan kol."
+    },
+    {
+      "id": "eng040",
+      "term": "flange rating",
+      "pronunciation": "flanj REY-ting",
+      "translation": "flanş basınç sınıfı",
+      "sentences": [
+        "Verify the flange rating for 150 lbs.",
+        "The flange rating is insufficient.",
+        "Check the flange rating."
+      ],
+      "translations": [
+        "150 lbs için flanş sınıfını doğrulayın.",
+        "Flanş sınıfı yetersiz.",
+        "Flanş sınıfını kontrol edin."
+      ],
+      "explanation": "Flanşın dayanım sınıfı."
+    },
+    {
+      "id": "eng041",
+      "term": "gasket",
+      "pronunciation": "GAS-kit",
+      "translation": "conta",
+      "sentences": [
+        "Replace the gasket to prevent leaks.",
+        "The gasket is worn out.",
+        "Order a new gasket."
+      ],
+      "translations": [
+        "Sızıntıları önlemek için contayı değiştirin.",
+        "Conta yıpranmış.",
+        "Yeni bir conta sipariş edin."
+      ],
+      "explanation": "Sızdırmazlık elemanı."
+    },
+    {
+      "id": "eng042",
+      "term": "valve body",
+      "pronunciation": "valv BOD-ee",
+      "translation": "vana gövdesi",
+      "sentences": [
+        "The valve body is made of carbon steel.",
+        "Inspect the valve body.",
+        "The valve body is cracked."
+      ],
+      "translations": [
+        "Vana gövdesi karbon çeliğinden yapılmıştır.",
+        "Vana gövdesini inceleyin.",
+        "Vana gövdesi çatlamış."
+      ],
+      "explanation": "Vananın ana dış yapısı."
+    },
+    {
+      "id": "eng043",
+      "term": "valve trim",
+      "pronunciation": "valv trim",
+      "translation": "vana iç aksamı",
+      "sentences": [
+        "The valve trim needs to be stainless steel.",
+        "Clean the valve trim.",
+        "The valve trim is damaged."
+      ],
+      "translations": [
+        "Vana iç aksamının paslanmaz çelik olması gerekir.",
+        "Vana iç aksamını temizleyin.",
+        "Vana iç aksamı hasarlı."
+      ],
+      "explanation": "Vananın iç hareketli parçaları."
+    },
+    {
+      "id": "eng044",
+      "term": "shut-off valve",
+      "pronunciation": "SHUHT-awf valv",
+      "translation": "kesme vanası",
+      "sentences": [
+        "Close the shut-off valve immediately.",
+        "The shut-off valve is stuck.",
+        "Install a shut-off valve."
+      ],
+      "translations": [
+        "Kesme vanasını hemen kapatın.",
+        "Kesme vanası sıkışmış.",
+        "Bir kesme vanası takın."
+      ],
+      "explanation": "Akışı tamamen durduran vana."
+    },
+    {
+      "id": "eng045",
+      "term": "check valve",
+      "pronunciation": "chek valv",
+      "translation": "çekvalf",
+      "sentences": [
+        "The check valve prevents backflow.",
+        "The check valve is noisy.",
+        "Replace the check valve."
+      ],
+      "translations": [
+        "Çekvalf geri akışı önler.",
+        "Çekvalf gürültülü çalışıyor.",
+        "Çekvalfi değiştirin."
+      ],
+      "explanation": "Tek yönlü akış sağlayan vana."
+    },
+    {
+      "id": "eng046",
+      "term": "control valve",
+      "pronunciation": "kuhn-TROHL valv",
+      "translation": "kontrol vanası",
+      "sentences": [
+        "Adjust the control valve setpoint.",
+        "The control valve is open.",
+        "Calibrate the control valve."
+      ],
+      "translations": [
+        "Kontrol vanası ayar noktasını ayarlayın.",
+        "Kontrol vanası açık.",
+        "Kontrol vanasını kalibre edin."
+      ],
+      "explanation": "Akışı/basıncı ayarlayan vana."
+    },
+    {
+      "id": "eng047",
+      "term": "expansion joint",
+      "pronunciation": "ik-SPAN-shuhn joynt",
+      "translation": "kompansatör",
+      "sentences": [
+        "We added an expansion joint in Caesar II.",
+        "The expansion joint failed.",
+        "Check the expansion joint."
+      ],
+      "translations": [
+        "Caesar II'de bir kompansatör ekledik.",
+        "Kompansatör hasar gördü.",
+        "Kompansatörü kontrol edin."
+      ],
+      "explanation": "Genleşmeyi emen bağlantı."
+    },
+    {
+      "id": "eng048",
+      "term": "drain",
+      "pronunciation": "dreyn",
+      "translation": "drenaj",
+      "sentences": [
+        "Open the drain before maintenance.",
+        "The drain is blocked.",
+        "Connect the drain pipe."
+      ],
+      "translations": [
+        "Bakımdan önce drenajı açın.",
+        "Drenaj tıkalı.",
+        "Drenaj borusunu bağlayın."
+      ],
+      "explanation": "Sıvıyı boşaltma hattı."
+    },
+    {
+      "id": "eng049",
+      "term": "vent",
+      "pronunciation": "vent",
+      "translation": "havalık / vent",
+      "sentences": [
+        "The vent allows trapped air to escape.",
+        "Close the vent.",
+        "The vent is necessary."
+      ],
+      "translations": [
+        "Havalık, sıkışmış havanın kaçmasına izin verir.",
+        "Havalığı kapatın.",
+        "Havalık gereklidir."
+      ],
+      "explanation": "Gaz veya hava tahliye noktası."
     }
   ],
   "meeting": [
@@ -505,6 +1164,142 @@
         "Bütçe konusunda aynı anlayışta mıyız?"
       ],
       "explanation": "\"To get on the same page\" aynı anlayışa/görüşe sahip olmak. Yapı: 'be/get on the same page (about + konu)': fiil + sabit ifade + about. Yanlış anlaşılmaları önlemek için kullanılır."
+    },
+    {
+      "id": "mtg013",
+      "term": "refer to",
+      "pronunciation": "ri-FUR too",
+      "translation": "atıfta bulunmak, başvurmak",
+      "sentences": [
+        "Please refer to the ASME B31.3 code.",
+        "Refer to the calculation note.",
+        "I refer to the previous email."
+      ],
+      "translations": [
+        "Lütfen ASME B31.3 koduna başvurun.",
+        "Hesap notuna başvurun.",
+        "Önceki e-postaya atıfta bulunuyorum."
+      ],
+      "explanation": "Bir kaynağa veya konuya yönlendirme."
+    },
+    {
+      "id": "mtg014",
+      "term": "attend",
+      "pronunciation": "uh-TEND",
+      "translation": "katılmak",
+      "sentences": [
+        "I will attend the meeting from Düzce.",
+        "Esra will attend the seminar.",
+        "He cannot attend today."
+      ],
+      "translations": [
+        "Toplantıya Düzce'den katılacağım.",
+        "Esra seminere katılacak.",
+        "Bugün katılamaz."
+      ],
+      "explanation": "Bir etkinlikte bulunmak."
+    },
+    {
+      "id": "mtg015",
+      "term": "ensure",
+      "pronunciation": "en-SHOOR",
+      "translation": "sağlamak, emin olmak",
+      "sentences": [
+        "Ensure your X account is secure.",
+        "Ensure the valve is closed.",
+        "We must ensure compliance."
+      ],
+      "translations": [
+        "X hesabınızın güvende olduğundan emin olun.",
+        "Vananın kapalı olduğundan emin olun.",
+        "Uyumluluğu sağlamalıyız."
+      ],
+      "explanation": "Garantiye almak."
+    },
+    {
+      "id": "mtg016",
+      "term": "confirm",
+      "pronunciation": "kuhn-FURM",
+      "translation": "teyit etmek",
+      "sentences": [
+        "Please confirm the pipe manufacturer details.",
+        "Confirm the appointment.",
+        "I will confirm tomorrow."
+      ],
+      "translations": [
+        "Lütfen boru üreticisi detaylarını teyit edin.",
+        "Randevuyu teyit et.",
+        "Yarın teyit edeceğim."
+      ],
+      "explanation": "Doğrulamak."
+    },
+    {
+      "id": "mtg017",
+      "term": "clarify",
+      "pronunciation": "KLAR-uh-fahy",
+      "translation": "açıklığa kavuşturmak",
+      "sentences": [
+        "Could you clarify the AFT Fathom menu settings?",
+        "Let me clarify this point.",
+        "We need to clarify the budget."
+      ],
+      "translations": [
+        "AFT Fathom menü ayarlarını açıklığa kavuşturabilir misiniz?",
+        "Bu noktayı açıklığa kavuşturayım.",
+        "Bütçeyi netleştirmeliyiz."
+      ],
+      "explanation": "Netleştirmek."
+    },
+    {
+      "id": "mtg018",
+      "term": "consider",
+      "pronunciation": "kuhn-SID-er",
+      "translation": "dikkate almak",
+      "sentences": [
+        "Consider buying a car in November.",
+        "Consider the thermal expansion.",
+        "We will consider your offer."
+      ],
+      "translations": [
+        "Kasım ayında araba almayı düşünün.",
+        "Isıl genleşmeyi dikkate alın.",
+        "Teklifinizi değerlendireceğiz."
+      ],
+      "explanation": "Hesaba katmak."
+    },
+    {
+      "id": "mtg019",
+      "term": "proceed",
+      "pronunciation": "proh-SEED",
+      "translation": "devam etmek, ilerlemek",
+      "sentences": [
+        "Let's proceed with the hydraulic calculation.",
+        "Proceed with caution.",
+        "How should we proceed?"
+      ],
+      "translations": [
+        "Hidrolik hesaplama ile devam edelim.",
+        "Dikkatli ilerleyin.",
+        "Nasıl ilerlemeliyiz?"
+      ],
+      "explanation": "Bir sonraki adıma geçmek."
+    },
+    {
+      "id": "mtg020",
+      "term": "feasibility study",
+      "pronunciation": "fee-zuh-BIL-i-tee STUHD-ee",
+      "translation": "fizibilite çalışması",
+      "sentences": [
+        "The feasibility study for the new pipeline is done.",
+        "Start the feasibility study.",
+        "The feasibility study looks good."
+      ],
+      "translations": [
+        "Yeni boru hattı için fizibilite çalışması tamamlandı.",
+        "Fizibilite çalışmasını başlatın.",
+        "Fizibilite çalışması iyi görünüyor."
+      ],
+      "explanation": "Uygulanabilirlik araştırması."
     }
   ],
   "daily": [
@@ -675,6 +1470,176 @@
         "Çok çalıştı ve sonunda başardı."
       ],
       "explanation": "\"To make it\" bir yere yetişmek veya bir işi başarmak. Yapı: 'make it (to + yer) (on time)': fiil + sabit ifade, genelde zaman/yer belirteci ile birlikte."
+    },
+    {
+      "id": "day009",
+      "term": "stuck",
+      "pronunciation": "stuhk",
+      "translation": "sıkışmış, takılmış",
+      "sentences": [
+        "I am stuck on the PMP exam preparation.",
+        "The valve is stuck.",
+        "We are stuck on this step."
+      ],
+      "translations": [
+        "PMP sınavı hazırlığında takıldım.",
+        "Vana sıkışmış.",
+        "Bu adımda takıldık."
+      ],
+      "explanation": "İlerleyememe hali."
+    },
+    {
+      "id": "day010",
+      "term": "interchangeably",
+      "pronunciation": "in-ter-CHEYN-juh-blee",
+      "translation": "birbirinin yerine kullanılabilir şekilde",
+      "sentences": [
+        "SDR and schedule are not used interchangeably for PVC.",
+        "These materials can be used interchangeably.",
+        "Terms are used interchangeably."
+      ],
+      "translations": [
+        "PVC için SDR ve schedule birbirinin yerine kullanılamaz.",
+        "Bu malzemeler birbirinin yerine kullanılabilir.",
+        "Terimler birbirinin yerine kullanılır."
+      ],
+      "explanation": "Değişimli kullanım."
+    },
+    {
+      "id": "day011",
+      "term": "interchange",
+      "pronunciation": "in-ter-CHEYN-j",
+      "translation": "birbirinin yerine kullanmak/değiştirmek",
+      "sentences": [
+        "We can interchange these two pump models.",
+        "Do not interchange the components.",
+        "They interchange roles often."
+      ],
+      "translations": [
+        "Bu iki pompa modelini birbirinin yerine kullanabiliriz.",
+        "Bileşenleri değiştirmeyin.",
+        "Rolleri sık sık değiştirirler."
+      ],
+      "explanation": "Yer değiştirme."
+    },
+    {
+      "id": "day012",
+      "term": "tend to",
+      "pronunciation": "tend too",
+      "translation": "eğiliminde olmak",
+      "sentences": [
+        "I tend to prefer the VW Polo over the Clio.",
+        "Pipes tend to corrode here.",
+        "We tend to agree."
+      ],
+      "translations": [
+        "Clio yerine VW Polo'yu tercih etme eğilimindeyim.",
+        "Borular burada korozyona uğrama eğilimindedir.",
+        "Katılma eğilimindeyiz."
+      ],
+      "explanation": "Bir şeye yatkın olmak."
+    },
+    {
+      "id": "day013",
+      "term": "distinguish",
+      "pronunciation": "dih-STING-gwish",
+      "translation": "ayırt etmek",
+      "sentences": [
+        "We must distinguish between a manufacturer and an architectural firm.",
+        "It is hard to distinguish the colors.",
+        "Can you distinguish the failure modes?"
+      ],
+      "translations": [
+        "Bir üretici ile mimarlık firmasını ayırt etmeliyiz.",
+        "Renkleri ayırt etmek zor.",
+        "Hasar modlarını ayırt edebilir misin?"
+      ],
+      "explanation": "Farkı anlamak."
+    },
+    {
+      "id": "day014",
+      "term": "relevant",
+      "pronunciation": "REL-uh-vuhnt",
+      "translation": "ilgili",
+      "sentences": [
+        "Are these PMP resources relevant?",
+        "Please send the relevant files.",
+        "This is not relevant."
+      ],
+      "translations": [
+        "Bu PMP kaynakları alakalı mı?",
+        "Lütfen ilgili dosyaları gönderin.",
+        "Bu konuyla alakalı değil."
+      ],
+      "explanation": "Konuyla alakalı."
+    },
+    {
+      "id": "day015",
+      "term": "appropriate",
+      "pronunciation": "uh-PROH-pree-it",
+      "translation": "uygun",
+      "sentences": [
+        "This PVC SDR is appropriate for the pressure.",
+        "Is this time appropriate?",
+        "Take appropriate actions."
+      ],
+      "translations": [
+        "Bu PVC SDR basınç için uygundur.",
+        "Bu zaman uygun mu?",
+        "Uygun önlemleri alın."
+      ],
+      "explanation": "Duruma uyan."
+    },
+    {
+      "id": "day016",
+      "term": "available",
+      "pronunciation": "uh-VEY-luh-buhl",
+      "translation": "mevcut, erişilebilir",
+      "sentences": [
+        "The AFT Fathom license is available.",
+        "Are you available at 3 PM?",
+        "The parts are not available."
+      ],
+      "translations": [
+        "AFT Fathom lisansı mevcuttur.",
+        "Saat 3'te müsait misiniz?",
+        "Parçalar mevcut değil."
+      ],
+      "explanation": "Kullanıma hazır."
+    },
+    {
+      "id": "day017",
+      "term": "required",
+      "pronunciation": "ri-KWAHY-erd",
+      "translation": "gerekli",
+      "sentences": [
+        "A master's thesis is required for graduation.",
+        "Safety glasses are required.",
+        "Is this required?"
+      ],
+      "translations": [
+        "Mezuniyet için yüksek lisans tezi gereklidir.",
+        "Güvenlik gözlüğü gereklidir.",
+        "Bu gerekli mi?"
+      ],
+      "explanation": "İhtiyaç duyulan."
+    },
+    {
+      "id": "day018",
+      "term": "assume",
+      "pronunciation": "uh-SOOM",
+      "translation": "varsaymak",
+      "sentences": [
+        "Do not assume the schedule applies to PVC.",
+        "I assume you are ready.",
+        "Let's assume this works."
+      ],
+      "translations": [
+        "Schedule değerinin PVC için geçerli olduğunu varsaymayın.",
+        "Hazır olduğunu varsayıyorum.",
+        "Bunun işe yaradığını varsayalım."
+      ],
+      "explanation": "Kanıtsız kabul etmek."
     }
   ]
 }

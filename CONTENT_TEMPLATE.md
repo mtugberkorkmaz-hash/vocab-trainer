@@ -103,3 +103,41 @@ Bu formatlardan istediğin kadarını doldurup mesaj olarak yapıştır — JSON
 geçerliliğini kontrol eder, mevcut verilerle birleştirir, `data/` ve
 `docs/data/` klasörlerini güncellerim. Değişiklikleri GitHub'a göndermek
 (`git push`) için son onayı senden alırım.
+
+## 4) B2 kurs dersi (lessons.json) formatı
+
+Her B2 dersi `data/lessons.json` (ve `docs/data/lessons.json`) içine tek bir
+nesne olarak eklenir. Uygulamada **B2 Dersleri** menüsünde ayrı bir sayfa
+olarak görünür (en yeni ders en üstte). Ders kelimeleri "Karışık" kategorisine
+karışmaz; ama Zayıf Havuz ve ilerleme takibine dahildir.
+
+```json
+{
+  "id": "L1A",
+  "code": "1A",
+  "title": "Online Shopping",
+  "date": "2026-09-26",
+  "pages": "6-7",
+  "grammar": {
+    "title": "Present Perfect Continuous",
+    "formula": "have/has + been + verb-ing",
+    "note": "Kısa Türkçe açıklama.",
+    "examples": ["Example 1.", "Example 2.", "Example 3."]
+  },
+  "words": [
+    {
+      "id": "b2l1a01",
+      "term": "kill time",
+      "pronunciation": "KILL TYME",
+      "translation": "vakit öldürmek",
+      "explanation": "Türkçe açıklama + yapı notu.",
+      "sentences": ["...", "...", "...", "...", "..."],
+      "translations": ["...", "...", "...", "...", "..."]
+    }
+  ]
+}
+```
+
+Kurallar: `id` ders için benzersiz (`L2A`, `L2B`…); kelime id'leri
+`b2l<ders><harf><no>` şeklinde (`b2l2a01`). Her örnek cümlede terim geçmeli,
+yoksa boşluk doldurma boşluğu cümlenin sonuna ekler.

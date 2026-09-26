@@ -1,0 +1,273 @@
+[
+  {
+    "id": "L1A",
+    "code": "1A",
+    "title": "Online Shopping",
+    "date": "2026-09-26",
+    "pages": "6-7",
+    "grammar": {
+      "title": "Present Perfect Continuous",
+      "formula": "have/has + been + verb-ing",
+      "note": "Geçmişte başladı, hâlâ devam ediyor; süreyi vurgular (for, since, all morning, how long). Sonuç veya sayı söylüyorsan Present Perfect Simple kullan. Durum fiilleri (know, need, own) -ing almaz.",
+      "examples": [
+        "We have been waiting for the vendor's reply since Monday.",
+        "The pump has been running for six hours without a problem.",
+        "How long have you been working on the fire protection report?"
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l1a01",
+        "term": "be up to something",
+        "pronunciation": "bee UP too SUM-thing",
+        "translation": "bir şeyler çevirmek / bir işle meşgul olmak",
+        "sentences": [
+          "What are you up to today? I'm preparing the MTO.",
+          "I'm up to something big: I'm creating a document for a client.",
+          "She has been on the phone all day. I think she is up to something.",
+          "What have you been up to since the kick-off meeting?",
+          "The vendor is up to something; the price changed again."
+        ],
+        "translations": [
+          "Bugün ne yapıyorsun? MTO'yu hazırlıyorum.",
+          "Büyük bir işle meşgulüm: bir müşteri için doküman hazırlıyorum.",
+          "Bütün gün telefonda. Bence bir şeyler çeviriyor.",
+          "Kick-off toplantısından beri neyle meşguldün?",
+          "Tedarikçi bir şeyler çeviriyor; fiyat yine değişti."
+        ],
+        "explanation": "\"What are you up to?\" = Ne yapıyorsun / neyle meşgulsün? \"She is up to something\" ise gizli bir iş çevirdiğini ima eder. Yapı: be + up to + isim / -ing."
+      },
+      {
+        "id": "b2l1a02",
+        "term": "kill time",
+        "pronunciation": "KILL TYME",
+        "translation": "vakit öldürmek",
+        "sentences": [
+          "I killed time reading the spec while the meeting was delayed.",
+          "Let's go out to kill time and clear our minds.",
+          "We killed time at the airport by checking emails.",
+          "There's no need to kill time; let's start the review now.",
+          "While the crane was being set up, the team killed time with coffee."
+        ],
+        "translations": [
+          "Toplantı ertelenince şartnameyi okuyarak vakit öldürdüm.",
+          "Vakit öldürmek ve kafamızı dağıtmak için dışarı çıkalım.",
+          "Havalimanında e-postaları kontrol ederek vakit öldürdük.",
+          "Vakit öldürmeye gerek yok; incelemeye şimdi başlayalım.",
+          "Vinç kurulurken ekip kahve içerek vakit öldürdü."
+        ],
+        "explanation": "Beklerken boş vakit geçirmek. Deyim her zaman \"kill time\" şeklindedir; \"kill me\" = \"beni öldür\" demektir! Yapı: kill time + by -ing."
+      },
+      {
+        "id": "b2l1a03",
+        "term": "be out of something",
+        "pronunciation": "bee OWT uv",
+        "translation": "...kalmamak, bitmek",
+        "sentences": [
+          "We're out of DN50 elbows in the warehouse.",
+          "Sorry, you need to go to the shop again. We are out of milk.",
+          "We're out of patience; we've been waiting too long.",
+          "The printer is out of paper, so I sent the drawings by email.",
+          "We can't finish the MTO; we're out of gasket data."
+        ],
+        "translations": [
+          "Depoda DN50 dirsek kalmadı.",
+          "Kusura bakma, yine markete gitmen gerek. Süt bitti.",
+          "Sabrımız kalmadı; çok uzun süredir bekliyoruz.",
+          "Yazıcıda kâğıt kalmadı, bu yüzden çizimleri e-postayla gönderdim.",
+          "MTO'yu bitiremiyoruz; conta verimiz kalmadı."
+        ],
+        "explanation": "Bir şeyin tükendiğini söyler. Yapı: be + out of + isim. \"We're out of patience\" = sabrımız kalmadı (patient değil, patience!)."
+      },
+      {
+        "id": "b2l1a04",
+        "term": "be someone's thing",
+        "pronunciation": "bee SUM-wunz THING",
+        "translation": "birinin tarzı olmak / sevdiği şey olmak",
+        "sentences": [
+          "Long meetings are not really my thing.",
+          "Wearing accessories is not my thing.",
+          "Excel automation is definitely his thing.",
+          "Paying by cash is more their thing.",
+          "Is site work your thing, or do you prefer the office?"
+        ],
+        "translations": [
+          "Uzun toplantılar pek bana göre değil.",
+          "Aksesuar takmak benim tarzım değil.",
+          "Excel otomasyonu kesinlikle onun işi.",
+          "Nakit ödemek daha çok onların tarzı.",
+          "Saha işi sana göre mi, yoksa ofisi mi tercih edersin?"
+        ],
+        "explanation": "Genelde olumsuz kullanılır: \"It's not my thing\" = Bana göre değil. Yapı: be + (not) + my/your/his thing."
+      },
+      {
+        "id": "b2l1a05",
+        "term": "old-fashioned",
+        "pronunciation": "ohld FASH-und",
+        "translation": "eski kafalı / modası geçmiş",
+        "sentences": [
+          "Printing every drawing is a bit old-fashioned.",
+          "Our new teacher is an old-fashioned man. He still uses a typewriter.",
+          "My manager is a bit old-fashioned; he prefers paper copies.",
+          "Some people are old-fashioned and don't trust online payment.",
+          "Hand-calculated pipe sizing looks old-fashioned now."
+        ],
+        "translations": [
+          "Her çizimi yazdırmak biraz modası geçmiş bir şey.",
+          "Yeni öğretmenimiz eski kafalı biri. Hâlâ daktilo kullanıyor.",
+          "Müdürüm biraz eski kafalı; kâğıt kopyaları tercih ediyor.",
+          "Bazı insanlar eski kafalı ve online ödemeye güvenmiyor.",
+          "Elle yapılan boru çapı hesabı artık eski usul görünüyor."
+        ],
+        "explanation": "Modern olmayan kişi veya şey. Tire ile yazılır: old-fashioned. Yapı: an old-fashioned + isim / be + old-fashioned."
+      },
+      {
+        "id": "b2l1a06",
+        "term": "You bet!",
+        "pronunciation": "yoo BET",
+        "translation": "Kesinlikle! Tabii ki!",
+        "sentences": [
+          "\"Will you join the site visit?\" \"You bet!\"",
+          "\"Are you coming to the party tonight?\" \"You bet! I wouldn't like to miss it.\"",
+          "\"Can you send me the P&ID today?\" \"You bet!\"",
+          "\"Is the new pump better?\" \"You bet it is!\"",
+          "\"Do you want a coffee before the meeting?\" \"You bet!\""
+        ],
+        "translations": [
+          "\"Saha ziyaretine katılacak mısın?\" \"Kesinlikle!\"",
+          "\"Bu akşam partiye geliyor musun?\" \"Tabii ki! Kaçırmak istemem.\"",
+          "\"P&ID'yi bugün gönderebilir misin?\" \"Tabii ki!\"",
+          "\"Yeni pompa daha mı iyi?\" \"Hem de nasıl!\"",
+          "\"Toplantıdan önce kahve ister misin?\" \"Kesinlikle!\""
+        ],
+        "explanation": "Samimi ve coşkulu bir \"evet\". Resmi e-postada kullanma; konuşmada, meslektaşlarla ve arkadaşlarla kullan."
+      },
+      {
+        "id": "b2l1a07",
+        "term": "No big deal!",
+        "pronunciation": "noh big DEEL",
+        "translation": "Önemli değil! Sorun yok!",
+        "sentences": [
+          "\"Sorry, I sent the wrong revision.\" \"No big deal.\"",
+          "\"I really appreciate your help.\" \"No big deal!\"",
+          "\"We are out of milk.\" \"Alright, no big deal.\"",
+          "It's no big deal if the meeting starts ten minutes late.",
+          "\"Sorry, I'm five minutes late.\" \"No big deal!\""
+        ],
+        "translations": [
+          "\"Kusura bakma, yanlış revizyonu gönderdim.\" \"Önemli değil.\"",
+          "\"Yardımın için gerçekten teşekkürler.\" \"Lafı bile olmaz!\"",
+          "\"Süt bitti.\" \"Tamam, sorun değil.\"",
+          "Toplantı on dakika geç başlarsa önemli değil.",
+          "\"Kusura bakma, beş dakika geciktim.\" \"Sorun değil!\""
+        ],
+        "explanation": "Özür veya teşekküre rahat bir cevap. Samimi; resmi durumda \"No problem at all\" daha uygun."
+      },
+      {
+        "id": "b2l1a08",
+        "term": "concern",
+        "pronunciation": "kun-SURN",
+        "translation": "endişe, kaygı",
+        "sentences": [
+          "That's a valid concern.",
+          "Many people have concerns about online payment.",
+          "The client raised a concern about the pressure drop.",
+          "Our main concern is the delivery date of the valves.",
+          "If you have any concerns, please let me know."
+        ],
+        "translations": [
+          "Bu haklı bir endişe.",
+          "Birçok insanın online ödeme konusunda endişeleri var.",
+          "Müşteri basınç kaybıyla ilgili bir endişesini dile getirdi.",
+          "Asıl endişemiz vanaların teslim tarihi.",
+          "Herhangi bir endişen varsa lütfen bana bildir."
+        ],
+        "explanation": "Resmi ve iş İngilizcesinde çok kullanılır. \"That's a valid concern\" = Haklı bir endişe. Yapı: concern about + isim."
+      },
+      {
+        "id": "b2l1a09",
+        "term": "valid",
+        "pronunciation": "VAL-id",
+        "translation": "geçerli, haklı",
+        "sentences": [
+          "In my opinion, their concerns are valid.",
+          "Is this material certificate still valid?",
+          "You made a valid point in the meeting.",
+          "The offer is valid for 30 days.",
+          "Your argument is valid, but the budget is limited."
+        ],
+        "translations": [
+          "Bence endişeleri haklı.",
+          "Bu malzeme sertifikası hâlâ geçerli mi?",
+          "Toplantıda haklı bir noktaya değindin.",
+          "Teklif 30 gün geçerlidir.",
+          "Argümanın geçerli ama bütçe kısıtlı."
+        ],
+        "explanation": "Mantıklı, kabul edilebilir anlamında. Ayrıca belge için \"geçerli\": a valid certificate. Yapı: a valid + isim / be valid."
+      },
+      {
+        "id": "b2l1a10",
+        "term": "scam",
+        "pronunciation": "SKAM",
+        "translation": "dolandırıcılık",
+        "sentences": [
+          "People are afraid of scams and fake sellers.",
+          "That website looks like a scam.",
+          "I always check the reviews to avoid scams.",
+          "He was scammed when he paid by bank transfer.",
+          "The email about the urgent payment was a scam."
+        ],
+        "translations": [
+          "İnsanlar dolandırıcılıktan ve sahte satıcılardan korkuyor.",
+          "O site dolandırıcılığa benziyor.",
+          "Dolandırıcılıktan kaçınmak için her zaman yorumlara bakarım.",
+          "Havaleyle ödeme yapınca dolandırıldı.",
+          "Acil ödemeyle ilgili e-posta bir dolandırıcılıktı."
+        ],
+        "explanation": "Para çalmak için yapılan hile. İsim ve fiil: a scam / to scam someone. \"scammer\" = dolandırıcı."
+      },
+      {
+        "id": "b2l1a11",
+        "term": "legal regulations",
+        "pronunciation": "LEE-gul reg-yoo-LAY-shunz",
+        "translation": "yasal düzenlemeler",
+        "sentences": [
+          "Legal regulations protect buyers online.",
+          "The design must comply with local legal regulations.",
+          "Selling medicines online is difficult because of legal regulations.",
+          "Legal regulations differ from country to country.",
+          "We checked the legal regulations before the tender."
+        ],
+        "translations": [
+          "Yasal düzenlemeler online alıcıları korur.",
+          "Tasarım yerel yasal düzenlemelere uymalıdır.",
+          "Yasal düzenlemeler yüzünden online ilaç satmak zordur.",
+          "Yasal düzenlemeler ülkeden ülkeye değişir.",
+          "İhaleden önce yasal düzenlemeleri kontrol ettik."
+        ],
+        "explanation": "Resmi kurallar ve yasalar. Mühendislikte sık geçer: comply with legal regulations = yasal düzenlemelere uymak."
+      },
+      {
+        "id": "b2l1a12",
+        "term": "patience",
+        "pronunciation": "PAY-shuns",
+        "translation": "sabır",
+        "sentences": [
+          "We're out of patience; we've been waiting for the vendor since Monday.",
+          "Thank you for your patience.",
+          "Site work requires a lot of patience.",
+          "She showed great patience with the new engineer.",
+          "Please have a little patience; the report is almost ready."
+        ],
+        "translations": [
+          "Sabrımız kalmadı; pazartesiden beri tedarikçiyi bekliyoruz.",
+          "Sabrınız için teşekkürler.",
+          "Saha işi çok sabır ister.",
+          "Yeni mühendise karşı büyük sabır gösterdi.",
+          "Lütfen biraz sabret; rapor neredeyse hazır."
+        ],
+        "explanation": "patience = sabır (isim). patient = hasta (isim) veya sabırlı (sıfat). Sık yaptığın hata: \"out of patient\" değil, \"out of patience\"."
+      }
+    ]
+  }
+]

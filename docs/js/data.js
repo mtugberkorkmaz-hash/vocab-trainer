@@ -3,6 +3,7 @@ const Data = {
   words: [],
   patterns: [],
   meetings: [],
+  lessons: [],
   loaded: false,
 
   async load() {
@@ -19,6 +20,19 @@ const Data = {
     });
     this.patterns = p.map((item) => Object.assign({}, item, { category: 'patterns' }));
     this.meetings = m;
+    // B2 course lessons: optional file, so the app still works if it's missing.
+    this.lessons = [];
+    try {
+      const l = await fetch('data/lessons.json').then((r) => (r.ok ? r.json() : []));
+      this.lessons = Array.isArray(l) ? l : [];
+    } catch (e) {
+      this.lessons = [];
+    }
+    this.lessons.forEach((lesson) => {
+      (lesson.words || []).forEach((item) => {
+        this.words.push(Object.assign({}, item, { category: 'lesson:' + lesson.id }));
+      });
+    });
     this.loaded = true;
   },
 
@@ -27,7 +41,8 @@ const Data = {
       const pool = Storage.getWeakPool();
       return this.words.filter((w) => pool.includes(w.id));
     }
-    if (cat === 'mixed') return this.words.slice();
+    if (cat === 'mixed') return this.words.filter((w) => !w.category.startsWith('lesson:'));
+    if (cat === 'lessons') return this.words.filter((w) => w.category.startsWith('lesson:'));
     return this.words.filter((w) => w.category === cat);
   },
 
@@ -37,6 +52,10 @@ const Data = {
       return this.patterns.filter((p) => pool.includes(p.id));
     }
     return this.patterns.slice();
+  },
+
+  findLesson(id) {
+    return this.lessons.find((l) => l.id === id);
   },
 
   findMeeting(id) {

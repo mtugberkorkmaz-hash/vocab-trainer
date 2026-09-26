@@ -11,7 +11,16 @@ const CATEGORY_LABELS = {
   mixed: 'Karışık (Hepsi)',
   weak: 'Zayıf Havuz',
   patterns: 'Günlük Kalıp',
+  lessons: 'Tüm Dersler',
 };
+
+function catLabel(cat) {
+  if (cat && cat.startsWith('lesson:')) {
+    const l = Data.findLesson(cat.slice(7));
+    return l ? `Ders ${l.code}: ${l.title}` : 'Ders';
+  }
+  return CATEGORY_LABELS[cat] || 'Kalıp';
+}
 
 const ROUNDS_PER_SESSION = 10;
 
@@ -52,6 +61,7 @@ function renderSummary(opts) {
 /* ---------- Main menu ---------- */
 function modeMeta() {
   return [
+    { key: 'lessons', icon: 'flame', title: 'B2 Dersleri', sub: `${Data.lessons.length} ders — ${Data.byCategory('lessons').length} kelime, derse göre çalış` },
     { key: 'flashcards', icon: 'book', title: 'Kelime Kartları', sub: `${Data.words.length} kelime — öğren, biliyorum / bilmiyorum` },
     { key: 'test', icon: 'target', title: 'Test Modu', sub: 'Çoktan seçmeli sınav' },
     { key: 'fillblank', icon: 'pencil', title: 'Boşluk Doldurma', sub: 'Cümledeki eksik kelime' },
@@ -90,7 +100,8 @@ function renderMenu() {
   $all('.mode-card').forEach((btn) => {
     btn.addEventListener('click', () => {
       const key = btn.dataset.key;
-      if (key === 'flashcards') Router.push('categorySelect', { mode: 'flashcards', title: 'Kelime Kartları' });
+      if (key === 'lessons') Router.push('lessonList');
+      else if (key === 'flashcards') Router.push('categorySelect', { mode: 'flashcards', title: 'Kelime Kartları' });
       else if (key === 'test') Router.push('categorySelect', { mode: 'test', title: 'Test Modu' });
       else if (key === 'fillblank') Router.push('categorySelect', { mode: 'fillblank', title: 'Boşluk Doldurma' });
       else if (key === 'meeting') Router.push('meetingList');
@@ -140,7 +151,7 @@ function renderFlashcard() {
     return `<div class="sent-item"><div class="sent-en">${escapeHtml(en)}</div>${showTr && tr ? `<div class="sent-tr">${escapeHtml(tr)}</div>` : ''}</div>`;
   }).join('');
   mount(`
-    <div class="progress-line"><span>${CATEGORY_LABELS[w.category] || 'Kalıp'}</span><span>${index + 1} / ${queue.length}</span></div>
+    <div class="progress-line"><span>${escapeHtml(catLabel(w.category))}</span><span>${index + 1} / ${queue.length}</span></div>
     <div class="card">
       <div class="card-term">${escapeHtml(w.term)}</div>
       <div class="card-pron">[${escapeHtml(w.pronunciation)}]</div>
@@ -281,7 +292,12 @@ function renderFillblank() {
 }
 
 function checkFillblank(w, sentIdx, typed) {
-  const correct = typed.trim().toLowerCase() === w.term.toLowerCase();
+  // Accept either the dictionary form ("kill time") or exactly the words that
+  // were blanked out of this sentence ("killed time"); ignore case/punctuation.
+  const norm = (x) => String(x).toLowerCase().replace(/[^a-z0-9' -]/g, '').replace(/\s+/g, ' ').trim();
+  const original = w.sentences[sentIdx];
+  const filled = buildBlank(w.term, original).replace('_____', typed.trim());
+  const correct = norm(typed) === norm(w.term) || (norm(typed) !== '' && norm(filled) === norm(original));
   $('#fb-check').setAttribute('disabled', '');
   $('#fb-input').setAttribute('disabled', '');
   const showTr = Storage.getSettings().showTranslation;
@@ -423,6 +439,62 @@ function renderMeetingTranscript() {
   $('#btn-menu').addEventListener('click', () => Router.reset('menu'));
 }
 
+/* ---------- B2 course lessons ---------- */
+function renderLessonList() {
+  setHeader('B2 Dersleri');
+  const lessons = Data.lessons.slice().reverse(); // newest first
+  if (!lessons.length) {
+    mount('<p class="footnote" style="margin-top:40px;">Henüz ders eklenmedi.</p>');
+    return;
+  }
+  const nAll = Data.byCategory('lessons').length;
+  const rows = lessons.map((l) => `
+    <button class="cat-item" data-id="${escapeHtml(l.id)}">
+      <span>Ders ${escapeHtml(l.code)}: ${escapeHtml(l.title)}<br><small style="opacity:.7">${escapeHtml(l.date || '')}${l.grammar ? ' · ' + escapeHtml(l.grammar.title) : ''}</small></span>
+      <span class="count">${(l.words || []).length}</span>
+    </button>`).join('');
+  mount(`
+    <div class="cat-list">
+      ${rows}
+      <button class="cat-item" data-id="__all"><span>${CATEGORY_LABELS.lessons}</span><span class="count">${nAll}</span></button>
+    </div>
+  `);
+  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
+    Router.push('lessonDetail', { id: btn.dataset.id });
+  }));
+}
+
+function renderLessonDetail(params) {
+  const all = params.id === '__all';
+  const lesson = all ? null : Data.findLesson(params.id);
+  const cat = all ? 'lessons' : 'lesson:' + params.id;
+  setHeader(all ? 'Tüm Dersler' : `Ders ${lesson.code}`);
+  const n = Data.byCategory(cat).length;
+  const g = lesson && lesson.grammar;
+  const grammarHtml = g ? `
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-pron" style="margin-bottom:6px;">Gramer</div>
+      <div class="card-term" style="font-size:1.2rem;">${escapeHtml(g.title)}</div>
+      ${g.formula ? `<div class="explain-box" style="margin-top:10px;"><b>Formül:</b> ${escapeHtml(g.formula)}<br>${escapeHtml(g.note || '')}</div>` : ''}
+      ${(g.examples || []).map((e) => `<div class="sent-item"><div class="sent-en">${escapeHtml(e)}</div></div>`).join('')}
+    </div>` : '';
+  mount(`
+    ${lesson ? `<div class="hero"><h2>${escapeHtml(lesson.title)}</h2><p>${escapeHtml(lesson.date || '')}${lesson.pages ? ' · Sayfa ' + escapeHtml(lesson.pages) : ''} · ${n} kelime</p></div>` : ''}
+    ${grammarHtml}
+    <div class="cat-list">
+      <button class="cat-item" data-mode="flashcards"><span style="display:flex;align-items:center;gap:10px;">${icon('book', 18)} Kelime Kartları</span><span class="count">${n}</span></button>
+      <button class="cat-item" data-mode="test"><span style="display:flex;align-items:center;gap:10px;">${icon('target', 18)} Test Modu</span><span class="count">${Math.min(n, 12)}</span></button>
+      <button class="cat-item" data-mode="fillblank"><span style="display:flex;align-items:center;gap:10px;">${icon('pencil', 18)} Boşluk Doldurma</span><span class="count">${Math.min(n, 12)}</span></button>
+    </div>
+  `);
+  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
+    const mode = btn.dataset.mode;
+    if (mode === 'flashcards') startFlashcards(cat, 'words');
+    else if (mode === 'test') startTest(cat);
+    else startFillblank(cat);
+  }));
+}
+
 /* ---------- Patterns menu ---------- */
 function renderPatternsMenu() {
   setHeader('Günlük Kalıplar');
@@ -556,6 +628,8 @@ const Screens = {
       case 'meetingSession': renderMeetingQuestion(); break;
       case 'meetingTranscript': renderMeetingTranscript(); break;
       case 'patternsMenu': renderPatternsMenu(); break;
+      case 'lessonList': renderLessonList(); break;
+      case 'lessonDetail': renderLessonDetail(state.params); break;
       case 'hizliTurSession': renderHizliTur(); break;
       case 'hizliTurSummary': renderHizliTurSummary(); break;
       default: renderMenu();

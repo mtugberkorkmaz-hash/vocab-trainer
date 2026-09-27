@@ -112,6 +112,8 @@ const IRREGULAR_VERBS = {
   identify: ['identify', 'identifies', 'identified', 'identifying'],
   verify: ['verify', 'verifies', 'verified', 'verifying'],
   notify: ['notify', 'notifies', 'notified', 'notifying'],
+  bathe: ['bathe', 'bathes', 'bathed', 'bathing'],
+  write: ['write', 'writes', 'wrote', 'written', 'writing'],
 };
 
 // For terms like "finite element analysis (FEA)" or "bill of materials (BOM)",

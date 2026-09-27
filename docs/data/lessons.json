@@ -269,5 +269,234 @@
         "explanation": "patience = sabır (isim). patient = hasta (isim) veya sabırlı (sıfat). Sık yaptığın hata: \"out of patient\" değil, \"out of patience\"."
       }
     ]
+  },
+  {
+    "id": "L2",
+    "code": "2",
+    "title": "Paragraph Writing",
+    "date": "2026-09-27",
+    "pages": "3-4",
+    "grammar": {
+      "title": "Paragraph structure + PPC with for/since",
+      "formula": "Topic sentence → One major challenge is... → This is because... → For example,... → Another possible problem is... → As a result,... → Overall,...",
+      "note": "Paragraf = tek konu. Konu cümlesi ana fikri söyler, detaylar destekler, sonuç cümlesi toparlar. PPC'de 'ago' ve 'at' yok: for (süre) / since (başlangıç).",
+      "examples": [
+        "She has been writing her novel for three months.",
+        "They have been watching that TV series since last weekend.",
+        "I have been learning Spanish since the beginning of the year."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l201",
+        "term": "topic sentence",
+        "pronunciation": "TOP-ik SEN-tuns",
+        "translation": "konu cümlesi",
+        "sentences": [
+          "Every paragraph starts with a clear topic sentence.",
+          "Your topic sentence should state the main idea.",
+          "The topic sentence of my report was too long.",
+          "Read only the topic sentence and you should understand the paragraph.",
+          "A good topic sentence makes the reader want to continue."
+        ],
+        "translations": [
+          "Her paragraf net bir konu cümlesiyle başlar.",
+          "Konu cümlen ana fikri belirtmeli.",
+          "Raporumun konu cümlesi çok uzundu.",
+          "Sadece konu cümlesini oku, paragrafı anlayabilmelisin.",
+          "İyi bir konu cümlesi okuru devam etmeye isteklendirir."
+        ],
+        "explanation": "Paragrafın ilk cümlesi; ana fikri söyler. Paragrafın geri kalanı bu cümleyi destekler."
+      },
+      {
+        "id": "b2l202",
+        "term": "supporting details",
+        "pronunciation": "suh-POR-ting DEE-tayls",
+        "translation": "destekleyici detaylar",
+        "sentences": [
+          "Add two supporting details with examples.",
+          "Your supporting details must be about one topic.",
+          "The client wanted more supporting details in the report.",
+          "Supporting details explain why the topic sentence is true.",
+          "Numbers and test results are strong supporting details."
+        ],
+        "translations": [
+          "Örnekli iki destekleyici detay ekle.",
+          "Destekleyici detayların tek bir konu hakkında olmalı.",
+          "Müşteri raporda daha fazla destekleyici detay istedi.",
+          "Destekleyici detaylar konu cümlesinin neden doğru olduğunu açıklar.",
+          "Sayılar ve test sonuçları güçlü destekleyici detaylardır."
+        ],
+        "explanation": "Konu cümlesini açıklayan nedenler, açıklamalar ve örnekler. Her detay tek bir fikre hizmet eder."
+      },
+      {
+        "id": "b2l203",
+        "term": "concluding sentence",
+        "pronunciation": "kun-KLOO-ding SEN-tuns",
+        "translation": "sonuç cümlesi",
+        "sentences": [
+          "The concluding sentence sums up the main idea.",
+          "Don't add a new idea in the concluding sentence.",
+          "Start your concluding sentence with 'Overall'.",
+          "My concluding sentence repeated the topic sentence in different words.",
+          "A short concluding sentence is usually enough."
+        ],
+        "translations": [
+          "Sonuç cümlesi ana fikri özetler.",
+          "Sonuç cümlesinde yeni bir fikir ekleme.",
+          "Sonuç cümlene 'Overall' ile başla.",
+          "Sonuç cümlem konu cümlesini farklı kelimelerle tekrarladı.",
+          "Kısa bir sonuç cümlesi genelde yeterlidir."
+        ],
+        "explanation": "Paragrafın son cümlesi; ana fikri toparlar, yeni fikir eklemez. Genelde 'Overall,' veya 'In conclusion,' ile başlar."
+      },
+      {
+        "id": "b2l204",
+        "term": "One major challenge is...",
+        "pronunciation": "wun MAY-jer CHAL-inj iz",
+        "translation": "Önemli zorluklardan biri ...dır",
+        "sentences": [
+          "One major challenge is the risk of fake products.",
+          "One major challenge is late vendor data.",
+          "One major challenge is finding qualified welders on site.",
+          "One major challenge is the short delivery time.",
+          "One major challenge is the high pressure drop in the line."
+        ],
+        "translations": [
+          "Önemli zorluklardan biri sahte ürün riskidir.",
+          "Önemli zorluklardan biri geç gelen tedarikçi verisidir.",
+          "Önemli zorluklardan biri sahada kalifiye kaynakçı bulmaktır.",
+          "Önemli zorluklardan biri kısa teslim süresidir.",
+          "Önemli zorluklardan biri hattaki yüksek basınç kaybıdır."
+        ],
+        "explanation": "İlk sorunu/zorluğu tanıtır. Sonrasına isim veya -ing gelir: One major challenge is the cost / is finding qualified welders."
+      },
+      {
+        "id": "b2l205",
+        "term": "This is because...",
+        "pronunciation": "this iz bih-KAWZ",
+        "translation": "Bunun nedeni ...",
+        "sentences": [
+          "This is because customers cannot check the seller.",
+          "This is because we cannot check nozzle loads without final drawings.",
+          "This is because the pump was oversized.",
+          "This is because the vendor changed the design.",
+          "This is because people don't trust online payment."
+        ],
+        "translations": [
+          "Bunun nedeni müşterilerin satıcıyı kontrol edememesidir.",
+          "Bunun nedeni son çizimler olmadan nozul yüklerini kontrol edememizdir.",
+          "Bunun nedeni pompanın gereğinden büyük seçilmesidir.",
+          "Bunun nedeni tedarikçinin tasarımı değiştirmesidir.",
+          "Bunun nedeni insanların online ödemeye güvenmemesidir."
+        ],
+        "explanation": "Önceki cümlenin nedenini açıklar. Sonrasına TAM cümle gelir (özne + fiil). 'Because of' + isim ile karıştırma."
+      },
+      {
+        "id": "b2l206",
+        "term": "Another possible problem is...",
+        "pronunciation": "uh-NUTH-er POS-uh-bul PROB-lum iz",
+        "translation": "Olası başka bir sorun ...dır",
+        "sentences": [
+          "Another possible problem is self-medication.",
+          "Another possible problem is data privacy.",
+          "Another possible problem is corrosion at the supports.",
+          "Another possible problem is the lack of spare parts.",
+          "Another possible problem is a delay in the permit."
+        ],
+        "translations": [
+          "Olası başka bir sorun kendi kendine ilaç kullanmaktır.",
+          "Olası başka bir sorun veri gizliliğidir.",
+          "Olası başka bir sorun mesnetlerdeki korozyondur.",
+          "Olası başka bir sorun yedek parça eksikliğidir.",
+          "Olası başka bir sorun izindeki gecikmedir."
+        ],
+        "explanation": "İkinci sorunu tanıtır. IELTS için alternatif: 'A further concern is...'."
+      },
+      {
+        "id": "b2l207",
+        "term": "As a result,",
+        "pronunciation": "az uh rih-ZULT",
+        "translation": "Sonuç olarak, / Bunun sonucunda,",
+        "sentences": [
+          "As a result, patients may take the wrong dose.",
+          "As a result, the project was delayed by two weeks.",
+          "As a result, we had to change the pipe size.",
+          "The vendor was late. As a result, the site team waited.",
+          "As a result, the cost increased."
+        ],
+        "translations": [
+          "Bunun sonucunda hastalar yanlış doz alabilir.",
+          "Sonuç olarak proje iki hafta gecikti.",
+          "Bunun sonucunda boru çapını değiştirmek zorunda kaldık.",
+          "Tedarikçi gecikti. Bunun sonucunda saha ekibi bekledi.",
+          "Sonuç olarak maliyet arttı."
+        ],
+        "explanation": "Bir önceki durumun sonucunu gösterir. Virgülle kullanılır. IELTS alternatifi: 'This can lead to...'."
+      },
+      {
+        "id": "b2l208",
+        "term": "Overall,",
+        "pronunciation": "OH-ver-awl",
+        "translation": "Genel olarak, / Sonuç olarak,",
+        "sentences": [
+          "Overall, online medicine sales need strict rules.",
+          "Overall, the design meets the client's requirements.",
+          "Overall, the meeting was useful.",
+          "Overall, the risks are manageable.",
+          "Overall, I think the plan is realistic."
+        ],
+        "translations": [
+          "Genel olarak online ilaç satışı sıkı kurallar gerektirir.",
+          "Genel olarak tasarım müşterinin gereksinimlerini karşılıyor.",
+          "Genel olarak toplantı faydalıydı.",
+          "Genel olarak riskler yönetilebilir.",
+          "Genel olarak planın gerçekçi olduğunu düşünüyorum."
+        ],
+        "explanation": "Sonuç cümlesini başlatır; ana fikri toparlar. Yeni fikir eklenmez."
+      },
+      {
+        "id": "b2l209",
+        "term": "run out of",
+        "pronunciation": "run OWT uv",
+        "translation": "tükenmek, bitmek (süreç)",
+        "sentences": [
+          "In fifteen minutes, we will run out of gas.",
+          "We are running out of time before the deadline.",
+          "The site ran out of DN50 elbows last week.",
+          "Don't run out of paper before the meeting.",
+          "If we run out of budget, the project will stop."
+        ],
+        "translations": [
+          "On beş dakika içinde benzinimiz bitecek.",
+          "Teslim tarihinden önce zamanımız tükeniyor.",
+          "Sahada geçen hafta DN50 dirsekler bitti.",
+          "Toplantıdan önce kâğıdın bitmesin.",
+          "Bütçemiz biterse proje durur."
+        ],
+        "explanation": "Bir şeyin bitmekte olduğunu anlatır. 'be out of' = bitmiş olmak (durum). Yapı: run out of + isim."
+      },
+      {
+        "id": "b2l210",
+        "term": "bathe",
+        "pronunciation": "BAYTH",
+        "translation": "(gölde/denizde) yüzmek, suya girmek",
+        "sentences": [
+          "She has been bathing in the lake for twenty minutes.",
+          "We bathed in the sea every morning.",
+          "Children love to bathe in the river in summer.",
+          "Bathe the wound with clean water.",
+          "It's too cold to bathe in the lake today."
+        ],
+        "translations": [
+          "Yirmi dakikadır gölde yüzüyor.",
+          "Her sabah denize girdik.",
+          "Çocuklar yazın nehirde yüzmeyi sever.",
+          "Yarayı temiz suyla yıka.",
+          "Bugün gölde yüzmek için hava çok soğuk."
+        ],
+        "explanation": "Özellikle İngiliz İngilizcesi. 'bath' (baTH) = küvette banyo yapmak; 'bathe' (bayTH) = göl/denizde yüzmek veya yarayı yıkamak."
+      }
+    ]
   }
 ]

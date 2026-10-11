@@ -69,6 +69,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { height: 100%; }
 body {
   margin: 0;
@@ -460,7 +461,68 @@ button, input { font-family: inherit; }
   margin: 18px 0 8px;
 }
 
+/* ---------- UI refresh: tile menu, progress bar, touch feedback ---------- */
+.hero { padding: 8px 8px 16px; text-align: left; }
+.hero h2 { font-size: 26px; }
+
+.mode-grid { gap: 10px; }
+.mode-card {
+  grid-column: span 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px;
+  min-height: 118px;
+  transition: transform .12s ease;
+}
+.mode-card .mode-sub {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.35;
+}
+.mode-card .chev { display: none; }
+.mode-card:first-child,
+.mode-card:last-child:nth-child(even) {
+  grid-column: span 2;
+  flex-direction: row;
+  align-items: center;
+  min-height: 0;
+}
+.mode-card:first-child {
+  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 70%, #000));
+  border-color: transparent;
+  color: var(--accent-contrast);
+  padding: 18px 16px;
+}
+.mode-card:first-child .mode-icon { background: rgba(255,255,255,.2); color: inherit; }
+.mode-card:first-child .mode-title { font-size: 17px; }
+.mode-card:first-child .mode-sub,
+.mode-card:first-child .chev { color: inherit; opacity: .85; display: block; }
+
+.cat-item { transition: transform .12s ease, background .12s ease; text-align: left; gap: 12px; line-height: 1.35; }
+.cat-item:active:not([disabled]) { transform: scale(0.985); background: var(--bg-soft); }
+.cat-item .count { flex-shrink: 0; background: var(--accent-soft); color: var(--accent); }
+.meeting-item:active, .option:active { transform: scale(0.99); }
+
+/* progress bar under the session's progress line; width set in mount() */
+.progress-line {
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  background:
+    linear-gradient(var(--accent), var(--accent)) left bottom / var(--p, 0%) 4px no-repeat,
+    linear-gradient(var(--border), var(--border)) left bottom / 100% 4px no-repeat;
+  transition: background-size .25s ease;
+}
+
+.card-term { font-size: 28px; }
+.sent-item { font-size: 15.5px; }
+.question-text { font-size: 20px; }
+.fillblank-input { font-size: 17px; }
+.btn { min-height: 52px; }
+
 @media (min-width: 620px) {
-  .mode-grid { grid-template-columns: 1fr 1fr; }
-  .mode-card { grid-column: span 1; }
+  .mode-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .mode-card:first-child, .mode-card:last-child:nth-child(even) { grid-column: span 3; }
 }

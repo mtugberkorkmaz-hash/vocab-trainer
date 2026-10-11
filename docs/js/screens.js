@@ -32,6 +32,11 @@ function $all(sel) { return Array.prototype.slice.call(document.querySelectorAll
 function mount(html) {
   document.getElementById('screen').innerHTML = html;
   window.scrollTo(0, 0);
+  // Fill the progress bar of any session screen that shows a progress line.
+  const pl = document.querySelector('.progress-line');
+  if (pl && session.queue && session.queue.length) {
+    pl.style.setProperty('--p', Math.min(100, ((session.index + 1) / session.queue.length) * 100) + '%');
+  }
 }
 function setHeader(title) {
   document.getElementById('header-title').textContent = title;
@@ -62,6 +67,7 @@ function renderSummary(opts) {
 function modeMeta() {
   return [
     { key: 'lessons', icon: 'flame', title: 'B2 Dersleri', sub: `${Data.lessons.length} ders — ${Data.byCategory('lessons').length} kelime, derse göre çalış` },
+    { key: 'review', icon: 'check', title: 'Hatalar & Quiz', sub: `${Data.review.corrections.length} hata düzeltme — ${Data.review.quiz.length} gramer sorusu` },
     { key: 'flashcards', icon: 'book', title: 'Kelime Kartları', sub: `${Data.words.length} kelime — öğren, biliyorum / bilmiyorum` },
     { key: 'test', icon: 'target', title: 'Test Modu', sub: 'Çoktan seçmeli sınav' },
     { key: 'fillblank', icon: 'pencil', title: 'Boşluk Doldurma', sub: 'Cümledeki eksik kelime' },
@@ -87,7 +93,7 @@ function renderMenu() {
   mount(`
     <div class="hero">
       <h2>Hazır mısın?</h2>
-      <p>Mühendislik, toplantı ve günlük İngilizce pratiği</p>
+      <p>B2 dersleri, mühendislik ve toplantı İngilizcesi</p>
     </div>
     <div class="stat-row">
       <div class="stat-pill"><div class="num">${weakN}</div><div class="label">Zayıf Havuz</div></div>
@@ -101,6 +107,7 @@ function renderMenu() {
     btn.addEventListener('click', () => {
       const key = btn.dataset.key;
       if (key === 'lessons') Router.push('lessonList');
+      else if (key === 'review') Router.push('reviewMenu');
       else if (key === 'flashcards') Router.push('categorySelect', { mode: 'flashcards', title: 'Kelime Kartları' });
       else if (key === 'test') Router.push('categorySelect', { mode: 'test', title: 'Test Modu' });
       else if (key === 'fillblank') Router.push('categorySelect', { mode: 'fillblank', title: 'Boşluk Doldurma' });
@@ -495,6 +502,128 @@ function renderLessonDetail(params) {
   }));
 }
 
+/* ---------- Corrections + grammar quiz (course review) ---------- */
+function renderReviewMenu() {
+  setHeader('Hatalar & Quiz');
+  const nC = Data.review.corrections.length;
+  const nQ = Data.review.quiz.length;
+  mount(`
+    <div class="cat-list">
+      <button class="cat-item" ${nC ? '' : 'disabled'} data-kind="corrections"><span style="display:flex;align-items:center;gap:10px;">${icon('pencil', 18)} Hata Düzeltme</span><span class="count">${nC}</span></button>
+      <button class="cat-item" ${nQ ? '' : 'disabled'} data-kind="quiz"><span style="display:flex;align-items:center;gap:10px;">${icon('target', 18)} Gramer Quiz</span><span class="count">${nQ}</span></button>
+    </div>
+    <p class="footnote">Hata Düzeltme: kitabındaki yanlış cümleyi oku, kafanda düzelt, sonra doğrusunu aç. Quiz: boşluğa cevabı yaz.</p>
+  `);
+  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
+    if (btn.dataset.kind === 'corrections') startCorrections();
+    else startReviewQuiz();
+  }));
+}
+
+function startCorrections() {
+  session = { kind: 'corrections', queue: shuffle(Data.review.corrections), index: 0, score: 0 };
+  Router.push('correctionSession');
+}
+
+function renderCorrection() {
+  const { queue, index, score } = session;
+  setHeader(`Hata ${index + 1}/${queue.length}`);
+  const c = queue[index];
+  mount(`
+    <div class="progress-line"><span>Skor ${score}</span><span>${escapeHtml(c.id)} · ${escapeHtml(c.page || '')}</span></div>
+    <div class="question-box">
+      <div class="card-pron" style="margin-bottom:6px;">Bu cümlede ne yanlış?</div>
+      <div class="question-text">${escapeHtml(c.wrong)}</div>
+      <div id="corr-answer"></div>
+      <button id="btn-reveal" class="btn btn-primary btn-block" style="margin-top:14px;">Doğrusunu Göster</button>
+    </div>
+  `);
+  $('#btn-reveal').addEventListener('click', () => {
+    $('#btn-reveal').remove();
+    $('#corr-answer').innerHTML = `
+      <div class="feedback ok">${icon('check', 16)} ${escapeHtml(c.correct)}</div>
+      <div class="explain-box" style="margin-top:10px;"><b>Kural:</b> ${escapeHtml(c.rule_tr || c.rule)}${c.rule_tr && c.rule ? `<br><span style="opacity:.75">${escapeHtml(c.rule)}</span>` : ''}</div>
+      <div class="btn-row" style="margin-top:12px;">
+        <button id="btn-missed" class="btn btn-danger">${icon('close', 18)} Bilemedim</button>
+        <button id="btn-got" class="btn btn-success">${icon('check', 18)} Bildim</button>
+      </div>`;
+    $('#btn-missed').addEventListener('click', () => answerCorrection(false));
+    $('#btn-got').addEventListener('click', () => answerCorrection(true));
+  });
+}
+
+function answerCorrection(got) {
+  if (got) session.score++;
+  session.index++;
+  if (session.index >= session.queue.length) Router.replace('correctionSummary');
+  else renderCorrection();
+}
+
+function startReviewQuiz() {
+  session = { kind: 'reviewQuiz', queue: shuffle(Data.review.quiz), index: 0, score: 0 };
+  Router.push('reviewQuizSession');
+}
+
+function renderReviewQuiz() {
+  const { queue, index, score } = session;
+  setHeader(`Soru ${index + 1}/${queue.length}`);
+  const q = queue[index];
+  mount(`
+    <div class="progress-line"><span>Skor ${score}</span><span>${escapeHtml(q.topic || '')}</span></div>
+    <div class="question-box">
+      <div class="question-text">${escapeHtml(q.question)}</div>
+      <input id="fb-input" class="fillblank-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Cevabı yaz">
+      <button id="fb-check" class="btn btn-primary btn-block" style="margin-top:14px;">Kontrol Et</button>
+      <div id="feedback"></div>
+    </div>
+  `);
+  const input = $('#fb-input');
+  input.focus();
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') checkReviewQuiz(q, input.value); });
+  $('#fb-check').addEventListener('click', () => checkReviewQuiz(q, input.value));
+}
+
+function checkReviewQuiz(q, typed) {
+  // iOS types curly apostrophes ("I’ve"), so fold them before comparing.
+  const norm = (x) => String(x).toLowerCase().replace(/[‘’]/g, "'")
+    .replace(/[^a-z0-9' ]/g, ' ').replace(/\s+/g, ' ').trim();
+  const t = norm(typed);
+  const correct = t !== '' && q.answers.some((a) => norm(a) === t);
+  $('#fb-check').setAttribute('disabled', '');
+  $('#fb-input').setAttribute('disabled', '');
+  const fb = $('#feedback');
+  if (correct) {
+    session.score++;
+    fb.innerHTML = `<div class="feedback ok">${icon('check', 16)} Doğru!</div>`;
+    setTimeout(() => { session.index++; goNextReviewQuiz(); }, 700);
+  } else {
+    fb.innerHTML = `
+      <div class="feedback bad">Yanlış. Doğru cevap: "${escapeHtml(q.answers[0])}"${q.answers.length > 1 ? `<div class="expl">Kabul edilenler: ${q.answers.map(escapeHtml).join(' · ')}</div>` : ''}</div>
+      <button id="btn-next2" class="btn btn-primary btn-block" style="margin-top:10px;">Geç ${icon('chevronRight', 16)}</button>`;
+    $('#btn-next2').addEventListener('click', () => { session.index++; goNextReviewQuiz(); });
+  }
+}
+
+function goNextReviewQuiz() {
+  if (session.index >= session.queue.length) Router.replace('reviewQuizSummary');
+  else renderReviewQuiz();
+}
+
+function renderReviewSummary(kind) {
+  const { score, queue } = session;
+  renderSummary({
+    navTitle: 'Sonuç',
+    title: kind === 'corrections' ? 'Hata Düzeltme Tamamlandı' : 'Gramer Quiz Tamamlandı',
+    iconName: 'trophy',
+    scoreText: `${score}/${queue.length}`,
+    sub: 'Skorun',
+    actions: [
+      { label: 'Tekrar', cls: 'btn-primary', icon: 'bolt', onClick: () => (kind === 'corrections' ? startCorrections() : startReviewQuiz()) },
+      { label: 'Ana Menü', cls: 'btn-outline', onClick: () => Router.reset('menu') },
+    ],
+  });
+}
+
 /* ---------- Patterns menu ---------- */
 function renderPatternsMenu() {
   setHeader('Günlük Kalıplar');
@@ -630,6 +759,11 @@ const Screens = {
       case 'patternsMenu': renderPatternsMenu(); break;
       case 'lessonList': renderLessonList(); break;
       case 'lessonDetail': renderLessonDetail(state.params); break;
+      case 'reviewMenu': renderReviewMenu(); break;
+      case 'correctionSession': renderCorrection(); break;
+      case 'correctionSummary': renderReviewSummary('corrections'); break;
+      case 'reviewQuizSession': renderReviewQuiz(); break;
+      case 'reviewQuizSummary': renderReviewSummary('quiz'); break;
       case 'hizliTurSession': renderHizliTur(); break;
       case 'hizliTurSummary': renderHizliTurSummary(); break;
       default: renderMenu();

@@ -4,6 +4,7 @@ const Data = {
   patterns: [],
   meetings: [],
   lessons: [],
+  review: { corrections: [], quiz: [] },
   loaded: false,
 
   async load() {
@@ -33,6 +34,14 @@ const Data = {
         this.words.push(Object.assign({}, item, { category: 'lesson:' + lesson.id }));
       });
     });
+    // Course corrections + grammar quiz: optional file, same as lessons.
+    this.review = { corrections: [], quiz: [] };
+    try {
+      const r = await fetch('data/review.json').then((res) => (res.ok ? res.json() : null));
+      if (r) this.review = { corrections: r.corrections || [], quiz: r.quiz || [] };
+    } catch (e) {
+      // keep the empty default
+    }
     this.loaded = true;
   },
 
@@ -114,6 +123,15 @@ const IRREGULAR_VERBS = {
   notify: ['notify', 'notifies', 'notified', 'notifying'],
   bathe: ['bathe', 'bathes', 'bathed', 'bathing'],
   write: ['write', 'writes', 'wrote', 'written', 'writing'],
+  hang: ['hang', 'hangs', 'hung', 'hanged', 'hanging'],
+  bake: ['bake', 'bakes', 'baked', 'baking'],
+  reply: ['reply', 'replies', 'replied', 'replying'],
+  appreciate: ['appreciate', 'appreciates', 'appreciated', 'appreciating'],
+  become: ['become', 'becomes', 'became', 'becoming'],
+  have: ['have', 'has', 'had', 'having'],
+  take: ['take', 'takes', 'took', 'taken', 'taking'],
+  experience: ['experience', 'experiences', 'experienced', 'experiencing'],
+  face: ['face', 'faces', 'faced', 'facing'],
 };
 
 // For terms like "finite element analysis (FEA)" or "bill of materials (BOM)",

@@ -140,4 +140,38 @@ karışmaz; ama Zayıf Havuz ve ilerleme takibine dahildir.
 
 Kurallar: `id` ders için benzersiz (`L2A`, `L2B`…); kelime id'leri
 `b2l<ders><harf><no>` şeklinde (`b2l2a01`). Her örnek cümlede terim geçmeli,
-yoksa boşluk doldurma boşluğu cümlenin sonuna ekler.
+yoksa boşluk doldurma boşluğu cümlenin sonuna ekler. Terimde parantezli edat
+kullanma (`interfere (with)` değil `interfere with`): 2–8 harflik parantez
+içi kısaltma sanılır ve boşluk yanlış yere düşer.
+
+## 5) Hatalar & Quiz (review.json) formatı
+
+`data/review.json` (ve `docs/data/review.json`) iki listeden oluşur; uygulamada
+**Hatalar & Quiz** menüsünde görünür. Yeni kayıtları listelerin sonuna ekle,
+`id`'ler benzersiz olsun (`E19`, `Q16`…).
+
+```json
+{
+  "corrections": [
+    {
+      "id": "E19",
+      "page": "SB 30",
+      "wrong": "Yanlış cümle.",
+      "correct": "Doğru cümle.",
+      "rule": "Short rule in English.",
+      "rule_tr": "Kuralın Türkçe açıklaması."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "Q16",
+      "topic": "Gramer konusu / ünite",
+      "question": "Sentence with a ___ (verb) gap.",
+      "answers": ["kabul edilen cevap", "kısaltmalı varyant"]
+    }
+  ]
+}
+```
+
+Quiz cevabı büyük/küçük harf ve noktalama farkı gözetmeden `answers`
+listesindeki herhangi biriyle eşleşirse doğru sayılır.

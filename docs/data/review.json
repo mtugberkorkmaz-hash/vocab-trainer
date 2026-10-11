@@ -1,0 +1,280 @@
+{
+  "corrections": [
+    {
+      "id": "E1",
+      "page": "SB 8",
+      "wrong": "She has been starting to write her novel three months ago.",
+      "correct": "She has been writing her novel for three months.",
+      "rule": "PPC never takes 'ago' or 'start'; use for/since.",
+      "rule_tr": "Present Perfect Continuous 'ago' ve 'start/begin' almaz; for/since kullan."
+    },
+    {
+      "id": "E2",
+      "page": "WB 5",
+      "wrong": "Judy has been meeting twelve customers.",
+      "correct": "Judy has met twelve customers. / Judy has been meeting customers since this morning.",
+      "rule": "Number = result → Present Perfect Simple.",
+      "rule_tr": "Sayı varsa sonuç vardır → Present Perfect Simple."
+    },
+    {
+      "id": "E3",
+      "page": "WB 5",
+      "wrong": "Wayne has been playing tennis three games. / He has made two cake.",
+      "correct": "Wayne has played three games. / He has made two cakes.",
+      "rule": "Same rule (number → simple); plural -s.",
+      "rule_tr": "Aynı kural (sayı → Simple); çoğul isim -s alır."
+    },
+    {
+      "id": "E4",
+      "page": "SB 13",
+      "wrong": "His clothes are dirty because he has played in the mud.",
+      "correct": "His clothes are dirty because he has been playing in the mud.",
+      "rule": "Visible evidence of an activity → continuous.",
+      "rule_tr": "Bir eylemin görünür izi varsa → Continuous."
+    },
+    {
+      "id": "E5",
+      "page": "SB 12",
+      "wrong": "The waiter have forgotten us.",
+      "correct": "The waiter has forgotten us.",
+      "rule": "He/she/it → has.",
+      "rule_tr": "Tekil özne (he/she/it) → has."
+    },
+    {
+      "id": "E6",
+      "page": "SB 12",
+      "wrong": "He must realize we have ordered.",
+      "correct": "He must realize we haven't ordered yet.",
+      "rule": "Read the verb prompt: (order, not).",
+      "rule_tr": "Parantezdeki ipucunu oku: (order, not) = olumsuz."
+    },
+    {
+      "id": "E7",
+      "page": "SB 9",
+      "wrong": "The poor old lady have been cooking.",
+      "correct": "The poor old lady has been cooking.",
+      "rule": "Singular subject → has.",
+      "rule_tr": "Tekil özne → has been."
+    },
+    {
+      "id": "E8",
+      "page": "SB 16",
+      "wrong": "If Kate continued spending, she will run out of money.",
+      "correct": "If Kate continues spending, she will run out of money.",
+      "rule": "Don't mix conditionals.",
+      "rule_tr": "Conditional tiplerini karıştırma: If + present → will."
+    },
+    {
+      "id": "E9",
+      "page": "WB 7",
+      "wrong": "I hope Simon be will there.",
+      "correct": "I hope Simon will be there.",
+      "rule": "will + be.",
+      "rule_tr": "Sıralama: will + be."
+    },
+    {
+      "id": "E10",
+      "page": "WB 7",
+      "wrong": "Will I live in Leeds in a few years?",
+      "correct": "Will I be living in Leeds in a few years' time?",
+      "rule": "Future continuous = will + be + V-ing.",
+      "rule_tr": "Future Continuous = will + be + V-ing."
+    },
+    {
+      "id": "E11",
+      "page": "WB 4 / SB 7",
+      "wrong": "Let's go out to kill me.",
+      "correct": "Let's go out to kill time.",
+      "rule": "kill time = waste time while waiting.",
+      "rule_tr": "kill time = beklerken vakit öldürmek."
+    },
+    {
+      "id": "E12",
+      "page": "WB 5",
+      "wrong": "profound = waste-water systems; sanitation = deep understanding",
+      "correct": "profound = deep (understanding, impact); sanitation = waste-water systems",
+      "rule": "Check definitions.",
+      "rule_tr": "Tanımları kontrol et: profound = derin; sanitation = atık su sistemleri."
+    },
+    {
+      "id": "E13",
+      "page": "SB 27",
+      "wrong": "attitude = general opinion; purpose = the way you behave",
+      "correct": "reputation = general opinion; attitude = the way you behave",
+      "rule": "Check definitions.",
+      "rule_tr": "Tanımları kontrol et: genel görüş = reputation; davranış biçimi = attitude."
+    },
+    {
+      "id": "E14",
+      "page": "SB 29",
+      "wrong": "...and they would be right.",
+      "correct": "...and they may be right.",
+      "rule": "Present possibility → may/might.",
+      "rule_tr": "Şimdiki olasılık → may/might."
+    },
+    {
+      "id": "E15",
+      "page": "Spelling",
+      "wrong": "propound, interfure, dramaticly, old fashioned",
+      "correct": "profound, interfere, dramatically, old-fashioned",
+      "rule": "-ic adjectives → -ically; hyphenated adjective.",
+      "rule_tr": "-ic sıfatlar → -ically; old-fashioned tireli yazılır."
+    },
+    {
+      "id": "E16",
+      "page": "Notes",
+      "wrong": "We are out of patient, we were wait too long time.",
+      "correct": "We're out of patience; we've been waiting too long.",
+      "rule": "patient vs patience; no 'too long time'.",
+      "rule_tr": "patient = hasta/sabırlı, patience = sabır; 'too long time' denmez."
+    },
+    {
+      "id": "E17",
+      "page": "Notes",
+      "wrong": "I am create a document for client.",
+      "correct": "I am creating a document for a client.",
+      "rule": "Missing article (and -ing after am).",
+      "rule_tr": "Tekil sayılabilir isimden önce artikel (a client); am'den sonra V-ing."
+    },
+    {
+      "id": "E18",
+      "page": "Speaking",
+      "wrong": "Let's discuss about the project.",
+      "correct": "Let's discuss the project.",
+      "rule": "No 'about' after discuss.",
+      "rule_tr": "discuss 'about' almaz."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "Q1",
+      "topic": "Present Perfect Continuous",
+      "question": "The site team ___ (wait) for the valves for three weeks.",
+      "answers": [
+        "has been waiting",
+        "'s been waiting"
+      ]
+    },
+    {
+      "id": "Q2",
+      "topic": "Present Perfect Simple vs Continuous",
+      "question": "Correct it: I have been knowing the client since 2023.",
+      "answers": [
+        "I have known the client since 2023.",
+        "I've known the client since 2023.",
+        "have known"
+      ]
+    },
+    {
+      "id": "Q3",
+      "topic": "First vs Second Conditional",
+      "question": "If the vendor (sends / will send) the drawings today, I'll check them tonight.",
+      "answers": [
+        "sends"
+      ]
+    },
+    {
+      "id": "Q4",
+      "topic": "First vs Second Conditional",
+      "question": "If I ___ (be) you, I would ask for a meeting.",
+      "answers": [
+        "were"
+      ]
+    },
+    {
+      "id": "Q5",
+      "topic": "Future Continuous",
+      "question": "This time tomorrow, I ___ (fly) to Baku.",
+      "answers": [
+        "will be flying",
+        "'ll be flying"
+      ]
+    },
+    {
+      "id": "Q6",
+      "topic": "Modals + have + V3",
+      "question": "We didn't check the nozzle loads. We ___ (check) them.",
+      "answers": [
+        "should have checked",
+        "should've checked"
+      ]
+    },
+    {
+      "id": "Q7",
+      "topic": "Modals + have + V3",
+      "question": "He didn't answer. He ___ (be) on site.",
+      "answers": [
+        "might have been",
+        "may have been",
+        "could have been",
+        "might've been",
+        "could've been"
+      ]
+    },
+    {
+      "id": "Q8",
+      "topic": "Vocabulary 1B",
+      "question": "Fax machines are ___ now. (no longer useful)",
+      "answers": [
+        "obsolete"
+      ]
+    },
+    {
+      "id": "Q9",
+      "topic": "Vocabulary 1B",
+      "question": "Smartphones are ___ on construction sites. (found everywhere)",
+      "answers": [
+        "ubiquitous"
+      ]
+    },
+    {
+      "id": "Q10",
+      "topic": "Vocabulary 2B",
+      "question": "Don't take a safe workplace for ___.",
+      "answers": [
+        "granted"
+      ]
+    },
+    {
+      "id": "Q11",
+      "topic": "Present Perfect Continuous",
+      "question": "Look! The crane (is lifting / has been lifting) the tank right now.",
+      "answers": [
+        "is lifting"
+      ]
+    },
+    {
+      "id": "Q12",
+      "topic": "Unit 1A phrases",
+      "question": "'Sorry, I'm five minutes late.' → '___!'",
+      "answers": [
+        "No big deal"
+      ]
+    },
+    {
+      "id": "Q13",
+      "topic": "Unit 1A phrases",
+      "question": "We can't finish the MTO; we're ___ gasket data.",
+      "answers": [
+        "out of"
+      ]
+    },
+    {
+      "id": "Q14",
+      "topic": "Modal verbs review",
+      "question": "You ___ check the rating, or the flange will leak. (advice + warning)",
+      "answers": [
+        "had better",
+        "'d better"
+      ]
+    },
+    {
+      "id": "Q15",
+      "topic": "Vocabulary 2A",
+      "question": "Late drawings cause late procurement, which causes more late drawings: a ___.",
+      "answers": [
+        "vicious circle"
+      ]
+    }
+  ]
+}

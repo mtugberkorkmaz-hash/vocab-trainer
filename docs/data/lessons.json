@@ -267,6 +267,426 @@
           "Lütfen biraz sabret; rapor neredeyse hazır."
         ],
         "explanation": "patience = sabır (isim). patient = hasta (isim) veya sabırlı (sıfat). Sık yaptığın hata: \"out of patient\" değil, \"out of patience\"."
+      },
+      {
+        "id": "b2l1a13",
+        "term": "pros and cons",
+        "pronunciation": "prohz und KONZ",
+        "translation": "artıları ve eksileri",
+        "sentences": [
+          "We listed the pros and cons of each pump vendor.",
+          "Let's weigh the pros and cons before we choose carbon steel.",
+          "Online shopping has both pros and cons.",
+          "What are the pros and cons of working from home?",
+          "I wrote a short email about the pros and cons of the two layouts."
+        ],
+        "translations": [
+          "Her pompa tedarikçisinin artılarını ve eksilerini listeledik.",
+          "Karbon çeliği seçmeden önce artıları ve eksileri tartalım.",
+          "Online alışverişin hem artıları hem eksileri var.",
+          "Evden çalışmanın artıları ve eksileri neler?",
+          "İki yerleşim planının artıları ve eksileri hakkında kısa bir e-posta yazdım."
+        ],
+        "explanation": "Artılar ve eksiler; hep çoğul ve bu sırayla kullanılır. Yapı: the pros and cons of + isim/V-ing. 'weigh the pros and cons' = artıları ve eksileri tartmak."
+      },
+      {
+        "id": "b2l1a14",
+        "term": "phrase",
+        "pronunciation": "FRAYZ",
+        "translation": "ifade, kalıp, söz grubu",
+        "sentences": [
+          "'Kill time' is a common phrase.",
+          "Write down every new phrase in your notebook.",
+          "'As per the spec' is a phrase engineers use a lot.",
+          "I learned five useful phrases for meetings today.",
+          "Can you explain what this phrase means?"
+        ],
+        "translations": [
+          "'Kill time' yaygın bir ifadedir.",
+          "Her yeni ifadeyi defterine yaz.",
+          "'As per the spec' mühendislerin çok kullandığı bir ifadedir.",
+          "Bugün toplantılar için beş faydalı kalıp öğrendim.",
+          "Bu ifadenin ne anlama geldiğini açıklayabilir misin?"
+        ],
+        "explanation": "Tek kelime değil, birlikte kullanılan kelime grubu. Çoğulu phrases. 'useful phrase', 'common phrase' sık kullanılır."
+      },
+      {
+        "id": "b2l1a15",
+        "term": "weird",
+        "pronunciation": "WEERD",
+        "translation": "tuhaf, garip",
+        "sentences": [
+          "The pump is making a weird noise.",
+          "It's weird that the vendor hasn't replied yet.",
+          "I had a weird dream last night.",
+          "The pressure gauge shows a weird reading.",
+          "That website looks weird; it might be a scam."
+        ],
+        "translations": [
+          "Pompa tuhaf bir ses çıkarıyor.",
+          "Tedarikçinin hâlâ cevap vermemesi tuhaf.",
+          "Dün gece garip bir rüya gördüm.",
+          "Basınç göstergesi garip bir değer gösteriyor.",
+          "O site tuhaf görünüyor; dolandırıcılık olabilir."
+        ],
+        "explanation": "Günlük konuşmada 'strange' yerine çok kullanılır, biraz daha gayriresmi. Yapı: It's weird that + cümle."
+      },
+      {
+        "id": "b2l1a16",
+        "term": "suspect",
+        "pronunciation": "suh-SPEKT",
+        "translation": "şüphelenmek",
+        "sentences": [
+          "I suspect the gasket is leaking.",
+          "We suspect that the drawing is an old revision.",
+          "The inspector suspected corrosion inside the pipe.",
+          "I suspect he's up to something.",
+          "Do you suspect a problem with the flow meter?"
+        ],
+        "translations": [
+          "Contanın kaçırdığından şüpheleniyorum.",
+          "Çizimin eski bir revizyon olduğundan şüpheleniyoruz.",
+          "Müfettiş borunun içinde korozyon olduğundan şüphelendi.",
+          "Bir şeyler çevirdiğinden şüpheleniyorum.",
+          "Debimetrede bir sorun olduğundan şüpheleniyor musun?"
+        ],
+        "explanation": "Bir şeyin muhtemelen doğru olduğunu düşünmek. Yapı: suspect (that) + cümle / suspect + isim. Fiilde vurgu ikinci hecede (suh-SPEKT); isim hali 'a suspect' (SUS-pekt) = şüpheli."
+      },
+      {
+        "id": "b2l1a17",
+        "term": "definitely",
+        "pronunciation": "DEF-in-it-lee",
+        "translation": "kesinlikle",
+        "sentences": [
+          "It's definitely not my thing.",
+          "We will definitely finish the report by Friday.",
+          "This valve is definitely the wrong size.",
+          "I'll definitely join the site visit.",
+          "Buying from that website is definitely risky."
+        ],
+        "translations": [
+          "Bu kesinlikle benim tarzım değil.",
+          "Raporu kesinlikle cumaya kadar bitireceğiz.",
+          "Bu vana kesinlikle yanlış boyutta.",
+          "Saha ziyaretine kesinlikle katılacağım.",
+          "O siteden alışveriş yapmak kesinlikle riskli."
+        ],
+        "explanation": "Kesinlikle, hiç şüphesiz. Genelde yardımcı fiilden sonra, ana fiilden önce gelir: I will definitely..., It's definitely..."
+      },
+      {
+        "id": "b2l1a18",
+        "term": "approximately",
+        "pronunciation": "uh-PROK-sim-it-lee",
+        "translation": "yaklaşık",
+        "sentences": [
+          "The line is approximately 200 m long.",
+          "The meeting will take approximately one hour.",
+          "We need approximately fifty flanges for this area.",
+          "The tank holds approximately 500 cubic metres of water.",
+          "I've been waiting for approximately twenty minutes."
+        ],
+        "translations": [
+          "Hat yaklaşık 200 metre uzunluğunda.",
+          "Toplantı yaklaşık bir saat sürecek.",
+          "Bu alan için yaklaşık elli flanşa ihtiyacımız var.",
+          "Tank yaklaşık 500 metreküp su alıyor.",
+          "Yaklaşık yirmi dakikadır bekliyorum."
+        ],
+        "explanation": "'about' kelimesinin daha resmi hali; raporlarda ve e-postalarda kullanılır. Sayıdan önce gelir: approximately + sayı."
+      },
+      {
+        "id": "b2l1a19",
+        "term": "job interview",
+        "pronunciation": "JOB IN-ter-vyoo",
+        "translation": "iş görüşmesi",
+        "sentences": [
+          "I have a job interview on Monday.",
+          "She has been preparing for her job interview all week.",
+          "In the job interview, they asked about my piping experience.",
+          "Don't be late for a job interview.",
+          "He had three job interviews last month."
+        ],
+        "translations": [
+          "Pazartesi bir iş görüşmem var.",
+          "Bütün hafta iş görüşmesine hazırlanıyor.",
+          "İş görüşmesinde boru tesisatı deneyimimi sordular.",
+          "İş görüşmesine geç kalma.",
+          "Geçen ay üç iş görüşmesi yaptı."
+        ],
+        "explanation": "İş için yapılan görüşme. 'have a job interview' / 'go to a job interview'. Kısaca 'interview' da denir."
+      },
+      {
+        "id": "b2l1a20",
+        "term": "hang",
+        "pronunciation": "HANG",
+        "translation": "asılı durmak, asmak",
+        "sentences": [
+          "The lamp has been hanging there since Christmas.",
+          "Please hang the P&ID on the wall of the site office.",
+          "She hung her coat behind the door.",
+          "The pipe hangs from steel supports.",
+          "Several photos were hanging in the meeting room."
+        ],
+        "translations": [
+          "Lamba Noel'den beri orada asılı duruyor.",
+          "Lütfen P&ID'yi saha ofisinin duvarına as.",
+          "Paltosunu kapının arkasına astı.",
+          "Boru çelik desteklerden asılı duruyor.",
+          "Toplantı odasında birkaç fotoğraf asılıydı."
+        ],
+        "explanation": "Düzensiz fiil: hang – hung – hung (sadece 'idam etmek' anlamında hanged). Yapı: hang + nesne + on/from + yer."
+      },
+      {
+        "id": "b2l1a21",
+        "term": "pour",
+        "pronunciation": "POR",
+        "translation": "sağanak yağmak; dökmek",
+        "sentences": [
+          "It has been pouring since morning.",
+          "Can you pour me a cup of tea?",
+          "They poured the concrete for the pump foundation yesterday.",
+          "It was pouring, so the site visit was cancelled.",
+          "Water was pouring out of the broken pipe."
+        ],
+        "translations": [
+          "Sabahtan beri sağanak yağıyor.",
+          "Bana bir fincan çay koyar mısın?",
+          "Pompa temelinin betonunu dün döktüler.",
+          "Sağanak yağmur yağıyordu, bu yüzden saha ziyareti iptal edildi.",
+          "Kırık borudan su fışkırıyordu."
+        ],
+        "explanation": "1) Bir sıvıyı dökmek/koymak. 2) 'It's pouring' = bardaktan boşanırcasına yağıyor. Düzenli fiil: poured."
+      },
+      {
+        "id": "b2l1a22",
+        "term": "guest",
+        "pronunciation": "GEST",
+        "translation": "misafir",
+        "sentences": [
+          "The guests have been waiting since supper.",
+          "We have three guests from the client's office today.",
+          "Every guest must wear a helmet on site.",
+          "She welcomed the guests at the door.",
+          "He was a guest speaker at the fire safety conference."
+        ],
+        "translations": [
+          "Misafirler akşam yemeğinden beri bekliyor.",
+          "Bugün müşterinin ofisinden üç misafirimiz var.",
+          "Sahada her misafir baret takmak zorunda.",
+          "Misafirleri kapıda karşıladı.",
+          "Yangın güvenliği konferansında konuk konuşmacıydı."
+        ],
+        "explanation": "Davet edilen ziyaretçi. 'guest speaker' = konuk konuşmacı. Çoğulu guests."
+      },
+      {
+        "id": "b2l1a23",
+        "term": "supper",
+        "pronunciation": "SUP-er",
+        "translation": "akşam yemeği",
+        "sentences": [
+          "We had supper at eight.",
+          "What are we having for supper tonight?",
+          "The guests arrived just before supper.",
+          "After a long day on site, I had a quick supper and went to bed.",
+          "My grandmother always made soup for supper."
+        ],
+        "translations": [
+          "Saat sekizde akşam yemeği yedik.",
+          "Bu akşam yemekte ne var?",
+          "Misafirler akşam yemeğinden hemen önce geldi.",
+          "Sahada uzun bir günün ardından hızlıca akşam yemeği yiyip yattım.",
+          "Büyükannem akşam yemeğine hep çorba yapardı."
+        ],
+        "explanation": "Akşam yemeği, genelde hafif ve ev ortamında; 'dinner' daha yaygın. 'have supper' = akşam yemeği yemek; başına 'the' gelmez."
+      },
+      {
+        "id": "b2l1a24",
+        "term": "lullaby",
+        "pronunciation": "LUL-uh-bye",
+        "translation": "ninni",
+        "sentences": [
+          "She has been singing a lullaby to the baby.",
+          "My mother used to sing me a lullaby every night.",
+          "This old lullaby is very popular in Turkey.",
+          "The baby fell asleep before the lullaby ended.",
+          "The sound of the rain was like a lullaby."
+        ],
+        "translations": [
+          "Bir süredir bebeğe ninni söylüyor.",
+          "Annem her gece bana ninni söylerdi.",
+          "Bu eski ninni Türkiye'de çok popüler.",
+          "Bebek ninni bitmeden uyudu.",
+          "Yağmurun sesi ninni gibiydi."
+        ],
+        "explanation": "Bebeği uyutmak için söylenen yumuşak şarkı. 'sing a lullaby' kalıbıyla kullanılır."
+      },
+      {
+        "id": "b2l1a25",
+        "term": "bake",
+        "pronunciation": "BAYK",
+        "translation": "fırında pişirmek",
+        "sentences": [
+          "Bonnie has been baking since 12:30.",
+          "My sister baked a cake for my birthday.",
+          "How long should I bake the bread?",
+          "She bakes cookies every weekend.",
+          "The smell of baking bread filled the kitchen."
+        ],
+        "translations": [
+          "Bonnie 12:30'dan beri fırında bir şeyler pişiriyor.",
+          "Kız kardeşim doğum günüm için kek yaptı.",
+          "Ekmeği ne kadar süre pişirmeliyim?",
+          "Her hafta sonu kurabiye yapıyor.",
+          "Pişen ekmeğin kokusu mutfağı doldurdu."
+        ],
+        "explanation": "Fırında pişirmek (ekmek, kek, kurabiye). Düzenli fiil: baked; -ing hali 'baking' (e düşer)."
+      },
+      {
+        "id": "b2l1a26",
+        "term": "dozen",
+        "pronunciation": "DUZ-un",
+        "translation": "düzine (12'li)",
+        "sentences": [
+          "She baked four dozen cookies, which is 48 cookies.",
+          "I bought a dozen eggs.",
+          "We ordered two dozen bolts for the flange connections.",
+          "There were dozens of people at the job fair.",
+          "I've told him a dozen times to check the revision number."
+        ],
+        "translations": [
+          "Dört düzine kurabiye yaptı, yani 48 kurabiye.",
+          "Bir düzine yumurta aldım.",
+          "Flanş bağlantıları için iki düzine cıvata sipariş ettik.",
+          "İş fuarında onlarca insan vardı.",
+          "Revizyon numarasını kontrol etmesini ona defalarca söyledim."
+        ],
+        "explanation": "12 adet. Sayıdan sonra çoğul -s almaz: two dozen eggs. 'dozens of' = onlarca (belirsiz çok sayı)."
+      },
+      {
+        "id": "b2l1a27",
+        "term": "ever since",
+        "pronunciation": "EV-er SINS",
+        "translation": "o zamandan beri",
+        "sentences": [
+          "He has been walking ever since his car broke down.",
+          "I've wanted to be an engineer ever since I was a child.",
+          "The pump was repaired in May, and it has worked well ever since.",
+          "James has been taking vitamins ever since he got a bad flu.",
+          "We met at university and have been friends ever since."
+        ],
+        "translations": [
+          "Arabası bozulduğundan beri yürüyor.",
+          "Çocukluğumdan beri mühendis olmak istedim.",
+          "Pompa mayısta tamir edildi ve o zamandan beri iyi çalışıyor.",
+          "James kötü bir grip geçirdiğinden beri vitamin alıyor.",
+          "Üniversitede tanıştık ve o zamandan beri arkadaşız."
+        ],
+        "explanation": "O zamandan beri. Present Perfect (Continuous) ile kullanılır. Yapı: ever since + geçmiş zaman cümlesi, ya da cümle sonunda tek başına."
+      },
+      {
+        "id": "b2l1a28",
+        "term": "discuss",
+        "pronunciation": "dis-KUSS",
+        "translation": "tartışmak, görüşmek",
+        "sentences": [
+          "Let's discuss the design basis.",
+          "We discussed the problem with the client yesterday.",
+          "I'd like to discuss the delivery schedule.",
+          "They have been discussing the budget all morning.",
+          "We need to discuss the pros and cons of this option."
+        ],
+        "translations": [
+          "Tasarım esaslarını konuşalım.",
+          "Sorunu dün müşteriyle görüştük.",
+          "Teslimat programını görüşmek istiyorum.",
+          "Bütün sabah bütçeyi tartışıyorlar.",
+          "Bu seçeneğin artılarını ve eksilerini konuşmamız gerek."
+        ],
+        "explanation": "Bir konuyu konuşmak/görüşmek. DİKKAT: 'about' almaz → discuss the project ('discuss about the project' yanlış). İsim hali: a discussion about."
+      },
+      {
+        "id": "b2l1a29",
+        "term": "patient",
+        "pronunciation": "PAY-shunt",
+        "translation": "hasta; sabırlı",
+        "sentences": [
+          "Be patient, the vendor will reply soon.",
+          "The doctor sees thirty patients a day.",
+          "You need to be patient when you learn a new language.",
+          "The patient has been waiting for the test results.",
+          "My manager is very patient with new engineers."
+        ],
+        "translations": [
+          "Sabırlı ol, tedarikçi yakında cevap verir.",
+          "Doktor günde otuz hasta bakıyor.",
+          "Yeni bir dil öğrenirken sabırlı olman gerekir.",
+          "Hasta test sonuçlarını bekliyor.",
+          "Müdürüm yeni mühendislere karşı çok sabırlı."
+        ],
+        "explanation": "İki anlamı var: isim = hasta; sıfat = sabırlı. Sabır (isim) = patience. 'be patient with someone' = birine karşı sabırlı olmak."
+      },
+      {
+        "id": "b2l1a30",
+        "term": "vendor / supplier",
+        "pronunciation": "VEN-der / suh-PLY-er",
+        "translation": "tedarikçi",
+        "sentences": [
+          "We have been waiting for the vendor's reply since Monday.",
+          "The supplier sent the wrong gaskets.",
+          "Please ask the vendor for the latest datasheet.",
+          "We compared three suppliers before we placed the order.",
+          "The pump vendor will visit the site next week."
+        ],
+        "translations": [
+          "Pazartesiden beri tedarikçinin cevabını bekliyoruz.",
+          "Tedarikçi yanlış contaları gönderdi.",
+          "Lütfen tedarikçiden son veri sayfasını iste.",
+          "Siparişi vermeden önce üç tedarikçiyi karşılaştırdık.",
+          "Pompa tedarikçisi gelecek hafta sahayı ziyaret edecek."
+        ],
+        "explanation": "Projeye ekipman/malzeme satan firma (yüklenici/contractor değil). Vendor ve supplier çoğu zaman aynı anlamda. Kalıplar: vendor's reply, vendor data, approved supplier."
+      },
+      {
+        "id": "b2l1a31",
+        "term": "reply",
+        "pronunciation": "rih-PLY",
+        "translation": "cevap, yanıt; cevap vermek",
+        "sentences": [
+          "The vendor's reply came this morning.",
+          "Please reply to my email by Friday.",
+          "She replied that the drawings were ready.",
+          "We are still waiting for a reply from the client.",
+          "He hasn't replied to my message yet."
+        ],
+        "translations": [
+          "Tedarikçinin cevabı bu sabah geldi.",
+          "Lütfen e-postama cuma gününe kadar cevap ver.",
+          "Çizimlerin hazır olduğu cevabını verdi.",
+          "Hâlâ müşteriden cevap bekliyoruz.",
+          "Mesajıma henüz cevap vermedi."
+        ],
+        "explanation": "İsim ve fiil. Fiil: reply to + kişi/e-posta ('reply my email' değil). Geçmiş hali replied. İsim: a reply from someone."
+      },
+      {
+        "id": "b2l1a32",
+        "term": "appreciate",
+        "pronunciation": "uh-PREE-shee-ayt",
+        "translation": "takdir etmek, minnettar olmak",
+        "sentences": [
+          "I appreciate you checking my isometrics.",
+          "We really appreciate your help with the report.",
+          "I would appreciate it if you could send the drawings today.",
+          "The client appreciated our quick response.",
+          "I don't think he appreciates how hard the team works."
+        ],
+        "translations": [
+          "İzometriklerimi kontrol etmene minnettarım.",
+          "Rapordaki yardımın için gerçekten minnettarız.",
+          "Çizimleri bugün gönderebilirsen memnun olurum.",
+          "Müşteri hızlı dönüşümüzü takdir etti.",
+          "Ekibin ne kadar çok çalıştığını takdir ettiğini sanmıyorum."
+        ],
+        "explanation": "Teşekkür/takdir için resmi ve kibar fiil. 'I would appreciate it if you could...' = ...yaparsanız memnun olurum (e-postalarda çok kullanılır). 'appreciate for' denmez."
       }
     ]
   },
@@ -496,6 +916,1886 @@
           "Bugün gölde yüzmek için hava çok soğuk."
         ],
         "explanation": "Özellikle İngiliz İngilizcesi. 'bath' (baTH) = küvette banyo yapmak; 'bathe' (bayTH) = göl/denizde yüzmek veya yarayı yıkamak."
+      }
+    ]
+  },
+  {
+    "id": "L1B",
+    "code": "1B",
+    "title": "Digital Age",
+    "date": "2026-10-03",
+    "pages": "SB 10–13, WB 5",
+    "grammar": {
+      "title": "Present Perfect Simple vs Continuous",
+      "formula": "have/has + V3 (sonuç) · have/has + been + V-ing (süreç)",
+      "note": "Sayı/sonuç varsa ya da iş bittiyse → Simple. Süreç, süre ya da görünür bir iz varsa → Continuous. Durum fiilleri (know, believe, understand, own, need) hep Simple: I've known her since 2015.",
+      "examples": [
+        "I've checked three drawings.",
+        "I've been checking drawings all day.",
+        "His clothes are dirty because he has been playing in the mud."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l1b01",
+        "term": "decade",
+        "pronunciation": "DEK-ayd",
+        "translation": "on yıl",
+        "sentences": [
+          "Office software has changed a lot over the last decade.",
+          "I have been working in piping design for almost a decade.",
+          "The plant has operated safely for three decades.",
+          "Prices have doubled in a decade.",
+          "This decade will bring big changes to engineering."
+        ],
+        "translations": [
+          "Ofis yazılımları son on yılda çok değişti.",
+          "Neredeyse on yıldır boru tasarımında çalışıyorum.",
+          "Tesis otuz yıldır güvenle çalışıyor.",
+          "Fiyatlar on yılda iki katına çıktı.",
+          "Bu on yıl mühendisliğe büyük değişiklikler getirecek."
+        ],
+        "explanation": "On yıllık dönem. 'over the last decade' = son on yılda; 'for decades' = onlarca yıldır."
+      },
+      {
+        "id": "b2l1b02",
+        "term": "integrated",
+        "pronunciation": "IN-tuh-gray-tid",
+        "translation": "entegre, bütünleşik",
+        "sentences": [
+          "The F&G system is integrated with the DCS.",
+          "We use an integrated platform for design and procurement.",
+          "The fire alarm is fully integrated into the building management system.",
+          "An integrated approach saves time and money.",
+          "Smartphones have become integrated into our daily lives."
+        ],
+        "translations": [
+          "F&G sistemi DCS ile entegre.",
+          "Tasarım ve satın alma için entegre bir platform kullanıyoruz.",
+          "Yangın alarmı bina yönetim sistemine tamamen entegre.",
+          "Bütünleşik bir yaklaşım zaman ve para kazandırır.",
+          "Akıllı telefonlar günlük hayatımıza entegre oldu."
+        ],
+        "explanation": "Tek bir sistem içinde birleştirilmiş. Yapı: integrated with/into + isim. Fiil: integrate."
+      },
+      {
+        "id": "b2l1b03",
+        "term": "ubiquitous",
+        "pronunciation": "yoo-BIK-wih-tus",
+        "translation": "her yerde olan, çok yaygın",
+        "sentences": [
+          "Smartphones are ubiquitous on site.",
+          "Wi-Fi has become ubiquitous in hotels and cafes.",
+          "Plastic is ubiquitous in modern life.",
+          "Video meetings are now ubiquitous in engineering companies.",
+          "Coffee shops are ubiquitous in this city."
+        ],
+        "translations": [
+          "Akıllı telefonlar sahada her yerde.",
+          "Wi-Fi otel ve kafelerde her yerde bulunur hale geldi.",
+          "Plastik modern hayatta her yerde.",
+          "Görüntülü toplantılar artık mühendislik firmalarında her yerde.",
+          "Bu şehirde kahve dükkânları her yerde."
+        ],
+        "explanation": "Her yerde bulunan, çok yaygın. 'common' kelimesinden daha güçlü ve resmi. Yapı: be/become ubiquitous."
+      },
+      {
+        "id": "b2l1b04",
+        "term": "retrieval",
+        "pronunciation": "rih-TREE-vul",
+        "translation": "geri çağırma, erişim",
+        "sentences": [
+          "Document retrieval is faster with an EDMS.",
+          "The new system makes data retrieval easy.",
+          "Fast information retrieval is essential during an emergency.",
+          "The retrieval of old drawings from the archive took two days.",
+          "Cloud storage has improved file retrieval for site teams."
+        ],
+        "translations": [
+          "EDMS ile doküman erişimi daha hızlı.",
+          "Yeni sistem veri erişimini kolaylaştırıyor.",
+          "Acil durumda hızlı bilgi erişimi şart.",
+          "Eski çizimlerin arşivden geri getirilmesi iki gün sürdü.",
+          "Bulut depolama saha ekipleri için dosya erişimini iyileştirdi."
+        ],
+        "explanation": "Saklanmış bilgiyi geri çağırma/erişme. Fiil: retrieve. 'data/document/information retrieval' kalıpları yaygın."
+      },
+      {
+        "id": "b2l1b05",
+        "term": "indispensable",
+        "pronunciation": "in-dih-SPEN-suh-bul",
+        "translation": "vazgeçilmez",
+        "sentences": [
+          "Excel is indispensable for MTO work.",
+          "Our site supervisor is indispensable to the project.",
+          "A good internet connection has become indispensable.",
+          "Experience is indispensable in fire protection design.",
+          "For many people, smartphones are indispensable."
+        ],
+        "translations": [
+          "Excel MTO işi için vazgeçilmez.",
+          "Saha şefimiz proje için vazgeçilmez.",
+          "İyi bir internet bağlantısı vazgeçilmez hale geldi.",
+          "Yangın koruma tasarımında deneyim vazgeçilmezdir.",
+          "Birçok insan için akıllı telefonlar vazgeçilmez."
+        ],
+        "explanation": "Onsuz olunamayacak kadar önemli. 'essential' ile yakın ama daha güçlü. Yapı: indispensable for/to + isim."
+      },
+      {
+        "id": "b2l1b06",
+        "term": "obsolete",
+        "pronunciation": "ob-suh-LEET",
+        "translation": "modası geçmiş, eskimiş",
+        "sentences": [
+          "Fax machines are obsolete.",
+          "This revision is obsolete; please use Rev. C.",
+          "The old control system became obsolete after ten years.",
+          "Some jobs may become obsolete because of AI.",
+          "We replaced the obsolete valves with new ones."
+        ],
+        "translations": [
+          "Faks makinelerinin devri geçti.",
+          "Bu revizyon geçersiz; lütfen Rev. C'yi kullan.",
+          "Eski kontrol sistemi on yıl sonra eskidi.",
+          "Bazı meslekler yapay zekâ yüzünden ortadan kalkabilir.",
+          "Eskimiş vanaları yenileriyle değiştirdik."
+        ],
+        "explanation": "Artık kullanılmayan, yerini yenisine bırakmış. 'old-fashioned'dan farkı: obsolete = işlevini yitirmiş. Yapı: become obsolete."
+      },
+      {
+        "id": "b2l1b07",
+        "term": "autonomous",
+        "pronunciation": "aw-TON-uh-mus",
+        "translation": "otonom, bağımsız",
+        "sentences": [
+          "Autonomous robots work in the warehouse.",
+          "Autonomous cars may change how we travel.",
+          "The drone can carry out an autonomous inspection of the tank.",
+          "Each site team is autonomous and makes its own decisions.",
+          "In the future, many machines will be fully autonomous."
+        ],
+        "translations": [
+          "Depoda otonom robotlar çalışıyor.",
+          "Otonom arabalar seyahat etme şeklimizi değiştirebilir.",
+          "Drone tankın otonom bir muayenesini yapabilir.",
+          "Her saha ekibi bağımsız ve kendi kararlarını veriyor.",
+          "Gelecekte birçok makine tamamen otonom olacak."
+        ],
+        "explanation": "Kendi kendine çalışabilen, bağımsız. Teknoloji (autonomous vehicle) ve organizasyon (autonomous team) için kullanılır."
+      },
+      {
+        "id": "b2l1b08",
+        "term": "adapt to",
+        "pronunciation": "uh-DAPT too",
+        "translation": "uyum sağlamak, alışmak",
+        "sentences": [
+          "Workers are adapting to the new software.",
+          "It took me a month to adapt to the night shifts.",
+          "Companies must adapt to new technology.",
+          "She adapted to life in a new city very quickly.",
+          "How long does it take to adapt to a hot climate?"
+        ],
+        "translations": [
+          "Çalışanlar yeni yazılıma uyum sağlıyor.",
+          "Gece vardiyalarına alışmam bir ay sürdü.",
+          "Şirketler yeni teknolojiye uyum sağlamalı.",
+          "Yeni bir şehirdeki hayata çok çabuk uyum sağladı.",
+          "Sıcak bir iklime uyum sağlamak ne kadar sürer?"
+        ],
+        "explanation": "Yeni bir duruma alışmak. Yapı: adapt to + isim/V-ing ('to' burada edat). Karıştırma: adopt = benimsemek."
+      },
+      {
+        "id": "b2l1b09",
+        "term": "immersive",
+        "pronunciation": "ih-MUR-siv",
+        "translation": "sürükleyici, içine çeken",
+        "sentences": [
+          "The VR plant walkthrough is very immersive.",
+          "Immersive games can be addictive.",
+          "Living abroad is an immersive way to learn a language.",
+          "The museum offers an immersive experience.",
+          "Immersive training helps new operators learn faster."
+        ],
+        "translations": [
+          "VR tesis turu çok sürükleyici.",
+          "Sürükleyici oyunlar bağımlılık yapabilir.",
+          "Yurt dışında yaşamak, bir dili tamamen içinde yaşayarak öğrenmenin yoludur.",
+          "Müze sürükleyici bir deneyim sunuyor.",
+          "Sürükleyici eğitim yeni operatörlerin daha hızlı öğrenmesine yardımcı olur."
+        ],
+        "explanation": "Kişiyi tamamen içine çeken (VR, oyun, deneyim). 'immersive experience' sık kullanılan kalıp."
+      },
+      {
+        "id": "b2l1b10",
+        "term": "invention",
+        "pronunciation": "in-VEN-shun",
+        "translation": "icat",
+        "sentences": [
+          "The steam engine was a great invention.",
+          "The internet is probably the most important invention of the last century.",
+          "Who was responsible for the invention of the telephone?",
+          "This new invention could revolutionize pipe welding.",
+          "In class, we presented a revolutionary invention."
+        ],
+        "translations": [
+          "Buhar makinesi büyük bir icattı.",
+          "İnternet muhtemelen geçen yüzyılın en önemli icadı.",
+          "Telefonun icadı kime ait?",
+          "Bu yeni icat boru kaynağını kökten değiştirebilir.",
+          "Derste devrim niteliğinde bir icat sunduk."
+        ],
+        "explanation": "Yeni yaratılan şey, icat. Fiil: invent; kişi: inventor."
+      },
+      {
+        "id": "b2l1b11",
+        "term": "meaningless",
+        "pronunciation": "MEE-ning-lis",
+        "translation": "anlamsız",
+        "sentences": [
+          "The data is meaningless without units.",
+          "Without a clear goal, the meeting was meaningless.",
+          "These numbers are meaningless unless we compare them with last year.",
+          "He felt that his job was meaningless.",
+          "A test result without a date is meaningless."
+        ],
+        "translations": [
+          "Veriler birim olmadan anlamsız.",
+          "Net bir hedef olmadan toplantı anlamsızdı.",
+          "Bu rakamları geçen yılla karşılaştırmadıkça anlamsızlar.",
+          "İşinin anlamsız olduğunu hissediyordu.",
+          "Tarihsiz bir test sonucu anlamsızdır."
+        ],
+        "explanation": "Anlamı veya amacı olmayan. meaning + -less (= -sız). Zıt anlamlısı: meaningful."
+      },
+      {
+        "id": "b2l1b12",
+        "term": "accurate",
+        "pronunciation": "AK-yuh-rit",
+        "translation": "doğru, hassas",
+        "sentences": [
+          "The flow meter is accurate to 0.1%.",
+          "Please make sure the MTO is accurate.",
+          "The weather forecast was surprisingly accurate.",
+          "We need accurate measurements before we cut the pipe.",
+          "Is this information accurate?"
+        ],
+        "translations": [
+          "Debimetre %0,1 hassasiyetle ölçüyor.",
+          "Lütfen MTO'nun doğru olduğundan emin ol.",
+          "Hava tahmini şaşırtıcı derecede doğruydu.",
+          "Boruyu kesmeden önce hassas ölçümlere ihtiyacımız var.",
+          "Bu bilgi doğru mu?"
+        ],
+        "explanation": "Doğru ve hassas, hatasız. İsim: accuracy. Zıt: inaccurate. Ölçüm için: accurate to + değer."
+      },
+      {
+        "id": "b2l1b13",
+        "term": "revolutionize",
+        "pronunciation": "rev-uh-LOO-shuh-nyze",
+        "translation": "kökten değiştirmek",
+        "sentences": [
+          "BIM has revolutionized plant design.",
+          "Smartphones revolutionized the way we communicate.",
+          "AI could revolutionize medicine in the next decade.",
+          "Online shopping has revolutionized retail.",
+          "This software will revolutionize how we prepare isometrics."
+        ],
+        "translations": [
+          "BIM tesis tasarımını kökten değiştirdi.",
+          "Akıllı telefonlar iletişim şeklimizi kökten değiştirdi.",
+          "Yapay zekâ önümüzdeki on yılda tıbbı kökten değiştirebilir.",
+          "Online alışveriş perakendeciliği kökten değiştirdi.",
+          "Bu yazılım izometrikleri hazırlama şeklimizi kökten değiştirecek."
+        ],
+        "explanation": "Bir şeyi tamamen ve çok daha iyi yönde değiştirmek. Writing'de çok işe yarar: 'X has revolutionized Y'. İngiliz yazımı: revolutionise."
+      },
+      {
+        "id": "b2l1b14",
+        "term": "profound",
+        "pronunciation": "pruh-FOWND",
+        "translation": "derin, çok büyük",
+        "sentences": [
+          "Technology has had a profound impact on engineering.",
+          "The accident had a profound effect on the whole team.",
+          "She has a profound understanding of fire protection codes.",
+          "There have been profound changes in the industry.",
+          "His first manager had a profound influence on his career."
+        ],
+        "translations": [
+          "Teknolojinin mühendislik üzerinde derin bir etkisi oldu.",
+          "Kaza bütün ekip üzerinde derin bir etki bıraktı.",
+          "Yangın koruma yönetmeliklerini derinlemesine biliyor.",
+          "Sektörde köklü değişiklikler oldu.",
+          "İlk müdürünün kariyeri üzerinde derin bir etkisi oldu."
+        ],
+        "explanation": "Çok güçlü, derin (etki, değişiklik, anlayış). Kalıp: a profound impact/effect on. Yazımı: profound ('propound' değil)."
+      },
+      {
+        "id": "b2l1b15",
+        "term": "employ",
+        "pronunciation": "em-PLOY",
+        "translation": "istihdam etmek; kullanmak",
+        "sentences": [
+          "The project employs 300 workers.",
+          "The company has employed her as a piping engineer.",
+          "We employ the latest software for stress analysis.",
+          "How many people does your company employ?",
+          "The factory employed mostly local people."
+        ],
+        "translations": [
+          "Proje 300 işçi istihdam ediyor.",
+          "Şirket onu boru mühendisi olarak işe aldı.",
+          "Gerilme analizi için en yeni yazılımı kullanıyoruz.",
+          "Şirketiniz kaç kişi çalıştırıyor?",
+          "Fabrika çoğunlukla yerel insanları istihdam etti."
+        ],
+        "explanation": "1) İşe almak/istihdam etmek. 2) (resmi) kullanmak. İlgili kelimeler: employer (işveren), employee (çalışan), employment (istihdam)."
+      },
+      {
+        "id": "b2l1b16",
+        "term": "in tandem",
+        "pronunciation": "in TAN-dum",
+        "translation": "birlikte, eş zamanlı",
+        "sentences": [
+          "Robots work in tandem with people.",
+          "The two pumps run in tandem during peak demand.",
+          "Design and procurement must move in tandem.",
+          "We worked in tandem with the client's engineers.",
+          "Prices and demand often rise in tandem."
+        ],
+        "translations": [
+          "Robotlar insanlarla birlikte çalışıyor.",
+          "İki pompa yoğun talep sırasında birlikte çalışıyor.",
+          "Tasarım ve satın alma eş zamanlı ilerlemeli.",
+          "Müşterinin mühendisleriyle birlikte çalıştık.",
+          "Fiyatlar ve talep çoğu zaman birlikte artar."
+        ],
+        "explanation": "Birlikte, eş zamanlı. Kalıp: work in tandem with + kişi/şey."
+      },
+      {
+        "id": "b2l1b17",
+        "term": "essential",
+        "pronunciation": "ih-SEN-shul",
+        "translation": "gerekli, temel, olmazsa olmaz",
+        "sentences": [
+          "Hydrotest records are essential.",
+          "It is essential to wear PPE on site.",
+          "Good communication is essential for a successful project.",
+          "Water and food are essential for life.",
+          "This is an essential part of the fire protection system."
+        ],
+        "translations": [
+          "Hidrotest kayıtları olmazsa olmaz.",
+          "Sahada KKD giymek şart.",
+          "Başarılı bir proje için iyi iletişim şart.",
+          "Su ve yiyecek yaşam için gereklidir.",
+          "Bu, yangın koruma sisteminin temel bir parçası."
+        ],
+        "explanation": "Gerekli, olmazsa olmaz. Kalıplar: It is essential to + V1 / essential for + isim."
+      },
+      {
+        "id": "b2l1b18",
+        "term": "unremarkable",
+        "pronunciation": "un-rih-MAR-kuh-bul",
+        "translation": "sıradan, dikkat çekmeyen",
+        "sentences": [
+          "The results were unremarkable.",
+          "The hotel was clean but unremarkable.",
+          "The first half of the match was unremarkable.",
+          "What was once amazing is now completely unremarkable.",
+          "The inspection was unremarkable; no defects were found."
+        ],
+        "translations": [
+          "Sonuçlar sıradandı.",
+          "Otel temizdi ama sıradandı.",
+          "Maçın ilk yarısı sıradandı.",
+          "Bir zamanlar muhteşem olan şey artık tamamen sıradan.",
+          "Muayenede olağan dışı bir şey çıkmadı; hiçbir kusur bulunmadı."
+        ],
+        "explanation": "Dikkat çekmeyen, sıradan. un- + remarkable (dikkate değer). Teknik raporlarda 'sorun bulunmadı' anlamında da kullanılır."
+      },
+      {
+        "id": "b2l1b19",
+        "term": "commonplace",
+        "pronunciation": "KOM-un-playss",
+        "translation": "sıradan, yaygın",
+        "sentences": [
+          "Video meetings are commonplace now.",
+          "Electric cars are becoming commonplace.",
+          "Working from home has become commonplace since 2020.",
+          "Delays like this are commonplace in big projects.",
+          "Smartphones were rare in 2005, but now they are commonplace."
+        ],
+        "translations": [
+          "Görüntülü toplantılar artık sıradan.",
+          "Elektrikli arabalar yaygınlaşıyor.",
+          "2020'den beri evden çalışmak yaygınlaştı.",
+          "Büyük projelerde bu tür gecikmeler sıradan.",
+          "Akıllı telefonlar 2005'te nadirdi ama artık çok yaygın."
+        ],
+        "explanation": "Çok yaygın, sıradan hale gelmiş. Writing'de sık kalıp: X has become commonplace."
+      },
+      {
+        "id": "b2l1b20",
+        "term": "sanitation",
+        "pronunciation": "san-ih-TAY-shun",
+        "translation": "sanitasyon (atık su ve atık sistemleri)",
+        "sentences": [
+          "Site sanitation must meet regulations.",
+          "Poor sanitation can spread disease.",
+          "The camp has clean water and proper sanitation.",
+          "Modern sanitation has saved millions of lives.",
+          "The city invested in better sanitation systems."
+        ],
+        "translations": [
+          "Saha sanitasyonu yönetmeliklere uymalı.",
+          "Kötü sanitasyon hastalık yayabilir.",
+          "Kampta temiz su ve düzgün sanitasyon var.",
+          "Modern sanitasyon milyonlarca hayat kurtardı.",
+          "Şehir daha iyi sanitasyon sistemlerine yatırım yaptı."
+        ],
+        "explanation": "Atık su ve atıkları uzaklaştıran sistemler; kamu sağlığı ve hijyen altyapısı. (Kitapta 'profound' ile yer değiştirmişti, karıştırma.)"
+      },
+      {
+        "id": "b2l1b21",
+        "term": "adoption",
+        "pronunciation": "uh-DOP-shun",
+        "translation": "benimseme; evlat edinme",
+        "sentences": [
+          "The adoption of AR tools is growing.",
+          "The rapid adoption of smartphones changed the market.",
+          "Adoption of the new standard will take time.",
+          "Cost is the main barrier to the adoption of BIM.",
+          "They are considering the adoption of a child."
+        ],
+        "translations": [
+          "AR araçlarının benimsenmesi artıyor.",
+          "Akıllı telefonların hızla benimsenmesi pazarı değiştirdi.",
+          "Yeni standardın benimsenmesi zaman alacak.",
+          "BIM'in benimsenmesinin önündeki ana engel maliyet.",
+          "Bir çocuk evlat edinmeyi düşünüyorlar."
+        ],
+        "explanation": "1) Yeni bir şeyi kullanmaya başlama, benimseme. 2) Evlat edinme. Fiil: adopt ('adapt' ile karıştırma)."
+      },
+      {
+        "id": "b2l1b22",
+        "term": "decision-making",
+        "pronunciation": "dih-SIZH-un MAY-king",
+        "translation": "karar verme",
+        "sentences": [
+          "Power BI supports decision-making.",
+          "Good data leads to better decision-making.",
+          "The client wants to be involved in decision-making.",
+          "Slow decision-making delayed the project.",
+          "AI may help managers with decision-making."
+        ],
+        "translations": [
+          "Power BI karar vermeyi destekliyor.",
+          "İyi veri daha iyi kararlar verilmesini sağlar.",
+          "Müşteri karar alma sürecine dahil olmak istiyor.",
+          "Yavaş karar alma projeyi geciktirdi.",
+          "Yapay zekâ yöneticilere karar vermede yardımcı olabilir."
+        ],
+        "explanation": "Karar verme süreci. Tireli yazılır ve isim olarak kullanılır: the decision-making process."
+      }
+    ]
+  },
+  {
+    "id": "L1C",
+    "code": "1C",
+    "title": "Mercury & Mars",
+    "date": "2026-10-04",
+    "pages": "SB 14–21, WB 6–7",
+    "grammar": {
+      "title": "First vs Second Conditional",
+      "formula": "If + present, will + V1 · If + past, would + V1",
+      "note": "1. tip = gerçek ihtimal, 2. tip = hayal / düşük ihtimal. If'li kısımda will/would kullanılmaz (If it snows, 'If it will snow' değil). İkisini karıştırma: If Kate continues..., she will... Tavsiye kalıbı: If I were you, I'd...",
+      "examples": [
+        "If the vendor replies, I'll update the MTO.",
+        "If I had more time, I'd learn Python.",
+        "If John weren't so busy, he would spend more time with his family."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l1c01",
+        "term": "stationery",
+        "pronunciation": "STAY-shun-air-ee",
+        "translation": "kırtasiye",
+        "sentences": [
+          "Order more stationery for the site office.",
+          "The company spends a lot of money on stationery.",
+          "I bought some stationery for school.",
+          "The stationery is kept in the second drawer.",
+          "Don't confuse stationery with stationary."
+        ],
+        "translations": [
+          "Saha ofisi için daha fazla kırtasiye sipariş et.",
+          "Şirket kırtasiyeye çok para harcıyor.",
+          "Okul için biraz kırtasiye aldım.",
+          "Kırtasiye malzemeleri ikinci çekmecede duruyor.",
+          "Stationery (kırtasiye) ile stationary'yi (sabit, hareketsiz) karıştırma."
+        ],
+        "explanation": "Kırtasiye (kâğıt, kalem, ofis malzemesi). Sayılamaz: some stationery. Dikkat: stationary (a ile) = sabit, hareketsiz; okunuşları aynı."
+      },
+      {
+        "id": "b2l1c02",
+        "term": "get fired",
+        "pronunciation": "get FYE-urd",
+        "translation": "kovulmak",
+        "sentences": [
+          "If my boss found out, I'd get fired.",
+          "He got fired for being late every day.",
+          "You won't get fired for one small mistake.",
+          "She was afraid of getting fired.",
+          "If you lie to the client, you will get fired."
+        ],
+        "translations": [
+          "Patronum öğrenirse kovulurdum.",
+          "Her gün geç kaldığı için kovuldu.",
+          "Küçük bir hata yüzünden kovulmazsın.",
+          "Kovulmaktan korkuyordu.",
+          "Müşteriye yalan söylersen kovulursun."
+        ],
+        "explanation": "İşten kovulmak (gayriresmi). get + V3 = edilgen anlam. Aktif hali: fire someone. Resmi karşılığı: be dismissed."
+      },
+      {
+        "id": "b2l1c03",
+        "term": "gamble",
+        "pronunciation": "GAM-bul",
+        "translation": "kumar oynamak; risk almak",
+        "sentences": [
+          "Skipping the hydrotest is a gamble.",
+          "He gambled all his money and lost it.",
+          "Starting a new company is always a gamble.",
+          "We can't gamble with people's safety.",
+          "If I gambled every weekend, I would lose everything."
+        ],
+        "translations": [
+          "Hidrotesti atlamak bir kumar.",
+          "Bütün parasıyla kumar oynadı ve hepsini kaybetti.",
+          "Yeni bir şirket kurmak her zaman bir risktir.",
+          "İnsanların güvenliğiyle kumar oynayamayız.",
+          "Her hafta sonu kumar oynasam her şeyimi kaybederdim."
+        ],
+        "explanation": "Fiil: kumar oynamak; risk almak. İsim: a gamble = riskli bir girişim. 'gamble with' = ...ile kumar oynamak (riske atmak)."
+      },
+      {
+        "id": "b2l1c04",
+        "term": "reveal",
+        "pronunciation": "rih-VEEL",
+        "translation": "açığa çıkarmak, ortaya koymak",
+        "sentences": [
+          "The inspection revealed corrosion.",
+          "The report revealed several design errors.",
+          "She didn't reveal the price of the contract.",
+          "The test results will reveal whether the weld is good.",
+          "He finally revealed the secret to his family."
+        ],
+        "translations": [
+          "Muayene korozyonu ortaya çıkardı.",
+          "Rapor birkaç tasarım hatasını ortaya çıkardı.",
+          "Sözleşmenin fiyatını açıklamadı.",
+          "Test sonuçları kaynağın iyi olup olmadığını ortaya koyacak.",
+          "Sonunda sırrı ailesine açıkladı."
+        ],
+        "explanation": "Gizli olanı ortaya çıkarmak/açıklamak. Raporlarda 'The test revealed that...' çok yaygın. İsim: revelation."
+      },
+      {
+        "id": "b2l1c05",
+        "term": "whether",
+        "pronunciation": "WETH-er",
+        "translation": "-ip -mediği, ... mı ... mı",
+        "sentences": [
+          "We need to decide whether to use CS or SS.",
+          "I don't know whether the vendor has replied.",
+          "Please check whether the valve is open or closed.",
+          "Whether we like it or not, the deadline is Friday.",
+          "She asked whether the meeting was cancelled."
+        ],
+        "translations": [
+          "Karbon çelik mi paslanmaz çelik mi kullanacağımıza karar vermemiz gerek.",
+          "Tedarikçinin cevap verip vermediğini bilmiyorum.",
+          "Lütfen vananın açık mı kapalı mı olduğunu kontrol et.",
+          "Hoşumuza gitse de gitmese de teslim tarihi cuma.",
+          "Toplantının iptal edilip edilmediğini sordu."
+        ],
+        "explanation": "İki seçenek arasında '-ip -mediği'. Yapı: whether + cümle (or not) / whether + to V1. Hava anlamındaki 'weather' ile karıştırma (okunuşları aynı)."
+      },
+      {
+        "id": "b2l1c06",
+        "term": "forecast",
+        "pronunciation": "FOR-kast",
+        "translation": "tahmin (özellikle hava)",
+        "sentences": [
+          "The weather forecast says rain.",
+          "The sales forecast for next year looks good.",
+          "According to the forecast, it will be windy tomorrow.",
+          "Our cost forecast was too optimistic.",
+          "Experts forecast that steel prices will rise."
+        ],
+        "translations": [
+          "Hava tahmini yağmur diyor.",
+          "Gelecek yılın satış tahmini iyi görünüyor.",
+          "Tahmine göre yarın rüzgârlı olacak.",
+          "Maliyet tahminimiz fazla iyimserdi.",
+          "Uzmanlar çelik fiyatlarının artacağını tahmin ediyor."
+        ],
+        "explanation": "Tahmin (hava, satış, maliyet). Fiil olarak da kullanılır: forecast – forecast – forecast. 'weather forecast' = hava tahmini."
+      },
+      {
+        "id": "b2l1c07",
+        "term": "demanding",
+        "pronunciation": "dih-MAN-ding",
+        "translation": "zahmetli, talepkâr",
+        "sentences": [
+          "The client is very demanding.",
+          "Commissioning is a demanding job.",
+          "My new role is more demanding than the old one.",
+          "It has been a demanding week.",
+          "Night shifts are physically demanding."
+        ],
+        "translations": [
+          "Müşteri çok talepkâr.",
+          "Devreye alma zahmetli bir iş.",
+          "Yeni görevim eskisinden daha zorlu.",
+          "Yorucu bir hafta oldu.",
+          "Gece vardiyaları fiziksel olarak yorucu."
+        ],
+        "explanation": "Çok emek isteyen (iş) ya da çok şey isteyen (kişi). Fiil: demand = talep etmek."
+      },
+      {
+        "id": "b2l1c08",
+        "term": "fluctuation",
+        "pronunciation": "fluk-choo-AY-shun",
+        "translation": "dalgalanma",
+        "sentences": [
+          "Pressure fluctuations damaged the pump.",
+          "There is a large fluctuation in temperature between day and night.",
+          "Currency fluctuations make imported valves more expensive.",
+          "We recorded a small fluctuation in the flow rate.",
+          "Price fluctuations are common in the steel market."
+        ],
+        "translations": [
+          "Basınç dalgalanmaları pompaya zarar verdi.",
+          "Gece ile gündüz arasında büyük bir sıcaklık dalgalanması var.",
+          "Kur dalgalanmaları ithal vanaları daha pahalı hale getiriyor.",
+          "Debide küçük bir dalgalanma kaydettik.",
+          "Çelik piyasasında fiyat dalgalanmaları yaygındır."
+        ],
+        "explanation": "İnip çıkma, dalgalanma. Fiil: fluctuate (Temperatures fluctuate between...). Teknik raporlarda basınç, sıcaklık ve fiyat için kullanılır."
+      },
+      {
+        "id": "b2l1c09",
+        "term": "virtually",
+        "pronunciation": "VUR-choo-uh-lee",
+        "translation": "neredeyse",
+        "sentences": [
+          "The two designs are virtually the same.",
+          "It's virtually impossible to finish by Friday.",
+          "Mercury has virtually no atmosphere.",
+          "Virtually everyone in the office uses Excel.",
+          "The noise was virtually gone after we changed the bearing."
+        ],
+        "translations": [
+          "İki tasarım neredeyse aynı.",
+          "Cumaya kadar bitirmek neredeyse imkânsız.",
+          "Merkür'ün neredeyse hiç atmosferi yok.",
+          "Ofiste neredeyse herkes Excel kullanıyor.",
+          "Rulmanı değiştirdikten sonra ses neredeyse kayboldu."
+        ],
+        "explanation": "Neredeyse (almost). 'virtually impossible', 'virtually no...' sık kalıplar. 'Sanal' anlamındaki 'virtual' ile karıştırma."
+      },
+      {
+        "id": "b2l1c10",
+        "term": "scatter",
+        "pronunciation": "SKAT-er",
+        "translation": "dağıtmak, saçmak",
+        "sentences": [
+          "The wind scattered the dust.",
+          "Papers were scattered all over the desk.",
+          "Our team is scattered across three countries.",
+          "Don't scatter the tools around the site.",
+          "The light scatters when it hits the dust in the air."
+        ],
+        "translations": [
+          "Rüzgâr tozu dağıttı.",
+          "Kâğıtlar masanın her yerine dağılmıştı.",
+          "Ekibimiz üç ülkeye dağılmış durumda.",
+          "Aletleri sahanın her yerine dağıtma.",
+          "Işık havadaki toza çarpınca saçılır."
+        ],
+        "explanation": "Farklı yönlere dağıtmak/saçmak. Edilgen hali çok yaygın: be scattered across/over."
+      },
+      {
+        "id": "b2l1c11",
+        "term": "tilt",
+        "pronunciation": "TILT",
+        "translation": "eğim; eğmek, eğilmek",
+        "sentences": [
+          "Earth's axis is tilted.",
+          "The tank has a slight tilt to the left.",
+          "Tilt the screen so everyone can see it.",
+          "Because of the tilt, the seasons change.",
+          "The pipe was tilted to allow drainage."
+        ],
+        "translations": [
+          "Dünya'nın ekseni eğiktir.",
+          "Tankta sola doğru hafif bir eğim var.",
+          "Herkes görebilsin diye ekranı eğ.",
+          "Eğim yüzünden mevsimler değişir.",
+          "Boruya drenaj için eğim verildi."
+        ],
+        "explanation": "İsim: eğim; fiil: eğmek/eğilmek. 'a slight tilt' = hafif bir eğim. Boru eğimi için 'slope' da kullanılır."
+      },
+      {
+        "id": "b2l1c12",
+        "term": "hemisphere",
+        "pronunciation": "HEM-is-feer",
+        "translation": "yarım küre",
+        "sentences": [
+          "In the northern hemisphere, December is winter.",
+          "Australia is in the southern hemisphere.",
+          "Seasons are opposite in the two hemispheres.",
+          "The planet's western hemisphere is very cold.",
+          "The left hemisphere of the brain controls language."
+        ],
+        "translations": [
+          "Kuzey yarım kürede aralık kış ayıdır.",
+          "Avustralya güney yarım kürede.",
+          "İki yarım kürede mevsimler terstir.",
+          "Gezegenin batı yarım küresi çok soğuk.",
+          "Beynin sol yarım küresi dili kontrol eder."
+        ],
+        "explanation": "Gezegenin (ya da beynin) yarısı. Kalıplar: northern/southern hemisphere. Çoğulu hemispheres."
+      },
+      {
+        "id": "b2l1c13",
+        "term": "dramatically",
+        "pronunciation": "druh-MAT-ik-lee",
+        "translation": "çarpıcı şekilde, büyük ölçüde",
+        "sentences": [
+          "Steel prices have increased dramatically.",
+          "The temperature drops dramatically at night.",
+          "Our productivity improved dramatically with the new software.",
+          "Life has changed dramatically in the last decade.",
+          "The number of online buyers has grown dramatically."
+        ],
+        "translations": [
+          "Çelik fiyatları çarpıcı şekilde arttı.",
+          "Gece sıcaklık çarpıcı şekilde düşer.",
+          "Yeni yazılımla verimliliğimiz büyük ölçüde arttı.",
+          "Son on yılda hayat çarpıcı şekilde değişti.",
+          "Online alıcıların sayısı çarpıcı şekilde arttı."
+        ],
+        "explanation": "Çok büyük ölçüde ya da aniden. -ic ile biten sıfatlar -ically alır: dramatic → dramatically ('dramaticly' yanlış). Kalıp: increase/drop/change dramatically."
+      },
+      {
+        "id": "b2l1c14",
+        "term": "interfere with",
+        "pronunciation": "in-ter-FEER with",
+        "translation": "müdahale etmek, engel olmak",
+        "sentences": [
+          "Dust can interfere with instruments.",
+          "Don't let your phone interfere with your work.",
+          "The new pipe route interferes with the cable tray.",
+          "Strong magnets can interfere with the flow meter.",
+          "She never interferes with her son's decisions."
+        ],
+        "translations": [
+          "Toz cihazların çalışmasını bozabilir.",
+          "Telefonunun işine engel olmasına izin verme.",
+          "Yeni boru güzergâhı kablo tavasıyla çakışıyor.",
+          "Güçlü mıknatıslar debimetreyi etkileyebilir.",
+          "Oğlunun kararlarına asla karışmaz."
+        ],
+        "explanation": "Bir şeye engel olmak, karışmak. Yapı: interfere with + şey/kişi; interfere in + konu. Yazımı: interfere ('interfure' değil). İsim: interference."
+      },
+      {
+        "id": "b2l1c15",
+        "term": "hazy",
+        "pronunciation": "HAY-zee",
+        "translation": "puslu; bulanık",
+        "sentences": [
+          "The mountains were hazy.",
+          "It was a hot and hazy day.",
+          "The sky over Mars is often hazy because of dust.",
+          "My memory of that meeting is a bit hazy.",
+          "Smoke from the fire made the air hazy."
+        ],
+        "translations": [
+          "Dağlar puslu görünüyordu.",
+          "Sıcak ve puslu bir gündü.",
+          "Mars'ın gökyüzü toz yüzünden çoğu zaman puslu.",
+          "O toplantıyla ilgili hafızam biraz bulanık.",
+          "Yangının dumanı havayı puslu yaptı."
+        ],
+        "explanation": "Toz, duman ya da sis yüzünden net olmayan. Mecazi kullanım: a hazy memory = bulanık bir hatıra. İsim: haze."
+      },
+      {
+        "id": "b2l1c16",
+        "term": "colonize",
+        "pronunciation": "KOL-uh-nyze",
+        "translation": "yerleşmek, sömürgeleştirmek",
+        "sentences": [
+          "Humans may colonize Mars.",
+          "If we colonized another planet, we would need water.",
+          "Many countries were colonized by European powers.",
+          "Scientists are discussing how to colonize the Moon.",
+          "Bacteria can colonize the inside of a pipe."
+        ],
+        "translations": [
+          "İnsanlar Mars'a yerleşebilir.",
+          "Başka bir gezegene yerleşseydik suya ihtiyacımız olurdu.",
+          "Birçok ülke Avrupalı güçler tarafından sömürgeleştirildi.",
+          "Bilim insanları Ay'a nasıl yerleşileceğini tartışıyor.",
+          "Bakteriler bir borunun içinde koloni oluşturabilir."
+        ],
+        "explanation": "Yeni bir yere gidip yerleşmek; tarihsel olarak sömürgeleştirmek. İngiliz yazımı: colonise. İsim: colony, colonization."
+      },
+      {
+        "id": "b2l1c17",
+        "term": "equator",
+        "pronunciation": "ih-KWAY-ter",
+        "translation": "ekvator",
+        "sentences": [
+          "It's hot near the equator.",
+          "Ecuador is located on the equator.",
+          "The equator divides the Earth into two hemispheres.",
+          "Countries near the equator have no real winter.",
+          "The temperature at the equator of this planet is about 30°C."
+        ],
+        "translations": [
+          "Ekvatorun yakınında hava sıcak.",
+          "Ekvador ekvator üzerinde yer alır.",
+          "Ekvator Dünya'yı iki yarım küreye ayırır.",
+          "Ekvatora yakın ülkelerde gerçek bir kış olmaz.",
+          "Bu gezegenin ekvatorunda sıcaklık yaklaşık 30°C."
+        ],
+        "explanation": "Gezegenin ortasından geçen hayali çizgi. Genelde 'the equator' (the ile) kullanılır. Sıfat: equatorial."
+      }
+    ]
+  },
+  {
+    "id": "L1D",
+    "code": "1D",
+    "title": "Life in the Future · Collocations",
+    "date": "2026-10-04",
+    "pages": "SB 14–21, WB 6–7",
+    "grammar": {
+      "title": "Future Continuous",
+      "formula": "will + be + V-ing",
+      "note": "Gelecekte belirli bir anda devam ediyor olacak eylem. 'Yarın bu saatte toplantıda olacağım' = I'll be sitting in a meeting this time tomorrow. Kibar plan sorusu: Will you be using the meeting room at 3 pm? (1D'nin kelime listesi yok; buradaki kartlar 1B–2B'den collocation'lar.)",
+      "examples": [
+        "At 10 am tomorrow I'll be presenting the report.",
+        "In ten years' time, we will be using smartphones 24 hours a day.",
+        "Will I be living in Leeds in a few years' time?"
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l1d01",
+        "term": "experience sleep deprivation",
+        "pronunciation": "ik-SPEER-ee-uns SLEEP dep-rih-VAY-shun",
+        "translation": "uykusuzluk yaşamak",
+        "sentences": [
+          "Night-shift workers often experience sleep deprivation.",
+          "New parents usually experience sleep deprivation.",
+          "During commissioning, the whole team experienced sleep deprivation.",
+          "If you experience sleep deprivation, your concentration drops.",
+          "Many homeless people experience sleep deprivation."
+        ],
+        "translations": [
+          "Gece vardiyasında çalışanlar sıklıkla uykusuzluk yaşar.",
+          "Yeni ebeveynler genellikle uykusuzluk yaşar.",
+          "Devreye alma sırasında bütün ekip uykusuzluk yaşadı.",
+          "Uykusuzluk yaşarsan konsantrasyonun düşer.",
+          "Birçok evsiz insan uykusuzluk yaşar."
+        ],
+        "explanation": "Uykusuzluk yaşamak. 'experience' burada fiil (yaşamak, deneyimlemek). Yapı: experience + sorun (stress, delays, sleep deprivation)."
+      },
+      {
+        "id": "b2l1d02",
+        "term": "face homelessness",
+        "pronunciation": "FAYSS HOHM-lis-nis",
+        "translation": "evsizlikle karşı karşıya kalmak",
+        "sentences": [
+          "Thousands of people face homelessness every winter.",
+          "After he lost his job, he faced homelessness.",
+          "Families who can't pay rent may face homelessness.",
+          "Young people who leave home early often face homelessness.",
+          "No one should face homelessness alone."
+        ],
+        "translations": [
+          "Her kış binlerce insan evsizlikle karşı karşıya kalıyor.",
+          "İşini kaybettikten sonra evsizlikle karşı karşıya kaldı.",
+          "Kira ödeyemeyen aileler evsizlikle karşı karşıya kalabilir.",
+          "Evden erken ayrılan gençler sıklıkla evsizlikle karşılaşır.",
+          "Kimse evsizlikle tek başına yüzleşmek zorunda kalmamalı."
+        ],
+        "explanation": "Evsizlikle karşı karşıya kalmak. face + zorluk: face a problem / a challenge / hardship."
+      },
+      {
+        "id": "b2l1d03",
+        "term": "an enormous challenge",
+        "pronunciation": "un ih-NOR-mus CHAL-inj",
+        "translation": "devasa bir zorluk",
+        "sentences": [
+          "Commissioning on time is an enormous challenge.",
+          "Learning a language as an adult is an enormous challenge.",
+          "Climate change is an enormous challenge for every country.",
+          "The tight schedule was an enormous challenge for the team.",
+          "Building a city on Mars would be an enormous challenge."
+        ],
+        "translations": [
+          "Devreye almayı zamanında yapmak devasa bir zorluk.",
+          "Yetişkin olarak dil öğrenmek devasa bir zorluk.",
+          "İklim değişikliği her ülke için devasa bir zorluk.",
+          "Sıkışık takvim ekip için devasa bir zorluktu.",
+          "Mars'ta şehir kurmak devasa bir zorluk olurdu."
+        ],
+        "explanation": "Devasa/çok büyük bir zorluk; 'big challenge'dan daha güçlü. Writing için: X is an enormous challenge for Y."
+      },
+      {
+        "id": "b2l1d04",
+        "term": "become apparent",
+        "pronunciation": "bih-KUM uh-PAIR-unt",
+        "translation": "ortaya çıkmak, belli olmak",
+        "sentences": [
+          "It became apparent that the pipe was undersized.",
+          "It soon became apparent that the vendor could not deliver on time.",
+          "The problem becomes apparent when the pump starts.",
+          "After a few weeks, the benefits of the new system became apparent.",
+          "It is becoming apparent that we need more engineers."
+        ],
+        "translations": [
+          "Borunun küçük boyutlu olduğu ortaya çıktı.",
+          "Tedarikçinin zamanında teslim edemeyeceği kısa sürede anlaşıldı.",
+          "Sorun pompa çalışınca ortaya çıkıyor.",
+          "Birkaç hafta sonra yeni sistemin faydaları belli oldu.",
+          "Daha fazla mühendise ihtiyacımız olduğu belli oluyor."
+        ],
+        "explanation": "Belli olmak, anlaşılmak. Kalıp: It becomes/became apparent that + cümle = ...olduğu ortaya çıkıyor/çıktı. become – became – become."
+      },
+      {
+        "id": "b2l1d05",
+        "term": "make a profound impact on",
+        "pronunciation": "MAYK uh pruh-FOWND IM-pakt on",
+        "translation": "derin bir etki yaratmak",
+        "sentences": [
+          "BIM has made a profound impact on plant design.",
+          "The internet made a profound impact on education.",
+          "A good teacher can make a profound impact on a child's life.",
+          "This project will make a profound impact on the local community.",
+          "Her advice made a profound impact on my career."
+        ],
+        "translations": [
+          "BIM tesis tasarımı üzerinde derin bir etki yarattı.",
+          "İnternet eğitim üzerinde derin bir etki yarattı.",
+          "İyi bir öğretmen bir çocuğun hayatında derin bir etki yaratabilir.",
+          "Bu proje yerel toplum üzerinde derin bir etki yaratacak.",
+          "Onun tavsiyesi kariyerim üzerinde derin bir etki yarattı."
+        ],
+        "explanation": "Derin bir etki yaratmak. Varyant: have a profound impact on. Writing'de 'X has made a profound impact on Y' çok işe yarar."
+      },
+      {
+        "id": "b2l1d06",
+        "term": "put a strain on",
+        "pronunciation": "PUT uh STRAYN on",
+        "translation": "üzerinde baskı/zorlanma yaratmak",
+        "sentences": [
+          "Overtime puts a strain on the team.",
+          "The extra load put a strain on the pipe supports.",
+          "Long working hours can put a strain on family life.",
+          "The delay has put a strain on our budget.",
+          "Rising prices are putting a strain on many families."
+        ],
+        "translations": [
+          "Fazla mesai ekip üzerinde baskı yaratıyor.",
+          "Ek yük boru destekleri üzerinde zorlanma yarattı.",
+          "Uzun çalışma saatleri aile hayatı üzerinde baskı yaratabilir.",
+          "Gecikme bütçemiz üzerinde baskı yarattı.",
+          "Artan fiyatlar birçok aile üzerinde baskı yaratıyor."
+        ],
+        "explanation": "...üzerinde baskı/zorlanma yaratmak. put – put – put (düzensiz, değişmez). Hem insanlar hem de malzeme/sistem için kullanılır."
+      },
+      {
+        "id": "b2l1d07",
+        "term": "have a strong influence on",
+        "pronunciation": "HAV uh STRONG IN-floo-uns on",
+        "translation": "üzerinde güçlü bir etkisi olmak",
+        "sentences": [
+          "My first manager had a strong influence on me.",
+          "Parents have a strong influence on their children.",
+          "Social media has a strong influence on young people.",
+          "The weather has a strong influence on the construction schedule.",
+          "Teachers can have a strong influence on a student's future."
+        ],
+        "translations": [
+          "İlk müdürümün üzerimde güçlü bir etkisi oldu.",
+          "Ebeveynlerin çocukları üzerinde güçlü bir etkisi vardır.",
+          "Sosyal medyanın gençler üzerinde güçlü bir etkisi var.",
+          "Havanın inşaat takvimi üzerinde güçlü bir etkisi var.",
+          "Öğretmenlerin bir öğrencinin geleceği üzerinde güçlü bir etkisi olabilir."
+        ],
+        "explanation": "...üzerinde güçlü bir etkisi olmak. have – has – had. Yapı: have a strong influence on + kişi/şey."
+      }
+    ]
+  },
+  {
+    "id": "L2A",
+    "code": "2A",
+    "title": "Parental Involvement in Sports",
+    "date": "2026-10-11",
+    "pages": "SB 22–29",
+    "grammar": {
+      "title": "Modal verbs review",
+      "formula": "modal + V1 (modal'lar hiç değişmez)",
+      "note": "must / have to = zorunlu · don't have to = gerek yok · mustn't = yasak · had better = yapsan iyi olur, yoksa... · should = tavsiye · would rather = tercih ederim · can't = imkânsız · can / may / might / could = olasılık · would / used to = geçmiş alışkanlık.",
+      "examples": [
+        "You'd better check the rating, or the flange will leak.",
+        "You don't have to print the drawings.",
+        "I'd rather call than email."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l2a01",
+        "term": "vicious circle",
+        "pronunciation": "VISH-us SUR-kul",
+        "translation": "kısır döngü",
+        "sentences": [
+          "Late drawings cause late procurement, which causes more late drawings: a vicious circle.",
+          "Stress and lack of sleep can become a vicious circle.",
+          "Poverty is often a vicious circle.",
+          "We need to break this vicious circle.",
+          "If you don't practise, you lose confidence and practise even less: it's a vicious circle."
+        ],
+        "translations": [
+          "Geç çizimler geç satın almaya, o da daha fazla geç çizime yol açıyor: kısır döngü.",
+          "Stres ve uykusuzluk kısır döngüye dönüşebilir.",
+          "Yoksulluk çoğu zaman bir kısır döngüdür.",
+          "Bu kısır döngüyü kırmamız gerek.",
+          "Pratik yapmazsan özgüvenini kaybedersin ve daha da az pratik yaparsın: bu bir kısır döngü."
+        ],
+        "explanation": "Sorunların birbirini sürekli tetiklediği döngü. 'break the vicious circle' = kısır döngüyü kırmak. Amerikan İngilizcesinde 'vicious cycle' da denir."
+      },
+      {
+        "id": "b2l2a02",
+        "term": "appropriate",
+        "pronunciation": "uh-PROH-pree-it",
+        "translation": "uygun, yerinde",
+        "sentences": [
+          "Choose an appropriate flange rating.",
+          "Jeans are not appropriate for a job interview.",
+          "Please take appropriate action.",
+          "Is this pipe material appropriate for seawater?",
+          "It's not appropriate to shout at players during a match."
+        ],
+        "translations": [
+          "Uygun bir flanş sınıfı seç.",
+          "Kot pantolon iş görüşmesi için uygun değil.",
+          "Lütfen uygun önlemi al.",
+          "Bu boru malzemesi deniz suyu için uygun mu?",
+          "Maç sırasında oyunculara bağırmak uygun değil."
+        ],
+        "explanation": "Uygun, yerinde. Yapı: appropriate for + isim / It's (not) appropriate to + V1. Zıt anlamlısı: inappropriate."
+      },
+      {
+        "id": "b2l2a03",
+        "term": "insist",
+        "pronunciation": "in-SIST",
+        "translation": "ısrar etmek",
+        "sentences": [
+          "The client insisted that we use their template.",
+          "She insists on checking every drawing herself.",
+          "Some parents insist that their children win every game.",
+          "If you insist, I'll come with you.",
+          "He insisted on paying for dinner."
+        ],
+        "translations": [
+          "Müşteri kendi şablonlarını kullanmamızda ısrar etti.",
+          "Her çizimi kendisi kontrol etmekte ısrar ediyor.",
+          "Bazı ebeveynler çocuklarının her maçı kazanmasında ısrar ediyor.",
+          "Israr ediyorsan seninle gelirim.",
+          "Akşam yemeğini ödemekte ısrar etti."
+        ],
+        "explanation": "Bir şeyin olması gerektiğini kesin bir dille söylemek. Yapılar: insist that + cümle (fiil yalın: that we use) / insist on + V-ing."
+      },
+      {
+        "id": "b2l2a04",
+        "term": "evolve",
+        "pronunciation": "ih-VOLV",
+        "translation": "evrilmek, gelişmek",
+        "sentences": [
+          "Her company has evolved from a hobby into a business.",
+          "The design evolved a lot during the project.",
+          "Technology evolves very quickly.",
+          "Languages evolve over time.",
+          "My role in the team has evolved over the years."
+        ],
+        "translations": [
+          "Şirketi bir hobiden ciddi bir işe dönüştü.",
+          "Tasarım proje boyunca çok gelişti.",
+          "Teknoloji çok hızlı gelişir.",
+          "Diller zamanla evrilir.",
+          "Ekipteki rolüm yıllar içinde gelişti."
+        ],
+        "explanation": "Yavaş yavaş gelişmek/evrilmek. Kalıp: evolve from X into Y. İsim: evolution."
+      },
+      {
+        "id": "b2l2a05",
+        "term": "strain",
+        "pronunciation": "STRAYN",
+        "translation": "baskı, zorlanma",
+        "sentences": [
+          "Long shifts put a strain on the team.",
+          "High expectations from parents can cause strain for young players.",
+          "The pipe failed because of thermal strain.",
+          "He has been under a lot of strain recently.",
+          "The extra work is putting a strain on my health."
+        ],
+        "translations": [
+          "Uzun vardiyalar ekip üzerinde baskı yaratıyor.",
+          "Ebeveynlerin yüksek beklentileri genç oyuncular için baskıya yol açabilir.",
+          "Boru termal zorlanma nedeniyle hasar gördü.",
+          "Son zamanlarda çok baskı altında.",
+          "Ek iş sağlığımı zorluyor."
+        ],
+        "explanation": "Baskı, stres, zorlanma. Kalıplar: put a strain on, be under strain. Mühendislikte strain = gerinim (birim şekil değiştirme)."
+      },
+      {
+        "id": "b2l2a06",
+        "term": "exhibit",
+        "pronunciation": "ig-ZIB-it",
+        "translation": "sergilemek, göstermek",
+        "sentences": [
+          "The parent exhibits negative behaviour.",
+          "The museum exhibits paintings from the 19th century.",
+          "The patient exhibited signs of stress.",
+          "The material exhibited good resistance to corrosion.",
+          "Our company will exhibit at the trade fair next month."
+        ],
+        "translations": [
+          "Ebeveyn olumsuz davranış sergiliyor.",
+          "Müze 19. yüzyıldan resimler sergiliyor.",
+          "Hasta stres belirtileri gösterdi.",
+          "Malzeme korozyona karşı iyi direnç gösterdi.",
+          "Şirketimiz gelecek ay ticaret fuarında stant açacak."
+        ],
+        "explanation": "1) Göstermek (davranış, belirti, özellik; resmi). 2) Sergilemek. İsim: exhibition (sergi)."
+      },
+      {
+        "id": "b2l2a07",
+        "term": "engage in",
+        "pronunciation": "en-GAYJ in",
+        "translation": "katılmak, ...ile uğraşmak",
+        "sentences": [
+          "Engage in friendly debate.",
+          "Students should engage in sports after school.",
+          "Supportive parents engage in positive conversations with their children.",
+          "We engaged in long discussions with the vendor.",
+          "Workers mustn't engage in unsafe practices on site."
+        ],
+        "translations": [
+          "Dostça bir tartışmaya katıl.",
+          "Öğrenciler okuldan sonra sporla uğraşmalı.",
+          "Destekleyici ebeveynler çocuklarıyla olumlu konuşmalar yapar.",
+          "Tedarikçiyle uzun görüşmelere girdik.",
+          "Çalışanlar sahada güvensiz uygulamalara girişmemeli."
+        ],
+        "explanation": "Bir faaliyete katılmak/girmek (resmi). Yapı: engage in + isim/V-ing."
+      },
+      {
+        "id": "b2l2a08",
+        "term": "recognise",
+        "pronunciation": "REK-ug-nyze",
+        "translation": "tanımak; fark etmek",
+        "sentences": [
+          "I didn't recognise you with your new haircut.",
+          "Would you recognise the vendor's engineer if you saw him?",
+          "She recognised my voice on the phone.",
+          "It's important to recognise the problem early.",
+          "The company recognises good work."
+        ],
+        "translations": [
+          "Yeni saç kesiminle seni tanıyamadım.",
+          "Tedarikçinin mühendisini görsen tanır mısın?",
+          "Telefonda sesimi tanıdı.",
+          "Sorunu erken fark etmek önemli.",
+          "Şirket iyi işi takdir eder."
+        ],
+        "explanation": "Daha önce gördüğün birini/bir şeyi tanımak; ayrıca fark etmek, kabul etmek. Amerikan yazımı: recognize. İsim: recognition."
+      },
+      {
+        "id": "b2l2a09",
+        "term": "influence",
+        "pronunciation": "IN-floo-uns",
+        "translation": "etki; etkilemek",
+        "sentences": [
+          "My grandfather had a strong influence on me.",
+          "Parents influence their children's attitude to sport.",
+          "Social media influences what people buy.",
+          "The weather can influence the schedule.",
+          "He used his influence to get the contract."
+        ],
+        "translations": [
+          "Dedemin üzerimde güçlü bir etkisi oldu.",
+          "Ebeveynler çocuklarının spora karşı tutumunu etkiler.",
+          "Sosyal medya insanların ne satın aldığını etkiler.",
+          "Hava takvimi etkileyebilir.",
+          "Sözleşmeyi almak için nüfuzunu kullandı."
+        ],
+        "explanation": "İsim: etki, nüfuz; fiil: etkilemek. İsim kalıbı: have an influence on + kişi/şey. Fiil doğrudan nesne alır: influence someone ('influence on someone' değil)."
+      },
+      {
+        "id": "b2l2a10",
+        "term": "adverse",
+        "pronunciation": "AD-vurs",
+        "translation": "olumsuz, zararlı",
+        "sentences": [
+          "Adverse weather delayed the lift.",
+          "The new medicine had no adverse effects.",
+          "Over-critical parents can have an adverse effect on children.",
+          "The project was cancelled due to adverse market conditions.",
+          "Corrosion can have adverse consequences for the pipeline."
+        ],
+        "translations": [
+          "Olumsuz hava koşulları kaldırma işini geciktirdi.",
+          "Yeni ilacın hiçbir olumsuz yan etkisi olmadı.",
+          "Aşırı eleştirel ebeveynlerin çocuklar üzerinde olumsuz etkisi olabilir.",
+          "Proje olumsuz piyasa koşulları nedeniyle iptal edildi.",
+          "Korozyonun boru hattı için olumsuz sonuçları olabilir."
+        ],
+        "explanation": "Olumsuz, zararlı (resmi). Kalıplar: adverse effect, adverse weather, adverse conditions."
+      },
+      {
+        "id": "b2l2a11",
+        "term": "supportive",
+        "pronunciation": "suh-POR-tiv",
+        "translation": "destekleyici",
+        "sentences": [
+          "Supportive parents increase a child's enjoyment.",
+          "My manager has been very supportive during this project.",
+          "It's important to have a supportive team.",
+          "My family was supportive when I changed jobs.",
+          "Be supportive, not over-critical."
+        ],
+        "translations": [
+          "Destekleyici ebeveynler çocuğun aldığı keyfi artırır.",
+          "Müdürüm bu proje boyunca çok destekleyici oldu.",
+          "Destekleyici bir ekibe sahip olmak önemli.",
+          "İş değiştirdiğimde ailem destek oldu.",
+          "Destekleyici ol, aşırı eleştirel değil."
+        ],
+        "explanation": "Destek olan, cesaretlendiren. Yapı: be supportive of + kişi/fikir. Zıt anlamlısı: unsupportive."
+      },
+      {
+        "id": "b2l2a12",
+        "term": "over-critical",
+        "pronunciation": "oh-ver-KRIT-ih-kul",
+        "translation": "aşırı eleştirel",
+        "sentences": [
+          "An over-critical parent puts pressure on the child.",
+          "Don't be over-critical of your own work.",
+          "My first boss was over-critical, so I lost confidence.",
+          "Over-critical comments can damage a team.",
+          "Some coaches are over-critical of young players."
+        ],
+        "translations": [
+          "Aşırı eleştirel bir ebeveyn çocuk üzerinde baskı yaratır.",
+          "Kendi işine karşı aşırı eleştirel olma.",
+          "İlk patronum aşırı eleştireldi, bu yüzden özgüvenimi kaybettim.",
+          "Aşırı eleştirel yorumlar bir ekibe zarar verebilir.",
+          "Bazı antrenörler genç oyunculara karşı aşırı eleştirel."
+        ],
+        "explanation": "Gereğinden fazla eleştiren. over- = aşırı. Yapı: be over-critical of + kişi/şey."
+      },
+      {
+        "id": "b2l2a13",
+        "term": "disinterested",
+        "pronunciation": "dis-IN-tris-tid",
+        "translation": "ilgisiz",
+        "sentences": [
+          "A disinterested parent rarely attends games.",
+          "He seemed disinterested during the meeting.",
+          "Children with disinterested parents may lose motivation.",
+          "The students looked bored and disinterested.",
+          "Don't be disinterested in your team's problems."
+        ],
+        "translations": [
+          "İlgisiz bir ebeveyn maçlara nadiren gelir.",
+          "Toplantı boyunca ilgisiz görünüyordu.",
+          "İlgisiz ebeveynleri olan çocuklar motivasyonlarını kaybedebilir.",
+          "Öğrenciler sıkılmış ve ilgisiz görünüyordu.",
+          "Ekibinin sorunlarına ilgisiz kalma."
+        ],
+        "explanation": "Bu ünitede 'ilgisiz' (uninterested) anlamında. Dikkat: resmi dilde 'tarafsız' anlamı da var (a disinterested judge = tarafsız hakem)."
+      },
+      {
+        "id": "b2l2a14",
+        "term": "unrealistic expectations",
+        "pronunciation": "un-ree-uh-LIS-tik ek-spek-TAY-shunz",
+        "translation": "gerçekçi olmayan beklentiler",
+        "sentences": [
+          "The schedule was based on unrealistic expectations.",
+          "Some parents have unrealistic expectations of their children.",
+          "Unrealistic expectations can lead to stress and failure.",
+          "The client had unrealistic expectations about the delivery date.",
+          "Don't set unrealistic expectations for yourself."
+        ],
+        "translations": [
+          "Takvim gerçekçi olmayan beklentilere dayanıyordu.",
+          "Bazı ebeveynlerin çocuklarından gerçekçi olmayan beklentileri var.",
+          "Gerçekçi olmayan beklentiler strese ve başarısızlığa yol açabilir.",
+          "Müşterinin teslim tarihi konusunda gerçekçi olmayan beklentileri vardı.",
+          "Kendine gerçekçi olmayan hedefler koyma."
+        ],
+        "explanation": "Gerçekleşmesi mümkün olmayan beklentiler. Kalıp: have unrealistic expectations of/about + kişi/şey."
+      }
+    ]
+  },
+  {
+    "id": "L2B",
+    "code": "2B",
+    "title": "People on Streets",
+    "date": "2026-10-11",
+    "pages": "SB 22–29",
+    "grammar": {
+      "title": "Modals + have + V3",
+      "formula": "should / would / could / might + have + V3",
+      "note": "should have = yapmalıydın (ama yapmadın) · would have = yapardım (ama olmadı) · could have = yapabilirdin (ama olmadı) · might / may have = yapmış olabilir · can't have = kesinlikle yapmamıştır. Şimdi → geçmiş: He might be at home → He might have been at home.",
+      "examples": [
+        "We should have ordered the valves earlier.",
+        "I would have joined you, but I was ill.",
+        "He can't have seen the email; he was offline."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l2b01",
+        "term": "suffer from",
+        "pronunciation": "SUF-er from",
+        "translation": "-den muzdarip olmak, çekmek",
+        "sentences": [
+          "Many homeless people suffer from loneliness.",
+          "She has been suffering from back pain for months.",
+          "The old pipeline suffers from internal corrosion.",
+          "Many night-shift workers suffer from sleep deprivation.",
+          "The project suffered from poor planning."
+        ],
+        "translations": [
+          "Birçok evsiz insan yalnızlık çekiyor.",
+          "Aylardır sırt ağrısı çekiyor.",
+          "Eski boru hattında iç korozyon sorunu var.",
+          "Gece vardiyasında çalışan birçok kişi uykusuzluk çekiyor.",
+          "Proje kötü planlamanın zararını gördü."
+        ],
+        "explanation": "Bir hastalık ya da sorundan muzdarip olmak, çekmek. Yapı: suffer from + isim."
+      },
+      {
+        "id": "b2l2b02",
+        "term": "enterprise",
+        "pronunciation": "EN-ter-pryz",
+        "translation": "işletme, girişim",
+        "sentences": [
+          "The Big Issue is a social enterprise.",
+          "She runs a small enterprise that makes furniture.",
+          "Small and medium-sized enterprises employ millions of people.",
+          "Our project idea is a social enterprise for homeless people.",
+          "The government supports new enterprises in the region."
+        ],
+        "translations": [
+          "The Big Issue bir sosyal girişimdir.",
+          "Mobilya üreten küçük bir işletme yönetiyor.",
+          "Küçük ve orta ölçekli işletmeler milyonlarca kişiye istihdam sağlıyor.",
+          "Proje fikrimiz evsizler için bir sosyal girişim.",
+          "Hükümet bölgedeki yeni işletmeleri destekliyor."
+        ],
+        "explanation": "İşletme, girişim. 'social enterprise' = kâr yerine toplumsal fayda için çalışan işletme. SME = small and medium-sized enterprise (KOBİ)."
+      },
+      {
+        "id": "b2l2b03",
+        "term": "attitude",
+        "pronunciation": "AT-ih-tood",
+        "translation": "tutum, davranış",
+        "sentences": [
+          "He has a positive attitude to safety.",
+          "Your attitude is more important than your experience.",
+          "People's attitudes towards homeless people are changing.",
+          "I don't like his attitude in meetings.",
+          "A bad attitude can affect the whole team."
+        ],
+        "translations": [
+          "Güvenliğe karşı olumlu bir tutumu var.",
+          "Tutumun deneyiminden daha önemli.",
+          "İnsanların evsizlere karşı tutumları değişiyor.",
+          "Toplantılardaki tavrını sevmiyorum.",
+          "Kötü bir tavır bütün ekibi etkileyebilir."
+        ],
+        "explanation": "Bir şeye karşı hissediş ve davranış biçimi. Yapı: attitude to/towards + isim. (Kitap hatası: genel görüş = reputation; davranış biçimi = attitude.)"
+      },
+      {
+        "id": "b2l2b04",
+        "term": "poverty",
+        "pronunciation": "POV-er-tee",
+        "translation": "yoksulluk",
+        "sentences": [
+          "Many street vendors face poverty and inequality.",
+          "Millions of children live in poverty.",
+          "Education is the best way out of poverty.",
+          "Poverty and homelessness are closely linked.",
+          "The government promised to reduce poverty."
+        ],
+        "translations": [
+          "Birçok sokak satıcısı yoksulluk ve eşitsizlikle karşı karşıya.",
+          "Milyonlarca çocuk yoksulluk içinde yaşıyor.",
+          "Eğitim yoksulluktan kurtulmanın en iyi yolu.",
+          "Yoksulluk ve evsizlik birbiriyle yakından bağlantılı.",
+          "Hükümet yoksulluğu azaltma sözü verdi."
+        ],
+        "explanation": "Aşırı yoksulluk. Kalıplar: live in poverty, reduce poverty, poverty line (yoksulluk sınırı). Sıfat: poor."
+      },
+      {
+        "id": "b2l2b05",
+        "term": "reputation",
+        "pronunciation": "rep-yoo-TAY-shun",
+        "translation": "itibar, ün",
+        "sentences": [
+          "The contractor has a good reputation.",
+          "That vendor has a reputation for late deliveries.",
+          "One mistake can damage a company's reputation.",
+          "She has built a strong reputation as a fire protection engineer.",
+          "The website has a bad reputation; people say it's a scam."
+        ],
+        "translations": [
+          "Yüklenicinin iyi bir itibarı var.",
+          "O tedarikçi geç teslimatlarıyla tanınıyor.",
+          "Tek bir hata bir şirketin itibarını zedeleyebilir.",
+          "Yangın koruma mühendisi olarak güçlü bir itibar kazandı.",
+          "Sitenin kötü bir ünü var; insanlar dolandırıcılık olduğunu söylüyor."
+        ],
+        "explanation": "Biri ya da bir şey hakkındaki genel görüş, itibar. Kalıplar: have a good/bad reputation, a reputation for + isim/V-ing."
+      },
+      {
+        "id": "b2l2b06",
+        "term": "purpose",
+        "pronunciation": "PUR-pus",
+        "translation": "amaç",
+        "sentences": [
+          "What is the purpose of this valve?",
+          "The purpose of the meeting is to agree on the schedule.",
+          "The main purpose of our project is to help homeless people find work.",
+          "He broke the window on purpose.",
+          "Every section of the report should have a clear purpose."
+        ],
+        "translations": [
+          "Bu vananın amacı ne?",
+          "Toplantının amacı takvim üzerinde anlaşmak.",
+          "Projemizin asıl amacı evsizlerin iş bulmasına yardım etmek.",
+          "Camı bilerek kırdı.",
+          "Raporun her bölümünün net bir amacı olmalı."
+        ],
+        "explanation": "Amaç, hedef. Kalıp: The purpose of X is to + V1. 'on purpose' = bilerek, kasten."
+      },
+      {
+        "id": "b2l2b07",
+        "term": "rough sleeper",
+        "pronunciation": "RUFF SLEE-per",
+        "translation": "sokakta yatan (evsiz) kişi",
+        "sentences": [
+          "The number of rough sleepers has risen.",
+          "Volunteers bring hot food to rough sleepers every night.",
+          "A rough sleeper was sitting near the station.",
+          "Rough sleepers suffer from cold and sleep deprivation in winter.",
+          "The shelter has beds for forty rough sleepers."
+        ],
+        "translations": [
+          "Sokakta yatanların sayısı arttı.",
+          "Gönüllüler her gece sokakta yatanlara sıcak yemek getiriyor.",
+          "İstasyonun yakınında sokakta yatan biri oturuyordu.",
+          "Sokakta yatanlar kışın soğuk ve uykusuzluk çekiyor.",
+          "Barınakta sokakta yatan kırk kişi için yatak var."
+        ],
+        "explanation": "Sokakta/açık havada uyuyan evsiz kişi. 'sleep rough' = sokakta yatmak. Çoğulu rough sleepers."
+      },
+      {
+        "id": "b2l2b08",
+        "term": "apparent",
+        "pronunciation": "uh-PAIR-unt",
+        "translation": "belli, açık",
+        "sentences": [
+          "It became apparent that the design was wrong.",
+          "For no apparent reason, the pump stopped.",
+          "The problem was apparent from the first test.",
+          "Her talent was apparent at a young age.",
+          "It's apparent that he hasn't read the spec."
+        ],
+        "translations": [
+          "Tasarımın yanlış olduğu ortaya çıktı.",
+          "Görünürde hiçbir sebep yokken pompa durdu.",
+          "Sorun ilk testten itibaren belliydi.",
+          "Yeteneği küçük yaşta belli oluyordu.",
+          "Şartnameyi okumadığı belli."
+        ],
+        "explanation": "Kolayca fark edilen, belli. Kalıplar: It is/became apparent that... / for no apparent reason = görünürde sebep yokken. Zarf: apparently = görünüşe göre."
+      },
+      {
+        "id": "b2l2b09",
+        "term": "homelessness",
+        "pronunciation": "HOHM-lis-nis",
+        "translation": "evsizlik",
+        "sentences": [
+          "Homelessness is a real issue.",
+          "Rising rents are increasing homelessness in big cities.",
+          "Our project aims to reduce homelessness.",
+          "Homelessness can happen to anyone.",
+          "Many charities work to end homelessness."
+        ],
+        "translations": [
+          "Evsizlik gerçek bir sorun.",
+          "Artan kiralar büyük şehirlerde evsizliği artırıyor.",
+          "Projemiz evsizliği azaltmayı amaçlıyor.",
+          "Evsizlik herkesin başına gelebilir.",
+          "Birçok yardım kuruluşu evsizliği sona erdirmek için çalışıyor."
+        ],
+        "explanation": "Evsizlik. home + -less (-sız) + -ness (isim eki). Kişi: a homeless person / the homeless."
+      },
+      {
+        "id": "b2l2b10",
+        "term": "enormous",
+        "pronunciation": "ih-NOR-mus",
+        "translation": "devasa, çok büyük",
+        "sentences": [
+          "It was an enormous challenge.",
+          "The new LNG tank is enormous.",
+          "We have an enormous amount of work this month.",
+          "The project had an enormous impact on the town.",
+          "They live in an enormous house."
+        ],
+        "translations": [
+          "Devasa bir zorluktu.",
+          "Yeni LNG tankı devasa.",
+          "Bu ay devasa miktarda işimiz var.",
+          "Projenin kasaba üzerinde çok büyük bir etkisi oldu.",
+          "Devasa bir evde yaşıyorlar."
+        ],
+        "explanation": "Çok büyük, devasa (big/large'dan güçlü). Kalıp: an enormous amount of + sayılamaz isim."
+      },
+      {
+        "id": "b2l2b11",
+        "term": "sleep deprivation",
+        "pronunciation": "SLEEP dep-rih-VAY-shun",
+        "translation": "uykusuzluk",
+        "sentences": [
+          "Night shifts cause sleep deprivation.",
+          "Sleep deprivation affects your concentration.",
+          "Many accidents on site are caused by sleep deprivation.",
+          "New parents often suffer from sleep deprivation.",
+          "Sleep deprivation is a common problem for rough sleepers."
+        ],
+        "translations": [
+          "Gece vardiyaları uykusuzluğa neden olur.",
+          "Uykusuzluk konsantrasyonunu etkiler.",
+          "Sahadaki birçok kaza uykusuzluktan kaynaklanıyor.",
+          "Yeni ebeveynler sık sık uykusuzluk çeker.",
+          "Uykusuzluk sokakta yatanlar için yaygın bir sorun."
+        ],
+        "explanation": "Yeterince uyuyamama, uykusuzluk. deprivation = yoksun kalma. Kalıplar: experience / suffer from sleep deprivation."
+      },
+      {
+        "id": "b2l2b12",
+        "term": "take something for granted",
+        "pronunciation": "tayk SUM-thing for GRAN-tid",
+        "translation": "hafife almak, doğal karşılamak",
+        "sentences": [
+          "Don't take a safe workplace for granted.",
+          "We often take clean water for granted.",
+          "He took his job for granted until he lost it.",
+          "Many people take their homes for granted.",
+          "I never take my family's support for granted."
+        ],
+        "translations": [
+          "Güvenli bir iş yerini doğal karşılama.",
+          "Temiz suyu çoğu zaman doğal karşılıyoruz.",
+          "İşini kaybedene kadar kıymetini bilmedi.",
+          "Birçok insan evini doğal karşılıyor.",
+          "Ailemin desteğini asla doğal karşılamam."
+        ],
+        "explanation": "Bir şeyin hep orada olacağını varsaymak, kıymetini bilmemek. Yapı: take + nesne + for granted. take – took – taken."
+      },
+      {
+        "id": "b2l2b13",
+        "term": "shelter",
+        "pronunciation": "SHEL-ter",
+        "translation": "barınak, sığınak",
+        "sentences": [
+          "The city opened a new shelter.",
+          "We took shelter from the rain under the pipe rack.",
+          "Homeless people can stay in the shelter during winter.",
+          "Food, water and shelter are basic needs.",
+          "The shelter has been full since November."
+        ],
+        "translations": [
+          "Şehir yeni bir barınak açtı.",
+          "Yağmurdan boru köprüsünün altına sığındık.",
+          "Evsizler kışın barınakta kalabilir.",
+          "Yiyecek, su ve barınak temel ihtiyaçlardır.",
+          "Barınak kasımdan beri dolu."
+        ],
+        "explanation": "Barınak, sığınak; korunma. 'take shelter' = sığınmak. Temel ihtiyaçlar: food, water and shelter."
+      },
+      {
+        "id": "b2l2b14",
+        "term": "outcast",
+        "pronunciation": "OWT-kast",
+        "translation": "dışlanmış kişi",
+        "sentences": [
+          "His past made him a social outcast.",
+          "Homeless people often feel like outcasts.",
+          "At school he was treated as an outcast.",
+          "Nobody wants to be an outcast.",
+          "The film tells the story of an outcast who becomes a hero."
+        ],
+        "translations": [
+          "Geçmişi onu toplumdan dışlanmış biri yaptı.",
+          "Evsizler kendilerini sıklıkla dışlanmış hisseder.",
+          "Okulda dışlanmış biri gibi muamele gördü.",
+          "Kimse dışlanmış biri olmak istemez.",
+          "Film, kahramana dönüşen dışlanmış birinin hikâyesini anlatıyor."
+        ],
+        "explanation": "Toplum ya da bir grup tarafından dışlanmış kişi. 'social outcast' sık kullanılan kalıp."
+      },
+      {
+        "id": "b2l2b15",
+        "term": "vagabond",
+        "pronunciation": "VAG-uh-bond",
+        "translation": "serseri, gezgin",
+        "sentences": [
+          "He lived like a vagabond.",
+          "After he lost everything, he became a vagabond.",
+          "The old vagabond slept in a different town every night.",
+          "In the story, a young vagabond travels across Europe.",
+          "People called him a vagabond because he had no home."
+        ],
+        "translations": [
+          "Bir serseri gibi yaşadı.",
+          "Her şeyini kaybettikten sonra yersiz yurtsuz bir gezgine dönüştü.",
+          "Yaşlı serseri her gece farklı bir kasabada uyurdu.",
+          "Hikâyede genç bir gezgin Avrupa'yı dolaşıyor.",
+          "Evi olmadığı için ona serseri diyorlardı."
+        ],
+        "explanation": "Sabit evi ya da işi olmadan yerden yere dolaşan kişi. Edebi ve biraz eski bir kelime."
+      },
+      {
+        "id": "b2l2b16",
+        "term": "down and out",
+        "pronunciation": "down und OWT",
+        "translation": "düşkün, perişan (parasız, evsiz)",
+        "sentences": [
+          "He looked shabby and down and out.",
+          "After losing his job and his home, he was down and out.",
+          "The charity helps people who are down and out.",
+          "Nobody expected a famous actor to end up down and out.",
+          "Many people are only one bad year away from being down and out."
+        ],
+        "translations": [
+          "Pejmürde ve perişan görünüyordu.",
+          "İşini ve evini kaybettikten sonra beş parasız kaldı.",
+          "Yardım kuruluşu düşkün durumdaki insanlara yardım ediyor.",
+          "Kimse ünlü bir oyuncunun perişan bir halde kalacağını beklemiyordu.",
+          "Birçok insan beş parasız kalmaktan sadece bir kötü yıl uzakta."
+        ],
+        "explanation": "Parasız, evsiz, işsiz; tamamen düşkün. Sıfat gibi kullanılır: be/look down and out."
+      },
+      {
+        "id": "b2l2b17",
+        "term": "estranged",
+        "pronunciation": "ih-STRAYNJD",
+        "translation": "uzaklaşmış, bağı kopmuş",
+        "sentences": [
+          "He is estranged from his family.",
+          "She has been estranged from her brother for ten years.",
+          "Many rough sleepers are estranged from their relatives.",
+          "His estranged wife lives in another city.",
+          "After the argument, the two friends became estranged."
+        ],
+        "translations": [
+          "Ailesiyle bağı kopmuş durumda.",
+          "On yıldır erkek kardeşiyle küs.",
+          "Sokakta yatan birçok kişinin akrabalarıyla bağı kopmuş.",
+          "Ayrı yaşadığı eşi başka bir şehirde yaşıyor.",
+          "Tartışmadan sonra iki arkadaş birbirinden uzaklaştı."
+        ],
+        "explanation": "Aile ya da yakınlarıyla bağı kopmuş. Yapı: be estranged from + kişi. 'estranged wife/husband' = ayrı yaşayan eş."
+      },
+      {
+        "id": "b2l2b18",
+        "term": "alienate",
+        "pronunciation": "AY-lee-uh-nayt",
+        "translation": "yabancılaştırmak, soğutmak",
+        "sentences": [
+          "Unemployment can alienate people.",
+          "Over-critical comments will alienate your team.",
+          "The new rules alienated many customers.",
+          "He felt alienated from society.",
+          "Don't alienate the client by ignoring their concerns."
+        ],
+        "translations": [
+          "İşsizlik insanları yabancılaştırabilir.",
+          "Aşırı eleştirel yorumlar ekibini senden soğutur.",
+          "Yeni kurallar birçok müşteriyi soğuttu.",
+          "Kendini topluma yabancılaşmış hissetti.",
+          "Endişelerini görmezden gelerek müşteriyi kendinden soğutma."
+        ],
+        "explanation": "Birine ait olmadığını hissettirmek, onu soğutmak. Yapı: alienate + kişi; feel alienated from + grup. İsim: alienation."
+      },
+      {
+        "id": "b2l2b19",
+        "term": "desperation",
+        "pronunciation": "des-puh-RAY-shun",
+        "translation": "çaresizlik",
+        "sentences": [
+          "He felt desperation and humiliation.",
+          "In desperation, she called every supplier in the city.",
+          "There was desperation in his voice.",
+          "Poverty can drive people to desperation.",
+          "Out of desperation, he started sleeping on the street."
+        ],
+        "translations": [
+          "Çaresizlik ve aşağılanma hissetti.",
+          "Çaresizlik içinde şehirdeki her tedarikçiyi aradı.",
+          "Sesinde çaresizlik vardı.",
+          "Yoksulluk insanları çaresizliğe sürükleyebilir.",
+          "Çaresizlikten sokakta yatmaya başladı."
+        ],
+        "explanation": "Umudunu kaybetme hissi, çaresizlik. Kalıplar: in desperation / out of desperation = çaresizlikten. Sıfat: desperate."
+      },
+      {
+        "id": "b2l2b20",
+        "term": "humiliation",
+        "pronunciation": "hyoo-mil-ee-AY-shun",
+        "translation": "aşağılanma",
+        "sentences": [
+          "He couldn't bear the humiliation.",
+          "Losing 6–0 was a humiliation for the team.",
+          "Many rough sleepers face humiliation every day.",
+          "She felt deep humiliation when her boss criticised her in front of everyone.",
+          "Selling the magazine gives vendors an income without humiliation."
+        ],
+        "translations": [
+          "Aşağılanmaya dayanamadı.",
+          "6–0 kaybetmek takım için bir rezaletti.",
+          "Sokakta yatan birçok kişi her gün aşağılanmaya maruz kalıyor.",
+          "Patronu onu herkesin önünde eleştirince derin bir aşağılanma hissetti.",
+          "Dergiyi satmak satıcılara aşağılanmadan bir gelir sağlıyor."
+        ],
+        "explanation": "Utandırılma, aşağılanma hissi. Fiil: humiliate; sıfat: humiliating (aşağılayıcı)."
+      },
+      {
+        "id": "b2l2b21",
+        "term": "lack of",
+        "pronunciation": "LAK uv",
+        "translation": "eksiklik, yokluk",
+        "sentences": [
+          "A lack of clean water is dangerous.",
+          "The project failed because of a lack of planning.",
+          "Lack of sleep affects your work.",
+          "There is a lack of experienced welders in the region.",
+          "His lack of patience caused problems in the team."
+        ],
+        "translations": [
+          "Temiz su eksikliği tehlikelidir.",
+          "Proje planlama eksikliği yüzünden başarısız oldu.",
+          "Uyku eksikliği işini etkiler.",
+          "Bölgede deneyimli kaynakçı eksikliği var.",
+          "Sabırsızlığı ekipte sorunlara yol açtı."
+        ],
+        "explanation": "Bir şeyin yeterince olmaması, eksiklik. İsim: a lack of + isim. Fiil olarak 'of' almaz: He lacks experience."
+      },
+      {
+        "id": "b2l2b22",
+        "term": "hardship",
+        "pronunciation": "HARD-ship",
+        "translation": "zorluk, sıkıntı",
+        "sentences": [
+          "They faced many hardships.",
+          "The war caused great hardship for ordinary people.",
+          "Living on the street means daily hardship.",
+          "Despite the hardship, she finished her degree.",
+          "Rising prices are causing hardship for many families."
+        ],
+        "translations": [
+          "Pek çok zorlukla karşılaştılar.",
+          "Savaş sıradan insanlar için büyük sıkıntıya yol açtı.",
+          "Sokakta yaşamak her gün sıkıntı çekmek demek.",
+          "Sıkıntılara rağmen üniversiteyi bitirdi.",
+          "Artan fiyatlar birçok aile için sıkıntı yaratıyor."
+        ],
+        "explanation": "Zor yaşam koşulları, sıkıntı (özellikle maddi). Kalıplar: face hardship, cause hardship, financial hardship."
+      },
+      {
+        "id": "b2l2b23",
+        "term": "legitimate income",
+        "pronunciation": "lih-JIT-ih-mit IN-kum",
+        "translation": "yasal gelir",
+        "sentences": [
+          "Vendors earn a legitimate income.",
+          "Selling The Big Issue gives people a legitimate income.",
+          "The bank asked him to prove his legitimate income.",
+          "Without a legitimate income, it's hard to rent a flat.",
+          "Our project helps homeless people find a legitimate income."
+        ],
+        "translations": [
+          "Satıcılar yasal bir gelir elde ediyor.",
+          "The Big Issue'yu satmak insanlara yasal bir gelir sağlıyor.",
+          "Banka ondan yasal gelirini kanıtlamasını istedi.",
+          "Yasal bir gelir olmadan daire kiralamak zor.",
+          "Projemiz evsizlerin yasal bir gelir bulmasına yardım ediyor."
+        ],
+        "explanation": "Yasal yollardan kazanılan para. legitimate = yasal, meşru (illegal'in zıttı)."
+      },
+      {
+        "id": "b2l2b24",
+        "term": "myriad",
+        "pronunciation": "MIR-ee-ud",
+        "translation": "sayısız",
+        "sentences": [
+          "They face a myriad of problems.",
+          "The city offers a myriad of restaurants.",
+          "There are myriad reasons why people become homeless.",
+          "The new software has a myriad of features.",
+          "Engineers deal with myriad details every day."
+        ],
+        "translations": [
+          "Sayısız sorunla karşı karşıyalar.",
+          "Şehirde sayısız restoran var.",
+          "İnsanların evsiz kalmasının sayısız nedeni var.",
+          "Yeni yazılımın sayısız özelliği var.",
+          "Mühendisler her gün sayısız ayrıntıyla uğraşır."
+        ],
+        "explanation": "Sayısız, çok fazla. İki kullanım: a myriad of + çoğul isim / myriad + çoğul isim. Resmi, yazı dili."
+      },
+      {
+        "id": "b2l2b25",
+        "term": "inequality",
+        "pronunciation": "in-ih-KWOL-ih-tee",
+        "translation": "eşitsizlik",
+        "sentences": [
+          "Poverty and inequality are linked.",
+          "Income inequality has grown in many countries.",
+          "We must fight inequality in education.",
+          "Gender inequality is still a problem in engineering.",
+          "The report shows a big inequality between regions."
+        ],
+        "translations": [
+          "Yoksulluk ve eşitsizlik birbiriyle bağlantılı.",
+          "Birçok ülkede gelir eşitsizliği arttı.",
+          "Eğitimdeki eşitsizlikle mücadele etmeliyiz.",
+          "Toplumsal cinsiyet eşitsizliği mühendislikte hâlâ bir sorun.",
+          "Rapor bölgeler arasında büyük bir eşitsizlik gösteriyor."
+        ],
+        "explanation": "Gruplar arasındaki adaletsiz fark. in- + equality (eşitlik). Kalıplar: income inequality, gender inequality."
       }
     ]
   }

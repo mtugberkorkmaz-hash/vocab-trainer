@@ -3,7 +3,10 @@
   const backBtn = document.getElementById('btn-back');
   const trBtn = document.getElementById('btn-translate');
 
+  const homeBtn = document.getElementById('btn-home');
   backBtn.innerHTML = icon('back', 20);
+  homeBtn.innerHTML = icon('home', 20);
+  homeBtn.addEventListener('click', () => Router.reset('menu'));
   trBtn.textContent = '';
   trBtn.appendChild(document.createTextNode('TR'));
 

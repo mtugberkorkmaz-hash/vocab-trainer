@@ -43,6 +43,7 @@ function setHeader(title) {
 }
 function setBackVisible(v) {
   document.getElementById('btn-back').hidden = !v;
+  document.getElementById('btn-home').hidden = !v;
 }
 function renderSummary(opts) {
   setHeader(opts.navTitle || 'Sonuç');
@@ -74,6 +75,7 @@ function modeMeta() {
     { key: 'meeting', icon: 'users', title: 'Meeting Modu', sub: `${Data.meetings.length} gerçekçi toplantı senaryosu` },
     { key: 'patterns', icon: 'sparkle', title: 'Günlük Kalıplar', sub: `${Data.patterns.length} günlük İngilizce kalıp` },
     { key: 'hizli', icon: 'bolt', title: 'Hızlı Tur', sub: 'Skorlu bonus round' },
+    { key: 'stats', icon: 'chart', title: 'İstatistikler', sub: `${Object.keys(Storage.getWordStats()).length} kelime çalışıldı — en çok yanlışlar` },
   ];
 }
 
@@ -114,6 +116,7 @@ function renderMenu() {
       else if (key === 'meeting') Router.push('meetingList');
       else if (key === 'patterns') Router.push('patternsMenu');
       else if (key === 'hizli') startHizliTur();
+      else if (key === 'stats') Router.push('stats');
     });
   });
 }
@@ -140,10 +143,18 @@ function renderCategorySelect(params) {
 }
 
 /* ---------- Flashcards (words + patterns share this) ---------- */
-function startFlashcards(category, source) {
-  const pool = source === 'patterns' ? Data.patternsByCategory(category) : Data.byCategory(category);
-  session = { kind: 'flashcards', source, category, queue: shuffle(pool), index: 0 };
+const ANSWER_LABELS = { known: 'Biliyorum', unknown: 'Bilmiyorum', skipped: 'Pas geçildi' };
+
+// `list` (optional) studies exactly these items, e.g. "repeat the ones I missed".
+function startFlashcards(category, source, list) {
+  const pool = list || (source === 'patterns' ? Data.patternsByCategory(category) : Data.byCategory(category));
+  session = { kind: 'flashcards', source, category, queue: shuffle(pool), index: 0, answers: {}, sentIdx: {} };
   Router.push('flashcardSession');
+}
+
+function wordStatHtml(id) {
+  const s = Storage.getWordStats()[id];
+  return s && (s.ok || s.bad) ? `<div class="word-stat"><span class="ok">✓ ${s.ok || 0}</span><span class="bad">✗ ${s.bad || 0}</span></div>` : '';
 }
 
 function renderFlashcard() {
@@ -151,17 +162,23 @@ function renderFlashcard() {
   setHeader(`Kart ${index + 1}/${queue.length}`);
   const w = queue[index];
   const showTr = Storage.getSettings().showTranslation;
-  const idxs = sample(w.sentences.map((_, i) => i), Math.min(3, w.sentences.length)).sort((a, b) => a - b);
-  const sentHtml = idxs.map((i) => {
+  // Keep the same sentences when coming back to a card (or toggling TR).
+  if (!session.sentIdx[w.id]) {
+    session.sentIdx[w.id] = sample(w.sentences.map((_, i) => i), Math.min(3, w.sentences.length)).sort((a, b) => a - b);
+  }
+  const sentHtml = session.sentIdx[w.id].map((i) => {
     const en = w.sentences[i];
     const tr = w.translations ? w.translations[i] : null;
     return `<div class="sent-item"><div class="sent-en">${escapeHtml(en)}</div>${showTr && tr ? `<div class="sent-tr">${escapeHtml(tr)}</div>` : ''}</div>`;
   }).join('');
+  const prev = session.answers[w.id];
   mount(`
     <div class="progress-line"><span>${escapeHtml(catLabel(w.category))}</span><span>${index + 1} / ${queue.length}</span></div>
     <div class="card">
+      ${prev ? `<span class="ans-badge ${prev}">${ANSWER_LABELS[prev]}</span>` : ''}
       <div class="card-term">${escapeHtml(w.term)}</div>
       <div class="card-pron">[${escapeHtml(w.pronunciation)}]</div>
+      ${wordStatHtml(w.id)}
       <div class="sent-list">${sentHtml}</div>
       <div id="explain-box"></div>
       <button id="btn-learn" class="btn btn-outline btn-block" style="margin-top:16px;">${icon('sparkle', 18)} Öğren (anlam + yapı)</button>
@@ -170,39 +187,89 @@ function renderFlashcard() {
       <button id="btn-dontknow" class="btn btn-danger">${icon('close', 18)} Bilmiyorum</button>
       <button id="btn-know" class="btn btn-success">${icon('check', 18)} Biliyorum</button>
     </div>
+    <div class="nav-row">
+      <button id="btn-prev" class="btn btn-ghost" ${index === 0 ? 'disabled' : ''}>${icon('back', 16)} Önceki</button>
+      <button id="btn-finish" class="btn btn-ghost">Bitir</button>
+      <button id="btn-skip" class="btn btn-ghost">Pas geç ${icon('chevronRight', 16)}</button>
+    </div>
   `);
   $('#btn-learn').addEventListener('click', () => {
     $('#explain-box').innerHTML = `<div class="explain-box"><b>Anlam:</b> ${escapeHtml(w.translation)}<br>${escapeHtml(w.explanation || '')}</div>`;
   });
-  $('#btn-dontknow').addEventListener('click', () => answerFlashcard(w, false));
-  $('#btn-know').addEventListener('click', () => answerFlashcard(w, true));
+  $('#btn-dontknow').addEventListener('click', () => answerFlashcard(w, 'unknown'));
+  $('#btn-know').addEventListener('click', () => answerFlashcard(w, 'known'));
+  $('#btn-skip').addEventListener('click', () => answerFlashcard(w, 'skipped'));
+  $('#btn-prev').addEventListener('click', () => goFlashcard(index - 1));
+  $('#btn-finish').addEventListener('click', () => Router.replace('flashcardDone'));
 }
 
-function answerFlashcard(w, known) {
-  if (known) Storage.markKnown(w.id); else Storage.markUnknown(w.id);
-  session.index++;
+function answerFlashcard(w, verdict) {
+  const prev = session.answers[w.id];
+  // Skipping a card that already has an answer keeps that answer.
+  if (!(verdict === 'skipped' && prev) && prev !== verdict) {
+    // Changing an earlier answer replaces its count instead of adding a second one.
+    if (prev === 'known' || prev === 'unknown') Storage.recordAnswer(w.id, prev === 'known', -1);
+    if (verdict === 'known') { Storage.recordAnswer(w.id, true); Storage.markKnown(w.id); }
+    if (verdict === 'unknown') { Storage.recordAnswer(w.id, false); Storage.markUnknown(w.id); }
+    session.answers[w.id] = verdict;
+  }
+  goFlashcard(session.index + 1);
+}
+
+function goFlashcard(i) {
+  session.index = Math.max(0, i);
   if (session.index >= session.queue.length) Router.replace('flashcardDone');
   else renderFlashcard();
 }
 
+function wordListHtml(words) {
+  const ws = Storage.getWordStats();
+  return words.map((w) => {
+    const bad = (ws[w.id] && ws[w.id].bad) || 0;
+    return `<li><span><b>${escapeHtml(w.term)}</b> — ${escapeHtml(w.translation)}</span>${bad ? `<span class="miss">✗ ${bad}</span>` : ''}</li>`;
+  }).join('');
+}
+
 function renderFlashcardDone() {
-  const n = Storage.getWeakPool().length;
-  renderSummary({
-    navTitle: 'Tamamlandı',
-    title: 'Kart Seti Tamamlandı',
-    iconName: 'trophy',
-    sub: `Zayıf havuzunda şu an ${n} kelime/kalıp var.`,
-    actions: [
-      { label: 'Tekrar', cls: 'btn-primary', icon: 'book', onClick: () => startFlashcards(session.category, session.source) },
-      { label: 'Ana Menü', cls: 'btn-outline', onClick: () => Router.reset('menu') },
-    ],
-  });
+  setHeader('Tamamlandı');
+  const groups = { known: [], unknown: [], skipped: [] };
+  // Cards never reached (finished early) count as skipped.
+  session.queue.forEach((w) => groups[session.answers[w.id] || 'skipped'].push(w));
+  const again = groups.unknown.concat(groups.skipped);
+  const group = (key, title, open) => (groups[key].length ? `
+    <details class="word-group ${key}" ${open ? 'open' : ''}>
+      <summary>${title} <span class="count">${groups[key].length}</span></summary>
+      <ul>${wordListHtml(groups[key])}</ul>
+    </details>` : '');
+  mount(`
+    <div class="summary-wrap" style="padding-top:10px;">
+      <div class="summary-icon">${icon('trophy', 34)}</div>
+      <h2>Kart Seti Tamamlandı</h2>
+    </div>
+    <div class="stat-row">
+      <div class="stat-pill"><div class="num" style="color:var(--success)">${groups.known.length}</div><div class="label">Biliyorum</div></div>
+      <div class="stat-pill"><div class="num" style="color:var(--danger)">${groups.unknown.length}</div><div class="label">Bilmiyorum</div></div>
+      <div class="stat-pill"><div class="num" style="color:var(--text-dim)">${groups.skipped.length}</div><div class="label">Pas / Görülmedi</div></div>
+    </div>
+    ${group('unknown', 'Bilmediklerin', true)}
+    ${group('skipped', 'Pas geçtiklerin', true)}
+    ${group('known', 'Bildiklerin', false)}
+    <div class="summary-actions">
+      ${again.length ? `<button id="btn-again" class="btn btn-primary btn-block">${icon('book', 18)} Bilmediklerimi Tekrar Et (${again.length})</button>` : ''}
+      <button id="btn-all" class="btn btn-outline btn-block">Tümünü Tekrar</button>
+      <button id="btn-menu" class="btn btn-outline btn-block">Ana Menü</button>
+    </div>
+  `);
+  const { category, source, queue } = session;
+  if (again.length) $('#btn-again').addEventListener('click', () => startFlashcards(category, source, again));
+  $('#btn-all').addEventListener('click', () => startFlashcards(category, source, queue));
+  $('#btn-menu').addEventListener('click', () => Router.reset('menu'));
 }
 
 /* ---------- Test mode ---------- */
 function startTest(category) {
   const pool = shuffle(Data.byCategory(category)).slice(0, 12);
-  session = { kind: 'test', category, queue: pool, index: 0, score: 0 };
+  session = { kind: 'test', category, queue: pool, index: 0, score: 0, wrongs: [] };
   Router.push('testSession');
 }
 
@@ -245,6 +312,8 @@ function answerTest(w, options, chosenIdx) {
     else el.classList.add('dim');
   });
   const fb = $('#feedback');
+  Storage.recordAnswer(w.id, options[chosenIdx].correct);
+  if (!options[chosenIdx].correct) session.wrongs.push(w);
   if (options[chosenIdx].correct) {
     session.score++;
     fb.innerHTML = `<div class="feedback ok">${icon('check', 16)} Doğru!</div>`;
@@ -271,7 +340,7 @@ function goNextTest() {
 /* ---------- Fill in the blank ---------- */
 function startFillblank(category) {
   const pool = shuffle(Data.byCategory(category)).slice(0, 12);
-  session = { kind: 'fillblank', category, queue: pool, index: 0, score: 0 };
+  session = { kind: 'fillblank', category, queue: pool, index: 0, score: 0, wrongs: [] };
   Router.push('fillblankSession');
 }
 
@@ -310,6 +379,8 @@ function checkFillblank(w, sentIdx, typed) {
   const showTr = Storage.getSettings().showTranslation;
   const tr = w.translations ? w.translations[sentIdx] : null;
   const fb = $('#feedback');
+  Storage.recordAnswer(w.id, correct);
+  if (!correct) session.wrongs.push(w);
   if (correct) {
     session.score++;
     fb.innerHTML = `<div class="feedback ok">${icon('check', 16)} Doğru!</div>`;
@@ -337,16 +408,22 @@ function goNextFillblank() {
 }
 
 function renderQuizSummary(kind) {
-  const { score, queue, category } = session;
+  const { score, queue, category, wrongs } = session;
   const title = kind === 'test' ? 'Test Tamamlandı' : 'Boşluk Doldurma Tamamlandı';
+  const wrongHtml = wrongs && wrongs.length ? `
+    <details class="word-group unknown" open style="text-align:left;margin-top:18px;">
+      <summary>Yanlış yaptıkların <span class="count">${wrongs.length}</span></summary>
+      <ul>${wordListHtml(wrongs)}</ul>
+    </details>` : '';
   renderSummary({
     navTitle: 'Sonuç',
     title,
     iconName: 'trophy',
     scoreText: `${score}/${queue.length}`,
-    sub: 'Skorun',
+    sub: 'Skorun' + wrongHtml,
     actions: [
-      { label: 'Tekrar Dene', cls: 'btn-primary', icon: 'bolt', onClick: () => (kind === 'test' ? startTest(category) : startFillblank(category)) },
+      ...(wrongs && wrongs.length ? [{ label: `Yanlışları Kartla Çalış (${wrongs.length})`, cls: 'btn-primary', icon: 'book', onClick: () => startFlashcards(category, 'words', wrongs) }] : []),
+      { label: 'Tekrar Dene', cls: wrongs && wrongs.length ? 'btn-outline' : 'btn-primary', icon: 'bolt', onClick: () => (kind === 'test' ? startTest(category) : startFillblank(category)) },
       { label: 'Ana Menü', cls: 'btn-outline', onClick: () => Router.reset('menu') },
     ],
   });
@@ -492,11 +569,13 @@ function renderLessonDetail(params) {
       <button class="cat-item" data-mode="flashcards"><span style="display:flex;align-items:center;gap:10px;">${icon('book', 18)} Kelime Kartları</span><span class="count">${n}</span></button>
       <button class="cat-item" data-mode="test"><span style="display:flex;align-items:center;gap:10px;">${icon('target', 18)} Test Modu</span><span class="count">${Math.min(n, 12)}</span></button>
       <button class="cat-item" data-mode="fillblank"><span style="display:flex;align-items:center;gap:10px;">${icon('pencil', 18)} Boşluk Doldurma</span><span class="count">${Math.min(n, 12)}</span></button>
+      <button class="cat-item" data-mode="stats"><span style="display:flex;align-items:center;gap:10px;">${icon('chart', 18)} İstatistik</span><span class="count">${Data.byCategory(cat).filter((w) => Storage.getWordStats()[w.id]).length}/${n}</span></button>
     </div>
   `);
   $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
     const mode = btn.dataset.mode;
     if (mode === 'flashcards') startFlashcards(cat, 'words');
+    else if (mode === 'stats') Router.push('stats', { cat });
     else if (mode === 'test') startTest(cat);
     else startFillblank(cat);
   }));
@@ -624,6 +703,38 @@ function renderReviewSummary(kind) {
   });
 }
 
+/* ---------- Per-word statistics ---------- */
+function renderStats(params) {
+  const cat = params && params.cat;
+  setHeader(cat ? `İstatistik · ${catLabel(cat)}` : 'İstatistikler');
+  const ws = Storage.getWordStats();
+  const pool = cat ? Data.byCategory(cat) : Data.words.concat(Data.patterns);
+  const rows = pool.filter((w) => ws[w.id] && (ws[w.id].ok || ws[w.id].bad))
+    .map((w) => ({ w, ok: ws[w.id].ok || 0, bad: ws[w.id].bad || 0 }))
+    .sort((a, b) => b.bad - a.bad || a.ok - b.ok);
+  const ok = rows.reduce((n, r) => n + r.ok, 0);
+  const bad = rows.reduce((n, r) => n + r.bad, 0);
+  const missed = rows.filter((r) => r.bad > 0);
+  const list = rows.map((r) => {
+    const acc = Math.round((100 * r.ok) / (r.ok + r.bad));
+    return `<li><span><b>${escapeHtml(r.w.term)}</b><small>${escapeHtml(r.w.translation)}</small></span>
+      <span class="stat-nums"><span class="ok">✓ ${r.ok}</span><span class="bad">✗ ${r.bad}</span><span class="acc">%${acc}</span></span></li>`;
+  }).join('');
+  mount(`
+    <div class="stat-row">
+      <div class="stat-pill"><div class="num">${rows.length}/${pool.length}</div><div class="label">Çalışılan</div></div>
+      <div class="stat-pill"><div class="num" style="color:var(--success)">${ok}</div><div class="label">Doğru</div></div>
+      <div class="stat-pill"><div class="num" style="color:var(--danger)">${bad}</div><div class="label">Yanlış</div></div>
+    </div>
+    ${missed.length ? `<button id="btn-drill" class="btn btn-primary btn-block" style="margin-bottom:16px;">${icon('book', 18)} En Çok Yanlış Yaptıklarını Çalış (${Math.min(20, missed.length)})</button>` : ''}
+    ${rows.length ? `<div class="section-title">En çok yanlış yapılan üstte</div><ul class="stat-list">${list}</ul>`
+      : '<p class="footnote">Henüz istatistik yok. Kart, test veya boşluk doldurma çözdükçe burada her kelime için doğru/yanlış sayın görünecek.</p>'}
+  `);
+  if (missed.length) {
+    $('#btn-drill').addEventListener('click', () => startFlashcards(cat || 'mixed', 'words', missed.slice(0, 20).map((r) => r.w)));
+  }
+}
+
 /* ---------- Patterns menu ---------- */
 function renderPatternsMenu() {
   setHeader('Günlük Kalıplar');
@@ -695,6 +806,7 @@ function answerHizli(chosen) {
   const s = session;
   $all('.option').forEach((el) => el.setAttribute('disabled', ''));
   const correct = chosen === s.correctAnswer;
+  Storage.recordAnswer(s.currentWord.id, correct, 1, false); // totals are updated below
   const stats = Storage.getStats();
   const fb = $('#feedback');
   if (correct) {
@@ -760,6 +872,7 @@ const Screens = {
       case 'lessonList': renderLessonList(); break;
       case 'lessonDetail': renderLessonDetail(state.params); break;
       case 'reviewMenu': renderReviewMenu(); break;
+      case 'stats': renderStats(state.params); break;
       case 'correctionSession': renderCorrection(); break;
       case 'correctionSummary': renderReviewSummary('corrections'); break;
       case 'reviewQuizSession': renderReviewQuiz(); break;

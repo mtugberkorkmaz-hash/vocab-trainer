@@ -522,6 +522,51 @@ button, input { font-family: inherit; }
 .fillblank-input { font-size: 17px; }
 .btn { min-height: 52px; }
 
+/* back + home sit on both sides of the title now, so no balancing pad needed */
+#header-title { padding-right: 0; }
+
+/* flashcard navigation + answer state */
+.nav-row { display: flex; gap: 8px; margin-top: 10px; }
+.btn-ghost { background: var(--bg-soft); color: var(--text-dim); min-height: 44px; font-size: 14px; }
+.card { position: relative; }
+.ans-badge {
+  position: absolute; top: 12px; right: 12px;
+  font-size: 11.5px; font-weight: 800; padding: 3px 9px; border-radius: 999px;
+}
+.ans-badge.known { background: var(--success-soft); color: var(--success); }
+.ans-badge.unknown { background: var(--danger-soft); color: var(--danger); }
+.ans-badge.skipped { background: var(--bg-soft); color: var(--text-dim); }
+.word-stat { display: flex; justify-content: center; gap: 12px; margin-top: 8px; font-size: 13px; font-weight: 700; }
+.ok { color: var(--success); }
+.bad, .miss { color: var(--danger); }
+
+/* word lists on summary + stats screens */
+.word-group {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 4px 14px; margin-bottom: 10px;
+}
+.word-group summary {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0; font-weight: 800; cursor: pointer; list-style: none;
+}
+.word-group summary::-webkit-details-marker { display: none; }
+.word-group.unknown summary { color: var(--danger); }
+.word-group.known summary { color: var(--success); }
+.word-group .count, .stat-list .count {
+  font-size: 12px; background: var(--bg-soft); color: var(--text-dim); border-radius: 999px; padding: 2px 9px;
+}
+.word-group ul, .stat-list { list-style: none; margin: 0; padding: 0; }
+.word-group li, .stat-list li {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 9px 0; border-top: 1px solid var(--border); font-size: 14px; line-height: 1.35; text-align: left;
+}
+.miss { flex-shrink: 0; font-weight: 800; font-size: 13px; }
+.stat-list { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 0 14px; }
+.stat-list li:first-child { border-top: none; }
+.stat-list small { display: block; color: var(--text-dim); font-size: 12.5px; }
+.stat-nums { display: flex; gap: 8px; flex-shrink: 0; font-size: 13px; font-weight: 800; }
+.stat-nums .acc { color: var(--text-dim); min-width: 38px; text-align: right; }
+
 @media (min-width: 620px) {
   .mode-grid { grid-template-columns: 1fr 1fr 1fr; }
   .mode-card:first-child, .mode-card:last-child:nth-child(even) { grid-column: span 3; }

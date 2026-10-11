@@ -1,6 +1,6 @@
 /* localStorage-backed settings, weak pool and stats (replaces weak_pool.py / srs.py progress). */
 const Storage = {
-  KEYS: { settings: 'vt_settings', weak: 'vt_weakpool', stats: 'vt_stats' },
+  KEYS: { settings: 'vt_settings', weak: 'vt_weakpool', stats: 'vt_stats', wordStats: 'vt_wordstats' },
 
   getSettings() {
     try {
@@ -47,5 +47,32 @@ const Storage = {
   },
   saveStats(s) {
     localStorage.setItem(this.KEYS.stats, JSON.stringify(s));
+  },
+
+  // Per-word answer counts: { id: { ok, bad, last } }.
+  getWordStats() {
+    try {
+      return JSON.parse(localStorage.getItem(this.KEYS.wordStats) || '{}');
+    } catch (e) {
+      return {};
+    }
+  },
+  // delta -1 undoes an earlier answer (flashcard answer changed after going back).
+  // countTotals=false when the caller already updates the global totals (Hızlı Tur).
+  recordAnswer(id, correct, delta, countTotals) {
+    delta = delta || 1;
+    const all = this.getWordStats();
+    const s = all[id] || { ok: 0, bad: 0 };
+    const field = correct ? 'ok' : 'bad';
+    s[field] = Math.max(0, (s[field] || 0) + delta);
+    s.last = Date.now();
+    all[id] = s;
+    localStorage.setItem(this.KEYS.wordStats, JSON.stringify(all));
+    if (countTotals !== false) {
+      const st = this.getStats();
+      const key = correct ? 'totalCorrect' : 'totalWrong';
+      st[key] = Math.max(0, (st[key] || 0) + delta);
+      this.saveStats(st);
+    }
   },
 };

@@ -2798,5 +2798,1604 @@
         "explanation": "Gruplar arasındaki adaletsiz fark. in- + equality (eşitlik). Kalıplar: income inequality, gender inequality."
       }
     ]
+  },
+  {
+    "id": "L2C",
+    "code": "2C",
+    "title": "Marriage in Old Times",
+    "date": "2026-10-16",
+    "pages": "SB 30–33, WB 10",
+    "grammar": {
+      "title": "used to vs would · would rather / prefer",
+      "formula": "used to + V1 (alışkanlık + durum) · would + V1 (sadece eylem) · 'd rather + V1 · 'd prefer + to V1",
+      "note": "used to = eskiden (alışkanlık ve durum); did/didn't'ten sonra 'use to' (-d yok). would = geçmişte tekrarlanan eylem; durum fiilleriyle (have, be, like, live) kullanılmaz. Belirli tercih: I'd rather + V1 (than…) / I'd prefer + to V1 (rather than…). Genel tercih: prefer V-ing to V-ing. Başkası için: I'd rather you + V2.",
+      "examples": [
+        "I used to have a dog, but I don't have one now.",
+        "When I was young, I would go fishing with my father every summer.",
+        "It's such nice weather – I'd rather sit in the garden than watch TV."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l2c01",
+        "term": "primitive",
+        "pronunciation": "PRIM-ih-tiv",
+        "translation": "ilkel",
+        "sentences": [
+          "The methods of communication were primitive by today's standards.",
+          "The first marriage took place when a primitive man carried a woman to his cave.",
+          "The old site office had a very primitive heating system.",
+          "Primitive people used stones as tools.",
+          "Our first version of the software was quite primitive."
+        ],
+        "translations": [
+          "İletişim yöntemleri bugünün standartlarına göre ilkeldi.",
+          "İlk evlilik, ilkel bir adamın bir kadını mağarasına taşımasıyla gerçekleşti.",
+          "Eski saha ofisinin çok ilkel bir ısıtma sistemi vardı.",
+          "İlkel insanlar taşları alet olarak kullanırdı.",
+          "Yazılımın ilk sürümü oldukça ilkeldi."
+        ],
+        "explanation": "Çok basit, gelişimin erken aşamasından kalma. Hem tarih (primitive man) hem teknoloji (primitive tools) için kullanılır."
+      },
+      {
+        "id": "b2l2c02",
+        "term": "property",
+        "pronunciation": "PROP-er-tee",
+        "translation": "mülk, mal varlığı",
+        "sentences": [
+          "Be careful not to damage other people's property.",
+          "Egyptian wives shared control of all property obtained during the marriage.",
+          "This land is private property.",
+          "The company bought a property near the port.",
+          "Who is responsible for the property on the construction site?"
+        ],
+        "translations": [
+          "Başkalarının mülküne zarar vermemeye dikkat et.",
+          "Mısırlı kadınlar evlilik süresince edinilen tüm mal varlığının kontrolünü paylaşırdı.",
+          "Bu arazi özel mülktür.",
+          "Şirket limanın yakınında bir mülk satın aldı.",
+          "Şantiyedeki mallardan kim sorumlu?"
+        ],
+        "explanation": "Birine ait olan şeyler; arazi veya bina. 'private property' = özel mülk. Fizikte/mühendislikte 'özellik' anlamı da var (material properties)."
+      },
+      {
+        "id": "b2l2c03",
+        "term": "bridal veil",
+        "pronunciation": "BRY-dul VAYL",
+        "translation": "gelin duvağı",
+        "sentences": [
+          "She chose her dress easily but couldn't decide on the bridal veil.",
+          "In Ancient Greece, couples saw each other after the bridal veil was removed.",
+          "The bridal veil was made of white lace.",
+          "Her grandmother's bridal veil was over fifty years old.",
+          "The wind lifted her bridal veil during the photos."
+        ],
+        "translations": [
+          "Gelinliği kolayca seçti ama duvağa karar veremedi.",
+          "Antik Yunan'da çiftler birbirini ancak gelin duvağı kaldırılınca görürdü.",
+          "Gelin duvağı beyaz danteldendi.",
+          "Büyükannesinin gelin duvağı elli yıldan eskiydi.",
+          "Fotoğraf çekimi sırasında rüzgâr gelin duvağını kaldırdı."
+        ],
+        "explanation": "Gelinin yüzünü örten ince kumaş. bridal = gelinle ilgili (bridal dress, bridal shop)."
+      },
+      {
+        "id": "b2l2c04",
+        "term": "fountain",
+        "pronunciation": "FOWN-tin",
+        "translation": "çeşme, fıskiye",
+        "sentences": [
+          "There was a picture of the Trevi Fountain on the front cover of the book.",
+          "The girl was bathed in holy water from a sacred fountain.",
+          "Children were playing around the fountain in the square.",
+          "The fountain needs a small pump to recirculate the water.",
+          "We met in front of the old fountain."
+        ],
+        "translations": [
+          "Kitabın ön kapağında Trevi Çeşmesi'nin bir resmi vardı.",
+          "Kız kutsal bir çeşmeden alınan kutsal suyla yıkandı.",
+          "Çocuklar meydandaki fıskiyenin etrafında oynuyordu.",
+          "Fıskiyenin suyu devirdaim yapması için küçük bir pompaya ihtiyacı var.",
+          "Eski çeşmenin önünde buluştuk."
+        ],
+        "explanation": "Suyu havaya fışkırtan yapı ya da çeşme. 'drinking fountain' = içme suyu çeşmesi."
+      },
+      {
+        "id": "b2l2c05",
+        "term": "slippers",
+        "pronunciation": "SLIP-erz",
+        "translation": "terlik",
+        "sentences": [
+          "He put on his bathrobe and slippers.",
+          "Roman brides would wear white tunics and orange slippers.",
+          "Please take off your shoes and wear these slippers.",
+          "I bought new slippers for the winter.",
+          "She walked to the kitchen in her slippers."
+        ],
+        "translations": [
+          "Bornozunu ve terliklerini giydi.",
+          "Romalı gelinler beyaz tunik ve turuncu terlik giyerdi.",
+          "Lütfen ayakkabılarını çıkar ve bu terlikleri giy.",
+          "Kış için yeni terlik aldım.",
+          "Terlikleriyle mutfağa yürüdü."
+        ],
+        "explanation": "Evde giyilen yumuşak ayakkabı. Genelde çoğul: a pair of slippers."
+      },
+      {
+        "id": "b2l2c06",
+        "term": "threshold",
+        "pronunciation": "THRESH-hohld",
+        "translation": "eşik",
+        "sentences": [
+          "She stood hesitating on the threshold of the entrance to the church.",
+          "The groom carried his bride over the threshold of their new home.",
+          "The alarm activates when the pressure goes above the threshold.",
+          "Don't trip on the threshold.",
+          "We are on the threshold of a new era in engineering."
+        ],
+        "translations": [
+          "Kilisenin girişinin eşiğinde tereddütle durdu.",
+          "Damat gelini yeni evlerinin eşiğinden kucağında taşıdı.",
+          "Basınç eşik değerin üstüne çıkınca alarm devreye girer.",
+          "Eşiğe takılma.",
+          "Mühendislikte yeni bir çağın eşiğindeyiz."
+        ],
+        "explanation": "1) Kapı eşiği. 2) Sınır değer (alarm threshold). 3) Mecazi: bir şeyin başlangıcı (on the threshold of…)."
+      },
+      {
+        "id": "b2l2c07",
+        "term": "dowry",
+        "pronunciation": "DOW-ree",
+        "translation": "çeyiz, drahoma",
+        "sentences": [
+          "His family hoped that the bride would bring a large dowry.",
+          "The father of the bride used to give a dowry of land or money to the groom.",
+          "If the marriage failed, the wife and the dowry were returned to her father.",
+          "In some cultures, a dowry is still expected.",
+          "Her dowry included furniture and jewellery."
+        ],
+        "translations": [
+          "Ailesi gelinin büyük bir çeyiz getirmesini umuyordu.",
+          "Gelinin babası damada toprak ya da para olarak drahoma verirdi.",
+          "Evlilik başarısız olursa kadın ve çeyizi babasına geri gönderilirdi.",
+          "Bazı kültürlerde hâlâ çeyiz beklenir.",
+          "Çeyizinde mobilya ve mücevher vardı."
+        ],
+        "explanation": "Evlenirken gelinin ailesinin verdiği para veya mal. Türkçedeki 'çeyiz' kavramına yakın."
+      },
+      {
+        "id": "b2l2c08",
+        "term": "arranged marriage",
+        "pronunciation": "uh-RAYNJD MAR-ij",
+        "translation": "görücü usulü evlilik",
+        "sentences": [
+          "In Ancient Greece, every marriage was an arranged marriage.",
+          "My grandparents had an arranged marriage, but they were very happy.",
+          "Arranged marriages are less common in big cities today.",
+          "She refused an arranged marriage and chose her own partner.",
+          "Is an arranged marriage still common in your country?"
+        ],
+        "translations": [
+          "Antik Yunan'da her evlilik görücü usulüydü.",
+          "Büyükannemle büyükbabam görücü usulü evlenmişti ama çok mutluydular.",
+          "Görücü usulü evlilikler bugün büyük şehirlerde daha az yaygın.",
+          "Görücü usulü evliliği reddetti ve kendi eşini seçti.",
+          "Görücü usulü evlilik ülkende hâlâ yaygın mı?"
+        ],
+        "explanation": "Ailelerin ayarladığı evlilik. arrange = düzenlemek, ayarlamak. Zıttı: love marriage."
+      },
+      {
+        "id": "b2l2c09",
+        "term": "remarry",
+        "pronunciation": "ree-MAR-ee",
+        "translation": "yeniden evlenmek",
+        "sentences": [
+          "However, neither partner was allowed to remarry.",
+          "If either person died, the wife or husband was free to remarry.",
+          "He remarried two years after his divorce.",
+          "She decided never to remarry.",
+          "Many people remarry later in life."
+        ],
+        "translations": [
+          "Ancak iki tarafın da yeniden evlenmesine izin verilmiyordu.",
+          "Taraflardan biri ölürse karı ya da koca yeniden evlenmekte özgürdü.",
+          "Boşandıktan iki yıl sonra yeniden evlendi.",
+          "Bir daha asla evlenmemeye karar verdi.",
+          "Birçok insan ileriki yaşlarda yeniden evlenir."
+        ],
+        "explanation": "re- (yeniden) + marry. Geçmiş hali remarried (y → i)."
+      },
+      {
+        "id": "b2l2c10",
+        "term": "divorce",
+        "pronunciation": "dih-VORS",
+        "translation": "boşanma; boşanmak",
+        "sentences": [
+          "In Ancient Egypt, either person could easily get a divorce.",
+          "Her parents divorced when she was ten.",
+          "Divorce was not allowed in medieval Christian marriages.",
+          "They are getting a divorce after twenty years.",
+          "The divorce rate has risen in many countries."
+        ],
+        "translations": [
+          "Antik Mısır'da taraflardan biri kolayca boşanabilirdi.",
+          "Anne ve babası o on yaşındayken boşandı.",
+          "Orta Çağ Hristiyan evliliklerinde boşanmaya izin verilmezdi.",
+          "Yirmi yıl sonra boşanıyorlar.",
+          "Birçok ülkede boşanma oranı arttı."
+        ],
+        "explanation": "İsim ve fiil. Kalıplar: get a divorce, get divorced, divorce someone. 'divorce rate' = boşanma oranı."
+      },
+      {
+        "id": "b2l2c11",
+        "term": "groom",
+        "pronunciation": "GROOM",
+        "translation": "damat",
+        "sentences": [
+          "Following the ceremony, the groom carried his bride over the threshold.",
+          "The groom was so nervous that he forgot his speech.",
+          "The bride and groom danced together.",
+          "The groom's family paid for the wedding.",
+          "In Ancient Greece, the groom was usually in his mid-thirties."
+        ],
+        "translations": [
+          "Törenin ardından damat gelini eşikten kucağında taşıdı.",
+          "Damat o kadar heyecanlıydı ki konuşmasını unuttu.",
+          "Gelin ve damat birlikte dans etti.",
+          "Düğünün masraflarını damadın ailesi ödedi.",
+          "Antik Yunan'da damat genellikle otuzlarının ortasındaydı."
+        ],
+        "explanation": "Düğün günündeki erkek (bridegroom'un kısası). 'the bride and groom' = gelin ve damat."
+      },
+      {
+        "id": "b2l2c12",
+        "term": "privilege",
+        "pronunciation": "PRIV-uh-lij",
+        "translation": "ayrıcalık",
+        "sentences": [
+          "Ancient Egyptian women used to have equal rights and privileges.",
+          "It was a privilege to work with such an experienced team.",
+          "Only senior engineers have the privilege of approving drawings.",
+          "Education should be a right, not a privilege.",
+          "He lost his driving privileges after the accident."
+        ],
+        "translations": [
+          "Antik Mısırlı kadınlar eşit hak ve ayrıcalıklara sahipti.",
+          "Bu kadar deneyimli bir ekiple çalışmak bir ayrıcalıktı.",
+          "Çizimleri onaylama ayrıcalığı sadece kıdemli mühendislerde.",
+          "Eğitim bir ayrıcalık değil, bir hak olmalı.",
+          "Kazadan sonra araç kullanma hakkını kaybetti."
+        ],
+        "explanation": "Özel hak ya da avantaj. 'It's a privilege to…' = …mak bir onur/ayrıcalık."
+      },
+      {
+        "id": "b2l2c13",
+        "term": "counterpart",
+        "pronunciation": "KOWN-ter-part",
+        "translation": "muadil, karşılığı",
+        "sentences": [
+          "Egyptian women had equal rights with their male counterparts.",
+          "I'll discuss the issue with my counterpart at the client's office.",
+          "Our Turkish team met their German counterparts in Berlin.",
+          "The new pump is quieter than its older counterpart.",
+          "The minister met his French counterpart."
+        ],
+        "translations": [
+          "Mısırlı kadınlar erkek muadilleriyle eşit haklara sahipti.",
+          "Konuyu müşterinin ofisindeki muadilimle görüşeceğim.",
+          "Türk ekibimiz Alman muadilleriyle Berlin'de buluştu.",
+          "Yeni pompa, eski muadilinden daha sessiz.",
+          "Bakan, Fransız mevkidaşıyla görüştü."
+        ],
+        "explanation": "Başka bir grupta / şirkette aynı göreve sahip kişi veya şey. İş İngilizcesinde çok kullanılır: my counterpart at the vendor."
+      },
+      {
+        "id": "b2l2c14",
+        "term": "ceremony",
+        "pronunciation": "SER-uh-moh-nee",
+        "translation": "tören",
+        "sentences": [
+          "There was no legal or religious ceremony to formalize the union.",
+          "The wedding ceremony took place in a small church.",
+          "The opening ceremony of the new plant is on Monday.",
+          "How long did the ceremony last?",
+          "The graduation ceremony was very emotional."
+        ],
+        "translations": [
+          "Birlikteliği resmileştirecek yasal ya da dini bir tören yoktu.",
+          "Düğün töreni küçük bir kilisede yapıldı.",
+          "Yeni tesisin açılış töreni pazartesi.",
+          "Tören ne kadar sürdü?",
+          "Mezuniyet töreni çok duygusaldı."
+        ],
+        "explanation": "Özel bir gün için yapılan resmi etkinlik. Kalıplar: wedding ceremony, opening ceremony, hold a ceremony."
+      }
+    ]
+  },
+  {
+    "id": "L2D",
+    "code": "2D",
+    "title": "Weird is Good",
+    "date": "2026-10-16",
+    "pages": "SB 34–37, WB 11",
+    "grammar": {
+      "title": "Linking verbs · Stative vs dynamic",
+      "formula": "özne + linking verb (be, look, seem, sound, taste, feel, become, turn, remain, prove…) + sıfat",
+      "note": "Linking verb özneyi bir sıfata bağlar, eylem göstermez; sonrasında zarf değil sıfat gelir (tastes good, 'tastes well' değil). Test: yerine 'is' koy, anlam bozulmuyorsa linking. Tahta: durum fiilleri (know, want, own, belong, believe…) continuous olmaz; see/think/have/taste'in hem durum hem eylem anlamı var: I think you're right / I'm thinking about it.",
+      "examples": [
+        "After the snowstorm, the roads were slippery.",
+        "The crowd stayed calm in spite of the threat.",
+        "I see your point. / I'm seeing a doctor today."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l2d01",
+        "term": "extraordinary",
+        "pronunciation": "ik-STROR-dn-air-ee",
+        "translation": "olağanüstü",
+        "sentences": [
+          "Most innovative ideas were put forward by people who are extraordinary.",
+          "She has an extraordinary memory for numbers.",
+          "The bridge is an extraordinary piece of engineering.",
+          "It was an extraordinary experience to visit the site by helicopter.",
+          "Nothing extraordinary happened during the shift."
+        ],
+        "translations": [
+          "Yenilikçi fikirlerin çoğu olağanüstü insanlar tarafından ortaya atıldı.",
+          "Sayılar konusunda olağanüstü bir hafızası var.",
+          "Köprü olağanüstü bir mühendislik eseri.",
+          "Sahayı helikopterle ziyaret etmek olağanüstü bir deneyimdi.",
+          "Vardiya sırasında olağan dışı bir şey olmadı."
+        ],
+        "explanation": "Çok sıra dışı ya da çok özel. extra + ordinary = sıradanın ötesinde. UNUSUAL grubunda."
+      },
+      {
+        "id": "b2l2d02",
+        "term": "bizarre",
+        "pronunciation": "bih-ZAR",
+        "translation": "tuhaf, acayip",
+        "sentences": [
+          "She saw something bizarre in the photo.",
+          "It's bizarre that the alarm went off at exactly midnight.",
+          "He has some bizarre habits.",
+          "The vendor sent a bizarre reply to our email.",
+          "The story sounds bizarre, but it is true."
+        ],
+        "translations": [
+          "Fotoğrafta tuhaf bir şey gördü.",
+          "Alarmın tam gece yarısı çalması acayip.",
+          "Bazı tuhaf alışkanlıkları var.",
+          "Tedarikçi e-postamıza tuhaf bir cevap gönderdi.",
+          "Hikâye acayip geliyor ama doğru."
+        ],
+        "explanation": "Çok tuhaf, akıl almaz; 'weird' ve 'strange'den daha güçlü. Yazımı: bizarre (iki r)."
+      },
+      {
+        "id": "b2l2d03",
+        "term": "unparalleled",
+        "pronunciation": "un-PAR-uh-leld",
+        "translation": "eşsiz, benzersiz",
+        "sentences": [
+          "The view from the top of the tower is unparalleled.",
+          "The company has unparalleled experience in fire protection.",
+          "It was a period of unparalleled growth.",
+          "Shakespeare's influence on English is unparalleled.",
+          "This software offers unparalleled accuracy."
+        ],
+        "translations": [
+          "Kulenin tepesinden manzara eşsiz.",
+          "Şirketin yangın korumada eşi benzeri olmayan bir deneyimi var.",
+          "Eşi görülmemiş bir büyüme dönemiydi.",
+          "Shakespeare'in İngilizce üzerindeki etkisi eşsizdir.",
+          "Bu yazılım eşsiz bir doğruluk sunuyor."
+        ],
+        "explanation": "Hiçbir şeyle kıyaslanamayacak kadar iyi/büyük. un- + parallel (benzeri). Resmi."
+      },
+      {
+        "id": "b2l2d04",
+        "term": "phenomenal",
+        "pronunciation": "fih-NOM-ih-nul",
+        "translation": "olağanüstü, fenomenal",
+        "sentences": [
+          "Her progress this year has been phenomenal.",
+          "The new plant had a phenomenal first year.",
+          "The band gave a phenomenal performance.",
+          "Prices have risen at a phenomenal rate.",
+          "He has a phenomenal talent for languages."
+        ],
+        "translations": [
+          "Bu yılki ilerlemesi olağanüstü oldu.",
+          "Yeni tesisin ilk yılı olağanüstüydü.",
+          "Grup olağanüstü bir performans sergiledi.",
+          "Fiyatlar olağanüstü bir hızla arttı.",
+          "Dillere karşı olağanüstü bir yeteneği var."
+        ],
+        "explanation": "Son derece iyi ya da büyük. Gayriresmi konuşmada 'amazing' anlamında."
+      },
+      {
+        "id": "b2l2d05",
+        "term": "outstanding",
+        "pronunciation": "owt-STAN-ding",
+        "translation": "üstün, mükemmel",
+        "sentences": [
+          "He did an outstanding job on the report.",
+          "She is an outstanding engineer.",
+          "The team's performance was outstanding.",
+          "We still have two outstanding invoices.",
+          "This is an outstanding example of modern design."
+        ],
+        "translations": [
+          "Raporda mükemmel bir iş çıkardı.",
+          "O üstün bir mühendis.",
+          "Ekibin performansı mükemmeldi.",
+          "Hâlâ ödenmemiş iki faturamız var.",
+          "Bu, modern tasarımın mükemmel bir örneği."
+        ],
+        "explanation": "1) Diğerlerinden açıkça daha iyi. 2) İş dilinde: henüz yapılmamış/ödenmemiş (outstanding issues, outstanding invoices)."
+      },
+      {
+        "id": "b2l2d06",
+        "term": "exceptional",
+        "pronunciation": "ik-SEP-shuh-nul",
+        "translation": "istisnai, olağanüstü",
+        "sentences": [
+          "This is an exceptional case, so we need the manager's approval.",
+          "She showed exceptional skill during the commissioning.",
+          "In exceptional circumstances, the deadline can be extended.",
+          "The weather this autumn has been exceptional.",
+          "He is an exceptional student."
+        ],
+        "translations": [
+          "Bu istisnai bir durum, o yüzden müdürün onayı gerekiyor.",
+          "Devreye alma sırasında olağanüstü bir beceri gösterdi.",
+          "İstisnai durumlarda teslim tarihi uzatılabilir.",
+          "Bu sonbaharda hava olağandışıydı.",
+          "O olağanüstü bir öğrenci."
+        ],
+        "explanation": "1) Olağandan çok daha iyi. 2) İstisna olan, alışılmamış. İsim: exception."
+      },
+      {
+        "id": "b2l2d07",
+        "term": "noteworthy",
+        "pronunciation": "NOHT-wur-thee",
+        "translation": "kayda değer",
+        "sentences": [
+          "Nothing noteworthy happened during the test.",
+          "It is noteworthy that the leak started after the repair.",
+          "The report lists all noteworthy events.",
+          "Her achievement is especially noteworthy.",
+          "Is there anything noteworthy in the inspection results?"
+        ],
+        "translations": [
+          "Test sırasında kayda değer bir şey olmadı.",
+          "Sızıntının tamirden sonra başlaması dikkat çekici.",
+          "Rapor kayda değer tüm olayları listeliyor.",
+          "Başarısı özellikle kayda değer.",
+          "Muayene sonuçlarında kayda değer bir şey var mı?"
+        ],
+        "explanation": "Dikkat etmeye değer, önemli. note + worthy (değer). Rapor dilinde: It is noteworthy that…"
+      },
+      {
+        "id": "b2l2d08",
+        "term": "unique",
+        "pronunciation": "yoo-NEEK",
+        "translation": "benzersiz, eşsiz",
+        "sentences": [
+          "Every project is unique.",
+          "Each valve has a unique tag number.",
+          "She has a unique way of explaining things.",
+          "This building is unique in the city.",
+          "We had a unique opportunity to visit the factory."
+        ],
+        "translations": [
+          "Her proje benzersizdir.",
+          "Her vananın kendine özgü bir etiket numarası var.",
+          "Bir şeyleri açıklamanın kendine özgü bir yolu var.",
+          "Bu bina şehirde eşsiz.",
+          "Fabrikayı ziyaret etmek için eşsiz bir fırsatımız oldu."
+        ],
+        "explanation": "Türünün tek örneği. 'very unique' denmez (zaten tek). Başına 'a' gelir: a unique (yu sesiyle başladığı için 'an' değil)."
+      },
+      {
+        "id": "b2l2d09",
+        "term": "out of the box",
+        "pronunciation": "owt uv thuh BOKS",
+        "translation": "kalıpların dışında (düşünce)",
+        "sentences": [
+          "We need some out of the box ideas to cut the cost.",
+          "Weird people often think out of the box.",
+          "Her solution was really out of the box.",
+          "Try to think out of the box in this task.",
+          "The company rewards out of the box thinking."
+        ],
+        "translations": [
+          "Maliyeti düşürmek için kalıp dışı fikirlere ihtiyacımız var.",
+          "Tuhaf insanlar çoğu zaman kalıpların dışında düşünür.",
+          "Çözümü gerçekten alışılmışın dışındaydı.",
+          "Bu görevde kalıpların dışında düşünmeye çalış.",
+          "Şirket kalıp dışı düşünmeyi ödüllendiriyor."
+        ],
+        "explanation": "Yaratıcı, alışılmamış. 'think out of the box' (AmE: outside the box) = farklı düşünmek."
+      },
+      {
+        "id": "b2l2d10",
+        "term": "conventional",
+        "pronunciation": "kun-VEN-shuh-nul",
+        "translation": "geleneksel, alışılmış",
+        "sentences": [
+          "He chose a conventional design for the pipe rack.",
+          "Conventional methods are slower but safer.",
+          "She doesn't like conventional jobs.",
+          "Electric cars are replacing conventional cars.",
+          "His ideas were not very conventional."
+        ],
+        "translations": [
+          "Boru köprüsü için geleneksel bir tasarım seçti.",
+          "Geleneksel yöntemler daha yavaş ama daha güvenli.",
+          "Alışılmış işlerden hoşlanmıyor.",
+          "Elektrikli arabalar geleneksel arabaların yerini alıyor.",
+          "Fikirleri pek alışılmış değildi."
+        ],
+        "explanation": "Toplumca kabul görmüş, geleneksel. USUAL grubunda. Zıt: unconventional."
+      },
+      {
+        "id": "b2l2d11",
+        "term": "customary",
+        "pronunciation": "KUS-tuh-mair-ee",
+        "translation": "âdet olan, alışılmış",
+        "sentences": [
+          "It is customary to shake hands at the start of a meeting.",
+          "In Turkey, it is customary to take off your shoes at home.",
+          "She arrived with her customary smile.",
+          "It's customary to give a small gift to the host.",
+          "Is it customary to tip in restaurants here?"
+        ],
+        "translations": [
+          "Toplantının başında el sıkışmak âdettir.",
+          "Türkiye'de evde ayakkabı çıkarmak âdettir.",
+          "Her zamanki gülümsemesiyle geldi.",
+          "Ev sahibine küçük bir hediye vermek âdettir.",
+          "Burada restoranlarda bahşiş vermek âdet mi?"
+        ],
+        "explanation": "Bir gelenek/âdet olduğu için yapılan. Kalıp: It is customary to + V1. İsim: custom (âdet)."
+      },
+      {
+        "id": "b2l2d12",
+        "term": "habitual",
+        "pronunciation": "huh-BICH-oo-ul",
+        "translation": "alışkanlık haline gelmiş",
+        "sentences": [
+          "He is a habitual late-comer.",
+          "Habitual smoking can lead to serious illness.",
+          "She checked the gauges with her habitual care.",
+          "Making lists became a habitual activity for him.",
+          "Habitual mistakes are hard to correct."
+        ],
+        "translations": [
+          "O, geç kalmayı alışkanlık haline getirmiş biri.",
+          "Alışkanlık haline gelmiş sigara içmek ciddi hastalıklara yol açabilir.",
+          "Göstergeleri her zamanki özeniyle kontrol etti.",
+          "Liste yapmak onun için alışkanlık haline geldi.",
+          "Alışkanlık olmuş hataları düzeltmek zordur."
+        ],
+        "explanation": "Alışkanlıkla, düzenli yapılan. İsim: habit. USUAL grubunda."
+      },
+      {
+        "id": "b2l2d13",
+        "term": "mainstream",
+        "pronunciation": "MAYN-streem",
+        "translation": "ana akım",
+        "sentences": [
+          "Electric cars are becoming mainstream.",
+          "His music is not mainstream, but it has many fans.",
+          "Working from home is now part of mainstream business.",
+          "Mainstream media did not report the story.",
+          "Ideas that were weird ten years ago are mainstream today."
+        ],
+        "translations": [
+          "Elektrikli arabalar ana akım haline geliyor.",
+          "Müziği ana akım değil ama çok hayranı var.",
+          "Evden çalışmak artık ana akım iş dünyasının bir parçası.",
+          "Ana akım medya bu haberi vermedi.",
+          "On yıl önce tuhaf olan fikirler bugün ana akım."
+        ],
+        "explanation": "Çoğunluğun kabul ettiği, normal sayılan. Zıt: alternative, underground."
+      },
+      {
+        "id": "b2l2d14",
+        "term": "routine",
+        "pronunciation": "roo-TEEN",
+        "translation": "rutin",
+        "sentences": [
+          "A routine inspection found the leak.",
+          "My morning routine starts with a coffee and emails.",
+          "It was just a routine check.",
+          "He hates routine and likes new challenges.",
+          "Fire drills should be part of the routine."
+        ],
+        "translations": [
+          "Rutin bir muayene sızıntıyı buldu.",
+          "Sabah rutinim bir kahve ve e-postalarla başlar.",
+          "Sadece rutin bir kontroldü.",
+          "Rutinden nefret ediyor, yeni zorlukları seviyor.",
+          "Yangın tatbikatları rutinin bir parçası olmalı."
+        ],
+        "explanation": "İsim: her zamanki düzen. Sıfat: olağan, rutin (routine maintenance). USUAL grubunda."
+      },
+      {
+        "id": "b2l2d15",
+        "term": "familiar",
+        "pronunciation": "fuh-MIL-yer",
+        "translation": "tanıdık, bildik",
+        "sentences": [
+          "This drawing looks familiar.",
+          "Are you familiar with NFPA 13?",
+          "Her face seemed familiar to me.",
+          "It was nice to see some familiar faces at the meeting.",
+          "I'm not familiar with this software yet."
+        ],
+        "translations": [
+          "Bu çizim tanıdık görünüyor.",
+          "NFPA 13'ü biliyor musun?",
+          "Yüzü bana tanıdık geldi.",
+          "Toplantıda tanıdık yüzler görmek güzeldi.",
+          "Bu yazılımı henüz tanımıyorum."
+        ],
+        "explanation": "Tanıdık. Kalıplar: look/seem familiar (linking verb!), be familiar with + şey = …i bilmek."
+      },
+      {
+        "id": "b2l2d16",
+        "term": "fit in",
+        "pronunciation": "FIT IN",
+        "translation": "uyum sağlamak, ait olmak",
+        "sentences": [
+          "From the time we're born, we're taught to fit in.",
+          "The new engineer fitted in with the team very quickly.",
+          "I never felt that I fit in at that school.",
+          "Weird people don't try to fit in.",
+          "It can be hard to fit in when you move to a new city."
+        ],
+        "translations": [
+          "Doğduğumuz andan itibaren uyum sağlamamız öğretilir.",
+          "Yeni mühendis ekibe çok çabuk uyum sağladı.",
+          "O okula ait olduğumu hiç hissetmedim.",
+          "Tuhaf insanlar uyum sağlamaya çalışmaz.",
+          "Yeni bir şehre taşınınca uyum sağlamak zor olabilir."
+        ],
+        "explanation": "Bir gruba uymak, kabul görmek. Kalıp: fit in with + grup. Okumanın ana fikri: toplum herkesten 'fit in' etmesini bekler."
+      },
+      {
+        "id": "b2l2d17",
+        "term": "stifle",
+        "pronunciation": "STY-ful",
+        "translation": "bastırmak, engellemek",
+        "sentences": [
+          "Weird people refused to stifle their creative talents.",
+          "Too many rules can stifle new ideas.",
+          "She stifled a yawn during the long meeting.",
+          "Don't stifle your team's creativity.",
+          "The heavy bureaucracy stifled innovation."
+        ],
+        "translations": [
+          "Tuhaf insanlar yaratıcı yeteneklerini bastırmayı reddetti.",
+          "Çok fazla kural yeni fikirleri boğabilir.",
+          "Uzun toplantıda esnemesini bastırdı.",
+          "Ekibinin yaratıcılığını bastırma.",
+          "Ağır bürokrasi yeniliği engelledi."
+        ],
+        "explanation": "Bir şeyin gelişmesini/çıkmasını engellemek, bastırmak. stifle creativity / ideas / a yawn."
+      },
+      {
+        "id": "b2l2d18",
+        "term": "diversity",
+        "pronunciation": "dy-VUR-sih-tee",
+        "translation": "çeşitlilik",
+        "sentences": [
+          "We'll lose the diversity that allows new, radical ideas to emerge.",
+          "People are being encouraged to celebrate the diversity of their communities.",
+          "Our team's diversity is our strength.",
+          "Diversity means having many different forms, types and ideas.",
+          "The region has a great diversity of plants."
+        ],
+        "translations": [
+          "Yeni ve radikal fikirlerin ortaya çıkmasını sağlayan çeşitliliği kaybederiz.",
+          "İnsanlar topluluklarının çeşitliliğini kutlamaya teşvik ediliyor.",
+          "Ekibimizin çeşitliliği bizim gücümüz.",
+          "Çeşitlilik, birçok farklı biçim, tür ve fikre sahip olmak demektir.",
+          "Bölgede büyük bir bitki çeşitliliği var."
+        ],
+        "explanation": "Pek çok farklı türü barındırma. Sıfat: diverse. Okumadaki soru: 'Diversity means…' → many different forms."
+      },
+      {
+        "id": "b2l2d19",
+        "term": "reward",
+        "pronunciation": "rih-WORD",
+        "translation": "ödüllendirmek; ödül",
+        "sentences": [
+          "Those who succeed are rewarded with good grades and good jobs.",
+          "We must make sure that effort is properly rewarded.",
+          "The company rewarded the team with a bonus.",
+          "The reward for finding the lost dog was 500 lira.",
+          "Hard work is usually rewarded in the end."
+        ],
+        "translations": [
+          "Başarılı olanlar iyi notlar ve iyi işlerle ödüllendirilir.",
+          "Emeğin hak ettiği şekilde ödüllendirildiğinden emin olmalıyız.",
+          "Şirket ekibi bir primle ödüllendirdi.",
+          "Kayıp köpeği bulmanın ödülü 500 liraydı.",
+          "Çok çalışmak sonunda genelde ödüllendirilir."
+        ],
+        "explanation": "Fiil: ödüllendirmek (reward someone with something). İsim: ödül. Sıfat: rewarding = tatmin edici (a rewarding job)."
+      },
+      {
+        "id": "b2l2d20",
+        "term": "eventually",
+        "pronunciation": "ih-VEN-choo-uh-lee",
+        "translation": "sonunda, nihayetinde",
+        "sentences": [
+          "Smoking can result in cell damage and eventually lead to cancer.",
+          "Those who succeed eventually get good jobs.",
+          "The vendor eventually sent the right gaskets.",
+          "We eventually found the cause of the vibration.",
+          "Don't worry, you'll eventually get used to it."
+        ],
+        "translations": [
+          "Sigara hücre hasarına ve sonunda kansere yol açabilir.",
+          "Başarılı olanlar sonunda iyi işler bulur.",
+          "Tedarikçi sonunda doğru contaları gönderdi.",
+          "Sonunda titreşimin nedenini bulduk.",
+          "Merak etme, sonunda alışacaksın."
+        ],
+        "explanation": "Uzun bir süreden sonra, en sonunda. DİKKAT: Türkçedeki 'eventüel/muhtemelen' anlamına gelmez (false friend)."
+      },
+      {
+        "id": "b2l2d21",
+        "term": "exist",
+        "pronunciation": "ig-ZIST",
+        "translation": "var olmak, mevcut olmak",
+        "sentences": [
+          "Adequate facilities already exist to serve the needs of people visiting the town.",
+          "They've learned how to appropriately exist in the world.",
+          "Does a drawing for this line exist?",
+          "No written records exist to explain how Stonehenge was built.",
+          "This problem has existed for years."
+        ],
+        "translations": [
+          "Kasabayı ziyaret edenlerin ihtiyaçlarını karşılayacak yeterli tesisler zaten var.",
+          "Dünyada 'uygun şekilde' var olmayı öğrendiler.",
+          "Bu hat için bir çizim var mı?",
+          "Stonehenge'in nasıl yapıldığını açıklayan yazılı kayıt yok.",
+          "Bu sorun yıllardır var."
+        ],
+        "explanation": "Var olmak. Durum fiilidir (stative) → continuous olmaz: 'is existing' denmez. İsim: existence; sıfat: existing (mevcut)."
+      },
+      {
+        "id": "b2l2d22",
+        "term": "refuse",
+        "pronunciation": "rih-FYOOZ",
+        "translation": "reddetmek",
+        "sentences": [
+          "The most successful people are the ones who refused to just be normal.",
+          "She refused to accept that there was a problem.",
+          "The client refused our offer.",
+          "He refused to sign the document.",
+          "I refuse to work without proper PPE."
+        ],
+        "translations": [
+          "En başarılı insanlar sadece normal olmayı reddedenlerdir.",
+          "Bir sorun olduğunu kabul etmeyi reddetti.",
+          "Müşteri teklifimizi reddetti.",
+          "Belgeyi imzalamayı reddetti.",
+          "Uygun KKD olmadan çalışmayı reddediyorum."
+        ],
+        "explanation": "Kalıp: refuse to + V1 / refuse + isim. İsim: refusal. (İsim olarak 'REF-yoos' = çöp; farklı okunuş.)"
+      },
+      {
+        "id": "b2l2d23",
+        "term": "revolution",
+        "pronunciation": "rev-uh-LOO-shun",
+        "translation": "devrim",
+        "sentences": [
+          "Some Marxists still believe that socialism will triumph through world revolution.",
+          "The internet started a revolution in communication.",
+          "The Industrial Revolution changed how people worked.",
+          "AI is causing a revolution in engineering design.",
+          "The motor runs at 1,500 revolutions per minute."
+        ],
+        "translations": [
+          "Bazı Marksistler hâlâ sosyalizmin dünya devrimiyle zafer kazanacağına inanıyor.",
+          "İnternet iletişimde bir devrim başlattı.",
+          "Sanayi Devrimi insanların çalışma biçimini değiştirdi.",
+          "Yapay zekâ mühendislik tasarımında bir devrime yol açıyor.",
+          "Motor dakikada 1.500 devirle dönüyor."
+        ],
+        "explanation": "1) Devrim, köklü değişim. 2) Teknik: devir (revolutions per minute = rpm). Fiil: revolutionize."
+      }
+    ]
+  },
+  {
+    "id": "L3A",
+    "code": "3A",
+    "title": "Mysteries",
+    "date": "2026-10-17",
+    "pages": "SB 38–41, WB 16",
+    "grammar": {
+      "title": "Past simple vs past continuous",
+      "formula": "was/were + V-ing (devam eden arka plan) · V2 (kısa, bitmiş eylem)",
+      "note": "Uzun eylem past continuous, araya giren kısa eylem past simple: I was studying when the phone rang. while + uzun eylem, when + kısa eylem. Aynı anda iki uzun eylem: While the children were sleeping, their parents were watching TV. Art arda olaylar hep past simple. Durum fiilleri continuous olmaz: I knew (was knowing değil). Phrasal verb = fiil + parçacık; parçacık anlamı tamamen değiştirebilir (look up to = saygı duymak).",
+      "examples": [
+        "While I was studying, I suddenly felt sleepy.",
+        "I broke my leg when I was skiing.",
+        "We were testing the pump when a gasket failed."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l3a01",
+        "term": "knock around",
+        "pronunciation": "NOK uh-ROWND",
+        "translation": "takılmak, gezinmek, vakit geçirmek",
+        "sentences": [
+          "The parents wanted to knock around together for a night in the town.",
+          "We knocked around the old town for an hour after work.",
+          "I don't know why he knocks around with James; they've got nothing in common.",
+          "On holiday, we just knocked around on the beach.",
+          "He likes to knock around with his friends at the weekend."
+        ],
+        "translations": [
+          "Anne ve baba bir gece şehirde birlikte takılmak istedi.",
+          "İşten sonra bir saat eski şehirde gezindik.",
+          "James'le neden takıldığını bilmiyorum; hiç ortak noktaları yok.",
+          "Tatilde sadece plajda vakit geçirdik.",
+          "Hafta sonu arkadaşlarıyla takılmayı sever."
+        ],
+        "explanation": "Gayriresmi: amaçsızca vakit geçirmek, biriyle takılmak. 'knock around with someone' = biriyle takılmak."
+      },
+      {
+        "id": "b2l3a02",
+        "term": "cover up",
+        "pronunciation": "KUV-er UP",
+        "translation": "örtmek; örtbas etmek",
+        "sentences": [
+          "She asked if she could cover up the angel statue with a blanket.",
+          "The police covered up the body with a sheet.",
+          "The contractor tried to cover up the bad weld, but the X-ray showed it.",
+          "Don't cover up your mistakes; report them.",
+          "The company covered up the accident for months."
+        ],
+        "translations": [
+          "Melek heykelini bir battaniyeyle örtüp örtemeyeceğini sordu.",
+          "Polis cesedi bir çarşafla örttü.",
+          "Yüklenici kötü kaynağı örtbas etmeye çalıştı ama röntgen gösterdi.",
+          "Hatalarını örtbas etme; raporla.",
+          "Şirket kazayı aylarca örtbas etti."
+        ],
+        "explanation": "1) Üzerini örtmek. 2) Bir hatayı/suçu gizlemek (örtbas). İsim: a cover-up."
+      },
+      {
+        "id": "b2l3a03",
+        "term": "get out",
+        "pronunciation": "get OWT",
+        "translation": "(hızla) çıkmak, kaçmak",
+        "sentences": [
+          "Take the children and get out of the house! We'll call the police.",
+          "Because of the fire, everyone in the building got out immediately.",
+          "They ran to the fire exit in a desperate attempt to get out.",
+          "When the alarm went off, the workers got out in two minutes.",
+          "I need to get out of the office for some fresh air."
+        ],
+        "translations": [
+          "Çocukları al ve evden çık! Polisi arayacağız.",
+          "Yangın yüzünden binadaki herkes hemen dışarı çıktı.",
+          "Çıkmak için çaresizce yangın çıkışına koştular.",
+          "Alarm çalınca işçiler iki dakikada dışarı çıktı.",
+          "Biraz temiz hava için ofisten çıkmam lazım."
+        ],
+        "explanation": "Bir yerden (hızla) çıkmak. get – got – got. Kalıp: get out of + yer."
+      },
+      {
+        "id": "b2l3a04",
+        "term": "hang out",
+        "pronunciation": "hang OWT",
+        "translation": "takılmak, vakit geçirmek",
+        "sentences": [
+          "Her son asked if he could hang out in his room with her new phone.",
+          "My colleagues invited me for lunch and after that, we hung out a little bit.",
+          "On Sundays I usually hang out with my friends at a café.",
+          "Teenagers like to hang out at the shopping mall.",
+          "Where do you usually hang out after work?"
+        ],
+        "translations": [
+          "Oğlu yeni telefonuyla odasında takılıp takılamayacağını sordu.",
+          "İş arkadaşlarım beni öğle yemeğine davet etti, sonra biraz takıldık.",
+          "Pazar günleri genellikle arkadaşlarımla bir kafede takılırım.",
+          "Gençler alışveriş merkezinde takılmayı sever.",
+          "İşten sonra genelde nerede takılırsın?"
+        ],
+        "explanation": "Gayriresmi: boş vakit geçirmek. hang – hung – hung (hang out → hung out)."
+      },
+      {
+        "id": "b2l3a05",
+        "term": "tuck someone in",
+        "pronunciation": "TUK SUM-wun IN",
+        "translation": "(çocuğu) yatırıp üstünü örtmek",
+        "sentences": [
+          "At around 11:20, she was drowsy, so she decided to tuck her son in and go to bed.",
+          "Daddy, if I go to bed now, will you tuck me in?",
+          "Her son was exhausted, so she tucked him in early.",
+          "She read a story and tucked the children in.",
+          "My father used to tuck me in every night."
+        ],
+        "translations": [
+          "Saat 11:20 civarında uykusu gelmişti, oğlunu yatırıp kendisi de yatmaya karar verdi.",
+          "Babacığım, şimdi yatarsam üstümü örter misin?",
+          "Oğlu çok yorgundu, bu yüzden onu erkenden yatırıp üstünü örttü.",
+          "Bir hikâye okudu ve çocukları yatırıp üstlerini örttü.",
+          "Babam her gece üstümü örterdi."
+        ],
+        "explanation": "Çocuğu yatağına yatırıp battaniyesini düzeltmek. Nesne ortada: tuck her son in / tuck me in."
+      },
+      {
+        "id": "b2l3a06",
+        "term": "look for",
+        "pronunciation": "LOOK for",
+        "translation": "aramak",
+        "sentences": [
+          "He is looking for his glasses.",
+          "I have been looking for my cellphone all morning.",
+          "She looked for the guy but couldn't find him.",
+          "We are looking for an experienced piping engineer.",
+          "What are you looking for?"
+        ],
+        "translations": [
+          "Gözlüğünü arıyor.",
+          "Bütün sabah cep telefonumu arıyorum.",
+          "Adamı aradı ama bulamadı.",
+          "Deneyimli bir boru mühendisi arıyoruz.",
+          "Ne arıyorsun?"
+        ],
+        "explanation": "Bir şeyi bulmaya çalışmak. 'find' = bulmak (sonuç), 'look for' = aramak (süreç)."
+      },
+      {
+        "id": "b2l3a07",
+        "term": "look up to",
+        "pronunciation": "look UP too",
+        "translation": "saygı duymak, örnek almak",
+        "sentences": [
+          "Everyone on the island looks up to my uncle.",
+          "Hank has always looked up to his Uncle Peter. He treats him like a hero.",
+          "I have always looked up to my first site manager.",
+          "Children often look up to their older brothers.",
+          "Who did you look up to when you were young?"
+        ],
+        "translations": [
+          "Adadaki herkes amcama saygı duyar.",
+          "Hank, Peter amcasını hep örnek almıştır. Ona bir kahraman gibi davranır.",
+          "İlk saha müdürüme hep saygı duymuşumdur.",
+          "Çocuklar çoğu zaman ağabeylerini örnek alır.",
+          "Gençken kimi örnek alırdın?"
+        ],
+        "explanation": "Birine hayranlık ve saygı duymak. Zıttı: look down on (küçük görmek)."
+      },
+      {
+        "id": "b2l3a08",
+        "term": "look forward to",
+        "pronunciation": "look FOR-werd too",
+        "translation": "dört gözle beklemek",
+        "sentences": [
+          "He is looking forward to visiting Rome.",
+          "Children often look forward to Christmas from November onwards.",
+          "I'm really looking forward to the weekend.",
+          "We look forward to hearing from you.",
+          "I can't wait for summer! I'm looking forward to my holiday."
+        ],
+        "translations": [
+          "Roma'yı ziyaret etmeyi dört gözle bekliyor.",
+          "Çocuklar kasımdan itibaren Noel'i dört gözle bekler.",
+          "Hafta sonunu gerçekten dört gözle bekliyorum.",
+          "Sizden haber almayı bekliyoruz.",
+          "Yazı bekleyemiyorum! Tatilimi dört gözle bekliyorum."
+        ],
+        "explanation": "Bir şeyi sevinçle beklemek. DİKKAT: 'to' edattır → to + V-ing (look forward to seeing, 'to see' değil). E-posta kapanışı: We look forward to hearing from you."
+      },
+      {
+        "id": "b2l3a09",
+        "term": "look up",
+        "pronunciation": "look UP",
+        "translation": "(sözlükte, internette) bakmak",
+        "sentences": [
+          "If I read an English book, I have to look up too many words in the dictionary.",
+          "Look up the word in the dictionary if you don't understand it.",
+          "I looked up the pipe schedule in the standard.",
+          "Can you look up the train times for me?",
+          "She looked up his number online."
+        ],
+        "translations": [
+          "İngilizce bir kitap okursam sözlükte çok fazla kelimeye bakmam gerekiyor.",
+          "Anlamazsan kelimeye sözlükten bak.",
+          "Boru et kalınlığı sınıfına standarttan baktım.",
+          "Benim için tren saatlerine bakabilir misin?",
+          "Numarasını internetten buldu."
+        ],
+        "explanation": "Kitapta ya da bilgisayarda bilgi aramak. Zamirle ayrılır: look it up. Gökyüzüne bakmak anlamı da var (look up at the sky)."
+      },
+      {
+        "id": "b2l3a10",
+        "term": "look after",
+        "pronunciation": "look AF-ter",
+        "translation": "bakmak, ilgilenmek",
+        "sentences": [
+          "Can you look after my pet goldfish for a few days while I am away on holiday?",
+          "My mother looks after my children on Fridays.",
+          "Who will look after the site while you are on leave?",
+          "You should look after your health.",
+          "She looked after her grandmother for years."
+        ],
+        "translations": [
+          "Ben tatildeyken birkaç gün japon balığıma bakabilir misin?",
+          "Annem cuma günleri çocuklarıma bakıyor.",
+          "Sen izindeyken sahayla kim ilgilenecek?",
+          "Sağlığına dikkat etmelisin.",
+          "Yıllarca büyükannesine baktı."
+        ],
+        "explanation": "Birine/bir şeye bakmak, sorumluluğunu almak (take care of)."
+      },
+      {
+        "id": "b2l3a11",
+        "term": "look into",
+        "pronunciation": "look IN-too",
+        "translation": "araştırmak, incelemek",
+        "sentences": [
+          "Police are looking into reports of a strange flying object last night.",
+          "The safety team is looking into the cause of the leak.",
+          "I'll look into the problem and call you back.",
+          "The manager promised to look into our complaint.",
+          "We need to look into other suppliers."
+        ],
+        "translations": [
+          "Polis dün geceki tuhaf uçan cisim ihbarlarını araştırıyor.",
+          "Güvenlik ekibi sızıntının nedenini inceliyor.",
+          "Sorunu araştırıp seni geri arayacağım.",
+          "Müdür şikâyetimizi inceleyeceğine söz verdi.",
+          "Başka tedarikçileri araştırmamız gerek."
+        ],
+        "explanation": "Bir konuyu/olayı incelemek, soruşturmak. İş dilinde çok kullanılır: I'll look into it."
+      },
+      {
+        "id": "b2l3a12",
+        "term": "look over",
+        "pronunciation": "look OH-ver",
+        "translation": "göz gezdirmek, hızlıca kontrol etmek",
+        "sentences": [
+          "My teacher looked over my composition quickly before I gave it in.",
+          "Could you look over my isometrics before I send them?",
+          "The client looked over the report and approved it.",
+          "Please look over the contract carefully.",
+          "I looked over the drawings on the train."
+        ],
+        "translations": [
+          "Öğretmenim kompozisyonumu teslim etmeden önce hızlıca gözden geçirdi.",
+          "İzometriklerimi göndermeden önce göz atabilir misin?",
+          "Müşteri rapora göz gezdirdi ve onayladı.",
+          "Lütfen sözleşmeyi dikkatlice gözden geçir.",
+          "Trende çizimlere göz attım."
+        ],
+        "explanation": "Hızlıca kontrol etmek, gözden geçirmek. Benzeri: check, go through."
+      },
+      {
+        "id": "b2l3a13",
+        "term": "look on",
+        "pronunciation": "look ON",
+        "translation": "seyirci kalmak",
+        "sentences": [
+          "The teacher was sacked because he had looked on while two students were fighting.",
+          "A crowd looked on as the firefighters put out the fire.",
+          "We can't just look on while people are in danger.",
+          "His parents looked on proudly at the ceremony.",
+          "She looked on in silence."
+        ],
+        "translations": [
+          "Öğretmen, iki öğrenci kavga ederken seyirci kaldığı için kovuldu.",
+          "İtfaiyeciler yangını söndürürken bir kalabalık izledi.",
+          "İnsanlar tehlikedeyken öylece seyirci kalamayız.",
+          "Ailesi törende gururla izledi.",
+          "Sessizce izledi."
+        ],
+        "explanation": "Bir olayı katılmadan izlemek; çoğu zaman 'müdahale etmeden seyretmek' olumsuz anlamında."
+      },
+      {
+        "id": "b2l3a14",
+        "term": "bump up",
+        "pronunciation": "bump UP",
+        "translation": "artırmak",
+        "sentences": [
+          "She's doing extra teaching to bump up her income.",
+          "Paul started private tutoring after school to bump up his monthly income.",
+          "The vendor bumped up the price by 10%.",
+          "Rising steel prices bumped up the project cost.",
+          "They bumped up my salary after the review."
+        ],
+        "translations": [
+          "Gelirini artırmak için ek ders veriyor.",
+          "Paul aylık gelirini artırmak için okuldan sonra özel ders vermeye başladı.",
+          "Tedarikçi fiyatı %10 artırdı.",
+          "Artan çelik fiyatları proje maliyetini yükseltti.",
+          "Değerlendirmeden sonra maaşımı artırdılar."
+        ],
+        "explanation": "Gayriresmi: (fiyat, gelir, sayı) artırmak. 'up' = artış (SB s.39 parçacık tablosu)."
+      },
+      {
+        "id": "b2l3a15",
+        "term": "scale down",
+        "pronunciation": "skayl DOWN",
+        "translation": "küçültmek, azaltmak",
+        "sentences": [
+          "The search operation has been scaled down.",
+          "Due to budget cuts, the school had to scale down the number of trips.",
+          "The client scaled down the fire water network to reduce cost.",
+          "We had to scale down the project after the crisis.",
+          "They scaled down production in winter."
+        ],
+        "translations": [
+          "Arama operasyonu küçültüldü.",
+          "Bütçe kesintileri yüzünden okul gezi sayısını azaltmak zorunda kaldı.",
+          "Müşteri maliyeti düşürmek için yangın suyu şebekesini küçülttü.",
+          "Krizden sonra projeyi küçültmek zorunda kaldık.",
+          "Kışın üretimi azalttılar."
+        ],
+        "explanation": "Boyutu, miktarı veya kapsamı azaltmak. Zıttı: scale up. 'down' = azalma."
+      },
+      {
+        "id": "b2l3a16",
+        "term": "fade away",
+        "pronunciation": "fayd uh-WAY",
+        "translation": "yavaş yavaş kaybolmak",
+        "sentences": [
+          "His voice faded away.",
+          "After the loud music stopped, the noise slowly faded away.",
+          "The smell of smoke faded away after a few hours.",
+          "Her memories of that day have faded away.",
+          "The signal faded away as we drove into the tunnel."
+        ],
+        "translations": [
+          "Sesi yavaş yavaş kayboldu.",
+          "Yüksek müzik durduktan sonra gürültü yavaş yavaş kayboldu.",
+          "Duman kokusu birkaç saat sonra kayboldu.",
+          "O günle ilgili anıları silinip gitti.",
+          "Tünele girince sinyal yavaş yavaş kayboldu."
+        ],
+        "explanation": "Yavaşça azalıp yok olmak. 'away' = bitiş. fade = solmak (renk, ses, ışık)."
+      },
+      {
+        "id": "b2l3a17",
+        "term": "die down",
+        "pronunciation": "dy DOWN",
+        "translation": "dinmek, azalmak",
+        "sentences": [
+          "The wind died down towards the evening.",
+          "We waited for the wind to die down before the crane lift.",
+          "The excitement died down after a few days.",
+          "When the applause died down, she started her speech.",
+          "The fire finally died down at midnight."
+        ],
+        "translations": [
+          "Akşama doğru rüzgâr dindi.",
+          "Vinç kaldırmasından önce rüzgârın dinmesini bekledik.",
+          "Heyecan birkaç gün sonra yatıştı.",
+          "Alkışlar dinince konuşmasına başladı.",
+          "Yangın nihayet gece yarısı söndü."
+        ],
+        "explanation": "Gittikçe zayıflayıp durmak (rüzgâr, ses, heyecan). die – died – dying."
+      },
+      {
+        "id": "b2l3a18",
+        "term": "fall behind",
+        "pronunciation": "fawl bih-HYND",
+        "translation": "geride kalmak",
+        "sentences": [
+          "They've fallen behind with their work.",
+          "The students missed two deadlines and fell behind on their coursework.",
+          "The project fell behind because the valves arrived late.",
+          "If you miss classes, you will fall behind.",
+          "We are falling behind schedule."
+        ],
+        "translations": [
+          "İşlerinde geride kaldılar.",
+          "Öğrenciler iki teslim tarihini kaçırdı ve ödevlerinde geride kaldı.",
+          "Vanalar geç geldiği için proje gecikti.",
+          "Dersleri kaçırırsan geride kalırsın.",
+          "Programın gerisine düşüyoruz."
+        ],
+        "explanation": "Planın ya da diğerlerinin gerisinde kalmak. fall – fell – fallen. Kalıplar: fall behind with/on + iş, fall behind schedule."
+      },
+      {
+        "id": "b2l3a19",
+        "term": "liven up",
+        "pronunciation": "LY-vun UP",
+        "translation": "canlandırmak, neşelendirmek",
+        "sentences": [
+          "This place needs livening up.",
+          "This party is a bit boring. Let's play some music to liven up the party!",
+          "A few jokes livened up the long meeting.",
+          "Bright colours will liven up the room.",
+          "The new manager livened up the team."
+        ],
+        "translations": [
+          "Buranın biraz canlandırılması gerek.",
+          "Bu parti biraz sıkıcı. Hadi biraz müzik açıp partiyi canlandıralım!",
+          "Birkaç espri uzun toplantıyı canlandırdı.",
+          "Parlak renkler odayı canlandıracak.",
+          "Yeni müdür ekibe canlılık getirdi."
+        ],
+        "explanation": "Daha canlı ve eğlenceli hale getirmek. lively = canlı. Zamirle ayrılır: liven it up."
+      },
+      {
+        "id": "b2l3a20",
+        "term": "cheer up",
+        "pronunciation": "cheer UP",
+        "translation": "neşelenmek, neşelendirmek",
+        "sentences": [
+          "Cheer up! It's not that bad.",
+          "Emma's friends are planning a surprise visit to cheer up their sad friend.",
+          "The good news cheered up everyone in the office.",
+          "I bought flowers to cheer up my sister.",
+          "Cheer up, we can fix the problem tomorrow."
+        ],
+        "translations": [
+          "Neşelen! O kadar da kötü değil.",
+          "Emma'nın arkadaşları üzgün arkadaşlarını neşelendirmek için sürpriz bir ziyaret planlıyor.",
+          "İyi haber ofisteki herkesi neşelendirdi.",
+          "Kız kardeşimi neşelendirmek için çiçek aldım.",
+          "Neşelen, sorunu yarın çözebiliriz."
+        ],
+        "explanation": "Üzgün birinin keyfini yerine getirmek ya da kendin neşelenmek. 'Cheer up!' = Üzülme!"
+      },
+      {
+        "id": "b2l3a21",
+        "term": "get through to",
+        "pronunciation": "get THROO too",
+        "translation": "(birine) derdini anlatabilmek; telefonla ulaşmak",
+        "sentences": [
+          "We don't seem to be able to get through to them.",
+          "The manager tried explaining the new rules, but he couldn't get through to the staff.",
+          "I finally got through to the client and explained the problem.",
+          "I called the vendor ten times but couldn't get through to anyone.",
+          "Teachers sometimes find it hard to get through to teenagers."
+        ],
+        "translations": [
+          "Onlara derdimizi anlatamıyor gibiyiz.",
+          "Müdür yeni kuralları anlatmaya çalıştı ama personele anlatamadı.",
+          "Sonunda müşteriye ulaşıp sorunu anlattım.",
+          "Tedarikçiyi on kez aradım ama kimseye ulaşamadım.",
+          "Öğretmenler bazen gençlere bir şey anlatmakta zorlanır."
+        ],
+        "explanation": "1) Birinin bir şeyi anlamasını sağlamak. 2) Telefonda birine ulaşmak. 'through' = iletişim."
+      },
+      {
+        "id": "b2l3a22",
+        "term": "split up",
+        "pronunciation": "split UP",
+        "translation": "ayrılmak",
+        "sentences": [
+          "Her parents split up a few months ago.",
+          "They split up after ten years together.",
+          "The team split up into two groups.",
+          "Why did you split up with him?",
+          "The band split up in 2010."
+        ],
+        "translations": [
+          "Anne ve babası birkaç ay önce ayrıldı.",
+          "On yıllık birliktelikten sonra ayrıldılar.",
+          "Ekip iki gruba ayrıldı.",
+          "Ondan neden ayrıldın?",
+          "Grup 2010'da dağıldı."
+        ],
+        "explanation": "İlişkiyi bitirmek ya da gruplara bölünmek. split – split – split (değişmez). Benzeri: break up."
+      },
+      {
+        "id": "b2l3a23",
+        "term": "come along",
+        "pronunciation": "kum uh-LONG",
+        "translation": "ilerlemek, gelişmek; eşlik etmek",
+        "sentences": [
+          "The building work was coming along nicely.",
+          "How is your new project coming along?",
+          "The new pump station is coming along well.",
+          "My English is coming along slowly.",
+          "We're going to the café. Do you want to come along?"
+        ],
+        "translations": [
+          "İnşaat işi güzel ilerliyordu.",
+          "Yeni projen nasıl gidiyor?",
+          "Yeni pompa istasyonu iyi ilerliyor.",
+          "İngilizcem yavaş yavaş gelişiyor.",
+          "Kafeye gidiyoruz. Sen de gelmek ister misin?"
+        ],
+        "explanation": "1) İlerlemek (How is it coming along?). 2) Birine eşlik etmek. come – came – come."
+      },
+      {
+        "id": "b2l3a24",
+        "term": "put something across",
+        "pronunciation": "PUT SUM-thing uh-KROS",
+        "translation": "(fikri) açıkça anlatmak",
+        "sentences": [
+          "It's going to be difficult to put this message across.",
+          "She put her ideas across very clearly in the meeting.",
+          "He knows a lot, but he can't put it across to students.",
+          "Use simple slides to put your point across.",
+          "The video puts the safety message across well."
+        ],
+        "translations": [
+          "Bu mesajı anlatmak zor olacak.",
+          "Toplantıda fikirlerini çok net anlattı.",
+          "Çok şey biliyor ama öğrencilere aktaramıyor.",
+          "Görüşünü anlatmak için basit slaytlar kullan.",
+          "Video güvenlik mesajını iyi aktarıyor."
+        ],
+        "explanation": "Bir fikri karşı tarafa anlaşılır biçimde aktarmak. Nesne genelde ortada: put your point across."
+      },
+      {
+        "id": "b2l3a25",
+        "term": "date back to",
+        "pronunciation": "dayt BAK too",
+        "translation": "-e dayanmak, …den kalma olmak",
+        "sentences": [
+          "The house dates back to the 16th century.",
+          "Stonehenge dates back to around 3100 B.C.",
+          "These drawings date back to the first phase of the project.",
+          "The tradition dates back to Roman times.",
+          "This church dates back to 1450."
+        ],
+        "translations": [
+          "Ev 16. yüzyıldan kalma.",
+          "Stonehenge MÖ 3100 civarına dayanıyor.",
+          "Bu çizimler projenin ilk aşamasından kalma.",
+          "Gelenek Roma dönemine dayanıyor.",
+          "Bu kilise 1450'den kalma."
+        ],
+        "explanation": "Bir şeyin ne zamandan beri var olduğunu söyler. Durum gibi kullanılır: dates back (is dating back değil)."
+      },
+      {
+        "id": "b2l3a26",
+        "term": "drowsy",
+        "pronunciation": "DROW-zee",
+        "translation": "uykulu, uyku sersemi",
+        "sentences": [
+          "At around 11:20, she was drowsy, so she decided to go to bed.",
+          "This medicine may make you drowsy.",
+          "Don't drive if you feel drowsy.",
+          "I always feel drowsy after a big lunch.",
+          "The drowsy operator missed the alarm."
+        ],
+        "translations": [
+          "Saat 11:20 civarında uykusu gelmişti, bu yüzden yatmaya karar verdi.",
+          "Bu ilaç uyku yapabilir.",
+          "Uykuluysan araba kullanma.",
+          "Büyük bir öğle yemeğinden sonra hep uykum gelir.",
+          "Uykulu operatör alarmı kaçırdı."
+        ],
+        "explanation": "Yarı uykulu. Linking verb ile kullanılır: feel / get / become drowsy."
+      }
+    ]
+  },
+  {
+    "id": "L3B",
+    "code": "3B",
+    "title": "Murder Riddles",
+    "date": "2026-10-17",
+    "pages": "SB 42",
+    "words": [
+      {
+        "id": "b2l3b01",
+        "term": "multi-storey",
+        "pronunciation": "MUL-tee STOR-ee",
+        "translation": "çok katlı",
+        "sentences": [
+          "A dead body was found at the bottom of a multi-storey building.",
+          "We parked in the multi-storey car park.",
+          "The fire protection design for a multi-storey hotel is complex.",
+          "They are building a multi-storey office near the station.",
+          "A multi-storey building needs a sprinkler system on every floor."
+        ],
+        "translations": [
+          "Çok katlı bir binanın dibinde bir ceset bulundu.",
+          "Çok katlı otoparka park ettik.",
+          "Çok katlı bir otelin yangın koruma tasarımı karmaşıktır.",
+          "İstasyonun yakınında çok katlı bir ofis yapıyorlar.",
+          "Çok katlı bir binanın her katında sprinkler sistemi gerekir."
+        ],
+        "explanation": "Birçok katı olan (bina, otopark). İngiliz yazımı storey; Amerikan: multi-story."
+      },
+      {
+        "id": "b2l3b02",
+        "term": "suicide",
+        "pronunciation": "SOO-ih-syd",
+        "translation": "intihar",
+        "sentences": [
+          "It was quite clear that the person had committed suicide.",
+          "The detective said it was a murder, not suicide.",
+          "The police first thought it was suicide.",
+          "Suicide is the act of killing yourself deliberately.",
+          "The film deals with depression and suicide."
+        ],
+        "translations": [
+          "Kişinin intihar ettiği oldukça açıktı.",
+          "Dedektif bunun intihar değil cinayet olduğunu söyledi.",
+          "Polis önce bunun intihar olduğunu düşündü.",
+          "İntihar, kişinin kendini kasten öldürmesidir.",
+          "Film depresyon ve intihar konusunu ele alıyor."
+        ],
+        "explanation": "Kendini öldürme. Kalıp: commit suicide (intihar etmek)."
+      },
+      {
+        "id": "b2l3b03",
+        "term": "funeral",
+        "pronunciation": "FYOO-ner-ul",
+        "translation": "cenaze (töreni)",
+        "sentences": [
+          "A girl, at the funeral of her mother, met a guy whom she hadn't seen before.",
+          "Many people attended the funeral.",
+          "The funeral will be held on Friday.",
+          "I couldn't go to his funeral because I was abroad.",
+          "A funeral is a ceremony for burying or cremating a dead person."
+        ],
+        "translations": [
+          "Bir kız, annesinin cenazesinde daha önce hiç görmediği bir adamla tanıştı.",
+          "Cenazeye çok kişi katıldı.",
+          "Cenaze cuma günü kaldırılacak.",
+          "Yurt dışında olduğum için cenazesine gidemedim.",
+          "Cenaze, ölen birini gömmek ya da yakmak için yapılan törendir."
+        ],
+        "explanation": "Ölen biri için yapılan tören. Kalıplar: attend a funeral, the funeral will be held."
+      },
+      {
+        "id": "b2l3b04",
+        "term": "suspect (noun)",
+        "pronunciation": "SUS-pekt",
+        "translation": "şüpheli (kişi)",
+        "sentences": [
+          "When the cops arrived, the police found the suspect.",
+          "Who was the suspect and why?",
+          "The main suspect was the newspaper boy.",
+          "Police are looking for two suspects.",
+          "The suspect was arrested at the airport."
+        ],
+        "translations": [
+          "Polis olay yerine gelince şüpheliyi buldu.",
+          "Şüpheli kimdi ve neden?",
+          "Baş şüpheli gazeteci çocuktu.",
+          "Polis iki şüpheliyi arıyor.",
+          "Şüpheli havalimanında tutuklandı."
+        ],
+        "explanation": "İsim: suçu işlediğinden şüphelenilen kişi; vurgu ilk hecede (SUS-pekt). Fiil 'to suspect' (suh-SPEKT, L1A) = şüphelenmek."
+      },
+      {
+        "id": "b2l3b05",
+        "term": "arrest",
+        "pronunciation": "uh-REST",
+        "translation": "tutuklamak; tutuklama",
+        "sentences": [
+          "The police arrested him, saying, 'You murdered your wife.'",
+          "He was arrested at the airport.",
+          "The police made three arrests last night.",
+          "You are under arrest.",
+          "They arrested the suspect after a long investigation."
+        ],
+        "translations": [
+          "Polis, 'Karını sen öldürdün' diyerek onu tutukladı.",
+          "Havalimanında tutuklandı.",
+          "Polis dün gece üç kişiyi tutukladı.",
+          "Tutuklusunuz.",
+          "Uzun bir soruşturmadan sonra şüpheliyi tutukladılar."
+        ],
+        "explanation": "Birini polis karakoluna götürüp tutmak. Fiil ve isim. 'under arrest' = tutuklu."
+      },
+      {
+        "id": "b2l3b06",
+        "term": "commit",
+        "pronunciation": "kuh-MIT",
+        "translation": "(suç) işlemek",
+        "sentences": [
+          "It was clear that the person had committed suicide by jumping from one of the floors.",
+          "He committed the crime alone.",
+          "The police know who committed the murder.",
+          "People who commit crimes must be punished.",
+          "Who would commit such a terrible act?"
+        ],
+        "translations": [
+          "Kişinin katlardan birinden atlayarak intihar ettiği açıktı.",
+          "Suçu tek başına işledi.",
+          "Polis cinayeti kimin işlediğini biliyor.",
+          "Suç işleyenler cezalandırılmalı.",
+          "Kim böyle korkunç bir şey yapar ki?"
+        ],
+        "explanation": "Kötü ya da yasadışı bir şey yapmak: commit a crime / murder / suicide. Geçmiş hali committed (t ikilenir)."
+      },
+      {
+        "id": "b2l3b07",
+        "term": "riddle",
+        "pronunciation": "RID-ul",
+        "translation": "bilmece, muamma",
+        "sentences": [
+          "Choose one of the topics and write a short murder riddle.",
+          "Can you solve this riddle?",
+          "The cause of the vibration was a riddle for weeks.",
+          "My son loves riddles.",
+          "The detective finally solved the riddle."
+        ],
+        "translations": [
+          "Konulardan birini seç ve kısa bir cinayet bilmecesi yaz.",
+          "Bu bilmeceyi çözebilir misin?",
+          "Titreşimin nedeni haftalarca bir muammaydı.",
+          "Oğlum bilmeceleri çok sever.",
+          "Dedektif sonunda muammayı çözdü."
+        ],
+        "explanation": "Cevabı düşünerek bulunan soru; çözülmesi zor gizem. 'solve a riddle' = bilmece çözmek."
+      },
+      {
+        "id": "b2l3b08",
+        "term": "deduction",
+        "pronunciation": "dih-DUK-shun",
+        "translation": "çıkarım; kesinti",
+        "sentences": [
+          "Read the mysteries and present your deductions to the class.",
+          "The detective's deduction was correct.",
+          "By careful deduction, she found the cause of the failure.",
+          "Sherlock Holmes is famous for his deductions.",
+          "There is a tax deduction from my salary every month."
+        ],
+        "translations": [
+          "Gizemleri oku ve çıkarımlarını sınıfa sun.",
+          "Dedektifin çıkarımı doğruydu.",
+          "Dikkatli bir çıkarımla arızanın nedenini buldu.",
+          "Sherlock Holmes çıkarımlarıyla ünlüdür.",
+          "Her ay maaşımdan vergi kesintisi yapılıyor."
+        ],
+        "explanation": "1) Kanıtlardan vardığın sonuç (fiil: deduce). 2) Para kesintisi (fiil: deduct)."
+      },
+      {
+        "id": "b2l3b09",
+        "term": "detective",
+        "pronunciation": "dih-TEK-tiv",
+        "translation": "dedektif",
+        "sentences": [
+          "A detective came and went to the first floor.",
+          "Would you like to be a detective?",
+          "Do you think detectives must be very clever?",
+          "The detective flipped a coin towards the floor.",
+          "She reads detective stories every night."
+        ],
+        "translations": [
+          "Bir dedektif geldi ve birinci kata çıktı.",
+          "Dedektif olmak ister miydin?",
+          "Sence dedektiflerin çok zeki olması gerekir mi?",
+          "Dedektif yere doğru bir bozuk para fırlattı.",
+          "Her gece polisiye hikâyeler okuyor."
+        ],
+        "explanation": "Suçları araştıran kişi. 'detective story/novel' = polisiye. Fiil: detect (tespit etmek)."
+      },
+      {
+        "id": "b2l3b10",
+        "term": "honeymoon",
+        "pronunciation": "HUN-ee-moon",
+        "translation": "balayı",
+        "sentences": [
+          "A couple went on a trip for their honeymoon, but only the husband returned.",
+          "They went to Italy on their honeymoon.",
+          "Where are you going for your honeymoon?",
+          "The honeymoon period with the new client is over.",
+          "We spent our honeymoon on a small island."
+        ],
+        "translations": [
+          "Bir çift balayı için seyahate çıktı ama sadece koca geri döndü.",
+          "Balayına İtalya'ya gittiler.",
+          "Balayına nereye gidiyorsunuz?",
+          "Yeni müşteriyle balayı dönemi bitti.",
+          "Balayımızı küçük bir adada geçirdik."
+        ],
+        "explanation": "Düğünden sonraki tatil. Mecazi: 'honeymoon period' = bir ilişkinin/işin sorunsuz ilk dönemi."
+      }
+    ]
   }
 ]

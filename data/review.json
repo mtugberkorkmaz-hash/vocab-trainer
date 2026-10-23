@@ -143,6 +143,86 @@
       "correct": "Let's discuss the project.",
       "rule": "No 'about' after discuss.",
       "rule_tr": "discuss 'about' almaz."
+    },
+    {
+      "id": "E19",
+      "page": "Board 17 Oct",
+      "wrong": "When I was 5 years old, I didn't used to wear glasses.",
+      "correct": "When I was 5 years old, I didn't use to wear glasses.",
+      "rule": "After did / didn't → use to (no -d).",
+      "rule_tr": "did/didn't'ten sonra 'use to' gelir, -d olmaz."
+    },
+    {
+      "id": "E20",
+      "page": "SB 32",
+      "wrong": "She would have a house in the country.",
+      "correct": "She used to have a house in the country.",
+      "rule": "would is not used with stative verbs.",
+      "rule_tr": "would durum fiilleriyle (have = sahip olmak) kullanılmaz; used to kullan."
+    },
+    {
+      "id": "E21",
+      "page": "SB 32",
+      "wrong": "I'd rather to go to the cinema.",
+      "correct": "I'd rather go to the cinema.",
+      "rule": "would rather + bare infinitive.",
+      "rule_tr": "would rather'dan sonra yalın fiil gelir (to yok)."
+    },
+    {
+      "id": "E22",
+      "page": "SB 32",
+      "wrong": "I'd prefer eat outside in the garden.",
+      "correct": "I'd prefer to eat outside in the garden.",
+      "rule": "would prefer + to + infinitive.",
+      "rule_tr": "would prefer'dan sonra to + fiil gelir."
+    },
+    {
+      "id": "E23",
+      "page": "SB 32",
+      "wrong": "I prefer trains than cars.",
+      "correct": "I prefer trains to cars.",
+      "rule": "prefer X to Y.",
+      "rule_tr": "prefer ile karşılaştırma 'than' değil 'to' ile yapılır."
+    },
+    {
+      "id": "E24",
+      "page": "SB 32",
+      "wrong": "I'd rather you take a taxi.",
+      "correct": "I'd rather you took a taxi.",
+      "rule": "would rather + another person + past simple.",
+      "rule_tr": "Başkası için tercih: I'd rather you + geçmiş zaman (anlam şimdi/gelecek)."
+    },
+    {
+      "id": "E25",
+      "page": "Board 17 Oct",
+      "wrong": "I'm knowing the answer.",
+      "correct": "I know the answer.",
+      "rule": "Stative verbs are not used in continuous forms.",
+      "rule_tr": "Durum fiilleri (know, want, own…) -ing almaz."
+    },
+    {
+      "id": "E26",
+      "page": "SB 36",
+      "wrong": "The soup tastes well.",
+      "correct": "The soup tastes good.",
+      "rule": "Linking verb + adjective, not adverb.",
+      "rule_tr": "Linking verb'den sonra zarf değil sıfat gelir."
+    },
+    {
+      "id": "E27",
+      "page": "SB 40",
+      "wrong": "While I studied, I was suddenly feeling sleepy.",
+      "correct": "While I was studying, I suddenly felt sleepy.",
+      "rule": "Long action → past continuous; short interrupting action → past simple.",
+      "rule_tr": "Uzun süren eylem past continuous, araya giren kısa eylem past simple."
+    },
+    {
+      "id": "E28",
+      "page": "WB 16",
+      "wrong": "I was knowing I wanted to marry him the first time I met him.",
+      "correct": "I knew I wanted to marry him the first time I met him.",
+      "rule": "Stative verb → past simple.",
+      "rule_tr": "know durum fiilidir; geçmişte de continuous olmaz."
     }
   ],
   "quiz": [
@@ -274,6 +354,129 @@
       "question": "Late drawings cause late procurement, which causes more late drawings: a ___.",
       "answers": [
         "vicious circle"
+      ]
+    },
+    {
+      "id": "Q16",
+      "topic": "used to / would",
+      "question": "When I was a student, I ___ (have) a motorbike.",
+      "answers": [
+        "used to have"
+      ]
+    },
+    {
+      "id": "Q17",
+      "topic": "used to / would",
+      "question": "Every summer, my grandfather ___ take us fishing. (repeated past action)",
+      "answers": [
+        "would",
+        "used to"
+      ]
+    },
+    {
+      "id": "Q18",
+      "topic": "used to / would",
+      "question": "___ you use to play football at school?",
+      "answers": [
+        "Did"
+      ]
+    },
+    {
+      "id": "Q19",
+      "topic": "would rather / prefer",
+      "question": "I'd rather ___ (stay) at home tonight.",
+      "answers": [
+        "stay"
+      ]
+    },
+    {
+      "id": "Q20",
+      "topic": "would rather / prefer",
+      "question": "I'd prefer ___ (work) from home on Friday.",
+      "answers": [
+        "to work"
+      ]
+    },
+    {
+      "id": "Q21",
+      "topic": "would rather / prefer",
+      "question": "I prefer email ___ phone calls.",
+      "answers": [
+        "to"
+      ]
+    },
+    {
+      "id": "Q22",
+      "topic": "would rather / prefer",
+      "question": "I'd rather you ___ (not / smoke) here.",
+      "answers": [
+        "didn't smoke",
+        "did not smoke"
+      ]
+    },
+    {
+      "id": "Q23",
+      "topic": "Stative / dynamic",
+      "question": "Correct it: I am understanding the problem now.",
+      "answers": [
+        "I understand the problem now.",
+        "understand"
+      ]
+    },
+    {
+      "id": "Q24",
+      "topic": "Linking verbs",
+      "question": "The new valve sounds ___ (good / well).",
+      "answers": [
+        "good"
+      ]
+    },
+    {
+      "id": "Q25",
+      "topic": "Past simple / continuous",
+      "question": "I ___ (check) the drawings when the power went off.",
+      "answers": [
+        "was checking"
+      ]
+    },
+    {
+      "id": "Q26",
+      "topic": "Past simple / continuous",
+      "question": "While they ___ (test) the pump, a gasket failed.",
+      "answers": [
+        "were testing"
+      ]
+    },
+    {
+      "id": "Q27",
+      "topic": "Phrasal verbs 3A",
+      "question": "Can you ___ my plants while I'm away? (take care of)",
+      "answers": [
+        "look after"
+      ]
+    },
+    {
+      "id": "Q28",
+      "topic": "Phrasal verbs 3A",
+      "question": "We've ___ with the schedule; we need two more weeks. (fall)",
+      "answers": [
+        "fallen behind"
+      ]
+    },
+    {
+      "id": "Q29",
+      "topic": "Phrasal verbs 3A",
+      "question": "I'm really ___ to the holiday. (wait with pleasure)",
+      "answers": [
+        "looking forward"
+      ]
+    },
+    {
+      "id": "Q30",
+      "topic": "Vocabulary 3B",
+      "question": "The police ___ the man at the airport. (took him to the police station)",
+      "answers": [
+        "arrested"
       ]
     }
   ]

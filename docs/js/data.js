@@ -132,6 +132,11 @@ const IRREGULAR_VERBS = {
   take: ['take', 'takes', 'took', 'taken', 'taking'],
   experience: ['experience', 'experiences', 'experienced', 'experiencing'],
   face: ['face', 'faces', 'faced', 'facing'],
+  fall: ['fall', 'falls', 'fell', 'fallen', 'falling'],
+  die: ['die', 'dies', 'died', 'dying'],
+  come: ['come', 'comes', 'came', 'coming'],
+  remarry: ['remarry', 'remarries', 'remarried', 'remarrying'],
+  date: ['date', 'dates', 'dated', 'dating'],
 };
 
 // For terms like "finite element analysis (FEA)" or "bill of materials (BOM)",

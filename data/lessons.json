@@ -4184,7 +4184,17 @@
     "code": "3B",
     "title": "Murder Riddles",
     "date": "2026-10-17",
-    "pages": "SB 42",
+    "pages": "SB 42–43, WB 17",
+    "grammar": {
+      "title": "Past perfect",
+      "formula": "had + V3 (geçmişteki bir olaydan önce) · hadn't + V3 · Had + özne + V3?",
+      "note": "Geçmişin de geçmişi: '…mıştı'. by the time + V2, … had V3. before/after sırayı zaten gösteriyorsa past simple da olur, ama iki eylemi birden past perfect yapma. Hikâye: arka plan was V-ing → ana olay V2 → daha önce olan had V3. Edilgen: had been + V3 (The alarm hadn't been switched on).",
+      "examples": [
+        "By the time the thief arrived, the owner had already left.",
+        "When the cops arrived, they found that the old man had been murdered.",
+        "A girl met a guy whom she hadn't seen before."
+      ]
+    },
     "words": [
       {
         "id": "b2l3b01",
@@ -4395,6 +4405,758 @@
           "Balayımızı küçük bir adada geçirdik."
         ],
         "explanation": "Düğünden sonraki tatil. Mecazi: 'honeymoon period' = bir ilişkinin/işin sorunsuz ilk dönemi."
+      },
+      {
+        "id": "b2l3b11",
+        "term": "by the time",
+        "pronunciation": "by thuh TYME",
+        "translation": "…dığında (çoktan), …ana kadar",
+        "sentences": [
+          "By the time the police arrived, he had escaped with the money.",
+          "By the time the show began, all my friends had arrived.",
+          "By the time we got to the site, the crane had already left.",
+          "By the time you read this email, I will be on the plane.",
+          "By the time the client replied, we had ordered the valves."
+        ],
+        "translations": [
+          "Polis geldiğinde parayla çoktan kaçmıştı.",
+          "Gösteri başladığında bütün arkadaşlarım gelmişti.",
+          "Sahaya vardığımızda vinç çoktan gitmişti.",
+          "Bu e-postayı okuduğunda ben uçakta olacağım.",
+          "Müşteri cevap verdiğinde vanaları sipariş etmiştik."
+        ],
+        "explanation": "Bir olay olduğunda diğerinin çoktan tamamlandığını anlatır. Geçmişte: by the time + V2, … had + V3. Gelecekte: by the time + present, … will …"
+      },
+      {
+        "id": "b2l3b12",
+        "term": "escape",
+        "pronunciation": "ih-SKAYP",
+        "translation": "kaçmak",
+        "sentences": [
+          "The thief escaped through the back door.",
+          "By the time the police arrived, he had escaped with the money.",
+          "Gas escaped from a small hole in the pipe.",
+          "Two prisoners escaped last night.",
+          "There was no way to escape from the burning building."
+        ],
+        "translations": [
+          "Hırsız arka kapıdan kaçtı.",
+          "Polis geldiğinde parayla çoktan kaçmıştı.",
+          "Borudaki küçük bir delikten gaz kaçtı.",
+          "Dün gece iki mahkûm kaçtı.",
+          "Yanan binadan kaçacak bir yol yoktu."
+        ],
+        "explanation": "Kaçmak, kurtulmak; gaz/sıvı için 'sızmak, kaçmak'. İsim de olur: escape route = kaçış yolu (yangın tasarımında önemli)."
+      },
+      {
+        "id": "b2l3b13",
+        "term": "switch on",
+        "pronunciation": "swich ON",
+        "translation": "(cihazı) açmak",
+        "sentences": [
+          "The alarm hadn't been switched on, so nobody noticed.",
+          "Please switch on the pump after the line is filled.",
+          "She switched on the light and saw a shadow.",
+          "Don't forget to switch on the fire alarm panel.",
+          "The heating switches on automatically at 6 am."
+        ],
+        "translations": [
+          "Alarm açılmamıştı, bu yüzden kimse fark etmedi.",
+          "Lütfen hat dolduktan sonra pompayı çalıştır.",
+          "Işığı açtı ve bir gölge gördü.",
+          "Yangın alarm panelini açmayı unutma.",
+          "Isıtma sabah 6'da otomatik olarak açılıyor."
+        ],
+        "explanation": "Elektrikli bir cihazı açmak. Zıttı: switch off. turn on/off ile aynı anlamda (turn off the light)."
+      }
+    ]
+  },
+  {
+    "id": "L3C",
+    "code": "3C",
+    "title": "Interrogation",
+    "date": "2026-10-23",
+    "pages": "SB 46–49, WB 18",
+    "grammar": {
+      "title": "Modals + have + V3 (deduction)",
+      "formula": "must have V3 (kesin) · can't have V3 (imkânsız) · might/could have V3 (belki) · should have V3 (yapılmalıydı)",
+      "note": "Geçmiş hakkında çıkarım: must have = mantıksal olarak kesin, can't/couldn't have = olamaz, might/may/could have = belki. should/ought to have = yapılması gerekirdi ama yapılmadı (pişmanlık, eleştiri). could have = mümkündü ama yapılmadı. would have = koşul olsaydı olurdu. Someone must have fed them (tok görünüyorlar) ↔ Someone should have fed them (aç görünüyorlar).",
+      "examples": [
+        "You always go to bed at 11:30. You must have been at home when it happened.",
+        "You can't have seen Elvis on the street! He's dead.",
+        "I should have left him three years ago when he first cheated on me."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l3c01",
+        "term": "interrogation",
+        "pronunciation": "in-ter-uh-GAY-shun",
+        "translation": "sorgu",
+        "sentences": [
+          "Listen to the first part of the interrogation.",
+          "The interrogation lasted three hours.",
+          "During the interrogation, she said she was at the cinema.",
+          "The suspect was taken to the police station for interrogation.",
+          "Detective stories often include a long interrogation scene."
+        ],
+        "translations": [
+          "Sorgunun ilk bölümünü dinle.",
+          "Sorgu üç saat sürdü.",
+          "Sorgu sırasında sinemada olduğunu söyledi.",
+          "Şüpheli sorgu için karakola götürüldü.",
+          "Polisiye hikâyelerde çoğu zaman uzun bir sorgu sahnesi olur."
+        ],
+        "explanation": "Polisin birini sorguya çekmesi. Fiil: interrogate. Daha hafif: questioning."
+      },
+      {
+        "id": "b2l3c02",
+        "term": "inspector",
+        "pronunciation": "in-SPEK-ter",
+        "translation": "komiser; müfettiş",
+        "sentences": [
+          "Why does the inspector think that Mrs. Rivers is the murderer?",
+          "The inspector asked her where she was at midnight.",
+          "A fire inspector will check the sprinkler system tomorrow.",
+          "The welding inspector rejected two joints.",
+          "The inspector was almost certain that she was lying."
+        ],
+        "translations": [
+          "Komiser neden Mrs. Rivers'ın katil olduğunu düşünüyor?",
+          "Komiser ona gece yarısı nerede olduğunu sordu.",
+          "Yarın bir yangın müfettişi sprinkler sistemini kontrol edecek.",
+          "Kaynak kontrolörü iki kaynağı reddetti.",
+          "Komiser onun yalan söylediğinden neredeyse emindi."
+        ],
+        "explanation": "1) Polis komiseri. 2) Denetçi, kontrolör (fire inspector, QC inspector). Fiil: inspect; isim: inspection."
+      },
+      {
+        "id": "b2l3c03",
+        "term": "suspicion",
+        "pronunciation": "suh-SPISH-un",
+        "translation": "şüphe",
+        "sentences": [
+          "My suspicions were confirmed when police raided the property.",
+          "I had suspicions about my uncle.",
+          "She was arrested on suspicion of murder.",
+          "His strange answers raised the inspector's suspicion.",
+          "There is no suspicion of a leak at the moment."
+        ],
+        "translations": [
+          "Polis mülke baskın yapınca şüphelerim doğrulandı.",
+          "Amcamdan şüpheleniyordum.",
+          "Cinayet şüphesiyle tutuklandı.",
+          "Tuhaf cevapları komiserin şüphesini artırdı.",
+          "Şu an bir sızıntı şüphesi yok."
+        ],
+        "explanation": "İsim: şüphe. Fiil hali suspect: I suspected my uncle ('I suspicioned' yanlış). Sıfat: suspicious (şüpheli görünen)."
+      },
+      {
+        "id": "b2l3c04",
+        "term": "assume",
+        "pronunciation": "uh-SOOM",
+        "translation": "varsaymak",
+        "sentences": [
+          "It is generally assumed that stress is caused by too much work.",
+          "We assumed that you had passed your exam.",
+          "Don't assume the drawing is correct; check it.",
+          "I assume you have read the specification.",
+          "The inspector assumed she was at home that night."
+        ],
+        "translations": [
+          "Stresin çok çalışmaktan kaynaklandığı genel olarak varsayılır.",
+          "Sınavı geçtiğini varsaymıştık.",
+          "Çizimin doğru olduğunu varsayma; kontrol et.",
+          "Şartnameyi okuduğunu varsayıyorum.",
+          "Komiser o gece onun evde olduğunu varsaydı."
+        ],
+        "explanation": "Kanıt aramadan doğru kabul etmek. Kalıp: assume (that) + cümle. İsim: assumption (varsayım; hesaplarda 'design assumptions')."
+      },
+      {
+        "id": "b2l3c05",
+        "term": "invalid",
+        "pronunciation": "in-VAL-id",
+        "translation": "geçersiz",
+        "sentences": [
+          "People with invalid papers are deported back to their countries.",
+          "The hydraulic analysis that you prepared was invalid for our company.",
+          "Your ticket is invalid on this train.",
+          "The contract was declared invalid.",
+          "Without a signature, the test certificate is invalid."
+        ],
+        "translations": [
+          "Geçersiz belgeli kişiler ülkelerine sınır dışı edilir.",
+          "Hazırladığın hidrolik analiz şirketimiz için geçersizdi.",
+          "Biletin bu trende geçersiz.",
+          "Sözleşme geçersiz ilan edildi.",
+          "İmzasız test sertifikası geçersizdir."
+        ],
+        "explanation": "Resmi olarak kabul edilmeyen (belge, bilet, sonuç). Zıttı: valid (L1A). Vurgu: in-VAL-id ('IN-va-lid' = hasta/sakat, farklı kelime)."
+      },
+      {
+        "id": "b2l3c06",
+        "term": "nonsense",
+        "pronunciation": "NON-sens",
+        "translation": "saçmalık",
+        "sentences": [
+          "How can you believe such nonsense?",
+          "That's nonsense! I was at home all night.",
+          "The report was full of nonsense.",
+          "Stop talking nonsense and tell me the truth.",
+          "It's nonsense to skip the hydrotest to save one day."
+        ],
+        "translations": [
+          "Böyle bir saçmalığa nasıl inanırsın?",
+          "Bu saçmalık! Bütün gece evdeydim.",
+          "Rapor saçmalıklarla doluydu.",
+          "Saçmalamayı bırak ve bana doğruyu söyle.",
+          "Bir gün kazanmak için hidrotesti atlamak saçmalık."
+        ],
+        "explanation": "Aptalca fikir ya da davranış. Sayılamaz: such nonsense ('a nonsense' denmez). 'talk nonsense' = saçmalamak."
+      },
+      {
+        "id": "b2l3c07",
+        "term": "import",
+        "pronunciation": "im-PORT (v) / IM-port (n)",
+        "translation": "ithal etmek; ithalat",
+        "sentences": [
+          "America has cut its oil imports from the Middle East by 73%.",
+          "Our cattle imports will increase year by year.",
+          "We import most of our valves from Italy.",
+          "The company imported steel pipes from China.",
+          "Import taxes have gone up this year."
+        ],
+        "translations": [
+          "Amerika Orta Doğu'dan petrol ithalatını %73 azalttı.",
+          "Sığır ithalatımız yıldan yıla artacak.",
+          "Vanalarımızın çoğunu İtalya'dan ithal ediyoruz.",
+          "Şirket Çin'den çelik boru ithal etti.",
+          "Bu yıl ithalat vergileri arttı."
+        ],
+        "explanation": "Fiil: ithal etmek (vurgu 2. hecede). İsim: ithalat (vurgu 1. hecede). Zıttı: export."
+      },
+      {
+        "id": "b2l3c08",
+        "term": "share",
+        "pronunciation": "SHAIR",
+        "translation": "hisse, pay",
+        "sentences": [
+          "I would have lost my share in the company if I had got divorced.",
+          "If you die before your husband, your share in the property may go to your children.",
+          "He sold his shares last year.",
+          "What is the percentage of the company that Mr. Rivers holds as his share?",
+          "Each partner has an equal share of the profits."
+        ],
+        "translations": [
+          "Boşansaydım şirketteki hissemi kaybederdim.",
+          "Kocandan önce ölürsen mülkteki payın doğrudan çocuklarına geçebilir.",
+          "Geçen yıl hisselerini sattı.",
+          "Mr. Rivers'ın elindeki hisse şirketin yüzde kaçı?",
+          "Her ortağın kârdan eşit payı var."
+        ],
+        "explanation": "İsim: şirket hissesi, pay. Fiil olarak 'paylaşmak'. Kalıp: a share in/of + şirket."
+      },
+      {
+        "id": "b2l3c09",
+        "term": "cheat on",
+        "pronunciation": "CHEET on",
+        "translation": "aldatmak",
+        "sentences": [
+          "I should have left him three years ago when he first cheated on me.",
+          "Mrs. Cathleen's husband cheated on her more than once.",
+          "She found out that he was cheating on her.",
+          "He would never cheat on his wife.",
+          "If someone cheats on you, it's hard to trust them again."
+        ],
+        "translations": [
+          "Beni ilk aldattığında, üç yıl önce onu bırakmalıydım.",
+          "Mrs. Cathleen'in kocası onu birden fazla kez aldattı.",
+          "Onu aldattığını öğrendi.",
+          "Karısını asla aldatmaz.",
+          "Biri seni aldatırsa ona yeniden güvenmek zordur."
+        ],
+        "explanation": "Eşini/sevgilisini aldatmak. 'cheat' tek başına = hile yapmak (cheat in an exam)."
+      },
+      {
+        "id": "b2l3c10",
+        "term": "corpse",
+        "pronunciation": "KORPS",
+        "translation": "ceset",
+        "sentences": [
+          "The guard found the corpse and called the police.",
+          "The corpse was lying on the bed.",
+          "The police covered up the corpse with a sheet.",
+          "Nobody touched the corpse until the detective arrived.",
+          "The corpse had been in the room for two days."
+        ],
+        "translations": [
+          "Bekçi cesedi buldu ve polisi aradı.",
+          "Ceset yatağın üstünde yatıyordu.",
+          "Polis cesedi bir çarşafla örttü.",
+          "Dedektif gelene kadar kimse cesede dokunmadı.",
+          "Ceset iki gündür odadaydı."
+        ],
+        "explanation": "İnsan cesedi (resmi; günlük dilde dead body). Dikkat: corps (KOR) = birlik, kolordu."
+      },
+      {
+        "id": "b2l3c11",
+        "term": "investigate",
+        "pronunciation": "in-VES-tih-gayt",
+        "translation": "soruşturmak, araştırmak",
+        "sentences": [
+          "The police investigated his house, searching for clues.",
+          "The safety team will investigate the cause of the fire.",
+          "The detective investigated the case for months.",
+          "We need to investigate why the pump failed.",
+          "The journalist investigated the company's finances."
+        ],
+        "translations": [
+          "Polis ipucu arayarak evini araştırdı.",
+          "Güvenlik ekibi yangının nedenini araştıracak.",
+          "Dedektif davayı aylarca soruşturdu.",
+          "Pompanın neden arızalandığını araştırmamız gerek.",
+          "Gazeteci şirketin mali durumunu araştırdı."
+        ],
+        "explanation": "Bir olayı/suçu ayrıntılı incelemek. İsim: investigation. Notta 'detectived' yazmıştın; detective isimdir, fiil olarak investigate kullanılır."
+      },
+      {
+        "id": "b2l3c12",
+        "term": "clue",
+        "pronunciation": "KLOO",
+        "translation": "ipucu",
+        "sentences": [
+          "The police were looking for clues.",
+          "The unopened mail was an important clue.",
+          "I have no clue where he went.",
+          "The detective found a clue on the windowsill.",
+          "Give me a clue; I can't solve this riddle."
+        ],
+        "translations": [
+          "Polis ipucu arıyordu.",
+          "Açılmamış mektuplar önemli bir ipucuydu.",
+          "Nereye gittiği hakkında hiçbir fikrim yok.",
+          "Dedektif pencere pervazında bir ipucu buldu.",
+          "Bana bir ipucu ver; bu bilmeceyi çözemiyorum."
+        ],
+        "explanation": "Bir gizemi çözmeye yardım eden bilgi. 'I have no clue' = hiçbir fikrim yok (gayriresmi)."
+      },
+      {
+        "id": "b2l3c13",
+        "term": "witness",
+        "pronunciation": "WIT-nis",
+        "translation": "tanık; tanık olmak",
+        "sentences": [
+          "The witness heard a car at about 8:30.",
+          "The detective asked the witness what she saw last night.",
+          "Two witnesses saw the man leave the building.",
+          "He witnessed the accident on his way to work.",
+          "The police are looking for witnesses."
+        ],
+        "translations": [
+          "Tanık 8:30 civarında bir araba sesi duydu.",
+          "Dedektif tanığa dün gece ne gördüğünü sordu.",
+          "İki tanık adamın binadan çıktığını gördü.",
+          "İşe giderken kazaya tanık oldu.",
+          "Polis tanık arıyor."
+        ],
+        "explanation": "İsim: tanık. Fiil: tanık olmak (witness an accident). 'eyewitness' = görgü tanığı."
+      },
+      {
+        "id": "b2l3c14",
+        "term": "abandon",
+        "pronunciation": "uh-BAN-dun",
+        "translation": "terk etmek",
+        "sentences": [
+          "Someone must have abandoned this car ages ago.",
+          "The workers abandoned the site because of the storm.",
+          "They abandoned the project when the budget ran out.",
+          "The old factory has been abandoned for years.",
+          "Never abandon your post during a fire drill."
+        ],
+        "translations": [
+          "Biri bu arabayı yıllar önce terk etmiş olmalı.",
+          "İşçiler fırtına yüzünden sahayı terk etti.",
+          "Bütçe bitince projeden vazgeçtiler.",
+          "Eski fabrika yıllardır terk edilmiş durumda.",
+          "Yangın tatbikatı sırasında görev yerini asla terk etme."
+        ],
+        "explanation": "Bir yeri/şeyi/kişiyi bırakıp gitmek; bir plandan vazgeçmek. Sıfat: abandoned (terk edilmiş)."
+      },
+      {
+        "id": "b2l3c15",
+        "term": "cost a fortune",
+        "pronunciation": "KOST uh FOR-chun",
+        "translation": "servete mal olmak",
+        "sentences": [
+          "It looks marvellous! It must have cost a fortune.",
+          "The new control system cost a fortune.",
+          "Fixing the leak will cost a fortune if we wait.",
+          "Their wedding cost a fortune.",
+          "A house by the Bosphorus costs a fortune."
+        ],
+        "translations": [
+          "Muhteşem görünüyor! Bir servete mal olmuş olmalı.",
+          "Yeni kontrol sistemi bir servete mal oldu.",
+          "Beklersek sızıntıyı tamir etmek bir servete mal olacak.",
+          "Düğünleri bir servete mal oldu.",
+          "Boğaz'da bir ev servet değerinde."
+        ],
+        "explanation": "Çok pahalı olmak. cost – cost – cost (değişmez). Benzeri: cost an arm and a leg."
+      },
+      {
+        "id": "b2l3c16",
+        "term": "dirt cheap",
+        "pronunciation": "durt CHEEP",
+        "translation": "sudan ucuz",
+        "sentences": [
+          "Its owner can't have bought it at a dirt cheap price.",
+          "I bought these tools dirt cheap at the market.",
+          "Flights to Izmir were dirt cheap last winter.",
+          "Be careful: dirt cheap valves are often low quality.",
+          "The flat was dirt cheap because it was near the motorway."
+        ],
+        "translations": [
+          "Sahibi onu sudan ucuz bir fiyata almış olamaz.",
+          "Bu aletleri pazardan sudan ucuza aldım.",
+          "Geçen kış İzmir uçuşları sudan ucuzdu.",
+          "Dikkat: sudan ucuz vanalar çoğu zaman kalitesizdir.",
+          "Daire otoyola yakın olduğu için sudan ucuzdu."
+        ],
+        "explanation": "Gayriresmi: çok ucuz. Zıttı: cost a fortune."
+      }
+    ]
+  },
+  {
+    "id": "L3D",
+    "code": "3D",
+    "title": "Haunted",
+    "date": "2026-10-24",
+    "pages": "SB 50–53, WB 19",
+    "grammar": {
+      "title": "Relative clauses: who / which / that",
+      "formula": "isim + who (insan) / which (şey) / that (ikisi) / where (yer) / when (zaman) / whose (sahiplik)",
+      "note": "İlgi cümlesi ismi tanımlar ve ismin hemen ARKASINA gelir (Türkçede önüne: dans eden adam = the man who is dancing). Virgüllü, ek bilgi veren cümlede 'that' kullanılmaz: Professor Tomero, who teaches Sociology, … Nesne konumundaki zamir düşebilir: The movie (that) we saw was long.",
+      "examples": [
+        "It was built on an apple orchard which was owned by Bridget Bishop.",
+        "Guests have reported seeing a female apparition that walks up and down the hall.",
+        "Workers who were building the mansion claimed to see a ghost."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l3d01",
+        "term": "haunted",
+        "pronunciation": "HAWN-tid",
+        "translation": "perili",
+        "sentences": [
+          "Hawthorne Hotel is known to be one of the most actively haunted places in Salem.",
+          "This room is said to be haunted.",
+          "Do you believe that some places are haunted?",
+          "Perili Köşk means the haunted mansion in Turkish.",
+          "Nobody wanted to stay in the haunted house."
+        ],
+        "translations": [
+          "Hawthorne Oteli, Salem'in en perili yerlerinden biri olarak bilinir.",
+          "Bu odanın perili olduğu söylenir.",
+          "Bazı yerlerin perili olduğuna inanıyor musun?",
+          "Perili Köşk, İngilizcede 'the haunted mansion' demek.",
+          "Kimse perili evde kalmak istemedi."
+        ],
+        "explanation": "Hayaletlerin dolaştığı söylenen. Fiil: haunt (A boy haunts the attic). Mecazi: haunted by memories = anılardan kurtulamamak."
+      },
+      {
+        "id": "b2l3d02",
+        "term": "execute",
+        "pronunciation": "EK-sih-kyoot",
+        "translation": "idam etmek; yürütmek",
+        "sentences": [
+          "Bridget Bishop was the first lady who was executed for witchcraft.",
+          "He was ultimately executed by lethal injection in 2001.",
+          "Many people were executed in the 1692 witch trials.",
+          "The plan was executed perfectly.",
+          "The contractor executed the work on time."
+        ],
+        "translations": [
+          "Bridget Bishop büyücülükten idam edilen ilk kadındı.",
+          "Sonunda 2001'de zehirli iğneyle idam edildi.",
+          "1692 cadı mahkemelerinde birçok kişi idam edildi.",
+          "Plan kusursuz şekilde uygulandı.",
+          "Yüklenici işi zamanında yürüttü."
+        ],
+        "explanation": "1) Yasal ceza olarak öldürmek. 2) Bir planı/işi yürütmek (project execution). İsim: execution."
+      },
+      {
+        "id": "b2l3d03",
+        "term": "witchcraft",
+        "pronunciation": "WICH-kraft",
+        "translation": "büyücülük",
+        "sentences": [
+          "Bridget Bishop was executed for witchcraft in 1692.",
+          "They used to burn women who practised witchcraft.",
+          "In the Middle Ages, people believed in witchcraft.",
+          "She was accused of witchcraft by her neighbours.",
+          "The film is about witchcraft and ghosts."
+        ],
+        "translations": [
+          "Bridget Bishop 1692'de büyücülükten idam edildi.",
+          "Büyücülük yapan kadınları yakarlardı.",
+          "Orta Çağ'da insanlar büyücülüğe inanırdı.",
+          "Komşuları tarafından büyücülükle suçlandı.",
+          "Film büyücülük ve hayaletler hakkında."
+        ],
+        "explanation": "İnsanlara yardım ya da zarar için büyü yapma. witch = cadı. 'witch trials' = cadı mahkemeleri."
+      },
+      {
+        "id": "b2l3d04",
+        "term": "mansion",
+        "pronunciation": "MAN-shun",
+        "translation": "konak, malikâne",
+        "sentences": [
+          "This castle-like red brick mansion is located on the Bosphorus.",
+          "The historic mansion stands in 160 acres of parkland.",
+          "The House of the Seven Gables is the oldest wooden mansion in New England.",
+          "Workers who were building the mansion claimed to see a ghost.",
+          "They live in a huge mansion with twenty rooms."
+        ],
+        "translations": [
+          "Bu şato benzeri kırmızı tuğlalı konak Boğaz'da yer alıyor.",
+          "Tarihi konak 160 dönümlük bir parkın içinde duruyor.",
+          "Yedi Kalkanlı Ev, New England'daki en eski ahşap konaktır.",
+          "Konağı inşa eden işçiler bir hayalet gördüklerini iddia etti.",
+          "Yirmi odalı devasa bir konakta yaşıyorlar."
+        ],
+        "explanation": "Çok büyük, pahalı ev. Yusuf Ziya Paşa Köşkü = Perili Köşk (Borusan'ın merkezi)."
+      },
+      {
+        "id": "b2l3d05",
+        "term": "claim",
+        "pronunciation": "KLAYM",
+        "translation": "iddia etmek; iddia",
+        "sentences": [
+          "These days, visitors claim to see Susan Ingersoll's ghost.",
+          "Some critics claimed that the play was too complicated.",
+          "Many visitors have made claims to smell apples in the hotel.",
+          "He claims that he was at home all night.",
+          "The contractor claimed extra money for the delay."
+        ],
+        "translations": [
+          "Bugünlerde ziyaretçiler Susan Ingersoll'un hayaletini gördüklerini iddia ediyor.",
+          "Bazı eleştirmenler oyunun çok karmaşık olduğunu iddia etti.",
+          "Birçok ziyaretçi otelde elma kokusu aldıklarını iddia etti.",
+          "Bütün gece evde olduğunu iddia ediyor.",
+          "Yüklenici gecikme için ek ödeme talep etti."
+        ],
+        "explanation": "Kanıtlayamadan doğru olduğunu söylemek. Kalıplar: claim that + cümle / claim to + V1. İş dilinde: talep (insurance claim, contractor's claim)."
+      },
+      {
+        "id": "b2l3d06",
+        "term": "roam",
+        "pronunciation": "ROHM",
+        "translation": "dolaşmak, gezinmek",
+        "sentences": [
+          "Visitors claim to see Susan Ingersoll's ghost that roams the hallways.",
+          "A number of mammal species roam widely around the northern hemisphere.",
+          "Wild horses roam freely in the mountains.",
+          "We roamed the old town all afternoon.",
+          "Dogs were roaming the streets at night."
+        ],
+        "translations": [
+          "Ziyaretçiler koridorlarda dolaşan Susan Ingersoll'un hayaletini gördüklerini iddia ediyor.",
+          "Birçok memeli türü kuzey yarım kürede geniş alanlarda dolaşır.",
+          "Yabani atlar dağlarda özgürce dolaşıyor.",
+          "Bütün öğleden sonra eski şehirde gezindik.",
+          "Geceleri köpekler sokaklarda dolaşıyordu."
+        ],
+        "explanation": "Belirli bir amaç olmadan dolaşmak. Mobil 'roaming' (yurt dışında dolaşım) buradan gelir."
+      },
+      {
+        "id": "b2l3d07",
+        "term": "peer",
+        "pronunciation": "PEER",
+        "translation": "dikkatle bakmak; akran",
+        "sentences": [
+          "Her ghost roams the hallways and peers through windows.",
+          "He peered into the dark room.",
+          "She peered at the small numbers on the gauge.",
+          "Children are worried about failing in front of their peers.",
+          "Young engineers learn a lot from their peers."
+        ],
+        "translations": [
+          "Hayaleti koridorlarda dolaşıyor ve pencerelerden bakıyor.",
+          "Karanlık odaya gözlerini kısarak baktı.",
+          "Göstergedeki küçük rakamlara dikkatle baktı.",
+          "Çocuklar akranlarının önünde başarısız olmaktan endişe ediyor.",
+          "Genç mühendisler akranlarından çok şey öğrenir."
+        ],
+        "explanation": "Fiil: zorlanarak/dikkatle bakmak (peer at/into/through). İsim: akran, meslektaş (peer review = meslektaş incelemesi)."
+      },
+      {
+        "id": "b2l3d08",
+        "term": "apparition",
+        "pronunciation": "ap-uh-RISH-un",
+        "translation": "hayalet, görüntü",
+        "sentences": [
+          "Guests have reported seeing a female apparition that walks up and down the hall.",
+          "The apparition disappeared when she turned on the light.",
+          "Some workers claimed to see an apparition near the stairs.",
+          "Was it a real person or an apparition?",
+          "The apparition was pausing at certain doors."
+        ],
+        "translations": [
+          "Konuklar koridorda bir aşağı bir yukarı yürüyen bir kadın hayaleti gördüklerini bildirdi.",
+          "Işığı açınca hayalet kayboldu.",
+          "Bazı işçiler merdivenlerin yanında bir hayalet gördüklerini iddia etti.",
+          "Gerçek bir insan mıydı yoksa bir hayalet mi?",
+          "Hayalet belirli kapıların önünde duruyordu."
+        ],
+        "explanation": "Hayalet ya da hayal gibi görünen şey (resmi, edebi). Fiil kökü: appear."
+      },
+      {
+        "id": "b2l3d09",
+        "term": "attic",
+        "pronunciation": "AT-ik",
+        "translation": "çatı katı",
+        "sentences": [
+          "There have been reports of a boy who haunts the attic area.",
+          "We keep old furniture in the attic.",
+          "Strange noises came from the attic at night.",
+          "The attic was full of dust and old toys.",
+          "They turned the attic into a small office."
+        ],
+        "translations": [
+          "Çatı katında dolaşan bir çocukla ilgili bildirimler var.",
+          "Eski mobilyaları çatı katında tutuyoruz.",
+          "Geceleri çatı katından tuhaf sesler geliyordu.",
+          "Çatı katı toz ve eski oyuncaklarla doluydu.",
+          "Çatı katını küçük bir ofise dönüştürdüler."
+        ],
+        "explanation": "Çatının hemen altındaki oda (Türkçede 'tavan arası')."
+      },
+      {
+        "id": "b2l3d10",
+        "term": "faucet / tap",
+        "pronunciation": "FAW-sit / TAP",
+        "translation": "musluk",
+        "sentences": [
+          "The toilets sometimes flush on their own, and the faucets turn on and off by themselves.",
+          "The taps start running by themselves.",
+          "Please turn off the tap after washing your hands.",
+          "The kitchen faucet is leaking.",
+          "We installed a new tap in the site office."
+        ],
+        "translations": [
+          "Tuvaletler bazen kendi kendine sifonu çekiyor ve musluklar kendiliğinden açılıp kapanıyor.",
+          "Musluklar kendi kendine akmaya başlıyor.",
+          "Ellerini yıkadıktan sonra lütfen musluğu kapat.",
+          "Mutfak musluğu damlatıyor.",
+          "Saha ofisine yeni bir musluk taktık."
+        ],
+        "explanation": "Musluk: faucet (Amerikan) = tap (İngiliz). Tesisatta 'tap' aynı zamanda 'boruya branşman almak' anlamında da kullanılır."
+      },
+      {
+        "id": "b2l3d11",
+        "term": "orchard",
+        "pronunciation": "OR-cherd",
+        "translation": "meyve bahçesi",
+        "sentences": [
+          "It was built on an apple orchard which was owned by Bridget Bishop.",
+          "My grandfather had a small cherry orchard.",
+          "We walked through the orchard in spring.",
+          "The orchard produces tons of apples every year.",
+          "Visitors smell apples although the orchard is gone."
+        ],
+        "translations": [
+          "Bridget Bishop'a ait bir elma bahçesinin üzerine inşa edildi.",
+          "Dedemin küçük bir kiraz bahçesi vardı.",
+          "Baharda meyve bahçesinde yürüdük.",
+          "Bahçe her yıl tonlarca elma veriyor.",
+          "Bahçe artık olmasa da ziyaretçiler elma kokusu alıyor."
+        ],
+        "explanation": "Meyve ağaçlarının bulunduğu bahçe (apple orchard, cherry orchard)."
+      },
+      {
+        "id": "b2l3d12",
+        "term": "creepy",
+        "pronunciation": "KREE-pee",
+        "translation": "ürkütücü, tüyler ürpertici",
+        "sentences": [
+          "The inn was very old and a little bit creepy.",
+          "Have you ever experienced something creepy that you can't explain?",
+          "That doll looks really creepy.",
+          "There was a creepy silence in the empty building.",
+          "Walking alone in the forest at night is creepy."
+        ],
+        "translations": [
+          "Han çok eskiydi ve biraz ürkütücüydü.",
+          "Hiç açıklayamadığın ürkütücü bir şey yaşadın mı?",
+          "O oyuncak bebek gerçekten tüyler ürpertici görünüyor.",
+          "Boş binada ürkütücü bir sessizlik vardı.",
+          "Gece ormanda yalnız yürümek ürkütücü."
+        ],
+        "explanation": "Korkutucu, rahatsız edici (gayriresmi). Benzeri: spooky, eerie."
+      },
+      {
+        "id": "b2l3d13",
+        "term": "ruin",
+        "pronunciation": "ROO-in",
+        "translation": "harabe; mahvetmek",
+        "sentences": [
+          "The house which we lived in years ago has now turned into a ruin.",
+          "The rain ruined our holiday.",
+          "The old castle is in ruins.",
+          "One mistake can ruin your reputation.",
+          "We visited the ruins of an ancient city."
+        ],
+        "translations": [
+          "Yıllar önce yaşadığımız ev şimdi bir harabeye dönüştü.",
+          "Yağmur tatilimizi mahvetti.",
+          "Eski kale harabe halinde.",
+          "Tek bir hata itibarını mahvedebilir.",
+          "Antik bir şehrin kalıntılarını ziyaret ettik."
+        ],
+        "explanation": "İsim: harabe, kalıntı (genelde ruins). Fiil: mahvetmek (ruin a plan / holiday)."
+      },
+      {
+        "id": "b2l3d14",
+        "term": "grumpy",
+        "pronunciation": "GRUM-pee",
+        "translation": "huysuz, aksi",
+        "sentences": [
+          "The grumpy old lady came into our room and turned off the light.",
+          "My boss is always grumpy on Monday mornings.",
+          "Don't be so grumpy; it was just a joke.",
+          "He gets grumpy when he is hungry.",
+          "The grumpy receptionist didn't answer our questions."
+        ],
+        "translations": [
+          "Huysuz yaşlı kadın odamıza girdi ve ışığı kapattı.",
+          "Patronum pazartesi sabahları hep huysuzdur.",
+          "Bu kadar huysuzlanma; sadece bir şakaydı.",
+          "Acıkınca huysuzlaşır.",
+          "Aksi resepsiyon görevlisi sorularımıza cevap vermedi."
+        ],
+        "explanation": "Kolayca sinirlenen, aksi (gayriresmi). Linking verb ile: get / become grumpy."
+      },
+      {
+        "id": "b2l3d15",
+        "term": "purchase",
+        "pronunciation": "PUR-chis",
+        "translation": "satın almak; satın alma",
+        "sentences": [
+          "The Ingersoll family purchased the home.",
+          "The house was purchased by another family.",
+          "All purchases must be approved by the manager.",
+          "We purchased new fire pumps for the project.",
+          "Keep the receipt as proof of purchase."
+        ],
+        "translations": [
+          "Ingersoll ailesi evi satın aldı.",
+          "Ev başka bir aile tarafından satın alındı.",
+          "Tüm satın almalar müdür tarafından onaylanmalı.",
+          "Proje için yeni yangın pompaları satın aldık.",
+          "Fişi satın alma kanıtı olarak sakla."
+        ],
+        "explanation": "'buy' kelimesinin resmi hali. İş dilinde: purchase order (PO) = satın alma siparişi."
       }
     ]
   }

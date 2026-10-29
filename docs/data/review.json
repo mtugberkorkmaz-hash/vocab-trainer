@@ -223,6 +223,86 @@
       "correct": "I knew I wanted to marry him the first time I met him.",
       "rule": "Stative verb → past simple.",
       "rule_tr": "know durum fiilidir; geçmişte de continuous olmaz."
+    },
+    {
+      "id": "E29",
+      "page": "Notlar 24.10",
+      "wrong": "I suspicioned my uncle about crimed.",
+      "correct": "I suspected my uncle of the crime.",
+      "rule": "suspicion is a noun; the verb is suspect someone of something.",
+      "rule_tr": "suspicion isimdir; fiil hali suspect: suspect someone of + isim."
+    },
+    {
+      "id": "E30",
+      "page": "Notlar 24.10",
+      "wrong": "We assumed that pass your exam.",
+      "correct": "We assumed that you had passed your exam.",
+      "rule": "assume that + full clause (subject + verb).",
+      "rule_tr": "assume that'ten sonra özne + fiil olan tam bir cümle gelir."
+    },
+    {
+      "id": "E31",
+      "page": "Notlar 24.10",
+      "wrong": "The police detectived him.",
+      "correct": "The police investigated the case.",
+      "rule": "detective is a noun; the verb is investigate.",
+      "rule_tr": "detective isimdir; fiil olarak investigate kullanılır."
+    },
+    {
+      "id": "E32",
+      "page": "Notlar 24.10",
+      "wrong": "They was looking for some cue.",
+      "correct": "They were looking for clues.",
+      "rule": "they → were; clue (ipucu), not cue.",
+      "rule_tr": "they ile were; ipucu = clue (cue = işaret, replik)."
+    },
+    {
+      "id": "E33",
+      "page": "Notlar 24.10",
+      "wrong": "The police arrived the home in 10 minutes.",
+      "correct": "The police arrived at the house in 10 minutes.",
+      "rule": "arrive at / in + place (no direct object).",
+      "rule_tr": "arrive nesne almaz: arrive at + bina, arrive in + şehir."
+    },
+    {
+      "id": "E34",
+      "page": "Notlar 24.10",
+      "wrong": "The alarm hadn't been switch on.",
+      "correct": "The alarm hadn't been switched on.",
+      "rule": "Passive past perfect: had been + V3.",
+      "rule_tr": "Edilgen past perfect: had been + V3."
+    },
+    {
+      "id": "E35",
+      "page": "Notlar 24.10",
+      "wrong": "A neighbour hearded a car at 8:30.",
+      "correct": "A neighbour heard a car at 8:30.",
+      "rule": "hear – heard – heard (irregular).",
+      "rule_tr": "hear düzensizdir: hear – heard – heard."
+    },
+    {
+      "id": "E36",
+      "page": "Notlar 24.10",
+      "wrong": "The old man wanted talk the monster.",
+      "correct": "The old man wanted to talk to the monster.",
+      "rule": "want + to V1; talk to someone.",
+      "rule_tr": "want + to + fiil; talk to + kişi."
+    },
+    {
+      "id": "E37",
+      "page": "Notlar 24.10",
+      "wrong": "Him uncle was shock when he was looking for car keys.",
+      "correct": "His uncle was shocked when he was looking for the car keys.",
+      "rule": "Possessive his; be shocked (adjective -ed).",
+      "rule_tr": "İyelik: his; duygu sıfatı -ed: shocked."
+    },
+    {
+      "id": "E38",
+      "page": "SB 50",
+      "wrong": "Professor Tomero, that teaches a Sociology class, was out sick.",
+      "correct": "Professor Tomero, who teaches a Sociology class, was out sick.",
+      "rule": "No 'that' in non-defining (comma) relative clauses.",
+      "rule_tr": "Virgüllü ilgi cümlesinde that kullanılmaz; who / which kullan."
     }
   ],
   "quiz": [
@@ -477,6 +557,109 @@
       "question": "The police ___ the man at the airport. (took him to the police station)",
       "answers": [
         "arrested"
+      ]
+    },
+    {
+      "id": "Q31",
+      "topic": "Past perfect",
+      "question": "By the time the police arrived, the thief ___ (escape).",
+      "answers": [
+        "had escaped",
+        "had already escaped"
+      ]
+    },
+    {
+      "id": "Q32",
+      "topic": "Past perfect",
+      "question": "When I opened the box, someone ___ (take) the manual.",
+      "answers": [
+        "had taken"
+      ]
+    },
+    {
+      "id": "Q33",
+      "topic": "Past perfect",
+      "question": "The alarm ___ (not / switch on), so nobody noticed. (passive)",
+      "answers": [
+        "hadn't been switched on",
+        "had not been switched on"
+      ]
+    },
+    {
+      "id": "Q34",
+      "topic": "Modals + have + V3",
+      "question": "George isn't in his office. He ___ (leave). (I'm almost sure)",
+      "answers": [
+        "must have left"
+      ]
+    },
+    {
+      "id": "Q35",
+      "topic": "Modals + have + V3",
+      "question": "You ___ (see) Elvis on the street! He's dead.",
+      "answers": [
+        "can't have seen",
+        "couldn't have seen"
+      ]
+    },
+    {
+      "id": "Q36",
+      "topic": "Modals + have + V3",
+      "question": "We're late. We ___ (leave) home earlier. (regret)",
+      "answers": [
+        "should have left",
+        "ought to have left"
+      ]
+    },
+    {
+      "id": "Q37",
+      "topic": "Modals + have + V3",
+      "question": "I don't know why there were no buses. There ___ (be) a strike. (maybe)",
+      "answers": [
+        "might have been",
+        "may have been",
+        "could have been"
+      ]
+    },
+    {
+      "id": "Q38",
+      "topic": "Relative clauses",
+      "question": "The woman ___ is eating ice-cream is my aunt.",
+      "answers": [
+        "who",
+        "that"
+      ]
+    },
+    {
+      "id": "Q39",
+      "topic": "Relative clauses",
+      "question": "This is the site ___ the accident happened.",
+      "answers": [
+        "where"
+      ]
+    },
+    {
+      "id": "Q40",
+      "topic": "Relative clauses",
+      "question": "My friend Tim, ___ mother I wrote about, came with me.",
+      "answers": [
+        "whose"
+      ]
+    },
+    {
+      "id": "Q41",
+      "topic": "Vocabulary 3C",
+      "question": "I ___ my uncle of the crime. (verb of 'suspicion')",
+      "answers": [
+        "suspected"
+      ]
+    },
+    {
+      "id": "Q42",
+      "topic": "Vocabulary 3D",
+      "question": "This room is said to be ___. (visited by ghosts)",
+      "answers": [
+        "haunted"
       ]
     }
   ]

@@ -6,8 +6,9 @@
  * and the answer key can be opened/closed. Test content is deterministic
  * per unit + test number (seeded), option order is re-shuffled on reset. */
 
-const PRACTICE_TESTS_PER_UNIT = 4;
-const PRACTICE_QUOTA = { tr: 10, en: 5, fill: 9, scr: 5, match: 4, gram: 7 };
+const PRACTICE_TESTS_PER_UNIT = 12;
+const PRACTICE_MIX_TESTS = 9;
+const PRACTICE_QUOTA = { A: 15, fill: 9, scr: 5, match: 4, gram: 7 };
 const PRACTICE_SEC = {
   A: 'Kelime çevirisi',
   B: 'Boşluk doldurma',
@@ -62,11 +63,16 @@ function quizUnit(q) {
 }
 
 /* ---------- question pools ---------- */
+// Pools are built once per unit (seeded) and cached; every test slices a
+// different window out of each pool, so 12 tests repeat as little as possible.
+const _poolCache = {};
 function unitPools(u) {
+  if (_poolCache[u.n]) return _poolCache[u.n];
   const r = pRng(pHash('pool' + u.n));
   const words = pShuffle(unitWords(u), r);
-  const P = { tr: [], en: [], fill: [], scr: [], match: [], gram: [] };
+  const P = { A: [], fill: [], scr: [], gram: [], words };
   const nWords = (t) => t.split(/\s+/).length;
+  const ex = (w, i) => ({ en: w.sentences[i], tr: w.translations ? w.translations[i] : '' });
   function distractors(w, field) {
     const others = words.filter((x) => x.id !== w.id && x[field] !== w[field]);
     const same = others.filter((x) => nWords(x.term) === nWords(w.term));
@@ -78,47 +84,54 @@ function unitPools(u) {
   words.forEach((w) => {
     const d = distractors(w, 'translation');
     if (d.length === 3) {
-      P.tr.push({ id: 'tr:' + w.id, type: 'mcq', sec: 'A', word: w, prompt: `<b>${escapeHtml(w.term)}</b> ne demek?`, o: [w.translation].concat(d.map((x) => x.translation)), e: w.sentences[0] });
-      P.en.push({ id: 'en:' + w.id, type: 'mcq', sec: 'A', word: w, prompt: `“${escapeHtml(w.translation)}” — İngilizcesi hangisi?`, o: [w.term].concat(d.map((x) => x.term)), e: w.sentences[0] });
+      P.A.push({ id: 'tr:' + w.id, type: 'mcq', sec: 'A', word: w, prompt: `<b>${escapeHtml(w.term)}</b> ne demek?`, o: [w.translation].concat(d.map((x) => x.translation)), ex: ex(w, 0) });
+      const d1 = distractors(w, 'translation');
+      P.A.push({ id: 'en:' + w.id, type: 'mcq', sec: 'A', word: w, prompt: `“${escapeHtml(w.translation)}” — İngilizcesi hangisi?`, o: [w.term].concat(d1.map((x) => x.term)), ex: ex(w, 1 % w.sentences.length) });
     }
-    const order = pShuffle(w.sentences.map((_, i) => i), r);
-    for (const i of order) {
-      const b = buildBlank(w.term, w.sentences[i]);
-      if (b.endsWith(' (_____)') || b.indexOf('_____') < 0) continue;
-      const d2 = distractors(w, 'term');
-      if (d2.length === 3) {
-        P.fill.push({ id: 'fi:' + w.id, type: 'mcq', sec: 'B', word: w, prompt: escapeHtml(b).replace('_____', BLANK), o: [w.term].concat(d2.map((x) => x.term)), e: w.translations ? w.translations[i] : '' });
+    w.sentences.forEach((s, i) => {
+      const b = buildBlank(w.term, s);
+      if (!(b.endsWith(' (_____)') || b.indexOf('_____') < 0)) {
+        const d2 = distractors(w, 'term');
+        if (d2.length === 3) P.fill.push({ id: `fi:${w.id}:${i}`, type: 'mcq', sec: 'B', word: w, prompt: escapeHtml(b).replace('_____', BLANK), o: [w.term].concat(d2.map((x) => x.term)), ex: ex(w, i) });
       }
-      break;
-    }
-    for (const i of order) {
-      const n = nWords(w.sentences[i]);
-      if (n >= 5 && n <= 12) { P.scr.push({ id: 'sc:' + w.id, type: 'scr', sec: 'C', word: w, sentence: w.sentences[i], tr: w.translations ? w.translations[i] : '' }); break; }
-    }
+      const n = nWords(s);
+      if (n >= 5 && n <= 13) P.scr.push({ id: `sc:${w.id}:${i}`, type: 'scr', sec: 'C', word: w, sentence: s, tr: ex(w, i).tr });
+    });
   });
-  for (let i = 0; i + 5 <= words.length; i += 5) {
-    P.match.push({ id: 'mt:' + i, type: 'match', sec: 'D', pairs: words.slice(i, i + 5).map((w) => [w.term, w.translation]) });
-  }
+  P.A = pShuffle(P.A, r); P.fill = pShuffle(P.fill, r); P.scr = pShuffle(P.scr, r);
   const keys = Data.grammar.topics.filter((t) => t.units.includes(u.n)).map((t) => t.key);
   Data.grammar.bank.filter((b) => keys.includes(b.topic)).forEach((b) => P.gram.push(bankItem(b)));
   P.gram = P.gram.concat(typedItems((q) => quizUnit(q).includes(u.n)));
   P.gram = pShuffle(P.gram, r);
+  _poolCache[u.n] = P;
   return P;
 }
 
 function buildUnitTest(u, t) {
   const P = unitPools(u);
   const chosen = []; const used = new Set();
+  const usedWords = {}; // keep the same word from appearing in too many sections
   Object.keys(PRACTICE_QUOTA).forEach((k) => {
-    const arr = P[k]; const q = PRACTICE_QUOTA[k]; const n = arr.length;
+    const q = PRACTICE_QUOTA[k];
+    if (k === 'match') {
+      // fresh 5-word groups for every test
+      const ws = pShuffle(P.words, pRng(pHash('match' + u.n + ':' + t)));
+      for (let g = 0; g < q && (g + 1) * 5 <= ws.length; g++) {
+        chosen.push({ id: `mt:${t}:${g}`, type: 'match', sec: 'D', pairs: ws.slice(g * 5, g * 5 + 5).map((w) => [w.term, w.translation]) });
+      }
+      return;
+    }
+    const arr = P[k]; const n = arr.length;
     let c = 0;
     for (let i = 0; n && c < q && i < n; i++) {
       const x = arr[(t * q + i) % n];
-      if (used.has(x.id)) continue; used.add(x.id); chosen.push(x); c++;
+      if (used.has(x.id)) continue;
+      if (x.word && usedWords[x.word.id] && i < n - q) continue;
+      used.add(x.id); if (x.word) usedWords[x.word.id] = 1; chosen.push(x); c++;
     }
   });
   if (chosen.length < 40) {
-    const rest = [].concat(P.gram, P.fill, P.tr, P.en, P.scr).filter((x) => !used.has(x.id));
+    const rest = [].concat(P.gram, P.fill, P.A, P.scr).filter((x) => !used.has(x.id));
     for (const x of pShuffle(rest, pRng(pHash('pad' + u.n + t)))) { if (chosen.length >= 40) break; used.add(x.id); chosen.push(x); }
   }
   chosen.sort((a, b) => a.sec.localeCompare(b.sec));
@@ -130,7 +143,7 @@ function buildGrammarTest(kind) {
     return pShuffle(Data.review.corrections, pRng(pHash('err'))).map((c) => ({
       id: c.id, type: 'reveal', sec: 'E',
       prompt: `<span class="p-tag">${escapeHtml(c.page || c.id)}</span> Hatalı cümleyi düzelt:<br><b>${escapeHtml(c.wrong)}</b>`,
-      a: c.correct, e: c.rule_tr || c.rule,
+      a: c.correct, e: c.rule || c.rule_tr, etr: c.rule && c.rule_tr ? c.rule_tr : '',
     }));
   }
   if (kind.startsWith('mix:')) {
@@ -138,7 +151,7 @@ function buildGrammarTest(kind) {
     const all = Data.grammar.bank.map(bankItem).concat(typedItems((q) => !!quizTopicKey(q)));
     const sh = pShuffle(all, pRng(pHash('gmix')));
     const out = []; const seen = new Set();
-    for (let i = 0; i < 40 && i < sh.length; i++) { const x = sh[(k * 40 + i) % sh.length]; if (!seen.has(x.id)) { seen.add(x.id); out.push(x); } }
+    for (let i = 0; out.length < 40 && i < sh.length; i++) { const x = sh[(k * 40 + i) % sh.length]; if (!seen.has(x.id)) { seen.add(x.id); out.push(x); } }
     return out;
   }
   const key = kind.slice(6); // topic:KEY
@@ -173,7 +186,7 @@ function renderPracticeHub() {
       <div class="p-tests">${tests}</div>
     </div>`;
   }).join('');
-  const mix = [0, 1, 2].map((k) => `<button class="p-testbtn" data-kind="mix:${k}"><span>Karma ${k + 1}</span>${bestBadge('mix:' + k)}</button>`).join('');
+  const mix = Array.from({ length: PRACTICE_MIX_TESTS }, (_, k) => k).map((k) => `<button class="p-testbtn" data-kind="mix:${k}"><span>Karma ${k + 1}</span>${bestBadge('mix:' + k)}</button>`).join('');
   mount(`
     <p class="lead">Her test 40 soru: kelime çevirisi, boşluk doldurma, cümle kurma, eşleştirme ve gramer. Cevaplar anında renklenir; cevap anahtarını üst çubuktan açıp kapatabilirsin.</p>
     <div class="section-title">Ünite testleri</div>
@@ -206,7 +219,7 @@ function renderGrammarHub() {
       const n = buildGrammarTest('topic:' + t.key).length;
       return listRow('topic:' + t.key, null, t.title, g ? g.formula : '', `${n} soru`, bestBadge('topic:' + t.key));
     }).join('')}</div>`).join('');
-  const mix = [0, 1, 2].map((k) => `<button class="p-testbtn" data-kind="mix:${k}"><span>Karma ${k + 1}</span>${bestBadge('mix:' + k)}</button>`).join('');
+  const mix = Array.from({ length: PRACTICE_MIX_TESTS }, (_, k) => k).map((k) => `<button class="p-testbtn" data-kind="mix:${k}"><span>Karma ${k + 1}</span>${bestBadge('mix:' + k)}</button>`).join('');
   mount(`
     <div class="list-group">
       ${listRow('err', 'pencil', 'Hata Düzeltme Testi', `${Data.review.corrections.length} hatalı cümle — tek sayfada, cevap anahtarlı`)}
@@ -280,7 +293,26 @@ function renderPracticeTest(params) {
     <div id="p-body"></div>
     <button id="p-fin2" class="btn btn-primary btn-block" style="margin-top:18px">Sonucu göster</button>
     <button id="p-reset" class="btn btn-outline btn-block" style="margin-top:10px">Sıfırla ve baştan çöz</button>
+    <div class="p-float">
+      <button id="p-prev" type="button" aria-label="Önceki soru">${icon('back', 18)}</button>
+      <button id="p-top" type="button">Başa dön</button>
+      <button id="p-next" type="button">Sonraki boş soru ${icon('chevronRight', 16)}</button>
+    </div>
   `);
+  // Floating nav: previous question / top / next unanswered one.
+  const headOffset = () => document.getElementById('app-bar').offsetHeight + (document.querySelector('.p-bar') || { offsetHeight: 0 }).offsetHeight + 16;
+  const goTo = (el) => window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - headOffset(), behavior: 'smooth' });
+  $('#p-top').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  $('#p-next').addEventListener('click', () => {
+    const all = $all('.p-q'); const y = headOffset() + 4;
+    const next = all.find((q) => !q.classList.contains('done') && q.getBoundingClientRect().top > y) || all.find((q) => !q.classList.contains('done'));
+    if (next) goTo(next); else finish();
+  });
+  $('#p-prev').addEventListener('click', () => {
+    const all = $all('.p-q'); const y = headOffset() - 4;
+    const prev = all.filter((q) => q.getBoundingClientRect().top < y).pop();
+    if (prev) goTo(prev); else window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
   const body = $('#p-body');
   const r = pRng((Date.now() >>> 0) ^ pHash(kind));
   const keys = [];
@@ -331,6 +363,10 @@ function renderPracticeTest(params) {
   upd();
 }
 
+function exampleHtml(x) {
+  return `<span class="p-ex-en">${escapeHtml(x.en)}</span>${x.tr ? `<span class="tr-only p-ex-tr">${escapeHtml(x.tr)}</span>` : ''}`;
+}
+
 function addFeedback(q, html, ok) {
   q.insertAdjacentHTML('beforeend', `<div class="p-fb ${ok == null ? '' : ok ? 'ok' : 'bad'}">${html}</div>`);
 }
@@ -353,7 +389,8 @@ function buildQuestion(q, it, r, mark) {
           else x.classList.add('dim');
         });
         mark(q, ok ? 1 : 0, it.word);
-        if (it.e) addFeedback(q, escapeHtml(it.e));
+        if (it.ex) addFeedback(q, exampleHtml(it.ex));
+        else if (it.e) addFeedback(q, escapeHtml(it.e));
       });
       box.appendChild(b);
     });
@@ -381,7 +418,7 @@ function buildQuestion(q, it, r, mark) {
     const show = q.querySelector('.p-reveal');
     show.addEventListener('click', () => {
       show.remove();
-      addFeedback(q, `<b>${escapeHtml(it.a)}</b>${it.e ? `<br><small>${escapeHtml(it.e)}</small>` : ''}`, true);
+      addFeedback(q, `<b>${escapeHtml(it.a)}</b>${it.e ? `<br><small>${escapeHtml(it.e)}</small>` : ''}${it.etr ? `<small class="tr-only"><br>${escapeHtml(it.etr)}</small>` : ''}`, true);
       q.insertAdjacentHTML('beforeend', `<div class="btn-row" style="margin-top:10px"><button class="btn btn-danger" type="button">${icon('close', 16)} Bilemedim</button><button class="btn btn-success" type="button">${icon('check', 16)} Bildim</button></div>`);
       const row = q.lastElementChild;
       row.children[0].addEventListener('click', () => { mark(q, 0); row.remove(); });
@@ -392,7 +429,7 @@ function buildQuestion(q, it, r, mark) {
   if (it.type === 'scr') {
     const toks = it.sentence.split(/\s+/);
     const disp = toks.map((t, i) => (i === 0 && !/^I($|['’])/.test(t) ? t.charAt(0).toLowerCase() + t.slice(1) : t));
-    q.insertAdjacentHTML('beforeend', `${it.tr ? `<div class="p-hint">${escapeHtml(it.tr)}</div>` : ''}<div class="p-built"></div><div class="p-pool"></div>`);
+    q.insertAdjacentHTML('beforeend', `${it.tr ? `<div class="p-hint tr-only">${escapeHtml(it.tr)}</div>` : ''}<div class="p-built"></div><div class="p-pool"></div>`);
     const built = q.querySelector('.p-built'); const pool = q.querySelector('.p-pool');
     const chosen = [];
     const nf = (s) => s.toLowerCase().replace(/[.,!?;:"“”]/g, '').replace(/\s+/g, ' ').trim();

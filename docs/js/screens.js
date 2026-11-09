@@ -66,7 +66,7 @@ function renderSummary(opts) {
 
 /* ---------- Main menu ---------- */
 function renderMenu() {
-  setHeader('Kelime Antrenörü');
+  setHeader('EN/TR MTK');
   const stats = Storage.getStats();
   const weakN = Storage.getWeakPool().length;
   const nLessonWords = Data.byCategory('lessons').length;
@@ -529,9 +529,10 @@ function renderLessonList() {
     const rows = u.lessons.slice().reverse().map((l) =>
       listRow('l:' + l.id, null, `${l.code} · ${l.title}`, l.grammar ? l.grammar.title : '', (l.words || []).length)).join('');
     const tests = Array.from({ length: PRACTICE_TESTS_PER_UNIT }, (_, t) =>
-      `<button class="p-testbtn" data-kind="unit:${u.n}:${t}"><span>Test ${t + 1}</span>${bestBadge(`unit:${u.n}:${t}`)}</button>`).join('');
+      `<button class="p-testbtn" data-kind="unit:${u.n}:${t}"><span>${t + 1}</span>${bestBadge(`unit:${u.n}:${t}`)}</button>`).join('');
     return `<div class="section-title" lang="en">Unit ${u.n}</div>
       <div class="list-group">${rows}</div>
+      <div class="mini-label">Unit ${u.n} testleri · 40'ar soru</div>
       <div class="p-tests p-tests-mini">${tests}</div>`;
   }).join('');
   mount(`${html}

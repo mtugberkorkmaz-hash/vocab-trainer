@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
-<title>Kelime Antrenörü</title>
+<title>EN/TR MTK</title>
 <meta name="description" content="Mühendislik, toplantı ve günlük İngilizce için offline kelime antrenörü">
 <meta name="theme-color" content="#F4F7F8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#11171B" media="(prefers-color-scheme: dark)">
@@ -12,17 +12,24 @@
 <link rel="icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Kelime Antrenörü">
+<meta name="apple-mobile-web-app-title" content="EN/TR MTK">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header id="app-bar">
-  <button id="btn-back" class="iconbtn" type="button" aria-label="Geri" hidden></button>
-  <h1 id="header-title">Kelime Antrenörü</h1>
-  <button id="btn-home" class="iconbtn" type="button" aria-label="Ana menü" hidden></button>
-  <button id="btn-translate" class="chip" type="button" aria-label="Türkçe çeviriyi göster/gizle">TR</button>
+  <div class="bar-side bar-left">
+    <button id="btn-back" class="navbtn" type="button" aria-label="Geri" hidden></button>
+  </div>
+  <h1 id="header-title">EN/TR MTK</h1>
+  <div class="bar-side bar-right">
+    <button id="btn-home" class="iconbtn" type="button" aria-label="Ana menü" hidden></button>
+    <button id="btn-translate" class="tr-toggle" type="button" role="switch" aria-checked="true" aria-label="Türkçe çeviriler">
+      <span class="tr-label">TR</span><span class="tr-track"><span class="tr-knob"></span></span>
+    </button>
+  </div>
 </header>
 <main id="screen" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
 
 <script src="js/icons.js"></script>
 <script src="js/storage.js"></script>

@@ -1436,6 +1436,2502 @@
         "would rain"
       ],
       "e": ""
+    },
+    {
+      "id": "G107",
+      "topic": "PPC",
+      "q": "I'm exhausted. I ___ since six o'clock.",
+      "o": [
+        "have been driving",
+        "drove",
+        "drive",
+        "am driving"
+      ],
+      "e": "since + hâlâ süren yorgunluk → PPC."
+    },
+    {
+      "id": "G108",
+      "topic": "PPC",
+      "q": "You're out of breath! ___?",
+      "o": [
+        "Have you been running",
+        "Did you run",
+        "Do you run",
+        "Are you run"
+      ],
+      "e": "Şimdi görülen iz (nefes nefese) → PPC."
+    },
+    {
+      "id": "G109",
+      "topic": "PPC",
+      "q": "We ___ for the permit for three weeks and it still hasn't arrived.",
+      "o": [
+        "have been waiting",
+        "waited",
+        "wait",
+        "are waiting"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G110",
+      "topic": "PPC",
+      "q": "How long has she ___ at this company?",
+      "o": [
+        "been working",
+        "work",
+        "worked",
+        "working"
+      ],
+      "e": "has + been + V-ing."
+    },
+    {
+      "id": "G111",
+      "topic": "PPC",
+      "q": "The technicians ___ the valves all morning.",
+      "o": [
+        "have been testing",
+        "are tested",
+        "tests",
+        "have test"
+      ],
+      "e": "all morning → süreç."
+    },
+    {
+      "id": "G112",
+      "topic": "PPC",
+      "q": "Which time expression fits the Present Perfect Continuous best?",
+      "o": [
+        "for two hours",
+        "yesterday",
+        "two days ago",
+        "in 2019"
+      ],
+      "e": "PPC: for/since/all day; ago ve bitmiş zaman ifadeleri past simple ister."
+    },
+    {
+      "id": "G113",
+      "topic": "PPC",
+      "q": "My hands are dirty because I ___ the car.",
+      "o": [
+        "have been repairing",
+        "repair",
+        "was repair",
+        "am repaired"
+      ],
+      "e": "Sonucu görülen süreç."
+    },
+    {
+      "id": "G114",
+      "topic": "PPC",
+      "q": "He ___ English since he moved to London.",
+      "o": [
+        "has been learning",
+        "learns",
+        "is learning",
+        "learn"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G115",
+      "topic": "PPC",
+      "q": "Sorry I'm late. ___ long?",
+      "o": [
+        "Have you been waiting",
+        "Did you wait",
+        "Are you waiting",
+        "Do you wait"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G116",
+      "topic": "PPC",
+      "q": "Prices ___ steadily for months.",
+      "o": [
+        "have been rising",
+        "are rise",
+        "rising",
+        "rise"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G117",
+      "topic": "PPC",
+      "q": "She ___ well lately; she looks tired.",
+      "o": [
+        "hasn't been sleeping",
+        "didn't sleep",
+        "doesn't sleep",
+        "isn't sleep"
+      ],
+      "e": "Olumsuz: hasn't been + V-ing."
+    },
+    {
+      "id": "G118",
+      "topic": "PPC",
+      "q": "Correct the sentence: 'I have been knowing him for years.'",
+      "o": [
+        "I have known him for years.",
+        "I knew him for years.",
+        "I am knowing him for years.",
+        "I know him since years."
+      ],
+      "e": "know durum fiili → PPS."
+    },
+    {
+      "id": "G119",
+      "topic": "PPC",
+      "q": "It's been raining ___ Monday.",
+      "o": [
+        "since",
+        "for",
+        "ago",
+        "from"
+      ],
+      "e": "since + başlangıç noktası."
+    },
+    {
+      "id": "G120",
+      "topic": "PPC",
+      "q": "They have been arguing ___ hours.",
+      "o": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "e": "for + süre."
+    },
+    {
+      "id": "G121",
+      "topic": "PPC",
+      "q": "What ___ lately? You look great!",
+      "o": [
+        "have you been doing",
+        "did you do",
+        "do you do",
+        "are you do"
+      ],
+      "e": "lately/recently → PPC."
+    },
+    {
+      "id": "G122",
+      "topic": "PPC",
+      "q": "The engine ___ strange noises recently.",
+      "o": [
+        "has been making",
+        "makes",
+        "make",
+        "is make"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G123",
+      "topic": "PPS",
+      "q": "She ___ three emails this morning.",
+      "o": [
+        "has sent",
+        "has been sending",
+        "sends",
+        "is sending"
+      ],
+      "e": "Sayı → PPS."
+    },
+    {
+      "id": "G124",
+      "topic": "PPS",
+      "q": "I ___ the book. Here it is back.",
+      "o": [
+        "have finished",
+        "have been finishing",
+        "finish",
+        "am finishing"
+      ],
+      "e": "Tamamlanmış sonuç."
+    },
+    {
+      "id": "G125",
+      "topic": "PPS",
+      "q": "They ___ married for ten years.",
+      "o": [
+        "have been",
+        "have been being",
+        "are",
+        "were being"
+      ],
+      "e": "be durum fiili: have been married."
+    },
+    {
+      "id": "G126",
+      "topic": "PPS",
+      "q": "Have you ever ___ to Japan?",
+      "o": [
+        "been",
+        "being",
+        "be",
+        "was"
+      ],
+      "e": "Deneyim: Have you ever been…?"
+    },
+    {
+      "id": "G127",
+      "topic": "PPS",
+      "q": "We ___ the report yet.",
+      "o": [
+        "haven't finished",
+        "haven't been finishing",
+        "don't finish",
+        "didn't finished"
+      ],
+      "e": "yet → PPS."
+    },
+    {
+      "id": "G128",
+      "topic": "PPS",
+      "q": "I ___ for hours, but I've only written two pages.",
+      "o": [
+        "have been writing",
+        "have written",
+        "write",
+        "wrote"
+      ],
+      "e": "Süreç vurgusu (sonuç az) → PPC."
+    },
+    {
+      "id": "G129",
+      "topic": "PPS",
+      "q": "He has just ___ the office.",
+      "o": [
+        "left",
+        "leaving",
+        "leave",
+        "been leaving"
+      ],
+      "e": "just + V3."
+    },
+    {
+      "id": "G130",
+      "topic": "PPS",
+      "q": "How long ___ each other?",
+      "o": [
+        "have you known",
+        "have you been knowing",
+        "do you know",
+        "are you knowing"
+      ],
+      "e": "know → continuous olmaz."
+    },
+    {
+      "id": "G131",
+      "topic": "PPS",
+      "q": "She has ___ the house all day; she's covered in paint.",
+      "o": [
+        "been painting",
+        "painted",
+        "paint",
+        "painting"
+      ],
+      "e": "all day + iz → PPC."
+    },
+    {
+      "id": "G132",
+      "topic": "PPS",
+      "q": "The client ___ the drawings twice.",
+      "o": [
+        "has rejected",
+        "has been rejecting",
+        "rejects",
+        "is rejecting"
+      ],
+      "e": "twice = sayı → PPS."
+    },
+    {
+      "id": "G133",
+      "topic": "PPS",
+      "q": "Someone ___ the window. There's glass everywhere.",
+      "o": [
+        "has broken",
+        "has been breaking",
+        "breaks",
+        "is breaking"
+      ],
+      "e": "Tek seferlik olay + şimdiki sonuç."
+    },
+    {
+      "id": "G134",
+      "topic": "PPS",
+      "q": "Which sentence focuses on the RESULT?",
+      "o": [
+        "I've read three chapters.",
+        "I've been reading all afternoon.",
+        "I've been reading for hours.",
+        "I've been reading since lunch."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G135",
+      "topic": "PPS",
+      "q": "Which sentence focuses on the ACTIVITY / duration?",
+      "o": [
+        "I've been cleaning the kitchen all morning.",
+        "I've cleaned the kitchen.",
+        "I've cleaned two rooms.",
+        "I've just cleaned it."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G136",
+      "topic": "PPS",
+      "q": "She ___ to the gym a lot recently — she looks fit.",
+      "o": [
+        "has been going",
+        "go",
+        "is go",
+        "going"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G137",
+      "topic": "PPS",
+      "q": "This is the best coffee I ___.",
+      "o": [
+        "have ever tasted",
+        "have ever been tasting",
+        "ever taste",
+        "am ever tasting"
+      ],
+      "e": "Superlative + ever → PPS."
+    },
+    {
+      "id": "G138",
+      "topic": "PPS",
+      "q": "We ___ any problems with the pump so far.",
+      "o": [
+        "haven't had",
+        "haven't been having",
+        "don't have",
+        "didn't had"
+      ],
+      "e": "so far → PPS."
+    },
+    {
+      "id": "G139",
+      "topic": "COND12",
+      "q": "If you ___ me tomorrow, I'll help you.",
+      "o": [
+        "call",
+        "will call",
+        "called",
+        "would call"
+      ],
+      "e": "1. tip: if + present."
+    },
+    {
+      "id": "G140",
+      "topic": "COND12",
+      "q": "If I knew her number, I ___ her.",
+      "o": [
+        "would call",
+        "will call",
+        "call",
+        "called"
+      ],
+      "e": "2. tip: would + V1."
+    },
+    {
+      "id": "G141",
+      "topic": "COND12",
+      "q": "She ___ angry if you forget her birthday.",
+      "o": [
+        "will be",
+        "would be",
+        "is being",
+        "were"
+      ],
+      "e": "1. tip."
+    },
+    {
+      "id": "G142",
+      "topic": "COND12",
+      "q": "If we ___ a bigger budget, we could hire more welders.",
+      "o": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "e": "2. tip: if + past simple."
+    },
+    {
+      "id": "G143",
+      "topic": "COND12",
+      "q": "What will you do if the shipment ___ late?",
+      "o": [
+        "arrives",
+        "will arrive",
+        "arrived",
+        "would arrive"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G144",
+      "topic": "COND12",
+      "q": "If he ___ more careful, he wouldn't make so many mistakes.",
+      "o": [
+        "were",
+        "is",
+        "will be",
+        "would be"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G145",
+      "topic": "COND12",
+      "q": "I'll lend you the car ___ you drive carefully.",
+      "o": [
+        "as long as",
+        "unless",
+        "even",
+        "although"
+      ],
+      "e": "as long as = …dığı sürece."
+    },
+    {
+      "id": "G146",
+      "topic": "COND12",
+      "q": "If it ___ tomorrow, the concrete pour will be postponed.",
+      "o": [
+        "rains",
+        "will rain",
+        "rained",
+        "would rain"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G147",
+      "topic": "COND12",
+      "q": "Which is a FIRST conditional?",
+      "o": [
+        "If you study, you will pass.",
+        "If you studied, you would pass.",
+        "If you had studied, you would have passed.",
+        "If you heat ice, it melts."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G148",
+      "topic": "COND12",
+      "q": "If I were rich, I ___ work.",
+      "o": [
+        "wouldn't",
+        "won't",
+        "don't",
+        "didn't"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G149",
+      "topic": "COND12",
+      "q": "She would travel more if she ___ afraid of flying.",
+      "o": [
+        "weren't",
+        "isn't",
+        "won't be",
+        "wouldn't be"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G150",
+      "topic": "COND12",
+      "q": "Unless you ___ now, you'll be late.",
+      "o": [
+        "leave",
+        "don't leave",
+        "will leave",
+        "left"
+      ],
+      "e": "unless zaten olumsuz anlam taşır."
+    },
+    {
+      "id": "G151",
+      "topic": "COND12",
+      "q": "If the client ___ the price, we will start production.",
+      "o": [
+        "accepts",
+        "will accept",
+        "accepted",
+        "would accept"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G152",
+      "topic": "COND12",
+      "q": "If I ___ choose a superpower, I would choose invisibility.",
+      "o": [
+        "could",
+        "can",
+        "will",
+        "would"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G153",
+      "topic": "COND12",
+      "q": "If you don't water the plants, they ___.",
+      "o": [
+        "will die",
+        "would die",
+        "die would",
+        "dying"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G154",
+      "topic": "COND12",
+      "q": "If I won a trip abroad, I ___ to Japan.",
+      "o": [
+        "would go",
+        "will go",
+        "go",
+        "went"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G155",
+      "topic": "FC",
+      "q": "At 9 p.m. tonight I ___ my favourite series.",
+      "o": [
+        "will be watching",
+        "watched",
+        "have watched",
+        "am watched"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G156",
+      "topic": "FC",
+      "q": "Don't phone me between 7 and 8; I ___ the kids to bed.",
+      "o": [
+        "will be putting",
+        "put",
+        "have put",
+        "am put"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G157",
+      "topic": "FC",
+      "q": "In ten years, we ___ in a smart city.",
+      "o": [
+        "will be living",
+        "lived",
+        "have lived",
+        "are live"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G158",
+      "topic": "FC",
+      "q": "This time next month, she ___ for the new company.",
+      "o": [
+        "will be working",
+        "worked",
+        "has worked",
+        "works"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G159",
+      "topic": "FC",
+      "q": "Will you be ___ the meeting tomorrow?",
+      "o": [
+        "attending",
+        "attend",
+        "attended",
+        "to attend"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G160",
+      "topic": "FC",
+      "q": "They won't be ___ at the office on Friday.",
+      "o": [
+        "working",
+        "work",
+        "worked",
+        "works"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G161",
+      "topic": "FC",
+      "q": "Tomorrow at noon, the crane ___ the steel beams.",
+      "o": [
+        "will be lifting",
+        "lifted",
+        "has lifted",
+        "lifts"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G162",
+      "topic": "FC",
+      "q": "Which sentence is in the Future Continuous?",
+      "o": [
+        "I will be travelling at 5 p.m.",
+        "I will travel.",
+        "I travelled.",
+        "I have travelled."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G163",
+      "topic": "FC",
+      "q": "When you arrive, I ___ for you at the gate.",
+      "o": [
+        "will be waiting",
+        "waited",
+        "have waited",
+        "wait"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G164",
+      "topic": "FC",
+      "q": "The negative form of the Future Continuous is:",
+      "o": [
+        "won't be + V-ing",
+        "will not + V-ing",
+        "won't + V3",
+        "not will be + V-ing"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G165",
+      "topic": "FC",
+      "q": "By 2030, people ___ electric cars everywhere.",
+      "o": [
+        "will be driving",
+        "drove",
+        "have driven",
+        "drives"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G166",
+      "topic": "FC",
+      "q": "I can't meet at 3; I ___ a client then.",
+      "o": [
+        "will be visiting",
+        "visited",
+        "have visited",
+        "visit"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G167",
+      "topic": "FC",
+      "q": "Will you be ___ the printer later? I need it.",
+      "o": [
+        "using",
+        "use",
+        "used",
+        "uses"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G168",
+      "topic": "FC",
+      "q": "Next week at this time, we ___ on the beach in Antalya.",
+      "o": [
+        "will be relaxing",
+        "relaxed",
+        "have relaxed",
+        "relaxes"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G169",
+      "topic": "FC",
+      "q": "This time tomorrow, the team ___ the new pipeline.",
+      "o": [
+        "will be inspecting",
+        "inspected",
+        "has inspected",
+        "inspects"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G170",
+      "topic": "FC",
+      "q": "Don't worry, I ___ about you all the time.",
+      "o": [
+        "will be thinking",
+        "thought",
+        "have thought",
+        "thinks"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G171",
+      "topic": "MODR",
+      "q": "Visitors ___ enter the plant without a permit.",
+      "o": [
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "might"
+      ],
+      "e": "Yasak → mustn't."
+    },
+    {
+      "id": "G172",
+      "topic": "MODR",
+      "q": "You ___ come to the meeting; it's optional.",
+      "o": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "must"
+      ],
+      "e": "Gerek yok → don't have to."
+    },
+    {
+      "id": "G173",
+      "topic": "MODR",
+      "q": "I ___ swim when I was six.",
+      "o": [
+        "could",
+        "can",
+        "must",
+        "should"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G174",
+      "topic": "MODR",
+      "q": "___ you help me with this report, please?",
+      "o": [
+        "Could",
+        "Must",
+        "Should",
+        "Need"
+      ],
+      "e": "Kibar rica → Could you…?"
+    },
+    {
+      "id": "G175",
+      "topic": "MODR",
+      "q": "You ___ try the new restaurant; it's excellent.",
+      "o": [
+        "should",
+        "mustn't",
+        "needn't",
+        "can't"
+      ],
+      "e": "Tavsiye."
+    },
+    {
+      "id": "G176",
+      "topic": "MODR",
+      "q": "The keys ___ be in the car; I'm not sure.",
+      "o": [
+        "might",
+        "must",
+        "have to",
+        "should to"
+      ],
+      "e": "Emin değil → might."
+    },
+    {
+      "id": "G177",
+      "topic": "MODR",
+      "q": "He ___ be tired; he's been working for 14 hours.",
+      "o": [
+        "must",
+        "can't",
+        "mustn't",
+        "needn't"
+      ],
+      "e": "Güçlü çıkarım."
+    },
+    {
+      "id": "G178",
+      "topic": "MODR",
+      "q": "That ___ be John; he's in Paris this week.",
+      "o": [
+        "can't",
+        "must",
+        "should",
+        "has to"
+      ],
+      "e": "Olanaksız → can't."
+    },
+    {
+      "id": "G179",
+      "topic": "MODR",
+      "q": "Employees ___ wear ID cards at all times.",
+      "o": [
+        "have to",
+        "don't have to",
+        "might",
+        "could"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G180",
+      "topic": "MODR",
+      "q": "You ___ pay now; you can pay later.",
+      "o": [
+        "needn't",
+        "mustn't",
+        "must",
+        "can't"
+      ],
+      "e": "needn't = gerek yok."
+    },
+    {
+      "id": "G181",
+      "topic": "MODR",
+      "q": "Will I ___ work on Saturday?",
+      "o": [
+        "have to",
+        "must",
+        "must to",
+        "should to"
+      ],
+      "e": "must'ın gelecek/soru hali: will have to."
+    },
+    {
+      "id": "G182",
+      "topic": "MODR",
+      "q": "Sorry, you ___ park here. It's a fire lane.",
+      "o": [
+        "can't",
+        "don't have to",
+        "needn't",
+        "might not"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G183",
+      "topic": "MODR",
+      "q": "She ___ speak French fluently; she lived in Paris for years.",
+      "o": [
+        "can",
+        "must to",
+        "should",
+        "needs"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G184",
+      "topic": "MODR",
+      "q": "We ___ leave early tomorrow, so let's go to bed.",
+      "o": [
+        "have to",
+        "can",
+        "might to",
+        "ought"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G185",
+      "topic": "MODR",
+      "q": "It ___ snow tonight; the sky is grey.",
+      "o": [
+        "may",
+        "must to",
+        "can't",
+        "should to"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G186",
+      "topic": "MODR",
+      "q": "Which sentence gives ADVICE?",
+      "o": [
+        "You should rest.",
+        "You must not rest.",
+        "You can rest.",
+        "You might rest."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G187",
+      "topic": "MODH",
+      "q": "She looks upset. She ___ some bad news.",
+      "o": [
+        "must have received",
+        "can't have received",
+        "should have received",
+        "needn't have received"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G188",
+      "topic": "MODH",
+      "q": "He ___ the email; he replied within minutes.",
+      "o": [
+        "must have read",
+        "can't have read",
+        "shouldn't have read",
+        "needn't read"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G189",
+      "topic": "MODH",
+      "q": "I ___ more carefully. I made a big mistake.",
+      "o": [
+        "should have checked",
+        "must have checked",
+        "can't have checked",
+        "might check"
+      ],
+      "e": "Pişmanlık."
+    },
+    {
+      "id": "G190",
+      "topic": "MODH",
+      "q": "They ___ lost; they have a GPS.",
+      "o": [
+        "can't have got",
+        "must have got",
+        "should have got",
+        "might get"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G191",
+      "topic": "MODH",
+      "q": "We ___ so much food; nobody was hungry.",
+      "o": [
+        "needn't have cooked",
+        "mustn't have cooked",
+        "can't cook",
+        "should have cooked"
+      ],
+      "e": "Gereksiz yere yapıldı."
+    },
+    {
+      "id": "G192",
+      "topic": "MODH",
+      "q": "Where's Tom? He ___ stuck in traffic.",
+      "o": [
+        "might have got",
+        "must got",
+        "can't got",
+        "should got"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G193",
+      "topic": "MODH",
+      "q": "You ___ told me earlier! Now it's too late.",
+      "o": [
+        "could have",
+        "can't have",
+        "mustn't have",
+        "needn't"
+      ],
+      "e": "Eleştiri: could have + V3."
+    },
+    {
+      "id": "G194",
+      "topic": "MODH",
+      "q": "The window is broken. Someone ___ it.",
+      "o": [
+        "must have broken",
+        "should have broken",
+        "can't have broken",
+        "needn't have broken"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G195",
+      "topic": "MODH",
+      "q": "She ___ the exam — she didn't study at all.",
+      "o": [
+        "can't have passed",
+        "must have passed",
+        "should have passed",
+        "needn't have passed"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G196",
+      "topic": "MODH",
+      "q": "I'm not sure where my wallet is. I ___ it at the office.",
+      "o": [
+        "may have left",
+        "must leave",
+        "can't have left",
+        "should have left"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G197",
+      "topic": "MODH",
+      "q": "You ___ worried; everything went fine.",
+      "o": [
+        "needn't have been",
+        "mustn't have been",
+        "can't be",
+        "must have been"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G198",
+      "topic": "MODH",
+      "q": "He ___ on time if he had left earlier.",
+      "o": [
+        "could have arrived",
+        "must have arrived",
+        "can't have arrived",
+        "needn't arrive"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G199",
+      "topic": "MODH",
+      "q": "Modal + have + ___",
+      "o": [
+        "V3 (past participle)",
+        "V1",
+        "V-ing",
+        "to + V1"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G200",
+      "topic": "MODH",
+      "q": "Which sentence shows criticism / regret?",
+      "o": [
+        "You shouldn't have shouted at him.",
+        "He must have shouted.",
+        "He might have shouted.",
+        "He can't have shouted."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G201",
+      "topic": "MODH",
+      "q": "The ground is wet. It ___ during the night.",
+      "o": [
+        "must have rained",
+        "should have rained",
+        "can't have rained",
+        "needn't rain"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G202",
+      "topic": "MODH",
+      "q": "They ___ the meeting; their names aren't on the list.",
+      "o": [
+        "can't have attended",
+        "must have attended",
+        "should attend",
+        "needn't have attended"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G203",
+      "topic": "UT",
+      "q": "When I was young, I ___ climb trees every day.",
+      "o": [
+        "would",
+        "was used to",
+        "use",
+        "am used to"
+      ],
+      "e": "Tekrarlanan eylem → would / used to."
+    },
+    {
+      "id": "G204",
+      "topic": "UT",
+      "q": "There ___ be a cinema here, but it closed.",
+      "o": [
+        "used to",
+        "would",
+        "use to",
+        "was used"
+      ],
+      "e": "Durum → used to."
+    },
+    {
+      "id": "G205",
+      "topic": "UT",
+      "q": "She ___ wear glasses, but now she wears contact lenses.",
+      "o": [
+        "used to",
+        "is used to",
+        "uses to",
+        "use"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G206",
+      "topic": "UT",
+      "q": "My grandfather ___ tell us stories every night.",
+      "o": [
+        "would",
+        "was",
+        "had",
+        "uses"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G207",
+      "topic": "UT",
+      "q": "___ you use to live in Izmir?",
+      "o": [
+        "Did",
+        "Do",
+        "Were",
+        "Have"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G208",
+      "topic": "UT",
+      "q": "I ___ rather have tea, please.",
+      "o": [
+        "'d",
+        "have",
+        "am",
+        "do"
+      ],
+      "e": "I'd rather = I would rather."
+    },
+    {
+      "id": "G209",
+      "topic": "UT",
+      "q": "Would you rather ___ by train or by plane?",
+      "o": [
+        "go",
+        "to go",
+        "going",
+        "went"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G210",
+      "topic": "UT",
+      "q": "I prefer working from home ___ working in the office.",
+      "o": [
+        "to",
+        "than",
+        "rather",
+        "that"
+      ],
+      "e": "prefer A to B."
+    },
+    {
+      "id": "G211",
+      "topic": "UT",
+      "q": "I'd prefer ___ alone tonight.",
+      "o": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "e": "would prefer + to V1."
+    },
+    {
+      "id": "G212",
+      "topic": "UT",
+      "q": "I'd rather he ___ me the truth.",
+      "o": [
+        "told",
+        "tells",
+        "will tell",
+        "tell"
+      ],
+      "e": "would rather + özne + past."
+    },
+    {
+      "id": "G213",
+      "topic": "UT",
+      "q": "We ___ have a car when I was a child.",
+      "o": [
+        "didn't use to",
+        "wouldn't",
+        "didn't used to",
+        "weren't use to"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G214",
+      "topic": "UT",
+      "q": "Which sentence is correct?",
+      "o": [
+        "I used to know her well.",
+        "I would know her well.",
+        "I use to know her well.",
+        "I was use to know her."
+      ],
+      "e": "know durum fiili → would olmaz."
+    },
+    {
+      "id": "G215",
+      "topic": "UT",
+      "q": "She'd rather stay home ___ go to the party.",
+      "o": [
+        "than",
+        "to",
+        "from",
+        "that"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G216",
+      "topic": "UT",
+      "q": "Which sentence is correct?",
+      "o": [
+        "He prefers coffee to tea.",
+        "He prefers coffee than tea.",
+        "He prefer coffee to tea.",
+        "He prefers coffee from tea."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G217",
+      "topic": "UT",
+      "q": "Every summer, we ___ to the village and pick cherries.",
+      "o": [
+        "would go",
+        "would be",
+        "were used",
+        "use to go"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G218",
+      "topic": "UT",
+      "q": "'Would rather' is followed by:",
+      "o": [
+        "bare infinitive (V1)",
+        "to + V1",
+        "V-ing",
+        "V3"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G219",
+      "topic": "LINK",
+      "q": "This fabric feels ___.",
+      "o": [
+        "soft",
+        "softly",
+        "softness",
+        "soften"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G220",
+      "topic": "LINK",
+      "q": "He seems ___ about the results.",
+      "o": [
+        "worried",
+        "worriedly",
+        "worry",
+        "worries"
+      ],
+      "e": "seem + sıfat."
+    },
+    {
+      "id": "G221",
+      "topic": "LINK",
+      "q": "The plan sounds ___ to me.",
+      "o": [
+        "reasonable",
+        "reasonably",
+        "reason",
+        "reasoning"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G222",
+      "topic": "LINK",
+      "q": "She became ___ after the promotion.",
+      "o": [
+        "famous",
+        "famously",
+        "fame",
+        "famousness"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G223",
+      "topic": "LINK",
+      "q": "I ___ what you mean.",
+      "o": [
+        "understand",
+        "am understanding",
+        "have been understanding",
+        "understanding"
+      ],
+      "e": "Durum fiili."
+    },
+    {
+      "id": "G224",
+      "topic": "LINK",
+      "q": "This box ___ to my brother.",
+      "o": [
+        "belongs",
+        "is belonging",
+        "belonging",
+        "has been belonging"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G225",
+      "topic": "LINK",
+      "q": "We ___ dinner right now; can I call you back?",
+      "o": [
+        "are having",
+        "have",
+        "had",
+        "has"
+      ],
+      "e": "have = yemek yemek → dinamik, continuous olur."
+    },
+    {
+      "id": "G226",
+      "topic": "LINK",
+      "q": "I ___ about your offer. I'll answer tomorrow.",
+      "o": [
+        "am thinking",
+        "thinked",
+        "thinks",
+        "thinking"
+      ],
+      "e": "think about = düşünüp taşınmak → dinamik."
+    },
+    {
+      "id": "G227",
+      "topic": "LINK",
+      "q": "I ___ you're right.",
+      "o": [
+        "think",
+        "am thinking",
+        "thinking",
+        "have thinking"
+      ],
+      "e": "think = fikrindeyim → durum."
+    },
+    {
+      "id": "G228",
+      "topic": "LINK",
+      "q": "The flowers smell ___.",
+      "o": [
+        "sweet",
+        "sweetly",
+        "sweetness",
+        "sweeten"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G229",
+      "topic": "LINK",
+      "q": "Which is a linking verb?",
+      "o": [
+        "seem",
+        "run",
+        "build",
+        "write"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G230",
+      "topic": "LINK",
+      "q": "The chef ___ the soup to see if it needs salt.",
+      "o": [
+        "is tasting",
+        "is tasted",
+        "taste",
+        "tastes of"
+      ],
+      "e": "taste = tadına bakmak → dinamik."
+    },
+    {
+      "id": "G231",
+      "topic": "LINK",
+      "q": "He got ___ when he heard the news.",
+      "o": [
+        "angry",
+        "angrily",
+        "anger",
+        "angriness"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G232",
+      "topic": "LINK",
+      "q": "You look ___ in that suit.",
+      "o": [
+        "smart",
+        "smartly",
+        "smartness",
+        "smarten"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G233",
+      "topic": "LINK",
+      "q": "This coffee ___ too much sugar.",
+      "o": [
+        "contains",
+        "is containing",
+        "containing",
+        "has been containing"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G234",
+      "topic": "LINK",
+      "q": "Which sentence is correct?",
+      "o": [
+        "The music sounds loud.",
+        "The music sounds loudly.",
+        "The music is sounding loudly.",
+        "The music sound loud."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G235",
+      "topic": "PS",
+      "q": "When I heard the news, I ___ my mother immediately.",
+      "o": [
+        "called",
+        "was calling",
+        "have called",
+        "had calling"
+      ],
+      "e": "Ardışık kısa eylemler."
+    },
+    {
+      "id": "G236",
+      "topic": "PS",
+      "q": "The sun ___ and the birds were singing.",
+      "o": [
+        "was shining",
+        "shines",
+        "has shone",
+        "is shining"
+      ],
+      "e": "Arka plan betimleme."
+    },
+    {
+      "id": "G237",
+      "topic": "PS",
+      "q": "While she ___ the report, her computer crashed.",
+      "o": [
+        "was writing",
+        "wrote",
+        "writes",
+        "has written"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G238",
+      "topic": "PS",
+      "q": "I ___ my keys while I was running.",
+      "o": [
+        "dropped",
+        "was dropping",
+        "drop",
+        "have dropped"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G239",
+      "topic": "PS",
+      "q": "What were you doing when the earthquake ___?",
+      "o": [
+        "happened",
+        "was happening",
+        "happens",
+        "has happened"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G240",
+      "topic": "PS",
+      "q": "We ___ dinner when the guests arrived.",
+      "o": [
+        "were having",
+        "have",
+        "are having",
+        "has had"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G241",
+      "topic": "PS",
+      "q": "He ___ his leg when he was skiing.",
+      "o": [
+        "broke",
+        "was breaking",
+        "breaks",
+        "has broken"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G242",
+      "topic": "PS",
+      "q": "At 6 p.m. yesterday, I ___ home.",
+      "o": [
+        "was driving",
+        "drive",
+        "have driven",
+        "am driving"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G243",
+      "topic": "PS",
+      "q": "They ___ while the teacher was explaining.",
+      "o": [
+        "were talking",
+        "talk",
+        "are talking",
+        "have talked"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G244",
+      "topic": "PS",
+      "q": "I ___ to the radio when I heard my name.",
+      "o": [
+        "was listening",
+        "listened",
+        "listen",
+        "have listened"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G245",
+      "topic": "PS",
+      "q": "The lights went out while we ___ TV.",
+      "o": [
+        "were watching",
+        "watched",
+        "watch",
+        "have watched"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G246",
+      "topic": "PS",
+      "q": "She ___ to Ankara in 2015.",
+      "o": [
+        "moved",
+        "was moving",
+        "moves",
+        "has moved"
+      ],
+      "e": "Bitmiş zaman (2015) → past simple."
+    },
+    {
+      "id": "G247",
+      "topic": "PS",
+      "q": "Which sentence is correct?",
+      "o": [
+        "I was cooking when the phone rang.",
+        "I cooked when the phone was ringing.",
+        "I was cooking when the phone was ring.",
+        "I cook when the phone rang."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G248",
+      "topic": "PS",
+      "q": "Where ___ you go last summer?",
+      "o": [
+        "did",
+        "were",
+        "was",
+        "have"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G249",
+      "topic": "PS",
+      "q": "It ___ heavily, so we stayed inside.",
+      "o": [
+        "was raining",
+        "rains",
+        "has rained",
+        "is raining"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G250",
+      "topic": "PS",
+      "q": "While I was walking home, I ___ an old friend.",
+      "o": [
+        "met",
+        "was meeting",
+        "meet",
+        "have met"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G251",
+      "topic": "PP",
+      "q": "When we got to the cinema, the film ___.",
+      "o": [
+        "had already started",
+        "already started",
+        "has already started",
+        "was already start"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G252",
+      "topic": "PP",
+      "q": "She was nervous because she ___ before.",
+      "o": [
+        "had never flown",
+        "never flew",
+        "has never flown",
+        "never flies"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G253",
+      "topic": "PP",
+      "q": "I ___ the email before I realised the mistake.",
+      "o": [
+        "had sent",
+        "have sent",
+        "send",
+        "was sent"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G254",
+      "topic": "PP",
+      "q": "They ___ the house by the time we arrived.",
+      "o": [
+        "had cleaned",
+        "cleaned",
+        "have cleaned",
+        "clean"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G255",
+      "topic": "PP",
+      "q": "He told me he ___ the job.",
+      "o": [
+        "had lost",
+        "has lost",
+        "loses",
+        "losing"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G256",
+      "topic": "PP",
+      "q": "Before the meeting started, the engineer ___ the drawings.",
+      "o": [
+        "had checked",
+        "has checked",
+        "checks",
+        "checking"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G257",
+      "topic": "PP",
+      "q": "I didn't recognise him because he ___ a lot.",
+      "o": [
+        "had changed",
+        "has changed",
+        "changes",
+        "was change"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G258",
+      "topic": "PP",
+      "q": "Had you ever ___ Paris before 2020?",
+      "o": [
+        "visited",
+        "visit",
+        "visiting",
+        "visits"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G259",
+      "topic": "PP",
+      "q": "The plane ___ when we reached the airport.",
+      "o": [
+        "had already taken off",
+        "already takes off",
+        "has already taken off",
+        "was already take off"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G260",
+      "topic": "PP",
+      "q": "She ___ dinner, so she wasn't hungry.",
+      "o": [
+        "had already eaten",
+        "has already eaten",
+        "already eats",
+        "was already eat"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G261",
+      "topic": "PP",
+      "q": "The negative past perfect is:",
+      "o": [
+        "hadn't + V3",
+        "didn't + V3",
+        "hasn't + V3",
+        "wasn't + V1"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G262",
+      "topic": "PP",
+      "q": "After they ___ lunch, they went back to work.",
+      "o": [
+        "had had",
+        "have had",
+        "has",
+        "having had"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G263",
+      "topic": "PP",
+      "q": "By 2010, he ___ three companies.",
+      "o": [
+        "had founded",
+        "has founded",
+        "founds",
+        "was founding"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G264",
+      "topic": "PP",
+      "q": "I realised I ___ my wallet at home.",
+      "o": [
+        "had left",
+        "have left",
+        "leave",
+        "was leave"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G265",
+      "topic": "PP",
+      "q": "The road was wet because it ___ all night.",
+      "o": [
+        "had been raining",
+        "has rained",
+        "rains",
+        "is raining"
+      ],
+      "e": "Past perfect continuous: had been + V-ing."
+    },
+    {
+      "id": "G266",
+      "topic": "PP",
+      "q": "Which sentence uses the past perfect correctly?",
+      "o": [
+        "The train had left when I arrived.",
+        "The train has left when I arrived.",
+        "The train had leave when I arrived.",
+        "The train left when I had arrive."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G267",
+      "topic": "REL",
+      "q": "The engineer ___ designed this bridge won an award.",
+      "o": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G268",
+      "topic": "REL",
+      "q": "The valve ___ failed was replaced.",
+      "o": [
+        "that",
+        "who",
+        "whose",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G269",
+      "topic": "REL",
+      "q": "The city ___ I was born is very old.",
+      "o": [
+        "where",
+        "which",
+        "who",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G270",
+      "topic": "REL",
+      "q": "I met a woman ___ son works at NASA.",
+      "o": [
+        "whose",
+        "who",
+        "which",
+        "that"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G271",
+      "topic": "REL",
+      "q": "1999 was the year ___ I graduated.",
+      "o": [
+        "when",
+        "where",
+        "which",
+        "who"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G272",
+      "topic": "REL",
+      "q": "My car, ___ is ten years old, still runs well.",
+      "o": [
+        "which",
+        "that",
+        "who",
+        "whose"
+      ],
+      "e": "Virgüllü → which."
+    },
+    {
+      "id": "G273",
+      "topic": "REL",
+      "q": "The people ___ we met on holiday were friendly.",
+      "o": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G274",
+      "topic": "REL",
+      "q": "Can you return the book ___ you borrowed?",
+      "o": [
+        "that",
+        "who",
+        "whose",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G275",
+      "topic": "REL",
+      "q": "Ankara, ___ is the capital of Turkey, is in Central Anatolia.",
+      "o": [
+        "which",
+        "that",
+        "who",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G276",
+      "topic": "REL",
+      "q": "The reason ___ he left is unclear.",
+      "o": [
+        "why",
+        "where",
+        "who",
+        "whose"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G277",
+      "topic": "REL",
+      "q": "Is this the man ___ wallet you found?",
+      "o": [
+        "whose",
+        "who",
+        "which",
+        "who's"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G278",
+      "topic": "REL",
+      "q": "The hotel ___ we stayed had a great view.",
+      "o": [
+        "where",
+        "which",
+        "who",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G279",
+      "topic": "REL",
+      "q": "My sister, ___ lives in Izmir, is a doctor.",
+      "o": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G280",
+      "topic": "REL",
+      "q": "Which sentence is correct?",
+      "o": [
+        "The project that we started last year is finished.",
+        "The project who we started last year is finished.",
+        "The project, that we started last year, is finished.",
+        "The project where we started last year is finished."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G281",
+      "topic": "REL",
+      "q": "That's the reason ___ I called you.",
+      "o": [
+        "why",
+        "which",
+        "who",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G282",
+      "topic": "REL",
+      "q": "The documents ___ you need are on my desk.",
+      "o": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G283",
+      "topic": "WISH",
+      "q": "I wish I ___ the answer.",
+      "o": [
+        "knew",
+        "know",
+        "would know",
+        "had knew"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G284",
+      "topic": "WISH",
+      "q": "I wish I ___ so much last night.",
+      "o": [
+        "hadn't eaten",
+        "didn't eat",
+        "wouldn't eat",
+        "haven't eaten"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G285",
+      "topic": "WISH",
+      "q": "She wishes she ___ in a bigger city.",
+      "o": [
+        "lived",
+        "lives",
+        "would live",
+        "has lived"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G286",
+      "topic": "WISH",
+      "q": "I wish my neighbours ___ so much noise.",
+      "o": [
+        "wouldn't make",
+        "don't make",
+        "haven't made",
+        "won't make"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G287",
+      "topic": "WISH",
+      "q": "If only I ___ listened to your advice!",
+      "o": [
+        "had",
+        "have",
+        "would",
+        "did"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G288",
+      "topic": "WISH",
+      "q": "I wish I ___ drive.",
+      "o": [
+        "could",
+        "can",
+        "would",
+        "will"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G289",
+      "topic": "WISH",
+      "q": "We wish we ___ the earlier train.",
+      "o": [
+        "had taken",
+        "took",
+        "would take",
+        "have taken"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G290",
+      "topic": "WISH",
+      "q": "I wish it ___ summer now.",
+      "o": [
+        "were",
+        "is",
+        "would be",
+        "has been"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G291",
+      "topic": "WISH",
+      "q": "He wishes he ___ that comment at the meeting.",
+      "o": [
+        "hadn't made",
+        "didn't make",
+        "wouldn't make",
+        "doesn't make"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G292",
+      "topic": "WISH",
+      "q": "I wish you ___ always late!",
+      "o": [
+        "weren't",
+        "aren't",
+        "won't be",
+        "haven't been"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G293",
+      "topic": "WISH",
+      "q": "If only the rain ___ stop!",
+      "o": [
+        "would",
+        "will",
+        "does",
+        "has"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G294",
+      "topic": "WISH",
+      "q": "I wish I ___ more time to study yesterday.",
+      "o": [
+        "had had",
+        "had",
+        "have had",
+        "would have"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G295",
+      "topic": "WISH",
+      "q": "'I wish I had known.' means:",
+      "o": [
+        "I didn't know (in the past).",
+        "I know now.",
+        "I will know.",
+        "I knew."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G296",
+      "topic": "WISH",
+      "q": "'I wish I were taller.' refers to:",
+      "o": [
+        "the present",
+        "the past",
+        "a future plan",
+        "a past habit"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G297",
+      "topic": "WISH",
+      "q": "She wishes she ___ go to the concert, but she has to work.",
+      "o": [
+        "could",
+        "can",
+        "would",
+        "will"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G298",
+      "topic": "WISH",
+      "q": "They wish they ___ such an expensive hotel.",
+      "o": [
+        "hadn't booked",
+        "didn't booked",
+        "wouldn't book",
+        "haven't booked"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G299",
+      "topic": "COND03",
+      "q": "If you press this button, the machine ___.",
+      "o": [
+        "stops",
+        "would stop",
+        "would have stopped",
+        "stopped"
+      ],
+      "e": "0. tip."
+    },
+    {
+      "id": "G300",
+      "topic": "COND03",
+      "q": "If I ___ about the problem, I would have helped.",
+      "o": [
+        "had known",
+        "knew",
+        "know",
+        "would know"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G301",
+      "topic": "COND03",
+      "q": "If she had left earlier, she ___ the bus.",
+      "o": [
+        "wouldn't have missed",
+        "wouldn't miss",
+        "won't miss",
+        "didn't miss"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G302",
+      "topic": "COND03",
+      "q": "Plants die if they ___ water.",
+      "o": [
+        "don't get",
+        "won't get",
+        "wouldn't get",
+        "hadn't got"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G303",
+      "topic": "COND03",
+      "q": "If we ___ the warning, we wouldn't have lost the data.",
+      "o": [
+        "had read",
+        "read",
+        "would read",
+        "have read"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G304",
+      "topic": "COND03",
+      "q": "If I lived near the sea, I ___ every day.",
+      "o": [
+        "would swim",
+        "will swim",
+        "swim",
+        "would have swum"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G305",
+      "topic": "COND03",
+      "q": "If he ___ his passport, he won't be able to fly.",
+      "o": [
+        "forgets",
+        "will forget",
+        "forgot",
+        "had forgotten"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G306",
+      "topic": "COND03",
+      "q": "Which is a ZERO conditional?",
+      "o": [
+        "If you mix blue and yellow, you get green.",
+        "If I see her, I'll tell her.",
+        "If I were you, I'd go.",
+        "If I had known, I'd have come."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G307",
+      "topic": "COND03",
+      "q": "If they hadn't helped us, we ___ the project on time.",
+      "o": [
+        "couldn't have finished",
+        "couldn't finish",
+        "can't finish",
+        "didn't finish"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G308",
+      "topic": "COND03",
+      "q": "If it ___ sunny tomorrow, we'll go hiking.",
+      "o": [
+        "is",
+        "will be",
+        "were",
+        "had been"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G309",
+      "topic": "COND03",
+      "q": "I ___ you if I had had your number.",
+      "o": [
+        "would have called",
+        "would call",
+        "will call",
+        "called"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G310",
+      "topic": "COND03",
+      "q": "If the pipe ___ properly, it wouldn't have leaked.",
+      "o": [
+        "had been welded",
+        "was welded",
+        "is welded",
+        "would be welded"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G311",
+      "topic": "COND03",
+      "q": "The third conditional talks about:",
+      "o": [
+        "an unreal past situation",
+        "a general truth",
+        "a real future possibility",
+        "an unreal present"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G312",
+      "topic": "COND03",
+      "q": "The second conditional talks about:",
+      "o": [
+        "an unreal present / future",
+        "a general truth",
+        "a real future possibility",
+        "an unreal past"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G313",
+      "topic": "COND03",
+      "q": "If you ___ ice, it melts.",
+      "o": [
+        "heat",
+        "will heat",
+        "heated",
+        "had heated"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G314",
+      "topic": "COND03",
+      "q": "She would have come to the party if she ___ invited.",
+      "o": [
+        "had been",
+        "was",
+        "were",
+        "would be"
+      ],
+      "e": ""
     }
   ]
 }

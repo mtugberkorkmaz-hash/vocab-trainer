@@ -1,6 +1,6 @@
 {
-  "name": "Kelime Antrenörü — Mühendislik & Toplantı İngilizcesi",
-  "short_name": "Kelime Antrenörü",
+  "name": "EN/TR MTK — B2 İngilizce",
+  "short_name": "EN/TR MTK",
   "description": "Mühendislik, toplantı ve günlük İngilizce kelime/kalıp antrenörü. Tamamen offline çalışır.",
   "start_url": "./index.html",
   "scope": "./",

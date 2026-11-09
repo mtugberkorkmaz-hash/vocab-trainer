@@ -65,54 +65,58 @@ function renderSummary(opts) {
 }
 
 /* ---------- Main menu ---------- */
-function modeMeta() {
-  return [
-    { key: 'lessons', icon: 'flame', title: 'B2 Dersleri', sub: `${Data.lessons.length} ders — ${Data.byCategory('lessons').length} kelime, derse göre çalış` },
-    { key: 'review', icon: 'check', title: 'Hatalar & Quiz', sub: `${Data.review.corrections.length} hata düzeltme — ${Data.review.quiz.length} gramer sorusu` },
-    { key: 'flashcards', icon: 'book', title: 'Kelime Kartları', sub: `${Data.words.length} kelime — öğren, biliyorum / bilmiyorum` },
-    { key: 'test', icon: 'target', title: 'Test Modu', sub: 'Çoktan seçmeli sınav' },
-    { key: 'fillblank', icon: 'pencil', title: 'Boşluk Doldurma', sub: 'Cümledeki eksik kelime' },
-    { key: 'meeting', icon: 'users', title: 'Meeting Modu', sub: `${Data.meetings.length} gerçekçi toplantı senaryosu` },
-    { key: 'patterns', icon: 'sparkle', title: 'Günlük Kalıplar', sub: `${Data.patterns.length} günlük İngilizce kalıp` },
-    { key: 'hizli', icon: 'bolt', title: 'Hızlı Tur', sub: 'Skorlu bonus round' },
-    { key: 'stats', icon: 'chart', title: 'İstatistikler', sub: `${Object.keys(Storage.getWordStats()).length} kelime çalışıldı — en çok yanlışlar` },
-  ];
-}
-
 function renderMenu() {
   setHeader('Kelime Antrenörü');
   const stats = Storage.getStats();
   const weakN = Storage.getWeakPool().length;
-  const cards = modeMeta().map((m) => `
-    <button class="mode-card" data-key="${m.key}">
-      <span class="mode-icon">${icon(m.icon, 22)}</span>
-      <span class="mode-text">
-        <span class="mode-title">${m.title}</span>
-        <span class="mode-sub">${m.sub}</span>
-      </span>
-      <span class="chev">${icon('chevronRight', 18)}</span>
-    </button>`).join('');
+  const nLessonWords = Data.byCategory('lessons').length;
+  const nUnits = practiceUnits().length;
+  const studied = Object.keys(Storage.getWordStats()).length;
   mount(`
     <div class="hero">
-      <h2>Hazır mısın?</h2>
-      <p>B2 dersleri, mühendislik ve toplantı İngilizcesi</p>
+      <p>Bugün ne çalışalım?</p>
+      <h2>B2 İngilizce</h2>
     </div>
     <div class="stat-row">
-      <div class="stat-pill"><div class="num">${weakN}</div><div class="label">Zayıf Havuz</div></div>
-      <div class="stat-pill"><div class="num">${stats.totalCorrect}</div><div class="label">Toplam Doğru</div></div>
-      <div class="stat-pill"><div class="num">${stats.bestStreak}</div><div class="label">En İyi Seri</div></div>
+      <div class="stat-pill"><div class="num">${stats.totalCorrect}</div><div class="label">Doğru</div></div>
+      <div class="stat-pill"><div class="num">${weakN}</div><div class="label">Zayıf havuz</div></div>
+      <div class="stat-pill"><div class="num">${stats.bestStreak}</div><div class="label">En iyi seri</div></div>
     </div>
-    <div class="mode-grid">${cards}</div>
-    <p class="footnote">Bu cihazda tamamen offline çalışır. İlerlemen sadece bu telefonda saklanır.</p>
+    <button class="feature-card" data-key="practice" type="button">
+      <span class="fc-icon">${icon('target', 26)}</span>
+      <span class="fc-text"><span class="fc-title">Genel Tekrar & Test</span>
+      <span class="fc-sub">${nUnits} ünite × ${PRACTICE_TESTS_PER_UNIT} test · 40'ar soru · cevap anahtarlı</span></span>
+      <span class="chev">${icon('chevronRight', 20)}</span>
+    </button>
+    <div class="section-title">B2 Kursu</div>
+    <div class="list-group">
+      ${listRow('lessons', 'flame', 'Dersler', `${Data.lessons.length} ders · ${nLessonWords} kelime · ünite ünite`)}
+      ${listRow('grammar', 'sparkle', 'Gramer Merkezi', `${Data.grammar.topics.length} konu · hata düzeltme · quiz`)}
+    </div>
+    <div class="section-title">Kelime pratiği</div>
+    <div class="list-group">
+      ${listRow('bank', 'book', 'Kelime Bankası', 'Kart · test · boşluk doldurma — kategoriye göre')}
+      ${weakN ? listRow('weak', 'close', 'Zayıf Havuz', 'Bilmediğin kelimeleri kartla tekrar et', weakN) : ''}
+      ${listRow('hizli', 'bolt', 'Hızlı Tur', '10 round, skorlu')}
+    </div>
+    <div class="section-title">İş İngilizcesi</div>
+    <div class="list-group">
+      ${listRow('meeting', 'users', 'Toplantı Senaryoları', `${Data.meetings.length} senaryo`)}
+      ${listRow('patterns', 'translate', 'Günlük Kalıplar', `${Data.patterns.length} kalıp`)}
+    </div>
+    <div class="list-group" style="margin-top:14px">
+      ${listRow('stats', 'chart', 'İstatistikler', `${studied} kelime çalışıldı — en çok yanlışlar`)}
+    </div>
+    <p class="footnote">Tamamen offline çalışır · ilerlemen bu telefonda saklanır.</p>
   `);
-  $all('.mode-card').forEach((btn) => {
+  $all('[data-key]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const key = btn.dataset.key;
-      if (key === 'lessons') Router.push('lessonList');
-      else if (key === 'review') Router.push('reviewMenu');
-      else if (key === 'flashcards') Router.push('categorySelect', { mode: 'flashcards', title: 'Kelime Kartları' });
-      else if (key === 'test') Router.push('categorySelect', { mode: 'test', title: 'Test Modu' });
-      else if (key === 'fillblank') Router.push('categorySelect', { mode: 'fillblank', title: 'Boşluk Doldurma' });
+      if (key === 'practice') Router.push('practiceHub');
+      else if (key === 'lessons') Router.push('lessonList');
+      else if (key === 'grammar') Router.push('grammarHub');
+      else if (key === 'bank') Router.push('categorySelect', { title: 'Kelime Bankası' });
+      else if (key === 'weak') startFlashcards('weak', 'words');
       else if (key === 'meeting') Router.push('meetingList');
       else if (key === 'patterns') Router.push('patternsMenu');
       else if (key === 'hizli') startHizliTur();
@@ -121,25 +125,18 @@ function renderMenu() {
   });
 }
 
-/* ---------- Category select (words: flashcards / test / fillblank) ---------- */
+/* ---------- Kelime Bankası: pick a category, then a mode ---------- */
 function renderCategorySelect(params) {
-  setHeader(params.title);
+  setHeader(params.title || 'Kelime Bankası');
   const cats = ['engineering', 'meeting', 'daily', 'mixed', 'weak'];
+  const icons = { engineering: 'gear', meeting: 'users', daily: 'sparkle', mixed: 'bolt', weak: 'close' };
   const rows = cats.map((cat) => {
     const n = Data.byCategory(cat).length;
-    return `<button class="cat-item" ${n === 0 ? 'disabled' : ''} data-cat="${cat}">
-      <span>${CATEGORY_LABELS[cat]}</span><span class="count">${n}</span>
-    </button>`;
+    return n ? listRow(cat, icons[cat], CATEGORY_LABELS[cat], '', n) : '';
   }).join('');
-  mount(`<div class="cat-list">${rows}</div>`);
-  $all('.cat-item').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const cat = btn.dataset.cat;
-      if (params.mode === 'flashcards') startFlashcards(cat, 'words');
-      else if (params.mode === 'test') startTest(cat);
-      else if (params.mode === 'fillblank') startFillblank(cat);
-    });
-  });
+  mount(`<div class="list-group">${rows}</div>
+    <p class="footnote">B2 ders kelimeleri <b>Dersler</b> bölümünde, ünite ünite.</p>`);
+  $all('.list-row').forEach((btn) => btn.addEventListener('click', () => Router.push('lessonDetail', { cat: btn.dataset.key })));
 }
 
 /* ---------- Flashcards (words + patterns share this) ---------- */
@@ -148,7 +145,8 @@ const ANSWER_LABELS = { known: 'Biliyorum', unknown: 'Bilmiyorum', skipped: 'Pas
 // `list` (optional) studies exactly these items, e.g. "repeat the ones I missed".
 function startFlashcards(category, source, list) {
   const pool = list || (source === 'patterns' ? Data.patternsByCategory(category) : Data.byCategory(category));
-  session = { kind: 'flashcards', source, category, queue: shuffle(pool), index: 0, answers: {}, sentIdx: {} };
+  if (!pool.length) return;
+  session ={ kind: 'flashcards', source, category, queue: shuffle(pool), index: 0, answers: {}, sentIdx: {} };
   Router.push('flashcardSession');
 }
 
@@ -431,14 +429,10 @@ function renderQuizSummary(kind) {
 
 /* ---------- Meeting mode ---------- */
 function renderMeetingList() {
-  setHeader('Meeting Modu');
-  const rows = Data.meetings.map((m) => `
-    <div class="meeting-item" data-id="${m.id}">
-      <div class="m-title">${escapeHtml(m.title_tr)}</div>
-      <div class="m-sub">${escapeHtml(m.title_en)}</div>
-    </div>`).join('');
-  mount(`<p class="footnote" style="margin:0 0 14px;text-align:left;">Bir toplantı senaryosu seç:</p>${rows}`);
-  $all('.meeting-item').forEach((el) => el.addEventListener('click', () => startMeeting(el.dataset.id)));
+  setHeader('Toplantı Senaryoları');
+  const rows = Data.meetings.map((m) => listRow(m.id, null, m.title_tr, m.title_en, m.questions.length)).join('');
+  mount(`<p class="lead">Bir toplantı senaryosu seç; müşterinin sorusuna en doğru cevabı bul.</p><div class="list-group">${rows}</div>`);
+  $all('.list-row').forEach((el) => el.addEventListener('click', () => startMeeting(el.dataset.key)));
 }
 
 function startMeeting(id) {
@@ -525,80 +519,64 @@ function renderMeetingTranscript() {
 
 /* ---------- B2 course lessons ---------- */
 function renderLessonList() {
-  setHeader('B2 Dersleri');
-  const lessons = Data.lessons.slice().reverse(); // newest first
-  if (!lessons.length) {
+  setHeader('Dersler');
+  if (!Data.lessons.length) {
     mount('<p class="footnote" style="margin-top:40px;">Henüz ders eklenmedi.</p>');
     return;
   }
-  const nAll = Data.byCategory('lessons').length;
-  const rows = lessons.map((l) => `
-    <button class="cat-item" data-id="${escapeHtml(l.id)}">
-      <span>Ders ${escapeHtml(l.code)}: ${escapeHtml(l.title)}<br><small style="opacity:.7">${escapeHtml(l.date || '')}${l.grammar ? ' · ' + escapeHtml(l.grammar.title) : ''}</small></span>
-      <span class="count">${(l.words || []).length}</span>
-    </button>`).join('');
-  mount(`
-    <div class="cat-list">
-      ${rows}
-      <button class="cat-item" data-id="__all"><span>${CATEGORY_LABELS.lessons}</span><span class="count">${nAll}</span></button>
-    </div>
-  `);
-  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
-    Router.push('lessonDetail', { id: btn.dataset.id });
-  }));
+  const units = practiceUnits().slice().reverse(); // newest unit first
+  const html = units.map((u) => {
+    const rows = u.lessons.slice().reverse().map((l) =>
+      listRow('l:' + l.id, null, `${l.code} · ${l.title}`, l.grammar ? l.grammar.title : '', (l.words || []).length)).join('');
+    const tests = Array.from({ length: PRACTICE_TESTS_PER_UNIT }, (_, t) =>
+      `<button class="p-testbtn" data-kind="unit:${u.n}:${t}"><span>Test ${t + 1}</span>${bestBadge(`unit:${u.n}:${t}`)}</button>`).join('');
+    return `<div class="section-title" lang="en">Unit ${u.n}</div>
+      <div class="list-group">${rows}</div>
+      <div class="p-tests p-tests-mini">${tests}</div>`;
+  }).join('');
+  mount(`${html}
+    <div class="list-group" style="margin-top:18px">${listRow('l:__all', 'book', CATEGORY_LABELS.lessons, 'Tüm ders kelimeleri karışık', Data.byCategory('lessons').length)}</div>`);
+  $all('.list-row').forEach((btn) => btn.addEventListener('click', () => Router.push('lessonDetail', { id: btn.dataset.key.slice(2) })));
+  $all('.p-testbtn').forEach((b) => b.addEventListener('click', () => Router.push('practiceTest', { kind: b.dataset.kind })));
 }
 
+// Lesson (params.id) or plain word category (params.cat): grammar box + study modes.
 function renderLessonDetail(params) {
   const all = params.id === '__all';
-  const lesson = all ? null : Data.findLesson(params.id);
-  const cat = all ? 'lessons' : 'lesson:' + params.id;
-  setHeader(all ? 'Tüm Dersler' : `Ders ${lesson.code}`);
+  const lesson = params.id && !all ? Data.findLesson(params.id) : null;
+  const cat = params.cat || (all ? 'lessons' : 'lesson:' + params.id);
+  setHeader(lesson ? `Ders ${lesson.code}` : catLabel(cat));
   const n = Data.byCategory(cat).length;
-  const g = lesson && lesson.grammar;
-  const grammarHtml = g ? `
-    <div class="card" style="margin-bottom:16px;">
-      <div class="card-pron" style="margin-bottom:6px;">Gramer</div>
-      <div class="card-term" style="font-size:1.2rem;">${escapeHtml(g.title)}</div>
-      ${g.formula ? `<div class="explain-box" style="margin-top:10px;"><b>Formül:</b> ${escapeHtml(g.formula)}<br>${escapeHtml(g.note || '')}</div>` : ''}
-      ${(g.examples || []).map((e) => `<div class="sent-item"><div class="sent-en">${escapeHtml(e)}</div></div>`).join('')}
-    </div>` : '';
+  const seen = Data.byCategory(cat).filter((w) => Storage.getWordStats()[w.id]).length;
+  const topic = lesson && Data.grammar.topics.find((t) => t.lesson === lesson.id || t.lesson2 === lesson.id);
+  const unit = lesson && lessonUnit(lesson);
   mount(`
-    ${lesson ? `<div class="hero"><h2>${escapeHtml(lesson.title)}</h2><p>${escapeHtml(lesson.date || '')}${lesson.pages ? ' · Sayfa ' + escapeHtml(lesson.pages) : ''} · ${n} kelime</p></div>` : ''}
-    ${grammarHtml}
-    <div class="cat-list">
-      <button class="cat-item" data-mode="flashcards"><span style="display:flex;align-items:center;gap:10px;">${icon('book', 18)} Kelime Kartları</span><span class="count">${n}</span></button>
-      <button class="cat-item" data-mode="test"><span style="display:flex;align-items:center;gap:10px;">${icon('target', 18)} Test Modu</span><span class="count">${Math.min(n, 12)}</span></button>
-      <button class="cat-item" data-mode="fillblank"><span style="display:flex;align-items:center;gap:10px;">${icon('pencil', 18)} Boşluk Doldurma</span><span class="count">${Math.min(n, 12)}</span></button>
-      <button class="cat-item" data-mode="stats"><span style="display:flex;align-items:center;gap:10px;">${icon('chart', 18)} İstatistik</span><span class="count">${Data.byCategory(cat).filter((w) => Storage.getWordStats()[w.id]).length}/${n}</span></button>
+    ${lesson ? `<div class="hero"><p>Unit ${unit}${lesson.date ? ' · ' + escapeHtml(lesson.date) : ''}${lesson.pages ? ' · ' + escapeHtml(lesson.pages) : ''}</p><h2>${escapeHtml(lesson.title)}</h2></div>` : ''}
+    ${lesson ? grammarCardHtml(lesson.grammar, 'Gramer') : ''}
+    <div class="section-title">Çalış</div>
+    <div class="list-group">
+      ${listRow('flashcards', 'book', 'Kelime Kartları', 'Öğren · biliyorum / bilmiyorum', n)}
+      ${listRow('test', 'target', 'Test', 'Çoktan seçmeli anlam', Math.min(n, 12))}
+      ${listRow('fillblank', 'pencil', 'Boşluk Doldurma', 'Cümledeki eksik kelimeyi yaz', Math.min(n, 12))}
+      ${listRow('stats', 'chart', 'İstatistik', 'Kelime bazında doğru / yanlış', `${seen}/${n}`)}
     </div>
+    ${lesson ? `<div class="section-title">Test et</div><div class="list-group">
+      ${topic ? listRow('topic', 'sparkle', 'Gramer konu testi', topic.title, '', bestBadge('topic:' + topic.key)) : ''}
+      ${listRow('unit', 'flame', `Unit ${unit} testleri`, '40 soruluk genel tekrar')}
+    </div>` : ''}
   `);
-  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
-    const mode = btn.dataset.mode;
+  $all('.list-row').forEach((btn) => btn.addEventListener('click', () => {
+    const mode = btn.dataset.key;
     if (mode === 'flashcards') startFlashcards(cat, 'words');
     else if (mode === 'stats') Router.push('stats', { cat });
     else if (mode === 'test') startTest(cat);
-    else startFillblank(cat);
+    else if (mode === 'fillblank') startFillblank(cat);
+    else if (mode === 'topic') Router.push('grammarTopic', { key: topic.key });
+    else if (mode === 'unit') Router.push('practiceHub');
   }));
 }
 
 /* ---------- Corrections + grammar quiz (course review) ---------- */
-function renderReviewMenu() {
-  setHeader('Hatalar & Quiz');
-  const nC = Data.review.corrections.length;
-  const nQ = Data.review.quiz.length;
-  mount(`
-    <div class="cat-list">
-      <button class="cat-item" ${nC ? '' : 'disabled'} data-kind="corrections"><span style="display:flex;align-items:center;gap:10px;">${icon('pencil', 18)} Hata Düzeltme</span><span class="count">${nC}</span></button>
-      <button class="cat-item" ${nQ ? '' : 'disabled'} data-kind="quiz"><span style="display:flex;align-items:center;gap:10px;">${icon('target', 18)} Gramer Quiz</span><span class="count">${nQ}</span></button>
-    </div>
-    <p class="footnote">Hata Düzeltme: kitabındaki yanlış cümleyi oku, kafanda düzelt, sonra doğrusunu aç. Quiz: boşluğa cevabı yaz.</p>
-  `);
-  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => {
-    if (btn.dataset.kind === 'corrections') startCorrections();
-    else startReviewQuiz();
-  }));
-}
-
 function startCorrections() {
   session = { kind: 'corrections', queue: shuffle(Data.review.corrections), index: 0, score: 0 };
   Router.push('correctionSession');
@@ -741,12 +719,12 @@ function renderPatternsMenu() {
   const nAll = Data.patterns.length;
   const nWeak = Data.patternsByCategory('weak').length;
   mount(`
-    <div class="cat-list">
-      <button class="cat-item" data-cat="mixed"><span>Tüm Kalıplar</span><span class="count">${nAll}</span></button>
-      <button class="cat-item" ${nWeak ? '' : 'disabled'} data-cat="weak"><span>Zayıf Havuz (Kalıplar)</span><span class="count">${nWeak}</span></button>
+    <div class="list-group">
+      ${listRow('mixed', 'translate', 'Tüm Kalıplar', 'Kart olarak çalış', nAll)}
+      ${nWeak ? listRow('weak', 'close', 'Zayıf Havuz (Kalıplar)', 'Bilmediğin kalıplar', nWeak) : ''}
     </div>
   `);
-  $all('.cat-item').forEach((btn) => btn.addEventListener('click', () => startFlashcards(btn.dataset.cat, 'patterns')));
+  $all('.list-row').forEach((btn) => btn.addEventListener('click', () => startFlashcards(btn.dataset.key, 'patterns')));
 }
 
 /* ---------- Hızlı Tur ---------- */
@@ -871,7 +849,11 @@ const Screens = {
       case 'patternsMenu': renderPatternsMenu(); break;
       case 'lessonList': renderLessonList(); break;
       case 'lessonDetail': renderLessonDetail(state.params); break;
-      case 'reviewMenu': renderReviewMenu(); break;
+      case 'reviewMenu': renderGrammarHub(); break;
+      case 'practiceHub': renderPracticeHub(); break;
+      case 'practiceTest': renderPracticeTest(state.params); break;
+      case 'grammarHub': renderGrammarHub(); break;
+      case 'grammarTopic': renderGrammarTopic(state.params); break;
       case 'stats': renderStats(state.params); break;
       case 'correctionSession': renderCorrection(); break;
       case 'correctionSummary': renderReviewSummary('corrections'); break;

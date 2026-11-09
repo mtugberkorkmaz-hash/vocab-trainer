@@ -5,6 +5,7 @@ const Data = {
   meetings: [],
   lessons: [],
   review: { corrections: [], quiz: [] },
+  grammar: { topics: [], quizTopics: {}, bank: [] },
   loaded: false,
 
   async load() {
@@ -39,6 +40,14 @@ const Data = {
     try {
       const r = await fetch('data/review.json').then((res) => (res.ok ? res.json() : null));
       if (r) this.review = { corrections: r.corrections || [], quiz: r.quiz || [] };
+    } catch (e) {
+      // keep the empty default
+    }
+    // Grammar topics + multiple-choice bank for "Genel Tekrar & Test": optional.
+    this.grammar = { topics: [], quizTopics: {}, bank: [] };
+    try {
+      const g = await fetch('data/grammar.json').then((res) => (res.ok ? res.json() : null));
+      if (g) this.grammar = { topics: g.topics || [], quizTopics: g.quizTopics || {}, bank: g.bank || [] };
     } catch (e) {
       // keep the empty default
     }

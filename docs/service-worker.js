@@ -5,7 +5,7 @@
  * fallback when the network request fails (i.e. actually offline), which is
  * what makes the app work with no connection after the first successful
  * load. Bump CACHE_NAME on any release so old cache entries get cleared out. */
-const CACHE_NAME = 'vocab-trainer-v9';
+const CACHE_NAME = 'vocab-trainer-v10';
 const ASSETS = [
   './',
   './index.html',
@@ -15,6 +15,7 @@ const ASSETS = [
   './js/storage.js',
   './js/data.js',
   './js/router.js',
+  './js/practice.js',
   './js/screens.js',
   './js/app.js',
   './data/words.json',
@@ -22,6 +23,7 @@ const ASSETS = [
   './data/meetings.json',
   './data/lessons.json',
   './data/review.json',
+  './data/grammar.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png',

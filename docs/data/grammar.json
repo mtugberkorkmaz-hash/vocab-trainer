@@ -1,0 +1,1441 @@
+{
+  "topics": [
+    {
+      "key": "PPC",
+      "title": "Present Perfect Continuous",
+      "units": [
+        1
+      ],
+      "tip": "Süre (for/since/how long) → PPC. 'ago' ve 'start/begin' ile kullanılmaz. know, own, need gibi durum fiilleri -ing almaz.",
+      "lesson": "L1A"
+    },
+    {
+      "key": "PPS",
+      "title": "Present Perfect Simple vs Continuous",
+      "units": [
+        1
+      ],
+      "tip": "Sayı / 'kaç tane' / tamamlanmış iş → Simple. Süreç, süre, yorgunluk, şimdi görülen iz → Continuous.",
+      "lesson": "L1B"
+    },
+    {
+      "key": "COND12",
+      "title": "First vs Second Conditional",
+      "units": [
+        1
+      ],
+      "tip": "if'li kısımda will/would YOK. 1. tip gerçek ihtimal; 2. tip hayal. If I were you… her özneyle were.",
+      "lesson": "L1C"
+    },
+    {
+      "key": "FC",
+      "title": "Future Continuous",
+      "units": [
+        1
+      ],
+      "tip": "Gelecekte belirli bir anda 'o sırada yapıyor olacağım' → will be + V-ing. Kibar plan sorusu: Will you be using…?",
+      "lesson": "L1D"
+    },
+    {
+      "key": "MODR",
+      "title": "Modal verbs review",
+      "units": [
+        2
+      ],
+      "tip": "must = zorunluluk, mustn't = yasak, don't have to = gerek yok, should = tavsiye, may/might = olasılık/izin.",
+      "lesson": "L2A"
+    },
+    {
+      "key": "MODH",
+      "title": "Modals + have + V3",
+      "units": [
+        2,
+        3
+      ],
+      "tip": "must have (≈%90) › might/could/may have (≈%50) › can't have (%0). Pişmanlık: should have + V3. needn't have = gereksiz yaptın.",
+      "lesson": "L2B",
+      "lesson2": "L3C"
+    },
+    {
+      "key": "UT",
+      "title": "used to · would · would rather / prefer",
+      "units": [
+        2
+      ],
+      "tip": "used to = geçmiş durum + alışkanlık; would = sadece tekrarlanan eylem (durum fiili yok). Olumsuz: didn't use to. would rather + V1 (than V1); prefer A to B.",
+      "lesson": "L2C"
+    },
+    {
+      "key": "LINK",
+      "title": "Linking verbs · Stative vs dynamic",
+      "units": [
+        2
+      ],
+      "tip": "look/sound/taste/feel/seem/smell + SIFAT (adverb değil). Durum fiilleri (know, own, believe) continuous almaz. be + being = geçici davranış.",
+      "lesson": "L2D"
+    },
+    {
+      "key": "PS",
+      "title": "Past simple vs past continuous",
+      "units": [
+        3
+      ],
+      "tip": "Arka plan / uzun eylem: was V-ing. Araya giren / ardışık kısa eylem: V2. while → continuous, when → genelde simple.",
+      "lesson": "L3A"
+    },
+    {
+      "key": "PP",
+      "title": "Past perfect",
+      "units": [
+        3
+      ],
+      "tip": "had + V3 = geçmişte daha önce olan. by the time, before, after, already, never … before ipuçları.",
+      "lesson": "L3B"
+    },
+    {
+      "key": "REL",
+      "title": "Relative clauses",
+      "units": [
+        3
+      ],
+      "tip": "who (insan), which (şey), that (ikisi, virgülsüz), whose (aitlik), where (yer), when (zaman). Virgüllü cümlede that yok.",
+      "lesson": "L3D"
+    },
+    {
+      "key": "WISH",
+      "title": "Wish / If only (4A ön çalışma)",
+      "units": [
+        4
+      ],
+      "tip": "Şimdi → wish + V2/were; geçmiş → wish + had V3; şikâyet → wish + sb + would. 'I wish I would…' yanlış.",
+      "grammar": {
+        "title": "Wish / If only",
+        "formula": "şimdi: wish + V2 / were · geçmiş: wish + had V3 · şikâyet: wish + sb + would V1",
+        "note": "Wish, gerçeğin tersini dile getirir ve bir adım geriye gider: şimdiki durum → past simple, geçmiş → past perfect. If only = daha güçlü wish. Resmi dilde her özneyle were: I wish I were taller. Kendi davranışın için would kullanılmaz (I wish I could…).",
+        "examples": [
+          "I wish I were lying on a beach right now.",
+          "They wish they hadn't spent $500.",
+          "She wishes she could have stayed one more day.",
+          "I wish the vendor would answer my emails.",
+          "If only we had stayed at home with pizza and Netflix."
+        ]
+      }
+    },
+    {
+      "key": "COND03",
+      "title": "Conditionals 0–3 (4A ön çalışma)",
+      "units": [
+        4
+      ],
+      "tip": "0: if+pres, pres · 1: if+pres, will · 2: if+V2, would V1 · 3: if+had V3, would have V3. if'li kısımda will/would olmaz.",
+      "grammar": {
+        "title": "Conditionals 0–3",
+        "formula": "0: if + present, present · 1: if + present, will V1 · 2: if + past simple, would V1 · 3: if + past perfect, would have V3",
+        "note": "0 = her zaman doğru; 1 = gerçek olası gelecek; 2 = hayali şimdi/gelecek; 3 = geçmişte olmayan durum ve sonucu. If'li kısımda will/would kullanılmaz. 3. tipte ana cümle would have + V3.",
+        "examples": [
+          "If you heat water to 100°C, it boils.",
+          "If the client approves the design, we will start next week.",
+          "If the weather were better, we could go swimming.",
+          "If they had taken the earlier flight, they wouldn't have missed their hotel shuttle."
+        ]
+      }
+    }
+  ],
+  "quizTopics": {
+    "Present Perfect Continuous": "PPC",
+    "Present Perfect Simple vs Continuous": "PPS",
+    "First vs Second Conditional": "COND12",
+    "Future Continuous": "FC",
+    "Modal verbs review": "MODR",
+    "Modals + have + V3": "MODH",
+    "used to / would": "UT",
+    "would rather / prefer": "UT",
+    "Stative / dynamic": "LINK",
+    "Linking verbs": "LINK",
+    "Past simple / continuous": "PS",
+    "Past perfect": "PP",
+    "Relative clauses": "REL",
+    "Unit 1A phrases": null,
+    "Vocabulary 1B": null,
+    "Vocabulary 2A": null,
+    "Vocabulary 2B": null,
+    "Phrasal verbs 3A": null,
+    "Vocabulary 3B": null,
+    "Vocabulary 3C": null,
+    "Vocabulary 3D": null
+  },
+  "bank": [
+    {
+      "id": "G001",
+      "topic": "PPC",
+      "q": "She ___ on the report since 8 a.m.",
+      "o": [
+        "has been working",
+        "worked",
+        "is working",
+        "works"
+      ],
+      "e": "since + başlangıç noktası, hâlâ devam ediyor → has been + V-ing."
+    },
+    {
+      "id": "G002",
+      "topic": "PPC",
+      "q": "How long ___ for the client's reply?",
+      "o": [
+        "have you been waiting",
+        "did you wait",
+        "are you waiting",
+        "do you wait"
+      ],
+      "e": "How long + süre sorusu, süreç hâlâ sürüyor → PPC."
+    },
+    {
+      "id": "G003",
+      "topic": "PPC",
+      "q": "Her eyes are red. She ___.",
+      "o": [
+        "has been crying",
+        "cried",
+        "cries",
+        "will cry"
+      ],
+      "e": "Şimdiki durumun kanıtı olan yakın geçmiş süreç → PPC."
+    },
+    {
+      "id": "G004",
+      "topic": "PPC",
+      "q": "Which sentence is correct?",
+      "o": [
+        "I have been learning English for two years.",
+        "I have been learning English two years ago.",
+        "I have been learn English for two years.",
+        "I have been learning English since two years."
+      ],
+      "e": "PPC 'ago' almaz; for + süre, since + başlangıç."
+    },
+    {
+      "id": "G005",
+      "topic": "PPC",
+      "q": "Which verb is NOT normally used in the Present Perfect Continuous?",
+      "o": [
+        "know",
+        "work",
+        "wait",
+        "study"
+      ],
+      "e": "Durum fiilleri (know, own, need, want) -ing almaz: I have known him for years."
+    },
+    {
+      "id": "G006",
+      "topic": "PPC",
+      "q": "It ___ all day, so the site is muddy.",
+      "o": [
+        "has been raining",
+        "rained",
+        "rains",
+        "is raining"
+      ],
+      "e": "Sonucu şimdi görülen uzun süreç → PPC."
+    },
+    {
+      "id": "G007",
+      "topic": "PPC",
+      "q": "They ___ in this city since March.",
+      "o": [
+        "have been living",
+        "live",
+        "are living",
+        "lived"
+      ],
+      "e": "since March → have been living."
+    },
+    {
+      "id": "G008",
+      "topic": "PPC",
+      "q": "The pump ___ for six hours without a problem.",
+      "o": [
+        "has been running",
+        "is run",
+        "ran",
+        "runs"
+      ],
+      "e": "for + süre → has been running."
+    },
+    {
+      "id": "G009",
+      "topic": "PPS",
+      "q": "I ___ twelve drawings today.",
+      "o": [
+        "have checked",
+        "have been checking",
+        "am checked",
+        "checking"
+      ],
+      "e": "Sayı = sonuç → Present Perfect Simple."
+    },
+    {
+      "id": "G010",
+      "topic": "PPS",
+      "q": "I ___ my keys. I can't find them.",
+      "o": [
+        "have lost",
+        "have been losing",
+        "lose",
+        "am losing"
+      ],
+      "e": "Şimdiki sonucu olan tek bir olay → PPS."
+    },
+    {
+      "id": "G011",
+      "topic": "PPS",
+      "q": "How many pages ___ so far?",
+      "o": [
+        "have you read",
+        "have you been reading",
+        "do you read",
+        "are you read"
+      ],
+      "e": "How many → sayı/sonuç → PPS."
+    },
+    {
+      "id": "G012",
+      "topic": "PPS",
+      "q": "Which sentence suggests the job is finished?",
+      "o": [
+        "I've painted the room.",
+        "I've been painting the room.",
+        "Both of them",
+        "Neither of them"
+      ],
+      "e": "Simple = tamamlanmış sonuç; Continuous = süreç (bitmiş olması şart değil)."
+    },
+    {
+      "id": "G013",
+      "topic": "PPS",
+      "q": "I ___ this phone since 2022.",
+      "o": [
+        "have owned",
+        "have been owning",
+        "own",
+        "am owning"
+      ],
+      "e": "own durum fiilidir → -ing almaz; PPS."
+    },
+    {
+      "id": "G014",
+      "topic": "PPS",
+      "q": "This is the first time I ___ sushi.",
+      "o": [
+        "have eaten",
+        "have been eating",
+        "ate",
+        "eat"
+      ],
+      "e": "This is the first time + PPS."
+    },
+    {
+      "id": "G015",
+      "topic": "PPS",
+      "q": "She ___ four cups of coffee already today.",
+      "o": [
+        "has drunk",
+        "has been drinking",
+        "drank",
+        "drinks"
+      ],
+      "e": "Sayı belirtilmiş → PPS."
+    },
+    {
+      "id": "G016",
+      "topic": "PPS",
+      "q": "I ___ for you for an hour! Where were you?",
+      "o": [
+        "have been waiting",
+        "wait",
+        "waited",
+        "am waiting"
+      ],
+      "e": "Süre + sinir/yorgunluk vurgusu → PPC."
+    },
+    {
+      "id": "G017",
+      "topic": "COND12",
+      "q": "If the vendor ___ the drawings today, I'll check them tonight.",
+      "o": [
+        "sends",
+        "will send",
+        "sent",
+        "would send"
+      ],
+      "e": "1. tip: if + present simple, will V1."
+    },
+    {
+      "id": "G018",
+      "topic": "COND12",
+      "q": "If I ___ you, I would ask for a second opinion.",
+      "o": [
+        "were",
+        "am",
+        "will be",
+        "would be"
+      ],
+      "e": "2. tip: if + past simple (were)."
+    },
+    {
+      "id": "G019",
+      "topic": "COND12",
+      "q": "If it rains, we ___ the site visit.",
+      "o": [
+        "will cancel",
+        "would cancel",
+        "cancelled",
+        "cancelling"
+      ],
+      "e": "Gerçek olası gelecek → will."
+    },
+    {
+      "id": "G020",
+      "topic": "COND12",
+      "q": "If I had more time, I ___ a course.",
+      "o": [
+        "would take",
+        "will take",
+        "take",
+        "would took"
+      ],
+      "e": "2. tip ana cümle: would + V1."
+    },
+    {
+      "id": "G021",
+      "topic": "COND12",
+      "q": "Which sentence is imaginary / unlikely?",
+      "o": [
+        "If I won the lottery, I'd buy a villa.",
+        "If I win the lottery, I'll buy a villa.",
+        "If it's sunny, we'll go out.",
+        "If you mix red and blue, you get purple."
+      ],
+      "e": "if + past simple → hayali durum."
+    },
+    {
+      "id": "G022",
+      "topic": "COND12",
+      "q": "If she ___ harder, she'd pass the exam.",
+      "o": [
+        "studied",
+        "studies",
+        "will study",
+        "would study"
+      ],
+      "e": "if'li kısımda would olmaz; past simple."
+    },
+    {
+      "id": "G023",
+      "topic": "COND12",
+      "q": "We'll miss the train ___ we hurry.",
+      "o": [
+        "unless",
+        "if",
+        "when",
+        "because"
+      ],
+      "e": "unless = if … not."
+    },
+    {
+      "id": "G024",
+      "topic": "COND12",
+      "q": "What would you do if you ___ a million dollars?",
+      "o": [
+        "found",
+        "find",
+        "will find",
+        "would find"
+      ],
+      "e": "2. tip: if + past simple."
+    },
+    {
+      "id": "G025",
+      "topic": "FC",
+      "q": "This time tomorrow I ___ on a plane.",
+      "o": [
+        "will be sitting",
+        "will sit",
+        "have sat",
+        "sat"
+      ],
+      "e": "Gelecekte belli bir anda sürmekte olacak eylem → will be + V-ing."
+    },
+    {
+      "id": "G026",
+      "topic": "FC",
+      "q": "Don't call at 8; we ___ dinner.",
+      "o": [
+        "will be having",
+        "had",
+        "have had",
+        "are have"
+      ],
+      "e": "Gelecekte belli saatte devam eden eylem."
+    },
+    {
+      "id": "G027",
+      "topic": "FC",
+      "q": "Future Continuous formula is:",
+      "o": [
+        "will + be + V-ing",
+        "will + V-ing",
+        "will have + V3",
+        "would + V1"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G028",
+      "topic": "FC",
+      "q": "At 10 a.m. next Monday, the welders ___ the main line.",
+      "o": [
+        "will be welding",
+        "welded",
+        "were welded",
+        "are weld"
+      ],
+      "e": "Belirli gelecek zaman + süren iş."
+    },
+    {
+      "id": "G029",
+      "topic": "FC",
+      "q": "___ you using the car tonight?",
+      "o": [
+        "Will",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "e": "Will you be using…? = kibar soru / plan sorusu."
+    },
+    {
+      "id": "G030",
+      "topic": "FC",
+      "q": "Next year she ___ here any more.",
+      "o": [
+        "won't be working",
+        "doesn't work",
+        "isn't work",
+        "won't working"
+      ],
+      "e": "Olumsuz: won't be + V-ing."
+    },
+    {
+      "id": "G031",
+      "topic": "FC",
+      "q": "This time next week we ___ on the beach.",
+      "o": [
+        "will be lying",
+        "lie",
+        "have lain",
+        "are lay"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G032",
+      "topic": "MODR",
+      "q": "You ___ wear a helmet on site. It's compulsory.",
+      "o": [
+        "must",
+        "might",
+        "can't",
+        "needn't"
+      ],
+      "e": "Zorunluluk → must / have to."
+    },
+    {
+      "id": "G033",
+      "topic": "MODR",
+      "q": "You ___ bring a pen; we have plenty.",
+      "o": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "e": "don't have to = zorunlu değil."
+    },
+    {
+      "id": "G034",
+      "topic": "MODR",
+      "q": "You ___ smoke here. It's forbidden.",
+      "o": [
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "might not"
+      ],
+      "e": "mustn't = yasak."
+    },
+    {
+      "id": "G035",
+      "topic": "MODR",
+      "q": "He ___ speak three languages when he was five.",
+      "o": [
+        "could",
+        "can",
+        "must",
+        "should"
+      ],
+      "e": "Geçmişte yetenek → could."
+    },
+    {
+      "id": "G036",
+      "topic": "MODR",
+      "q": "___ I borrow your pen? (polite)",
+      "o": [
+        "May",
+        "Must",
+        "Should",
+        "Need"
+      ],
+      "e": "Kibar izin: May I…? / Could I…?"
+    },
+    {
+      "id": "G037",
+      "topic": "MODR",
+      "q": "You look ill. You ___ see a doctor.",
+      "o": [
+        "should",
+        "must have",
+        "can't",
+        "would"
+      ],
+      "e": "Tavsiye → should."
+    },
+    {
+      "id": "G038",
+      "topic": "MODR",
+      "q": "It ___ rain later; take an umbrella.",
+      "o": [
+        "might",
+        "must",
+        "needn't",
+        "shall to"
+      ],
+      "e": "Olasılık → might / may."
+    },
+    {
+      "id": "G039",
+      "topic": "MODR",
+      "q": "She ___ be at home; her car is outside.",
+      "o": [
+        "must",
+        "can",
+        "ought",
+        "needs"
+      ],
+      "e": "Güçlü çıkarım → must be."
+    },
+    {
+      "id": "G040",
+      "topic": "MODH",
+      "q": "The lights are off. They ___ gone home. (I'm sure)",
+      "o": [
+        "must have",
+        "can't have",
+        "should have",
+        "needn't have"
+      ],
+      "e": "%90 emin çıkarım → must have + V3."
+    },
+    {
+      "id": "G041",
+      "topic": "MODH",
+      "q": "He ___ at the meeting; he was abroad. (impossible)",
+      "o": [
+        "can't have been",
+        "must have been",
+        "should have been",
+        "might be"
+      ],
+      "e": "Olanaksız çıkarım → can't have + V3."
+    },
+    {
+      "id": "G042",
+      "topic": "MODH",
+      "q": "You ___ called me! I waited all night. (criticism)",
+      "o": [
+        "should have",
+        "must have",
+        "can't have",
+        "might"
+      ],
+      "e": "Pişmanlık / eleştiri → should have + V3."
+    },
+    {
+      "id": "G043",
+      "topic": "MODH",
+      "q": "I'm not sure, but she ___ the wrong bus.",
+      "o": [
+        "might have taken",
+        "can't have taken",
+        "should have taken",
+        "must take"
+      ],
+      "e": "%50 olasılık → might/could/may have + V3."
+    },
+    {
+      "id": "G044",
+      "topic": "MODH",
+      "q": "'You needn't have brought food.' means:",
+      "o": [
+        "It wasn't necessary, but you did it.",
+        "You mustn't bring food.",
+        "You didn't bring food.",
+        "You should bring food."
+      ],
+      "e": "needn't have + V3 = gereksiz yere yaptın."
+    },
+    {
+      "id": "G045",
+      "topic": "MODH",
+      "q": "He must have ___ early.",
+      "o": [
+        "left",
+        "leave",
+        "leaving",
+        "leaved"
+      ],
+      "e": "Modal + have + V3 (leave-left-left)."
+    },
+    {
+      "id": "G046",
+      "topic": "MODH",
+      "q": "The door was open, so I ___ have locked it.",
+      "o": [
+        "can't",
+        "must",
+        "should",
+        "will"
+      ],
+      "e": "Kapı açık → kilitlememiş olmalıyım: olanaksız çıkarım."
+    },
+    {
+      "id": "G047",
+      "topic": "MODH",
+      "q": "Which expresses the HIGHEST certainty?",
+      "o": [
+        "must have",
+        "might have",
+        "could have",
+        "may have"
+      ],
+      "e": "must (%90) › might/could/may (%50) › can't (%0)."
+    },
+    {
+      "id": "G048",
+      "topic": "UT",
+      "q": "I ___ have long hair, but now it's short. (state)",
+      "o": [
+        "used to",
+        "would",
+        "was used",
+        "use to"
+      ],
+      "e": "Durumlar için would kullanılmaz; used to."
+    },
+    {
+      "id": "G049",
+      "topic": "UT",
+      "q": "Which sentence CANNOT use 'would' instead of 'used to'?",
+      "o": [
+        "She used to be shy.",
+        "We used to play football every Sunday.",
+        "He used to walk to school.",
+        "They used to visit us each year."
+      ],
+      "e": "would sadece tekrarlanan eylemler için; be/have/know gibi durumlarda yok."
+    },
+    {
+      "id": "G050",
+      "topic": "UT",
+      "q": "I ___ like coffee, but now I love it.",
+      "o": [
+        "didn't use to",
+        "didn't used to",
+        "don't used to",
+        "not used to"
+      ],
+      "e": "Olumsuz/soru: didn't use to / Did you use to…?"
+    },
+    {
+      "id": "G051",
+      "topic": "UT",
+      "q": "Did you ___ play chess?",
+      "o": [
+        "use to",
+        "used to",
+        "would",
+        "using to"
+      ],
+      "e": "Did + use to (d düşer)."
+    },
+    {
+      "id": "G052",
+      "topic": "UT",
+      "q": "I'd rather ___ at home tonight.",
+      "o": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "e": "would rather + V1."
+    },
+    {
+      "id": "G053",
+      "topic": "UT",
+      "q": "I'd rather you ___ smoke here. (başkasına)",
+      "o": [
+        "didn't",
+        "don't",
+        "won't",
+        "not"
+      ],
+      "e": "would rather + özne + past simple (şimdi/gelecek tercih)."
+    },
+    {
+      "id": "G054",
+      "topic": "UT",
+      "q": "I prefer tea ___ coffee.",
+      "o": [
+        "to",
+        "than",
+        "over than",
+        "from"
+      ],
+      "e": "prefer A to B."
+    },
+    {
+      "id": "G055",
+      "topic": "UT",
+      "q": "I'd prefer ___ the report tomorrow.",
+      "o": [
+        "to send",
+        "send",
+        "sending",
+        "sent"
+      ],
+      "e": "would prefer + to V1."
+    },
+    {
+      "id": "G056",
+      "topic": "UT",
+      "q": "I'd rather walk than ___ the bus.",
+      "o": [
+        "take",
+        "to take",
+        "taking",
+        "took"
+      ],
+      "e": "would rather A than B (ikisi de V1)."
+    },
+    {
+      "id": "G057",
+      "topic": "LINK",
+      "q": "The soup tastes ___.",
+      "o": [
+        "delicious",
+        "deliciously",
+        "deliciousness",
+        "in delicious"
+      ],
+      "e": "Linking verb (taste, look, sound, feel, seem) + sıfat."
+    },
+    {
+      "id": "G058",
+      "topic": "LINK",
+      "q": "She looks ___ today.",
+      "o": [
+        "tired",
+        "tiredly",
+        "tire",
+        "tiredness"
+      ],
+      "e": "look + sıfat."
+    },
+    {
+      "id": "G059",
+      "topic": "LINK",
+      "q": "That idea sounds ___.",
+      "o": [
+        "great",
+        "greatly",
+        "greatness",
+        "grate"
+      ],
+      "e": "sound + sıfat."
+    },
+    {
+      "id": "G060",
+      "topic": "LINK",
+      "q": "Which verb is stative?",
+      "o": [
+        "own",
+        "run",
+        "build",
+        "swim"
+      ],
+      "e": "Durum fiilleri: own, know, belong, need, want, believe."
+    },
+    {
+      "id": "G061",
+      "topic": "LINK",
+      "q": "I ___ the answer.",
+      "o": [
+        "know",
+        "am knowing",
+        "have been knowing",
+        "knowing"
+      ],
+      "e": "know durum fiili → continuous olmaz."
+    },
+    {
+      "id": "G062",
+      "topic": "LINK",
+      "q": "'He is being rude today.' means:",
+      "o": [
+        "He is behaving rudely now.",
+        "He is rude by nature.",
+        "He was rude.",
+        "He will be rude."
+      ],
+      "e": "be + being = geçici davranış."
+    },
+    {
+      "id": "G063",
+      "topic": "LINK",
+      "q": "The weather got ___ in the evening.",
+      "o": [
+        "cold",
+        "coldly",
+        "coldness",
+        "to cold"
+      ],
+      "e": "get/become + sıfat."
+    },
+    {
+      "id": "G064",
+      "topic": "LINK",
+      "q": "The milk smells ___.",
+      "o": [
+        "bad",
+        "badly",
+        "badness",
+        "baddly"
+      ],
+      "e": "smell + sıfat (bad); badly = kötü biçimde."
+    },
+    {
+      "id": "G065",
+      "topic": "PS",
+      "q": "I ___ the drawings when the power went off.",
+      "o": [
+        "was checking",
+        "checked",
+        "have checked",
+        "had checked"
+      ],
+      "e": "Uzun eylem (arka plan) → continuous; araya giren kısa eylem → simple."
+    },
+    {
+      "id": "G066",
+      "topic": "PS",
+      "q": "While we ___ lunch, the alarm rang.",
+      "o": [
+        "were having",
+        "had",
+        "have",
+        "are having"
+      ],
+      "e": "While + past continuous."
+    },
+    {
+      "id": "G067",
+      "topic": "PS",
+      "q": "She ___ the door and walked in.",
+      "o": [
+        "opened",
+        "was opening",
+        "opens",
+        "has opened"
+      ],
+      "e": "Ardışık kısa eylemler → past simple."
+    },
+    {
+      "id": "G068",
+      "topic": "PS",
+      "q": "I ___ TV at 9 last night.",
+      "o": [
+        "was watching",
+        "watched",
+        "watch",
+        "have watched"
+      ],
+      "e": "Geçmişte belli anda süren eylem → past continuous."
+    },
+    {
+      "id": "G069",
+      "topic": "PS",
+      "q": "What ___ when I called?",
+      "o": [
+        "were you doing",
+        "did you do",
+        "have you done",
+        "do you do"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G070",
+      "topic": "PS",
+      "q": "He ___ down the street when he saw an accident.",
+      "o": [
+        "was walking",
+        "walked",
+        "walks",
+        "has walked"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G071",
+      "topic": "PS",
+      "q": "It ___ when we left the office.",
+      "o": [
+        "was raining",
+        "rains",
+        "has rained",
+        "is raining"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G072",
+      "topic": "PS",
+      "q": "I fell asleep while I ___ a book.",
+      "o": [
+        "was reading",
+        "read",
+        "have read",
+        "am reading"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G073",
+      "topic": "PP",
+      "q": "By the time we arrived, the meeting ___.",
+      "o": [
+        "had finished",
+        "finished",
+        "has finished",
+        "was finishing"
+      ],
+      "e": "By the time + daha önce tamamlanmış olay → past perfect."
+    },
+    {
+      "id": "G074",
+      "topic": "PP",
+      "q": "She had never ___ sushi before she went to Tokyo.",
+      "o": [
+        "eaten",
+        "eat",
+        "ate",
+        "eating"
+      ],
+      "e": "had + V3."
+    },
+    {
+      "id": "G075",
+      "topic": "PP",
+      "q": "After he ___ the report, he went home.",
+      "o": [
+        "had written",
+        "wrote",
+        "has written",
+        "was writing"
+      ],
+      "e": "Önce olan → had + V3."
+    },
+    {
+      "id": "G076",
+      "topic": "PP",
+      "q": "I couldn't enter because I ___ my key.",
+      "o": [
+        "had forgotten",
+        "forgot",
+        "have forgotten",
+        "was forgetting"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G077",
+      "topic": "PP",
+      "q": "Past perfect formula:",
+      "o": [
+        "had + V3",
+        "have + V3",
+        "had + V-ing",
+        "was + V3"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G078",
+      "topic": "PP",
+      "q": "When I got to the station, the train ___.",
+      "o": [
+        "had left",
+        "left",
+        "has left",
+        "was leaving"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G079",
+      "topic": "PP",
+      "q": "He said he ___ the contract.",
+      "o": [
+        "had signed",
+        "has signed",
+        "signs",
+        "signing"
+      ],
+      "e": "Dolaylı anlatımda geçmişten önceki olay → had + V3."
+    },
+    {
+      "id": "G080",
+      "topic": "PP",
+      "q": "The patient ___ before the doctor arrived.",
+      "o": [
+        "had died",
+        "has died",
+        "dies",
+        "will die"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G081",
+      "topic": "REL",
+      "q": "The woman ___ lives next door is a doctor.",
+      "o": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "e": "İnsan özne → who/that."
+    },
+    {
+      "id": "G082",
+      "topic": "REL",
+      "q": "The pump, ___ was installed in 2010, needs repair.",
+      "o": [
+        "which",
+        "that",
+        "who",
+        "what"
+      ],
+      "e": "Virgüllü ilgi cümlesinde that kullanılmaz."
+    },
+    {
+      "id": "G083",
+      "topic": "REL",
+      "q": "That's the man ___ car was stolen.",
+      "o": [
+        "whose",
+        "who",
+        "which",
+        "whom's"
+      ],
+      "e": "Aitlik → whose."
+    },
+    {
+      "id": "G084",
+      "topic": "REL",
+      "q": "This is the office ___ I work.",
+      "o": [
+        "where",
+        "which",
+        "who",
+        "whose"
+      ],
+      "e": "Yer → where."
+    },
+    {
+      "id": "G085",
+      "topic": "REL",
+      "q": "The book ___ I bought yesterday is great.",
+      "o": [
+        "that",
+        "who",
+        "whose",
+        "where"
+      ],
+      "e": "Şey, nesne → that/which."
+    },
+    {
+      "id": "G086",
+      "topic": "REL",
+      "q": "I remember the day ___ we met.",
+      "o": [
+        "when",
+        "where",
+        "who",
+        "whose"
+      ],
+      "e": "Zaman → when."
+    },
+    {
+      "id": "G087",
+      "topic": "REL",
+      "q": "After a comma you can NOT use:",
+      "o": [
+        "that",
+        "which",
+        "who",
+        "whose"
+      ],
+      "e": "Non-defining clause: that yok."
+    },
+    {
+      "id": "G088",
+      "topic": "REL",
+      "q": "Everything ___ he said was true.",
+      "o": [
+        "that",
+        "who",
+        "whose",
+        "where"
+      ],
+      "e": "everything / all / something sonrası that."
+    },
+    {
+      "id": "G089",
+      "topic": "WISH",
+      "q": "I wish I ___ a car. (I don't have one)",
+      "o": [
+        "had",
+        "have",
+        "would have",
+        "had had"
+      ],
+      "e": "Şimdiki durum → wish + past simple."
+    },
+    {
+      "id": "G090",
+      "topic": "WISH",
+      "q": "I wish I ___ for the exam yesterday.",
+      "o": [
+        "had prepared",
+        "prepared",
+        "would prepare",
+        "have prepared"
+      ],
+      "e": "Geçmiş pişmanlık → wish + had V3."
+    },
+    {
+      "id": "G091",
+      "topic": "WISH",
+      "q": "I wish he ___ stop talking.",
+      "o": [
+        "would",
+        "had",
+        "did",
+        "has"
+      ],
+      "e": "Başkasının davranışından şikâyet → wish + sb + would."
+    },
+    {
+      "id": "G092",
+      "topic": "WISH",
+      "q": "If only I ___ more money!",
+      "o": [
+        "had",
+        "have",
+        "would have",
+        "had had"
+      ],
+      "e": "If only = güçlü wish."
+    },
+    {
+      "id": "G093",
+      "topic": "WISH",
+      "q": "I wish I ___ taller.",
+      "o": [
+        "were",
+        "would be",
+        "am",
+        "had been"
+      ],
+      "e": "Resmi dilde her özneyle were."
+    },
+    {
+      "id": "G094",
+      "topic": "WISH",
+      "q": "They wish they ___ $500. (they spent it)",
+      "o": [
+        "hadn't spent",
+        "didn't spend",
+        "wouldn't spend",
+        "haven't spent"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G095",
+      "topic": "WISH",
+      "q": "Which sentence is WRONG?",
+      "o": [
+        "I wish I would be taller.",
+        "I wish I were taller.",
+        "I wish I had a car.",
+        "I wish I had known."
+      ],
+      "e": "Kendi durumun için wish + would kullanılmaz."
+    },
+    {
+      "id": "G096",
+      "topic": "WISH",
+      "q": "I wish I ___ speak German. (I can't)",
+      "o": [
+        "could",
+        "can",
+        "would",
+        "will"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G097",
+      "topic": "COND03",
+      "q": "If you heat water to 100°C, it ___.",
+      "o": [
+        "boils",
+        "will boil",
+        "would boil",
+        "boiled"
+      ],
+      "e": "0. tip: genel doğru → present, present."
+    },
+    {
+      "id": "G098",
+      "topic": "COND03",
+      "q": "If the client approves the design, we ___ next week.",
+      "o": [
+        "will start",
+        "would start",
+        "started",
+        "would have started"
+      ],
+      "e": "1. tip."
+    },
+    {
+      "id": "G099",
+      "topic": "COND03",
+      "q": "If I ___ rich, I would travel the world.",
+      "o": [
+        "were",
+        "am",
+        "will be",
+        "had been"
+      ],
+      "e": "2. tip."
+    },
+    {
+      "id": "G100",
+      "topic": "COND03",
+      "q": "If they had taken the earlier flight, they ___ the shuttle.",
+      "o": [
+        "wouldn't have missed",
+        "wouldn't miss",
+        "won't miss",
+        "didn't miss"
+      ],
+      "e": "3. tip: if + had V3, would have V3."
+    },
+    {
+      "id": "G101",
+      "topic": "COND03",
+      "q": "If we ___ the line, we would have found the leak.",
+      "o": [
+        "had tested",
+        "tested",
+        "test",
+        "would test"
+      ],
+      "e": "3. tip if'li kısım: past perfect."
+    },
+    {
+      "id": "G102",
+      "topic": "COND03",
+      "q": "If he had studied harder, he ___ the exam.",
+      "o": [
+        "would have passed",
+        "would pass",
+        "will pass",
+        "had passed"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G103",
+      "topic": "COND03",
+      "q": "Which is a THIRD conditional?",
+      "o": [
+        "If I had known, I would have told you.",
+        "If I knew, I would tell you.",
+        "If I know, I will tell you.",
+        "If you mix red and blue, you get purple."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G104",
+      "topic": "COND03",
+      "q": "If you don't hurry, you ___ the train.",
+      "o": [
+        "will miss",
+        "would miss",
+        "would have missed",
+        "missed"
+      ],
+      "e": "1. tip."
+    },
+    {
+      "id": "G105",
+      "topic": "COND03",
+      "q": "Which sentence is correct?",
+      "o": [
+        "If it rains tomorrow, we will cancel the visit.",
+        "If it will rain tomorrow, we cancel the visit.",
+        "If it would rain tomorrow, we cancel the visit.",
+        "If it rained tomorrow, we'll cancel the visit."
+      ],
+      "e": "if'li kısımda will/would yok."
+    },
+    {
+      "id": "G106",
+      "topic": "COND03",
+      "q": "If it ___ yesterday, we would have stayed at the hotel.",
+      "o": [
+        "had rained",
+        "rained",
+        "rains",
+        "would rain"
+      ],
+      "e": ""
+    }
+  ]
+}

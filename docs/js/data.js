@@ -6,6 +6,8 @@ const Data = {
   lessons: [],
   review: { corrections: [], quiz: [] },
   grammar: { topics: [], quizTopics: {}, bank: [] },
+  tenses: { tenses: [], structs: [], work: [] },
+  engCats: [],
   loaded: false,
 
   async load() {
@@ -51,6 +53,30 @@ const Data = {
     } catch (e) {
       // keep the empty default
     }
+    // Zaman çizelgesi + gramer yapıları: optional.
+    this.tenses = { tenses: [], structs: [], work: [] };
+    try {
+      const tn = await fetch('data/tenses.json').then((res) => (res.ok ? res.json() : null));
+      if (tn) this.tenses = { tenses: tn.tenses || [], structs: tn.structs || [], work: tn.work || [] };
+    } catch (e) {
+      // keep the empty default
+    }
+    // Mühendislik kelimeleri (KEY BCT / RET belgeleri): her kategori 'eng:<id>' kategorisiyle kelime bankasına girer.
+    this.engCats = [];
+    try {
+      const ev = await fetch('data/engvocab.json').then((res) => (res.ok ? res.json() : null));
+      this.engCats = (ev && ev.categories) || [];
+    } catch (e) {
+      this.engCats = [];
+    }
+    this.engCats.forEach((c) => {
+      c.words = c.words.map((w, i) => ({
+        id: c.id + 'w' + String(i + 1).padStart(3, '0'), term: w.term, pronunciation: '', translation: w.tr,
+        sentences: [w.s[0][0], w.s[1][0]], translations: [w.s[0][1], w.s[1][1]], explanation: '', docHits: w.h || 0,
+        category: 'eng:' + c.id,
+      }));
+      c.words.forEach((w) => this.words.push(w));
+    });
     this.loaded = true;
   },
 
@@ -59,7 +85,8 @@ const Data = {
       const pool = Storage.getWeakPool();
       return this.words.filter((w) => pool.includes(w.id));
     }
-    if (cat === 'mixed') return this.words.filter((w) => !w.category.startsWith('lesson:'));
+    if (cat === 'mixed') return this.words.filter((w) => !w.category.startsWith('lesson:') && !w.category.startsWith('eng:'));
+    if (cat === 'engall') return this.words.filter((w) => w.category.startsWith('eng:'));
     if (cat === 'lessons') return this.words.filter((w) => w.category.startsWith('lesson:'));
     return this.words.filter((w) => w.category === cat);
   },

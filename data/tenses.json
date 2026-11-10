@@ -1,0 +1,1048 @@
+{
+  "tenses": [
+    {
+      "k": "PSI",
+      "zone": "present",
+      "aspect": "simple",
+      "en": "Present Simple",
+      "tr": "Geniş zaman",
+      "pos": "S + V1 (he/she/it → V1 + s/es)",
+      "neg": "S + don't / doesn't + V1",
+      "q": "Do / Does + S + V1?",
+      "use": "Alışkanlıklar, genel doğrular, değişmeyen durumlar ve tarifeli (saatli) olaylar.",
+      "sig": [
+        "always",
+        "usually",
+        "often",
+        "every day",
+        "never",
+        "on Mondays",
+        "twice a week"
+      ],
+      "ex": [
+        [
+          "The pump runs at 3,000 rpm.",
+          "Pompa 3.000 devirde çalışır."
+        ],
+        [
+          "I check the drawings every morning.",
+          "Her sabah çizimleri kontrol ederim."
+        ],
+        [
+          "Water boils at 100°C.",
+          "Su 100°C'de kaynar."
+        ],
+        [
+          "The meeting starts at nine tomorrow.",
+          "Toplantı yarın dokuzda başlıyor."
+        ],
+        [
+          "She doesn't work on Sundays.",
+          "Pazar günleri çalışmaz."
+        ]
+      ],
+      "note": "he/she/it ile fiile -s gelir; olumsuz ve soruda -s düşer: She doesn't work."
+    },
+    {
+      "k": "PCO",
+      "zone": "present",
+      "aspect": "continuous",
+      "en": "Present Continuous",
+      "tr": "Şimdiki zaman",
+      "pos": "S + am / is / are + V-ing",
+      "neg": "S + am / is / are + not + V-ing",
+      "q": "Am / Is / Are + S + V-ing?",
+      "use": "Şu anda olan eylemler, geçici durumlar, değişen/gelişen durumlar ve kesinleşmiş yakın gelecek planları.",
+      "sig": [
+        "now",
+        "right now",
+        "at the moment",
+        "currently",
+        "these days",
+        "Look!",
+        "Listen!"
+      ],
+      "ex": [
+        [
+          "We are testing the line right now.",
+          "Şu anda hattı test ediyoruz."
+        ],
+        [
+          "He is staying at a hotel this week.",
+          "Bu hafta bir otelde kalıyor."
+        ],
+        [
+          "Prices are rising these days.",
+          "Bu günlerde fiyatlar yükseliyor."
+        ],
+        [
+          "I'm meeting the client at five tomorrow.",
+          "Yarın beşte müşteriyle buluşuyorum."
+        ],
+        [
+          "They aren't working today.",
+          "Bugün çalışmıyorlar."
+        ]
+      ],
+      "note": "know, own, want, need, belong gibi durum fiilleri -ing almaz."
+    },
+    {
+      "k": "PPE",
+      "zone": "present",
+      "aspect": "perfect",
+      "en": "Present Perfect",
+      "tr": "Yakın geçmiş / -miş'li geçmiş",
+      "pos": "S + have / has + V3",
+      "neg": "S + haven't / hasn't + V3",
+      "q": "Have / Has + S + V3?",
+      "use": "Geçmişte başlayıp şimdiyle bağlantısı olan olaylar: deneyim, sonuç, hâlâ süren durumlar. Zamanı belli bir geçmiş an söylenmez.",
+      "sig": [
+        "already",
+        "yet",
+        "just",
+        "ever",
+        "never",
+        "so far",
+        "since",
+        "for",
+        "recently"
+      ],
+      "ex": [
+        [
+          "I have finished the report.",
+          "Raporu bitirdim."
+        ],
+        [
+          "Have you ever been to Japan?",
+          "Hiç Japonya'ya gittin mi?"
+        ],
+        [
+          "She has worked here since 2020.",
+          "2020'den beri burada çalışıyor."
+        ],
+        [
+          "We haven't received the invoice yet.",
+          "Faturayı henüz almadık."
+        ],
+        [
+          "The valve has just failed.",
+          "Vana az önce arızalandı."
+        ]
+      ],
+      "note": "yesterday, last week, ago ile kullanılmaz → Past Simple."
+    },
+    {
+      "k": "PPC",
+      "zone": "present",
+      "aspect": "perfect-continuous",
+      "en": "Present Perfect Continuous",
+      "tr": "Süregelen süreç",
+      "pos": "S + have / has + been + V-ing",
+      "neg": "S + haven't / hasn't + been + V-ing",
+      "q": "Have / Has + S + been + V-ing?",
+      "use": "Geçmişte başlayıp hâlâ süren (veya yeni biten) eylemin sürecini ve süresini vurgular.",
+      "sig": [
+        "for",
+        "since",
+        "how long",
+        "all day",
+        "all morning",
+        "lately",
+        "recently"
+      ],
+      "ex": [
+        [
+          "I have been waiting for two hours.",
+          "İki saattir bekliyorum."
+        ],
+        [
+          "It has been raining all day.",
+          "Bütün gün yağmur yağıyor."
+        ],
+        [
+          "How long have you been learning English?",
+          "Ne zamandır İngilizce öğreniyorsun?"
+        ],
+        [
+          "They have been repairing the pump since Monday.",
+          "Pazartesiden beri pompayı onarıyorlar."
+        ],
+        [
+          "She hasn't been sleeping well lately.",
+          "Son zamanlarda iyi uyuyamıyor."
+        ]
+      ],
+      "note": "Sayı veya tamamlanmış sonuç varsa Present Perfect Simple: I have written three pages."
+    },
+    {
+      "k": "PAS",
+      "zone": "past",
+      "aspect": "simple",
+      "en": "Past Simple",
+      "tr": "Geçmiş zaman (-di'li)",
+      "pos": "S + V2",
+      "neg": "S + didn't + V1",
+      "q": "Did + S + V1?",
+      "use": "Geçmişte başlamış ve bitmiş, zamanı belli olaylar; ardışık geçmiş eylemler.",
+      "sig": [
+        "yesterday",
+        "last week",
+        "ago",
+        "in 2019",
+        "when I was young",
+        "then"
+      ],
+      "ex": [
+        [
+          "We installed the pipes last week.",
+          "Boruları geçen hafta döşedik."
+        ],
+        [
+          "He didn't attend the meeting.",
+          "Toplantıya katılmadı."
+        ],
+        [
+          "Did you call the vendor yesterday?",
+          "Dün tedarikçiyi aradın mı?"
+        ],
+        [
+          "She moved to Ankara in 2015.",
+          "2015'te Ankara'ya taşındı."
+        ],
+        [
+          "The alarm rang and everyone left.",
+          "Alarm çaldı ve herkes çıktı."
+        ]
+      ],
+      "note": "Düzensiz fiillerin V2 halini ezberle: go-went, see-saw, take-took."
+    },
+    {
+      "k": "PAC",
+      "zone": "past",
+      "aspect": "continuous",
+      "en": "Past Continuous",
+      "tr": "Geçmişte sürmekte olan eylem",
+      "pos": "S + was / were + V-ing",
+      "neg": "S + wasn't / weren't + V-ing",
+      "q": "Was / Were + S + V-ing?",
+      "use": "Geçmişte belli bir anda süren eylem (arka plan); başka bir eylem araya girer. while ile kullanılır.",
+      "sig": [
+        "while",
+        "when",
+        "at 9 p.m. yesterday",
+        "all evening",
+        "at that moment"
+      ],
+      "ex": [
+        [
+          "I was checking the drawings when the power went off.",
+          "Elektrik kesildiğinde çizimleri kontrol ediyordum."
+        ],
+        [
+          "While we were welding, it started to rain.",
+          "Kaynak yaparken yağmur başladı."
+        ],
+        [
+          "At 9 p.m. yesterday, I was driving home.",
+          "Dün akşam dokuzda eve doğru araba kullanıyordum."
+        ],
+        [
+          "They weren't listening to me.",
+          "Beni dinlemiyorlardı."
+        ],
+        [
+          "What were you doing at noon?",
+          "Öğlen ne yapıyordun?"
+        ]
+      ],
+      "note": "Uzun eylem = was V-ing, araya giren kısa eylem = V2."
+    },
+    {
+      "k": "PAP",
+      "zone": "past",
+      "aspect": "perfect",
+      "en": "Past Perfect",
+      "tr": "Geçmişin geçmişi (-mişti)",
+      "pos": "S + had + V3",
+      "neg": "S + hadn't + V3",
+      "q": "Had + S + V3?",
+      "use": "Geçmişteki bir andan veya olaydan daha önce tamamlanmış eylem.",
+      "sig": [
+        "by the time",
+        "before",
+        "after",
+        "already",
+        "never … before",
+        "when"
+      ],
+      "ex": [
+        [
+          "By the time we arrived, the meeting had finished.",
+          "Biz vardığımızda toplantı bitmişti."
+        ],
+        [
+          "She had never flown before.",
+          "Daha önce hiç uçmamıştı."
+        ],
+        [
+          "I realised I had left my keys at home.",
+          "Anahtarlarımı evde unuttuğumu fark ettim."
+        ],
+        [
+          "After he had written the report, he went home.",
+          "Raporu yazdıktan sonra eve gitti."
+        ],
+        [
+          "They hadn't tested the line before painting.",
+          "Boyamadan önce hattı test etmemişlerdi."
+        ]
+      ],
+      "note": "Sırası before/after ile zaten belliyse Past Simple de olur."
+    },
+    {
+      "k": "PAPC",
+      "zone": "past",
+      "aspect": "perfect-continuous",
+      "en": "Past Perfect Continuous",
+      "tr": "Geçmişte bir ana kadar süren eylem",
+      "pos": "S + had + been + V-ing",
+      "neg": "S + hadn't + been + V-ing",
+      "q": "Had + S + been + V-ing?",
+      "use": "Geçmişteki bir ana kadar süren eylemin süresini veya o anın nedenini vurgular.",
+      "sig": [
+        "for",
+        "since",
+        "how long",
+        "all night",
+        "before"
+      ],
+      "ex": [
+        [
+          "He had been working for ten hours when the machine broke.",
+          "Makine bozulduğunda on saattir çalışıyordu."
+        ],
+        [
+          "The road was wet because it had been raining all night.",
+          "Yol ıslaktı çünkü bütün gece yağmur yağmıştı."
+        ],
+        [
+          "We had been waiting for an hour before the bus came.",
+          "Otobüs gelmeden önce bir saattir bekliyorduk."
+        ],
+        [
+          "She was tired; she had been studying since dawn.",
+          "Yorgundu; şafaktan beri çalışıyordu."
+        ],
+        [
+          "How long had you been living there before you moved?",
+          "Taşınmadan önce ne kadar süredir orada yaşıyordun?"
+        ]
+      ],
+      "note": "Past Perfect'in 'süreç' versiyonudur; sonuç değil süre vurgulanır."
+    },
+    {
+      "k": "FSI",
+      "zone": "future",
+      "aspect": "simple",
+      "en": "Future Simple",
+      "tr": "Gelecek zaman (will)",
+      "pos": "S + will + V1",
+      "neg": "S + won't + V1",
+      "q": "Will + S + V1?",
+      "use": "Anlık kararlar, söz/teklif, tahmin ve genel gelecek bilgisi. (Plan ve kanıta dayalı tahmin için be going to.)",
+      "sig": [
+        "tomorrow",
+        "next week",
+        "soon",
+        "probably",
+        "I think",
+        "I promise",
+        "perhaps"
+      ],
+      "ex": [
+        [
+          "I will send the drawings tomorrow.",
+          "Çizimleri yarın göndereceğim."
+        ],
+        [
+          "It will probably rain tonight.",
+          "Bu gece muhtemelen yağmur yağacak."
+        ],
+        [
+          "I'll help you with that.",
+          "Sana bununla yardım edeceğim."
+        ],
+        [
+          "They won't finish on time.",
+          "Zamanında bitirmeyecekler."
+        ],
+        [
+          "Will you attend the kick-off meeting?",
+          "Kick-off toplantısına katılacak mısın?"
+        ]
+      ],
+      "note": "if / when / as soon as cümlesinde will kullanılmaz: When I arrive, I'll call you."
+    },
+    {
+      "k": "FCO",
+      "zone": "future",
+      "aspect": "continuous",
+      "en": "Future Continuous",
+      "tr": "Gelecekte sürmekte olacak eylem",
+      "pos": "S + will be + V-ing",
+      "neg": "S + won't be + V-ing",
+      "q": "Will + S + be + V-ing?",
+      "use": "Gelecekte belli bir anda devam ediyor olacak eylem; kibar plan soruları.",
+      "sig": [
+        "this time tomorrow",
+        "at 8 p.m. tonight",
+        "next week at this time",
+        "in 2030"
+      ],
+      "ex": [
+        [
+          "This time tomorrow I will be flying to Dubai.",
+          "Yarın bu saatte Dubai'ye uçuyor olacağım."
+        ],
+        [
+          "Don't call at 8; we will be having dinner.",
+          "Sekizde arama; yemek yiyor olacağız."
+        ],
+        [
+          "The welders will be working on the main line next week.",
+          "Gelecek hafta kaynakçılar ana hat üzerinde çalışıyor olacak."
+        ],
+        [
+          "Will you be using the car tonight?",
+          "Bu gece arabayı kullanacak mısın?"
+        ],
+        [
+          "In 2030, people will be driving electric cars.",
+          "2030'da insanlar elektrikli araç kullanıyor olacak."
+        ]
+      ],
+      "note": "Will you be …-ing? 'plan(ın) var mı?' diye nazikçe sorar."
+    },
+    {
+      "k": "FPE",
+      "zone": "future",
+      "aspect": "perfect",
+      "en": "Future Perfect",
+      "tr": "Gelecekte tamamlanmış olacak eylem",
+      "pos": "S + will have + V3",
+      "neg": "S + won't have + V3",
+      "q": "Will + S + have + V3?",
+      "use": "Gelecekteki belirli bir ana kadar tamamlanmış olacak eylem.",
+      "sig": [
+        "by Friday",
+        "by the time",
+        "by 2030",
+        "by then",
+        "before"
+      ],
+      "ex": [
+        [
+          "By Friday, we will have completed the hydrotest.",
+          "Cumaya kadar hidrotesti tamamlamış olacağız."
+        ],
+        [
+          "She will have graduated by 2028.",
+          "2028'e kadar mezun olmuş olacak."
+        ],
+        [
+          "By the time you arrive, I will have left.",
+          "Sen varana kadar ben çıkmış olacağım."
+        ],
+        [
+          "They won't have finished by noon.",
+          "Öğlene kadar bitirmiş olmayacaklar."
+        ],
+        [
+          "Will you have read the report by tomorrow?",
+          "Yarına kadar raporu okumuş olacak mısın?"
+        ]
+      ],
+      "note": "'by' (…e kadar) kelimesi Future Perfect'in en güçlü ipucudur."
+    },
+    {
+      "k": "FPC",
+      "zone": "future",
+      "aspect": "perfect-continuous",
+      "en": "Future Perfect Continuous",
+      "tr": "Gelecekte o ana kadar süregelmiş olacak eylem",
+      "pos": "S + will have been + V-ing",
+      "neg": "S + won't have been + V-ing",
+      "q": "Will + S + have been + V-ing?",
+      "use": "Gelecekteki bir ana kadar ne kadar süredir devam ediyor olacağını vurgular.",
+      "sig": [
+        "by June",
+        "for … years",
+        "by next month",
+        "by then",
+        "by the end of the year"
+      ],
+      "ex": [
+        [
+          "By June, I will have been working here for five years.",
+          "Haziranda burada beş yıldır çalışıyor olacağım."
+        ],
+        [
+          "At 6 p.m. she will have been driving for ten hours.",
+          "Akşam altıda on saattir araba kullanıyor olacak."
+        ],
+        [
+          "By next month they will have been building the plant for two years.",
+          "Gelecek ay tesisi iki yıldır inşa ediyor olacaklar."
+        ],
+        [
+          "Next year we will have been living here for a decade.",
+          "Seneye burada on yıldır yaşıyor olacağız."
+        ],
+        [
+          "How long will you have been studying by then?",
+          "O zamana kadar ne kadar süredir çalışıyor olacaksın?"
+        ]
+      ],
+      "note": "En az kullanılan zamandır; 'for + süre' ve 'by + zaman' birlikte gelir."
+    }
+  ],
+  "structs": [
+    {
+      "k": "MODR",
+      "title": "Modal Verbs",
+      "sub": "can · could · must · have to · should · may · might",
+      "def": "Modal fiiller yetenek, zorunluluk, tavsiye, izin ve olasılık anlatır. Hep V1 alır, -s/-ed almaz; soru ve olumsuzlukta yardımcı fiil gerekmez.",
+      "forms": [
+        [
+          "Yetenek",
+          "can / could + V1"
+        ],
+        [
+          "Zorunluluk",
+          "must / have to + V1"
+        ],
+        [
+          "Yasak",
+          "mustn't + V1"
+        ],
+        [
+          "Gerek yok",
+          "don't have to / needn't + V1"
+        ],
+        [
+          "Tavsiye",
+          "should / ought to + V1"
+        ],
+        [
+          "Olasılık",
+          "may / might / could + V1"
+        ],
+        [
+          "İzin · rica",
+          "Can / Could / May + S + V1?"
+        ]
+      ],
+      "ex": [
+        [
+          "You must wear a helmet on site.",
+          "Şantiyede baret takmak zorundasın."
+        ],
+        [
+          "You don't have to come on Saturday.",
+          "Cumartesi gelmek zorunda değilsin."
+        ],
+        [
+          "She can speak three languages.",
+          "Üç dil konuşabilir."
+        ],
+        [
+          "You should check the valves before startup.",
+          "Devreye almadan önce vanaları kontrol etmelisin."
+        ],
+        [
+          "It might rain later, so take an umbrella.",
+          "Sonra yağmur yağabilir, bu yüzden şemsiye al."
+        ]
+      ],
+      "tip": "mustn't = yasak; don't have to = zorunlu değil. İkisi aynı anlama gelmez!"
+    },
+    {
+      "k": "MODH",
+      "title": "Modals + have + V3",
+      "sub": "geçmiş hakkında çıkarım, eleştiri ve pişmanlık",
+      "def": "Geçmişte olan bir şey hakkında ne kadar emin olduğunu söylersin ya da yapılmayanı eleştirirsin. Kalıp: modal + have + V3.",
+      "forms": [
+        [
+          "%90 emin",
+          "must have + V3"
+        ],
+        [
+          "%50",
+          "might / may / could have + V3"
+        ],
+        [
+          "Olanaksız",
+          "can't have + V3"
+        ],
+        [
+          "Pişmanlık / eleştiri",
+          "should have / shouldn't have + V3"
+        ],
+        [
+          "Gerekmezdi",
+          "needn't have + V3"
+        ],
+        [
+          "Yapabilirdi",
+          "could have + V3"
+        ]
+      ],
+      "ex": [
+        [
+          "The lights are off; they must have gone home.",
+          "Işıklar kapalı; eve gitmiş olmalılar."
+        ],
+        [
+          "She can't have seen the email; she was offline.",
+          "E-postayı görmüş olamaz; çevrimdışıydı."
+        ],
+        [
+          "He might have taken the wrong bus.",
+          "Yanlış otobüse binmiş olabilir."
+        ],
+        [
+          "You should have called me earlier.",
+          "Beni daha önce aramalıydın."
+        ],
+        [
+          "We needn't have hurried; the train was late.",
+          "Acele etmemize gerek yokmuş; tren gecikmişti."
+        ]
+      ],
+      "tip": "Emin olma sırası: must have › might/could have › can't have."
+    },
+    {
+      "k": "UT",
+      "title": "used to · would · would rather · prefer",
+      "sub": "geçmiş alışkanlıklar ve tercihler",
+      "def": "used to geçmişte olan alışkanlık ve durumlar için; would sadece tekrarlanan eylemler için (durum fiili alamaz). would rather / prefer tercih bildirir.",
+      "forms": [
+        [
+          "Geçmiş durum / alışkanlık",
+          "used to + V1"
+        ],
+        [
+          "Tekrarlanan eylem",
+          "would + V1"
+        ],
+        [
+          "Olumsuz / soru",
+          "didn't use to + V1 · Did … use to + V1?"
+        ],
+        [
+          "Tercih",
+          "would rather + V1 (than V1)"
+        ],
+        [
+          "Tercih (başkası)",
+          "would rather + özne + V2"
+        ],
+        [
+          "Tercih",
+          "prefer A to B · would prefer to + V1"
+        ]
+      ],
+      "ex": [
+        [
+          "I used to live in Izmir.",
+          "Eskiden İzmir'de yaşardım."
+        ],
+        [
+          "Every summer we would visit my grandparents.",
+          "Her yaz büyükanne ve büyükbabamı ziyaret ederdik."
+        ],
+        [
+          "She didn't use to like coffee.",
+          "Eskiden kahveyi sevmezdi."
+        ],
+        [
+          "I'd rather stay at home tonight.",
+          "Bu gece evde kalmayı tercih ederim."
+        ],
+        [
+          "I prefer tea to coffee.",
+          "Çayı kahveye tercih ederim."
+        ]
+      ],
+      "tip": "be / have / know / like gibi durum fiilleriyle would kullanılmaz: I used to be shy (✓) · I would be shy (✗)."
+    },
+    {
+      "k": "LINK",
+      "title": "Linking verbs · Stative vs dynamic",
+      "sub": "look, sound, seem, taste, feel, become…",
+      "def": "Linking fiillerden sonra zarf değil SIFAT gelir. Durum (stative) fiilleri continuous almaz; dinamik fiiller alır.",
+      "forms": [
+        [
+          "Linking + sıfat",
+          "look / sound / seem / feel / taste / smell / become / get + SIFAT"
+        ],
+        [
+          "Durum fiilleri",
+          "know, own, want, need, belong, believe → -ing almaz"
+        ],
+        [
+          "Geçici davranış",
+          "be + being + sıfat (He is being rude.)"
+        ],
+        [
+          "İki anlamlı fiiller",
+          "have (sahip) ≠ having (yiyor) · think (fikir) ≠ thinking (düşünüyor)"
+        ]
+      ],
+      "ex": [
+        [
+          "The soup tastes delicious.",
+          "Çorba lezzetli."
+        ],
+        [
+          "That idea sounds reasonable.",
+          "O fikir makul görünüyor."
+        ],
+        [
+          "She looks tired today.",
+          "Bugün yorgun görünüyor."
+        ],
+        [
+          "I know the answer.",
+          "Cevabı biliyorum."
+        ],
+        [
+          "He is being rude today.",
+          "Bugün kaba davranıyor."
+        ]
+      ],
+      "tip": "sounds good ✓ · sounds well ✗ — linking fiilden sonra sıfat (good), zarf (well) değil."
+    },
+    {
+      "k": "REL",
+      "title": "Relative Clauses",
+      "sub": "who · which · that · whose · where · when",
+      "def": "Bir ismi açıklayan yan cümleciktir; ismin hemen arkasına gelir. Virgülsüz (defining) cümlede o isim olmadan anlam eksik kalır; virgüllü (non-defining) cümle ekstra bilgi verir.",
+      "forms": [
+        [
+          "İnsan",
+          "who / that"
+        ],
+        [
+          "Şey",
+          "which / that"
+        ],
+        [
+          "Aitlik",
+          "whose + isim"
+        ],
+        [
+          "Yer",
+          "where"
+        ],
+        [
+          "Zaman",
+          "when"
+        ],
+        [
+          "Virgüllü (ek bilgi)",
+          ", who / which … ,  (that kullanılmaz)"
+        ]
+      ],
+      "ex": [
+        [
+          "The engineer who designed this bridge won an award.",
+          "Bu köprüyü tasarlayan mühendis ödül kazandı."
+        ],
+        [
+          "The pump that failed was replaced.",
+          "Arızalanan pompa değiştirildi."
+        ],
+        [
+          "This is the man whose car was stolen.",
+          "Bu, arabası çalınan adam."
+        ],
+        [
+          "The office where I work is near the port.",
+          "Çalıştığım ofis limana yakın."
+        ],
+        [
+          "My car, which is ten years old, still runs well.",
+          "On yıllık arabam hâlâ iyi çalışıyor."
+        ]
+      ],
+      "tip": "Virgülden sonra that kullanılmaz: My boss, who lives in Ankara… ✓ · my boss, that lives… ✗"
+    },
+    {
+      "k": "COND",
+      "title": "Conditionals 0–3",
+      "sub": "if cümleleri",
+      "def": "If cümlesi bir koşulu ve sonucunu anlatır. Tip, koşulun gerçekçiliğini belirler. If'li kısımda will / would kullanılmaz.",
+      "forms": [
+        [
+          "0 · genel doğru",
+          "if + present, present"
+        ],
+        [
+          "1 · gerçek olası",
+          "if + present, will + V1"
+        ],
+        [
+          "2 · hayali (şimdi)",
+          "if + V2 (were), would + V1"
+        ],
+        [
+          "3 · geçmişte olmayan",
+          "if + had V3, would have V3"
+        ],
+        [
+          "unless",
+          "unless = if … not"
+        ]
+      ],
+      "ex": [
+        [
+          "If you heat ice, it melts.",
+          "Buzu ısıtırsan erir."
+        ],
+        [
+          "If it rains tomorrow, we will cancel the visit.",
+          "Yarın yağmur yağarsa ziyareti iptal ederiz."
+        ],
+        [
+          "If I were you, I would ask for a second opinion.",
+          "Senin yerinde olsam ikinci bir görüş isterdim."
+        ],
+        [
+          "If we had tested the line, we would have found the leak.",
+          "Hattı test etseydik sızıntıyı bulmuş olurduk."
+        ],
+        [
+          "Unless you hurry, you will miss the train.",
+          "Acele etmezsen treni kaçırırsın."
+        ]
+      ],
+      "tip": "If I were… her özneyle were; if'li kısımda will/would YOK."
+    },
+    {
+      "k": "WISH",
+      "title": "Wish · If only",
+      "sub": "keşke…",
+      "def": "Gerçeğin tersini dile getirir ve bir adım geriye gider: şimdiki durum → V2, geçmiş → had V3, şikâyet → would. If only = daha güçlü wish.",
+      "forms": [
+        [
+          "Şimdiki pişmanlık",
+          "wish + V2 / were"
+        ],
+        [
+          "Geçmiş pişmanlık",
+          "wish + had V3"
+        ],
+        [
+          "Yetenek",
+          "wish + could (V1) / could have V3"
+        ],
+        [
+          "Şikâyet",
+          "wish + başkası + would + V1"
+        ],
+        [
+          "Güçlü",
+          "If only + aynı yapılar"
+        ]
+      ],
+      "ex": [
+        [
+          "I wish I had a car.",
+          "Keşke arabam olsaydı."
+        ],
+        [
+          "I wish I were taller.",
+          "Keşke daha uzun olsaydım."
+        ],
+        [
+          "She wishes she had studied harder.",
+          "Keşke daha çok çalışsaydı."
+        ],
+        [
+          "I wish the vendor would answer my emails.",
+          "Keşke tedarikçi e-postalarıma cevap verse."
+        ],
+        [
+          "If only we had taken the earlier flight!",
+          "Keşke daha erken uçağa binseydik!"
+        ]
+      ],
+      "tip": "Kendi davranışın için would kullanılmaz: I wish I would… ✗ → I wish I could… ✓"
+    },
+    {
+      "k": "FUT",
+      "title": "Gelecek zamanı ifade etme yolları",
+      "sub": "will · be going to · present continuous · present simple",
+      "def": "Gelecek tek bir kalıpla değil, niyetin türüne göre farklı yapılarla anlatılır.",
+      "forms": [
+        [
+          "Anlık karar · söz · tahmin",
+          "will + V1"
+        ],
+        [
+          "Plan · kanıta dayalı tahmin",
+          "am / is / are going to + V1"
+        ],
+        [
+          "Kesinleşmiş randevu",
+          "present continuous (am meeting…)"
+        ],
+        [
+          "Tarife · program",
+          "present simple (leaves at 7:40)"
+        ]
+      ],
+      "ex": [
+        [
+          "Look at those clouds! It is going to rain.",
+          "Şu bulutlara bak! Yağmur yağacak."
+        ],
+        [
+          "I'm going to start a new course next month.",
+          "Gelecek ay yeni bir kursa başlayacağım."
+        ],
+        [
+          "We are meeting the client at 5 tomorrow.",
+          "Yarın 5'te müşteriyle buluşuyoruz."
+        ],
+        [
+          "The flight leaves at 7:40 on Friday.",
+          "Uçuş Cuma günü 7.40'ta kalkıyor."
+        ],
+        [
+          "I'll carry that bag for you.",
+          "O çantayı senin için taşırım."
+        ]
+      ],
+      "tip": "Telefon çalıyor → 'I'll get it' (anlık karar). Önceden planlı → 'I'm going to call him.'"
+    },
+    {
+      "k": "TIME",
+      "title": "Zaman ifadeleri",
+      "sub": "for · since · ago · already · yet · just · by the time · while",
+      "def": "Zaman edatları ve zarfları hangi zamanın kullanılacağını belirler. Doğru ipucunu bulmak, doğru zamanı bulmaktır.",
+      "forms": [
+        [
+          "for + süre",
+          "for ten years (Present Perfect)"
+        ],
+        [
+          "since + başlangıç",
+          "since 2020 (Present Perfect)"
+        ],
+        [
+          "ago + Past Simple",
+          "two years ago"
+        ],
+        [
+          "already / yet / just",
+          "Present Perfect"
+        ],
+        [
+          "by the time",
+          "Past Perfect / Future Perfect"
+        ],
+        [
+          "while",
+          "while + continuous"
+        ]
+      ],
+      "ex": [
+        [
+          "I have worked here for six years.",
+          "Altı yıldır burada çalışıyorum."
+        ],
+        [
+          "I have worked here since 2020.",
+          "2020'den beri burada çalışıyorum."
+        ],
+        [
+          "I started working here six years ago.",
+          "Burada altı yıl önce çalışmaya başladım."
+        ],
+        [
+          "By the time we arrived, the meeting had finished.",
+          "Biz vardığımızda toplantı bitmişti."
+        ],
+        [
+          "While I was driving, my phone rang.",
+          "Araba sürerken telefonum çaldı."
+        ]
+      ],
+      "tip": "ago ile Present Perfect kullanılmaz: I have started two years ago ✗ → I started two years ago ✓"
+    }
+  ],
+  "work": [
+    [
+      "PSI",
+      "I work",
+      "(genelde) çalışırım"
+    ],
+    [
+      "PCO",
+      "I am working",
+      "(şu an) çalışıyorum"
+    ],
+    [
+      "PPE",
+      "I have worked",
+      "çalıştım (şimdiyle bağlantılı)"
+    ],
+    [
+      "PPC",
+      "I have been working",
+      "(…dır) çalışıyorum"
+    ],
+    [
+      "PAS",
+      "I worked",
+      "çalıştım"
+    ],
+    [
+      "PAC",
+      "I was working",
+      "çalışıyordum"
+    ],
+    [
+      "PAP",
+      "I had worked",
+      "(daha önce) çalışmıştım"
+    ],
+    [
+      "PAPC",
+      "I had been working",
+      "(o ana kadar) çalışıyordum"
+    ],
+    [
+      "FSI",
+      "I will work",
+      "çalışacağım"
+    ],
+    [
+      "FCO",
+      "I will be working",
+      "çalışıyor olacağım"
+    ],
+    [
+      "FPE",
+      "I will have worked",
+      "çalışmış olacağım"
+    ],
+    [
+      "FPC",
+      "I will have been working",
+      "(o zamana kadar) çalışıyor olacağım"
+    ]
+  ]
+}

@@ -15,6 +15,11 @@ const CATEGORY_LABELS = {
 };
 
 function catLabel(cat) {
+  if (cat && cat.startsWith('eng:')) {
+    const c = Data.engCats.find((x) => x.id === cat.slice(4));
+    return c ? c.short : 'Mühendislik';
+  }
+  if (cat === 'engall') return 'Mühendislik Kelimeleri (hepsi)';
   if (cat && cat.startsWith('lesson:')) {
     const l = Data.findLesson(cat.slice(7));
     return l ? `Ders ${l.code}: ${l.title}` : 'Ders';
@@ -71,6 +76,8 @@ function renderMenu() {
   const weakN = Storage.getWeakPool().length;
   const nLessonWords = Data.byCategory('lessons').length;
   const nUnits = practiceUnits().length;
+  const nTests = practiceUnits().reduce((a, u) => a + unitTests(u), 0) + PRACTICE_MIX_TESTS + PRACTICE_TENSE_MIX + Data.engCats.length * 3 + PRACTICE_EVAL_TESTS;
+  const nEng = Data.byCategory('engall').length;
   const studied = Object.keys(Storage.getWordStats()).length;
   mount(`
     <div class="hero">
@@ -85,12 +92,14 @@ function renderMenu() {
     <button class="feature-card" data-key="practice" type="button">
       <span class="fc-icon">${icon('target', 26)}</span>
       <span class="fc-text"><span class="fc-title">Genel Tekrar & Test</span>
-      <span class="fc-sub">${nUnits} ünite × ${PRACTICE_TESTS_PER_UNIT} test · 40'ar soru · cevap anahtarlı</span></span>
+      <span class="fc-sub">${nUnits} ünite · ${nTests} test · 40'ar soru · cevap anahtarlı</span></span>
       <span class="chev">${icon('chevronRight', 20)}</span>
     </button>
     <div class="section-title">B2 Kursu</div>
     <div class="list-group">
       ${listRow('lessons', 'flame', 'Dersler', `${Data.lessons.length} ders · ${nLessonWords} kelime · ünite ünite`)}
+      ${listRow('tenses', 'clock', 'Zaman Çizelgesi', '12 zaman · çizgi üzerinde · 5’er örnek')}
+      ${listRow('structs', 'book', 'Gramer Yapıları', `${Data.tenses.structs.length} konu · tanım · formül · 5’er örnek`)}
       ${listRow('grammar', 'sparkle', 'Gramer Merkezi', `${Data.grammar.topics.length} konu · hata düzeltme · quiz`)}
     </div>
     <div class="section-title">Kelime pratiği</div>
@@ -101,6 +110,7 @@ function renderMenu() {
     </div>
     <div class="section-title">İş İngilizcesi</div>
     <div class="list-group">
+      ${listRow('eng', 'gear', 'Mühendislik Kelimeleri', `${nEng} piping & proje yönetimi terimi · KEY BCT/RET`)}
       ${listRow('meeting', 'users', 'Toplantı Senaryoları', `${Data.meetings.length} senaryo`)}
       ${listRow('patterns', 'translate', 'Günlük Kalıplar', `${Data.patterns.length} kalıp`)}
     </div>
@@ -115,6 +125,9 @@ function renderMenu() {
       if (key === 'practice') Router.push('practiceHub');
       else if (key === 'lessons') Router.push('lessonList');
       else if (key === 'grammar') Router.push('grammarHub');
+      else if (key === 'tenses') Router.push('tenseHub');
+      else if (key === 'structs') Router.push('structsPage');
+      else if (key === 'eng') Router.push('engHub');
       else if (key === 'bank') Router.push('categorySelect', { title: 'Kelime Bankası' });
       else if (key === 'weak') startFlashcards('weak', 'words');
       else if (key === 'meeting') Router.push('meetingList');
@@ -175,7 +188,7 @@ function renderFlashcard() {
     <div class="card">
       ${prev ? `<span class="ans-badge ${prev}">${ANSWER_LABELS[prev]}</span>` : ''}
       <div class="card-term">${escapeHtml(w.term)}</div>
-      <div class="card-pron">[${escapeHtml(w.pronunciation)}]</div>
+      ${w.pronunciation ? `<div class="card-pron">[${escapeHtml(w.pronunciation)}]</div>` : ''}
       ${wordStatHtml(w.id)}
       <div class="sent-list">${sentHtml}</div>
       <div id="explain-box"></div>
@@ -528,7 +541,7 @@ function renderLessonList() {
   const html = units.map((u) => {
     const rows = u.lessons.slice().reverse().map((l) =>
       listRow('l:' + l.id, null, `${l.code} · ${l.title}`, l.grammar ? l.grammar.title : '', (l.words || []).length)).join('');
-    const tests = Array.from({ length: PRACTICE_TESTS_PER_UNIT }, (_, t) =>
+    const tests = Array.from({ length: unitTests(u) }, (_, t) =>
       `<button class="p-testbtn" data-kind="unit:${u.n}:${t}"><span>${t + 1}</span>${bestBadge(`unit:${u.n}:${t}`)}</button>`).join('');
     return `<div class="section-title" lang="en">Unit ${u.n}</div>
       <div class="list-group">${rows}</div>
@@ -554,6 +567,7 @@ function renderLessonDetail(params) {
   mount(`
     ${lesson ? `<div class="hero"><p>Unit ${unit}${lesson.date ? ' · ' + escapeHtml(lesson.date) : ''}${lesson.pages ? ' · ' + escapeHtml(lesson.pages) : ''}</p><h2>${escapeHtml(lesson.title)}</h2></div>` : ''}
     ${lesson ? grammarCardHtml(lesson.grammar, 'Gramer') : ''}
+    ${lesson && lesson.grammar2 ? grammarCardHtml(lesson.grammar2, 'Gramer') : ''}
     <div class="section-title">Çalış</div>
     <div class="list-group">
       ${listRow('flashcards', 'book', 'Kelime Kartları', 'Öğren · biliyorum / bilmiyorum', n)}
@@ -855,6 +869,12 @@ const Screens = {
       case 'practiceTest': renderPracticeTest(state.params); break;
       case 'grammarHub': renderGrammarHub(); break;
       case 'grammarTopic': renderGrammarTopic(state.params); break;
+      case 'tenseHub': renderTenseHub(); break;
+      case 'tenseDetail': renderTenseDetail(state.params); break;
+      case 'tenseTests': renderTenseTests(); break;
+      case 'structsPage': renderStructs(); break;
+      case 'engHub': renderEngHub(); break;
+      case 'engCat': renderEngCat(state.params); break;
       case 'stats': renderStats(state.params); break;
       case 'correctionSession': renderCorrection(); break;
       case 'correctionSummary': renderReviewSummary('corrections'); break;

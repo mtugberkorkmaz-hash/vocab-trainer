@@ -119,7 +119,8 @@
           "I wish the vendor would answer my emails.",
           "If only we had stayed at home with pizza and Netflix."
         ]
-      }
+      },
+      "lesson": "L4A"
     },
     {
       "key": "COND03",
@@ -137,6 +138,48 @@
           "If the client approves the design, we will start next week.",
           "If the weather were better, we could go swimming.",
           "If they had taken the earlier flight, they wouldn't have missed their hotel shuttle."
+        ]
+      },
+      "lesson": "L4A"
+    },
+    {
+      "key": "FUT",
+      "title": "Gelecek zamanı ifade etme yolları",
+      "units": [
+        1
+      ],
+      "tip": "Anlık karar · söz · tahmin → will; plan ve kanıta dayalı tahmin → be going to; kesinleşmiş randevu → present continuous; tarife → present simple.",
+      "grammar": {
+        "title": "Gelecek zamanı ifade etme yolları",
+        "formula": "will + V1 · am / is / are going to + V1 · present continuous (am meeting…) · present simple (leaves at 7:40)",
+        "note": "Gelecek tek bir kalıpla değil, niyetin türüne göre farklı yapılarla anlatılır.",
+        "examples": [
+          "Look at those clouds! It is going to rain.",
+          "I'm going to start a new course next month.",
+          "We are meeting the client at 5 tomorrow.",
+          "The flight leaves at 7:40 on Friday.",
+          "I'll carry that bag for you."
+        ]
+      }
+    },
+    {
+      "key": "TIME",
+      "title": "Zaman ifadeleri",
+      "units": [
+        1,
+        3
+      ],
+      "tip": "for + süre, since + başlangıç, ago + past simple; already/yet/just → present perfect; by the time → past perfect / future perfect; while → continuous.",
+      "grammar": {
+        "title": "Zaman ifadeleri",
+        "formula": "for ten years (Present Perfect) · since 2020 (Present Perfect) · two years ago · Present Perfect · Past Perfect / Future Perfect · while + continuous",
+        "note": "Zaman edatları ve zarfları hangi zamanın kullanılacağını belirler. Doğru ipucunu bulmak, doğru zamanı bulmaktır.",
+        "examples": [
+          "I have worked here for six years.",
+          "I have worked here since 2020.",
+          "I started working here six years ago.",
+          "By the time we arrived, the meeting had finished.",
+          "While I was driving, my phone rang."
         ]
       }
     }
@@ -3930,6 +3973,1944 @@
         "was",
         "were",
         "would be"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G315",
+      "topic": "TENSE",
+      "q": "The shop ___ at 9 a.m. every day.",
+      "o": [
+        "opens",
+        "is opening",
+        "opened",
+        "has opened"
+      ],
+      "e": "every day → geniş zaman.",
+      "k": "PSI"
+    },
+    {
+      "id": "G316",
+      "topic": "TENSE",
+      "q": "She ___ coffee. She prefers tea.",
+      "o": [
+        "doesn't drink",
+        "isn't drinking",
+        "didn't drink",
+        "hasn't drunk"
+      ],
+      "e": "Genel tercih → doesn't + V1.",
+      "k": "PSI"
+    },
+    {
+      "id": "G317",
+      "topic": "TENSE",
+      "q": "Water ___ at 0°C.",
+      "o": [
+        "freezes",
+        "is freezing",
+        "froze",
+        "has frozen"
+      ],
+      "e": "Genel doğru → geniş zaman.",
+      "k": "PSI"
+    },
+    {
+      "id": "G318",
+      "topic": "TENSE",
+      "q": "___ he work on Saturdays?",
+      "o": [
+        "Does",
+        "Is",
+        "Did",
+        "Has"
+      ],
+      "e": "he → Does + V1?",
+      "k": "PSI"
+    },
+    {
+      "id": "G319",
+      "topic": "TENSE",
+      "q": "My brother ___ in a bank.",
+      "o": [
+        "works",
+        "work",
+        "is work",
+        "working"
+      ],
+      "e": "he/she/it → V1 + s.",
+      "k": "PSI"
+    },
+    {
+      "id": "G320",
+      "topic": "TENSE",
+      "q": "They usually ___ lunch at noon.",
+      "o": [
+        "have",
+        "are having",
+        "had",
+        "has had"
+      ],
+      "e": "usually → geniş zaman.",
+      "k": "PSI"
+    },
+    {
+      "id": "G321",
+      "topic": "TENSE",
+      "q": "Look! It ___.",
+      "o": [
+        "is raining",
+        "rains",
+        "rained",
+        "has rained"
+      ],
+      "e": "Look! → şu an olan eylem.",
+      "k": "PCO"
+    },
+    {
+      "id": "G322",
+      "topic": "TENSE",
+      "q": "I can't talk now. I ___ a meeting.",
+      "o": [
+        "am having",
+        "have",
+        "had",
+        "has had"
+      ],
+      "e": "have = toplantı yapmak → dinamik, continuous alır.",
+      "k": "PCO"
+    },
+    {
+      "id": "G323",
+      "topic": "TENSE",
+      "q": "She ___ at the moment.",
+      "o": [
+        "isn't working",
+        "doesn't work",
+        "didn't work",
+        "hasn't worked"
+      ],
+      "e": "at the moment → şimdiki zaman.",
+      "k": "PCO"
+    },
+    {
+      "id": "G324",
+      "topic": "TENSE",
+      "q": "We ___ the client at 4 tomorrow; it's arranged.",
+      "o": [
+        "are meeting",
+        "met",
+        "have met",
+        "were meeting"
+      ],
+      "e": "Kesinleşmiş plan → present continuous.",
+      "k": "PCO"
+    },
+    {
+      "id": "G325",
+      "topic": "TENSE",
+      "q": "What ___ right now?",
+      "o": [
+        "are you doing",
+        "do you do",
+        "did you do",
+        "have you done"
+      ],
+      "e": "right now → are you doing?",
+      "k": "PCO"
+    },
+    {
+      "id": "G326",
+      "topic": "TENSE",
+      "q": "Prices ___ these days.",
+      "o": [
+        "are rising",
+        "rose",
+        "rises",
+        "had risen"
+      ],
+      "e": "these days → süren değişim.",
+      "k": "PCO"
+    },
+    {
+      "id": "G327",
+      "topic": "TENSE",
+      "q": "I ___ my homework already.",
+      "o": [
+        "have finished",
+        "finish",
+        "am finishing",
+        "was finishing"
+      ],
+      "e": "already → present perfect.",
+      "k": "PPE"
+    },
+    {
+      "id": "G328",
+      "topic": "TENSE",
+      "q": "She ___ in Izmir since 2018.",
+      "o": [
+        "has lived",
+        "lived",
+        "lives",
+        "is living"
+      ],
+      "e": "since + başlangıç noktası → present perfect.",
+      "k": "PPE"
+    },
+    {
+      "id": "G329",
+      "topic": "TENSE",
+      "q": "Have you ever ___ sushi?",
+      "o": [
+        "eaten",
+        "ate",
+        "eat",
+        "eating"
+      ],
+      "e": "ever → Have you ever + V3?",
+      "k": "PPE"
+    },
+    {
+      "id": "G330",
+      "topic": "TENSE",
+      "q": "We ___ the invoice yet.",
+      "o": [
+        "haven't received",
+        "don't receive",
+        "aren't receiving",
+        "weren't receiving"
+      ],
+      "e": "yet → olumsuz present perfect.",
+      "k": "PPE"
+    },
+    {
+      "id": "G331",
+      "topic": "TENSE",
+      "q": "He has just ___ the room.",
+      "o": [
+        "left",
+        "leave",
+        "leaving",
+        "leaves"
+      ],
+      "e": "has just + V3.",
+      "k": "PPE"
+    },
+    {
+      "id": "G332",
+      "topic": "TENSE",
+      "q": "This is the first time I ___ a drone.",
+      "o": [
+        "have flown",
+        "flew",
+        "fly",
+        "am flying"
+      ],
+      "e": "This is the first time + present perfect.",
+      "k": "PPE"
+    },
+    {
+      "id": "G333",
+      "topic": "TENSE",
+      "q": "She ___ for three hours; she is still at it.",
+      "o": [
+        "has been studying",
+        "studied",
+        "is studied",
+        "studies"
+      ],
+      "e": "Süre + hâlâ sürüyor → PPC.",
+      "k": "PPC"
+    },
+    {
+      "id": "G334",
+      "topic": "TENSE",
+      "q": "How long ___ English?",
+      "o": [
+        "have you been learning",
+        "did you learn",
+        "do you learn",
+        "are you learn"
+      ],
+      "e": "How long → PPC.",
+      "k": "PPC"
+    },
+    {
+      "id": "G335",
+      "topic": "TENSE",
+      "q": "It ___ all day, so the site is muddy.",
+      "o": [
+        "has been raining",
+        "rained",
+        "rains",
+        "is rained"
+      ],
+      "e": "Sonucu görülen süreç.",
+      "k": "PPC"
+    },
+    {
+      "id": "G336",
+      "topic": "TENSE",
+      "q": "Sorry I'm late. ___ long?",
+      "o": [
+        "Have you been waiting",
+        "Did you wait",
+        "Are you waited",
+        "Do you wait"
+      ],
+      "e": "",
+      "k": "PPC"
+    },
+    {
+      "id": "G337",
+      "topic": "TENSE",
+      "q": "I ___ for you since noon!",
+      "o": [
+        "have been waiting",
+        "wait",
+        "waited",
+        "am waited"
+      ],
+      "e": "",
+      "k": "PPC"
+    },
+    {
+      "id": "G338",
+      "topic": "TENSE",
+      "q": "They ___ the pump since Monday.",
+      "o": [
+        "have been repairing",
+        "repaired",
+        "repair",
+        "are repaired"
+      ],
+      "e": "",
+      "k": "PPC"
+    },
+    {
+      "id": "G339",
+      "topic": "TENSE",
+      "q": "We ___ the pipes last week.",
+      "o": [
+        "installed",
+        "have installed",
+        "were installing",
+        "had installed"
+      ],
+      "e": "last week → past simple.",
+      "k": "PAS"
+    },
+    {
+      "id": "G340",
+      "topic": "TENSE",
+      "q": "He ___ the meeting; he was abroad.",
+      "o": [
+        "didn't attend",
+        "hasn't attended",
+        "doesn't attend",
+        "wasn't attend"
+      ],
+      "e": "",
+      "k": "PAS"
+    },
+    {
+      "id": "G341",
+      "topic": "TENSE",
+      "q": "___ you call the vendor yesterday?",
+      "o": [
+        "Did",
+        "Do",
+        "Have",
+        "Were"
+      ],
+      "e": "yesterday → Did + V1?",
+      "k": "PAS"
+    },
+    {
+      "id": "G342",
+      "topic": "TENSE",
+      "q": "She ___ to Ankara in 2015.",
+      "o": [
+        "moved",
+        "has moved",
+        "was moving",
+        "moves"
+      ],
+      "e": "in 2015 → bitmiş geçmiş.",
+      "k": "PAS"
+    },
+    {
+      "id": "G343",
+      "topic": "TENSE",
+      "q": "I ___ him two days ago.",
+      "o": [
+        "saw",
+        "have seen",
+        "was seeing",
+        "had seen"
+      ],
+      "e": "ago → past simple.",
+      "k": "PAS"
+    },
+    {
+      "id": "G344",
+      "topic": "TENSE",
+      "q": "The alarm ___ and everybody left.",
+      "o": [
+        "rang",
+        "was ringing",
+        "has rung",
+        "rings"
+      ],
+      "e": "Ardışık eylemler.",
+      "k": "PAS"
+    },
+    {
+      "id": "G345",
+      "topic": "TENSE",
+      "q": "I ___ the drawings when the power went off.",
+      "o": [
+        "was checking",
+        "checked",
+        "have checked",
+        "had checked"
+      ],
+      "e": "Arka plan eylem.",
+      "k": "PAC"
+    },
+    {
+      "id": "G346",
+      "topic": "TENSE",
+      "q": "While we ___, it started to rain.",
+      "o": [
+        "were welding",
+        "welded",
+        "weld",
+        "have welded"
+      ],
+      "e": "while → continuous.",
+      "k": "PAC"
+    },
+    {
+      "id": "G347",
+      "topic": "TENSE",
+      "q": "At 9 p.m. yesterday I ___ home.",
+      "o": [
+        "was driving",
+        "drive",
+        "have driven",
+        "am driving"
+      ],
+      "e": "Geçmişte belli an.",
+      "k": "PAC"
+    },
+    {
+      "id": "G348",
+      "topic": "TENSE",
+      "q": "They ___ to me, so I repeated it.",
+      "o": [
+        "weren't listening",
+        "didn't listen",
+        "haven't listened",
+        "don't listen"
+      ],
+      "e": "",
+      "k": "PAC"
+    },
+    {
+      "id": "G349",
+      "topic": "TENSE",
+      "q": "What ___ at noon?",
+      "o": [
+        "were you doing",
+        "did you do",
+        "have you done",
+        "are you doing"
+      ],
+      "e": "",
+      "k": "PAC"
+    },
+    {
+      "id": "G350",
+      "topic": "TENSE",
+      "q": "It ___ when we left the office.",
+      "o": [
+        "was raining",
+        "rains",
+        "has rained",
+        "is raining"
+      ],
+      "e": "",
+      "k": "PAC"
+    },
+    {
+      "id": "G351",
+      "topic": "TENSE",
+      "q": "By the time we arrived, the meeting ___.",
+      "o": [
+        "had finished",
+        "finished",
+        "has finished",
+        "was finishing"
+      ],
+      "e": "by the time → past perfect.",
+      "k": "PAP"
+    },
+    {
+      "id": "G352",
+      "topic": "TENSE",
+      "q": "She had never ___ before she went to Tokyo.",
+      "o": [
+        "flown",
+        "fly",
+        "flew",
+        "flying"
+      ],
+      "e": "had + V3.",
+      "k": "PAP"
+    },
+    {
+      "id": "G353",
+      "topic": "TENSE",
+      "q": "I realised I ___ my keys at home.",
+      "o": [
+        "had left",
+        "have left",
+        "leave",
+        "was leaving"
+      ],
+      "e": "",
+      "k": "PAP"
+    },
+    {
+      "id": "G354",
+      "topic": "TENSE",
+      "q": "After he ___ the report, he went home.",
+      "o": [
+        "had written",
+        "wrote",
+        "has written",
+        "was writing"
+      ],
+      "e": "",
+      "k": "PAP"
+    },
+    {
+      "id": "G355",
+      "topic": "TENSE",
+      "q": "They ___ the line before painting.",
+      "o": [
+        "hadn't tested",
+        "didn't test",
+        "haven't tested",
+        "weren't testing"
+      ],
+      "e": "",
+      "k": "PAP"
+    },
+    {
+      "id": "G356",
+      "topic": "TENSE",
+      "q": "The film ___ before we arrived.",
+      "o": [
+        "had started",
+        "has started",
+        "starts",
+        "was start"
+      ],
+      "e": "",
+      "k": "PAP"
+    },
+    {
+      "id": "G357",
+      "topic": "TENSE",
+      "q": "He ___ for ten hours when the machine broke.",
+      "o": [
+        "had been working",
+        "has been working",
+        "was working",
+        "worked"
+      ],
+      "e": "Geçmişte bir ana kadar süre.",
+      "k": "PAPC"
+    },
+    {
+      "id": "G358",
+      "topic": "TENSE",
+      "q": "The road was wet because it ___ all night.",
+      "o": [
+        "had been raining",
+        "has rained",
+        "rains",
+        "is raining"
+      ],
+      "e": "",
+      "k": "PAPC"
+    },
+    {
+      "id": "G359",
+      "topic": "TENSE",
+      "q": "We ___ for an hour before the bus came.",
+      "o": [
+        "had been waiting",
+        "have been waiting",
+        "were waiting",
+        "waited"
+      ],
+      "e": "",
+      "k": "PAPC"
+    },
+    {
+      "id": "G360",
+      "topic": "TENSE",
+      "q": "She was tired; she ___ since dawn.",
+      "o": [
+        "had been studying",
+        "has been studying",
+        "studied",
+        "studies"
+      ],
+      "e": "",
+      "k": "PAPC"
+    },
+    {
+      "id": "G361",
+      "topic": "TENSE",
+      "q": "How long ___ there before you moved?",
+      "o": [
+        "had you been living",
+        "have you been living",
+        "did you live",
+        "are you living"
+      ],
+      "e": "",
+      "k": "PAPC"
+    },
+    {
+      "id": "G362",
+      "topic": "TENSE",
+      "q": "His hands were dirty; he ___ the engine.",
+      "o": [
+        "had been repairing",
+        "has repaired",
+        "repairs",
+        "is repairing"
+      ],
+      "e": "",
+      "k": "PAPC"
+    },
+    {
+      "id": "G363",
+      "topic": "TENSE",
+      "q": "I ___ the drawings tomorrow.",
+      "o": [
+        "will send",
+        "send",
+        "sent",
+        "have sent"
+      ],
+      "e": "",
+      "k": "FSI"
+    },
+    {
+      "id": "G364",
+      "topic": "TENSE",
+      "q": "It ___ probably rain tonight.",
+      "o": [
+        "will",
+        "did",
+        "has",
+        "is"
+      ],
+      "e": "probably → will.",
+      "k": "FSI"
+    },
+    {
+      "id": "G365",
+      "topic": "TENSE",
+      "q": "The phone's ringing. I ___ it.",
+      "o": [
+        "'ll get",
+        "am getting",
+        "get",
+        "got"
+      ],
+      "e": "Anlık karar → will.",
+      "k": "FSI"
+    },
+    {
+      "id": "G366",
+      "topic": "TENSE",
+      "q": "They ___ on time.",
+      "o": [
+        "won't finish",
+        "didn't finish",
+        "don't finish",
+        "haven't finished"
+      ],
+      "e": "",
+      "k": "FSI"
+    },
+    {
+      "id": "G367",
+      "topic": "TENSE",
+      "q": "___ you attend the meeting?",
+      "o": [
+        "Will",
+        "Are",
+        "Did",
+        "Have"
+      ],
+      "e": "",
+      "k": "FSI"
+    },
+    {
+      "id": "G368",
+      "topic": "TENSE",
+      "q": "I promise I ___ forget.",
+      "o": [
+        "won't",
+        "don't",
+        "didn't",
+        "am not"
+      ],
+      "e": "Söz → will / won't.",
+      "k": "FSI"
+    },
+    {
+      "id": "G369",
+      "topic": "TENSE",
+      "q": "This time tomorrow I ___ to Dubai.",
+      "o": [
+        "will be flying",
+        "will fly",
+        "fly",
+        "have flown"
+      ],
+      "e": "",
+      "k": "FCO"
+    },
+    {
+      "id": "G370",
+      "topic": "TENSE",
+      "q": "Don't call at 8; we ___ dinner.",
+      "o": [
+        "will be having",
+        "had",
+        "have had",
+        "are have"
+      ],
+      "e": "",
+      "k": "FCO"
+    },
+    {
+      "id": "G371",
+      "topic": "TENSE",
+      "q": "Next week the welders ___ on the main line.",
+      "o": [
+        "will be working",
+        "worked",
+        "have worked",
+        "works"
+      ],
+      "e": "",
+      "k": "FCO"
+    },
+    {
+      "id": "G372",
+      "topic": "TENSE",
+      "q": "___ you using the car tonight?",
+      "o": [
+        "Will",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "e": "Will you be using…? kibar soru.",
+      "k": "FCO"
+    },
+    {
+      "id": "G373",
+      "topic": "TENSE",
+      "q": "In 2030, people ___ electric cars.",
+      "o": [
+        "will be driving",
+        "drove",
+        "have driven",
+        "drives"
+      ],
+      "e": "",
+      "k": "FCO"
+    },
+    {
+      "id": "G374",
+      "topic": "TENSE",
+      "q": "At noon tomorrow she ___ the site.",
+      "o": [
+        "will be inspecting",
+        "inspected",
+        "has inspected",
+        "inspects"
+      ],
+      "e": "",
+      "k": "FCO"
+    },
+    {
+      "id": "G375",
+      "topic": "TENSE",
+      "q": "By Friday we ___ the hydrotest.",
+      "o": [
+        "will have completed",
+        "will complete",
+        "completed",
+        "have completed"
+      ],
+      "e": "by Friday → future perfect.",
+      "k": "FPE"
+    },
+    {
+      "id": "G376",
+      "topic": "TENSE",
+      "q": "She ___ by 2028.",
+      "o": [
+        "will have graduated",
+        "graduates",
+        "graduated",
+        "has graduated"
+      ],
+      "e": "",
+      "k": "FPE"
+    },
+    {
+      "id": "G377",
+      "topic": "TENSE",
+      "q": "By the time you arrive, I ___.",
+      "o": [
+        "will have left",
+        "leave",
+        "left",
+        "have left"
+      ],
+      "e": "",
+      "k": "FPE"
+    },
+    {
+      "id": "G378",
+      "topic": "TENSE",
+      "q": "They ___ by noon.",
+      "o": [
+        "won't have finished",
+        "didn't finish",
+        "aren't finishing",
+        "haven't finished"
+      ],
+      "e": "",
+      "k": "FPE"
+    },
+    {
+      "id": "G379",
+      "topic": "TENSE",
+      "q": "___ the report by tomorrow?",
+      "o": [
+        "Will you have read",
+        "Will you read",
+        "Have you read",
+        "Are you reading"
+      ],
+      "e": "Will + özne + have + V3.",
+      "k": "FPE"
+    },
+    {
+      "id": "G380",
+      "topic": "TENSE",
+      "q": "By the end of the year, he ___ 100 pumps.",
+      "o": [
+        "will have sold",
+        "will sell",
+        "sold",
+        "has sold"
+      ],
+      "e": "",
+      "k": "FPE"
+    },
+    {
+      "id": "G381",
+      "topic": "TENSE",
+      "q": "By June I ___ here for five years.",
+      "o": [
+        "will have been working",
+        "will work",
+        "have worked",
+        "work"
+      ],
+      "e": "by + zaman + for + süre.",
+      "k": "FPC"
+    },
+    {
+      "id": "G382",
+      "topic": "TENSE",
+      "q": "At 6 p.m. she ___ for ten hours.",
+      "o": [
+        "will have been driving",
+        "will drive",
+        "has driven",
+        "drives"
+      ],
+      "e": "",
+      "k": "FPC"
+    },
+    {
+      "id": "G383",
+      "topic": "TENSE",
+      "q": "By next month they ___ the plant for two years.",
+      "o": [
+        "will have been building",
+        "will build",
+        "built",
+        "have built"
+      ],
+      "e": "",
+      "k": "FPC"
+    },
+    {
+      "id": "G384",
+      "topic": "TENSE",
+      "q": "Next year we ___ here for a decade.",
+      "o": [
+        "will have been living",
+        "will live",
+        "lived",
+        "have lived"
+      ],
+      "e": "",
+      "k": "FPC"
+    },
+    {
+      "id": "G385",
+      "topic": "TENSE",
+      "q": "How long ___ by then?",
+      "o": [
+        "will you have been studying",
+        "do you study",
+        "did you study",
+        "have you studied"
+      ],
+      "e": "",
+      "k": "FPC"
+    },
+    {
+      "id": "G386",
+      "topic": "TENSE",
+      "q": "By 2030 the company ___ for 50 years.",
+      "o": [
+        "will have been operating",
+        "will operate",
+        "operates",
+        "has operated"
+      ],
+      "e": "",
+      "k": "FPC"
+    },
+    {
+      "id": "G387",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump runs 24 hours a day.”",
+      "o": [
+        "Present Simple",
+        "Present Continuous",
+        "Present Perfect",
+        "Past Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G388",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump is running now.”",
+      "o": [
+        "Present Continuous",
+        "Present Simple",
+        "Past Continuous",
+        "Future Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G389",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump has run for ten hours.”",
+      "o": [
+        "Present Perfect",
+        "Present Perfect Continuous",
+        "Past Simple",
+        "Present Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G390",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump has been running for ten hours.”",
+      "o": [
+        "Present Perfect Continuous",
+        "Present Perfect",
+        "Past Continuous",
+        "Present Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G391",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump ran all night.”",
+      "o": [
+        "Past Simple",
+        "Present Perfect",
+        "Past Continuous",
+        "Past Perfect"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G392",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump was running when I arrived.”",
+      "o": [
+        "Past Continuous",
+        "Past Simple",
+        "Present Continuous",
+        "Past Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G393",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump had stopped before I arrived.”",
+      "o": [
+        "Past Perfect",
+        "Past Simple",
+        "Present Perfect",
+        "Past Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G394",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump had been running for ten hours before it failed.”",
+      "o": [
+        "Past Perfect Continuous",
+        "Past Perfect",
+        "Present Perfect Continuous",
+        "Past Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G395",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump will run tomorrow.”",
+      "o": [
+        "Future Simple",
+        "Future Continuous",
+        "Future Perfect",
+        "Present Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G396",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump will be running at noon.”",
+      "o": [
+        "Future Continuous",
+        "Future Simple",
+        "Present Continuous",
+        "Future Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G397",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump will have run 1,000 hours by May.”",
+      "o": [
+        "Future Perfect",
+        "Future Simple",
+        "Present Perfect",
+        "Future Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G398",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The pump will have been running for a year by May.”",
+      "o": [
+        "Future Perfect Continuous",
+        "Future Perfect",
+        "Present Perfect Continuous",
+        "Future Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G399",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “I have been working here since 2020.”",
+      "o": [
+        "Present Perfect Continuous",
+        "Present Perfect",
+        "Present Continuous",
+        "Past Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G400",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “She was cooking when the phone rang.”",
+      "o": [
+        "Past Continuous",
+        "Past Simple",
+        "Past Perfect Continuous",
+        "Present Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G401",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “We will have finished by Friday.”",
+      "o": [
+        "Future Perfect",
+        "Future Simple",
+        "Future Continuous",
+        "Past Perfect"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G402",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “He had already left when I called.”",
+      "o": [
+        "Past Perfect",
+        "Present Perfect",
+        "Past Simple",
+        "Past Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G403",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “They are building a new plant.”",
+      "o": [
+        "Present Continuous",
+        "Present Simple",
+        "Present Perfect Continuous",
+        "Future Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G404",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “I visited the site yesterday.”",
+      "o": [
+        "Past Simple",
+        "Present Perfect",
+        "Past Perfect",
+        "Present Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G405",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “I'll be waiting for you at the gate.”",
+      "o": [
+        "Future Continuous",
+        "Future Simple",
+        "Future Perfect Continuous",
+        "Present Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G406",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “It has rained a lot this month.”",
+      "o": [
+        "Present Perfect",
+        "Present Perfect Continuous",
+        "Past Simple",
+        "Present Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G407",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “By 2030, we will have been living here for ten years.”",
+      "o": [
+        "Future Perfect Continuous",
+        "Future Perfect",
+        "Future Continuous",
+        "Present Perfect Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G408",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “The train leaves at 7 tomorrow.”",
+      "o": [
+        "Present Simple",
+        "Future Simple",
+        "Present Continuous",
+        "Future Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G409",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “She had been crying, so her eyes were red.”",
+      "o": [
+        "Past Perfect Continuous",
+        "Present Perfect Continuous",
+        "Past Perfect",
+        "Past Continuous"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G410",
+      "topic": "TENSE",
+      "q": "Hangi zaman? “Will you attend the meeting?”",
+      "o": [
+        "Future Simple",
+        "Future Continuous",
+        "Future Perfect",
+        "Present Simple"
+      ],
+      "e": "",
+      "k": "NAME"
+    },
+    {
+      "id": "G411",
+      "topic": "TENSE",
+      "q": "By next year, I ___ (work) here for ten years.",
+      "o": [
+        "will have been working",
+        "will work",
+        "have worked",
+        "am working"
+      ],
+      "e": "by + zaman + for + süre.",
+      "k": "FORM"
+    },
+    {
+      "id": "G412",
+      "topic": "TENSE",
+      "q": "While we ___ (have) the meeting, the fire alarm went off.",
+      "o": [
+        "were having",
+        "had",
+        "have had",
+        "will have"
+      ],
+      "e": "while → past continuous.",
+      "k": "FORM"
+    },
+    {
+      "id": "G413",
+      "topic": "TENSE",
+      "q": "I ___ (live) here since 2015.",
+      "o": [
+        "have been living",
+        "lived",
+        "live",
+        "will live"
+      ],
+      "e": "since → present perfect (continuous).",
+      "k": "FORM"
+    },
+    {
+      "id": "G414",
+      "topic": "TENSE",
+      "q": "She ___ (finish) the report before the meeting tomorrow.",
+      "o": [
+        "will have finished",
+        "finished",
+        "has finished",
+        "is finishing"
+      ],
+      "e": "before + gelecek an → future perfect.",
+      "k": "FORM"
+    },
+    {
+      "id": "G415",
+      "topic": "TENSE",
+      "q": "When I arrived, they ___ (already / leave).",
+      "o": [
+        "had already left",
+        "have already left",
+        "were already leaving",
+        "will have left"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G416",
+      "topic": "TENSE",
+      "q": "Listen! Someone ___ (knock) at the door.",
+      "o": [
+        "is knocking",
+        "knocks",
+        "knocked",
+        "has knocked"
+      ],
+      "e": "Listen! → şimdiki zaman.",
+      "k": "FORM"
+    },
+    {
+      "id": "G417",
+      "topic": "TENSE",
+      "q": "He ___ (not / eat) since morning.",
+      "o": [
+        "hasn't eaten",
+        "didn't eat",
+        "doesn't eat",
+        "wasn't eating"
+      ],
+      "e": "since → present perfect.",
+      "k": "FORM"
+    },
+    {
+      "id": "G418",
+      "topic": "TENSE",
+      "q": "At this time next week, I ___ (lie) on the beach.",
+      "o": [
+        "will be lying",
+        "will lie",
+        "lie",
+        "have lain"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G419",
+      "topic": "TENSE",
+      "q": "I ___ (see) him yesterday.",
+      "o": [
+        "saw",
+        "have seen",
+        "was seeing",
+        "had seen"
+      ],
+      "e": "yesterday → past simple.",
+      "k": "FORM"
+    },
+    {
+      "id": "G420",
+      "topic": "TENSE",
+      "q": "How long ___ (you / wait) when the bus finally came?",
+      "o": [
+        "had you been waiting",
+        "have you been waiting",
+        "were you waiting",
+        "did you wait"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G421",
+      "topic": "TENSE",
+      "q": "The sun ___ (rise) in the east.",
+      "o": [
+        "rises",
+        "is rising",
+        "rose",
+        "has risen"
+      ],
+      "e": "Genel doğru.",
+      "k": "FORM"
+    },
+    {
+      "id": "G422",
+      "topic": "TENSE",
+      "q": "By 2030, scientists ___ (find) a cure.",
+      "o": [
+        "will have found",
+        "found",
+        "have found",
+        "find"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G423",
+      "topic": "TENSE",
+      "q": "She ___ (cry) — her eyes are red.",
+      "o": [
+        "has been crying",
+        "cried",
+        "cries",
+        "had cried"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G424",
+      "topic": "TENSE",
+      "q": "I ___ (not / know) the answer yesterday, so I guessed.",
+      "o": [
+        "didn't know",
+        "haven't known",
+        "wasn't knowing",
+        "don't know"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G425",
+      "topic": "TENSE",
+      "q": "We ___ (study) English for three years by next June.",
+      "o": [
+        "will have been studying",
+        "will study",
+        "have studied",
+        "study"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G426",
+      "topic": "TENSE",
+      "q": "I'm tired. I ___ (work) since 6 a.m.",
+      "o": [
+        "have been working",
+        "worked",
+        "am working",
+        "was working"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G427",
+      "topic": "TENSE",
+      "q": "He ___ (drive) when the accident happened.",
+      "o": [
+        "was driving",
+        "drove",
+        "has driven",
+        "drives"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G428",
+      "topic": "TENSE",
+      "q": "After she ___ (finish) lunch, she went back to work.",
+      "o": [
+        "had finished",
+        "has finished",
+        "finishes",
+        "was finishing"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G429",
+      "topic": "TENSE",
+      "q": "I ___ (visit) the site next Monday; it's arranged.",
+      "o": [
+        "am visiting",
+        "visited",
+        "have visited",
+        "was visiting"
+      ],
+      "e": "Kesinleşmiş plan.",
+      "k": "FORM"
+    },
+    {
+      "id": "G430",
+      "topic": "TENSE",
+      "q": "Don't disturb him. He ___ (sleep).",
+      "o": [
+        "is sleeping",
+        "sleeps",
+        "slept",
+        "has slept"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G431",
+      "topic": "TENSE",
+      "q": "The company ___ (grow) fast over the last five years.",
+      "o": [
+        "has grown",
+        "grew",
+        "grows",
+        "will grow"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G432",
+      "topic": "TENSE",
+      "q": "I ___ (never / see) such a beautiful sunset before.",
+      "o": [
+        "have never seen",
+        "never saw",
+        "never see",
+        "am never seeing"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G433",
+      "topic": "TENSE",
+      "q": "When she was young, she ___ (play) the piano every day.",
+      "o": [
+        "played",
+        "has played",
+        "was playing",
+        "had played"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G434",
+      "topic": "TENSE",
+      "q": "By the time the police arrived, the thief ___ (escape).",
+      "o": [
+        "had escaped",
+        "escaped",
+        "has escaped",
+        "was escaping"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G435",
+      "topic": "TENSE",
+      "q": "I think it ___ (rain) tomorrow.",
+      "o": [
+        "will rain",
+        "is raining",
+        "rained",
+        "has rained"
+      ],
+      "e": "I think → will.",
+      "k": "FORM"
+    },
+    {
+      "id": "G436",
+      "topic": "TENSE",
+      "q": "What ___ (you / do) at 10 last night?",
+      "o": [
+        "were you doing",
+        "have you done",
+        "are you doing",
+        "do you do"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G437",
+      "topic": "TENSE",
+      "q": "She ___ (just / finish) the course.",
+      "o": [
+        "has just finished",
+        "is just finishing",
+        "had just finished",
+        "just finishes"
+      ],
+      "e": "just → present perfect.",
+      "k": "FORM"
+    },
+    {
+      "id": "G438",
+      "topic": "TENSE",
+      "q": "I'll call you when I ___ (arrive).",
+      "o": [
+        "arrive",
+        "will arrive",
+        "would arrive",
+        "arrived"
+      ],
+      "e": "when'li zaman cümlesinde will kullanılmaz.",
+      "k": "FORM"
+    },
+    {
+      "id": "G439",
+      "topic": "TENSE",
+      "q": "He said he ___ (not / see) her for years.",
+      "o": [
+        "hadn't seen",
+        "hasn't seen",
+        "doesn't see",
+        "didn't saw"
+      ],
+      "e": "Dolaylı anlatım → past perfect.",
+      "k": "FORM"
+    },
+    {
+      "id": "G440",
+      "topic": "TENSE",
+      "q": "The pipe ___ (leak) for weeks before they noticed.",
+      "o": [
+        "had been leaking",
+        "has been leaking",
+        "was leaking",
+        "leaked"
+      ],
+      "e": "",
+      "k": "FORM"
+    },
+    {
+      "id": "G441",
+      "topic": "FUT",
+      "q": "Look at those clouds! It ___ rain.",
+      "o": [
+        "is going to",
+        "will to",
+        "rains",
+        "is rain"
+      ],
+      "e": "Kanıta dayalı tahmin → going to."
+    },
+    {
+      "id": "G442",
+      "topic": "FUT",
+      "q": "A: There's no milk. B: I ___ get some.",
+      "o": [
+        "'ll",
+        "am going",
+        "get",
+        "am getting"
+      ],
+      "e": "Anlık karar → will."
+    },
+    {
+      "id": "G443",
+      "topic": "FUT",
+      "q": "We ___ the client at 5 tomorrow; it's in my diary.",
+      "o": [
+        "are meeting",
+        "met",
+        "have met",
+        "would meet"
+      ],
+      "e": "Kesinleşmiş randevu → present continuous."
+    },
+    {
+      "id": "G444",
+      "topic": "FUT",
+      "q": "The train ___ at 7:40 on Friday.",
+      "o": [
+        "leaves",
+        "left",
+        "has left",
+        "leaving"
+      ],
+      "e": "Tarife → present simple."
+    },
+    {
+      "id": "G445",
+      "topic": "FUT",
+      "q": "I think it ___ rain tomorrow.",
+      "o": [
+        "will",
+        "is going",
+        "rains",
+        "rained"
+      ],
+      "e": "Düşünce/tahmin → will."
+    },
+    {
+      "id": "G446",
+      "topic": "FUT",
+      "q": "I ___ start a new job next month; I've already signed.",
+      "o": [
+        "am going to",
+        "would",
+        "have",
+        "had"
+      ],
+      "e": "Plan → going to."
+    },
+    {
+      "id": "G447",
+      "topic": "FUT",
+      "q": "Which sentence expresses an instant decision?",
+      "o": [
+        "I'll answer the phone.",
+        "I have answered the phone.",
+        "I was answering the phone.",
+        "I answered the phone."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G448",
+      "topic": "FUT",
+      "q": "Will you ___ me with this?",
+      "o": [
+        "help",
+        "to help",
+        "helping",
+        "helped"
+      ],
+      "e": "will + V1."
+    },
+    {
+      "id": "G449",
+      "topic": "FUT",
+      "q": "I promise I ___ forget.",
+      "o": [
+        "won't",
+        "don't",
+        "didn't",
+        "am not"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G450",
+      "topic": "FUT",
+      "q": "She is ___ have a baby in May.",
+      "o": [
+        "going to",
+        "will to",
+        "going",
+        "about"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G451",
+      "topic": "FUT",
+      "q": "Be careful! You ___ fall!",
+      "o": [
+        "are going to",
+        "will to",
+        "fall",
+        "fell"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G452",
+      "topic": "FUT",
+      "q": "What time ___ the film start tonight?",
+      "o": [
+        "does",
+        "is",
+        "will",
+        "did"
+      ],
+      "e": "Program → does … start?"
+    },
+    {
+      "id": "G453",
+      "topic": "TIME",
+      "q": "I have lived here ___ ten years.",
+      "o": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "e": "for + süre."
+    },
+    {
+      "id": "G454",
+      "topic": "TIME",
+      "q": "She has worked here ___ 2019.",
+      "o": [
+        "since",
+        "for",
+        "ago",
+        "from"
+      ],
+      "e": "since + başlangıç."
+    },
+    {
+      "id": "G455",
+      "topic": "TIME",
+      "q": "We moved here five years ___.",
+      "o": [
+        "ago",
+        "for",
+        "since",
+        "before"
+      ],
+      "e": "ago + past simple."
+    },
+    {
+      "id": "G456",
+      "topic": "TIME",
+      "q": "Have you finished ___?",
+      "o": [
+        "yet",
+        "ago",
+        "since",
+        "for"
+      ],
+      "e": "Soruda yet."
+    },
+    {
+      "id": "G457",
+      "topic": "TIME",
+      "q": "I have ___ finished the report; it's on your desk.",
+      "o": [
+        "already",
+        "yet",
+        "ago",
+        "since"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G458",
+      "topic": "TIME",
+      "q": "___ the time we arrived, the film had started.",
+      "o": [
+        "By",
+        "For",
+        "Since",
+        "In"
+      ],
+      "e": "By the time + past perfect."
+    },
+    {
+      "id": "G459",
+      "topic": "TIME",
+      "q": "I met him ___ I was walking in the park.",
+      "o": [
+        "while",
+        "during",
+        "for",
+        "since"
+      ],
+      "e": "while + continuous."
+    },
+    {
+      "id": "G460",
+      "topic": "TIME",
+      "q": "I'll wait ___ you finish.",
+      "o": [
+        "until",
+        "by",
+        "since",
+        "ago"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G461",
+      "topic": "TIME",
+      "q": "He has ___ been to Japan. (hiç)",
+      "o": [
+        "never",
+        "ago",
+        "for",
+        "since"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G462",
+      "topic": "TIME",
+      "q": "She left two hours ___.",
+      "o": [
+        "ago",
+        "before",
+        "since",
+        "for"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G463",
+      "topic": "TIME",
+      "q": "I haven't seen him ___ Monday.",
+      "o": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G464",
+      "topic": "TIME",
+      "q": "___ the meeting, my phone rang.",
+      "o": [
+        "During",
+        "While",
+        "Since",
+        "For"
+      ],
+      "e": "during + isim; while + cümle."
+    },
+    {
+      "id": "G465",
+      "topic": "TIME",
+      "q": "I was reading ___ the lights went out.",
+      "o": [
+        "when",
+        "since",
+        "for",
+        "ago"
       ],
       "e": ""
     }

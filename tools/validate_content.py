@@ -113,9 +113,39 @@ def main():
     lessons, review = load('data/lessons.json'), load('data/review.json')
     errors, warnings = [], []
 
-    for name in ('lessons.json', 'review.json', 'words.json', 'patterns.json', 'meetings.json'):
+    for name in ('lessons.json', 'review.json', 'words.json', 'patterns.json', 'meetings.json',
+                 'grammar.json', 'tenses.json', 'engvocab.json'):
         if (ROOT / 'data' / name).read_bytes() != (ROOT / 'docs/data' / name).read_bytes():
             errors.append(f'data/{name} and docs/data/{name} differ')
+
+    # grammar.json: soru kimlikleri benzersiz, doğru cevap yanlışlar arasında değil, konu var
+    try:
+        gr = load('data/grammar.json')
+        keys = {x['key'] for x in gr['topics']}
+        gids = [q['id'] for q in gr['bank']]
+        if len(gids) != len(set(gids)):
+            errors.append('grammar.json: duplicate question ids')
+        for q in gr['bank']:
+            if q['topic'] not in keys and q['topic'] != 'TENSE':
+                errors.append(f"grammar.json {q['id']}: unknown topic {q['topic']}")
+            if len(q['o']) != 4 or len(set(q['o'])) != 4:
+                errors.append(f"grammar.json {q['id']}: options must be 4 distinct values")
+        tn = load('data/tenses.json')
+        for t_ in tn['tenses']:
+            if len(t_['ex']) != 5:
+                errors.append(f"tenses.json {t_['k']}: needs 5 examples")
+        ev = load('data/engvocab.json')
+        seen_t = set()
+        for c in ev['categories']:
+            for w in c['words']:
+                if w['term'].lower() in seen_t:
+                    errors.append(f"engvocab.json: duplicate term {w['term']}")
+                seen_t.add(w['term'].lower())
+                if len(w['s']) != 2 or any(len(x) != 2 or not all(x) for x in w['s']):
+                    errors.append(f"engvocab.json {w['term']}: needs 2 EN/TR sentence pairs")
+        print(f"grammar: {len(gr['topics'])} topics, {len(gr['bank'])} questions | tenses: {len(tn['tenses'])} + {len(tn['structs'])} structs | engvocab: {len(seen_t)} terms")
+    except FileNotFoundError:
+        warnings.append('grammar/tenses/engvocab json missing')
 
     if add:
         lessons, review = merge(lessons, review, json.loads(Path(add).read_text(encoding='utf-8')))

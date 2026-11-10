@@ -8,6 +8,9 @@
 
 const PRACTICE_TESTS_PER_UNIT = 12;
 const PRACTICE_MIX_TESTS = 9;
+const PRACTICE_TENSE_MIX = 6;
+const PRACTICE_EVAL_TESTS = 15;
+const PRACTICE_VQ = { A: 18, fill: 12, scr: 6, match: 4, gram: 0 };
 const PRACTICE_QUOTA = { A: 15, fill: 9, scr: 5, match: 4, gram: 7 };
 const PRACTICE_SEC = {
   A: 'Kelime çevirisi',
@@ -38,7 +41,13 @@ function practiceUnits() {
   return Object.keys(map).map(Number).sort((a, b) => a - b).map((n) => ({ n, lessons: map[n] }));
 }
 function unitSub(u) { return u.lessons.map((l) => l.code).join(' · '); }
+// Unit 4 (4A) sadece 11 kelimelik ön çalışma: 6 test; diğerleri 12.
+function unitTests(u) { return u.tests || (u.n === 4 ? 6 : PRACTICE_TESTS_PER_UNIT); }
+// Mühendislik kelimeleri: her kategori 3 test, tüm kelimeler 15 karma test.
+function engUnits() { return Data.engCats.map((c, i) => ({ n: 'v' + (i + 1), cat: c, words: c.words, tests: 3, quota: PRACTICE_VQ })); }
+function engAllUnit() { return { n: 'vall', words: Data.engCats.reduce((a, c) => a.concat(c.words), []), tests: PRACTICE_EVAL_TESTS, quota: PRACTICE_VQ }; }
 function unitWords(u) {
+  if (u.words) return u.words.slice();
   const out = [];
   u.lessons.forEach((l) => (l.words || []).forEach((w) => out.push(Object.assign({ lessonId: l.id, category: 'lesson:' + l.id }, w))));
   return out;
@@ -100,8 +109,8 @@ function unitPools(u) {
   });
   P.A = pShuffle(P.A, r); P.fill = pShuffle(P.fill, r); P.scr = pShuffle(P.scr, r);
   const keys = Data.grammar.topics.filter((t) => t.units.includes(u.n)).map((t) => t.key);
-  Data.grammar.bank.filter((b) => keys.includes(b.topic)).forEach((b) => P.gram.push(bankItem(b)));
-  P.gram = P.gram.concat(typedItems((q) => quizUnit(q).includes(u.n)));
+  Data.grammar.bank.filter((b) => keys.includes(b.topic) || (b.topic === 'TENSE' && (u.n === 1 || u.n === 3))).forEach((b) => P.gram.push(bankItem(b)));
+  if (typeof u.n === 'number') P.gram = P.gram.concat(typedItems((q) => quizUnit(q).includes(u.n)));
   P.gram = pShuffle(P.gram, r);
   _poolCache[u.n] = P;
   return P;
@@ -111,8 +120,9 @@ function buildUnitTest(u, t) {
   const P = unitPools(u);
   const chosen = []; const used = new Set();
   const usedWords = {}; // keep the same word from appearing in too many sections
-  Object.keys(PRACTICE_QUOTA).forEach((k) => {
-    const q = PRACTICE_QUOTA[k];
+  const QU = u.quota || PRACTICE_QUOTA;
+  Object.keys(QU).forEach((k) => {
+    const q = QU[k];
     if (k === 'match') {
       // fresh 5-word groups for every test
       const ws = pShuffle(P.words, pRng(pHash('match' + u.n + ':' + t)));
@@ -146,9 +156,22 @@ function buildGrammarTest(kind) {
       a: c.correct, e: c.rule || c.rule_tr, etr: c.rule && c.rule_tr ? c.rule_tr : '',
     }));
   }
+  if (kind.startsWith('tn:')) { // tek zaman / NAME / FORM
+    const key = kind.slice(3);
+    return Data.grammar.bank.filter((b) => b.topic === 'TENSE' && b.k === key).map(bankItem);
+  }
+  if (kind.startsWith('tmix:')) { // karma zaman: 30 soru + 10 cümle kurma
+    const k = +kind.slice(5); const r = pRng(pHash('tmix'));
+    const m = pShuffle(Data.grammar.bank.filter((b) => b.topic === 'TENSE').map(bankItem), r);
+    const s = pShuffle(tenseScrItems(), r);
+    const out = [];
+    for (let i = 0; i < 30; i++) out.push(m[(k * 30 + i) % m.length]);
+    for (let i = 0; i < 10; i++) out.push(s[(k * 10 + i) % s.length]);
+    const seen = new Set(); return out.filter((x) => !seen.has(x.id) && seen.add(x.id));
+  }
   if (kind.startsWith('mix:')) {
     const k = +kind.slice(4);
-    const all = Data.grammar.bank.map(bankItem).concat(typedItems((q) => !!quizTopicKey(q)));
+    const all = Data.grammar.bank.filter((b) => b.topic !== 'TENSE').map(bankItem).concat(typedItems((q) => !!quizTopicKey(q)));
     const sh = pShuffle(all, pRng(pHash('gmix')));
     const out = []; const seen = new Set();
     for (let i = 0; out.length < 40 && i < sh.length; i++) { const x = sh[(k * 40 + i) % sh.length]; if (!seen.has(x.id)) { seen.add(x.id); out.push(x); } }
@@ -159,7 +182,23 @@ function buildGrammarTest(kind) {
     .concat(typedItems((q) => quizTopicKey(q) === key));
 }
 
+function tenseScrItems() {
+  const out = [];
+  Data.tenses.tenses.forEach((t) => t.ex.forEach((e, i) => {
+    const n = e[0].split(/\s+/).length;
+    if (n >= 4 && n <= 13) out.push({ id: 'ts:' + t.k + i, type: 'scr', sec: 'C', sentence: e[0], tr: e[1] });
+  }));
+  return out;
+}
+
 function practiceTitle(kind) {
+  if (kind.startsWith('ev:')) { const p = kind.split(':'); const c = Data.engCats.find((x) => x.id === p[1]); return `${c ? c.short : 'Kelime'} · Test ${+p[2] + 1}`; }
+  if (kind.startsWith('evall:')) return `Mühendislik Karma ${+kind.slice(6) + 1}`;
+  if (kind.startsWith('tmix:')) return `Karma Zaman ${+kind.slice(5) + 1}`;
+  if (kind.startsWith('tn:')) {
+    const k = kind.slice(3); if (k === 'NAME') return 'Zaman İsmini Bul'; if (k === 'FORM') return 'Doğru Zamanı Seç';
+    const t = Data.tenses.tenses.find((x) => x.k === k); return t ? t.en : 'Zaman Testi';
+  }
   if (kind.startsWith('unit:')) { const p = kind.split(':'); return `Unit ${p[1]} · Test ${+p[2] + 1}`; }
   if (kind.startsWith('mix:')) return `Karma Gramer ${+kind.slice(4) + 1}`;
   if (kind === 'err') return 'Hata Düzeltme';
@@ -179,7 +218,7 @@ function renderPracticeHub() {
   const units = practiceUnits();
   const unitCards = units.map((u) => {
     const nW = unitWords(u).length;
-    const tests = Array.from({ length: PRACTICE_TESTS_PER_UNIT }, (_, t) =>
+    const tests = Array.from({ length: unitTests(u) }, (_, t) =>
       `<button class="p-testbtn" data-kind="unit:${u.n}:${t}"><span>Test ${t + 1}</span>${bestBadge(`unit:${u.n}:${t}`)}</button>`).join('');
     return `<div class="p-unit">
       <div class="p-unit-head"><div><div class="p-unit-title">Unit ${u.n}</div><div class="p-unit-sub">${escapeHtml(unitSub(u))} · ${nW} kelime</div></div></div>
@@ -187,8 +226,10 @@ function renderPracticeHub() {
     </div>`;
   }).join('');
   const mix = Array.from({ length: PRACTICE_MIX_TESTS }, (_, k) => k).map((k) => `<button class="p-testbtn" data-kind="mix:${k}"><span>Karma ${k + 1}</span>${bestBadge('mix:' + k)}</button>`).join('');
+  const tmix = Array.from({ length: PRACTICE_TENSE_MIX }, (_, k) => `<button class="p-testbtn" data-kind="tmix:${k}"><span>Karma ${k + 1}</span>${bestBadge('tmix:' + k)}</button>`);
+  const emix = Array.from({ length: PRACTICE_EVAL_TESTS }, (_, k) => `<button class="p-testbtn" data-kind="evall:${k}"><span>${k + 1}</span>${bestBadge('evall:' + k)}</button>`).join('');
   mount(`
-    <p class="lead">Her test 40 soru: kelime çevirisi, boşluk doldurma, cümle kurma, eşleştirme ve gramer. Cevaplar anında renklenir; cevap anahtarını üst çubuktan açıp kapatabilirsin.</p>
+    <p class="lead">Her test 40 soru: kelime çevirisi, boşluk doldurma, cümle kurma, eşleştirme ve gramer (zaman ve mühendislik kelime testlerinde konuya özel). Cevaplar anında renklenir; cevap anahtarını üst çubuktan açıp kapatabilirsin.</p>
     <div class="section-title">Ünite testleri</div>
     ${unitCards}
     <div class="section-title">Gramer</div>
@@ -200,10 +241,27 @@ function renderPracticeHub() {
       ${listRow('grammar', 'sparkle', 'Gramer Merkezi', `${Data.grammar.topics.length} konu özeti + konu testleri`)}
       ${listRow('err', 'pencil', 'Hata Düzeltme Testi', `${Data.review.corrections.length} hatalı cümle`)}
     </div>
+    <div class="section-title">Zamanlar</div>
+    <div class="p-unit">
+      <div class="p-unit-head"><div><div class="p-unit-title">Karma zaman testleri</div><div class="p-unit-sub">12 zaman · 30 soru + 10 cümle kurma</div></div></div>
+      <div class="p-tests p-tests-3">${tmix.slice(0, 3).join('')}</div>
+      <div class="p-tests p-tests-3" style="margin-top:8px">${tmix.slice(3).join('')}</div>
+    </div>
+    <div class="list-group">${listRow('tenses', 'clock', 'Zaman Çizelgesi', 'Çizgi üzerinde 12 zaman · 5’er örnek')}${listRow('tensetests', 'target', 'Tüm zaman testleri', 'Tek tek zamanlar, zaman ismini bul, doğru zamanı seç')}</div>
+    <div class="section-title">Mühendislik kelimeleri</div>
+    <div class="p-unit">
+      <div class="p-unit-head"><div><div class="p-unit-title">Karma kelime testleri</div><div class="p-unit-sub">${Data.byCategory('engall').length} piping & proje yönetimi terimi · 40'ar soru</div></div></div>
+      <div class="p-tests p-tests-mini">${emix}</div>
+    </div>
+    <div class="list-group">${listRow('eng', 'gear', 'Mühendislik Kelimeleri', `${Data.engCats.length} kategori · her birinde 3 test`)}</div>
   `);
   $all('.p-testbtn').forEach((b) => b.addEventListener('click', () => Router.push('practiceTest', { kind: b.dataset.kind })));
   $all('.list-row').forEach((b) => b.addEventListener('click', () => {
-    if (b.dataset.key === 'grammar') Router.push('grammarHub');
+    const k = b.dataset.key;
+    if (k === 'grammar') Router.push('grammarHub');
+    else if (k === 'tenses') Router.push('tenseHub');
+    else if (k === 'tensetests') Router.push('tenseTests');
+    else if (k === 'eng') Router.push('engHub');
     else Router.push('practiceTest', { kind: 'err' });
   }));
 }
@@ -226,6 +284,11 @@ function renderGrammarHub() {
       ${listRow('cards', 'book', 'Hata Kartları', 'Tek tek: oku, düzelt, doğrusunu aç')}
       ${listRow('quiz', 'target', 'Yazarak Gramer Quiz', `${Data.review.quiz.length} soru — cevabı yaz`)}
     </div>
+    <div class="list-group" style="margin-top:12px">
+      ${listRow('tenses', 'clock', 'Zaman Çizelgesi', '12 zaman · çizgi üzerinde · 5’er örnek')}
+      ${listRow('tensetests', 'target', 'Zaman Testleri', `${PRACTICE_TENSE_MIX} karma test + her zaman için test`)}
+      ${listRow('structs', 'book', 'Gramer Yapıları', `${Data.tenses.structs.length} konu · tanım · formül · 5’er örnek`)}
+    </div>
     <div class="section-title">Karma testler (40 soru)</div>
     <div class="p-tests p-tests-3" style="margin-bottom:6px">${mix}</div>
     ${groups}
@@ -236,6 +299,9 @@ function renderGrammarHub() {
     if (k === 'err') Router.push('practiceTest', { kind: 'err' });
     else if (k === 'cards') startCorrections();
     else if (k === 'quiz') startReviewQuiz();
+    else if (k === 'tenses') Router.push('tenseHub');
+    else if (k === 'tensetests') Router.push('tenseTests');
+    else if (k === 'structs') Router.push('structsPage');
     else Router.push('grammarTopic', { key: k.slice(6) });
   }));
 }
@@ -273,10 +339,16 @@ function renderPracticeTest(params) {
   const kind = params.kind;
   setHeader(practiceTitle(kind));
   let items;
+  let sectioned = false;
   if (kind.startsWith('unit:')) {
     const p = kind.split(':'); const u = practiceUnits().find((x) => x.n === +p[1]);
-    items = u ? buildUnitTest(u, +p[2]) : [];
-  } else items = buildGrammarTest(kind);
+    items = u ? buildUnitTest(u, +p[2]) : []; sectioned = true;
+  } else if (kind.startsWith('ev:')) {
+    const p = kind.split(':'); const u = engUnits().find((x) => x.cat.id === p[1]);
+    items = u ? buildUnitTest(u, +p[2]) : []; sectioned = true;
+  } else if (kind.startsWith('evall:')) {
+    items = buildUnitTest(engAllUnit(), +kind.slice(6)); sectioned = true;
+  } else { items = buildGrammarTest(kind); sectioned = kind.startsWith('tmix:'); }
 
   const st = { score: 0, done: 0, total: items.length, wrongWords: [] };
   mount(`
@@ -344,7 +416,7 @@ function renderPracticeTest(params) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   items.forEach((it, idx) => {
-    if (it.sec !== lastSec && kind.startsWith('unit:')) { lastSec = it.sec; body.insertAdjacentHTML('beforeend', `<div class="section-title">${PRACTICE_SEC[it.sec]}</div>`); }
+    if (it.sec !== lastSec && sectioned) { lastSec = it.sec; body.insertAdjacentHTML('beforeend', `<div class="section-title">${PRACTICE_SEC[it.sec]}</div>`); }
     const q = document.createElement('div');
     q.className = 'p-q';
     q.innerHTML = `<div class="p-q-head"><span class="p-n">${idx + 1}</span><div class="p-prompt">${it.prompt || ''}</div></div>`;

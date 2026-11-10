@@ -5159,5 +5159,202 @@
         "explanation": "'buy' kelimesinin resmi hali. İş dilinde: purchase order (PO) = satın alma siparişi."
       }
     ]
+  },
+  {
+    "id": "L4A",
+    "code": "4A",
+    "title": "Honeymoon from Hell (ön çalışma)",
+    "date": "",
+    "pages": "SB 54-57 · WB 20",
+    "grammar": {
+      "title": "Wish / If only",
+      "formula": "şimdi: wish + V2 / were · geçmiş: wish + had V3 · şikâyet: wish + sb + would V1",
+      "note": "Wish, gerçeğin tersini dile getirir ve bir adım geriye gider: şimdiki durum → past simple, geçmiş → past perfect. If only = daha güçlü wish. Resmi dilde her özneyle were: I wish I were taller. Kendi davranışın için would kullanılmaz (I wish I could…).",
+      "examples": [
+        "I wish I were lying on a beach right now.",
+        "They wish they hadn't spent $500.",
+        "She wishes she could have stayed one more day.",
+        "I wish the vendor would answer my emails.",
+        "If only we had stayed at home with pizza and Netflix."
+      ]
+    },
+    "grammar2": {
+      "title": "Conditionals 0–3",
+      "formula": "0: if + present, present · 1: if + present, will V1 · 2: if + past simple, would V1 · 3: if + past perfect, would have V3",
+      "note": "0 = her zaman doğru; 1 = gerçek olası gelecek; 2 = hayali şimdi/gelecek; 3 = geçmişte olmayan durum ve sonucu. If'li kısımda will/would kullanılmaz. 3. tipte ana cümle would have + V3.",
+      "examples": [
+        "If you heat water to 100°C, it boils.",
+        "If the client approves the design, we will start next week.",
+        "If the weather were better, we could go swimming.",
+        "If they had taken the earlier flight, they wouldn't have missed their hotel shuttle."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l4a01",
+        "term": "shuttle",
+        "pronunciation": "",
+        "translation": "servis aracı (havalimanı–otel)",
+        "sentences": [
+          "The hotel shuttle leaves the airport every thirty minutes.",
+          "We missed the shuttle and had to take a taxi."
+        ],
+        "translations": [
+          "Otel servisi havalimanından her otuz dakikada bir kalkar.",
+          "Servisi kaçırdık ve taksi tutmak zorunda kaldık."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a02",
+        "term": "boiled lobster",
+        "pronunciation": "",
+        "translation": "haşlanmış ıstakoz (mecaz: güneşten kıpkırmızı)",
+        "sentences": [
+          "After a day on the beach, he looked like a boiled lobster.",
+          "Don't forget your sunscreen or you'll turn into a boiled lobster."
+        ],
+        "translations": [
+          "Plajda bir günün ardından haşlanmış ıstakoz gibi görünüyordu.",
+          "Güneş kremini unutma, yoksa haşlanmış ıstakoza dönersin."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a03",
+        "term": "reservation",
+        "pronunciation": "",
+        "translation": "rezervasyon",
+        "sentences": [
+          "I made a reservation for two at eight o'clock.",
+          "They had cancelled our reservation by mistake."
+        ],
+        "translations": [
+          "Saat sekize iki kişilik rezervasyon yaptırdım.",
+          "Rezervasyonumuzu yanlışlıkla iptal etmişlerdi."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a04",
+        "term": "apply",
+        "pronunciation": "",
+        "translation": "sürmek (krem, losyon)",
+        "sentences": [
+          "Apply sunscreen every two hours.",
+          "She applied lotion to her sunburnt shoulders."
+        ],
+        "translations": [
+          "Her iki saatte bir güneş kremi sür.",
+          "Güneşten yanmış omuzlarına losyon sürdü."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a05",
+        "term": "tropical storm",
+        "pronunciation": "",
+        "translation": "tropik fırtına",
+        "sentences": [
+          "A tropical storm hit the island on the third night.",
+          "The flights were cancelled because of a tropical storm."
+        ],
+        "translations": [
+          "Üçüncü gece adaya tropik bir fırtına vurdu.",
+          "Uçuşlar tropik fırtına yüzünden iptal edildi."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a06",
+        "term": "survival",
+        "pronunciation": "",
+        "translation": "hayatta kalma",
+        "sentences": [
+          "The honeymoon turned into a survival story.",
+          "Survival depends on food, water and shelter."
+        ],
+        "translations": [
+          "Balayı bir hayatta kalma hikâyesine dönüştü.",
+          "Hayatta kalmak yiyecek, su ve barınağa bağlıdır."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a07",
+        "term": "sunburnt",
+        "pronunciation": "",
+        "translation": "güneşten yanmış",
+        "sentences": [
+          "His sunburnt nose was red and sore.",
+          "I got badly sunburnt on the first day."
+        ],
+        "translations": [
+          "Güneşten yanmış burnu kırmızı ve acıyordu.",
+          "İlk gün kötü güneş yedim."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a08",
+        "term": "delayed",
+        "pronunciation": "",
+        "translation": "gecikmeli, rötarlı",
+        "sentences": [
+          "Our flight was delayed for ten hours.",
+          "The delayed train made everyone angry."
+        ],
+        "translations": [
+          "Uçuşumuz on saat rötar yaptı.",
+          "Gecikmeli tren herkesi kızdırdı."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a09",
+        "term": "food-poisoned",
+        "pronunciation": "",
+        "translation": "gıda zehirlenmesi geçirmiş",
+        "sentences": [
+          "They were both food-poisoned after eating the seafood.",
+          "Being food-poisoned on a honeymoon is no fun."
+        ],
+        "translations": [
+          "Deniz ürünlerini yedikten sonra ikisi de gıda zehirlenmesi geçirdi.",
+          "Balayında gıda zehirlenmesi geçirmek hiç eğlenceli değil."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a10",
+        "term": "groan",
+        "pronunciation": "",
+        "translation": "inlemek, homurdanmak",
+        "sentences": [
+          "Emma groaned when she saw the bill.",
+          "The team groaned at the news of extra work."
+        ],
+        "translations": [
+          "Emma faturayı görünce inledi.",
+          "Ekip fazladan iş haberine homurdandı."
+        ],
+        "explanation": ""
+      },
+      {
+        "id": "b2l4a11",
+        "term": "sigh",
+        "pronunciation": "",
+        "translation": "iç çekmek",
+        "sentences": [
+          "Emma sighed and closed her suitcase.",
+          "He sighed with relief when the plane finally landed."
+        ],
+        "translations": [
+          "Emma iç çekti ve valizini kapattı.",
+          "Uçak sonunda inince rahatlayarak iç çekti."
+        ],
+        "explanation": ""
+      }
+    ]
   }
 ]

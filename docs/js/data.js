@@ -61,7 +61,7 @@ const Data = {
     } catch (e) {
       // keep the empty default
     }
-    // Mühendislik kelimeleri (KEY BCT / RET belgeleri): her kategori 'eng:<id>' kategorisiyle kelime bankasına girer.
+    // Mühendislik kelimeleri (gerçek proje dökümanları): her kategori 'eng:<id>' kategorisiyle kelime bankasına girer.
     this.engCats = [];
     try {
       const ev = await fetch('data/engvocab.json').then((res) => (res.ok ? res.json() : null));

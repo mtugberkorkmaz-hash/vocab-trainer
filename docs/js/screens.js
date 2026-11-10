@@ -110,7 +110,7 @@ function renderMenu() {
     </div>
     <div class="section-title">İş İngilizcesi</div>
     <div class="list-group">
-      ${listRow('eng', 'gear', 'Mühendislik Kelimeleri', `${nEng} piping & proje yönetimi terimi · KEY BCT/RET`)}
+      ${listRow('eng', 'gear', 'Mühendislik Kelimeleri', `${nEng} piping & proje yönetimi terimi · gerçek proje dökümanlarından`)}
       ${listRow('meeting', 'users', 'Toplantı Senaryoları', `${Data.meetings.length} senaryo`)}
       ${listRow('patterns', 'translate', 'Günlük Kalıplar', `${Data.patterns.length} kalıp`)}
     </div>

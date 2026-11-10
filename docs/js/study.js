@@ -1,6 +1,6 @@
 /* Zaman Çizelgesi, Gramer Yapıları ve Mühendislik Kelimeleri ekranları.
- * Veri: data/tenses.json (12 zaman + 9 yapı) ve data/engvocab.json (KEY BCT / RET
- * belgelerinden çıkarılan piping & proje yönetimi kelimeleri). Testler practice.js'te. */
+ * Veri: data/tenses.json (12 zaman + 9 yapı) ve data/engvocab.json (gerçek proje
+ * dökümanlarından alınan piping & proje yönetimi kelimeleri). Testler practice.js'te. */
 
 const ZC = { past: '#4f6bd8', present: '#1f7a6a', future: '#8a55c9' };
 const ZR = { past: 170, present: 320, future: 470 };
@@ -161,7 +161,7 @@ function renderEngHub() {
   const rows = Data.engCats.map((c) => listRow('c:' + c.id, null, c.short, '', c.words.length, c.words.some((w) => w.docHits) ? '' : '')).join('');
   const mix = Array.from({ length: PRACTICE_EVAL_TESTS }, (_, k) => `<button class="p-testbtn" data-kind="evall:${k}"><span>${k + 1}</span>${bestBadge('evall:' + k)}</button>`).join('');
   mount(`
-    <p class="lead">BCT Urenco ve RET UFC proje belgelerinden (boru tasarım esası, PMS, vana tanımları, izolasyon, plot plan, 3D model review, hat/tie-in/ekipman listeleri, maliyet kriterleri) çıkarılan piping ve proje yönetimi kelimeleri. ${all.length} terim, her birinde Türkçe karşılık ve 2'şer EN/TR cümle. 📄 işareti terimin belgelerde birebir geçtiğini gösterir (${nDoc} terim).</p>
+    <p class="lead">Gerçek proje dökümanlarından (boru tasarım esası, PMS, vana tanımları, izolasyon, plot plan, 3D model review, hat/tie-in/ekipman listeleri, maliyet kriterleri) çıkarılan piping ve proje yönetimi kelimeleri. ${all.length} terim, her birinde Türkçe karşılık ve 2'şer EN/TR cümle. 📄 işareti terimin belgelerde birebir geçtiğini gösterir (${nDoc} terim).</p>
     <input id="eng-q" class="fillblank-input" style="margin:0 0 6px;text-align:left" type="search" placeholder="Terim veya Türkçe karşılığı ara…" autocomplete="off" autocapitalize="off" spellcheck="false">
     <div id="eng-res"></div>
     <div class="section-title">Kategoriler</div>

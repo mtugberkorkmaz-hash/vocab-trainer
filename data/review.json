@@ -303,6 +303,54 @@
       "correct": "Professor Tomero, who teaches a Sociology class, was out sick.",
       "rule": "No 'that' in non-defining (comma) relative clauses.",
       "rule_tr": "Virgüllü ilgi cümlesinde that kullanılmaz; who / which kullan."
+    },
+    {
+      "id": "E39",
+      "page": "SB 58 (not)",
+      "wrong": "unless = if",
+      "correct": "unless = if … not",
+      "rule": "Unless already contains 'not'; use it with a positive verb.",
+      "rule_tr": "unless olumsuzluğu içinde taşır: 'if … not' demektir, 'if' değil. Bu yüzden unless'tan sonra olumlu fiil gelir."
+    },
+    {
+      "id": "E40",
+      "page": "SB 61 #6",
+      "wrong": "Ted can borrow my laptop if only he returns it on Sunday.",
+      "correct": "Ted can borrow my laptop providing he returns it on Sunday.",
+      "rule": "'If only' means 'I wish'; it is not a condition.",
+      "rule_tr": "if only = keşke (wish) anlamındadır, koşul bildirmez. Koşul için providing / provided / as long as kullan."
+    },
+    {
+      "id": "E41",
+      "page": "SB 63 / 65",
+      "wrong": "The storm caused souvenir / sever damage.",
+      "correct": "The storm caused severe damage.",
+      "rule": "Collocation: severe damage (severe = very serious).",
+      "rule_tr": "Doğru kalıp 'severe damage' (ciddi hasar). souvenir = hediyelik eşya; 'sever' ise yazım hatası."
+    },
+    {
+      "id": "E42",
+      "page": "SB 62 (not)",
+      "wrong": "poultry = birds meet",
+      "correct": "poultry = domestic birds (chicken, turkey, duck) or their meat",
+      "rule": "meat (et) ≠ meet (buluşmak).",
+      "rule_tr": "poultry kümes hayvanları ve etleridir. 'meat' (et) ile 'meet' (buluşmak) farklı kelimelerdir."
+    },
+    {
+      "id": "E43",
+      "page": "SB 65 #1",
+      "wrong": "She is eager to do volunteering for the climate project.",
+      "correct": "She is eager to volunteer for the climate project.",
+      "rule": "eager to + base verb.",
+      "rule_tr": "eager to + V1 kalıbıyla kullanılır: eager to volunteer (eager to do volunteering değil)."
+    },
+    {
+      "id": "E44",
+      "page": "SB 63 Q2",
+      "wrong": "Intended audience: people who want to live more than 100 years.",
+      "correct": "Intended audience: those who want to prolong their life time.",
+      "rule": "The article is for anyone who wants a longer, healthier life.",
+      "rule_tr": "Metin 100 yaşını hedefleyenlere değil, ömrünü uzatmak isteyen herkese yazılmıştır ('Read on if you want to lead a long and healthy life')."
     }
   ],
   "quiz": [
@@ -660,6 +708,108 @@
       "question": "This room is said to be ___. (visited by ghosts)",
       "answers": [
         "haunted"
+      ]
+    },
+    {
+      "id": "Q43",
+      "topic": "Passive voice",
+      "question": "Make it passive: They told me something very important. (I …)",
+      "answers": [
+        "I was told something very important.",
+        "I was told something very important",
+        "was told"
+      ]
+    },
+    {
+      "id": "Q44",
+      "topic": "Passive voice",
+      "question": "Make it passive: Kevin has asked Dennis a question. (Dennis …)",
+      "answers": [
+        "Dennis has been asked a question.",
+        "Dennis has been asked a question by Kevin.",
+        "has been asked"
+      ]
+    },
+    {
+      "id": "Q45",
+      "topic": "Passive voice",
+      "question": "Make it passive: The waiter will bring Fred a big steak. (Fred …)",
+      "answers": [
+        "Fred will be brought a big steak.",
+        "will be brought"
+      ]
+    },
+    {
+      "id": "Q46",
+      "topic": "Passive voice",
+      "question": "Make it passive: Someone broke into the National Gallery last night.",
+      "answers": [
+        "The National Gallery was broken into last night.",
+        "was broken into"
+      ]
+    },
+    {
+      "id": "Q47",
+      "topic": "Gerund / infinitive",
+      "question": "I need ___ (sleep) at least eight hours a night.",
+      "answers": [
+        "to sleep"
+      ]
+    },
+    {
+      "id": "Q48",
+      "topic": "Gerund / infinitive",
+      "question": "When I finish ___ (write) this letter, I'll help you.",
+      "answers": [
+        "writing"
+      ]
+    },
+    {
+      "id": "Q49",
+      "topic": "Gerund / infinitive",
+      "question": "Children sometimes pretend ___ (be) ill.",
+      "answers": [
+        "to be"
+      ]
+    },
+    {
+      "id": "Q50",
+      "topic": "Conditional conjunctions",
+      "question": "I won't mention that he's left ___ someone asks.",
+      "answers": [
+        "unless"
+      ]
+    },
+    {
+      "id": "Q51",
+      "topic": "Conditional conjunctions",
+      "question": "We've installed an alarm ___ burglary. (in case / in case of)",
+      "answers": [
+        "in case of"
+      ]
+    },
+    {
+      "id": "Q52",
+      "topic": "Relative clauses when/where",
+      "question": "This is the place ___ I met my wife.",
+      "answers": [
+        "where"
+      ]
+    },
+    {
+      "id": "Q53",
+      "topic": "Intensifiers",
+      "question": "There are ___ applicants for this job. (too much / too many)",
+      "answers": [
+        "too many"
+      ]
+    },
+    {
+      "id": "Q54",
+      "topic": "Word formation",
+      "question": "Before planning your trip, check the local weather and any ___ (TRAVEL) advice.",
+      "answers": [
+        "travel"
       ]
     }
   ]

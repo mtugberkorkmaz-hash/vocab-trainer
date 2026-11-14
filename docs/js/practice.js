@@ -41,8 +41,8 @@ function practiceUnits() {
   return Object.keys(map).map(Number).sort((a, b) => a - b).map((n) => ({ n, lessons: map[n] }));
 }
 function unitSub(u) { return u.lessons.map((l) => l.code).join(' · '); }
-// Unit 4 (4A) sadece 11 kelimelik ön çalışma: 6 test; diğerleri 12.
-function unitTests(u) { return u.tests || (u.n === 4 ? 6 : PRACTICE_TESTS_PER_UNIT); }
+// Her ünite 12 test (u.tests ile özel sayı verilebilir).
+function unitTests(u) { return u.tests || PRACTICE_TESTS_PER_UNIT; }
 // Mühendislik kelimeleri: her kategori 3 test, tüm kelimeler 15 karma test.
 function engUnits() { return Data.engCats.map((c, i) => ({ n: 'v' + (i + 1), cat: c, words: c.words, tests: 3, quota: PRACTICE_VQ })); }
 function engAllUnit() { return { n: 'vall', words: Data.engCats.reduce((a, c) => a.concat(c.words), []), tests: PRACTICE_EVAL_TESTS, quota: PRACTICE_VQ }; }

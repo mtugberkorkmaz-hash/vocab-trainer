@@ -182,6 +182,78 @@
           "While I was driving, my phone rang."
         ]
       }
+    },
+    {
+      "key": "CCONJ",
+      "title": "Conditional conjunctions (unless, as long as, in case…)",
+      "units": [
+        4
+      ],
+      "lesson": "L4B",
+      "tip": "unless = if … not (unless + OLUMLU fiil). in case = …ihtimaline karşı (gerekçe), in case of + isim. even if = …se bile. provided / as long as / on condition that ≈ if. if only = keşke (koşul değil)."
+    },
+    {
+      "key": "COLL",
+      "title": "Collocations (make / do / get / take)",
+      "units": [
+        4
+      ],
+      "lesson": "L4C",
+      "tip": "make a donation / money / a decision · do homework / the dishes / a favour / harm · get lost / ready / a job / divorced · take a break / a shower / your time / advantage of. Kalıbı tek parça öğren."
+    },
+    {
+      "key": "RELWW",
+      "title": "Relative clauses: when / where · non-defining",
+      "units": [
+        4
+      ],
+      "lesson": "L4D",
+      "tip": "Yer + where (+ tam cümle), zaman + when. Virgüllü (non-defining) cümlede that yok. which'ten sonra özne eksik olabilir (a place which is quiet), where'den sonra özne+fiil gelir (a place where people live)."
+    },
+    {
+      "key": "SIL",
+      "title": "Silent letters (sessiz harfler)",
+      "units": [
+        4
+      ],
+      "lesson": "L4D",
+      "tip": "kn- (k), wr- (w), -mb (b), -mn (n), -alk/-alf (l), h- (hour, honest), -stle/-sten (t), gn- (g), ps-/-pt (p)."
+    },
+    {
+      "key": "PASS",
+      "title": "Passive voice (edilgen)",
+      "units": [
+        5
+      ],
+      "lesson": "L5A",
+      "tip": "be + V3. Zaman be'de gösterilir: is made / was made / has been made / will be made / is being made / must be made. Yapan önemliyse sonuna by + agent."
+    },
+    {
+      "key": "GERINF",
+      "title": "Gerund vs infinitive",
+      "units": [
+        5
+      ],
+      "lesson": "L5C",
+      "tip": "enjoy/avoid/mind/consider + V-ing; want/hope/promise/afford/manage + to V1; let/make + V1. remember/forget/stop/try/regret anlam değiştirir."
+    },
+    {
+      "key": "INTENS",
+      "title": "Intensifiers (very, quite, pretty, too…)",
+      "units": [
+        5
+      ],
+      "lesson": "L5D",
+      "tip": "very + normal sıfat, absolutely + uç sıfat. much/far/slightly + comparative, by far + superlative. too many + sayılabilen, too much + sayılamayan."
+    },
+    {
+      "key": "AFFIX",
+      "title": "Prefixes & suffixes (word formation)",
+      "units": [
+        5
+      ],
+      "lesson": "L5D",
+      "tip": "Ön ek anlamı değiştirir (dis-satisfied, multi-national), son ek türü değiştirir (help → helpful, attract → attraction, grow → growth)."
     }
   ],
   "quizTopics": {
@@ -205,7 +277,14 @@
     "Phrasal verbs 3A": null,
     "Vocabulary 3B": null,
     "Vocabulary 3C": null,
-    "Vocabulary 3D": null
+    "Vocabulary 3D": null,
+    "Conditional conjunctions": "CCONJ",
+    "Collocations 4C": "COLL",
+    "Relative clauses when/where": "RELWW",
+    "Passive voice": "PASS",
+    "Gerund / infinitive": "GERINF",
+    "Intensifiers": "INTENS",
+    "Word formation": "AFFIX"
   },
   "bank": [
     {
@@ -5913,6 +5992,1614 @@
         "ago"
       ],
       "e": ""
+    },
+    {
+      "id": "G466",
+      "topic": "CCONJ",
+      "q": "Don't call me ___ it is a real emergency.",
+      "o": [
+        "unless",
+        "in case",
+        "as long as",
+        "even if"
+      ],
+      "e": "unless = if … not."
+    },
+    {
+      "id": "G467",
+      "topic": "CCONJ",
+      "q": "Take an umbrella ___ it rains.",
+      "o": [
+        "in case",
+        "unless",
+        "as long as",
+        "only if"
+      ],
+      "e": "in case = …ihtimaline karşı."
+    },
+    {
+      "id": "G468",
+      "topic": "CCONJ",
+      "q": "___ fire, use the stairs.",
+      "o": [
+        "In case of",
+        "In case",
+        "Unless",
+        "As long as"
+      ],
+      "e": "in case of + isim."
+    },
+    {
+      "id": "G469",
+      "topic": "CCONJ",
+      "q": "You can stay here ___ you keep quiet.",
+      "o": [
+        "as long as",
+        "unless",
+        "in case",
+        "even if"
+      ],
+      "e": "as long as ≈ if (koşul)."
+    },
+    {
+      "id": "G470",
+      "topic": "CCONJ",
+      "q": "___ we leave right now, we won't catch the train.",
+      "o": [
+        "Even if",
+        "As long as",
+        "Provided that",
+        "In case"
+      ],
+      "e": "even if = …se bile."
+    },
+    {
+      "id": "G471",
+      "topic": "CCONJ",
+      "q": "Children can take this medicine ___ the doctor says so.",
+      "o": [
+        "only if",
+        "unless",
+        "in case",
+        "even if"
+      ],
+      "e": "only if = yalnızca …se."
+    },
+    {
+      "id": "G472",
+      "topic": "CCONJ",
+      "q": "I'll stay in Mexico ___ my money holds on.",
+      "o": [
+        "provided that",
+        "unless",
+        "in case",
+        "even if"
+      ],
+      "e": "provided that ≈ if."
+    },
+    {
+      "id": "G473",
+      "topic": "CCONJ",
+      "q": "I can't reach the top shelf ___ I use a stepladder.",
+      "o": [
+        "unless",
+        "as long as",
+        "in case",
+        "provided"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G474",
+      "topic": "CCONJ",
+      "q": "Which sentence is correct?",
+      "o": [
+        "She can't stand up unless someone helps her.",
+        "She can't stand up unless someone doesn't help her.",
+        "She can't stand up in case someone helps her.",
+        "She can't stand up if only someone helps her."
+      ],
+      "e": "unless + olumlu fiil."
+    },
+    {
+      "id": "G475",
+      "topic": "CCONJ",
+      "q": "'If only he returned it on Sunday' means:",
+      "o": [
+        "I wish he returned it on Sunday.",
+        "on condition that he returns it",
+        "in case he returns it",
+        "unless he returns it"
+      ],
+      "e": "if only = keşke."
+    },
+    {
+      "id": "G476",
+      "topic": "CCONJ",
+      "q": "We'll proofread the report ___ there are mistakes.",
+      "o": [
+        "in case",
+        "unless",
+        "as long as",
+        "even if"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G477",
+      "topic": "CCONJ",
+      "q": "___ you check your accounts regularly, nobody can open new ones in your name.",
+      "o": [
+        "As long as",
+        "Unless",
+        "In case",
+        "Even if"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G478",
+      "topic": "CCONJ",
+      "q": "'when' can replace 'if' only in ___ conditionals.",
+      "o": [
+        "zero",
+        "first",
+        "second",
+        "third"
+      ],
+      "e": "Water boils when you heat it."
+    },
+    {
+      "id": "G479",
+      "topic": "CCONJ",
+      "q": "New credit files cannot be opened ___ you unfreeze your account.",
+      "o": [
+        "unless",
+        "in case",
+        "provided",
+        "as long as"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G480",
+      "topic": "CCONJ",
+      "q": "I'll take this job ___ they pay me enough.",
+      "o": [
+        "only if",
+        "even if",
+        "unless",
+        "if only"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G481",
+      "topic": "CCONJ",
+      "q": "___ she loses her job, she will still have a job in education.",
+      "o": [
+        "Even if",
+        "Unless",
+        "In case of",
+        "Provided that"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G482",
+      "topic": "CCONJ",
+      "q": "The kids may go out ___ they are home by dinner.",
+      "o": [
+        "on condition that",
+        "if only",
+        "unless",
+        "even if"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G483",
+      "topic": "CCONJ",
+      "q": "'unless' means:",
+      "o": [
+        "if … not",
+        "if only",
+        "in case",
+        "even if"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G484",
+      "topic": "COLL",
+      "q": "They promised to ___ a donation to the hospital.",
+      "o": [
+        "make",
+        "do",
+        "get",
+        "take"
+      ],
+      "e": "make a donation."
+    },
+    {
+      "id": "G485",
+      "topic": "COLL",
+      "q": "Could you ___ me a favour?",
+      "o": [
+        "do",
+        "make",
+        "get",
+        "take"
+      ],
+      "e": "do someone a favour."
+    },
+    {
+      "id": "G486",
+      "topic": "COLL",
+      "q": "We ___ lost on the way to the site.",
+      "o": [
+        "got",
+        "made",
+        "did",
+        "took"
+      ],
+      "e": "get lost."
+    },
+    {
+      "id": "G487",
+      "topic": "COLL",
+      "q": "You look tired. ___ a break.",
+      "o": [
+        "Take",
+        "Make",
+        "Do",
+        "Get"
+      ],
+      "e": "take a break."
+    },
+    {
+      "id": "G488",
+      "topic": "COLL",
+      "q": "He ___ a fortune selling software.",
+      "o": [
+        "made",
+        "did",
+        "got",
+        "took"
+      ],
+      "e": "make a fortune."
+    },
+    {
+      "id": "G489",
+      "topic": "COLL",
+      "q": "I need to ___ my homework tonight.",
+      "o": [
+        "do",
+        "make",
+        "get",
+        "take"
+      ],
+      "e": "do homework."
+    },
+    {
+      "id": "G490",
+      "topic": "COLL",
+      "q": "She hopes to ___ a promotion this year.",
+      "o": [
+        "get",
+        "make",
+        "do",
+        "take"
+      ],
+      "e": "get a promotion."
+    },
+    {
+      "id": "G491",
+      "topic": "COLL",
+      "q": "Don't ___ advantage of your colleagues.",
+      "o": [
+        "take",
+        "make",
+        "do",
+        "get"
+      ],
+      "e": "take advantage of."
+    },
+    {
+      "id": "G492",
+      "topic": "COLL",
+      "q": "The storm caused ___ damage.",
+      "o": [
+        "severe",
+        "souvenir",
+        "sever",
+        "strong"
+      ],
+      "e": "severe damage = ciddi hasar."
+    },
+    {
+      "id": "G493",
+      "topic": "COLL",
+      "q": "The food was provided ___ of charge.",
+      "o": [
+        "free",
+        "without",
+        "for",
+        "no"
+      ],
+      "e": "free of charge."
+    },
+    {
+      "id": "G494",
+      "topic": "COLL",
+      "q": "Many people in cities are ___ stress.",
+      "o": [
+        "under",
+        "below",
+        "with",
+        "in"
+      ],
+      "e": "under stress."
+    },
+    {
+      "id": "G495",
+      "topic": "COLL",
+      "q": "___ a doubt, exercise is good for you.",
+      "o": [
+        "Without",
+        "Within",
+        "No",
+        "Under"
+      ],
+      "e": "without a doubt."
+    },
+    {
+      "id": "G496",
+      "topic": "COLL",
+      "q": "It's important to ___ a goal before you start.",
+      "o": [
+        "set",
+        "let",
+        "do",
+        "take"
+      ],
+      "e": "set a goal."
+    },
+    {
+      "id": "G497",
+      "topic": "COLL",
+      "q": "She is eager ___ for the project.",
+      "o": [
+        "to volunteer",
+        "to do volunteering",
+        "volunteering",
+        "for volunteer"
+      ],
+      "e": "eager to + V1."
+    },
+    {
+      "id": "G498",
+      "topic": "COLL",
+      "q": "We'll use the old pump for the time ___.",
+      "o": [
+        "being",
+        "present",
+        "now",
+        "moment"
+      ],
+      "e": "for the time being = şimdilik."
+    },
+    {
+      "id": "G499",
+      "topic": "COLL",
+      "q": "Junk food can ___ harm to your health.",
+      "o": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "e": "do harm."
+    },
+    {
+      "id": "G500",
+      "topic": "RELWW",
+      "q": "Ubud is a town ___ many artists live.",
+      "o": [
+        "where",
+        "which",
+        "when",
+        "who"
+      ],
+      "e": "Yer + özne + fiil → where."
+    },
+    {
+      "id": "G501",
+      "topic": "RELWW",
+      "q": "Do you know the date ___ the pandemic broke out?",
+      "o": [
+        "when",
+        "where",
+        "which",
+        "who"
+      ],
+      "e": "Zaman → when."
+    },
+    {
+      "id": "G502",
+      "topic": "RELWW",
+      "q": "I need a place ___ is suitable to set up a tent.",
+      "o": [
+        "which",
+        "where",
+        "when",
+        "who"
+      ],
+      "e": "Ardından özne yok → which."
+    },
+    {
+      "id": "G503",
+      "topic": "RELWW",
+      "q": "I need a place ___ I can relax for a while.",
+      "o": [
+        "where",
+        "which",
+        "when",
+        "that"
+      ],
+      "e": "Ardından özne + fiil → where."
+    },
+    {
+      "id": "G504",
+      "topic": "RELWW",
+      "q": "Bali, ___ is located in Indonesia, is very popular.",
+      "o": [
+        "which",
+        "that",
+        "where",
+        "who"
+      ],
+      "e": "Virgüllü → which (that yok)."
+    },
+    {
+      "id": "G505",
+      "topic": "RELWW",
+      "q": "A tenant is a person ___ rents a flat.",
+      "o": [
+        "who",
+        "which",
+        "where",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G506",
+      "topic": "RELWW",
+      "q": "A cemetery is a place ___ the dead are buried.",
+      "o": [
+        "where",
+        "which",
+        "when",
+        "who"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G507",
+      "topic": "RELWW",
+      "q": "I remember the times ___ there wasn't internet.",
+      "o": [
+        "when",
+        "which",
+        "where",
+        "that it"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G508",
+      "topic": "RELWW",
+      "q": "The movie ___ we saw last month won three Oscars.",
+      "o": [
+        "that",
+        "where",
+        "when",
+        "who"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G509",
+      "topic": "RELWW",
+      "q": "Food ___ is imported is rather expensive.",
+      "o": [
+        "which",
+        "where",
+        "who",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G510",
+      "topic": "RELWW",
+      "q": "Can you find the teacher ___ you talked to this morning?",
+      "o": [
+        "that",
+        "when",
+        "which",
+        "where"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G511",
+      "topic": "RELWW",
+      "q": "He had a feeling ___ something terrible was going to happen.",
+      "o": [
+        "that",
+        "where",
+        "who",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G512",
+      "topic": "RELWW",
+      "q": "An adjective clause usually comes ___ the noun it modifies.",
+      "o": [
+        "right after",
+        "right before",
+        "at the start of",
+        "instead of"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G513",
+      "topic": "RELWW",
+      "q": "Which sentence is correct?",
+      "o": [
+        "Loch Ness, which is 37 km long, is famous.",
+        "Loch Ness, that is 37 km long, is famous.",
+        "Loch Ness which, is 37 km long is famous.",
+        "Loch Ness, where is 37 km long, is famous."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G514",
+      "topic": "RELWW",
+      "q": "The Balinese people, ___ culture is connected to Hindu beliefs, place offerings.",
+      "o": [
+        "whose",
+        "who",
+        "which",
+        "where"
+      ],
+      "e": "Aitlik → whose."
+    },
+    {
+      "id": "G515",
+      "topic": "RELWW",
+      "q": "A nest is a place ___ birds live.",
+      "o": [
+        "where",
+        "which",
+        "who",
+        "when"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G516",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'knight'?",
+      "o": [
+        "k",
+        "n",
+        "t",
+        "i"
+      ],
+      "e": "kn- başında k okunmaz (gh de okunmaz)."
+    },
+    {
+      "id": "G517",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'listen'?",
+      "o": [
+        "t",
+        "s",
+        "n",
+        "l"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G518",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'thumb'?",
+      "o": [
+        "b",
+        "m",
+        "h",
+        "t"
+      ],
+      "e": "-mb sonunda b okunmaz."
+    },
+    {
+      "id": "G519",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'hour'?",
+      "o": [
+        "h",
+        "o",
+        "u",
+        "r"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G520",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'receipt'?",
+      "o": [
+        "p",
+        "c",
+        "t",
+        "e"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G521",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'column'?",
+      "o": [
+        "n",
+        "m",
+        "l",
+        "c"
+      ],
+      "e": "-mn sonunda n okunmaz."
+    },
+    {
+      "id": "G522",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'wrap'?",
+      "o": [
+        "w",
+        "r",
+        "p",
+        "a"
+      ],
+      "e": "wr- başında w okunmaz."
+    },
+    {
+      "id": "G523",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'half'?",
+      "o": [
+        "l",
+        "h",
+        "f",
+        "a"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G524",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'sign'?",
+      "o": [
+        "g",
+        "s",
+        "n",
+        "i"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G525",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'island'?",
+      "o": [
+        "s",
+        "l",
+        "d",
+        "n"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G526",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'Wednesday'?",
+      "o": [
+        "d (first)",
+        "w",
+        "s",
+        "y"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G527",
+      "topic": "SIL",
+      "q": "Which letter is silent in 'cupboard'?",
+      "o": [
+        "p",
+        "b",
+        "d",
+        "c"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G528",
+      "topic": "SIL",
+      "q": "Which word has a silent 'k'?",
+      "o": [
+        "knee",
+        "kind",
+        "kitchen",
+        "make"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G529",
+      "topic": "SIL",
+      "q": "Which word has NO silent letter?",
+      "o": [
+        "plant",
+        "plumber",
+        "chalk",
+        "yacht"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G530",
+      "topic": "PASS",
+      "q": "Millions of chips ___ every year.",
+      "o": [
+        "are produced",
+        "produce",
+        "are producing",
+        "produced"
+      ],
+      "e": "Present simple passive."
+    },
+    {
+      "id": "G531",
+      "topic": "PASS",
+      "q": "The first James Bond novel ___ by Ian Fleming in 1952.",
+      "o": [
+        "was written",
+        "wrote",
+        "is written",
+        "has written"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G532",
+      "topic": "PASS",
+      "q": "Statements ___ from half of the witnesses so far.",
+      "o": [
+        "have been taken",
+        "were taken",
+        "are taking",
+        "have taken"
+      ],
+      "e": "so far → present perfect passive."
+    },
+    {
+      "id": "G533",
+      "topic": "PASS",
+      "q": "The contract ___ tomorrow.",
+      "o": [
+        "will be signed",
+        "will sign",
+        "is signed",
+        "was signed"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G534",
+      "topic": "PASS",
+      "q": "All criminals must ___ equally.",
+      "o": [
+        "be treated",
+        "treat",
+        "treated",
+        "be treating"
+      ],
+      "e": "modal + be + V3."
+    },
+    {
+      "id": "G535",
+      "topic": "PASS",
+      "q": "When we reached the airport, all the flights ___.",
+      "o": [
+        "had been cancelled",
+        "have been cancelled",
+        "cancelled",
+        "had cancelled"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G536",
+      "topic": "PASS",
+      "q": "Your inquiries ___ until tomorrow morning.",
+      "o": [
+        "will not be replied to",
+        "will not reply",
+        "are not replying",
+        "won't replied"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G537",
+      "topic": "PASS",
+      "q": "Tea ___ in China.",
+      "o": [
+        "is grown",
+        "grows by",
+        "is growing",
+        "grown"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G538",
+      "topic": "PASS",
+      "q": "The goods ___ next week by our supplier.",
+      "o": [
+        "are being shipped",
+        "are shipping",
+        "is shipped",
+        "have shipped"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G539",
+      "topic": "PASS",
+      "q": "The Mona Lisa was painted ___ Leonardo da Vinci.",
+      "o": [
+        "by",
+        "from",
+        "with",
+        "of"
+      ],
+      "e": "agent → by."
+    },
+    {
+      "id": "G540",
+      "topic": "PASS",
+      "q": "Passive structure is:",
+      "o": [
+        "be + V3",
+        "have + V3",
+        "be + V-ing",
+        "do + V1"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G541",
+      "topic": "PASS",
+      "q": "'Michael has not sent me the file.' → I ___ the file.",
+      "o": [
+        "have not been sent",
+        "have not sent",
+        "was not sent",
+        "am not sent"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G542",
+      "topic": "PASS",
+      "q": "'My boss offered me a new position.' → A new position ___ to me.",
+      "o": [
+        "was offered",
+        "offered",
+        "has offered",
+        "is offering"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G543",
+      "topic": "PASS",
+      "q": "Which verb CANNOT be passive?",
+      "o": [
+        "happen",
+        "build",
+        "send",
+        "write"
+      ],
+      "e": "Nesnesiz fiil edilgen olmaz."
+    },
+    {
+      "id": "G544",
+      "topic": "PASS",
+      "q": "Spanish ___ in Latin America.",
+      "o": [
+        "is spoken",
+        "speaks",
+        "is speaking",
+        "spoken"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G545",
+      "topic": "PASS",
+      "q": "His bike ___ last night.",
+      "o": [
+        "was stolen",
+        "stole",
+        "is stolen",
+        "has stolen"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G546",
+      "topic": "PASS",
+      "q": "The woman will ___ to a hospital.",
+      "o": [
+        "be taken",
+        "take",
+        "taken",
+        "be taking"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G547",
+      "topic": "PASS",
+      "q": "Italy ___ by millions of tourists every year.",
+      "o": [
+        "is visited",
+        "visits",
+        "was visit",
+        "visited"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G548",
+      "topic": "GERINF",
+      "q": "I often go ___ on a Saturday night.",
+      "o": [
+        "dancing",
+        "to dance",
+        "dance",
+        "danced"
+      ],
+      "e": "go + V-ing (aktivite)."
+    },
+    {
+      "id": "G549",
+      "topic": "GERINF",
+      "q": "I am planning ___ a new laptop soon.",
+      "o": [
+        "to buy",
+        "buying",
+        "buy",
+        "bought"
+      ],
+      "e": "plan + to V1."
+    },
+    {
+      "id": "G550",
+      "topic": "GERINF",
+      "q": "She avoids ___ in the rain.",
+      "o": [
+        "walking",
+        "to walk",
+        "walk",
+        "walked"
+      ],
+      "e": "avoid + V-ing."
+    },
+    {
+      "id": "G551",
+      "topic": "GERINF",
+      "q": "Emily promised ___ all her vegetables.",
+      "o": [
+        "to eat",
+        "eating",
+        "eat",
+        "ate"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G552",
+      "topic": "GERINF",
+      "q": "We can't afford ___ this flat anymore.",
+      "o": [
+        "to rent",
+        "renting",
+        "rent",
+        "rented"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G553",
+      "topic": "GERINF",
+      "q": "I managed ___ there on time.",
+      "o": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G554",
+      "topic": "GERINF",
+      "q": "Would you consider ___ the speech?",
+      "o": [
+        "giving",
+        "to give",
+        "give",
+        "gave"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G555",
+      "topic": "GERINF",
+      "q": "My mum doesn't let me ___ with you.",
+      "o": [
+        "travel",
+        "to travel",
+        "travelling",
+        "travelled"
+      ],
+      "e": "let + nesne + V1."
+    },
+    {
+      "id": "G556",
+      "topic": "GERINF",
+      "q": "Your hair needs ___. It's too long.",
+      "o": [
+        "cutting",
+        "cut",
+        "to cutting",
+        "cuts"
+      ],
+      "e": "need + V-ing = edilgen anlam."
+    },
+    {
+      "id": "G557",
+      "topic": "GERINF",
+      "q": "Please remember ___ off the lights when you go on holiday.",
+      "o": [
+        "to switch",
+        "switching",
+        "switch",
+        "switched"
+      ],
+      "e": "remember to = yapılacak iş."
+    },
+    {
+      "id": "G558",
+      "topic": "GERINF",
+      "q": "I remember ___ off the lights when I went on holiday.",
+      "o": [
+        "switching",
+        "to switch",
+        "switch",
+        "switched"
+      ],
+      "e": "remember V-ing = geçmiş anı."
+    },
+    {
+      "id": "G559",
+      "topic": "GERINF",
+      "q": "The climber stopped ___ for a minute.",
+      "o": [
+        "to breathe",
+        "breathing",
+        "breathe",
+        "breathed"
+      ],
+      "e": "stop to = bir şey yapmak için durmak."
+    },
+    {
+      "id": "G560",
+      "topic": "GERINF",
+      "q": "The poor animal stopped ___ and died.",
+      "o": [
+        "breathing",
+        "to breathe",
+        "breathe",
+        "breath"
+      ],
+      "e": "stop V-ing = bırakmak."
+    },
+    {
+      "id": "G561",
+      "topic": "GERINF",
+      "q": "I tried ___ the window, but it was firmly locked.",
+      "o": [
+        "to open",
+        "opening",
+        "open",
+        "opened"
+      ],
+      "e": "try to = zor bir şeyi yapmaya çalışmak."
+    },
+    {
+      "id": "G562",
+      "topic": "GERINF",
+      "q": "We regret ___ you that the flight has been delayed.",
+      "o": [
+        "to tell",
+        "telling",
+        "tell",
+        "told"
+      ],
+      "e": "regret to = üzülerek bildirmek."
+    },
+    {
+      "id": "G563",
+      "topic": "GERINF",
+      "q": "I regret ___ her all my secrets.",
+      "o": [
+        "telling",
+        "to tell",
+        "tell",
+        "told"
+      ],
+      "e": "regret V-ing = pişmanlık."
+    },
+    {
+      "id": "G564",
+      "topic": "GERINF",
+      "q": "We talked about ___ together next summer.",
+      "o": [
+        "travelling",
+        "to travel",
+        "travel",
+        "travelled"
+      ],
+      "e": "Edat + V-ing."
+    },
+    {
+      "id": "G565",
+      "topic": "GERINF",
+      "q": "I'd prefer ___ my own car.",
+      "o": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "e": "would prefer + to V1."
+    },
+    {
+      "id": "G566",
+      "topic": "INTENS",
+      "q": "You are ___ the best friend a person could have.",
+      "o": [
+        "by far",
+        "much",
+        "highly",
+        "a great deal"
+      ],
+      "e": "by far + superlative."
+    },
+    {
+      "id": "G567",
+      "topic": "INTENS",
+      "q": "There were some clouds, but it was a ___ nice day.",
+      "o": [
+        "pretty",
+        "highly",
+        "slightly",
+        "a bit"
+      ],
+      "e": "pretty = oldukça (gayriresmî)."
+    },
+    {
+      "id": "G568",
+      "topic": "INTENS",
+      "q": "The soup was ___ hot. We had to wait 15 minutes.",
+      "o": [
+        "extremely",
+        "enough",
+        "amazingly",
+        "absolutely"
+      ],
+      "e": "very/extremely + normal sıfat."
+    },
+    {
+      "id": "G569",
+      "topic": "INTENS",
+      "q": "You are only ___ faster than me.",
+      "o": [
+        "slightly",
+        "by far",
+        "easily",
+        "rather"
+      ],
+      "e": "slightly + comparative."
+    },
+    {
+      "id": "G570",
+      "topic": "INTENS",
+      "q": "There are ___ applicants for this job.",
+      "o": [
+        "too many",
+        "too much",
+        "very much",
+        "too"
+      ],
+      "e": "too many + sayılabilen."
+    },
+    {
+      "id": "G571",
+      "topic": "INTENS",
+      "q": "I can't drive! I have had ___ to drink.",
+      "o": [
+        "too much",
+        "too many",
+        "so many",
+        "very much"
+      ],
+      "e": "too much + sayılamayan."
+    },
+    {
+      "id": "G572",
+      "topic": "INTENS",
+      "q": "It's ___ freezing outside!",
+      "o": [
+        "absolutely",
+        "very",
+        "slightly",
+        "a bit"
+      ],
+      "e": "uç sıfat → absolutely."
+    },
+    {
+      "id": "G573",
+      "topic": "INTENS",
+      "q": "Voice analysis will make it ___ easier.",
+      "o": [
+        "much",
+        "very",
+        "too",
+        "by far"
+      ],
+      "e": "much + comparative."
+    },
+    {
+      "id": "G574",
+      "topic": "INTENS",
+      "q": "Employment was ___ dependent on performance.",
+      "o": [
+        "highly",
+        "high",
+        "much",
+        "too many"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G575",
+      "topic": "INTENS",
+      "q": "An intensifier usually comes ___ the word it modifies.",
+      "o": [
+        "before",
+        "after",
+        "at the end of",
+        "instead of"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G576",
+      "topic": "INTENS",
+      "q": "'It is quite hot' means it is:",
+      "o": [
+        "fairly hot",
+        "extremely hot",
+        "not hot",
+        "too hot"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G577",
+      "topic": "INTENS",
+      "q": "Which is the most informal?",
+      "o": [
+        "pretty",
+        "extremely",
+        "highly",
+        "rather"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G578",
+      "topic": "INTENS",
+      "q": "The café was ___ busy, so we went to another one.",
+      "o": [
+        "too",
+        "too many",
+        "much",
+        "by far"
+      ],
+      "e": "too + sıfat = gereğinden fazla."
+    },
+    {
+      "id": "G579",
+      "topic": "INTENS",
+      "q": "I was ___ nervous before the interview.",
+      "o": [
+        "really",
+        "too many",
+        "by far",
+        "much"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G580",
+      "topic": "INTENS",
+      "q": "The test was ___ useful in the beginning.",
+      "o": [
+        "pretty",
+        "too many",
+        "much",
+        "by far"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G581",
+      "topic": "INTENS",
+      "q": "Which sentence is correct?",
+      "o": [
+        "It's much colder today.",
+        "It's very colder today.",
+        "It's too much cold today.",
+        "It's by far colder today."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G582",
+      "topic": "AFFIX",
+      "q": "Traveling is one of the most ___ ways to learn. (ADVENTURE)",
+      "o": [
+        "adventurous",
+        "adventureful",
+        "adventurely",
+        "adventured"
+      ],
+      "e": "-ous sıfat."
+    },
+    {
+      "id": "G583",
+      "topic": "AFFIX",
+      "q": "People who travel become more ___. (UNDERSTAND)",
+      "o": [
+        "understanding",
+        "understandment",
+        "understandful",
+        "understood"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G584",
+      "topic": "AFFIX",
+      "q": "Some places are popular because of their cultural ___. (ATTRACT)",
+      "o": [
+        "attractions",
+        "attractive",
+        "attractful",
+        "attracting"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G585",
+      "topic": "AFFIX",
+      "q": "Check any ___ advice before your trip. (TRAVEL)",
+      "o": [
+        "travel",
+        "traveller",
+        "travelful",
+        "travelling"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G586",
+      "topic": "AFFIX",
+      "q": "Try to avoid ___ tourist spots. (CROWD)",
+      "o": [
+        "crowded",
+        "crowdful",
+        "crowdive",
+        "crowdness"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G587",
+      "topic": "AFFIX",
+      "q": "Learning local words can be extremely ___. (HELP)",
+      "o": [
+        "helpful",
+        "helpless",
+        "helpment",
+        "helping"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G588",
+      "topic": "AFFIX",
+      "q": "Travelling can increase your ___. (CONFIDENT)",
+      "o": [
+        "confidence",
+        "confidentity",
+        "confidently",
+        "confidentment"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G589",
+      "topic": "AFFIX",
+      "q": "A gap year allows for personal ___. (GROW)",
+      "o": [
+        "growth",
+        "growment",
+        "growness",
+        "growful"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G590",
+      "topic": "AFFIX",
+      "q": "Being respectful and ___ helps you connect. (POLITE)",
+      "o": [
+        "polite",
+        "politeness",
+        "politely",
+        "politeful"
+      ],
+      "e": "Burada sıfat gerekiyor (respectful and polite)."
+    },
+    {
+      "id": "G591",
+      "topic": "AFFIX",
+      "q": "The prefix 'multi-' means:",
+      "o": [
+        "many",
+        "against",
+        "before",
+        "under"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G592",
+      "topic": "AFFIX",
+      "q": "The prefix 'anti-' means:",
+      "o": [
+        "against",
+        "many",
+        "after",
+        "small"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G593",
+      "topic": "AFFIX",
+      "q": "The prefix 'pre-' means:",
+      "o": [
+        "before",
+        "after",
+        "under",
+        "too much"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G594",
+      "topic": "AFFIX",
+      "q": "The prefix 'sub-' means:",
+      "o": [
+        "under / below",
+        "above",
+        "against",
+        "many"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G595",
+      "topic": "AFFIX",
+      "q": "Which word has a NEGATIVE prefix?",
+      "o": [
+        "dissatisfied",
+        "multinational",
+        "preview",
+        "subway"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G596",
+      "topic": "AFFIX",
+      "q": "The suffix '-less' in 'countless' means:",
+      "o": [
+        "without",
+        "full of",
+        "able to",
+        "person"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G597",
+      "topic": "AFFIX",
+      "q": "Which suffix makes a NOUN?",
+      "o": [
+        "-ment",
+        "-ful",
+        "-ive",
+        "-able"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G598",
+      "topic": "AFFIX",
+      "q": "Which suffix makes an ADJECTIVE?",
+      "o": [
+        "-able",
+        "-ment",
+        "-ity",
+        "-ism"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G599",
+      "topic": "AFFIX",
+      "q": "'Hyperactive' means:",
+      "o": [
+        "too active",
+        "not active",
+        "a little active",
+        "active before"
+      ],
+      "e": "hyper- = aşırı."
     }
   ]
 }

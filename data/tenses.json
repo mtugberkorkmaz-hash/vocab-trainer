@@ -981,6 +981,462 @@
         ]
       ],
       "tip": "ago ile Present Perfect kullanılmaz: I have started two years ago ✗ → I started two years ago ✓"
+    },
+    {
+      "k": "CCONJ",
+      "title": "Conditional conjunctions",
+      "sub": "even if · only if · provided (that) · as long as · unless · in case",
+      "def": "if yerine kullanılan bağlaçlar koşulun türünü netleştirir: daha güçlü/kısıtlayıcı koşul, olumsuz koşul ya da 'ihtimaline karşı' gerekçe.",
+      "forms": [
+        [
+          "≈ if (anlam aynı)",
+          "provided (that) · providing · supposing (that) · on condition that · as long as"
+        ],
+        [
+          "Güçlü / kısıtlayıcı",
+          "even if (…se bile) · only if (yalnızca …se)"
+        ],
+        [
+          "Olumsuz koşul",
+          "unless = if … not (unless + olumlu fiil)"
+        ],
+        [
+          "Gerekçe (koşul değil)",
+          "in case + cümle · in case of + isim"
+        ],
+        [
+          "Zero conditional",
+          "when (her zaman doğru: Water boils when you heat it.)"
+        ],
+        [
+          "DİKKAT",
+          "if only = keşke (wish) — koşul bağlacı değildir"
+        ]
+      ],
+      "ex": [
+        [
+          "Even if we leave right now, we won't catch the train.",
+          "Şimdi çıksak bile treni yakalayamayacağız."
+        ],
+        [
+          "You can borrow my laptop as long as you return it on Sunday.",
+          "Pazar günü geri getirdiğin sürece laptopumu ödünç alabilirsin."
+        ],
+        [
+          "Don't call me unless it is a real emergency.",
+          "Gerçek bir acil durum olmadıkça beni arama."
+        ],
+        [
+          "Take an umbrella in case it rains.",
+          "Yağmur yağar diye şemsiye al."
+        ],
+        [
+          "In case of fire, leave via the stairs.",
+          "Yangın durumunda merdivenleri kullanarak çıkın."
+        ]
+      ],
+      "tip": "unless + olumsuz fiil YANLIŞ: My grandma can't stand up unless someone doesn't help her ✗ → unless someone helps her ✓"
+    },
+    {
+      "k": "COLL",
+      "title": "Collocations: make / do / get / take",
+      "sub": "kelimelerin doğal ortaklıkları",
+      "def": "Collocation, iki kelimenin İngilizcede doğal olarak birlikte kullanılmasıdır. Türkçeden kelime kelime çevirince yanlış fiil seçilir; kalıbı bütün olarak öğren.",
+      "forms": [
+        [
+          "MAKE (üretmek, ortaya koymak)",
+          "make money · make a fortune · make a suggestion · make an appointment · make friends · make a donation"
+        ],
+        [
+          "DO (iş, görev)",
+          "do the dishes · do your homework · do someone a favour · do harm"
+        ],
+        [
+          "GET (bir duruma geçmek)",
+          "get lost · get started · get ready · get divorced · get a job · get a promotion"
+        ],
+        [
+          "TAKE (almak, kullanmak)",
+          "take a shower · take a break · take your time · take a picture of someone · take advantage of somebody"
+        ],
+        [
+          "4C kalıpları",
+          "without a doubt · under stress · free of charge · severe damage · set a goal · eager to do · consider factors · for the time being · mental illness"
+        ]
+      ],
+      "ex": [
+        [
+          "They agreed to make a donation to support farming.",
+          "Tarımı desteklemek için bağış yapmayı kabul ettiler."
+        ],
+        [
+          "Could you do me a favour and check this report?",
+          "Bana bir iyilik yapıp bu raporu kontrol eder misin?"
+        ],
+        [
+          "We got lost on the way to the new site.",
+          "Yeni şantiyeye giderken kaybolduk."
+        ],
+        [
+          "Take your time; there is no rush.",
+          "Acele etme, zaman var."
+        ],
+        [
+          "The storm caused severe damage in coastal areas.",
+          "Fırtına kıyı bölgelerinde ciddi hasara yol açtı."
+        ]
+      ],
+      "tip": "do harm (make harm değil) · make a mistake (do a mistake değil) · take a decision (BrE) = make a decision."
+    },
+    {
+      "k": "RELWW",
+      "title": "Relative clauses: when / where",
+      "sub": "defining · non-defining · who / which / that / where / when / whose",
+      "def": "İlgi cümlesi (adjective clause) ismi tıpkı sıfat gibi niteler, ama ismin önüne değil ARKASINA gelir. Yer ve zaman bildiren isimlerden sonra where ve when kullanılır.",
+      "forms": [
+        [
+          "İnsan",
+          "who / that"
+        ],
+        [
+          "Şey / hayvan",
+          "which / that"
+        ],
+        [
+          "Yer",
+          "where (= in/at which) + özne + fiil"
+        ],
+        [
+          "Zaman",
+          "when (= on/in which)"
+        ],
+        [
+          "Aitlik",
+          "whose + isim"
+        ],
+        [
+          "Non-defining (ek bilgi)",
+          "Bali, which is in Indonesia, … (virgüllü, that YOK)"
+        ]
+      ],
+      "ex": [
+        [
+          "Ubud is a town where many artists and writers live.",
+          "Ubud birçok sanatçı ve yazarın yaşadığı bir kasabadır."
+        ],
+        [
+          "I remember the times when there wasn't internet.",
+          "İnternetin olmadığı zamanları hatırlıyorum."
+        ],
+        [
+          "Bali, which is located in Indonesia, attracts millions of visitors.",
+          "Endonezya'da bulunan Bali milyonlarca ziyaretçi çekiyor."
+        ],
+        [
+          "A shoplifter is a person who steals from shops.",
+          "Mağaza hırsızı dükkânlardan çalan kişidir."
+        ],
+        [
+          "I need a place which is suitable to set up a tent.",
+          "Çadır kurmaya uygun bir yere ihtiyacım var."
+        ]
+      ],
+      "tip": "I need a place where I can relax (özne+fiil var → where) · I need a place which is suitable (özne yok → which)."
+    },
+    {
+      "k": "SIL",
+      "title": "Silent letters",
+      "sub": "yazılır ama okunmaz",
+      "def": "İngilizcede bazı harfler yazılır ama telaffuz edilmez. Yaygın harf grupları ezberi kolaylaştırır.",
+      "forms": [
+        [
+          "k",
+          "knee, knight, know (kn- başında)"
+        ],
+        [
+          "w",
+          "write, wrap, answer (wr-)"
+        ],
+        [
+          "l",
+          "walk, half, chalk, could"
+        ],
+        [
+          "b",
+          "thumb, plumber, climb (-mb)"
+        ],
+        [
+          "h",
+          "hour, honest"
+        ],
+        [
+          "t",
+          "listen, castle"
+        ],
+        [
+          "g",
+          "sign, gnat"
+        ],
+        [
+          "p",
+          "receipt, cupboard, psychology"
+        ],
+        [
+          "n",
+          "column, autumn (-mn)"
+        ],
+        [
+          "d / ch / s",
+          "Wednesday · yacht · island"
+        ]
+      ],
+      "ex": [
+        [
+          "I'll be there in an hour.",
+          "Bir saat içinde orada olacağım. (hour: h okunmaz)"
+        ],
+        [
+          "Please keep the receipt.",
+          "Lütfen fişi sakla. (receipt: p okunmaz)"
+        ],
+        [
+          "Listen to the plumber.",
+          "Tesisatçıyı dinle. (listen: t, plumber: b okunmaz)"
+        ],
+        [
+          "The knight hurt his knee.",
+          "Şövalye dizini incitti. (k okunmaz)"
+        ],
+        [
+          "Write your name on the sign.",
+          "Adını tabelaya yaz. (w ve g okunmaz)"
+        ]
+      ],
+      "tip": "honest ve hour h ile başlasa da sesli harfle başlar: an hour, an honest man."
+    },
+    {
+      "k": "PASS",
+      "title": "Passive voice",
+      "sub": "be + V3 (+ by agent)",
+      "def": "Eylemin kendisi yapandan daha önemliyse ya da yapan bilinmiyorsa edilgen yapı kullanılır. Zaman 'be' ile gösterilir, ana fiil her zaman V3'tür.",
+      "forms": [
+        [
+          "Present simple",
+          "is / are + V3 — Millions of chips are produced every year."
+        ],
+        [
+          "Past simple",
+          "was / were + V3 — The bridge was built in 1990."
+        ],
+        [
+          "Present perfect",
+          "has / have been + V3 — Statements have been taken so far."
+        ],
+        [
+          "Past perfect",
+          "had been + V3 — A new manager had been hired."
+        ],
+        [
+          "Future / modal",
+          "will be / must be / can be + V3"
+        ],
+        [
+          "Continuous",
+          "is being / was being + V3 — The goods are being shipped."
+        ],
+        [
+          "İki nesneli",
+          "I was given the file. / The file was given to me."
+        ]
+      ],
+      "ex": [
+        [
+          "Interest rates were raised by 0.30%.",
+          "Faiz oranları %0,30 artırıldı."
+        ],
+        [
+          "The contract will be signed tomorrow.",
+          "Sözleşme yarın imzalanacak."
+        ],
+        [
+          "All criminals must be treated equally.",
+          "Tüm suçlulara eşit davranılmalıdır."
+        ],
+        [
+          "The Mona Lisa was painted by Leonardo da Vinci.",
+          "Mona Lisa, Leonardo da Vinci tarafından yapıldı."
+        ],
+        [
+          "I have not been sent the file.",
+          "Dosya bana gönderilmedi."
+        ]
+      ],
+      "tip": "Intransitive (nesnesiz) fiiller edilgen olmaz: happen, arrive, die → It was happened ✗."
+    },
+    {
+      "k": "GERINF",
+      "title": "Gerund vs infinitive",
+      "sub": "V-ing · to V1 · V1",
+      "def": "Bazı fiillerden sonra V-ing, bazılarından sonra to V1, bazılarından sonra yalın V1 gelir. Bazı fiiller iki yapıyı da alır ama anlam değişir.",
+      "forms": [
+        [
+          "+ V-ing",
+          "enjoy · avoid · mind · finish · consider · can't stand · miss · practise · recall · suggest · go (go dancing)"
+        ],
+        [
+          "+ to V1",
+          "want · need · plan · hope · promise · refuse · afford · manage · pretend · decide · would prefer"
+        ],
+        [
+          "+ V1 (to yok)",
+          "let · make · had better · would rather · can/must"
+        ],
+        [
+          "remember / forget",
+          "+ to V1 = yapılacak iş; + V-ing = geçmişteki anı"
+        ],
+        [
+          "stop",
+          "+ V-ing = bırakmak; + to V1 = bir şey yapmak için durmak"
+        ],
+        [
+          "try",
+          "+ to V1 = çabalamak (zor); + V-ing = deneme amaçlı"
+        ],
+        [
+          "regret",
+          "+ V-ing = pişmanlık; + to V1 = üzülerek bildirmek"
+        ]
+      ],
+      "ex": [
+        [
+          "I often go dancing on a Saturday night.",
+          "Cumartesi geceleri sık sık dansa giderim."
+        ],
+        [
+          "I'm planning to buy a new laptop soon.",
+          "Yakında yeni bir laptop almayı planlıyorum."
+        ],
+        [
+          "I remember switching off the lights.",
+          "Işıkları kapattığımı hatırlıyorum."
+        ],
+        [
+          "Please remember to switch off the lights.",
+          "Lütfen ışıkları kapatmayı unutma."
+        ],
+        [
+          "The roof needs fixing.",
+          "Çatının tamir edilmesi gerekiyor."
+        ]
+      ],
+      "tip": "Edattan sonra her zaman V-ing: We talked about travelling together. · She is good at drawing."
+    },
+    {
+      "k": "INTENS",
+      "title": "Intensifiers",
+      "sub": "very · really · quite · pretty · too · by far",
+      "def": "Pekiştireç, hemen sağındaki sıfat ya da zarfın gücünü artırır veya azaltır. Kendi başına anlamı yoktur; cümleden çıkarılınca cümle yine anlamlıdır.",
+      "forms": [
+        [
+          "Güçlendiren",
+          "very · really · so · extremely · incredibly · highly"
+        ],
+        [
+          "Zayıflatan",
+          "quite · pretty (gayriresmî) · rather · fairly · a bit · slightly"
+        ],
+        [
+          "Uç sıfatla",
+          "absolutely / totally + freezing, starving, amazing"
+        ],
+        [
+          "Karşılaştırmada",
+          "much / far / a lot / slightly + comparative · by far + superlative"
+        ],
+        [
+          "Fazlalık",
+          "too + adj · too many + sayılabilen · too much + sayılamayan"
+        ]
+      ],
+      "ex": [
+        [
+          "The café was too busy, so we went to another one.",
+          "Kafe çok kalabalıktı, bu yüzden başka birine gittik."
+        ],
+        [
+          "I think the interview went pretty well.",
+          "Bence görüşme oldukça iyi geçti."
+        ],
+        [
+          "You are by far the best friend a person could have.",
+          "Sen bir insanın sahip olabileceği açık ara en iyi arkadaşsın."
+        ],
+        [
+          "You are only slightly faster than me.",
+          "Benden sadece biraz daha hızlısın."
+        ],
+        [
+          "There are too many applicants for this job.",
+          "Bu iş için çok fazla başvuru var."
+        ]
+      ],
+      "tip": "too = gereğinden fazla (olumsuz). The soup was too hot to eat · very hot (sorun değil)."
+    },
+    {
+      "k": "AFFIX",
+      "title": "Prefixes & suffixes",
+      "sub": "ön ek · son ek · kelime türetme",
+      "def": "Ön ek kelimenin başına gelip anlamını değiştirir; son ek sona gelip çoğu zaman kelimenin türünü (isim, sıfat, fiil) değiştirir.",
+      "forms": [
+        [
+          "anti- / counter-",
+          "antivirus, antisocial · counterattack, counterpart"
+        ],
+        [
+          "multi- / micro- / hyper-",
+          "multinational · microchip · hyperactive"
+        ],
+        [
+          "dis- / im- / un- / non-",
+          "dissatisfied · impossible · unknown · nondairy"
+        ],
+        [
+          "pre- / post- / sub-",
+          "preview · postgraduate · subway"
+        ],
+        [
+          "Sıfat ekleri",
+          "-ful (helpful), -ive (attractive), -able (understandable), -less (countless), -ous (adventurous)"
+        ],
+        [
+          "İsim ekleri",
+          "-ment (management), -ity (security), -ure (failure), -ism (tourism), -ance (attraction→-ion), -ant (assistant)"
+        ]
+      ],
+      "ex": [
+        [
+          "Traveling is one of the most adventurous ways to learn.",
+          "Seyahat öğrenmenin en maceralı yollarından biridir."
+        ],
+        [
+          "Learning a few local words can be extremely helpful.",
+          "Birkaç yerel kelime öğrenmek son derece faydalı olabilir."
+        ],
+        [
+          "Travelling can also increase your confidence.",
+          "Seyahat özgüvenini de artırabilir."
+        ],
+        [
+          "Being respectful and polite helps you connect with people.",
+          "Saygılı ve kibar olmak insanlarla bağ kurmana yardım eder."
+        ],
+        [
+          "A gap year allows for personal and educational growth.",
+          "Bir boşluk yılı kişisel ve eğitimsel gelişime olanak tanır."
+        ]
+      ],
+      "tip": "polite → politeness (isim) · confident → confidence (isim) · grow → growth (isim) · crowd → crowded (sıfat)."
     }
   ],
   "work": [

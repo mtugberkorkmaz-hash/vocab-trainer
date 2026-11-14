@@ -5163,7 +5163,7 @@
   {
     "id": "L4A",
     "code": "4A",
-    "title": "Honeymoon from Hell (ön çalışma)",
+    "title": "Honeymoon from Hell",
     "date": "",
     "pages": "SB 54-57 · WB 20",
     "grammar": {
@@ -5354,6 +5354,2417 @@
           "Uçak sonunda inince rahatlayarak iç çekti."
         ],
         "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "L4B",
+    "code": "4B",
+    "title": "Identity Theft · The Future of Driving",
+    "date": "",
+    "pages": "SB 58–61",
+    "grammar": {
+      "title": "Conditional conjunctions (koşul bağlaçları)",
+      "formula": "even if · only if · provided (that) · supposing (that) · on condition that · as long as · unless (= if … not) · in case / in case of",
+      "note": "Hepsi if yerine kullanılabilir ama anlamı değiştirir. provided / supposing / on condition that / as long as ≈ if. even if = …se bile (koşul sonucu değiştirmez). only if = yalnızca …se. unless = if … not (olumsuz anlam zaten içinde: unless + olumlu fiil). in case = …ihtimaline karşı (koşul değil, gerekçe), in case of + İSİM. when sadece zero conditional'da if yerine geçer. if only = keşke (wish), koşul DEĞİLDİR.",
+      "examples": [
+        "Even if you are careful online, your data may still be stolen.",
+        "You can stay here as long as you keep quiet.",
+        "New credit files cannot be opened unless you unfreeze your account.",
+        "Take an umbrella in case it rains.",
+        "In case of fire, use the stairs."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l4b01",
+        "term": "victim",
+        "pronunciation": "",
+        "translation": "kurban, mağdur",
+        "sentences": [
+          "Anyone can become a victim of identity theft.",
+          "The victim reported the fraud to the bank.",
+          "The company helped the victims of the data breach."
+        ],
+        "translations": [
+          "Herkes kimlik hırsızlığının kurbanı olabilir.",
+          "Mağdur, dolandırıcılığı bankaya bildirdi.",
+          "Şirket, veri ihlalinin mağdurlarına yardım etti."
+        ],
+        "explanation": "Bir suçtan zarar gören kişi. become a victim of = …in kurbanı olmak."
+      },
+      {
+        "id": "b2l4b02",
+        "term": "susceptible",
+        "pronunciation": "",
+        "translation": "(bir şeye) açık, savunmasız",
+        "sentences": [
+          "Old routers are susceptible to attacks.",
+          "Your data may still be susceptible to breaches.",
+          "Children are more susceptible to online scams."
+        ],
+        "translations": [
+          "Eski modemler saldırılara açıktır.",
+          "Verileriniz hâlâ ihlallere açık olabilir.",
+          "Çocuklar çevrimiçi dolandırıcılıklara daha açıktır."
+        ],
+        "explanation": "susceptible to + isim: bir şeyden kolay etkilenen."
+      },
+      {
+        "id": "b2l4b03",
+        "term": "breach",
+        "pronunciation": "",
+        "translation": "ihlal; (güvenlik) açığı",
+        "sentences": [
+          "The data breach exposed thousands of passwords.",
+          "Sharing the drawings was a breach of the contract.",
+          "The bank discovered the breach two days later."
+        ],
+        "translations": [
+          "Veri ihlali binlerce şifreyi açığa çıkardı.",
+          "Çizimleri paylaşmak sözleşmenin ihlaliydi.",
+          "Banka ihlali iki gün sonra fark etti."
+        ],
+        "explanation": "data breach = veri ihlali; breach of contract = sözleşme ihlali."
+      },
+      {
+        "id": "b2l4b04",
+        "term": "trustworthy",
+        "pronunciation": "",
+        "translation": "güvenilir",
+        "sentences": [
+          "Check that the website is trustworthy before you pay.",
+          "She is a trustworthy colleague.",
+          "We only order from trustworthy suppliers."
+        ],
+        "translations": [
+          "Ödeme yapmadan önce sitenin güvenilir olduğunu kontrol et.",
+          "O güvenilir bir iş arkadaşıdır.",
+          "Yalnızca güvenilir tedarikçilerden sipariş veririz."
+        ],
+        "explanation": "trust + worthy: güvene layık."
+      },
+      {
+        "id": "b2l4b05",
+        "term": "eavesdrop",
+        "pronunciation": "",
+        "translation": "gizlice dinlemek",
+        "sentences": [
+          "Hackers can eavesdrop on public Wi-Fi.",
+          "He was caught eavesdropping on the meeting.",
+          "Use a VPN so that nobody can eavesdrop on you."
+        ],
+        "translations": [
+          "Bilgisayar korsanları halka açık Wi-Fi'da gizlice dinleyebilir.",
+          "Toplantıyı gizlice dinlerken yakalandı.",
+          "Kimse seni dinleyemesin diye VPN kullan."
+        ],
+        "explanation": "eavesdrop on + kişi/konuşma."
+      },
+      {
+        "id": "b2l4b06",
+        "term": "shred",
+        "pronunciation": "",
+        "translation": "(kâğıdı) kıyıcıdan geçirmek, parçalamak",
+        "sentences": [
+          "Shred old bank statements before you throw them away.",
+          "The office shreds all confidential documents.",
+          "I shredded the letters with my name on them."
+        ],
+        "translations": [
+          "Eski banka ekstrelerini atmadan önce kıyıcıdan geçir.",
+          "Ofis tüm gizli belgeleri imha eder.",
+          "Üzerinde adım olan mektupları parçaladım."
+        ],
+        "explanation": "shred - shredded - shredded; shredder = evrak imha makinesi."
+      },
+      {
+        "id": "b2l4b07",
+        "term": "dumpster-diver",
+        "pronunciation": "",
+        "translation": "çöp karıştırıcı",
+        "sentences": [
+          "A dumpster-diver found the documents in the bin.",
+          "Shredding protects you from a dumpster-diver.",
+          "The police caught a dumpster-diver behind the bank."
+        ],
+        "translations": [
+          "Bir çöp karıştırıcı belgeleri çöp kutusunda buldu.",
+          "Kâğıtları imha etmek seni çöp karıştırıcılara karşı korur.",
+          "Polis bankanın arkasında bir çöp karıştırıcıyı yakaladı."
+        ],
+        "explanation": "Çöpte değerli bilgi/eşya arayan kişi."
+      },
+      {
+        "id": "b2l4b08",
+        "term": "at intervals",
+        "pronunciation": "",
+        "translation": "aralıklarla",
+        "sentences": [
+          "Check your accounts at intervals of four months.",
+          "The pump is inspected at intervals of six months.",
+          "The buses come at intervals of ten minutes."
+        ],
+        "translations": [
+          "Hesaplarını dört aylık aralıklarla kontrol et.",
+          "Pompa altı aylık aralıklarla muayene edilir.",
+          "Otobüsler on dakika arayla gelir."
+        ],
+        "explanation": "at regular intervals = düzenli aralıklarla."
+      },
+      {
+        "id": "b2l4b09",
+        "term": "lender",
+        "pronunciation": "",
+        "translation": "borç veren (kurum)",
+        "sentences": [
+          "Even a lender cannot see your report after a credit freeze.",
+          "The lender asked for proof of income.",
+          "Compare several lenders before you take a loan."
+        ],
+        "translations": [
+          "Kredi dondurulduktan sonra borç veren kurum bile raporunu göremez.",
+          "Kredi veren kurum gelir belgesi istedi.",
+          "Kredi almadan önce birkaç kurumu karşılaştır."
+        ],
+        "explanation": "lend (ödünç vermek) + -er."
+      },
+      {
+        "id": "b2l4b10",
+        "term": "verify",
+        "pronunciation": "",
+        "translation": "doğrulamak",
+        "sentences": [
+          "You must verify your identity with a code.",
+          "Please verify the dimensions on site.",
+          "The bank will verify the payment before sending it."
+        ],
+        "translations": [
+          "Kimliğini bir kodla doğrulaman gerekir.",
+          "Lütfen ölçüleri sahada doğrulayın.",
+          "Banka ödemeyi göndermeden önce doğrulayacak."
+        ],
+        "explanation": "verify your identity = kimliğini doğrulamak."
+      },
+      {
+        "id": "b2l4b11",
+        "term": "deceive",
+        "pronunciation": "",
+        "translation": "kandırmak, aldatmak",
+        "sentences": [
+          "Have you ever been deceived online?",
+          "The email tried to deceive customers with a fake link.",
+          "Don't let fake offers deceive you."
+        ],
+        "translations": [
+          "Hiç internette kandırıldın mı?",
+          "E-posta, sahte bir bağlantıyla müşterileri kandırmaya çalıştı.",
+          "Sahte tekliflerin seni kandırmasına izin verme."
+        ],
+        "explanation": "be deceived = kandırılmak."
+      },
+      {
+        "id": "b2l4b12",
+        "term": "precaution",
+        "pronunciation": "",
+        "translation": "önlem, tedbir",
+        "sentences": [
+          "What precautions do you take against online criminals?",
+          "As a precaution, we closed the valve.",
+          "Take precautions before you use public Wi-Fi."
+        ],
+        "translations": [
+          "Çevrimiçi suçlulara karşı ne önlemler alıyorsun?",
+          "Önlem olarak vanayı kapattık.",
+          "Halka açık Wi-Fi kullanmadan önce önlem al."
+        ],
+        "explanation": "take precautions = önlem almak."
+      },
+      {
+        "id": "b2l4b13",
+        "term": "identity theft",
+        "pronunciation": "",
+        "translation": "kimlik hırsızlığı",
+        "sentences": [
+          "There is no surefire way to avoid identity theft.",
+          "Identity theft can damage your credit for years.",
+          "Strong passwords reduce the risk of identity theft."
+        ],
+        "translations": [
+          "Kimlik hırsızlığından kaçınmanın garantili bir yolu yoktur.",
+          "Kimlik hırsızlığı kredi notuna yıllarca zarar verebilir.",
+          "Güçlü şifreler kimlik hırsızlığı riskini azaltır."
+        ],
+        "explanation": "Başkasının kişisel bilgilerini çalıp onun adına işlem yapma."
+      },
+      {
+        "id": "b2l4b14",
+        "term": "forgery",
+        "pronunciation": "",
+        "translation": "sahtecilik; sahte belge",
+        "sentences": [
+          "The signature on the contract was a forgery.",
+          "He was arrested for forgery.",
+          "A fake online identity is a kind of forgery."
+        ],
+        "translations": [
+          "Sözleşmedeki imza sahteydi.",
+          "Sahtecilikten tutuklandı.",
+          "Sahte çevrimiçi kimlik bir tür sahteciliktir."
+        ],
+        "explanation": "forge = sahtesini yapmak. fake online identity = sahte çevrimiçi kimlik."
+      },
+      {
+        "id": "b2l4b15",
+        "term": "two-factor authentication",
+        "pronunciation": "",
+        "translation": "iki adımlı doğrulama",
+        "sentences": [
+          "Set up two-factor authentication on every account.",
+          "Two-factor authentication takes a little more time.",
+          "The company made two-factor authentication mandatory."
+        ],
+        "translations": [
+          "Her hesapta iki adımlı doğrulamayı aç.",
+          "İki adımlı doğrulama biraz daha zaman alır.",
+          "Şirket iki adımlı doğrulamayı zorunlu yaptı."
+        ],
+        "explanation": "Şifreye ek olarak kod/uygulama ile ikinci doğrulama."
+      },
+      {
+        "id": "b2l4b16",
+        "term": "freeze",
+        "pronunciation": "",
+        "translation": "dondurmak",
+        "sentences": [
+          "You can freeze your credit if your card is stolen.",
+          "When you freeze your credit, nobody can view your reports.",
+          "The bank can freeze the account immediately."
+        ],
+        "translations": [
+          "Kartın çalınırsa kredini dondurabilirsin.",
+          "Kredini dondurduğunda kimse raporlarını göremez.",
+          "Banka hesabı hemen dondurabilir."
+        ],
+        "explanation": "freeze your credit = kredini dondurmak; unfreeze = dondurmayı kaldırmak."
+      },
+      {
+        "id": "b2l4b17",
+        "term": "surefire",
+        "pronunciation": "",
+        "translation": "kesin, garantili",
+        "sentences": [
+          "There is no surefire way to avoid hackers.",
+          "Hard work is a surefire way to improve.",
+          "This is not a surefire solution, but it helps."
+        ],
+        "translations": [
+          "Bilgisayar korsanlarından kaçmanın garantili bir yolu yok.",
+          "Çok çalışmak gelişmenin kesin yoludur.",
+          "Bu kesin bir çözüm değil ama işe yarar."
+        ],
+        "explanation": "no surefire way = garantili bir yolu yok."
+      },
+      {
+        "id": "b2l4b18",
+        "term": "cautious",
+        "pronunciation": "",
+        "translation": "dikkatli, temkinli",
+        "sentences": [
+          "Be cautious with emails that ask you to click a link.",
+          "Engineers are cautious about new materials.",
+          "She is cautious when she shares personal data."
+        ],
+        "translations": [
+          "Bağlantıya tıklamanı isteyen e-postalara karşı dikkatli ol.",
+          "Mühendisler yeni malzemeler konusunda temkinlidir.",
+          "Kişisel verilerini paylaşırken temkinlidir."
+        ],
+        "explanation": "be cautious = dikkatli ol (Be cautious → Dikkatli olun)."
+      },
+      {
+        "id": "b2l4b19",
+        "term": "gear shifting",
+        "pronunciation": "",
+        "translation": "vites değiştirme",
+        "sentences": [
+          "Electric cars do not need gear shifting.",
+          "Some drivers enjoy gear shifting on mountain roads.",
+          "Automatic gear shifting makes driving easier."
+        ],
+        "translations": [
+          "Elektrikli araçlar vites değiştirmeye ihtiyaç duymaz.",
+          "Bazı sürücüler dağ yollarında vites değiştirmekten keyif alır.",
+          "Otomatik vites değiştirme sürüşü kolaylaştırır."
+        ],
+        "explanation": "shift gears = vites değiştirmek."
+      },
+      {
+        "id": "b2l4b20",
+        "term": "trendy",
+        "pronunciation": "",
+        "translation": "moda, popüler",
+        "sentences": [
+          "I'll keep my old car even if it's not trendy anymore.",
+          "They opened a trendy café near the office.",
+          "Electric scooters are very trendy in big cities."
+        ],
+        "translations": [
+          "Artık moda olmasa bile eski arabamı tutacağım.",
+          "Ofisin yakınında popüler bir kafe açtılar.",
+          "Elektrikli scooterlar büyük şehirlerde çok moda."
+        ],
+        "explanation": "fashionable or popular at the moment."
+      },
+      {
+        "id": "b2l4b21",
+        "term": "self-driving car",
+        "pronunciation": "",
+        "translation": "sürücüsüz araç",
+        "sentences": [
+          "I'd learn to drive just in case the self-driving car stops working.",
+          "A self-driving car uses cameras and sensors.",
+          "Would you give up driving for a self-driving car?"
+        ],
+        "translations": [
+          "Sürücüsüz araç bozulursa diye sürmeyi öğrenirdim.",
+          "Sürücüsüz araç kameralar ve sensörler kullanır.",
+          "Sürücüsüz bir araç için sürmeyi bırakır mıydın?"
+        ],
+        "explanation": "Kendi kendine giden otomobil."
+      },
+      {
+        "id": "b2l4b22",
+        "term": "scrape",
+        "pronunciation": "",
+        "translation": "(veri) toplamak, kazımak",
+        "sentences": [
+          "Hackers can set up fake Wi-Fi to scrape your data.",
+          "The program scrapes prices from online shops.",
+          "Some apps scrape personal information without permission."
+        ],
+        "translations": [
+          "Korsanlar verilerini toplamak için sahte Wi-Fi kurabilir.",
+          "Program çevrimiçi mağazalardan fiyatları toplar.",
+          "Bazı uygulamalar izinsiz kişisel bilgi toplar."
+        ],
+        "explanation": "scrape data = verileri izinsiz toplamak."
+      }
+    ]
+  },
+  {
+    "id": "L4C",
+    "code": "4C",
+    "title": "Good Health · Future Food",
+    "date": "",
+    "pages": "SB 62–65",
+    "grammar": {
+      "title": "Collocations: make / do / get / take",
+      "formula": "make money / a fortune / a suggestion / an appointment / friends / a donation · do the dishes / your homework / someone a favour / harm · get lost / started / ready / divorced / a job / a promotion · take a shower / a break / your time / a picture / advantage of",
+      "note": "Collocation = birlikte kullanılan kalıp kelimeler. Türkçeden çevirince hata yapılır: 'bağış yapmak' = make a donation (do değil), 'ödev yapmak' = do homework (make değil). make → bir şey ortaya çıkarmak; do → iş/görev; get → duruma geçmek; take → almak/kullanmak.",
+      "examples": [
+        "They agreed to make a donation to support sustainable farming.",
+        "Could you do me a favour and check this drawing?",
+        "We got lost on the way to the site.",
+        "Take a break; you look tired.",
+        "Many people in big cities are under stress."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l4c01",
+        "term": "entire",
+        "pronunciation": "",
+        "translation": "tüm, bütün",
+        "sentences": [
+          "Do you wish you could stay healthy during your entire life?",
+          "The entire team worked on the weekend.",
+          "We checked the entire line for leaks."
+        ],
+        "translations": [
+          "Tüm hayatın boyunca sağlıklı kalabilmeyi ister miydin?",
+          "Tüm ekip hafta sonu çalıştı.",
+          "Bütün hattı sızıntıya karşı kontrol ettik."
+        ],
+        "explanation": "with no part left out; whole."
+      },
+      {
+        "id": "b2l4c02",
+        "term": "poultry",
+        "pronunciation": "",
+        "translation": "kümes hayvanları (eti)",
+        "sentences": [
+          "If you cannot live without meat, choose poultry or fish.",
+          "The farm produces poultry and eggs.",
+          "Poultry is lower in fat than red meat."
+        ],
+        "translations": [
+          "Etsiz yaşayamıyorsan kümes hayvanı eti ya da balık seç.",
+          "Çiftlik tavuk eti ve yumurta üretiyor.",
+          "Kümes hayvanı eti kırmızı etten daha az yağlıdır."
+        ],
+        "explanation": "Tavuk, hindi, ördek gibi evcil kuşlar ve etleri (meat, 'meet' değil)."
+      },
+      {
+        "id": "b2l4c03",
+        "term": "downsize",
+        "pronunciation": "",
+        "translation": "küçültmek, azaltmak",
+        "sentences": [
+          "Smaller plates help you downsize your meals.",
+          "The company decided to downsize its office.",
+          "We downsized the pump after the new calculation."
+        ],
+        "translations": [
+          "Küçük tabaklar porsiyonlarını küçültmene yardım eder.",
+          "Şirket ofisini küçültmeye karar verdi.",
+          "Yeni hesaptan sonra pompayı küçülttük."
+        ],
+        "explanation": "downsize your meals = porsiyonları küçültmek; şirketler için: küçülmek."
+      },
+      {
+        "id": "b2l4c04",
+        "term": "greed",
+        "pronunciation": "",
+        "translation": "açgözlülük",
+        "sentences": [
+          "Small plates can satisfy your visual greed.",
+          "Greed destroyed the friendship.",
+          "The film is about money and greed."
+        ],
+        "translations": [
+          "Küçük tabaklar gözünün açlığını giderebilir.",
+          "Açgözlülük arkadaşlığı mahvetti.",
+          "Film para ve açgözlülük hakkında."
+        ],
+        "explanation": "selfish desire for wealth, power or food. greedy (sıfat)."
+      },
+      {
+        "id": "b2l4c05",
+        "term": "work out",
+        "pronunciation": "",
+        "translation": "spor yapmak, antrenman yapmak",
+        "sentences": [
+          "See a doctor if you haven't worked out for a long time.",
+          "I work out three days a week.",
+          "She works out before going to the office."
+        ],
+        "translations": [
+          "Uzun zamandır spor yapmadıysan bir doktora görün.",
+          "Haftada üç gün spor yapıyorum.",
+          "Ofise gitmeden önce antrenman yapıyor."
+        ],
+        "explanation": "phrasal verb; workout (isim) = antrenman."
+      },
+      {
+        "id": "b2l4c06",
+        "term": "volunteer",
+        "pronunciation": "",
+        "translation": "gönüllü olmak; gönüllü",
+        "sentences": [
+          "Find time to volunteer in charity organizations.",
+          "She volunteers at the animal shelter.",
+          "We need two volunteers for the fire drill."
+        ],
+        "translations": [
+          "Hayır kurumlarında gönüllü olmaya zaman ayır.",
+          "Hayvan barınağında gönüllü çalışıyor.",
+          "Yangın tatbikatı için iki gönüllüye ihtiyacımız var."
+        ],
+        "explanation": "volunteer for / to do something; offer to do something freely."
+      },
+      {
+        "id": "b2l4c07",
+        "term": "donation",
+        "pronunciation": "",
+        "translation": "bağış",
+        "sentences": [
+          "Small donations can help the homeless in your area.",
+          "The company made a donation to the hospital.",
+          "All donations will go to the earthquake victims."
+        ],
+        "translations": [
+          "Küçük bağışlar bölgendeki evsizlere yardım edebilir.",
+          "Şirket hastaneye bağış yaptı.",
+          "Tüm bağışlar deprem mağdurlarına gidecek."
+        ],
+        "explanation": "something given to a charity, especially money. make a donation = bağış yapmak."
+      },
+      {
+        "id": "b2l4c08",
+        "term": "deprivation",
+        "pronunciation": "",
+        "translation": "yoksunluk",
+        "sentences": [
+          "Sleep deprivation is as hazardous as junk food.",
+          "Long shifts cause sleep deprivation.",
+          "The report studies the effects of food deprivation."
+        ],
+        "translations": [
+          "Uykusuzluk abur cubur kadar zararlıdır.",
+          "Uzun vardiyalar uykusuzluğa neden olur.",
+          "Rapor gıdadan yoksun kalmanın etkilerini inceliyor."
+        ],
+        "explanation": "the lack of something necessary. sleep deprivation = uykusuzluk."
+      },
+      {
+        "id": "b2l4c09",
+        "term": "junk food",
+        "pronunciation": "",
+        "translation": "abur cubur, besin değeri düşük yiyecek",
+        "sentences": [
+          "Junk food is bad for your immune system.",
+          "We eat too much junk food at the site.",
+          "Try to replace junk food with fruit."
+        ],
+        "translations": [
+          "Abur cubur bağışıklık sistemin için kötüdür.",
+          "Şantiyede çok fazla abur cubur yiyoruz.",
+          "Abur cuburu meyveyle değiştirmeye çalış."
+        ],
+        "explanation": "meals having low or no nutritional value."
+      },
+      {
+        "id": "b2l4c10",
+        "term": "consecutive",
+        "pronunciation": "",
+        "translation": "art arda, ardışık",
+        "sentences": [
+          "Try to get eight consecutive hours of sleep.",
+          "It rained for five consecutive days.",
+          "The team won three consecutive projects."
+        ],
+        "translations": [
+          "Art arda sekiz saat uyumaya çalış.",
+          "Beş gün art arda yağmur yağdı.",
+          "Ekip art arda üç proje kazandı."
+        ],
+        "explanation": "following continuously."
+      },
+      {
+        "id": "b2l4c11",
+        "term": "metabolize",
+        "pronunciation": "",
+        "translation": "metabolize etmek, (besini) enerjiye çevirmek",
+        "sentences": [
+          "Water helps your body metabolize fat.",
+          "Some people metabolize sugar faster.",
+          "The liver metabolizes many medicines."
+        ],
+        "translations": [
+          "Su vücudunun yağı metabolize etmesine yardım eder.",
+          "Bazı insanlar şekeri daha hızlı metabolize eder.",
+          "Karaciğer birçok ilacı metabolize eder."
+        ],
+        "explanation": "to process food in the body to turn it into energy."
+      },
+      {
+        "id": "b2l4c12",
+        "term": "prolong",
+        "pronunciation": "",
+        "translation": "uzatmak",
+        "sentences": [
+          "Five simple behaviours can prolong your life.",
+          "Regular maintenance prolongs the life of the pump.",
+          "We don't want to prolong the meeting."
+        ],
+        "translations": [
+          "Beş basit davranış ömrünü uzatabilir.",
+          "Düzenli bakım pompanın ömrünü uzatır.",
+          "Toplantıyı uzatmak istemiyoruz."
+        ],
+        "explanation": "prolong your life = ömrünü uzatmak."
+      },
+      {
+        "id": "b2l4c13",
+        "term": "immune system",
+        "pronunciation": "",
+        "translation": "bağışıklık sistemi",
+        "sentences": [
+          "Sleep deprivation weakens your immune system.",
+          "Vitamins can support the immune system.",
+          "Stress has a bad effect on the immune system."
+        ],
+        "translations": [
+          "Uykusuzluk bağışıklık sistemini zayıflatır.",
+          "Vitaminler bağışıklık sistemini destekleyebilir.",
+          "Stresin bağışıklık sistemi üzerinde kötü bir etkisi var."
+        ],
+        "explanation": "Vücudun hastalıklara karşı savunma sistemi."
+      },
+      {
+        "id": "b2l4c14",
+        "term": "lab-grown meat",
+        "pronunciation": "",
+        "translation": "laboratuvarda üretilmiş et",
+        "sentences": [
+          "Would you try lab-grown meat?",
+          "Lab-grown meat needs less land and water.",
+          "Lab-grown meat is still very expensive."
+        ],
+        "translations": [
+          "Laboratuvarda üretilmiş eti dener miydin?",
+          "Laboratuvar eti daha az arazi ve su gerektirir.",
+          "Laboratuvar eti hâlâ çok pahalı."
+        ],
+        "explanation": "Hayvan hücrelerinden laboratuvarda üretilen et."
+      },
+      {
+        "id": "b2l4c15",
+        "term": "sustainable",
+        "pronunciation": "",
+        "translation": "sürdürülebilir",
+        "sentences": [
+          "We need a sustainable alternative to traditional farming.",
+          "The plant runs on sustainable energy.",
+          "Insect farming may be more sustainable than cattle farming."
+        ],
+        "translations": [
+          "Geleneksel tarıma sürdürülebilir bir alternatif gerekiyor.",
+          "Tesis sürdürülebilir enerjiyle çalışıyor.",
+          "Böcek yetiştiriciliği büyükbaş hayvancılıktan daha sürdürülebilir olabilir."
+        ],
+        "explanation": "Kaynakları tüketmeden uzun süre devam edebilen."
+      },
+      {
+        "id": "b2l4c16",
+        "term": "climate impact",
+        "pronunciation": "",
+        "translation": "iklim etkisi",
+        "sentences": [
+          "Meat production has a big climate impact.",
+          "The study measures the climate impact of food.",
+          "We should reduce the climate impact of the project."
+        ],
+        "translations": [
+          "Et üretiminin büyük bir iklim etkisi var.",
+          "Çalışma gıdanın iklim etkisini ölçüyor.",
+          "Projenin iklim etkisini azaltmalıyız."
+        ],
+        "explanation": "Bir faaliyetin iklim üzerindeki etkisi."
+      },
+      {
+        "id": "b2l4c17",
+        "term": "insect protein",
+        "pronunciation": "",
+        "translation": "böcek proteini",
+        "sentences": [
+          "Insect protein is easy to farm.",
+          "Some energy bars contain insect protein.",
+          "Many people hesitate to eat insect protein."
+        ],
+        "translations": [
+          "Böcek proteini kolay üretilir.",
+          "Bazı enerji barları böcek proteini içerir.",
+          "Birçok insan böcek proteini yemekte tereddüt eder."
+        ],
+        "explanation": "Böceklerden elde edilen protein."
+      },
+      {
+        "id": "b2l4c18",
+        "term": "food scarcity",
+        "pronunciation": "",
+        "translation": "gıda kıtlığı",
+        "sentences": [
+          "Some regions are facing food scarcity.",
+          "Climate change may increase food scarcity.",
+          "Scientists are looking for solutions to food scarcity."
+        ],
+        "translations": [
+          "Bazı bölgeler gıda kıtlığıyla karşı karşıya.",
+          "İklim değişikliği gıda kıtlığını artırabilir.",
+          "Bilim insanları gıda kıtlığına çözüm arıyor."
+        ],
+        "explanation": "Yeterli gıdanın olmaması."
+      },
+      {
+        "id": "b2l4c19",
+        "term": "without a doubt",
+        "pronunciation": "",
+        "translation": "şüphesiz",
+        "sentences": [
+          "Without a doubt, exercise is good for your health.",
+          "She is without a doubt the best engineer in the team.",
+          "Without a doubt, we will finish on time."
+        ],
+        "translations": [
+          "Şüphesiz egzersiz sağlığın için iyidir.",
+          "O şüphesiz ekibin en iyi mühendisi.",
+          "Şüphesiz zamanında bitireceğiz."
+        ],
+        "explanation": "Kesinlikle, hiç şüphe yok ki."
+      },
+      {
+        "id": "b2l4c20",
+        "term": "under stress",
+        "pronunciation": "",
+        "translation": "stres altında",
+        "sentences": [
+          "Many people in big cities are under stress.",
+          "He makes mistakes when he is under stress.",
+          "The team worked under stress before the deadline."
+        ],
+        "translations": [
+          "Büyük şehirlerdeki birçok insan stres altında.",
+          "Stres altındayken hata yapıyor.",
+          "Ekip teslim tarihinden önce stres altında çalıştı."
+        ],
+        "explanation": "under a great deal of stress = büyük stres altında."
+      },
+      {
+        "id": "b2l4c21",
+        "term": "free of charge",
+        "pronunciation": "",
+        "translation": "ücretsiz",
+        "sentences": [
+          "The food was provided free of charge after the earthquake.",
+          "Delivery is free of charge for large orders.",
+          "The training is free of charge for employees."
+        ],
+        "translations": [
+          "Depremden sonra yiyecek ücretsiz sağlandı.",
+          "Büyük siparişlerde teslimat ücretsiz.",
+          "Eğitim çalışanlar için ücretsiz."
+        ],
+        "explanation": "at no cost."
+      },
+      {
+        "id": "b2l4c22",
+        "term": "severe damage",
+        "pronunciation": "",
+        "translation": "ciddi hasar",
+        "sentences": [
+          "The storm caused severe damage in coastal areas.",
+          "The fire caused severe damage to the warehouse.",
+          "Corrosion can cause severe damage to the pipe."
+        ],
+        "translations": [
+          "Fırtına kıyı bölgelerinde ciddi hasara yol açtı.",
+          "Yangın depoda ciddi hasara neden oldu.",
+          "Korozyon boruda ciddi hasara yol açabilir."
+        ],
+        "explanation": "severe = ağır, şiddetli ('sever' ya da 'souvenir' değil)."
+      },
+      {
+        "id": "b2l4c23",
+        "term": "eager",
+        "pronunciation": "",
+        "translation": "hevesli, istekli",
+        "sentences": [
+          "She is eager to volunteer for the climate project.",
+          "The new engineers are eager to learn.",
+          "I'm eager to see the results."
+        ],
+        "translations": [
+          "İklim projesinde gönüllü olmaya çok hevesli.",
+          "Yeni mühendisler öğrenmeye hevesli.",
+          "Sonuçları görmek için sabırsızlanıyorum."
+        ],
+        "explanation": "eager to + V1 = …meye hevesli (eager to do volunteering değil, eager to volunteer)."
+      },
+      {
+        "id": "b2l4c24",
+        "term": "set a goal",
+        "pronunciation": "",
+        "translation": "hedef belirlemek",
+        "sentences": [
+          "It's important to set a goal before you start.",
+          "We set a goal of zero accidents this year.",
+          "Set a goal that you can measure."
+        ],
+        "translations": [
+          "Başlamadan önce bir hedef belirlemek önemlidir.",
+          "Bu yıl için sıfır kaza hedefi belirledik.",
+          "Ölçebileceğin bir hedef belirle."
+        ],
+        "explanation": "set a goal / set goals."
+      },
+      {
+        "id": "b2l4c25",
+        "term": "for the time being",
+        "pronunciation": "",
+        "translation": "şimdilik",
+        "sentences": [
+          "For the time being, we will use the old pump.",
+          "She is working from home for the time being.",
+          "Keep the valve closed for the time being."
+        ],
+        "translations": [
+          "Şimdilik eski pompayı kullanacağız.",
+          "Şimdilik evden çalışıyor.",
+          "Vanayı şimdilik kapalı tut."
+        ],
+        "explanation": "for now; temporarily."
+      },
+      {
+        "id": "b2l4c26",
+        "term": "consider factors",
+        "pronunciation": "",
+        "translation": "etkenleri göz önünde bulundurmak",
+        "sentences": [
+          "We must consider factors such as cost and safety.",
+          "You should consider factors such as price and quality.",
+          "The engineer will consider factors like weight and cost."
+        ],
+        "translations": [
+          "Maliyet ve güvenlik gibi etkenleri göz önünde bulundurmalıyız.",
+          "Fiyat ve kalite gibi etkenleri göz önünde bulundurmalısın.",
+          "Mühendis ağırlık ve maliyet gibi etkenleri dikkate alacak."
+        ],
+        "explanation": "many factors to consider = dikkate alınacak çok etken."
+      }
+    ]
+  },
+  {
+    "id": "L4D",
+    "code": "4D",
+    "title": "Tranquility",
+    "date": "",
+    "pages": "SB 66–69",
+    "grammar": {
+      "title": "Relative clauses: when / where · defining / non-defining",
+      "formula": "isim + who / that (insan) · which / that (şey) · where (yer) · when (zaman) · whose (aitlik); virgüllü (ek bilgi): , who / which … , (that YOK)",
+      "note": "İlgi cümlesi (adjective clause) ismi açıklar ve ismin hemen ARKASINA gelir. Yer bildiren isimden sonra where (= in/at which), zamandan sonra when. Defining (virgülsüz): bilgi gerekli, that kullanılabilir. Non-defining (virgüllü): ek bilgi, that kullanılmaz. where'den sonra tam cümle gelir (özne + fiil); which'ten sonra özne eksik olabilir: a place where people live / a place which is quiet.",
+      "examples": [
+        "Ubud is a town where many artists and writers live.",
+        "Do you know the exact date when the pandemic broke out?",
+        "Bali, which is located in Indonesia, is a popular destination.",
+        "Bali is a dream destination for anyone who wants adventure and relaxation.",
+        "There are eco-friendly restaurants which serve organic food."
+      ]
+    },
+    "grammar2": {
+      "title": "Pronunciation: silent letters (sessiz harfler)",
+      "formula": "k: knee, knight · w: write, wrap · l: walk, half, chalk · b: thumb, plumber · h: hour, honest · t: listen · g: sign, gnat · p: receipt, cupboard · n: column · d: Wednesday · ch: yacht · s: island",
+      "note": "Bazı harfler yazılır ama okunmaz. Yaygın kalıplar: kn- başında k okunmaz, wr- başında w okunmaz, -mb sonunda b okunmaz, -mn sonunda n okunmaz, -alk/-alf'ta l okunmaz.",
+      "examples": [
+        "hour /ˈaʊə/ — h okunmaz",
+        "knight /naɪt/ — k ve gh okunmaz",
+        "listen /ˈlɪsn/ — t okunmaz",
+        "receipt /rɪˈsiːt/ — p okunmaz",
+        "island /ˈaɪlənd/ — s okunmaz"
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l4d01",
+        "term": "tranquility",
+        "pronunciation": "",
+        "translation": "huzur, sükûnet",
+        "sentences": [
+          "Many people visit Bali for its tranquility.",
+          "I love the tranquility of the countryside.",
+          "The garden offers tranquility in the middle of the city."
+        ],
+        "translations": [
+          "Birçok insan Bali'yi huzuru için ziyaret eder.",
+          "Kırsal kesimin huzurunu seviyorum.",
+          "Bahçe şehrin ortasında huzur sunuyor."
+        ],
+        "explanation": "peace and calm."
+      },
+      {
+        "id": "b2l4d02",
+        "term": "destination",
+        "pronunciation": "",
+        "translation": "varış yeri, gezi yeri",
+        "sentences": [
+          "Bali is a popular destination for tourists.",
+          "Check the destination URL before you click.",
+          "Our final destination was the port."
+        ],
+        "translations": [
+          "Bali turistler için popüler bir gezi yeridir.",
+          "Tıklamadan önce hedef bağlantıyı kontrol et.",
+          "Son varış noktamız limandı."
+        ],
+        "explanation": "a place people travel to."
+      },
+      {
+        "id": "b2l4d03",
+        "term": "coastal",
+        "pronunciation": "",
+        "translation": "kıyı (sıfat)",
+        "sentences": [
+          "Bali has several coastal areas for surfing.",
+          "The storm hit the coastal towns.",
+          "Coastal plants need extra corrosion protection."
+        ],
+        "translations": [
+          "Bali'de sörf için birçok kıyı bölgesi var.",
+          "Fırtına kıyı kasabalarını vurdu.",
+          "Kıyıdaki tesisler ekstra korozyon koruması gerektirir."
+        ],
+        "explanation": "near the sea coast."
+      },
+      {
+        "id": "b2l4d04",
+        "term": "cliffside",
+        "pronunciation": "",
+        "translation": "uçurum kenarı",
+        "sentences": [
+          "Uluwatu is famous for a cliffside temple.",
+          "We had dinner at a cliffside restaurant.",
+          "The cliffside path is dangerous in winter."
+        ],
+        "translations": [
+          "Uluwatu uçurum kenarındaki tapınağıyla ünlüdür.",
+          "Uçurum kenarındaki bir restoranda akşam yemeği yedik.",
+          "Uçurum kenarındaki patika kışın tehlikelidir."
+        ],
+        "explanation": "on the side of a cliff."
+      },
+      {
+        "id": "b2l4d05",
+        "term": "offering",
+        "pronunciation": "",
+        "translation": "adak, sunu",
+        "sentences": [
+          "Balinese people place small offerings in front of their homes.",
+          "The offering was made of flowers and rice.",
+          "Visitors should not step on the offerings."
+        ],
+        "translations": [
+          "Bali halkı evlerinin önüne küçük adaklar koyar.",
+          "Sunu çiçek ve pirinçten yapılmıştı.",
+          "Ziyaretçiler adakların üzerine basmamalıdır."
+        ],
+        "explanation": "small religious items like flowers and incense."
+      },
+      {
+        "id": "b2l4d06",
+        "term": "retreat",
+        "pronunciation": "",
+        "translation": "inziva (kampı), dinlenme yeri",
+        "sentences": [
+          "Many people join yoga retreats to relax.",
+          "The company organized a weekend retreat for the managers.",
+          "The mountain retreat has no internet."
+        ],
+        "translations": [
+          "Birçok insan rahatlamak için yoga kamplarına katılır.",
+          "Şirket yöneticiler için hafta sonu kampı düzenledi.",
+          "Dağdaki dinlenme tesisinde internet yok."
+        ],
+        "explanation": "a quiet place or programme to rest and reflect. yoga retreat."
+      },
+      {
+        "id": "b2l4d07",
+        "term": "eco-friendly",
+        "pronunciation": "",
+        "translation": "çevre dostu",
+        "sentences": [
+          "There are now more eco-friendly hotels in Bali.",
+          "We chose an eco-friendly insulation material.",
+          "Eco-friendly products are often more expensive."
+        ],
+        "translations": [
+          "Bali'de artık daha fazla çevre dostu otel var.",
+          "Çevre dostu bir yalıtım malzemesi seçtik.",
+          "Çevre dostu ürünler çoğu zaman daha pahalıdır."
+        ],
+        "explanation": "good for the environment."
+      },
+      {
+        "id": "b2l4d08",
+        "term": "preserve",
+        "pronunciation": "",
+        "translation": "korumak, muhafaza etmek",
+        "sentences": [
+          "Locals work to preserve the traditions of the island.",
+          "Salt was used to preserve fish.",
+          "We must preserve the old building."
+        ],
+        "translations": [
+          "Yerliler adanın geleneklerini korumak için çalışıyor.",
+          "Balığı korumak için tuz kullanılırdı.",
+          "Eski binayı korumalıyız."
+        ],
+        "explanation": "keep something safe or unchanged."
+      },
+      {
+        "id": "b2l4d09",
+        "term": "spiritual",
+        "pronunciation": "",
+        "translation": "manevi, ruhani",
+        "sentences": [
+          "Bali is a place where you can learn about the spiritual side of life.",
+          "The temple is an important spiritual centre.",
+          "He went on a spiritual journey in India."
+        ],
+        "translations": [
+          "Bali hayatın manevi yönünü öğrenebileceğin bir yerdir.",
+          "Tapınak önemli bir manevi merkezdir.",
+          "Hindistan'da manevi bir yolculuğa çıktı."
+        ],
+        "explanation": "related to the soul or religion."
+      },
+      {
+        "id": "b2l4d10",
+        "term": "mindfulness",
+        "pronunciation": "",
+        "translation": "farkındalık",
+        "sentences": [
+          "The retreat focuses on mindfulness and meditation.",
+          "Mindfulness can reduce stress at work.",
+          "She practises mindfulness every morning."
+        ],
+        "translations": [
+          "Kamp farkındalık ve meditasyona odaklanıyor.",
+          "Farkındalık iş yerindeki stresi azaltabilir.",
+          "Her sabah farkındalık egzersizi yapıyor."
+        ],
+        "explanation": "paying calm attention to the present moment."
+      },
+      {
+        "id": "b2l4d11",
+        "term": "sunbathing",
+        "pronunciation": "",
+        "translation": "güneşlenme",
+        "sentences": [
+          "The beach is perfect for surfing and sunbathing.",
+          "Too much sunbathing is bad for your skin.",
+          "We spent the afternoon sunbathing by the pool."
+        ],
+        "translations": [
+          "Plaj sörf ve güneşlenme için mükemmel.",
+          "Çok fazla güneşlenmek cildin için kötüdür.",
+          "Öğleden sonrayı havuz başında güneşlenerek geçirdik."
+        ],
+        "explanation": "lying in the sun."
+      },
+      {
+        "id": "b2l4d12",
+        "term": "nightlife",
+        "pronunciation": "",
+        "translation": "gece hayatı",
+        "sentences": [
+          "Seminyak is known for its lively nightlife.",
+          "Istanbul has a famous nightlife.",
+          "The town has no nightlife after ten."
+        ],
+        "translations": [
+          "Seminyak hareketli gece hayatıyla bilinir.",
+          "İstanbul'un ünlü bir gece hayatı var.",
+          "Kasabada saat ondan sonra gece hayatı yok."
+        ],
+        "explanation": "lively nightlife = hareketli gece hayatı."
+      },
+      {
+        "id": "b2l4d13",
+        "term": "handmade",
+        "pronunciation": "",
+        "translation": "el yapımı",
+        "sentences": [
+          "Ubud is famous for handmade crafts.",
+          "She bought a handmade carpet.",
+          "Handmade products take more time to produce."
+        ],
+        "translations": [
+          "Ubud el yapımı zanaat ürünleriyle ünlüdür.",
+          "El yapımı bir halı aldı.",
+          "El yapımı ürünlerin üretimi daha uzun sürer."
+        ],
+        "explanation": "made by hand, not by machine."
+      },
+      {
+        "id": "b2l4d14",
+        "term": "tenant",
+        "pronunciation": "",
+        "translation": "kiracı",
+        "sentences": [
+          "A tenant is a person who rents a house or a flat.",
+          "The tenants will not be evicted provided that the bills are paid.",
+          "The new tenant moved in last week."
+        ],
+        "translations": [
+          "Kiracı, ev ya da daire kiralayan kişidir.",
+          "Faturalar ödendiği sürece kiracılar tahliye edilmeyecek.",
+          "Yeni kiracı geçen hafta taşındı."
+        ],
+        "explanation": "a person who rents a house or a flat."
+      },
+      {
+        "id": "b2l4d15",
+        "term": "shoplifter",
+        "pronunciation": "",
+        "translation": "mağaza hırsızı",
+        "sentences": [
+          "A shoplifter is a person who steals from shops.",
+          "The camera caught the shoplifter.",
+          "The shop added alarms to stop shoplifters."
+        ],
+        "translations": [
+          "Mağaza hırsızı dükkânlardan çalan kişidir.",
+          "Kamera mağaza hırsızını yakaladı.",
+          "Mağaza hırsızları durdurmak için alarm ekledi."
+        ],
+        "explanation": "a person who steals from shops."
+      },
+      {
+        "id": "b2l4d16",
+        "term": "appliance",
+        "pronunciation": "",
+        "translation": "ev aleti, cihaz",
+        "sentences": [
+          "A washing machine is an appliance which washes clothes.",
+          "This kitchen appliance uses little energy.",
+          "Unplug the appliance before cleaning it."
+        ],
+        "translations": [
+          "Çamaşır makinesi giysileri yıkayan bir ev aletidir.",
+          "Bu mutfak aleti az enerji kullanır.",
+          "Temizlemeden önce cihazın fişini çek."
+        ],
+        "explanation": "a machine used at home, e.g. washing machine."
+      },
+      {
+        "id": "b2l4d17",
+        "term": "commute",
+        "pronunciation": "",
+        "translation": "işe gidip gelme; işe gidip gelmek",
+        "sentences": [
+          "I want a short commute to avoid traffic.",
+          "She commutes to the office by train.",
+          "My daily commute takes an hour."
+        ],
+        "translations": [
+          "Trafikten kaçınmak için kısa bir iş yolu istiyorum.",
+          "Ofise trenle gidip geliyor.",
+          "Günlük iş yolculuğum bir saat sürüyor."
+        ],
+        "explanation": "a short commute = kısa yol."
+      },
+      {
+        "id": "b2l4d18",
+        "term": "priority",
+        "pronunciation": "",
+        "translation": "öncelik",
+        "sentences": [
+          "Good healthcare should be a priority when choosing a place to live.",
+          "Safety is our first priority on site.",
+          "Make safety a priority before you decide."
+        ],
+        "translations": [
+          "Yaşanacak yeri seçerken iyi sağlık hizmeti öncelik olmalı.",
+          "Sahada güvenlik birinci önceliğimizdir.",
+          "Karar vermeden önce güvenliği öncelik yap."
+        ],
+        "explanation": "something more important than other things."
+      },
+      {
+        "id": "b2l4d19",
+        "term": "urban",
+        "pronunciation": "",
+        "translation": "kentsel, şehre ait",
+        "sentences": [
+          "Are you into the urban scene or small towns?",
+          "Urban areas have better public transport.",
+          "Urban traffic causes a lot of stress."
+        ],
+        "translations": [
+          "Şehir hayatını mı yoksa küçük kasabaları mı seversin?",
+          "Kentsel alanlarda toplu taşıma daha iyi.",
+          "Şehir trafiği çok strese neden olur."
+        ],
+        "explanation": "related to a city."
+      },
+      {
+        "id": "b2l4d20",
+        "term": "countryside",
+        "pronunciation": "",
+        "translation": "kırsal kesim, taşra",
+        "sentences": [
+          "Discuss the pros and cons of living in the countryside.",
+          "They moved to the countryside after retiring.",
+          "The countryside is quiet but far from hospitals."
+        ],
+        "translations": [
+          "Kırsal kesimde yaşamanın artılarını ve eksilerini tartışın.",
+          "Emekli olduktan sonra kırsal kesime taşındılar.",
+          "Kırsal kesim sessiz ama hastanelere uzak."
+        ],
+        "explanation": "land outside towns and cities."
+      }
+    ]
+  },
+  {
+    "id": "L5A",
+    "code": "5A",
+    "title": "An Untold Story",
+    "date": "",
+    "pages": "SB 70–73",
+    "grammar": {
+      "title": "Passive voice (edilgen yapı)",
+      "formula": "be (zamana göre) + V3 (+ by + agent) · is made · was built · has been sent · will be signed · must be treated · is being shipped",
+      "note": "Eylemin kendisi, yapandan daha önemliyse ya da yapan bilinmiyorsa edilgen kullanılır. Zaman 'be' fiilinde gösterilir, ana fiil her zaman V3'tür. Yapanı söylemek istersek sona 'by' ile ekleriz (agent). İki nesneli fiillerde (give, send, tell, offer, show) iki edilgen cümle kurulabilir: I was given the file. / The file was given to me.",
+      "examples": [
+        "Millions of chips are produced every year.",
+        "The Mona Lisa was painted by Leonardo da Vinci.",
+        "A lifestyle brand was launched by her in 2008.",
+        "The contract will be signed tomorrow.",
+        "I have not been sent the file. / The file has not been sent to me."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l5a01",
+        "term": "entrepreneur",
+        "pronunciation": "",
+        "translation": "girişimci",
+        "sentences": [
+          "Many stars became successful entrepreneurs.",
+          "The young entrepreneur opened three shops.",
+          "An entrepreneur must take risks."
+        ],
+        "translations": [
+          "Birçok yıldız başarılı girişimciler oldu.",
+          "Genç girişimci üç dükkân açtı.",
+          "Bir girişimci risk almalıdır."
+        ],
+        "explanation": "a person who starts a business."
+      },
+      {
+        "id": "b2l5a02",
+        "term": "venture",
+        "pronunciation": "",
+        "translation": "girişim, iş girişimi",
+        "sentences": [
+          "His business ventures were featured in a reality show.",
+          "The new venture needs more investment.",
+          "It was a joint venture between two companies."
+        ],
+        "translations": [
+          "İş girişimleri bir realite şovda yer aldı.",
+          "Yeni girişim daha fazla yatırım gerektiriyor.",
+          "İki şirket arasında ortak bir girişimdi."
+        ],
+        "explanation": "a new business activity that involves risk."
+      },
+      {
+        "id": "b2l5a03",
+        "term": "launch",
+        "pronunciation": "",
+        "translation": "başlatmak, piyasaya sürmek",
+        "sentences": [
+          "The company was launched from his garage in 1994.",
+          "They will launch the new app next month.",
+          "A lifestyle brand was launched by her in 2008."
+        ],
+        "translations": [
+          "Şirket 1994'te onun garajında kuruldu.",
+          "Yeni uygulamayı gelecek ay piyasaya sürecekler.",
+          "2008'de onun tarafından bir yaşam tarzı markası başlatıldı."
+        ],
+        "explanation": "launch a company / a product."
+      },
+      {
+        "id": "b2l5a04",
+        "term": "co-found",
+        "pronunciation": "",
+        "translation": "birlikte kurmak",
+        "sentences": [
+          "A restaurant chain was co-founded by him and his brothers.",
+          "She co-founded the company with a friend.",
+          "Who co-founded this engineering firm?"
+        ],
+        "translations": [
+          "Bir restoran zinciri onun ve kardeşleri tarafından birlikte kuruldu.",
+          "Şirketi bir arkadaşıyla birlikte kurdu.",
+          "Bu mühendislik firmasını kimler birlikte kurdu?"
+        ],
+        "explanation": "found a company together with others. co-founder = kurucu ortak."
+      },
+      {
+        "id": "b2l5a05",
+        "term": "aerospace",
+        "pronunciation": "",
+        "translation": "havacılık ve uzay",
+        "sentences": [
+          "He established a private aerospace company.",
+          "Aerospace engineers design rockets and planes.",
+          "The aerospace industry needs very light materials."
+        ],
+        "translations": [
+          "Özel bir havacılık ve uzay şirketi kurdu.",
+          "Havacılık mühendisleri roket ve uçak tasarlar.",
+          "Havacılık sektörü çok hafif malzemelere ihtiyaç duyar."
+        ],
+        "explanation": "the industry of aircraft and space travel."
+      },
+      {
+        "id": "b2l5a06",
+        "term": "step down",
+        "pronunciation": "",
+        "translation": "görevden ayrılmak",
+        "sentences": [
+          "In recent years, he stepped down as CEO.",
+          "The manager will step down next year.",
+          "She decided to step down for health reasons."
+        ],
+        "translations": [
+          "Son yıllarda CEO'luktan ayrıldı.",
+          "Müdür gelecek yıl görevden ayrılacak.",
+          "Sağlık nedenleriyle görevden ayrılmaya karar verdi."
+        ],
+        "explanation": "leave an important position."
+      },
+      {
+        "id": "b2l5a07",
+        "term": "legacy",
+        "pronunciation": "",
+        "translation": "miras, bıraktığı iz",
+        "sentences": [
+          "His legacy continues to influence the business world.",
+          "The old bridge is part of the city's legacy.",
+          "She wants to leave a legacy for young engineers."
+        ],
+        "translations": [
+          "Bıraktığı iz iş dünyasını etkilemeye devam ediyor.",
+          "Eski köprü şehrin mirasının bir parçasıdır.",
+          "Genç mühendislere bir miras bırakmak istiyor."
+        ],
+        "explanation": "something important that remains after someone."
+      },
+      {
+        "id": "b2l5a08",
+        "term": "media mogul",
+        "pronunciation": "",
+        "translation": "medya patronu",
+        "sentences": [
+          "She started as a TV host and became a media mogul.",
+          "The media mogul owns newspapers and TV channels.",
+          "Every media mogul has strong political influence."
+        ],
+        "translations": [
+          "TV sunucusu olarak başladı ve medya patronu oldu.",
+          "Medya patronu gazetelere ve TV kanallarına sahip.",
+          "Her medya patronunun güçlü bir siyasi etkisi vardır."
+        ],
+        "explanation": "a very powerful person in the media business."
+      },
+      {
+        "id": "b2l5a09",
+        "term": "empire",
+        "pronunciation": "",
+        "translation": "imparatorluk",
+        "sentences": [
+          "Oprah created a media empire.",
+          "His business empire includes hotels and banks.",
+          "The Roman Empire built many roads."
+        ],
+        "translations": [
+          "Oprah bir medya imparatorluğu kurdu.",
+          "İş imparatorluğu otelleri ve bankaları kapsıyor.",
+          "Roma İmparatorluğu birçok yol inşa etti."
+        ],
+        "explanation": "media empire = medya imparatorluğu (büyük şirketler grubu)."
+      },
+      {
+        "id": "b2l5a10",
+        "term": "philanthropy",
+        "pronunciation": "",
+        "translation": "hayırseverlik",
+        "sentences": [
+          "She became a key figure in publishing, film and philanthropy.",
+          "His philanthropy helped build two schools.",
+          "Philanthropy is important for many rich families."
+        ],
+        "translations": [
+          "Yayıncılık, film ve hayırseverlikte önemli bir figür oldu.",
+          "Hayırseverliği iki okulun inşasına yardım etti.",
+          "Hayırseverlik birçok zengin aile için önemlidir."
+        ],
+        "explanation": "giving money and help to people in need."
+      },
+      {
+        "id": "b2l5a11",
+        "term": "prominent",
+        "pronunciation": "",
+        "translation": "önde gelen, tanınmış",
+        "sentences": [
+          "Her investments made her a prominent businesswoman.",
+          "He is a prominent engineer in the oil industry.",
+          "The logo is in a prominent position on the page."
+        ],
+        "translations": [
+          "Yatırımları onu tanınmış bir iş kadını yaptı.",
+          "Petrol sektöründe tanınmış bir mühendis.",
+          "Logo sayfada belirgin bir konumda."
+        ],
+        "explanation": "well known and important."
+      },
+      {
+        "id": "b2l5a12",
+        "term": "beloved",
+        "pronunciation": "",
+        "translation": "çok sevilen",
+        "sentences": [
+          "She is a beloved TV personality.",
+          "The beloved actor retired last year.",
+          "This is our beloved old teacher."
+        ],
+        "translations": [
+          "O çok sevilen bir TV kişiliğidir.",
+          "Çok sevilen oyuncu geçen yıl emekli oldu.",
+          "Bu bizim çok sevdiğimiz eski öğretmenimiz."
+        ],
+        "explanation": "loved very much."
+      },
+      {
+        "id": "b2l5a13",
+        "term": "critical acclaim",
+        "pronunciation": "",
+        "translation": "eleştirmen övgüsü",
+        "sentences": [
+          "He has earned critical acclaim and box office success.",
+          "The film received critical acclaim at the festival.",
+          "Her first novel won critical acclaim."
+        ],
+        "translations": [
+          "Eleştirmen övgüsü ve gişe başarısı kazandı.",
+          "Film festivalde eleştirmenlerden övgü aldı.",
+          "İlk romanı eleştirmenlerin övgüsünü kazandı."
+        ],
+        "explanation": "praise from critics."
+      },
+      {
+        "id": "b2l5a14",
+        "term": "box office",
+        "pronunciation": "",
+        "translation": "gişe",
+        "sentences": [
+          "The film was a huge box office success.",
+          "The movie made 200 million dollars at the box office.",
+          "Buy the tickets at the box office."
+        ],
+        "translations": [
+          "Film büyük bir gişe başarısıydı.",
+          "Film gişede 200 milyon dolar yaptı.",
+          "Biletleri gişeden al."
+        ],
+        "explanation": "the money a film makes from ticket sales."
+      },
+      {
+        "id": "b2l5a15",
+        "term": "invest",
+        "pronunciation": "",
+        "translation": "yatırım yapmak",
+        "sentences": [
+          "He has invested in fitness centres and supplements.",
+          "The company will invest in new equipment.",
+          "Never invest money you cannot lose."
+        ],
+        "translations": [
+          "Spor merkezlerine ve takviyelere yatırım yaptı.",
+          "Şirket yeni ekipmana yatırım yapacak.",
+          "Kaybedemeyeceğin parayı asla yatırma."
+        ],
+        "explanation": "invest in something."
+      },
+      {
+        "id": "b2l5a16",
+        "term": "supplement",
+        "pronunciation": "",
+        "translation": "takviye (besin takviyesi)",
+        "sentences": [
+          "He sells health supplements online.",
+          "Vitamin supplements cannot replace a good diet.",
+          "The doctor recommended an iron supplement."
+        ],
+        "translations": [
+          "İnternetten sağlık takviyeleri satıyor.",
+          "Vitamin takviyeleri iyi bir beslenmenin yerini tutamaz.",
+          "Doktor bir demir takviyesi önerdi."
+        ],
+        "explanation": "health supplements = sağlık takviyeleri."
+      },
+      {
+        "id": "b2l5a17",
+        "term": "criticism",
+        "pronunciation": "",
+        "translation": "eleştiri",
+        "sentences": [
+          "Her brand has attracted both praise and criticism.",
+          "The engineer accepted the criticism calmly.",
+          "There was a lot of criticism of the new plan."
+        ],
+        "translations": [
+          "Markası hem övgü hem eleştiri aldı.",
+          "Mühendis eleştiriyi sakin karşıladı.",
+          "Yeni plana çok fazla eleştiri vardı."
+        ],
+        "explanation": "praise and criticism = övgü ve eleştiri. criticize (fiil), critic (eleştirmen)."
+      },
+      {
+        "id": "b2l5a18",
+        "term": "establish",
+        "pronunciation": "",
+        "translation": "kurmak, sağlam bir yer edinmek",
+        "sentences": [
+          "A private aerospace company was established by him in 2000.",
+          "The brand has established her as a business leader.",
+          "The firm was established fifty years ago."
+        ],
+        "translations": [
+          "2000'de onun tarafından özel bir havacılık şirketi kuruldu.",
+          "Marka onu bir iş lideri olarak konumlandırdı.",
+          "Firma elli yıl önce kuruldu."
+        ],
+        "explanation": "establish a company / establish yourself as …"
+      },
+      {
+        "id": "b2l5a19",
+        "term": "newsletter",
+        "pronunciation": "",
+        "translation": "bülten",
+        "sentences": [
+          "Goop started as a newsletter.",
+          "Sign up for our monthly newsletter.",
+          "The newsletter is sent to all employees."
+        ],
+        "translations": [
+          "Goop bir bülten olarak başladı.",
+          "Aylık bültenimize kaydol.",
+          "Bülten tüm çalışanlara gönderilir."
+        ],
+        "explanation": "a regular report sent by email or post."
+      }
+    ]
+  },
+  {
+    "id": "L5C",
+    "code": "5C",
+    "title": "Gerund or Infinitive?",
+    "date": "",
+    "pages": "SB 80–81",
+    "grammar": {
+      "title": "Gerund (V-ing) vs infinitive (to V1 / V1)",
+      "formula": "V-ing: enjoy, avoid, mind, finish, consider, can't stand, miss, practise, recall, suggest · to V1: want, need, plan, hope, promise, refuse, afford, manage, pretend, decide, would prefer · V1 (bare): let, make, had better, would rather",
+      "note": "Bazı fiiller anlam değiştirir: remember / forget + to V1 = yapılacak işi (unutma), + V-ing = geçmişte yapılanı hatırlamak. stop + V-ing = bırakmak, stop + to V1 = bir şey yapmak için durmak. try + to V1 = çabalamak (zor), try + V-ing = denemek (deney). regret + V-ing = yaptığına pişman olmak, regret + to V1 = üzülerek bildirmek. need + V-ing = edilgen anlam (The roof needs fixing = needs to be fixed). Edatlardan (about, of, in, after) sonra V-ing gelir.",
+      "examples": [
+        "I enjoy watching romantic movies.",
+        "We can't afford to rent this flat anymore.",
+        "Please remember to switch off the lights.",
+        "I remember switching off the lights.",
+        "He stopped to breathe for a minute. / The animal stopped breathing."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l5c01",
+        "term": "avoid",
+        "pronunciation": "",
+        "translation": "kaçınmak (+V-ing)",
+        "sentences": [
+          "She avoids walking in the rain.",
+          "Try to avoid making the same mistake.",
+          "We avoided working at night."
+        ],
+        "translations": [
+          "Yağmurda yürümekten kaçınıyor.",
+          "Aynı hatayı yapmaktan kaçınmaya çalış.",
+          "Gece çalışmaktan kaçındık."
+        ],
+        "explanation": "avoid + V-ing."
+      },
+      {
+        "id": "b2l5c02",
+        "term": "enjoy",
+        "pronunciation": "",
+        "translation": "keyif almak (+V-ing)",
+        "sentences": [
+          "I enjoy watching romantic movies.",
+          "Do you enjoy driving?",
+          "He enjoys working with his hands."
+        ],
+        "translations": [
+          "Romantik film izlemekten keyif alıyorum.",
+          "Araba kullanmaktan hoşlanır mısın?",
+          "Elleriyle çalışmaktan keyif alıyor."
+        ],
+        "explanation": "enjoy + V-ing."
+      },
+      {
+        "id": "b2l5c03",
+        "term": "can't stand",
+        "pronunciation": "",
+        "translation": "dayanamamak (+V-ing)",
+        "sentences": [
+          "Janet can't stand having injections.",
+          "I can't stand waiting in long queues.",
+          "She can't stand working in a noisy office."
+        ],
+        "translations": [
+          "Janet iğne olmaya dayanamıyor.",
+          "Uzun kuyruklarda beklemeye dayanamam.",
+          "Gürültülü bir ofiste çalışmaya dayanamıyor."
+        ],
+        "explanation": "can't stand + V-ing."
+      },
+      {
+        "id": "b2l5c04",
+        "term": "mind",
+        "pronunciation": "",
+        "translation": "sakıncası olmak (+V-ing)",
+        "sentences": [
+          "I don't mind calling them if you don't want to.",
+          "Do you mind waiting a few minutes?",
+          "She doesn't mind working on Saturdays."
+        ],
+        "translations": [
+          "Sen istemiyorsan onları aramamın sakıncası yok.",
+          "Birkaç dakika beklemenin sakıncası var mı?",
+          "Cumartesi çalışmak onun için sorun değil."
+        ],
+        "explanation": "Do you mind + V-ing? / I don't mind + V-ing."
+      },
+      {
+        "id": "b2l5c05",
+        "term": "consider",
+        "pronunciation": "",
+        "translation": "düşünmek, göz önünde bulundurmak (+V-ing)",
+        "sentences": [
+          "Would you consider giving the speech at our party?",
+          "We are considering buying a new pump.",
+          "They considered moving to another city."
+        ],
+        "translations": [
+          "Partimizde konuşma yapmayı düşünür müsün?",
+          "Yeni bir pompa almayı düşünüyoruz.",
+          "Başka bir şehre taşınmayı düşündüler."
+        ],
+        "explanation": "consider + V-ing."
+      },
+      {
+        "id": "b2l5c06",
+        "term": "regret",
+        "pronunciation": "",
+        "translation": "pişman olmak; üzülerek bildirmek",
+        "sentences": [
+          "I regret telling her all my secrets.",
+          "We regret to tell you that the flight is delayed.",
+          "I regret not taking the medication."
+        ],
+        "translations": [
+          "Ona tüm sırlarımı anlattığıma pişmanım.",
+          "Uçuşun ertelendiğini üzülerek bildiririz.",
+          "İlacı almadığıma pişmanım."
+        ],
+        "explanation": "regret + V-ing = pişmanlık; regret to tell you = üzülerek bildirmek."
+      },
+      {
+        "id": "b2l5c07",
+        "term": "recall",
+        "pronunciation": "",
+        "translation": "hatırlamak (+V-ing)",
+        "sentences": [
+          "She doesn't even recall visiting the Alps.",
+          "I recall meeting him at the conference.",
+          "Can you recall seeing the report?"
+        ],
+        "translations": [
+          "Alpleri ziyaret ettiğini bile hatırlamıyor.",
+          "Onunla konferansta tanıştığımı hatırlıyorum.",
+          "Raporu gördüğünü hatırlıyor musun?"
+        ],
+        "explanation": "recall + V-ing."
+      },
+      {
+        "id": "b2l5c08",
+        "term": "decide",
+        "pronunciation": "",
+        "translation": "karar vermek (+to V1)",
+        "sentences": [
+          "We decided to use a stainless steel pipe.",
+          "She decided to take a short break.",
+          "Did you decide to move to London?"
+        ],
+        "translations": [
+          "Paslanmaz çelik boru kullanmaya karar verdik.",
+          "Kısa bir mola vermeye karar verdi.",
+          "Londra'ya taşınmaya karar verdin mi?"
+        ],
+        "explanation": "decide + to V1. (refuse to V1 kalıbı 2D'de vardı.)"
+      },
+      {
+        "id": "b2l5c09",
+        "term": "promise",
+        "pronunciation": "",
+        "translation": "söz vermek (+to V1)",
+        "sentences": [
+          "Emily promised to eat all her vegetables.",
+          "I promise to send the drawings tomorrow.",
+          "They promised to finish on time."
+        ],
+        "translations": [
+          "Emily tüm sebzelerini yemeye söz verdi.",
+          "Çizimleri yarın göndermeye söz veriyorum.",
+          "Zamanında bitirmeye söz verdiler."
+        ],
+        "explanation": "promise + to V1."
+      },
+      {
+        "id": "b2l5c10",
+        "term": "afford",
+        "pronunciation": "",
+        "translation": "(parası) yetmek (+to V1)",
+        "sentences": [
+          "We can't afford to rent this flat anymore.",
+          "The company can't afford to lose this client.",
+          "Can you afford to buy a new car?"
+        ],
+        "translations": [
+          "Artık bu daireyi kiralamaya paramız yetmiyor.",
+          "Şirket bu müşteriyi kaybetmeyi göze alamaz.",
+          "Yeni bir araba almaya gücün yeter mi?"
+        ],
+        "explanation": "can't afford + to V1."
+      },
+      {
+        "id": "b2l5c11",
+        "term": "manage",
+        "pronunciation": "",
+        "translation": "başarmak (+to V1)",
+        "sentences": [
+          "I managed to get there on time.",
+          "We managed to fix the leak before the test.",
+          "Did you manage to call the client?"
+        ],
+        "translations": [
+          "Oraya zamanında varmayı başardım.",
+          "Testten önce sızıntıyı gidermeyi başardık.",
+          "Müşteriyi aramayı başardın mı?"
+        ],
+        "explanation": "manage + to V1 = zorluğa rağmen yapabilmek."
+      },
+      {
+        "id": "b2l5c12",
+        "term": "pretend",
+        "pronunciation": "",
+        "translation": "rol yapmak, -mış gibi yapmak (+to V1)",
+        "sentences": [
+          "Children sometimes pretend to be ill.",
+          "He pretended to read the report.",
+          "Don't pretend to understand if you don't."
+        ],
+        "translations": [
+          "Çocuklar bazen hasta numarası yapar.",
+          "Raporu okuyormuş gibi yaptı.",
+          "Anlamıyorsan anlıyormuş gibi yapma."
+        ],
+        "explanation": "pretend + to V1."
+      },
+      {
+        "id": "b2l5c13",
+        "term": "hope",
+        "pronunciation": "",
+        "translation": "ummak (+to V1)",
+        "sentences": [
+          "Hugh hopes to recover from the flu in time for his holiday.",
+          "We hope to start production in May.",
+          "I hope to see you at the meeting."
+        ],
+        "translations": [
+          "Hugh tatiline kadar gripten iyileşmeyi umuyor.",
+          "Mayısta üretime başlamayı umuyoruz.",
+          "Seni toplantıda görmeyi umuyorum."
+        ],
+        "explanation": "hope + to V1."
+      },
+      {
+        "id": "b2l5c14",
+        "term": "remember",
+        "pronunciation": "",
+        "translation": "hatırlamak",
+        "sentences": [
+          "Please remember to turn off the office lights.",
+          "I remember seeing him play for Manchester United.",
+          "Did you remember to lock the door?"
+        ],
+        "translations": [
+          "Lütfen ofis ışıklarını kapatmayı unutma.",
+          "Onu Manchester United'da oynarken gördüğümü hatırlıyorum.",
+          "Kapıyı kilitlemeyi unutmadın mı?"
+        ],
+        "explanation": "remember to V1 = yapmayı unutmamak; remember V-ing = yaptığını hatırlamak."
+      },
+      {
+        "id": "b2l5c15",
+        "term": "forget",
+        "pronunciation": "",
+        "translation": "unutmak",
+        "sentences": [
+          "Don't forget to spend the money on the tickets.",
+          "He'll never forget spending so much on his first computer.",
+          "I always forget to take my medicine."
+        ],
+        "translations": [
+          "Parayı biletlere harcamayı unutma.",
+          "İlk bilgisayarına o kadar para harcadığını asla unutmayacak.",
+          "İlacımı almayı hep unutuyorum."
+        ],
+        "explanation": "forget to V1 = yapmayı unutmak; never forget V-ing = yaşadığını unutmamak."
+      },
+      {
+        "id": "b2l5c16",
+        "term": "stop",
+        "pronunciation": "",
+        "translation": "durmak; bırakmak",
+        "sentences": [
+          "The climber stopped to breathe for a minute.",
+          "The poor animal stopped breathing and died.",
+          "Have you ever stopped to think?"
+        ],
+        "translations": [
+          "Dağcı bir dakika nefes almak için durdu.",
+          "Zavallı hayvan nefes almayı bıraktı ve öldü.",
+          "Hiç durup düşündün mü?"
+        ],
+        "explanation": "stop V-ing = bırakmak; stop to V1 = bir şey yapmak için durmak."
+      },
+      {
+        "id": "b2l5c17",
+        "term": "try",
+        "pronunciation": "",
+        "translation": "denemek; çabalamak",
+        "sentences": [
+          "I try to open the window, but it is locked.",
+          "Try opening the window for some fresh air.",
+          "Maybe you should try smiling."
+        ],
+        "translations": [
+          "Pencereyi açmaya çalışıyorum ama kilitli.",
+          "Biraz temiz hava için pencereyi açmayı dene.",
+          "Belki gülümsemeyi denemelisin."
+        ],
+        "explanation": "try to V1 = (zor bir şeyi) yapmaya çalışmak; try V-ing = deneme amaçlı yapmak."
+      },
+      {
+        "id": "b2l5c18",
+        "term": "let",
+        "pronunciation": "",
+        "translation": "izin vermek (+ nesne + V1)",
+        "sentences": [
+          "My mum doesn't let me travel with you.",
+          "Let me check the drawing first.",
+          "They let us use the meeting room."
+        ],
+        "translations": [
+          "Annem seninle seyahat etmeme izin vermiyor.",
+          "Önce çizimi kontrol etmeme izin ver.",
+          "Toplantı odasını kullanmamıza izin verdiler."
+        ],
+        "explanation": "let + somebody + V1 (to yok)."
+      },
+      {
+        "id": "b2l5c19",
+        "term": "practise",
+        "pronunciation": "",
+        "translation": "pratik yapmak (+V-ing)",
+        "sentences": [
+          "You need to practise listening every day.",
+          "She practises speaking English with a friend.",
+          "Practise writing short paragraphs."
+        ],
+        "translations": [
+          "Her gün dinleme pratiği yapman gerekiyor.",
+          "Bir arkadaşıyla İngilizce konuşma pratiği yapıyor.",
+          "Kısa paragraflar yazarak pratik yap."
+        ],
+        "explanation": "practise + V-ing."
+      },
+      {
+        "id": "b2l5c20",
+        "term": "miss",
+        "pronunciation": "",
+        "translation": "kaçırmak; özlemek (+V-ing)",
+        "sentences": [
+          "James has broken his foot, so he misses playing football.",
+          "I miss working with my old team.",
+          "Don't miss seeing the sunset at Uluwatu."
+        ],
+        "translations": [
+          "James ayağını kırdı, bu yüzden futbol oynamayı özlüyor.",
+          "Eski ekibimle çalışmayı özlüyorum.",
+          "Uluwatu'da gün batımını görmeyi kaçırma."
+        ],
+        "explanation": "miss + V-ing."
+      }
+    ]
+  },
+  {
+    "id": "L5D",
+    "code": "5D",
+    "title": "History of Job Interviews · E-commerce",
+    "date": "",
+    "pages": "SB 82–85",
+    "grammar": {
+      "title": "Intensifiers (pekiştireçler)",
+      "formula": "very · really · so · extremely · incredibly · quite · pretty · rather · fairly · a bit · slightly · much / far / a lot + comparative · by far + superlative · absolutely + extreme adj (absolutely freezing) · too + adj · too many + countable · too much + uncountable",
+      "note": "Pekiştireç, ardından gelen sıfat/zarfın gücünü artırır ya da azaltır; tek başına anlamı yoktur. very/extremely güçlendirir; quite, pretty (gayriresmî), rather, a bit, slightly zayıflatır. 'very' normal sıfatla (very cold), 'absolutely' uç sıfatla (absolutely freezing) kullanılır. Karşılaştırmalı sıfatla 'much / far / slightly' (much easier), en üstünlükle 'by far' (by far the best). too = gereğinden fazla (olumsuz anlam).",
+      "examples": [
+        "Employment was highly dependent on performance.",
+        "The test was pretty useful in the beginning.",
+        "Voice analysis will make evaluating candidates much easier.",
+        "You are by far the best friend a person could have.",
+        "There are too many applicants for this job."
+      ]
+    },
+    "grammar2": {
+      "title": "Prefixes & suffixes (ön ek / son ek)",
+      "formula": "Ön ek → anlam: anti- (karşı), multi- (çok), dis- / im- / un- / non- (değil), hyper- (aşırı), micro- (küçük), pre- (önce), post- (sonra), counter- (karşı), sub- (alt) · Son ek → tür: -ful / -ive / -able / -less (sıfat), -ment / -ity / -ure / -ance / -ism (isim), -ant (kişi/sıfat)",
+      "note": "Ön ek kelimenin anlamını değiştirir (satisfied → dissatisfied), son ek çoğu zaman kelime türünü değiştirir (attract → attraction, help → helpful). Bilmediğin kelimede kökü ve eki ayır: multi + nation + al = çok uluslu.",
+      "examples": [
+        "Traveling is one of the most adventurous ways to learn about other cultures.",
+        "People who travel often become more open-minded and understanding.",
+        "Learning a few words of the local language can be extremely helpful.",
+        "Companies don't want to keep their clients dissatisfied.",
+        "There are countless advantages linked to e-commerce."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l5d01",
+        "term": "interviewer",
+        "pronunciation": "",
+        "translation": "görüşmeci, mülakatı yapan kişi",
+        "sentences": [
+          "My interviewer was quite friendly.",
+          "The interviewer asked about my hard skills.",
+          "Look at the interviewer when you answer."
+        ],
+        "translations": [
+          "Görüşmecim oldukça arkadaş canlısıydı.",
+          "Görüşmeci teknik becerilerimi sordu.",
+          "Cevap verirken görüşmeciye bak."
+        ],
+        "explanation": "the person who asks the questions in an interview. (job interview 1A'da vardı.)"
+      },
+      {
+        "id": "b2l5d02",
+        "term": "apprentice",
+        "pronunciation": "",
+        "translation": "çırak",
+        "sentences": [
+          "Craftsmen trained apprentices to carry on their work.",
+          "He started as an apprentice welder.",
+          "The apprentice learned fast."
+        ],
+        "translations": [
+          "Zanaatkârlar işlerini sürdürmeleri için çıraklar yetiştirirdi.",
+          "Çırak kaynakçı olarak başladı.",
+          "Çırak hızlı öğrendi."
+        ],
+        "explanation": "a person who learns a job from a skilled worker."
+      },
+      {
+        "id": "b2l5d03",
+        "term": "craftsman",
+        "pronunciation": "",
+        "translation": "zanaatkâr, usta",
+        "sentences": [
+          "In ancient Rome, each craftsman trained apprentices.",
+          "A good craftsman takes care of his tools.",
+          "The table was made by a local craftsman."
+        ],
+        "translations": [
+          "Antik Roma'da her zanaatkâr çırak yetiştirirdi.",
+          "İyi bir usta aletlerine özen gösterir.",
+          "Masa yerel bir zanaatkâr tarafından yapıldı."
+        ],
+        "explanation": "a skilled worker who makes things by hand."
+      },
+      {
+        "id": "b2l5d04",
+        "term": "unskilled",
+        "pronunciation": "",
+        "translation": "vasıfsız",
+        "sentences": [
+          "Unskilled workers were replaced too easily.",
+          "The factory created many unskilled jobs.",
+          "Unskilled labour is cheaper but slower."
+        ],
+        "translations": [
+          "Vasıfsız işçiler çok kolay değiştirilirdi.",
+          "Fabrika birçok vasıfsız iş yarattı.",
+          "Vasıfsız işçilik daha ucuz ama daha yavaş."
+        ],
+        "explanation": "without special training. unskilled workers."
+      },
+      {
+        "id": "b2l5d05",
+        "term": "revolve around",
+        "pronunciation": "",
+        "translation": "… etrafında dönmek, … üzerine kurulu olmak",
+        "sentences": [
+          "In the beginning, jobs revolved around food.",
+          "His life revolves around his family.",
+          "The meeting revolved around the budget."
+        ],
+        "translations": [
+          "Başlangıçta işler yiyecek etrafında dönüyordu.",
+          "Hayatı ailesi etrafında dönüyor.",
+          "Toplantı bütçe üzerine yoğunlaştı."
+        ],
+        "explanation": "Jobs revolved around food."
+      },
+      {
+        "id": "b2l5d06",
+        "term": "job opening",
+        "pronunciation": "",
+        "translation": "açık pozisyon, iş ilanı",
+        "sentences": [
+          "Job openings were created when tradesmen had no children.",
+          "There is a job opening in the piping department.",
+          "Check the company website for job openings."
+        ],
+        "translations": [
+          "Zanaatkârların çocuğu olmadığında açık pozisyonlar oluşurdu.",
+          "Boru departmanında açık bir pozisyon var.",
+          "Açık pozisyonlar için şirketin web sitesine bak."
+        ],
+        "explanation": "a job that is available."
+      },
+      {
+        "id": "b2l5d07",
+        "term": "evaluate",
+        "pronunciation": "",
+        "translation": "değerlendirmek",
+        "sentences": [
+          "Edison created a test to evaluate candidates.",
+          "We need to evaluate three offers.",
+          "The manager evaluates each project every month."
+        ],
+        "translations": [
+          "Edison adayları değerlendirmek için bir test oluşturdu.",
+          "Üç teklifi değerlendirmemiz gerekiyor.",
+          "Müdür her projeyi her ay değerlendirir."
+        ],
+        "explanation": "judge the quality or value of something."
+      },
+      {
+        "id": "b2l5d08",
+        "term": "leak",
+        "pronunciation": "",
+        "translation": "sızdırmak (bilgi); sızıntı",
+        "sentences": [
+          "The test was leaked and published in the New York Times.",
+          "Someone leaked the price to a competitor.",
+          "We found a leak in the flange."
+        ],
+        "translations": [
+          "Test sızdırıldı ve New York Times'ta yayımlandı.",
+          "Biri fiyatı bir rakibe sızdırdı.",
+          "Flanşta bir sızıntı bulduk."
+        ],
+        "explanation": "The test was leaked to the newspaper."
+      },
+      {
+        "id": "b2l5d09",
+        "term": "recruiter",
+        "pronunciation": "",
+        "translation": "işe alım uzmanı",
+        "sentences": [
+          "Many recruiters check candidates' social media.",
+          "The recruiter called me after the interview.",
+          "Recruiters value hard skills."
+        ],
+        "translations": [
+          "Birçok işe alım uzmanı adayların sosyal medyasını kontrol eder.",
+          "İşe alım uzmanı görüşmeden sonra beni aradı.",
+          "İşe alım uzmanları teknik becerilere değer verir."
+        ],
+        "explanation": "a person who finds new employees for a company."
+      },
+      {
+        "id": "b2l5d10",
+        "term": "remote hiring",
+        "pronunciation": "",
+        "translation": "uzaktan işe alım",
+        "sentences": [
+          "More than 60% of employers use video interviews for remote hiring.",
+          "Remote hiring saves travel costs.",
+          "Our company started remote hiring last year."
+        ],
+        "translations": [
+          "İşverenlerin %60'tan fazlası uzaktan işe alım için video görüşme kullanıyor.",
+          "Uzaktan işe alım yol masraflarını azaltır.",
+          "Şirketimiz geçen yıl uzaktan işe alıma başladı."
+        ],
+        "explanation": "hiring people without meeting them in person."
+      },
+      {
+        "id": "b2l5d11",
+        "term": "hard skills",
+        "pronunciation": "",
+        "translation": "teknik beceriler",
+        "sentences": [
+          "Many managers value hard skills over personality.",
+          "AutoCAD is one of my hard skills.",
+          "List your hard skills at the top of your CV."
+        ],
+        "translations": [
+          "Birçok yönetici teknik becerilere kişilikten fazla değer veriyor.",
+          "AutoCAD teknik becerilerimden biri.",
+          "Teknik becerilerini özgeçmişinin üstüne yaz."
+        ],
+        "explanation": "skills you can measure, e.g. software, welding, languages."
+      },
+      {
+        "id": "b2l5d12",
+        "term": "personality trait",
+        "pronunciation": "",
+        "translation": "kişilik özelliği",
+        "sentences": [
+          "Facebook likes can predict personality traits.",
+          "Patience is an important personality trait.",
+          "Which personality trait helps you at work?"
+        ],
+        "translations": [
+          "Facebook beğenileri kişilik özelliklerini tahmin edebilir.",
+          "Sabır önemli bir kişilik özelliğidir.",
+          "Hangi kişilik özelliğin işte sana yardımcı oluyor?"
+        ],
+        "explanation": "a quality of someone's character."
+      },
+      {
+        "id": "b2l5d13",
+        "term": "screening interview",
+        "pronunciation": "",
+        "translation": "ön eleme görüşmesi",
+        "sentences": [
+          "Smart watches will allow screening interviews on the go.",
+          "The screening interview took only ten minutes.",
+          "I passed the screening interview."
+        ],
+        "translations": [
+          "Akıllı saatler hareket hâlindeyken ön eleme görüşmesine izin verecek.",
+          "Ön eleme görüşmesi sadece on dakika sürdü.",
+          "Ön eleme görüşmesini geçtim."
+        ],
+        "explanation": "a short first interview."
+      },
+      {
+        "id": "b2l5d14",
+        "term": "on the go",
+        "pronunciation": "",
+        "translation": "hareket hâlindeyken, ayaküstü",
+        "sentences": [
+          "Employers will interview candidates on the go.",
+          "I eat breakfast on the go.",
+          "She is always on the go."
+        ],
+        "translations": [
+          "İşverenler adaylarla hareket hâlindeyken görüşecek.",
+          "Kahvaltımı ayaküstü yapıyorum.",
+          "Her zaman koşturma hâlinde."
+        ],
+        "explanation": "while moving or very busy."
+      },
+      {
+        "id": "b2l5d15",
+        "term": "come to fruition",
+        "pronunciation": "",
+        "translation": "gerçekleşmek, meyvesini vermek",
+        "sentences": [
+          "As 3D prototypes come to fruition, hologram interviews will go mainstream.",
+          "It took ten years for the project to come to fruition.",
+          "Our plans will come to fruition next year."
+        ],
+        "translations": [
+          "3D prototipler gerçekleştikçe hologram görüşmeler yaygınlaşacak.",
+          "Projenin hayata geçmesi on yıl sürdü.",
+          "Planlarımız gelecek yıl meyvesini verecek."
+        ],
+        "explanation": "When plans come to fruition, they become real."
+      },
+      {
+        "id": "b2l5d16",
+        "term": "emergence",
+        "pronunciation": "",
+        "translation": "ortaya çıkış",
+        "sentences": [
+          "The emergence of voice analysis will make evaluating candidates easier.",
+          "The emergence of e-commerce changed shopping.",
+          "We watched the emergence of new technologies."
+        ],
+        "translations": [
+          "Ses analizinin ortaya çıkışı adayları değerlendirmeyi kolaylaştıracak.",
+          "E-ticaretin ortaya çıkışı alışverişi değiştirdi.",
+          "Yeni teknolojilerin ortaya çıkışına tanık olduk."
+        ],
+        "explanation": "the process of appearing. emerge (fiil)."
+      },
+      {
+        "id": "b2l5d17",
+        "term": "hiring process",
+        "pronunciation": "",
+        "translation": "işe alım süreci",
+        "sentences": [
+          "The interview is a central part of the hiring process.",
+          "The hiring process takes about a month.",
+          "Technology has changed the hiring process."
+        ],
+        "translations": [
+          "Görüşme işe alım sürecinin merkezî bir parçasıdır.",
+          "İşe alım süreci yaklaşık bir ay sürer.",
+          "Teknoloji işe alım sürecini değiştirdi."
+        ],
+        "explanation": "all the steps to hire a new employee."
+      },
+      {
+        "id": "b2l5d18",
+        "term": "e-commerce",
+        "pronunciation": "",
+        "translation": "e-ticaret",
+        "sentences": [
+          "E-commerce is a booming business.",
+          "Our supplier started selling valves through e-commerce.",
+          "E-commerce is useful for multinational companies."
+        ],
+        "translations": [
+          "E-ticaret hızla büyüyen bir iş kolu.",
+          "Tedarikçimiz vanaları e-ticaret yoluyla satmaya başladı.",
+          "E-ticaret çok uluslu şirketler için faydalıdır."
+        ],
+        "explanation": "buying and selling online."
+      },
+      {
+        "id": "b2l5d19",
+        "term": "booming",
+        "pronunciation": "",
+        "translation": "hızla büyüyen, patlama yaşayan",
+        "sentences": [
+          "Online shopping is a booming business.",
+          "The booming city needs new roads.",
+          "Solar energy is a booming sector."
+        ],
+        "translations": [
+          "Çevrimiçi alışveriş hızla büyüyen bir iş.",
+          "Hızla büyüyen şehrin yeni yollara ihtiyacı var.",
+          "Güneş enerjisi hızla büyüyen bir sektör."
+        ],
+        "explanation": "growing very fast."
+      },
+      {
+        "id": "b2l5d20",
+        "term": "multinational",
+        "pronunciation": "",
+        "translation": "çok uluslu",
+        "sentences": [
+          "Multinational companies offer their services online.",
+          "She works for a multinational engineering firm.",
+          "The project has a multinational team."
+        ],
+        "translations": [
+          "Çok uluslu şirketler hizmetlerini çevrimiçi sunar.",
+          "Çok uluslu bir mühendislik firmasında çalışıyor.",
+          "Projenin çok uluslu bir ekibi var."
+        ],
+        "explanation": "multi- (çok) + national."
+      },
+      {
+        "id": "b2l5d21",
+        "term": "countless",
+        "pronunciation": "",
+        "translation": "sayısız",
+        "sentences": [
+          "There are countless advantages linked to e-commerce.",
+          "We spent countless hours on the design.",
+          "Countless people visit the city every year."
+        ],
+        "translations": [
+          "E-ticaretle bağlantılı sayısız avantaj var.",
+          "Tasarım için sayısız saat harcadık.",
+          "Her yıl sayısız insan şehri ziyaret ediyor."
+        ],
+        "explanation": "count + -less: sayılamayacak kadar çok."
+      },
+      {
+        "id": "b2l5d22",
+        "term": "dissatisfied",
+        "pronunciation": "",
+        "translation": "memnuniyetsiz",
+        "sentences": [
+          "Companies don't want their clients to be dissatisfied.",
+          "The client was dissatisfied with the delay.",
+          "Dissatisfied customers rarely come back."
+        ],
+        "translations": [
+          "Şirketler müşterilerinin memnuniyetsiz olmasını istemez.",
+          "Müşteri gecikmeden memnun değildi.",
+          "Memnuniyetsiz müşteriler nadiren geri gelir."
+        ],
+        "explanation": "dis- (değil) + satisfied."
+      },
+      {
+        "id": "b2l5d23",
+        "term": "competition",
+        "pronunciation": "",
+        "translation": "rekabet; rakipler",
+        "sentences": [
+          "Clients will not even consider the competition.",
+          "There is strong competition in this market.",
+          "We won the competition for the new project."
+        ],
+        "translations": [
+          "Müşteriler rakipleri düşünmeyecek bile.",
+          "Bu pazarda güçlü bir rekabet var.",
+          "Yeni proje için rekabeti kazandık."
+        ],
+        "explanation": "compete (fiil) + -ition."
+      },
+      {
+        "id": "b2l5d24",
+        "term": "significance",
+        "pronunciation": "",
+        "translation": "önem",
+        "sentences": [
+          "Computers have gained extraordinary significance at work.",
+          "Nobody understood the significance of the test.",
+          "This date has great significance for the company."
+        ],
+        "translations": [
+          "Bilgisayarlar iş yerinde olağanüstü bir önem kazandı.",
+          "Kimse testin önemini anlamadı.",
+          "Bu tarihin şirket için büyük önemi var."
+        ],
+        "explanation": "importance. significant (sıfat). (extraordinary 2D'de vardı.)"
+      },
+      {
+        "id": "b2l5d25",
+        "term": "blunder",
+        "pronunciation": "",
+        "translation": "gaf, büyük hata",
+        "sentences": [
+          "I answered his questions without too many blunders.",
+          "Sending the wrong file was a big blunder.",
+          "One blunder can lose you the job."
+        ],
+        "translations": [
+          "Sorularını çok fazla gaf yapmadan cevapladım.",
+          "Yanlış dosyayı göndermek büyük bir gaftı.",
+          "Tek bir gaf sana işi kaybettirebilir."
+        ],
+        "explanation": "a careless and stupid mistake."
+      },
+      {
+        "id": "b2l5d26",
+        "term": "on the spot",
+        "pronunciation": "",
+        "translation": "anında, yerinde",
+        "sentences": [
+          "If they offer you the job on the spot, ask for time to think.",
+          "The inspector made a decision on the spot.",
+          "She solved the problem on the spot."
+        ],
+        "translations": [
+          "İşi anında teklif ederlerse düşünmek için zaman iste.",
+          "Müfettiş yerinde karar verdi.",
+          "Sorunu anında çözdü."
+        ],
+        "explanation": "immediately; at that moment."
       }
     ]
   }

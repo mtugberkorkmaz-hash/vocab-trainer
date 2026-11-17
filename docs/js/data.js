@@ -77,6 +77,14 @@ const Data = {
       }));
       c.words.forEach((w) => this.words.push(w));
     });
+    // Kelimelik: seviye + konu + İngilizce tanım (+ ek kelimeler)
+    this.kel = { topics: [], meta: {}, extra: [] };
+    try {
+      const kl = await fetch('data/kelimelik.json').then((res) => (res.ok ? res.json() : null));
+      if (kl) this.kel = { topics: kl.topics || [], meta: kl.meta || {}, extra: kl.extra || [] };
+    } catch (e) {
+      // keep the empty default
+    }
     this.loaded = true;
   },
 

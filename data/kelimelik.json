@@ -1,0 +1,7212 @@
+{
+  "topics": [
+    {
+      "id": "daily",
+      "title": "Günlük Hayat & Ev"
+    },
+    {
+      "id": "people",
+      "title": "İnsanlar, Aile & İlişkiler"
+    },
+    {
+      "id": "feel",
+      "title": "Duygular & Kişilik"
+    },
+    {
+      "id": "desc",
+      "title": "Nitelikler (sıfat & zarf)"
+    },
+    {
+      "id": "verb",
+      "title": "Önemli Fiiller"
+    },
+    {
+      "id": "pv",
+      "title": "Phrasal Verbs"
+    },
+    {
+      "id": "expr",
+      "title": "Kalıplar & Deyimler"
+    },
+    {
+      "id": "write",
+      "title": "Yazma & Bağlaçlar"
+    },
+    {
+      "id": "work",
+      "title": "İş, Kariyer & Para"
+    },
+    {
+      "id": "meet",
+      "title": "Toplantı & İletişim"
+    },
+    {
+      "id": "tech",
+      "title": "Teknoloji & Bilim"
+    },
+    {
+      "id": "health",
+      "title": "Sağlık & Beslenme"
+    },
+    {
+      "id": "travel",
+      "title": "Seyahat, Yerler & Doğa"
+    },
+    {
+      "id": "soc",
+      "title": "Toplum & Sorunlar"
+    },
+    {
+      "id": "crime",
+      "title": "Suç, Gizem & Güvenlik"
+    },
+    {
+      "id": "engb",
+      "title": "Mühendislik — temel"
+    }
+  ],
+  "meta": {
+    "eng001": [
+      "TK",
+      "engb",
+      "the volume or mass of fluid passing a point per unit of time"
+    ],
+    "eng002": [
+      "TK",
+      "engb",
+      "the loss of pressure as a fluid flows through a pipe or component"
+    ],
+    "eng003": [
+      "TK",
+      "engb",
+      "a standard number used to describe the size of a pipe"
+    ],
+    "eng004": [
+      "TK",
+      "engb",
+      "extra wall thickness added to allow for metal lost to corrosion"
+    ],
+    "eng005": [
+      "TK",
+      "engb",
+      "a flat rim used to bolt pipes, valves or equipment together"
+    ],
+    "eng006": [
+      "TK",
+      "engb",
+      "a strength and leak test done by filling a system with water under pressure"
+    ],
+    "eng007": [
+      "TK",
+      "engb",
+      "a 3D-style drawing that shows a single pipe line with all dimensions"
+    ],
+    "eng008": [
+      "TK",
+      "engb",
+      "how thick the insulating layer around a pipe or vessel is"
+    ],
+    "eng009": [
+      "TK",
+      "engb",
+      "a device that opens and closes a valve automatically"
+    ],
+    "eng010": [
+      "TK",
+      "engb",
+      "the maximum pressure a system is designed to withstand"
+    ],
+    "eng011": [
+      "TK",
+      "engb",
+      "the thickness of the metal wall of a pipe"
+    ],
+    "eng012": [
+      "TK",
+      "engb",
+      "a drawing updated to show exactly how something was finally built"
+    ],
+    "eng013": [
+      "B2",
+      "verb",
+      "to state something clearly and in detail"
+    ],
+    "eng014": [
+      "B2",
+      "verb",
+      "to obey a rule, standard or request"
+    ],
+    "eng015": [
+      "B1",
+      "verb",
+      "to change something in order to correct or improve it"
+    ],
+    "eng016": [
+      "TK",
+      "engb",
+      "an investigation into why a part or system broke down"
+    ],
+    "eng017": [
+      "TK",
+      "engb",
+      "how many load cycles a material can survive before it cracks"
+    ],
+    "eng018": [
+      "TK",
+      "engb",
+      "a computer method that divides a part into small elements to calculate stress"
+    ],
+    "eng019": [
+      "TK",
+      "engb",
+      "the ratio between the real strength of a part and the load it carries"
+    ],
+    "eng020": [
+      "TK",
+      "engb",
+      "the allowed variation from a specified dimension during production"
+    ],
+    "eng021": [
+      "TK",
+      "engb",
+      "a complete list of the parts and materials needed to build something"
+    ],
+    "eng022": [
+      "TK",
+      "engb",
+      "the free space between two objects"
+    ],
+    "eng023": [
+      "B2",
+      "work",
+      "damage that happens naturally through normal use over time"
+    ],
+    "eng024": [
+      "TK",
+      "engb",
+      "the maximum pulling force a material can resist before breaking"
+    ],
+    "eng025": [
+      "TK",
+      "engb",
+      "the science of how liquids and gases move"
+    ],
+    "eng026": [
+      "TK",
+      "engb",
+      "the increase in size of a material when it gets hotter"
+    ],
+    "eng027": [
+      "TK",
+      "engb",
+      "reducing the shaking movement of a machine or structure"
+    ],
+    "eng028": [
+      "TK",
+      "engb",
+      "a tool that tightens bolts to an exact turning force"
+    ],
+    "eng029": [
+      "TK",
+      "engb",
+      "regular maintenance done to stop failures before they happen"
+    ],
+    "eng030": [
+      "TK",
+      "engb",
+      "machines with moving shafts, such as pumps, fans and compressors"
+    ],
+    "eng031": [
+      "TK",
+      "engb",
+      "a load that does not change or move over time"
+    ],
+    "eng032": [
+      "TK",
+      "engb",
+      "a drawing that shows how parts fit together"
+    ],
+    "eng033": [
+      "TK",
+      "engb",
+      "a number that shows how much two surfaces resist sliding"
+    ],
+    "eng034": [
+      "B2",
+      "work",
+      "extra parts kept to replace broken ones"
+    ],
+    "eng035": [
+      "TK",
+      "engb",
+      "the maximum (or minimum) temperature a system is designed for"
+    ],
+    "eng036": [
+      "TK",
+      "engb",
+      "the pressure at which a system normally runs"
+    ],
+    "eng037": [
+      "TK",
+      "engb",
+      "the temperature at which a system normally runs"
+    ],
+    "eng038": [
+      "TK",
+      "engb",
+      "a structure that holds a pipe in position and carries its weight"
+    ],
+    "eng039": [
+      "TK",
+      "engb",
+      "a point where a smaller pipe joins a main pipe"
+    ],
+    "eng040": [
+      "TK",
+      "engb",
+      "the pressure class of a flange, e.g. 150# or 300#"
+    ],
+    "eng041": [
+      "TK",
+      "engb",
+      "a soft ring placed between two flanges to stop leaks"
+    ],
+    "eng042": [
+      "TK",
+      "engb",
+      "the main outer casing of a valve"
+    ],
+    "eng043": [
+      "TK",
+      "engb",
+      "the internal parts of a valve that touch the fluid and control flow"
+    ],
+    "eng044": [
+      "TK",
+      "engb",
+      "a valve used to stop the flow completely"
+    ],
+    "eng045": [
+      "TK",
+      "engb",
+      "a valve that lets fluid flow in only one direction"
+    ],
+    "eng046": [
+      "TK",
+      "engb",
+      "a valve that changes the flow automatically to control a process"
+    ],
+    "eng047": [
+      "TK",
+      "engb",
+      "a flexible part that absorbs pipe movement caused by heat"
+    ],
+    "eng048": [
+      "TK",
+      "engb",
+      "a low connection used to empty liquid from a system"
+    ],
+    "eng049": [
+      "TK",
+      "engb",
+      "a high connection used to let air or gas out of a system"
+    ],
+    "mtg001": [
+      "B2",
+      "meet",
+      "to return to a topic later"
+    ],
+    "mtg002": [
+      "B2",
+      "meet",
+      "a task that someone must do after a meeting"
+    ],
+    "mtg003": [
+      "B2",
+      "meet",
+      "to contact someone briefly to share news"
+    ],
+    "mtg004": [
+      "B1",
+      "meet",
+      "to take further action or check on something after an earlier contact"
+    ],
+    "mtg005": [
+      "B2",
+      "meet",
+      "to be making progress as planned"
+    ],
+    "mtg006": [
+      "C1",
+      "meet",
+      "to postpone discussing something until later"
+    ],
+    "mtg007": [
+      "B1",
+      "meet",
+      "a polite way to ask someone to explain more clearly"
+    ],
+    "mtg008": [
+      "C1",
+      "meet",
+      "to give someone the latest information"
+    ],
+    "mtg009": [
+      "B2",
+      "meet",
+      "a product or document that must be delivered in a project"
+    ],
+    "mtg010": [
+      "C1",
+      "meet",
+      "to include someone in a conversation or email chain"
+    ],
+    "mtg011": [
+      "B2",
+      "meet",
+      "to move a deadline or event to a later time"
+    ],
+    "mtg012": [
+      "B2",
+      "meet",
+      "to reach a shared understanding"
+    ],
+    "mtg013": [
+      "B1",
+      "meet",
+      "to mention or look at something for information"
+    ],
+    "mtg014": [
+      "A2",
+      "meet",
+      "to be present at a meeting or event"
+    ],
+    "mtg015": [
+      "B2",
+      "verb",
+      "to make certain that something happens"
+    ],
+    "mtg016": [
+      "B1",
+      "verb",
+      "to say that something is true or definite"
+    ],
+    "mtg017": [
+      "B2",
+      "verb",
+      "to make something easier to understand"
+    ],
+    "mtg018": [
+      "B1",
+      "verb",
+      "to think carefully about something before deciding"
+    ],
+    "mtg019": [
+      "B2",
+      "verb",
+      "to continue or go on to the next step"
+    ],
+    "mtg020": [
+      "C1",
+      "work",
+      "a study that checks whether a project is possible and worthwhile"
+    ],
+    "day001": [
+      "B1",
+      "daily",
+      "to be later than planned"
+    ],
+    "day002": [
+      "B2",
+      "daily",
+      "to get something quick to eat"
+    ],
+    "day003": [
+      "B1",
+      "pv",
+      "to understand or solve something after thinking"
+    ],
+    "day004": [
+      "B1",
+      "expr",
+      "to be good enough to justify the effort or cost"
+    ],
+    "day005": [
+      "B1",
+      "expr",
+      "to watch something carefully"
+    ],
+    "day006": [
+      "B1",
+      "expr",
+      "to be doing something; or to be someone's decision"
+    ],
+    "day007": [
+      "B1",
+      "expr",
+      "to help someone"
+    ],
+    "day008": [
+      "B1",
+      "expr",
+      "to arrive in time or succeed"
+    ],
+    "day009": [
+      "B1",
+      "daily",
+      "unable to move or make progress"
+    ],
+    "day010": [
+      "C1",
+      "write",
+      "in a way that one can be used in place of the other"
+    ],
+    "day011": [
+      "C1",
+      "write",
+      "an exchange of ideas or a junction of roads"
+    ],
+    "day012": [
+      "B2",
+      "verb",
+      "to usually do or be something"
+    ],
+    "day013": [
+      "B2",
+      "verb",
+      "to see or show the difference between things"
+    ],
+    "day014": [
+      "B2",
+      "desc",
+      "closely connected to the subject"
+    ],
+    "day015": [
+      "B1",
+      "desc",
+      "suitable for a particular situation"
+    ],
+    "day016": [
+      "A2",
+      "desc",
+      "able to be used or obtained; free to do something"
+    ],
+    "day017": [
+      "B1",
+      "desc",
+      "needed or demanded"
+    ],
+    "day018": [
+      "B2",
+      "verb",
+      "to think something is true without proof"
+    ],
+    "b2l1a01": [
+      "B2",
+      "expr",
+      "to be busy doing something, often secretly"
+    ],
+    "b2l1a02": [
+      "B1",
+      "expr",
+      "to do something unimportant while waiting"
+    ],
+    "b2l1a03": [
+      "B1",
+      "expr",
+      "to have none of something left"
+    ],
+    "b2l1a04": [
+      "B2",
+      "expr",
+      "to be something a person enjoys or is good at"
+    ],
+    "b2l1a05": [
+      "B1",
+      "desc",
+      "no longer modern or popular"
+    ],
+    "b2l1a06": [
+      "B2",
+      "expr",
+      "an informal way of saying \"certainly, yes\""
+    ],
+    "b2l1a07": [
+      "B1",
+      "expr",
+      "it is not important; don't worry"
+    ],
+    "b2l1a08": [
+      "B2",
+      "feel",
+      "a feeling of worry; or something important to someone"
+    ],
+    "b2l1a09": [
+      "B2",
+      "desc",
+      "legally or officially acceptable; reasonable"
+    ],
+    "b2l1a10": [
+      "B2",
+      "crime",
+      "a dishonest plan to get money from people"
+    ],
+    "b2l1a11": [
+      "C1",
+      "soc",
+      "official rules made by law"
+    ],
+    "b2l1a12": [
+      "B1",
+      "feel",
+      "the ability to wait calmly without getting angry"
+    ],
+    "b2l1a13": [
+      "B2",
+      "expr",
+      "the advantages and disadvantages of something"
+    ],
+    "b2l1a14": [
+      "B1",
+      "write",
+      "a small group of words used together"
+    ],
+    "b2l1a15": [
+      "B1",
+      "desc",
+      "very strange or unusual"
+    ],
+    "b2l1a16": [
+      "B2",
+      "crime",
+      "to believe something is true, often something bad"
+    ],
+    "b2l1a17": [
+      "A2",
+      "desc",
+      "certainly; without any doubt"
+    ],
+    "b2l1a18": [
+      "B1",
+      "write",
+      "close to an exact number but not exact"
+    ],
+    "b2l1a19": [
+      "A2",
+      "work",
+      "a formal meeting where an employer asks a candidate questions"
+    ],
+    "b2l1a20": [
+      "B1",
+      "daily",
+      "to fix something to a wall or hook so it hangs down"
+    ],
+    "b2l1a21": [
+      "A2",
+      "daily",
+      "to make a liquid flow from a container"
+    ],
+    "b2l1a22": [
+      "A2",
+      "people",
+      "a person who is invited to your home or an event"
+    ],
+    "b2l1a23": [
+      "B2",
+      "daily",
+      "a light evening meal"
+    ],
+    "b2l1a24": [
+      "B2",
+      "people",
+      "a quiet song sung to make a child sleep"
+    ],
+    "b2l1a25": [
+      "A2",
+      "daily",
+      "to cook food in an oven"
+    ],
+    "b2l1a26": [
+      "A2",
+      "daily",
+      "a group of twelve"
+    ],
+    "b2l1a27": [
+      "B1",
+      "write",
+      "continuously from a point in the past until now"
+    ],
+    "b2l1a28": [
+      "A2",
+      "meet",
+      "to talk about something with others"
+    ],
+    "b2l1a29": [
+      "B1",
+      "feel",
+      "able to wait calmly; also a person receiving medical care"
+    ],
+    "b2l1a30": [
+      "B2",
+      "work",
+      "a person or company that sells or supplies goods"
+    ],
+    "b2l1a31": [
+      "A2",
+      "meet",
+      "to answer someone"
+    ],
+    "b2l1a32": [
+      "B2",
+      "feel",
+      "to be grateful for something; to understand its value"
+    ],
+    "b2l201": [
+      "B2",
+      "write",
+      "the first sentence of a paragraph that gives the main idea"
+    ],
+    "b2l202": [
+      "B2",
+      "write",
+      "sentences that explain and give examples of the main idea"
+    ],
+    "b2l203": [
+      "B2",
+      "write",
+      "the last sentence of a paragraph that sums up the idea"
+    ],
+    "b2l204": [
+      "B2",
+      "write",
+      "a phrase to introduce the most important difficulty"
+    ],
+    "b2l205": [
+      "B1",
+      "write",
+      "a phrase used to give a reason"
+    ],
+    "b2l206": [
+      "B2",
+      "write",
+      "a phrase to introduce one more difficulty"
+    ],
+    "b2l207": [
+      "B1",
+      "write",
+      "a linker used to show a consequence"
+    ],
+    "b2l208": [
+      "B2",
+      "write",
+      "a linker used to give a final summary"
+    ],
+    "b2l209": [
+      "B1",
+      "pv",
+      "to use all of something so none is left"
+    ],
+    "b2l210": [
+      "C1",
+      "daily",
+      "to wash yourself or someone in a bath"
+    ],
+    "b2l1b01": [
+      "B1",
+      "desc",
+      "a period of ten years"
+    ],
+    "b2l1b02": [
+      "B2",
+      "tech",
+      "combined with other parts to work together as a whole"
+    ],
+    "b2l1b03": [
+      "C1",
+      "tech",
+      "seeming to be everywhere at the same time"
+    ],
+    "b2l1b04": [
+      "C1",
+      "tech",
+      "the act of getting stored information back"
+    ],
+    "b2l1b05": [
+      "C1",
+      "desc",
+      "so important that you cannot manage without it"
+    ],
+    "b2l1b06": [
+      "C1",
+      "tech",
+      "no longer used because something newer exists"
+    ],
+    "b2l1b07": [
+      "C1",
+      "tech",
+      "able to work or decide independently"
+    ],
+    "b2l1b08": [
+      "B2",
+      "verb",
+      "to change your behaviour to suit a new situation"
+    ],
+    "b2l1b09": [
+      "C1",
+      "tech",
+      "making you feel completely surrounded by an experience"
+    ],
+    "b2l1b10": [
+      "B1",
+      "tech",
+      "something new that has been created for the first time"
+    ],
+    "b2l1b11": [
+      "B2",
+      "desc",
+      "having no meaning or purpose"
+    ],
+    "b2l1b12": [
+      "B1",
+      "desc",
+      "correct and exact in every detail"
+    ],
+    "b2l1b13": [
+      "C1",
+      "tech",
+      "to change something completely and fundamentally"
+    ],
+    "b2l1b14": [
+      "C1",
+      "desc",
+      "very great or deep in effect"
+    ],
+    "b2l1b15": [
+      "C1",
+      "verb",
+      "to use something; or to give someone a job"
+    ],
+    "b2l1b16": [
+      "C1",
+      "expr",
+      "working together at the same time"
+    ],
+    "b2l1b17": [
+      "B1",
+      "desc",
+      "completely necessary"
+    ],
+    "b2l1b18": [
+      "C1",
+      "desc",
+      "ordinary and not special in any way"
+    ],
+    "b2l1b19": [
+      "C1",
+      "desc",
+      "very common and not unusual"
+    ],
+    "b2l1b20": [
+      "C1",
+      "health",
+      "systems for clean water and waste removal"
+    ],
+    "b2l1b21": [
+      "C1",
+      "tech",
+      "the decision to start using something new"
+    ],
+    "b2l1b22": [
+      "B2",
+      "work",
+      "the process of making choices"
+    ],
+    "b2l1c01": [
+      "B2",
+      "daily",
+      "paper, pens and other materials for writing"
+    ],
+    "b2l1c02": [
+      "B1",
+      "work",
+      "to lose your job because of your employer's decision"
+    ],
+    "b2l1c03": [
+      "B2",
+      "work",
+      "to risk money or something valuable on an uncertain result"
+    ],
+    "b2l1c04": [
+      "B2",
+      "verb",
+      "to make known something that was secret"
+    ],
+    "b2l1c05": [
+      "B1",
+      "write",
+      "used to show a choice between possibilities (\"if\")"
+    ],
+    "b2l1c06": [
+      "B1",
+      "tech",
+      "a statement about what will probably happen, e.g. the weather"
+    ],
+    "b2l1c07": [
+      "B2",
+      "desc",
+      "needing a lot of time, effort or skill"
+    ],
+    "b2l1c08": [
+      "C1",
+      "tech",
+      "frequent change in amount or level"
+    ],
+    "b2l1c09": [
+      "B2",
+      "desc",
+      "almost completely"
+    ],
+    "b2l1c10": [
+      "B2",
+      "verb",
+      "to spread things over a wide area"
+    ],
+    "b2l1c11": [
+      "B2",
+      "tech",
+      "to lean or make something lean to one side"
+    ],
+    "b2l1c12": [
+      "B2",
+      "tech",
+      "one half of the Earth or another planet"
+    ],
+    "b2l1c13": [
+      "B2",
+      "desc",
+      "suddenly and to a great degree"
+    ],
+    "b2l1c14": [
+      "C1",
+      "verb",
+      "to affect or disturb something in a negative way"
+    ],
+    "b2l1c15": [
+      "B2",
+      "desc",
+      "not clear because of smoke, mist or heat"
+    ],
+    "b2l1c16": [
+      "C1",
+      "tech",
+      "to send people to live in a new place and take control of it"
+    ],
+    "b2l1c17": [
+      "B2",
+      "travel",
+      "the imaginary line around the middle of the Earth"
+    ],
+    "b2l1d01": [
+      "B2",
+      "health",
+      "to suffer from not getting enough sleep"
+    ],
+    "b2l1d02": [
+      "C1",
+      "soc",
+      "to be in a situation of having no home"
+    ],
+    "b2l1d03": [
+      "B2",
+      "expr",
+      "a very big difficulty"
+    ],
+    "b2l1d04": [
+      "C1",
+      "expr",
+      "to become clear or obvious"
+    ],
+    "b2l1d05": [
+      "C1",
+      "expr",
+      "to have a very strong effect on something"
+    ],
+    "b2l1d06": [
+      "C1",
+      "expr",
+      "to cause pressure or difficulty for something"
+    ],
+    "b2l1d07": [
+      "B2",
+      "expr",
+      "to strongly affect how something develops"
+    ],
+    "b2l2a01": [
+      "C1",
+      "expr",
+      "a bad situation where one problem causes another that makes the first worse"
+    ],
+    "b2l2a02": [
+      "B1",
+      "desc",
+      "suitable or right for a particular situation"
+    ],
+    "b2l2a03": [
+      "B2",
+      "verb",
+      "to demand firmly that something happens"
+    ],
+    "b2l2a04": [
+      "B2",
+      "verb",
+      "to develop gradually"
+    ],
+    "b2l2a05": [
+      "B2",
+      "feel",
+      "pressure or stress caused by a difficult situation"
+    ],
+    "b2l2a06": [
+      "C1",
+      "verb",
+      "to show a feeling or quality; to display publicly"
+    ],
+    "b2l2a07": [
+      "C1",
+      "verb",
+      "to take part in an activity"
+    ],
+    "b2l2a08": [
+      "B1",
+      "verb",
+      "to know someone or something because you have seen it before"
+    ],
+    "b2l2a09": [
+      "B1",
+      "verb",
+      "the power to affect people or things"
+    ],
+    "b2l2a10": [
+      "C1",
+      "desc",
+      "harmful or negative"
+    ],
+    "b2l2a11": [
+      "B2",
+      "feel",
+      "giving help and encouragement"
+    ],
+    "b2l2a12": [
+      "B2",
+      "feel",
+      "finding too many faults in others"
+    ],
+    "b2l2a13": [
+      "C1",
+      "feel",
+      "not influenced by personal advantage; neutral"
+    ],
+    "b2l2a14": [
+      "B2",
+      "expr",
+      "hopes that cannot be achieved"
+    ],
+    "b2l2b01": [
+      "B1",
+      "health",
+      "to experience an illness or a bad situation"
+    ],
+    "b2l2b02": [
+      "C1",
+      "work",
+      "a company or business; a new project"
+    ],
+    "b2l2b03": [
+      "B1",
+      "feel",
+      "the way you think and feel about something"
+    ],
+    "b2l2b04": [
+      "B2",
+      "soc",
+      "the state of being very poor"
+    ],
+    "b2l2b05": [
+      "B2",
+      "soc",
+      "the opinion people have of someone or something"
+    ],
+    "b2l2b06": [
+      "B1",
+      "desc",
+      "the reason why something is done"
+    ],
+    "b2l2b07": [
+      "C1",
+      "soc",
+      "a homeless person who sleeps outside"
+    ],
+    "b2l2b08": [
+      "B2",
+      "desc",
+      "easy to see or understand; seeming true"
+    ],
+    "b2l2b09": [
+      "B2",
+      "soc",
+      "the condition of having no home"
+    ],
+    "b2l2b10": [
+      "B2",
+      "desc",
+      "extremely large"
+    ],
+    "b2l2b11": [
+      "B2",
+      "health",
+      "a lack of enough sleep over time"
+    ],
+    "b2l2b12": [
+      "B2",
+      "expr",
+      "to not appreciate something because you always have it"
+    ],
+    "b2l2b13": [
+      "B2",
+      "soc",
+      "a place that protects people from danger or weather"
+    ],
+    "b2l2b14": [
+      "C1",
+      "soc",
+      "a person rejected by society"
+    ],
+    "b2l2b15": [
+      "C1",
+      "soc",
+      "a person who wanders with no home or job"
+    ],
+    "b2l2b16": [
+      "C1",
+      "expr",
+      "without money, home or work"
+    ],
+    "b2l2b17": [
+      "C1",
+      "people",
+      "no longer in contact with family or friends"
+    ],
+    "b2l2b18": [
+      "C1",
+      "soc",
+      "to make someone feel isolated or unwelcome"
+    ],
+    "b2l2b19": [
+      "C1",
+      "feel",
+      "the state of being so hopeless that you take risks"
+    ],
+    "b2l2b20": [
+      "C1",
+      "feel",
+      "a feeling of shame and loss of respect"
+    ],
+    "b2l2b21": [
+      "B2",
+      "expr",
+      "the state of not having enough of something"
+    ],
+    "b2l2b22": [
+      "C1",
+      "soc",
+      "a situation that causes suffering or difficulty"
+    ],
+    "b2l2b23": [
+      "C1",
+      "work",
+      "money earned in a legal way"
+    ],
+    "b2l2b24": [
+      "C1",
+      "desc",
+      "a very large number of"
+    ],
+    "b2l2b25": [
+      "B2",
+      "soc",
+      "an unfair difference between groups of people"
+    ],
+    "b2l2c01": [
+      "B2",
+      "desc",
+      "very simple and basic; from an early stage of development"
+    ],
+    "b2l2c02": [
+      "B1",
+      "work",
+      "things that someone owns, such as land or buildings"
+    ],
+    "b2l2c03": [
+      "C1",
+      "people",
+      "a piece of thin cloth that covers a bride's face"
+    ],
+    "b2l2c04": [
+      "B1",
+      "travel",
+      "a structure that sends water into the air"
+    ],
+    "b2l2c05": [
+      "A2",
+      "daily",
+      "soft shoes worn at home"
+    ],
+    "b2l2c06": [
+      "C1",
+      "daily",
+      "the floor at the entrance of a door; a starting level"
+    ],
+    "b2l2c07": [
+      "C1",
+      "people",
+      "money or property a bride's family gives at marriage"
+    ],
+    "b2l2c08": [
+      "B2",
+      "people",
+      "a marriage planned by the families"
+    ],
+    "b2l2c09": [
+      "B2",
+      "people",
+      "to marry again"
+    ],
+    "b2l2c10": [
+      "B1",
+      "people",
+      "the legal end of a marriage"
+    ],
+    "b2l2c11": [
+      "B2",
+      "people",
+      "a man who is about to get married"
+    ],
+    "b2l2c12": [
+      "B2",
+      "soc",
+      "a special right or advantage for a person or group"
+    ],
+    "b2l2c13": [
+      "C1",
+      "people",
+      "a person with the same role in a different place"
+    ],
+    "b2l2c14": [
+      "B1",
+      "people",
+      "a formal event held for a special occasion"
+    ],
+    "b2l2d01": [
+      "B2",
+      "desc",
+      "very unusual or remarkable"
+    ],
+    "b2l2d02": [
+      "B2",
+      "desc",
+      "very strange and unusual"
+    ],
+    "b2l2d03": [
+      "C1",
+      "desc",
+      "having no equal; better than any other"
+    ],
+    "b2l2d04": [
+      "C1",
+      "desc",
+      "extremely good or successful"
+    ],
+    "b2l2d05": [
+      "B2",
+      "desc",
+      "excellent; much better than others"
+    ],
+    "b2l2d06": [
+      "B2",
+      "desc",
+      "unusually good"
+    ],
+    "b2l2d07": [
+      "C1",
+      "desc",
+      "important or interesting enough to notice"
+    ],
+    "b2l2d08": [
+      "B1",
+      "desc",
+      "being the only one of its kind"
+    ],
+    "b2l2d09": [
+      "B2",
+      "expr",
+      "creative and original in thinking"
+    ],
+    "b2l2d10": [
+      "B2",
+      "desc",
+      "traditional and ordinary"
+    ],
+    "b2l2d11": [
+      "C1",
+      "desc",
+      "usual according to custom"
+    ],
+    "b2l2d12": [
+      "C1",
+      "desc",
+      "done regularly as a habit"
+    ],
+    "b2l2d13": [
+      "B2",
+      "desc",
+      "accepted by most people; the normal trend"
+    ],
+    "b2l2d14": [
+      "B1",
+      "daily",
+      "a usual fixed way of doing things"
+    ],
+    "b2l2d15": [
+      "B1",
+      "desc",
+      "well known because you have seen it often"
+    ],
+    "b2l2d16": [
+      "B2",
+      "pv",
+      "to be accepted by a group"
+    ],
+    "b2l2d17": [
+      "C1",
+      "verb",
+      "to stop something from developing or being expressed"
+    ],
+    "b2l2d18": [
+      "B2",
+      "soc",
+      "a range of different people or things"
+    ],
+    "b2l2d19": [
+      "B1",
+      "work",
+      "something given in return for good work"
+    ],
+    "b2l2d20": [
+      "B1",
+      "write",
+      "in the end, after a long time"
+    ],
+    "b2l2d21": [
+      "B1",
+      "verb",
+      "to be real; to be present"
+    ],
+    "b2l2d22": [
+      "B1",
+      "verb",
+      "to say no to something"
+    ],
+    "b2l2d23": [
+      "B2",
+      "soc",
+      "a complete change; the overthrow of a government"
+    ],
+    "b2l3a01": [
+      "C1",
+      "pv",
+      "to spend time somewhere doing nothing important; to be somewhere unnoticed"
+    ],
+    "b2l3a02": [
+      "B2",
+      "pv",
+      "to hide a mistake or crime"
+    ],
+    "b2l3a03": [
+      "A2",
+      "pv",
+      "to leave a place"
+    ],
+    "b2l3a04": [
+      "B1",
+      "pv",
+      "to spend time relaxing with friends"
+    ],
+    "b2l3a05": [
+      "C1",
+      "pv",
+      "to make a child comfortable in bed"
+    ],
+    "b2l3a06": [
+      "A2",
+      "pv",
+      "to try to find something"
+    ],
+    "b2l3a07": [
+      "B2",
+      "pv",
+      "to admire and respect someone"
+    ],
+    "b2l3a08": [
+      "B1",
+      "pv",
+      "to feel happy about something that will happen"
+    ],
+    "b2l3a09": [
+      "B1",
+      "pv",
+      "to search for information"
+    ],
+    "b2l3a10": [
+      "A2",
+      "pv",
+      "to take care of someone"
+    ],
+    "b2l3a11": [
+      "B2",
+      "pv",
+      "to investigate or examine something"
+    ],
+    "b2l3a12": [
+      "B2",
+      "pv",
+      "to check something quickly"
+    ],
+    "b2l3a13": [
+      "C1",
+      "pv",
+      "to watch something without taking part"
+    ],
+    "b2l3a14": [
+      "C1",
+      "pv",
+      "to increase something, e.g. a price"
+    ],
+    "b2l3a15": [
+      "C1",
+      "pv",
+      "to reduce the size or amount of something"
+    ],
+    "b2l3a16": [
+      "B2",
+      "pv",
+      "to slowly disappear"
+    ],
+    "b2l3a17": [
+      "C1",
+      "pv",
+      "to become less loud or strong"
+    ],
+    "b2l3a18": [
+      "B2",
+      "pv",
+      "to fail to keep up with others"
+    ],
+    "b2l3a19": [
+      "C1",
+      "pv",
+      "to make something more exciting"
+    ],
+    "b2l3a20": [
+      "A2",
+      "pv",
+      "to make someone happier"
+    ],
+    "b2l3a21": [
+      "C1",
+      "pv",
+      "to make someone understand you"
+    ],
+    "b2l3a22": [
+      "B1",
+      "pv",
+      "to end a relationship"
+    ],
+    "b2l3a23": [
+      "B1",
+      "pv",
+      "to go somewhere with someone; to make progress"
+    ],
+    "b2l3a24": [
+      "C1",
+      "pv",
+      "to explain an idea clearly"
+    ],
+    "b2l3a25": [
+      "B2",
+      "pv",
+      "to have existed since a certain time in the past"
+    ],
+    "b2l3a26": [
+      "C1",
+      "health",
+      "sleepy and tired"
+    ],
+    "b2l3b01": [
+      "B2",
+      "travel",
+      "having several floors"
+    ],
+    "b2l3b02": [
+      "B2",
+      "crime",
+      "the act of killing yourself"
+    ],
+    "b2l3b03": [
+      "B1",
+      "people",
+      "a ceremony held after someone dies"
+    ],
+    "b2l3b04": [
+      "B2",
+      "crime",
+      "a person thought to have committed a crime"
+    ],
+    "b2l3b05": [
+      "B1",
+      "crime",
+      "to take someone to a police station because of a crime"
+    ],
+    "b2l3b06": [
+      "B2",
+      "crime",
+      "to do something wrong or illegal"
+    ],
+    "b2l3b07": [
+      "B2",
+      "crime",
+      "a puzzling question with a clever answer"
+    ],
+    "b2l3b08": [
+      "C1",
+      "crime",
+      "reaching a conclusion by reasoning"
+    ],
+    "b2l3b09": [
+      "B1",
+      "crime",
+      "a person whose job is to solve crimes"
+    ],
+    "b2l3b10": [
+      "B1",
+      "travel",
+      "a holiday taken by a newly married couple"
+    ],
+    "b2l3b11": [
+      "B2",
+      "write",
+      "before or at the moment when something happens"
+    ],
+    "b2l3b12": [
+      "B1",
+      "crime",
+      "to get away from a place or danger"
+    ],
+    "b2l3b13": [
+      "A2",
+      "pv",
+      "to turn on a machine or light"
+    ],
+    "b2l3c01": [
+      "C1",
+      "crime",
+      "the act of questioning someone closely, often by police"
+    ],
+    "b2l3c02": [
+      "B2",
+      "crime",
+      "a police officer of middle rank; or an official who checks things"
+    ],
+    "b2l3c03": [
+      "B2",
+      "crime",
+      "a feeling that someone has done something wrong"
+    ],
+    "b2l3c04": [
+      "B2",
+      "verb",
+      "to accept something as true without proof"
+    ],
+    "b2l3c05": [
+      "C1",
+      "desc",
+      "not legally or officially acceptable"
+    ],
+    "b2l3c06": [
+      "B2",
+      "expr",
+      "ideas or words that are silly or not true"
+    ],
+    "b2l3c07": [
+      "B2",
+      "work",
+      "to bring goods into a country"
+    ],
+    "b2l3c08": [
+      "A2",
+      "verb",
+      "to divide or use something with others"
+    ],
+    "b2l3c09": [
+      "B2",
+      "people",
+      "to be unfaithful to a partner"
+    ],
+    "b2l3c10": [
+      "C1",
+      "crime",
+      "a dead body"
+    ],
+    "b2l3c11": [
+      "B2",
+      "crime",
+      "to examine a crime or problem carefully"
+    ],
+    "b2l3c12": [
+      "B1",
+      "crime",
+      "a piece of information that helps solve a mystery"
+    ],
+    "b2l3c13": [
+      "B2",
+      "crime",
+      "a person who saw a crime or event happen"
+    ],
+    "b2l3c14": [
+      "B2",
+      "verb",
+      "to leave someone or something forever"
+    ],
+    "b2l3c15": [
+      "B2",
+      "expr",
+      "to be very expensive"
+    ],
+    "b2l3c16": [
+      "B2",
+      "expr",
+      "extremely cheap"
+    ],
+    "b2l3d01": [
+      "B2",
+      "crime",
+      "visited by ghosts"
+    ],
+    "b2l3d02": [
+      "C1",
+      "crime",
+      "to kill someone as a legal punishment"
+    ],
+    "b2l3d03": [
+      "C1",
+      "crime",
+      "the use of magic powers, especially evil ones"
+    ],
+    "b2l3d04": [
+      "B2",
+      "travel",
+      "a very large and impressive house"
+    ],
+    "b2l3d05": [
+      "B2",
+      "verb",
+      "to say something is true without proof"
+    ],
+    "b2l3d06": [
+      "C1",
+      "travel",
+      "to move around an area with no purpose"
+    ],
+    "b2l3d07": [
+      "C1",
+      "verb",
+      "to look carefully, especially at something difficult to see"
+    ],
+    "b2l3d08": [
+      "C1",
+      "crime",
+      "a ghost or ghostlike image"
+    ],
+    "b2l3d09": [
+      "B2",
+      "daily",
+      "a room just under the roof of a house"
+    ],
+    "b2l3d10": [
+      "B2",
+      "daily",
+      "a device that controls the flow of water from a pipe"
+    ],
+    "b2l3d11": [
+      "C1",
+      "travel",
+      "a piece of land where fruit trees grow"
+    ],
+    "b2l3d12": [
+      "B2",
+      "feel",
+      "strange and frightening"
+    ],
+    "b2l3d13": [
+      "B2",
+      "travel",
+      "the remains of a destroyed building; to spoil something"
+    ],
+    "b2l3d14": [
+      "B2",
+      "feel",
+      "bad-tempered and easily annoyed"
+    ],
+    "b2l3d15": [
+      "B2",
+      "work",
+      "to buy something"
+    ],
+    "b2l4a01": [
+      "B2",
+      "travel",
+      "a vehicle that regularly travels between two places"
+    ],
+    "b2l4a02": [
+      "C1",
+      "health",
+      "a large sea animal with claws, cooked in boiling water"
+    ],
+    "b2l4a03": [
+      "A2",
+      "travel",
+      "an arrangement to keep a room, table or seat for you"
+    ],
+    "b2l4a04": [
+      "B1",
+      "work",
+      "to make a formal request, e.g. for a job"
+    ],
+    "b2l4a05": [
+      "B2",
+      "travel",
+      "a strong storm in a hot region"
+    ],
+    "b2l4a06": [
+      "B2",
+      "soc",
+      "the fact of continuing to live despite danger"
+    ],
+    "b2l4a07": [
+      "B2",
+      "health",
+      "having red, painful skin from too much sun"
+    ],
+    "b2l4a08": [
+      "A2",
+      "travel",
+      "late; happening later than planned"
+    ],
+    "b2l4a09": [
+      "C1",
+      "health",
+      "ill after eating bad food"
+    ],
+    "b2l4a10": [
+      "C1",
+      "feel",
+      "to make a long, low sound of pain or complaint"
+    ],
+    "b2l4a11": [
+      "B2",
+      "feel",
+      "to breathe out loudly to show tiredness or sadness"
+    ],
+    "b2l4b01": [
+      "B2",
+      "crime",
+      "a person harmed by a crime or accident"
+    ],
+    "b2l4b02": [
+      "C1",
+      "desc",
+      "easily influenced or harmed by something"
+    ],
+    "b2l4b03": [
+      "C1",
+      "crime",
+      "a failure to protect data or keep a rule"
+    ],
+    "b2l4b04": [
+      "B2",
+      "feel",
+      "able to be trusted"
+    ],
+    "b2l4b05": [
+      "C1",
+      "crime",
+      "to secretly listen to other people's conversation"
+    ],
+    "b2l4b06": [
+      "C1",
+      "daily",
+      "to cut paper into thin pieces so it cannot be read"
+    ],
+    "b2l4b07": [
+      "C1",
+      "crime",
+      "a person who searches rubbish bins for useful items or information"
+    ],
+    "b2l4b08": [
+      "C1",
+      "expr",
+      "regularly, with time gaps in between"
+    ],
+    "b2l4b09": [
+      "C1",
+      "work",
+      "a bank or person that lends money"
+    ],
+    "b2l4b10": [
+      "B2",
+      "verb",
+      "to check that something is true or correct"
+    ],
+    "b2l4b11": [
+      "C1",
+      "crime",
+      "to make someone believe something false"
+    ],
+    "b2l4b12": [
+      "B2",
+      "crime",
+      "an action taken to prevent danger"
+    ],
+    "b2l4b13": [
+      "B2",
+      "crime",
+      "stealing someone's personal information to pretend to be them"
+    ],
+    "b2l4b14": [
+      "C1",
+      "crime",
+      "the crime of copying documents or signatures illegally"
+    ],
+    "b2l4b15": [
+      "C1",
+      "tech",
+      "a login method that needs two different proofs of identity"
+    ],
+    "b2l4b16": [
+      "B2",
+      "work",
+      "to stop money or accounts from being used"
+    ],
+    "b2l4b17": [
+      "C1",
+      "desc",
+      "certain to succeed"
+    ],
+    "b2l4b18": [
+      "B2",
+      "feel",
+      "careful to avoid risks"
+    ],
+    "b2l4b19": [
+      "C1",
+      "tech",
+      "changing gears in a vehicle"
+    ],
+    "b2l4b20": [
+      "B2",
+      "desc",
+      "fashionable and popular at the moment"
+    ],
+    "b2l4b21": [
+      "B2",
+      "tech",
+      "a car that can drive without a human driver"
+    ],
+    "b2l4b22": [
+      "C1",
+      "daily",
+      "to remove something by rubbing with a sharp edge"
+    ],
+    "b2l4c01": [
+      "B1",
+      "desc",
+      "whole or complete"
+    ],
+    "b2l4c02": [
+      "C1",
+      "health",
+      "birds such as chickens kept for meat or eggs"
+    ],
+    "b2l4c03": [
+      "C1",
+      "work",
+      "to make something smaller, e.g. a company"
+    ],
+    "b2l4c04": [
+      "C1",
+      "feel",
+      "a strong desire for more money or things than you need"
+    ],
+    "b2l4c05": [
+      "A2",
+      "health",
+      "to exercise to improve your health"
+    ],
+    "b2l4c06": [
+      "B2",
+      "soc",
+      "to offer to do something without being paid"
+    ],
+    "b2l4c07": [
+      "B2",
+      "soc",
+      "money or goods given to help a charity"
+    ],
+    "b2l4c08": [
+      "C1",
+      "soc",
+      "a lack of something important that people need"
+    ],
+    "b2l4c09": [
+      "B1",
+      "health",
+      "unhealthy food with lots of fat or sugar"
+    ],
+    "b2l4c10": [
+      "C1",
+      "desc",
+      "following one after another without a break"
+    ],
+    "b2l4c11": [
+      "C1",
+      "health",
+      "to break down food and turn it into energy in the body"
+    ],
+    "b2l4c12": [
+      "C1",
+      "verb",
+      "to make something last longer"
+    ],
+    "b2l4c13": [
+      "B2",
+      "health",
+      "the body's system that fights illness"
+    ],
+    "b2l4c14": [
+      "C1",
+      "tech",
+      "meat grown from animal cells in a laboratory"
+    ],
+    "b2l4c15": [
+      "B2",
+      "soc",
+      "able to continue without harming the environment"
+    ],
+    "b2l4c16": [
+      "C1",
+      "soc",
+      "the effect of something on the global climate"
+    ],
+    "b2l4c17": [
+      "C1",
+      "health",
+      "protein that comes from insects used as food"
+    ],
+    "b2l4c18": [
+      "C1",
+      "soc",
+      "a situation where there is not enough food"
+    ],
+    "b2l4c19": [
+      "B2",
+      "expr",
+      "certainly; with no doubt at all"
+    ],
+    "b2l4c20": [
+      "B2",
+      "expr",
+      "feeling pressure and worry"
+    ],
+    "b2l4c21": [
+      "B2",
+      "expr",
+      "without payment; free"
+    ],
+    "b2l4c22": [
+      "B2",
+      "expr",
+      "very serious harm"
+    ],
+    "b2l4c23": [
+      "B2",
+      "feel",
+      "wanting very much to do something"
+    ],
+    "b2l4c24": [
+      "B1",
+      "expr",
+      "to decide what you want to achieve"
+    ],
+    "b2l4c25": [
+      "C1",
+      "expr",
+      "for now, but possibly not in the future"
+    ],
+    "b2l4c26": [
+      "B2",
+      "expr",
+      "to think about the different things that affect a decision"
+    ],
+    "b2l4d01": [
+      "C1",
+      "feel",
+      "a state of calm and peace"
+    ],
+    "b2l4d02": [
+      "B1",
+      "travel",
+      "the place someone is going to"
+    ],
+    "b2l4d03": [
+      "B2",
+      "travel",
+      "on or near the coast"
+    ],
+    "b2l4d04": [
+      "C1",
+      "travel",
+      "located on the edge of a cliff"
+    ],
+    "b2l4d05": [
+      "C1",
+      "soc",
+      "something given as a gift, especially to a god"
+    ],
+    "b2l4d06": [
+      "C1",
+      "travel",
+      "a quiet place to rest; or to move back"
+    ],
+    "b2l4d07": [
+      "B2",
+      "soc",
+      "not harmful to the environment"
+    ],
+    "b2l4d08": [
+      "B2",
+      "verb",
+      "to keep something safe or in its original state"
+    ],
+    "b2l4d09": [
+      "B2",
+      "feel",
+      "related to the soul and religious beliefs"
+    ],
+    "b2l4d10": [
+      "C1",
+      "health",
+      "the practice of focusing calmly on the present moment"
+    ],
+    "b2l4d11": [
+      "B1",
+      "travel",
+      "lying in the sun to get a tan"
+    ],
+    "b2l4d12": [
+      "B1",
+      "travel",
+      "entertainment such as bars and clubs at night"
+    ],
+    "b2l4d13": [
+      "B1",
+      "daily",
+      "made by hand, not by machine"
+    ],
+    "b2l4d14": [
+      "C1",
+      "daily",
+      "a person who pays rent to live in a place"
+    ],
+    "b2l4d15": [
+      "C1",
+      "crime",
+      "a person who steals from shops"
+    ],
+    "b2l4d16": [
+      "B2",
+      "daily",
+      "an electrical machine used at home"
+    ],
+    "b2l4d17": [
+      "B2",
+      "travel",
+      "to travel regularly between home and work"
+    ],
+    "b2l4d18": [
+      "B2",
+      "work",
+      "something more important than other things"
+    ],
+    "b2l4d19": [
+      "B2",
+      "travel",
+      "relating to a town or city"
+    ],
+    "b2l4d20": [
+      "A2",
+      "travel",
+      "land outside towns and cities"
+    ],
+    "b2l5a01": [
+      "B2",
+      "work",
+      "a person who starts a business"
+    ],
+    "b2l5a02": [
+      "C1",
+      "work",
+      "a new and risky business activity"
+    ],
+    "b2l5a03": [
+      "B2",
+      "work",
+      "to start something new, e.g. a product or project"
+    ],
+    "b2l5a04": [
+      "C1",
+      "work",
+      "to start a company together with someone"
+    ],
+    "b2l5a05": [
+      "C1",
+      "tech",
+      "the industry that builds aircraft and spacecraft"
+    ],
+    "b2l5a06": [
+      "C1",
+      "work",
+      "to leave an important job or position"
+    ],
+    "b2l5a07": [
+      "C1",
+      "soc",
+      "something left by a person for the future"
+    ],
+    "b2l5a08": [
+      "C1",
+      "work",
+      "a very rich and powerful person in the media business"
+    ],
+    "b2l5a09": [
+      "B2",
+      "work",
+      "a group of companies controlled by one person"
+    ],
+    "b2l5a10": [
+      "C1",
+      "soc",
+      "helping others, especially by giving money"
+    ],
+    "b2l5a11": [
+      "C1",
+      "desc",
+      "well known and important"
+    ],
+    "b2l5a12": [
+      "B2",
+      "feel",
+      "loved very much"
+    ],
+    "b2l5a13": [
+      "C1",
+      "soc",
+      "praise from critics"
+    ],
+    "b2l5a14": [
+      "C1",
+      "work",
+      "the place where cinema tickets are sold; ticket sales"
+    ],
+    "b2l5a15": [
+      "B2",
+      "work",
+      "to put money into something to make a profit"
+    ],
+    "b2l5a16": [
+      "C1",
+      "health",
+      "something added to complete or improve another thing"
+    ],
+    "b2l5a17": [
+      "B2",
+      "soc",
+      "saying what is wrong with someone or something"
+    ],
+    "b2l5a18": [
+      "B2",
+      "work",
+      "to start or create an organization"
+    ],
+    "b2l5a19": [
+      "B2",
+      "work",
+      "a regular report sent to members or subscribers"
+    ],
+    "b2l5c01": [
+      "B1",
+      "verb",
+      "to stay away from something or not do it"
+    ],
+    "b2l5c02": [
+      "A2",
+      "verb",
+      "to like doing something"
+    ],
+    "b2l5c03": [
+      "B1",
+      "expr",
+      "to hate something very much"
+    ],
+    "b2l5c04": [
+      "B1",
+      "verb",
+      "to feel annoyed by something"
+    ],
+    "b2l5c05": [
+      "B1",
+      "verb",
+      "to think about something carefully"
+    ],
+    "b2l5c06": [
+      "B2",
+      "verb",
+      "to feel sorry about something you did"
+    ],
+    "b2l5c07": [
+      "C1",
+      "verb",
+      "to remember something"
+    ],
+    "b2l5c08": [
+      "A2",
+      "verb",
+      "to make a choice"
+    ],
+    "b2l5c09": [
+      "A2",
+      "verb",
+      "to say you will certainly do something"
+    ],
+    "b2l5c10": [
+      "B1",
+      "verb",
+      "to have enough money or time for something"
+    ],
+    "b2l5c11": [
+      "B1",
+      "verb",
+      "to succeed in doing something difficult"
+    ],
+    "b2l5c12": [
+      "B2",
+      "verb",
+      "to act as if something is true when it is not"
+    ],
+    "b2l5c13": [
+      "A2",
+      "verb",
+      "to want something to happen"
+    ],
+    "b2l5c14": [
+      "A2",
+      "verb",
+      "to keep something in your mind"
+    ],
+    "b2l5c15": [
+      "A2",
+      "verb",
+      "to fail to remember"
+    ],
+    "b2l5c16": [
+      "A2",
+      "verb",
+      "to finish doing something"
+    ],
+    "b2l5c17": [
+      "A2",
+      "verb",
+      "to make an effort to do something"
+    ],
+    "b2l5c18": [
+      "A2",
+      "verb",
+      "to allow someone to do something"
+    ],
+    "b2l5c19": [
+      "B1",
+      "verb",
+      "to do something regularly to improve"
+    ],
+    "b2l5c20": [
+      "A2",
+      "verb",
+      "to feel sad because someone or something is absent"
+    ],
+    "b2l5d01": [
+      "B1",
+      "work",
+      "a person who asks the questions in an interview"
+    ],
+    "b2l5d02": [
+      "C1",
+      "work",
+      "a person learning a skill by working for an expert"
+    ],
+    "b2l5d03": [
+      "C1",
+      "work",
+      "a skilled worker who makes things by hand"
+    ],
+    "b2l5d04": [
+      "B2",
+      "work",
+      "having no special training or skill"
+    ],
+    "b2l5d05": [
+      "C1",
+      "pv",
+      "to have something as the main subject or focus"
+    ],
+    "b2l5d06": [
+      "B2",
+      "work",
+      "a job that is available"
+    ],
+    "b2l5d07": [
+      "B2",
+      "verb",
+      "to judge the value or quality of something"
+    ],
+    "b2l5d08": [
+      "C1",
+      "crime",
+      "to make secret information public; or to let liquid escape"
+    ],
+    "b2l5d09": [
+      "B2",
+      "work",
+      "a person who finds new employees for companies"
+    ],
+    "b2l5d10": [
+      "C1",
+      "work",
+      "employing people who will work from another place"
+    ],
+    "b2l5d11": [
+      "C1",
+      "work",
+      "technical abilities that can be measured"
+    ],
+    "b2l5d12": [
+      "B2",
+      "feel",
+      "a quality that forms part of someone's character"
+    ],
+    "b2l5d13": [
+      "C1",
+      "work",
+      "a first short interview to select candidates"
+    ],
+    "b2l5d14": [
+      "B2",
+      "expr",
+      "while busy and travelling"
+    ],
+    "b2l5d15": [
+      "C1",
+      "expr",
+      "to finally become successful or real"
+    ],
+    "b2l5d16": [
+      "C1",
+      "soc",
+      "the process of appearing or becoming known"
+    ],
+    "b2l5d17": [
+      "B2",
+      "work",
+      "the steps a company follows to employ someone"
+    ],
+    "b2l5d18": [
+      "B2",
+      "tech",
+      "buying and selling online"
+    ],
+    "b2l5d19": [
+      "C1",
+      "work",
+      "growing very fast and successfully"
+    ],
+    "b2l5d20": [
+      "B2",
+      "work",
+      "operating in many countries"
+    ],
+    "b2l5d21": [
+      "B2",
+      "desc",
+      "too many to count"
+    ],
+    "b2l5d22": [
+      "B2",
+      "feel",
+      "not happy or satisfied"
+    ],
+    "b2l5d23": [
+      "B1",
+      "work",
+      "a situation where people try to be better than others"
+    ],
+    "b2l5d24": [
+      "C1",
+      "desc",
+      "the importance or meaning of something"
+    ],
+    "b2l5d25": [
+      "C1",
+      "expr",
+      "a careless, embarrassing mistake"
+    ],
+    "b2l5d26": [
+      "B2",
+      "expr",
+      "immediately; at the place where something happens"
+    ],
+    "V1w001": [
+      "TK",
+      "V1",
+      "a fitting that changes the direction of a pipe"
+    ],
+    "V1w002": [
+      "TK",
+      "V1",
+      "an elbow whose bend radius is 1.5 times the pipe size"
+    ],
+    "V1w003": [
+      "TK",
+      "V1",
+      "an elbow whose bend radius equals the pipe size"
+    ],
+    "V1w004": [
+      "TK",
+      "V1",
+      "an elbow that turns the pipe by 45 degrees"
+    ],
+    "V1w005": [
+      "TK",
+      "V1",
+      "a T-shaped fitting that creates a branch"
+    ],
+    "V1w006": [
+      "TK",
+      "V1",
+      "a tee whose branch is the same size as the run"
+    ],
+    "V1w007": [
+      "TK",
+      "V1",
+      "a tee whose branch is smaller than the run"
+    ],
+    "V1w008": [
+      "TK",
+      "V1",
+      "a fitting that joins two pipes of different sizes"
+    ],
+    "V1w009": [
+      "TK",
+      "V1",
+      "a reducer with both ends on the same centre line"
+    ],
+    "V1w010": [
+      "TK",
+      "V1",
+      "a reducer with offset centre lines, keeping one side flat"
+    ],
+    "V1w011": [
+      "TK",
+      "V1",
+      "a short reducing piece that joins small-bore pipes of different sizes"
+    ],
+    "V1w012": [
+      "TK",
+      "V1",
+      "a short piece of pipe with threaded or plain ends"
+    ],
+    "V1w013": [
+      "TK",
+      "V1",
+      "a fitting that joins two small pipes end to end"
+    ],
+    "V1w014": [
+      "TK",
+      "V1",
+      "a coupling with one end, welded onto a pipe to make a branch"
+    ],
+    "V1w015": [
+      "TK",
+      "V1",
+      "a coupling that connects two pipes on both ends"
+    ],
+    "V1w016": [
+      "TK",
+      "V1",
+      "a fitting that closes the end of a pipe"
+    ],
+    "V1w017": [
+      "TK",
+      "V1",
+      "a fitting screwed into an opening to close it"
+    ],
+    "V1w018": [
+      "TK",
+      "V1",
+      "a fitting that lets two pipes be disconnected easily"
+    ],
+    "V1w019": [
+      "TK",
+      "V1",
+      "a fitting that reduces the size of a threaded opening"
+    ],
+    "V1w020": [
+      "TK",
+      "V1",
+      "a branch fitting with a socket end for socket welding"
+    ],
+    "V1w021": [
+      "TK",
+      "V1",
+      "a branch fitting butt-welded onto a main pipe"
+    ],
+    "V1w022": [
+      "TK",
+      "V1",
+      "a branch fitting with a threaded outlet"
+    ],
+    "V1w023": [
+      "TK",
+      "V1",
+      "the joint where a smaller pipe leaves a main pipe"
+    ],
+    "V1w024": [
+      "TK",
+      "V1",
+      "a plate welded around a branch to strengthen the opening"
+    ],
+    "V1w025": [
+      "TK",
+      "V1",
+      "a branch that joins the main pipe at an angle, usually 45°"
+    ],
+    "V1w026": [
+      "TK",
+      "V1",
+      "a pipe that is bent to change direction"
+    ],
+    "V1w027": [
+      "TK",
+      "V1",
+      "a bend made by welding angled pipe pieces together"
+    ],
+    "V1w028": [
+      "TK",
+      "V1",
+      "a prefabricated section of pipe with fittings, made in the shop"
+    ],
+    "V1w029": [
+      "TK",
+      "V1",
+      "a flexible part that absorbs thermal movement of a pipe"
+    ],
+    "V1w030": [
+      "TK",
+      "V1",
+      "the flexible folded metal part of an expansion joint"
+    ],
+    "V1w031": [
+      "TK",
+      "V1",
+      "a bendable pipe used where movement or vibration exists"
+    ],
+    "V1w032": [
+      "TK",
+      "V1",
+      "a device that removes solid particles from a fluid"
+    ],
+    "V1w033": [
+      "TK",
+      "V1",
+      "a Y-shaped strainer with a removable screen"
+    ],
+    "V1w034": [
+      "TK",
+      "V1",
+      "a strainer with a large basket-shaped screen"
+    ],
+    "V1w035": [
+      "TK",
+      "V1",
+      "a valve that removes condensate but keeps steam in"
+    ],
+    "V1w036": [
+      "TK",
+      "V1",
+      "a glass window that lets you see the fluid inside"
+    ],
+    "V1w037": [
+      "TK",
+      "V1",
+      "a device that stops a flame from passing through a pipe"
+    ],
+    "V1w038": [
+      "TK",
+      "V1",
+      "a figure-8 plate used to positively isolate a line"
+    ],
+    "V1w039": [
+      "TK",
+      "V1",
+      "a solid plate inserted between flanges to block flow"
+    ],
+    "V1w040": [
+      "TK",
+      "V1",
+      "a solid flange used to close the end of a pipe"
+    ],
+    "V1w041": [
+      "TK",
+      "V1",
+      "a flange pair with taps for measuring flow through an orifice plate"
+    ],
+    "V1w042": [
+      "TK",
+      "V1",
+      "a flange with a long neck butt-welded to the pipe"
+    ],
+    "V1w043": [
+      "TK",
+      "V1",
+      "a flange that slides over the pipe and is fillet-welded"
+    ],
+    "V1w044": [
+      "TK",
+      "V1",
+      "a flange with a socket into which the pipe is inserted"
+    ],
+    "V1w045": [
+      "TK",
+      "V1",
+      "a flange screwed onto a threaded pipe"
+    ],
+    "V1w046": [
+      "TK",
+      "V1",
+      "a loose flange used with a stub end, easy to rotate"
+    ],
+    "V1w047": [
+      "TK",
+      "V1",
+      "a flange face with a small raised area for the gasket"
+    ],
+    "V1w048": [
+      "TK",
+      "V1",
+      "a flange face that is completely flat"
+    ],
+    "V1w049": [
+      "TK",
+      "V1",
+      "a flange seal using a metal ring in a groove"
+    ],
+    "V1w050": [
+      "TK",
+      "V1",
+      "a seal placed between two flanges to stop leaks"
+    ],
+    "V1w051": [
+      "TK",
+      "V1",
+      "a gasket of wound metal and filler for high pressure"
+    ],
+    "V1w052": [
+      "TK",
+      "V1",
+      "a fibre gasket made without asbestos"
+    ],
+    "V1w053": [
+      "TK",
+      "V1",
+      "a gasket covered with PTFE for chemical resistance"
+    ],
+    "V1w054": [
+      "TK",
+      "V1",
+      "a metal rod with a head and thread, used with a nut"
+    ],
+    "V1w055": [
+      "TK",
+      "V1",
+      "a rod threaded along its length, used with two nuts"
+    ],
+    "V1w056": [
+      "TK",
+      "V1",
+      "a small metal block with a threaded hole for a bolt"
+    ],
+    "V1w057": [
+      "TK",
+      "V1",
+      "a thick six-sided nut used on flange bolts"
+    ],
+    "V1w058": [
+      "TK",
+      "V1",
+      "a thin flat ring placed under a nut"
+    ],
+    "V1w059": [
+      "TK",
+      "V1",
+      "the pressure rating group of a flange, e.g. Class 150"
+    ],
+    "V1w060": [
+      "TK",
+      "V1",
+      "a fitting made by shaping hot metal under pressure"
+    ],
+    "V1w061": [
+      "TK",
+      "V1",
+      "a fitting welded end to end to the pipe"
+    ],
+    "V1w062": [
+      "TK",
+      "V1",
+      "a fitting connected by screw threads"
+    ],
+    "V1w063": [
+      "TK",
+      "V1",
+      "a fitting into which the pipe is inserted and fillet-welded"
+    ],
+    "V1w064": [
+      "TK",
+      "V1",
+      "the American standard tapered pipe thread"
+    ],
+    "V1w065": [
+      "TK",
+      "V1",
+      "a paste or tape that seals threaded joints"
+    ],
+    "V1w066": [
+      "TK",
+      "V1",
+      "a plug that closes a drain opening"
+    ],
+    "V1w067": [
+      "TK",
+      "V1",
+      "a screw used to push flanges apart"
+    ],
+    "V2w001": [
+      "TK",
+      "V2",
+      "a valve with a sliding gate for fully open or closed service"
+    ],
+    "V2w002": [
+      "TK",
+      "V2",
+      "a valve with a disc and seat, good for throttling flow"
+    ],
+    "V2w003": [
+      "TK",
+      "V2",
+      "a valve with a rotating ball that has a hole through it"
+    ],
+    "V2w004": [
+      "TK",
+      "V2",
+      "a valve with a rotating disc in the flow path"
+    ],
+    "V2w005": [
+      "TK",
+      "V2",
+      "a thin butterfly valve clamped between two flanges"
+    ],
+    "V2w006": [
+      "TK",
+      "V2",
+      "a valve that allows flow in one direction only"
+    ],
+    "V2w007": [
+      "TK",
+      "V2",
+      "a check valve with a hinged disc that swings open"
+    ],
+    "V2w008": [
+      "TK",
+      "V2",
+      "a thin check valve fitted between flanges"
+    ],
+    "V2w009": [
+      "TK",
+      "V2",
+      "a check valve with a piston that lifts with flow"
+    ],
+    "V2w010": [
+      "TK",
+      "V2",
+      "a valve with a rotating plug that has a port"
+    ],
+    "V2w011": [
+      "TK",
+      "V2",
+      "a small valve with a fine point for precise flow control"
+    ],
+    "V2w012": [
+      "TK",
+      "V2",
+      "a valve closed by pressing a flexible diaphragm onto a seat"
+    ],
+    "V2w013": [
+      "TK",
+      "V2",
+      "a valve that adjusts flow automatically"
+    ],
+    "V2w014": [
+      "TK",
+      "V2",
+      "a valve that opens quickly at a set pressure to protect equipment"
+    ],
+    "V2w015": [
+      "TK",
+      "V2",
+      "a valve that releases pressure above a set value"
+    ],
+    "V2w016": [
+      "TK",
+      "V2",
+      "a thin plate that bursts at a set pressure"
+    ],
+    "V2w017": [
+      "TK",
+      "V2",
+      "a valve used to stop flow for isolation"
+    ],
+    "V2w018": [
+      "TK",
+      "V2",
+      "a valve that separates part of a system"
+    ],
+    "V2w019": [
+      "TK",
+      "V2",
+      "two closed valves with a vent between them for safe isolation"
+    ],
+    "V2w020": [
+      "TK",
+      "V2",
+      "a valve used to empty liquid from a system"
+    ],
+    "V2w021": [
+      "TK",
+      "V2",
+      "a valve used to release air or gas"
+    ],
+    "V2w022": [
+      "TK",
+      "V2",
+      "a small valve that releases trapped pressure"
+    ],
+    "V2w023": [
+      "TK",
+      "V2",
+      "the main casing of a valve"
+    ],
+    "V2w024": [
+      "TK",
+      "V2",
+      "the cover on top of a valve body"
+    ],
+    "V2w025": [
+      "TK",
+      "V2",
+      "a bonnet fixed to the body with bolts"
+    ],
+    "V2w026": [
+      "TK",
+      "V2",
+      "the rod that connects the handwheel to the closing part"
+    ],
+    "V2w027": [
+      "TK",
+      "V2",
+      "a stem that moves up when the valve opens"
+    ],
+    "V2w028": [
+      "TK",
+      "V2",
+      "sealing material around the stem"
+    ],
+    "V2w029": [
+      "TK",
+      "V2",
+      "the part that compresses the packing"
+    ],
+    "V2w030": [
+      "TK",
+      "V2",
+      "the wheel turned by hand to operate a valve"
+    ],
+    "V2w031": [
+      "TK",
+      "V2",
+      "a gearbox that makes a large valve easier to turn"
+    ],
+    "V2w032": [
+      "TK",
+      "V2",
+      "a device that operates a valve automatically"
+    ],
+    "V2w033": [
+      "TK",
+      "V2",
+      "an actuator driven by compressed air"
+    ],
+    "V2w034": [
+      "TK",
+      "V2",
+      "an electrically operated valve"
+    ],
+    "V2w035": [
+      "TK",
+      "V2",
+      "a switch that signals the open or closed position"
+    ],
+    "V2w036": [
+      "TK",
+      "V2",
+      "a device that sets a control valve to the exact position"
+    ],
+    "V2w037": [
+      "TK",
+      "V2",
+      "the surface where the closing part seals"
+    ],
+    "V2w038": [
+      "TK",
+      "V2",
+      "a seat made of plastic or rubber for tight shut-off"
+    ],
+    "V2w039": [
+      "TK",
+      "V2",
+      "a seat made of metal for high temperature or abrasion"
+    ],
+    "V2w040": [
+      "TK",
+      "V2",
+      "the moving part that closes against the seat"
+    ],
+    "V2w041": [
+      "TK",
+      "V2",
+      "the wedge-shaped closing part of a gate valve"
+    ],
+    "V2w042": [
+      "TK",
+      "V2",
+      "the internal parts that control flow"
+    ],
+    "V2w043": [
+      "TK",
+      "V2",
+      "a valve opening the same size as the pipe"
+    ],
+    "V2w044": [
+      "TK",
+      "V2",
+      "a valve opening smaller than the pipe"
+    ],
+    "V2w045": [
+      "TK",
+      "V2",
+      "the length between the two end faces of a valve"
+    ],
+    "V2w046": [
+      "TK",
+      "V2",
+      "a document that lists the technical details of a valve"
+    ],
+    "V2w047": [
+      "TK",
+      "V2",
+      "a valve locked in the open position for safety"
+    ],
+    "V2w048": [
+      "TK",
+      "V2",
+      "a valve locked in the closed position for safety"
+    ],
+    "V2w049": [
+      "TK",
+      "V2",
+      "a valve sealed open with a numbered seal"
+    ],
+    "V2w050": [
+      "TK",
+      "V2",
+      "the correct flow direction of a check valve"
+    ],
+    "V2w051": [
+      "TK",
+      "V2",
+      "a valve operated by hand"
+    ],
+    "V2w052": [
+      "TK",
+      "V2",
+      "a valve opened or closed from a control room"
+    ],
+    "V2w053": [
+      "TK",
+      "V2",
+      "a valve that closes automatically in an emergency"
+    ],
+    "V2w054": [
+      "TK",
+      "V2",
+      "a valve that closes if flow becomes too high"
+    ],
+    "V2w055": [
+      "TK",
+      "V2",
+      "a valve that lowers pressure downstream"
+    ],
+    "V2w056": [
+      "TK",
+      "V2",
+      "a valve that keeps pressure upstream above a set value"
+    ],
+    "V2w057": [
+      "TK",
+      "V2",
+      "another name for a check valve"
+    ],
+    "V2w058": [
+      "TK",
+      "V2",
+      "the unique identification number of a valve"
+    ],
+    "V2w059": [
+      "TK",
+      "V2",
+      "a short code that describes a valve type"
+    ],
+    "V2w060": [
+      "TK",
+      "V2",
+      "the turning force needed to open or close a valve"
+    ],
+    "V2w061": [
+      "TK",
+      "V2",
+      "a number (Cv/Kv) showing how much flow a valve passes"
+    ],
+    "V2w062": [
+      "TK",
+      "V2",
+      "bubbles that form and collapse in a liquid, causing damage"
+    ],
+    "V2w063": [
+      "TK",
+      "V2",
+      "the loss of pressure across a component"
+    ],
+    "V3w001": [
+      "TK",
+      "V3",
+      "steel made mainly of iron and carbon"
+    ],
+    "V3w002": [
+      "TK",
+      "V3",
+      "carbon steel tested to be tough at low temperatures"
+    ],
+    "V3w003": [
+      "TK",
+      "V3",
+      "steel containing chromium that resists rust"
+    ],
+    "V3w004": [
+      "TK",
+      "V3",
+      "a stainless steel type such as 304 or 316"
+    ],
+    "V3w005": [
+      "TK",
+      "V3",
+      "a strong stainless steel with two crystal structures"
+    ],
+    "V3w006": [
+      "TK",
+      "V3",
+      "a nickel-copper alloy resistant to corrosion"
+    ],
+    "V3w007": [
+      "TK",
+      "V3",
+      "a nickel-chromium alloy for high temperatures"
+    ],
+    "V3w008": [
+      "TK",
+      "V3",
+      "a nickel alloy highly resistant to acids"
+    ],
+    "V3w009": [
+      "TK",
+      "V3",
+      "a plastic (Teflon) with very high chemical resistance"
+    ],
+    "V3w010": [
+      "TK",
+      "V3",
+      "a melt-processable plastic similar to PTFE"
+    ],
+    "V3w011": [
+      "TK",
+      "V3",
+      "having an inner layer of PTFE"
+    ],
+    "V3w012": [
+      "TK",
+      "V3",
+      "having an inner layer of PFA"
+    ],
+    "V3w013": [
+      "TK",
+      "V3",
+      "having an inner layer of rubber"
+    ],
+    "V3w014": [
+      "TK",
+      "V3",
+      "a soft form of carbon used for seals"
+    ],
+    "V3w015": [
+      "TK",
+      "V3",
+      "graphite sheet used for gaskets and packing"
+    ],
+    "V3w016": [
+      "TK",
+      "V3",
+      "a very hard ceramic material"
+    ],
+    "V3w017": [
+      "TK",
+      "V3",
+      "a light, chemical-resistant plastic"
+    ],
+    "V3w018": [
+      "TK",
+      "V3",
+      "a strong fluoroplastic used in chemical service"
+    ],
+    "V3w019": [
+      "TK",
+      "V3",
+      "a hard plastic resin used in composites"
+    ],
+    "V3w020": [
+      "TK",
+      "V3",
+      "cast iron that can bend without breaking"
+    ],
+    "V3w021": [
+      "TK",
+      "V3",
+      "iron with high carbon that is poured into moulds"
+    ],
+    "V3w022": [
+      "TK",
+      "V3",
+      "steel coated with zinc against rust"
+    ],
+    "V3w023": [
+      "TK",
+      "V3",
+      "pipe made without a weld seam"
+    ],
+    "V3w024": [
+      "TK",
+      "V3",
+      "pipe made by rolling and welding plate"
+    ],
+    "V3w025": [
+      "TK",
+      "V3",
+      "pipe welded by electric resistance"
+    ],
+    "V3w026": [
+      "TK",
+      "V3",
+      "shaping hot metal by pressing or hammering"
+    ],
+    "V3w027": [
+      "TK",
+      "V3",
+      "pouring molten metal into a mould"
+    ],
+    "V3w028": [
+      "TK",
+      "V3",
+      "the specific type of a material in a standard"
+    ],
+    "V3w029": [
+      "TK",
+      "V3",
+      "a document showing test results of a material"
+    ],
+    "V3w030": [
+      "TK",
+      "V3",
+      "the number that identifies a batch of steel"
+    ],
+    "V3w031": [
+      "TK",
+      "V3",
+      "the ability to follow a material back to its source"
+    ],
+    "V3w032": [
+      "TK",
+      "V3",
+      "a test that measures toughness by striking a sample"
+    ],
+    "V3w033": [
+      "TK",
+      "V3",
+      "resistance of a material to scratching or denting"
+    ],
+    "V3w034": [
+      "TK",
+      "V3",
+      "damage to metal caused by chemical reaction"
+    ],
+    "V3w035": [
+      "TK",
+      "V3",
+      "extra wall thickness for expected corrosion"
+    ],
+    "V3w036": [
+      "TK",
+      "V3",
+      "corrosion caused by contact of two different metals"
+    ],
+    "V3w037": [
+      "TK",
+      "V3",
+      "cracking caused by stress plus a corrosive environment"
+    ],
+    "V3w038": [
+      "TK",
+      "V3",
+      "wear caused by moving fluid or particles"
+    ],
+    "V3w039": [
+      "TK",
+      "V3",
+      "unwanted deposits building up on surfaces"
+    ],
+    "V3w040": [
+      "TK",
+      "V3",
+      "small deep holes caused by local corrosion"
+    ],
+    "V3w041": [
+      "TK",
+      "V3",
+      "an inner protective layer"
+    ],
+    "V3w042": [
+      "TK",
+      "V3",
+      "a treatment that makes stainless steel more resistant"
+    ],
+    "V3w043": [
+      "TK",
+      "V3",
+      "cleaning metal with acid to remove scale"
+    ],
+    "V4w001": [
+      "TK",
+      "V4",
+      "the code for process piping design"
+    ],
+    "V4w002": [
+      "TK",
+      "V4",
+      "the standard for pipe flanges up to 24 inches"
+    ],
+    "V4w003": [
+      "TK",
+      "V4",
+      "the standard for butt-weld fittings"
+    ],
+    "V4w004": [
+      "TK",
+      "V4",
+      "the standard for forged socket-weld and threaded fittings"
+    ],
+    "V4w005": [
+      "TK",
+      "V4",
+      "the standard for valves"
+    ],
+    "V4w006": [
+      "TK",
+      "V4",
+      "the standard for steel pipe dimensions"
+    ],
+    "V4w007": [
+      "TK",
+      "V4",
+      "an organization that publishes material standards"
+    ],
+    "V4w008": [
+      "TK",
+      "V4",
+      "a standard for seamless carbon steel pipe"
+    ],
+    "V4w009": [
+      "TK",
+      "V4",
+      "a standard for carbon steel forgings such as flanges"
+    ],
+    "V4w010": [
+      "TK",
+      "V4",
+      "a standard for carbon steel butt-weld fittings"
+    ],
+    "V4w011": [
+      "TK",
+      "V4",
+      "a standard for alloy steel stud bolts"
+    ],
+    "V4w012": [
+      "TK",
+      "V4",
+      "the American National Standards Institute"
+    ],
+    "V4w013": [
+      "TK",
+      "V4",
+      "the American Petroleum Institute"
+    ],
+    "V4w014": [
+      "TK",
+      "V4",
+      "the International Organization for Standardization"
+    ],
+    "V4w015": [
+      "TK",
+      "V4",
+      "the set of rules used to design something"
+    ],
+    "V4w016": [
+      "TK",
+      "V4",
+      "the pressure a system is designed for"
+    ],
+    "V4w017": [
+      "TK",
+      "V4",
+      "the temperature a system is designed for"
+    ],
+    "V4w018": [
+      "TK",
+      "V4",
+      "the normal working pressure"
+    ],
+    "V4w019": [
+      "TK",
+      "V4",
+      "the normal working temperature"
+    ],
+    "V4w020": [
+      "TK",
+      "V4",
+      "maximum allowable working pressure"
+    ],
+    "V4w021": [
+      "TK",
+      "V4",
+      "the pressure used during a hydrostatic test"
+    ],
+    "V4w022": [
+      "TK",
+      "V4",
+      "the maximum pressure a component can carry"
+    ],
+    "V4w023": [
+      "TK",
+      "V4",
+      "allowed pressure at each temperature"
+    ],
+    "V4w024": [
+      "TK",
+      "V4",
+      "a number that shows pipe wall thickness"
+    ],
+    "V4w025": [
+      "TK",
+      "V4",
+      "the thickness of the pipe wall"
+    ],
+    "V4w026": [
+      "TK",
+      "V4",
+      "the smallest wall thickness allowed"
+    ],
+    "V4w027": [
+      "TK",
+      "V4",
+      "the standard size name of a pipe"
+    ],
+    "V4w028": [
+      "TK",
+      "V4",
+      "the metric size name of a pipe (DN)"
+    ],
+    "V4w029": [
+      "TK",
+      "V4",
+      "the outer diameter of a pipe"
+    ],
+    "V4w030": [
+      "TK",
+      "V4",
+      "a set of rules defining materials and ratings for a line"
+    ],
+    "V4w031": [
+      "TK",
+      "V4",
+      "a document listing allowed piping materials"
+    ],
+    "V4w032": [
+      "TK",
+      "V4",
+      "a table showing which branch fitting to use"
+    ],
+    "V4w033": [
+      "TK",
+      "V4",
+      "the maximum stress permitted by the code"
+    ],
+    "V4w034": [
+      "TK",
+      "V4",
+      "a factor for the strength of a welded joint"
+    ],
+    "V4w035": [
+      "TK",
+      "V4",
+      "the allowed variation in wall thickness from production"
+    ],
+    "V4w036": [
+      "TK",
+      "V4",
+      "the category of fluid a pipe carries"
+    ],
+    "V4w037": [
+      "TK",
+      "V4",
+      "service with very toxic fluids"
+    ],
+    "V4w038": [
+      "TK",
+      "V4",
+      "ordinary fluid service under the code"
+    ],
+    "V4w039": [
+      "TK",
+      "V4",
+      "the pressure class of a flange"
+    ],
+    "V4w040": [
+      "TK",
+      "V4",
+      "allowed variation in pipe dimensions"
+    ],
+    "V4w041": [
+      "TK",
+      "V4",
+      "growth of a material when heated"
+    ],
+    "V4w042": [
+      "TK",
+      "V4",
+      "the ability of piping to absorb movement"
+    ],
+    "V4w043": [
+      "TK",
+      "V4",
+      "forces and moments a pipe puts on equipment"
+    ],
+    "V5w001": [
+      "TK",
+      "V5",
+      "the document that sets the main piping design rules"
+    ],
+    "V5w002": [
+      "TK",
+      "V5",
+      "pipes that carry process fluids in a plant"
+    ],
+    "V5w003": [
+      "TK",
+      "V5",
+      "piping installed above the ground"
+    ],
+    "V5w004": [
+      "TK",
+      "V5",
+      "piping buried in the ground"
+    ],
+    "V5w005": [
+      "TK",
+      "V5",
+      "a steel structure that carries many pipes"
+    ],
+    "V5w006": [
+      "TK",
+      "V5",
+      "a structure that holds a pipe"
+    ],
+    "V5w007": [
+      "TK",
+      "V5",
+      "a support welded under a pipe resting on steel"
+    ],
+    "V5w008": [
+      "TK",
+      "V5",
+      "a support that allows axial movement only"
+    ],
+    "V5w009": [
+      "TK",
+      "V5",
+      "a support that fixes a pipe completely"
+    ],
+    "V5w010": [
+      "TK",
+      "V5",
+      "a support with a spring for vertical movement"
+    ],
+    "V5w011": [
+      "TK",
+      "V5",
+      "a support that does not allow movement"
+    ],
+    "V5w012": [
+      "TK",
+      "V5",
+      "a pipe stub welded to an elbow to support it"
+    ],
+    "V5w013": [
+      "TK",
+      "V5",
+      "the distance between pipe supports"
+    ],
+    "V5w014": [
+      "TK",
+      "V5",
+      "a U-shaped pipe section that absorbs expansion"
+    ],
+    "V5w015": [
+      "TK",
+      "V5",
+      "calculation of stresses and loads in piping"
+    ],
+    "V5w016": [
+      "TK",
+      "V5",
+      "a constant load such as weight and pressure"
+    ],
+    "V5w017": [
+      "TK",
+      "V5",
+      "a short-term load such as wind or earthquake"
+    ],
+    "V5w018": [
+      "TK",
+      "V5",
+      "choosing the right pipe size for a line"
+    ],
+    "V5w019": [
+      "TK",
+      "V5",
+      "the speed of fluid in a pipe"
+    ],
+    "V5w020": [
+      "TK",
+      "V5",
+      "the unique identification of a pipe line"
+    ],
+    "V5w021": [
+      "TK",
+      "V5",
+      "a table of all pipe lines with their data"
+    ],
+    "V5w022": [
+      "TK",
+      "V5",
+      "a drawing of one line in 3D view with dimensions"
+    ],
+    "V5w023": [
+      "TK",
+      "V5",
+      "a drawing of a prefabricated pipe section"
+    ],
+    "V5w024": [
+      "TK",
+      "V5",
+      "the arrangement of pipes in a plant"
+    ],
+    "V5w025": [
+      "TK",
+      "V5",
+      "a drawing showing the overall arrangement"
+    ],
+    "V5w026": [
+      "TK",
+      "V5",
+      "a drawing showing the positions of units and equipment"
+    ],
+    "V5w027": [
+      "TK",
+      "V5",
+      "a drawing showing where equipment is placed"
+    ],
+    "V5w028": [
+      "TK",
+      "V5",
+      "the smallest allowed free space"
+    ],
+    "V5w029": [
+      "TK",
+      "V5",
+      "the free height above a walkway or floor"
+    ],
+    "V5w030": [
+      "TK",
+      "V5",
+      "the ability to reach equipment"
+    ],
+    "V5w031": [
+      "TK",
+      "V5",
+      "free space needed for repair work"
+    ],
+    "V5w032": [
+      "TK",
+      "V5",
+      "a path for people to walk"
+    ],
+    "V5w033": [
+      "TK",
+      "V5",
+      "a computer model of the plant in three dimensions"
+    ],
+    "V5w034": [
+      "TK",
+      "V5",
+      "a meeting to check the 3D model"
+    ],
+    "V5w035": [
+      "TK",
+      "V5",
+      "a search for objects that hit each other in the model"
+    ],
+    "V5w036": [
+      "TK",
+      "V5",
+      "when two objects occupy the same space"
+    ],
+    "V5w037": [
+      "TK",
+      "V5",
+      "a site inspection walk along a system"
+    ],
+    "V5w038": [
+      "TK",
+      "V5",
+      "a plan view drawing of piping"
+    ],
+    "V5w039": [
+      "TK",
+      "V5",
+      "a drawing showing a typical piping arrangement"
+    ],
+    "V5w040": [
+      "TK",
+      "V5",
+      "a small fall in a pipe to allow drainage"
+    ],
+    "V5w041": [
+      "TK",
+      "V5",
+      "a low point where liquid can collect"
+    ],
+    "V5w042": [
+      "TK",
+      "V5",
+      "a vent at the top of a line"
+    ],
+    "V5w043": [
+      "TK",
+      "V5",
+      "a drain at the bottom of a line"
+    ],
+    "V5w044": [
+      "TK",
+      "V5",
+      "a drain to an open system"
+    ],
+    "V5w045": [
+      "TK",
+      "V5",
+      "a drain to a closed collection system"
+    ],
+    "V5w046": [
+      "TK",
+      "V5",
+      "a drain for dangerous liquids"
+    ],
+    "V5w047": [
+      "TK",
+      "V5",
+      "a pit that collects drained liquid"
+    ],
+    "V5w048": [
+      "TK",
+      "V5",
+      "a connection for taking samples"
+    ],
+    "V5w049": [
+      "TK",
+      "V5",
+      "a connection of a new line to an existing one"
+    ],
+    "V5w050": [
+      "TK",
+      "V5",
+      "the exact location of a tie-in"
+    ],
+    "V5w051": [
+      "TK",
+      "V5",
+      "a list of all tie-ins"
+    ],
+    "V5w052": [
+      "TK",
+      "V5",
+      "the boundary of a plant or contract scope"
+    ],
+    "V5w053": [
+      "TK",
+      "V5",
+      "a point where two systems or parties meet"
+    ],
+    "V5w054": [
+      "TK",
+      "V5",
+      "a station with hose connections for air, water and steam"
+    ],
+    "V5w055": [
+      "TK",
+      "V5",
+      "a connection for a flexible hose"
+    ],
+    "V5w056": [
+      "TK",
+      "V5",
+      "piping and instrumentation diagram"
+    ],
+    "V5w057": [
+      "TK",
+      "V5",
+      "process flow diagram"
+    ],
+    "V5w058": [
+      "TK",
+      "V5",
+      "a simple diagram of the main process steps"
+    ],
+    "V5w059": [
+      "TK",
+      "V5",
+      "changes marked in red on a drawing"
+    ],
+    "V5w060": [
+      "TK",
+      "V5",
+      "counting materials from drawings"
+    ],
+    "V5w061": [
+      "TK",
+      "V5",
+      "standard materials ordered in quantity"
+    ],
+    "V5w062": [
+      "TK",
+      "V5",
+      "a standard drawing that applies to many cases"
+    ],
+    "V5w063": [
+      "TK",
+      "V5",
+      "pipes of 2 inches and smaller"
+    ],
+    "V5w064": [
+      "TK",
+      "V5",
+      "the pipe entering a pump"
+    ],
+    "V5w065": [
+      "TK",
+      "V5",
+      "the pipe leaving a pump"
+    ],
+    "V5w066": [
+      "TK",
+      "V5",
+      "a line that returns flow to protect a pump"
+    ],
+    "V5w067": [
+      "TK",
+      "V5",
+      "a line that goes around equipment"
+    ],
+    "V5w068": [
+      "TK",
+      "V5",
+      "a line used to clean with fluid"
+    ],
+    "V5w069": [
+      "TK",
+      "V5",
+      "a low concrete or steel support on the ground"
+    ],
+    "V6w001": [
+      "TK",
+      "V6",
+      "material that reduces heat transfer"
+    ],
+    "V6w002": [
+      "TK",
+      "V6",
+      "insulation that keeps heat in"
+    ],
+    "V6w003": [
+      "TK",
+      "V6",
+      "insulation that keeps heat out"
+    ],
+    "V6w004": [
+      "TK",
+      "V6",
+      "insulation that prevents burns"
+    ],
+    "V6w005": [
+      "TK",
+      "V6",
+      "the thickness of insulation"
+    ],
+    "V6w006": [
+      "TK",
+      "V6",
+      "the metal sheet cover over insulation"
+    ],
+    "V6w007": [
+      "TK",
+      "V6",
+      "the outer protective cover of insulation"
+    ],
+    "V6w008": [
+      "TK",
+      "V6",
+      "a layer that stops moisture entering insulation"
+    ],
+    "V6w009": [
+      "TK",
+      "V6",
+      "insulation made of mineral fibres"
+    ],
+    "V6w010": [
+      "TK",
+      "V6",
+      "a hard insulation for high temperatures"
+    ],
+    "V6w011": [
+      "TK",
+      "V6",
+      "a foam glass insulation for cold service"
+    ],
+    "V6w012": [
+      "TK",
+      "V6",
+      "heating a pipe to keep its temperature"
+    ],
+    "V6w013": [
+      "TK",
+      "V6",
+      "heat tracing with steam tubes"
+    ],
+    "V6w014": [
+      "TK",
+      "V6",
+      "heat tracing with electric cables"
+    ],
+    "V6w015": [
+      "TK",
+      "V6",
+      "the small tube or cable used for tracing"
+    ],
+    "V6w016": [
+      "TK",
+      "V6",
+      "protection of steel against fire"
+    ],
+    "V6w017": [
+      "TK",
+      "V6",
+      "applying paint to protect surfaces"
+    ],
+    "V6w018": [
+      "TK",
+      "V6",
+      "a protective layer on a surface"
+    ],
+    "V6w019": [
+      "TK",
+      "V6",
+      "the first paint layer"
+    ],
+    "V6w020": [
+      "TK",
+      "V6",
+      "cleaning a surface by blowing abrasive"
+    ],
+    "V6w021": [
+      "TK",
+      "V6",
+      "coating steel with zinc"
+    ],
+    "V6w022": [
+      "TK",
+      "V6",
+      "a ring that holds insulation on vertical pipes"
+    ],
+    "V7w001": [
+      "TK",
+      "V7",
+      "a pump that moves fluid with a rotating impeller"
+    ],
+    "V7w002": [
+      "TK",
+      "V7",
+      "a sealless pump driven by magnets"
+    ],
+    "V7w003": [
+      "TK",
+      "V7",
+      "a pump for liquids with solids"
+    ],
+    "V7w004": [
+      "TK",
+      "V7",
+      "a pump that moves liquid between tanks"
+    ],
+    "V7w005": [
+      "TK",
+      "V7",
+      "a pump that circulates liquid in a loop"
+    ],
+    "V7w006": [
+      "TK",
+      "V7",
+      "a pump that adds exact small amounts of chemical"
+    ],
+    "V7w007": [
+      "TK",
+      "V7",
+      "a pump with a vertical shaft"
+    ],
+    "V7w008": [
+      "TK",
+      "V7",
+      "a seal that stops leaks along a pump shaft"
+    ],
+    "V7w009": [
+      "TK",
+      "V7",
+      "liquid that cools and cleans a seal"
+    ],
+    "V7w010": [
+      "TK",
+      "V7",
+      "net positive suction head"
+    ],
+    "V7w011": [
+      "TK",
+      "V7",
+      "the height a pump can lift liquid"
+    ],
+    "V7w012": [
+      "TK",
+      "V7",
+      "equipment that transfers heat between two fluids"
+    ],
+    "V7w013": [
+      "TK",
+      "V7",
+      "a heat exchanger with tubes inside a shell"
+    ],
+    "V7w014": [
+      "TK",
+      "V7",
+      "equipment that cools a fluid"
+    ],
+    "V7w015": [
+      "TK",
+      "V7",
+      "equipment that turns vapour into liquid"
+    ],
+    "V7w016": [
+      "TK",
+      "V7",
+      "equipment that cleans gas with liquid"
+    ],
+    "V7w017": [
+      "TK",
+      "V7",
+      "a tower where gas is absorbed into liquid"
+    ],
+    "V7w018": [
+      "TK",
+      "V7",
+      "a column filled with packing material"
+    ],
+    "V7w019": [
+      "TK",
+      "V7",
+      "small rings used as column packing"
+    ],
+    "V7w020": [
+      "TK",
+      "V7",
+      "a device that removes droplets from gas"
+    ],
+    "V7w021": [
+      "TK",
+      "V7",
+      "rapid cooling of a hot gas"
+    ],
+    "V7w022": [
+      "TK",
+      "V7",
+      "a vessel where a chemical reaction takes place"
+    ],
+    "V7w023": [
+      "TK",
+      "V7",
+      "a mixer in a tank"
+    ],
+    "V7w024": [
+      "TK",
+      "V7",
+      "a tank with an agitator"
+    ],
+    "V7w025": [
+      "TK",
+      "V7",
+      "a closed container for fluids"
+    ],
+    "V7w026": [
+      "TK",
+      "V7",
+      "a tank for storing liquid"
+    ],
+    "V7w027": [
+      "TK",
+      "V7",
+      "a tank with a cone-shaped roof"
+    ],
+    "V7w028": [
+      "TK",
+      "V7",
+      "a tank that smooths flow changes"
+    ],
+    "V7w029": [
+      "TK",
+      "V7",
+      "a small tank for daily use"
+    ],
+    "V7w030": [
+      "TK",
+      "V7",
+      "a tank placed high to give pressure"
+    ],
+    "V7w031": [
+      "TK",
+      "V7",
+      "a vessel that collects fluid"
+    ],
+    "V7w032": [
+      "TK",
+      "V7",
+      "a low pit that collects liquid"
+    ],
+    "V7w033": [
+      "TK",
+      "V7",
+      "a tall container for bulk solids"
+    ],
+    "V7w034": [
+      "TK",
+      "V7",
+      "a machine that separates solids from liquid with plates"
+    ],
+    "V7w035": [
+      "TK",
+      "V7",
+      "the solid layer left in a filter"
+    ],
+    "V7w036": [
+      "TK",
+      "V7",
+      "the liquid that passes through a filter"
+    ],
+    "V7w037": [
+      "TK",
+      "V7",
+      "a tank that concentrates solids"
+    ],
+    "V7w038": [
+      "TK",
+      "V7",
+      "a tank where solids settle"
+    ],
+    "V7w039": [
+      "TK",
+      "V7",
+      "a chemical that makes particles join"
+    ],
+    "V7w040": [
+      "TK",
+      "V7",
+      "a machine that moves air"
+    ],
+    "V7w041": [
+      "TK",
+      "V7",
+      "a machine that blows air at higher pressure"
+    ],
+    "V7w042": [
+      "TK",
+      "V7",
+      "waste gas released from a process"
+    ],
+    "V7w043": [
+      "TK",
+      "V7",
+      "a tall chimney"
+    ],
+    "V7w044": [
+      "TK",
+      "V7",
+      "the remaining gas at the end of a process"
+    ],
+    "V7w045": [
+      "TK",
+      "V7",
+      "gas released from equipment"
+    ],
+    "V7w046": [
+      "TK",
+      "V7",
+      "a horizontal vessel"
+    ],
+    "V7w047": [
+      "TK",
+      "V7",
+      "a connection opening on equipment"
+    ],
+    "V7w048": [
+      "TK",
+      "V7",
+      "an opening large enough for a person"
+    ],
+    "V7w049": [
+      "TK",
+      "V7",
+      "a small crane arm on a vessel"
+    ],
+    "V7w050": [
+      "TK",
+      "V7",
+      "a plate that directs flow inside equipment"
+    ],
+    "V7w051": [
+      "TK",
+      "V7",
+      "the rotating part of a pump"
+    ],
+    "V7w052": [
+      "TK",
+      "V7",
+      "the identification number of equipment"
+    ],
+    "V7w053": [
+      "TK",
+      "V7",
+      "a list of all equipment"
+    ],
+    "V7w054": [
+      "TK",
+      "V7",
+      "a document with equipment data"
+    ],
+    "V7w055": [
+      "TK",
+      "V7",
+      "a list of all fluids in a plant"
+    ],
+    "V7w056": [
+      "TK",
+      "V7",
+      "the empty weight of equipment"
+    ],
+    "V7w057": [
+      "TK",
+      "V7",
+      "the weight during operation"
+    ],
+    "V7w058": [
+      "TK",
+      "V7",
+      "the maximum amount something can hold or produce"
+    ],
+    "V7w059": [
+      "TK",
+      "V7",
+      "the amount of fluid per unit of time"
+    ],
+    "V7w060": [
+      "TK",
+      "V7",
+      "the heat or work load of equipment"
+    ],
+    "V7w061": [
+      "TK",
+      "V7",
+      "a machine that turns electricity into motion"
+    ],
+    "V7w062": [
+      "TK",
+      "V7",
+      "the power a machine takes from its driver"
+    ],
+    "V7w063": [
+      "TK",
+      "V7",
+      "a device that controls motor speed"
+    ],
+    "V7w064": [
+      "TK",
+      "V7",
+      "a steel frame carrying a package of equipment"
+    ],
+    "V7w065": [
+      "TK",
+      "V7",
+      "equipment delivered as a ready unit"
+    ],
+    "V7w066": [
+      "TK",
+      "V7",
+      "making a solution neither acidic nor basic"
+    ],
+    "V8w001": [
+      "TK",
+      "V8",
+      "a very dangerous acid (HF)"
+    ],
+    "V8w002": [
+      "TK",
+      "V8",
+      "HF mixed with water"
+    ],
+    "V8w003": [
+      "TK",
+      "V8",
+      "a suspension of lime in water"
+    ],
+    "V8w004": [
+      "TK",
+      "V8",
+      "slaked lime, Ca(OH)2"
+    ],
+    "V8w005": [
+      "TK",
+      "V8",
+      "dry calcium hydroxide powder"
+    ],
+    "V8w006": [
+      "TK",
+      "V8",
+      "a solid formed when fluoride reacts with lime"
+    ],
+    "V8w007": [
+      "TK",
+      "V8",
+      "sodium hydroxide, a strong base"
+    ],
+    "V8w008": [
+      "TK",
+      "V8",
+      "a strong base (KOH)"
+    ],
+    "V8w009": [
+      "TK",
+      "V8",
+      "a simple alcohol used as fuel or chemical"
+    ],
+    "V8w010": [
+      "TK",
+      "V8",
+      "urea dissolved in water"
+    ],
+    "V8w011": [
+      "TK",
+      "V8",
+      "liquid waste discharged from a plant"
+    ],
+    "V8w012": [
+      "TK",
+      "V8",
+      "water that has been used and contains waste"
+    ],
+    "V8w013": [
+      "TK",
+      "V8",
+      "a plant that cleans wastewater"
+    ],
+    "V8w014": [
+      "TK",
+      "V8",
+      "a mixture of liquid and solids"
+    ],
+    "V8w015": [
+      "TK",
+      "V8",
+      "water used in a process"
+    ],
+    "V8w016": [
+      "TK",
+      "V8",
+      "water with minerals removed"
+    ],
+    "V8w017": [
+      "TK",
+      "V8",
+      "water used to cool equipment"
+    ],
+    "V8w018": [
+      "TK",
+      "V8",
+      "water used for firefighting"
+    ],
+    "V8w019": [
+      "TK",
+      "V8",
+      "water safe to drink"
+    ],
+    "V8w020": [
+      "TK",
+      "V8",
+      "clean dry air for instruments"
+    ],
+    "V8w021": [
+      "TK",
+      "V8",
+      "compressed air for general use"
+    ],
+    "V8w022": [
+      "TK",
+      "V8",
+      "an inert gas used for purging"
+    ],
+    "V8w023": [
+      "TK",
+      "V8",
+      "water in gas form"
+    ],
+    "V8w024": [
+      "TK",
+      "V8",
+      "water formed when steam cools"
+    ],
+    "V8w025": [
+      "TK",
+      "V8",
+      "treated water fed to a boiler"
+    ],
+    "V8w026": [
+      "TK",
+      "V8",
+      "a measure of how acidic or basic a liquid is"
+    ],
+    "V8w027": [
+      "TK",
+      "V8",
+      "the amount of a substance in a mixture"
+    ],
+    "V8w028": [
+      "TK",
+      "V8",
+      "easily set on fire"
+    ],
+    "V8w029": [
+      "TK",
+      "V8",
+      "poisonous"
+    ],
+    "V8w030": [
+      "TK",
+      "V8",
+      "able to destroy materials chemically"
+    ],
+    "V8w031": [
+      "TK",
+      "V8",
+      "resistance of a fluid to flow"
+    ],
+    "V8w032": [
+      "TK",
+      "V8",
+      "mass per unit volume"
+    ],
+    "V8w033": [
+      "TK",
+      "V8",
+      "the pressure at which a liquid evaporates"
+    ],
+    "V9w001": [
+      "TK",
+      "V9",
+      "a device that measures or controls"
+    ],
+    "V9w002": [
+      "TK",
+      "V9",
+      "a device that measures and sends pressure signals"
+    ],
+    "V9w003": [
+      "TK",
+      "V9",
+      "a device that sends temperature signals"
+    ],
+    "V9w004": [
+      "TK",
+      "V9",
+      "a device that sends level signals"
+    ],
+    "V9w005": [
+      "TK",
+      "V9",
+      "a device that measures flow"
+    ],
+    "V9w006": [
+      "TK",
+      "V9",
+      "a dial that shows pressure locally"
+    ],
+    "V9w007": [
+      "TK",
+      "V9",
+      "a device showing the liquid level"
+    ],
+    "V9w008": [
+      "TK",
+      "V9",
+      "a tube that protects a temperature sensor"
+    ],
+    "V9w009": [
+      "TK",
+      "V9",
+      "a plate with a hole used to measure flow"
+    ],
+    "V9w010": [
+      "TK",
+      "V9",
+      "the difference between two pressures"
+    ],
+    "V9w011": [
+      "TK",
+      "V9",
+      "a system of sensor, controller and valve"
+    ],
+    "V9w012": [
+      "TK",
+      "V9",
+      "testing a control loop from field to control room"
+    ],
+    "V9w013": [
+      "TK",
+      "V9",
+      "distributed control system"
+    ],
+    "V9w014": [
+      "TK",
+      "V9",
+      "programmable logic controller"
+    ],
+    "V9w015": [
+      "TK",
+      "V9",
+      "an automatic safety action between devices"
+    ],
+    "V9w016": [
+      "TK",
+      "V9",
+      "a warning signal"
+    ],
+    "V9w017": [
+      "TK",
+      "V9",
+      "the target value of a controller"
+    ],
+    "V9w018": [
+      "TK",
+      "V9",
+      "a box where cables are connected"
+    ],
+    "V9w019": [
+      "TK",
+      "V9",
+      "a support system for cables"
+    ],
+    "V9w020": [
+      "TK",
+      "V9",
+      "a room for electrical equipment"
+    ],
+    "V9w021": [
+      "TK",
+      "V9",
+      "connecting equipment to the ground for safety"
+    ],
+    "V9w022": [
+      "TK",
+      "V9",
+      "a system that protects against lightning"
+    ],
+    "V9w023": [
+      "TK",
+      "V9",
+      "an area where explosive gas may exist"
+    ],
+    "V9w024": [
+      "TK",
+      "V9",
+      "dividing a plant into explosion risk zones"
+    ],
+    "V9w025": [
+      "TK",
+      "V9",
+      "an area where explosive gas is likely in normal operation"
+    ],
+    "V9w026": [
+      "TK",
+      "V9",
+      "an area where explosive gas is unlikely"
+    ],
+    "V9w027": [
+      "TK",
+      "V9",
+      "EU rules for equipment in explosive areas"
+    ],
+    "V9w028": [
+      "TK",
+      "V9",
+      "built so it cannot ignite gas"
+    ],
+    "V9w029": [
+      "TK",
+      "V9",
+      "anything that can start a fire"
+    ],
+    "V9w030": [
+      "TK",
+      "V9",
+      "a device that detects gas"
+    ],
+    "V9w031": [
+      "TK",
+      "V9",
+      "a system that detects fire"
+    ],
+    "V9w032": [
+      "TK",
+      "V9",
+      "a water connection for firefighting"
+    ],
+    "V9w033": [
+      "TK",
+      "V9",
+      "a nozzle that directs a large water jet"
+    ],
+    "V9w034": [
+      "TK",
+      "V9",
+      "a shower for emergency washing"
+    ],
+    "V9w035": [
+      "TK",
+      "V9",
+      "a station for washing the eyes"
+    ],
+    "V9w036": [
+      "TK",
+      "V9",
+      "safety gear worn by workers"
+    ],
+    "V9w037": [
+      "TK",
+      "V9",
+      "a document with hazard information on a chemical"
+    ],
+    "V9w038": [
+      "TK",
+      "V9",
+      "a structured study of hazards and operability"
+    ],
+    "V9w039": [
+      "TK",
+      "V9",
+      "identifying and evaluating risks"
+    ],
+    "V9w040": [
+      "TK",
+      "V9",
+      "a measure of safety function reliability"
+    ],
+    "V9w041": [
+      "TK",
+      "V9",
+      "written permission for dangerous work"
+    ],
+    "V9w042": [
+      "TK",
+      "V9",
+      "locking and tagging energy sources before work"
+    ],
+    "V9w043": [
+      "TK",
+      "V9",
+      "a way out in an emergency"
+    ],
+    "V9w044": [
+      "TK",
+      "V9",
+      "keeping spilled material in a limited area"
+    ],
+    "V9w045": [
+      "TK",
+      "V9",
+      "liquid that has escaped accidentally"
+    ],
+    "V10w001": [
+      "TK",
+      "V10",
+      "the concrete base of a structure or equipment"
+    ],
+    "V10w002": [
+      "TK",
+      "V10",
+      "concrete with steel bars inside"
+    ],
+    "V10w003": [
+      "TK",
+      "V10",
+      "steel reinforcing bar"
+    ],
+    "V10w004": [
+      "TK",
+      "V10",
+      "a raised concrete base"
+    ],
+    "V10w005": [
+      "TK",
+      "V10",
+      "a wall around tanks to hold spills"
+    ],
+    "V10w006": [
+      "TK",
+      "V10",
+      "a hard surface on the ground"
+    ],
+    "V10w007": [
+      "TK",
+      "V10",
+      "steel beams and columns"
+    ],
+    "V10w008": [
+      "TK",
+      "V10",
+      "a raised floor for access"
+    ],
+    "V10w009": [
+      "TK",
+      "V10",
+      "a set of steps for climbing"
+    ],
+    "V10w010": [
+      "TK",
+      "V10",
+      "a set of stairs"
+    ],
+    "V10w011": [
+      "TK",
+      "V10",
+      "a rail to hold for safety"
+    ],
+    "V10w012": [
+      "TK",
+      "V10",
+      "a metal open floor panel"
+    ],
+    "V10w013": [
+      "TK",
+      "V10",
+      "a bolt that fixes steel to concrete"
+    ],
+    "V10w014": [
+      "TK",
+      "V10",
+      "a plate at the bottom of a column"
+    ],
+    "V10w015": [
+      "TK",
+      "V10",
+      "a cement filling under a base plate"
+    ],
+    "V10w016": [
+      "TK",
+      "V10",
+      "digging the ground"
+    ],
+    "V10w017": [
+      "TK",
+      "V10",
+      "filling a hole with soil again"
+    ],
+    "V10w018": [
+      "TK",
+      "V10",
+      "a study of soil conditions"
+    ],
+    "V10w019": [
+      "TK",
+      "V10",
+      "driving piles into the ground for support"
+    ],
+    "V10w020": [
+      "TK",
+      "V10",
+      "temporary moulds for concrete"
+    ],
+    "V10w021": [
+      "TK",
+      "V10",
+      "a temporary structure for working at height"
+    ],
+    "V10w022": [
+      "TK",
+      "V10",
+      "a machine for lifting heavy loads"
+    ],
+    "V10w023": [
+      "TK",
+      "V10",
+      "assembling and installing on site"
+    ],
+    "V10w024": [
+      "TK",
+      "V10",
+      "making parts in a shop"
+    ],
+    "V10w025": [
+      "TK",
+      "V10",
+      "a weld joining two ends face to face"
+    ],
+    "V10w026": [
+      "TK",
+      "V10",
+      "a triangular weld joining two surfaces at an angle"
+    ],
+    "V10w027": [
+      "TK",
+      "V10",
+      "a weld at a socket fitting"
+    ],
+    "V10w028": [
+      "TK",
+      "V10",
+      "the line of a weld"
+    ],
+    "V10w029": [
+      "TK",
+      "V10",
+      "the place where parts are welded"
+    ],
+    "V10w030": [
+      "TK",
+      "V10",
+      "an angled edge prepared for welding"
+    ],
+    "V10w031": [
+      "TK",
+      "V10",
+      "a document describing how to weld"
+    ],
+    "V10w032": [
+      "TK",
+      "V10",
+      "a record proving a welding procedure works"
+    ],
+    "V10w033": [
+      "TK",
+      "V10",
+      "a test proving a welder's skill"
+    ],
+    "V10w034": [
+      "TK",
+      "V10",
+      "heating metal before welding"
+    ],
+    "V10w035": [
+      "TK",
+      "V10",
+      "heating after welding to reduce stress"
+    ],
+    "V10w036": [
+      "TK",
+      "V10",
+      "testing without damaging the part"
+    ],
+    "V10w037": [
+      "TK",
+      "V10",
+      "inspecting welds with X-rays"
+    ],
+    "V10w038": [
+      "TK",
+      "V10",
+      "finding surface cracks with dye"
+    ],
+    "V10w039": [
+      "TK",
+      "V10",
+      "checking by looking"
+    ],
+    "V10w040": [
+      "TK",
+      "V10",
+      "a pressure test with water"
+    ],
+    "V10w041": [
+      "TK",
+      "V10",
+      "a pressure test with air or gas"
+    ],
+    "V10w042": [
+      "TK",
+      "V10",
+      "a test to find leaks"
+    ],
+    "V10w043": [
+      "TK",
+      "V10",
+      "cleaning pipes by running fluid"
+    ],
+    "V10w044": [
+      "TK",
+      "V10",
+      "removing gas or air with another gas"
+    ],
+    "V10w045": [
+      "TK",
+      "V10",
+      "a document set for one pressure test"
+    ],
+    "V10w046": [
+      "TK",
+      "V10",
+      "a blind used during testing"
+    ],
+    "V10w047": [
+      "TK",
+      "V10",
+      "checking a gauge against a standard"
+    ],
+    "V11w001": [
+      "TK",
+      "V11",
+      "planning and controlling a project"
+    ],
+    "V11w002": [
+      "TK",
+      "V11",
+      "the person responsible for a project"
+    ],
+    "V11w003": [
+      "TK",
+      "V11",
+      "a description of the work to be done"
+    ],
+    "V11w004": [
+      "TK",
+      "V11",
+      "what a supplier must provide"
+    ],
+    "V11w005": [
+      "TK",
+      "V11",
+      "uncontrolled growth of project scope"
+    ],
+    "V11w006": [
+      "TK",
+      "V11",
+      "division of a project into smaller parts"
+    ],
+    "V11w007": [
+      "TK",
+      "V11",
+      "a defined part of project work"
+    ],
+    "V11w008": [
+      "TK",
+      "V11",
+      "the timeline of project activities"
+    ],
+    "V11w009": [
+      "TK",
+      "V11",
+      "an important point in a project"
+    ],
+    "V11w010": [
+      "TK",
+      "V11",
+      "the longest chain of tasks that sets the end date"
+    ],
+    "V11w011": [
+      "TK",
+      "V11",
+      "the time a task can be delayed without delaying the project"
+    ],
+    "V11w012": [
+      "TK",
+      "V11",
+      "the approved original plan"
+    ],
+    "V11w013": [
+      "TK",
+      "V11",
+      "a bar chart of a schedule"
+    ],
+    "V11w014": [
+      "TK",
+      "V11",
+      "a graph showing cumulative progress"
+    ],
+    "V11w015": [
+      "TK",
+      "V11",
+      "a report on what has been done"
+    ],
+    "V11w016": [
+      "TK",
+      "V11",
+      "the first meeting of a project"
+    ],
+    "V11w017": [
+      "TK",
+      "V11",
+      "a written record of a meeting"
+    ],
+    "V11w018": [
+      "TK",
+      "V11",
+      "a task assigned in a meeting"
+    ],
+    "V11w019": [
+      "TK",
+      "V11",
+      "a required output of a project"
+    ],
+    "V11w020": [
+      "TK",
+      "V11",
+      "an engineering field such as piping or civil"
+    ],
+    "V11w021": [
+      "TK",
+      "V11",
+      "a review of documents by other disciplines"
+    ],
+    "V11w022": [
+      "TK",
+      "V11",
+      "the point after which design should not change"
+    ],
+    "V11w023": [
+      "TK",
+      "V11",
+      "a meeting to check a design"
+    ],
+    "V11w024": [
+      "TK",
+      "V11",
+      "a formal question to get missing information"
+    ],
+    "V11w025": [
+      "TK",
+      "V11",
+      "a formal technical question"
+    ],
+    "V11w026": [
+      "TK",
+      "V11",
+      "something accepted as true for planning"
+    ],
+    "V11w027": [
+      "TK",
+      "V11",
+      "something not included in the scope"
+    ],
+    "V11w028": [
+      "TK",
+      "V11",
+      "a limitation on a project"
+    ],
+    "V11w029": [
+      "TK",
+      "V11",
+      "a person or group affected by a project"
+    ],
+    "V11w030": [
+      "TK",
+      "V11",
+      "a list of project risks"
+    ],
+    "V11w031": [
+      "TK",
+      "V11",
+      "actions that reduce risk"
+    ],
+    "V11w032": [
+      "TK",
+      "V11",
+      "knowledge gained from experience"
+    ],
+    "V11w033": [
+      "TK",
+      "V11",
+      "a formal order to change the contract"
+    ],
+    "V11w034": [
+      "TK",
+      "V11",
+      "a formal change to the scope or price"
+    ],
+    "V11w035": [
+      "TK",
+      "V11",
+      "controlling changes in a project"
+    ],
+    "V11w036": [
+      "TK",
+      "V11",
+      "a situation where something happens later than planned"
+    ],
+    "V11w037": [
+      "TK",
+      "V11",
+      "actions to get back on schedule"
+    ],
+    "V11w038": [
+      "TK",
+      "V11",
+      "an event outside anyone's control that excuses delay"
+    ],
+    "V12w001": [
+      "TK",
+      "V12",
+      "a prediction of project cost"
+    ],
+    "V12w002": [
+      "TK",
+      "V12",
+      "the cost of building a plant"
+    ],
+    "V12w003": [
+      "TK",
+      "V12",
+      "the accuracy level of an estimate"
+    ],
+    "V12w004": [
+      "TK",
+      "V12",
+      "the expected range of an estimate's error"
+    ],
+    "V12w005": [
+      "TK",
+      "V12",
+      "how fully a project is defined"
+    ],
+    "V12w006": [
+      "TK",
+      "V12",
+      "a study of whether a project is viable"
+    ],
+    "V12w007": [
+      "TK",
+      "V12",
+      "early design that defines the project (FEED)"
+    ],
+    "V12w008": [
+      "TK",
+      "V12",
+      "full design for construction"
+    ],
+    "V12w009": [
+      "TK",
+      "V12",
+      "engineering, procurement and construction contract"
+    ],
+    "V12w010": [
+      "TK",
+      "V12",
+      "a fixed total price"
+    ],
+    "V12w011": [
+      "TK",
+      "V12",
+      "a price per unit of work"
+    ],
+    "V12w012": [
+      "TK",
+      "V12",
+      "cost directly linked to construction work"
+    ],
+    "V12w013": [
+      "TK",
+      "V12",
+      "cost not directly linked to a work item"
+    ],
+    "V12w014": [
+      "TK",
+      "V12",
+      "site costs not tied to a single item"
+    ],
+    "V12w015": [
+      "TK",
+      "V12",
+      "general business costs"
+    ],
+    "V12w016": [
+      "TK",
+      "V12",
+      "the percentage of profit"
+    ],
+    "V12w017": [
+      "TK",
+      "V12",
+      "money kept for unexpected costs"
+    ],
+    "V12w018": [
+      "TK",
+      "V12",
+      "an amount for known but undefined items"
+    ],
+    "V12w019": [
+      "TK",
+      "V12",
+      "cost increase over time"
+    ],
+    "V12w020": [
+      "TK",
+      "V12",
+      "the date prices are based on"
+    ],
+    "V12w021": [
+      "TK",
+      "V12",
+      "a number tracking price changes"
+    ],
+    "V12w022": [
+      "TK",
+      "V12",
+      "estimating cost from a different capacity"
+    ],
+    "V12w023": [
+      "TK",
+      "V12",
+      "an estimate calculated from equipment cost times factors"
+    ],
+    "V12w024": [
+      "TK",
+      "V12",
+      "quantities counted from drawings"
+    ],
+    "V12w025": [
+      "TK",
+      "V12",
+      "an estimate from counted items"
+    ],
+    "V12w026": [
+      "TK",
+      "V12",
+      "cost items calculated as percentages"
+    ],
+    "V12w027": [
+      "TK",
+      "V12",
+      "comparing with similar projects"
+    ],
+    "V12w028": [
+      "TK",
+      "V12",
+      "confirming something is correct"
+    ],
+    "V12w029": [
+      "TK",
+      "V12",
+      "one hour of work by one person"
+    ],
+    "V12w030": [
+      "TK",
+      "V12",
+      "output per hour of work"
+    ],
+    "V12w031": [
+      "TK",
+      "V12",
+      "the cost of an hour of work"
+    ],
+    "V12w032": [
+      "TK",
+      "V12",
+      "a skilled trade such as welding"
+    ],
+    "V12w033": [
+      "TK",
+      "V12",
+      "engineering and consulting work"
+    ],
+    "V12w034": [
+      "TK",
+      "V12",
+      "managing site construction"
+    ],
+    "V12w035": [
+      "TK",
+      "V12",
+      "planning transport and delivery"
+    ],
+    "V12w036": [
+      "TK",
+      "V12",
+      "goods transport or its cost"
+    ],
+    "V12w037": [
+      "TK",
+      "V12",
+      "import fees and taxes"
+    ],
+    "V12w038": [
+      "TK",
+      "V12",
+      "the money system of a country"
+    ],
+    "V12w039": [
+      "TK",
+      "V12",
+      "an estimate shared fully with the client"
+    ],
+    "V12w040": [
+      "TK",
+      "V12",
+      "a formal offer for a contract"
+    ],
+    "V12w041": [
+      "TK",
+      "V12",
+      "an offer to do work at a price"
+    ],
+    "V12w042": [
+      "TK",
+      "V12",
+      "a formal offer or plan"
+    ],
+    "V12w043": [
+      "TK",
+      "V12",
+      "comparing offers"
+    ],
+    "V12w044": [
+      "TK",
+      "V12",
+      "a legal agreement"
+    ],
+    "V12w045": [
+      "TK",
+      "V12",
+      "an official order to buy"
+    ],
+    "V12w046": [
+      "TK",
+      "V12",
+      "an internal request to buy"
+    ],
+    "V12w047": [
+      "TK",
+      "V12",
+      "a request for prices from suppliers"
+    ],
+    "V12w048": [
+      "TK",
+      "V12",
+      "a seller of goods"
+    ],
+    "V12w049": [
+      "TK",
+      "V12",
+      "a company that provides goods"
+    ],
+    "V12w050": [
+      "TK",
+      "V12",
+      "a company hired by the main contractor"
+    ],
+    "V12w051": [
+      "TK",
+      "V12",
+      "a company that does the work"
+    ],
+    "V12w052": [
+      "TK",
+      "V12",
+      "the client who owns the project"
+    ],
+    "V12w053": [
+      "TK",
+      "V12",
+      "the company that owns the process technology"
+    ],
+    "V12w054": [
+      "TK",
+      "V12",
+      "following up to ensure on-time delivery"
+    ],
+    "V12w055": [
+      "TK",
+      "V12",
+      "equipment that takes long to deliver"
+    ],
+    "V12w056": [
+      "TK",
+      "V12",
+      "the time from order to delivery"
+    ],
+    "V12w057": [
+      "TK",
+      "V12",
+      "the date of delivery"
+    ],
+    "V12w058": [
+      "TK",
+      "V12",
+      "a plan listing inspections and tests"
+    ],
+    "V12w059": [
+      "TK",
+      "V12",
+      "inspection by an independent company"
+    ],
+    "V12w060": [
+      "TK",
+      "V12",
+      "a test at the supplier's factory"
+    ],
+    "V12w061": [
+      "TK",
+      "V12",
+      "a test after installation on site"
+    ],
+    "V12w062": [
+      "TK",
+      "V12",
+      "systems that prevent quality problems"
+    ],
+    "V12w063": [
+      "TK",
+      "V12",
+      "checking that products meet requirements"
+    ],
+    "V12w064": [
+      "TK",
+      "V12",
+      "a report of a deviation from requirements"
+    ],
+    "V12w065": [
+      "TK",
+      "V12",
+      "an action to fix a problem"
+    ],
+    "V12w066": [
+      "TK",
+      "V12",
+      "an official inspection of records or processes"
+    ],
+    "V12w067": [
+      "TK",
+      "V12",
+      "a list of unfinished items"
+    ],
+    "V12w068": [
+      "TK",
+      "V12",
+      "the point when construction is finished"
+    ],
+    "V12w069": [
+      "TK",
+      "V12",
+      "checks before start-up"
+    ],
+    "V12w070": [
+      "TK",
+      "V12",
+      "bringing a plant into operation"
+    ],
+    "V12w071": [
+      "TK",
+      "V12",
+      "the first operation of a plant"
+    ],
+    "V12w072": [
+      "TK",
+      "V12",
+      "a test proving a plant meets its targets"
+    ],
+    "V12w073": [
+      "TK",
+      "V12",
+      "transfer of the plant to the owner"
+    ],
+    "V12w074": [
+      "TK",
+      "V12",
+      "a drawing showing the final built condition"
+    ],
+    "V12w075": [
+      "TK",
+      "V12",
+      "a guarantee to repair defects"
+    ],
+    "V12w076": [
+      "TK",
+      "V12",
+      "the period when the contractor must fix defects"
+    ],
+    "V12w077": [
+      "TK",
+      "V12",
+      "fixed payments for delay"
+    ],
+    "V12w078": [
+      "TK",
+      "V12",
+      "money held back until work is complete"
+    ],
+    "V12w079": [
+      "TK",
+      "V12",
+      "a bill for payment"
+    ],
+    "V12w080": [
+      "TK",
+      "V12",
+      "money coming in and going out"
+    ],
+    "V12w081": [
+      "TK",
+      "V12",
+      "the planned amount of money"
+    ],
+    "V12w082": [
+      "TK",
+      "V12",
+      "spending more than the budget"
+    ],
+    "V13w001": [
+      "TK",
+      "V13",
+      "managing project documents"
+    ],
+    "V13w002": [
+      "TK",
+      "V13",
+      "a list of all documents"
+    ],
+    "V13w003": [
+      "TK",
+      "V13",
+      "the unique code of a document"
+    ],
+    "V13w004": [
+      "TK",
+      "V13",
+      "a new version of a document"
+    ],
+    "V13w005": [
+      "TK",
+      "V13",
+      "a record of all revisions"
+    ],
+    "V13w006": [
+      "TK",
+      "V13",
+      "sent for comments"
+    ],
+    "V13w007": [
+      "TK",
+      "V13",
+      "approved for building"
+    ],
+    "V13w008": [
+      "TK",
+      "V13",
+      "sent only for information"
+    ],
+    "V13w009": [
+      "TK",
+      "V13",
+      "official acceptance"
+    ],
+    "V13w010": [
+      "TK",
+      "V13",
+      "checking that something is correct"
+    ],
+    "V13w011": [
+      "TK",
+      "V13",
+      "the person responsible for a document"
+    ],
+    "V13w012": [
+      "TK",
+      "V13",
+      "a form for user comments"
+    ],
+    "V13w013": [
+      "TK",
+      "V13",
+      "a standard format to start from"
+    ],
+    "V13w014": [
+      "TK",
+      "V13",
+      "a document of technical requirements"
+    ],
+    "V13w015": [
+      "TK",
+      "V13",
+      "a document with technical data"
+    ],
+    "V13w016": [
+      "TK",
+      "V13",
+      "a technical picture"
+    ],
+    "V13w017": [
+      "TK",
+      "V13",
+      "the information box on a drawing"
+    ],
+    "V13w018": [
+      "TK",
+      "V13",
+      "a cover form sent with documents"
+    ],
+    "V13w019": [
+      "TK",
+      "V13",
+      "answering and closing comments"
+    ],
+    "V13w020": [
+      "TK",
+      "V13",
+      "a document used as a source"
+    ],
+    "V13w021": [
+      "TK",
+      "V13",
+      "a short form of a word"
+    ]
+  },
+  "extra": [
+    {
+      "id": "kxa01",
+      "term": "borrow",
+      "translation": "ödünç almak",
+      "level": "A2",
+      "topic": "verb",
+      "def": "to take something from someone and give it back later",
+      "s": [
+        [
+          "Can I borrow your pen for a minute?",
+          "Kalemini bir dakikalığına ödünç alabilir miyim?"
+        ],
+        [
+          "I borrowed a book from the library.",
+          "Kütüphaneden bir kitap ödünç aldım."
+        ]
+      ]
+    },
+    {
+      "id": "kxa02",
+      "term": "lend",
+      "translation": "ödünç vermek",
+      "level": "A2",
+      "topic": "verb",
+      "def": "to give something to someone for a short time",
+      "s": [
+        [
+          "Could you lend me some money until Friday?",
+          "Cumaya kadar bana biraz para ödünç verebilir misin?"
+        ],
+        [
+          "She lent her car to her brother.",
+          "Arabasını erkek kardeşine ödünç verdi."
+        ]
+      ]
+    },
+    {
+      "id": "kxa03",
+      "term": "arrive",
+      "translation": "varmak, gelmek",
+      "level": "A2",
+      "topic": "travel",
+      "def": "to reach a place",
+      "s": [
+        [
+          "The train arrives at 9 o'clock.",
+          "Tren saat 9'da varıyor."
+        ],
+        [
+          "We arrived at the hotel late at night.",
+          "Otele gece geç saatte vardık."
+        ]
+      ]
+    },
+    {
+      "id": "kxa04",
+      "term": "leave",
+      "translation": "ayrılmak, bırakmak",
+      "level": "A2",
+      "topic": "verb",
+      "def": "to go away from a place; to let something stay",
+      "s": [
+        [
+          "I leave home at 7 every morning.",
+          "Her sabah 7'de evden çıkarım."
+        ],
+        [
+          "Don't leave your bag on the floor.",
+          "Çantanı yere bırakma."
+        ]
+      ]
+    },
+    {
+      "id": "kxa05",
+      "term": "cheap",
+      "translation": "ucuz",
+      "level": "A2",
+      "topic": "desc",
+      "def": "costing little money",
+      "s": [
+        [
+          "This shirt was really cheap.",
+          "Bu gömlek gerçekten ucuzdu."
+        ],
+        [
+          "We found a cheap hotel near the beach.",
+          "Plajın yakınında ucuz bir otel bulduk."
+        ]
+      ]
+    },
+    {
+      "id": "kxa06",
+      "term": "expensive",
+      "translation": "pahalı",
+      "level": "A2",
+      "topic": "desc",
+      "def": "costing a lot of money",
+      "s": [
+        [
+          "Restaurants in the city centre are expensive.",
+          "Şehir merkezindeki restoranlar pahalı."
+        ],
+        [
+          "That phone is too expensive for me.",
+          "O telefon benim için çok pahalı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa07",
+      "term": "crowded",
+      "translation": "kalabalık",
+      "level": "A2",
+      "topic": "desc",
+      "def": "full of people",
+      "s": [
+        [
+          "The bus was very crowded this morning.",
+          "Otobüs bu sabah çok kalabalıktı."
+        ],
+        [
+          "I don't like crowded places.",
+          "Kalabalık yerleri sevmem."
+        ]
+      ]
+    },
+    {
+      "id": "kxa08",
+      "term": "quiet",
+      "translation": "sessiz, sakin",
+      "level": "A2",
+      "topic": "desc",
+      "def": "making little noise; calm",
+      "s": [
+        [
+          "Please be quiet in the library.",
+          "Lütfen kütüphanede sessiz olun."
+        ],
+        [
+          "We live in a quiet street.",
+          "Sakin bir sokakta yaşıyoruz."
+        ]
+      ]
+    },
+    {
+      "id": "kxa09",
+      "term": "tired",
+      "translation": "yorgun",
+      "level": "A2",
+      "topic": "feel",
+      "def": "needing rest or sleep",
+      "s": [
+        [
+          "I'm very tired after work.",
+          "İşten sonra çok yorgunum."
+        ],
+        [
+          "She looked tired this morning.",
+          "Bu sabah yorgun görünüyordu."
+        ]
+      ]
+    },
+    {
+      "id": "kxa10",
+      "term": "angry",
+      "translation": "kızgın",
+      "level": "A2",
+      "topic": "feel",
+      "def": "feeling strong displeasure",
+      "s": [
+        [
+          "My boss was angry about the delay.",
+          "Patronum gecikmeye kızmıştı."
+        ],
+        [
+          "Don't get angry; it was an accident.",
+          "Kızma, bir kazaydı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa11",
+      "term": "worried",
+      "translation": "endişeli",
+      "level": "A2",
+      "topic": "feel",
+      "def": "unhappy because you think something bad may happen",
+      "s": [
+        [
+          "I'm worried about the exam.",
+          "Sınav için endişeliyim."
+        ],
+        [
+          "Her parents were worried when she didn't call.",
+          "Aramayınca ailesi endişelendi."
+        ]
+      ]
+    },
+    {
+      "id": "kxa12",
+      "term": "bored",
+      "translation": "sıkılmış",
+      "level": "A2",
+      "topic": "feel",
+      "def": "unhappy because nothing interesting is happening",
+      "s": [
+        [
+          "The children were bored on the long trip.",
+          "Uzun yolculukta çocuklar sıkıldı."
+        ],
+        [
+          "I get bored in long meetings.",
+          "Uzun toplantılarda sıkılırım."
+        ]
+      ]
+    },
+    {
+      "id": "kxa13",
+      "term": "proud",
+      "translation": "gururlu",
+      "level": "A2",
+      "topic": "feel",
+      "def": "pleased about something you or someone close did",
+      "s": [
+        [
+          "I'm proud of my team.",
+          "Ekibimle gurur duyuyorum."
+        ],
+        [
+          "Her father was proud when she graduated.",
+          "Mezun olduğunda babası gurur duydu."
+        ]
+      ]
+    },
+    {
+      "id": "kxa14",
+      "term": "friendly",
+      "translation": "samimi, cana yakın",
+      "level": "A2",
+      "topic": "feel",
+      "def": "kind and pleasant to others",
+      "s": [
+        [
+          "The people in this town are very friendly.",
+          "Bu kasabadaki insanlar çok cana yakın."
+        ],
+        [
+          "Our new neighbour seems friendly.",
+          "Yeni komşumuz samimi görünüyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxa15",
+      "term": "lazy",
+      "translation": "tembel",
+      "level": "A2",
+      "topic": "feel",
+      "def": "not wanting to work or make an effort",
+      "s": [
+        [
+          "I feel lazy on Sunday mornings.",
+          "Pazar sabahları kendimi tembel hissediyorum."
+        ],
+        [
+          "He isn't lazy; he is just tired.",
+          "Tembel değil, sadece yorgun."
+        ]
+      ]
+    },
+    {
+      "id": "kxa16",
+      "term": "neighbour",
+      "translation": "komşu",
+      "level": "A2",
+      "topic": "people",
+      "def": "a person who lives next to or near you",
+      "s": [
+        [
+          "Our neighbour has a big dog.",
+          "Komşumuzun büyük bir köpeği var."
+        ],
+        [
+          "I met my new neighbour in the lift.",
+          "Yeni komşumla asansörde tanıştım."
+        ]
+      ]
+    },
+    {
+      "id": "kxa17",
+      "term": "cousin",
+      "translation": "kuzen",
+      "level": "A2",
+      "topic": "people",
+      "def": "the child of your aunt or uncle",
+      "s": [
+        [
+          "My cousin lives in Germany.",
+          "Kuzenim Almanya'da yaşıyor."
+        ],
+        [
+          "I'm going to my cousin's wedding.",
+          "Kuzenimin düğününe gidiyorum."
+        ]
+      ]
+    },
+    {
+      "id": "kxa18",
+      "term": "colleague",
+      "translation": "iş arkadaşı",
+      "level": "A2",
+      "topic": "work",
+      "def": "a person you work with",
+      "s": [
+        [
+          "My colleague helped me with the report.",
+          "İş arkadaşım rapor konusunda bana yardım etti."
+        ],
+        [
+          "I had lunch with two colleagues.",
+          "İki iş arkadaşımla öğle yemeği yedim."
+        ]
+      ]
+    },
+    {
+      "id": "kxa19",
+      "term": "salary",
+      "translation": "maaş",
+      "level": "A2",
+      "topic": "work",
+      "def": "money you get every month for your job",
+      "s": [
+        [
+          "He got a higher salary at his new job.",
+          "Yeni işinde daha yüksek maaş aldı."
+        ],
+        [
+          "Salaries are paid at the end of the month.",
+          "Maaşlar ay sonunda ödenir."
+        ]
+      ]
+    },
+    {
+      "id": "kxa20",
+      "term": "boss",
+      "translation": "patron, amir",
+      "level": "A2",
+      "topic": "work",
+      "def": "the person in charge of you at work",
+      "s": [
+        [
+          "My boss wants the report today.",
+          "Patronum raporu bugün istiyor."
+        ],
+        [
+          "I asked my boss for a day off.",
+          "Amirimden bir gün izin istedim."
+        ]
+      ]
+    },
+    {
+      "id": "kxa21",
+      "term": "office",
+      "translation": "ofis",
+      "level": "A2",
+      "topic": "work",
+      "def": "a room or building where people work at desks",
+      "s": [
+        [
+          "I work in an office in the city centre.",
+          "Şehir merkezinde bir ofiste çalışıyorum."
+        ],
+        [
+          "The office is closed on Sundays.",
+          "Ofis pazar günleri kapalıdır."
+        ]
+      ]
+    },
+    {
+      "id": "kxa22",
+      "term": "meeting",
+      "translation": "toplantı",
+      "level": "A2",
+      "topic": "meet",
+      "def": "an event where people come together to discuss something",
+      "s": [
+        [
+          "We have a meeting at 10 a.m.",
+          "Saat 10'da toplantımız var."
+        ],
+        [
+          "The meeting was cancelled.",
+          "Toplantı iptal edildi."
+        ]
+      ]
+    },
+    {
+      "id": "kxa23",
+      "term": "appointment",
+      "translation": "randevu",
+      "level": "A2",
+      "topic": "daily",
+      "def": "an arranged time to meet someone",
+      "s": [
+        [
+          "I have a doctor's appointment tomorrow.",
+          "Yarın doktor randevum var."
+        ],
+        [
+          "Can I make an appointment for Monday?",
+          "Pazartesi için randevu alabilir miyim?"
+        ]
+      ]
+    },
+    {
+      "id": "kxa24",
+      "term": "ticket",
+      "translation": "bilet",
+      "level": "A2",
+      "topic": "travel",
+      "def": "a piece of paper or digital pass that lets you travel or enter",
+      "s": [
+        [
+          "I bought two tickets for the concert.",
+          "Konser için iki bilet aldım."
+        ],
+        [
+          "Show your ticket to the driver.",
+          "Biletini şoföre göster."
+        ]
+      ]
+    },
+    {
+      "id": "kxa25",
+      "term": "luggage",
+      "translation": "bagaj, valiz",
+      "level": "A2",
+      "topic": "travel",
+      "def": "bags and suitcases you take on a journey",
+      "s": [
+        [
+          "My luggage was lost at the airport.",
+          "Bagajım havalimanında kayboldu."
+        ],
+        [
+          "You can leave your luggage at reception.",
+          "Valizlerinizi resepsiyonda bırakabilirsiniz."
+        ]
+      ]
+    },
+    {
+      "id": "kxa26",
+      "term": "passport",
+      "translation": "pasaport",
+      "level": "A2",
+      "topic": "travel",
+      "def": "an official document for travelling abroad",
+      "s": [
+        [
+          "Don't forget your passport.",
+          "Pasaportunu unutma."
+        ],
+        [
+          "My passport expires next year.",
+          "Pasaportumun süresi seneye doluyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxa27",
+      "term": "abroad",
+      "translation": "yurt dışında",
+      "level": "A2",
+      "topic": "travel",
+      "def": "in or to another country",
+      "s": [
+        [
+          "She wants to study abroad.",
+          "Yurt dışında okumak istiyor."
+        ],
+        [
+          "Have you ever worked abroad?",
+          "Hiç yurt dışında çalıştın mı?"
+        ]
+      ]
+    },
+    {
+      "id": "kxa28",
+      "term": "journey",
+      "translation": "yolculuk",
+      "level": "A2",
+      "topic": "travel",
+      "def": "travelling from one place to another",
+      "s": [
+        [
+          "The journey takes three hours.",
+          "Yolculuk üç saat sürüyor."
+        ],
+        [
+          "Have a safe journey!",
+          "İyi yolculuklar!"
+        ]
+      ]
+    },
+    {
+      "id": "kxa29",
+      "term": "traffic jam",
+      "translation": "trafik sıkışıklığı",
+      "level": "A2",
+      "topic": "daily",
+      "def": "a long line of vehicles that cannot move",
+      "s": [
+        [
+          "I was late because of a traffic jam.",
+          "Trafik sıkışıklığı yüzünden geç kaldım."
+        ],
+        [
+          "There is always a traffic jam on this road.",
+          "Bu yolda her zaman trafik sıkışıklığı olur."
+        ]
+      ]
+    },
+    {
+      "id": "kxa30",
+      "term": "healthy",
+      "translation": "sağlıklı",
+      "level": "A2",
+      "topic": "health",
+      "def": "good for your body; not ill",
+      "s": [
+        [
+          "I try to eat healthy food.",
+          "Sağlıklı beslenmeye çalışıyorum."
+        ],
+        [
+          "Walking is a healthy habit.",
+          "Yürümek sağlıklı bir alışkanlıktır."
+        ]
+      ]
+    },
+    {
+      "id": "kxa31",
+      "term": "headache",
+      "translation": "baş ağrısı",
+      "level": "A2",
+      "topic": "health",
+      "def": "a pain in your head",
+      "s": [
+        [
+          "I have a terrible headache.",
+          "Korkunç bir baş ağrım var."
+        ],
+        [
+          "Too much screen time gives me a headache.",
+          "Fazla ekran süresi başımı ağrıtıyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxa32",
+      "term": "medicine",
+      "translation": "ilaç",
+      "level": "A2",
+      "topic": "health",
+      "def": "something you take to treat an illness",
+      "s": [
+        [
+          "Take this medicine twice a day.",
+          "Bu ilacı günde iki kez al."
+        ],
+        [
+          "The medicine made me feel better.",
+          "İlaç kendimi daha iyi hissettirdi."
+        ]
+      ]
+    },
+    {
+      "id": "kxa33",
+      "term": "weight",
+      "translation": "kilo, ağırlık",
+      "level": "A2",
+      "topic": "health",
+      "def": "how heavy someone or something is",
+      "s": [
+        [
+          "He lost weight after he started running.",
+          "Koşmaya başladıktan sonra kilo verdi."
+        ],
+        [
+          "What is the weight of this box?",
+          "Bu kutunun ağırlığı ne kadar?"
+        ]
+      ]
+    },
+    {
+      "id": "kxa34",
+      "term": "delicious",
+      "translation": "lezzetli",
+      "level": "A2",
+      "topic": "health",
+      "def": "having a very good taste",
+      "s": [
+        [
+          "This soup is delicious.",
+          "Bu çorba çok lezzetli."
+        ],
+        [
+          "We had a delicious dinner.",
+          "Lezzetli bir akşam yemeği yedik."
+        ]
+      ]
+    },
+    {
+      "id": "kxa35",
+      "term": "bill",
+      "translation": "hesap, fatura",
+      "level": "A2",
+      "topic": "daily",
+      "def": "a paper showing how much you must pay",
+      "s": [
+        [
+          "Can we have the bill, please?",
+          "Hesabı alabilir miyiz lütfen?"
+        ],
+        [
+          "I paid the electricity bill online.",
+          "Elektrik faturasını internetten ödedim."
+        ]
+      ]
+    },
+    {
+      "id": "kxa36",
+      "term": "rent",
+      "translation": "kira; kiralamak",
+      "level": "A2",
+      "topic": "daily",
+      "def": "money paid to live in a place; to pay to use something",
+      "s": [
+        [
+          "The rent is due on the first of the month.",
+          "Kira ayın birinde ödenir."
+        ],
+        [
+          "We rented a car for the weekend.",
+          "Hafta sonu için araba kiraladık."
+        ]
+      ]
+    },
+    {
+      "id": "kxa37",
+      "term": "furniture",
+      "translation": "mobilya",
+      "level": "A2",
+      "topic": "daily",
+      "def": "tables, chairs, beds and similar objects in a home",
+      "s": [
+        [
+          "We bought new furniture for the living room.",
+          "Oturma odası için yeni mobilya aldık."
+        ],
+        [
+          "The flat comes with furniture.",
+          "Daire mobilyalı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa38",
+      "term": "downstairs",
+      "translation": "alt katta",
+      "level": "A2",
+      "topic": "daily",
+      "def": "on or to a lower floor",
+      "s": [
+        [
+          "The kitchen is downstairs.",
+          "Mutfak alt katta."
+        ],
+        [
+          "I'll wait for you downstairs.",
+          "Seni aşağıda bekleyeceğim."
+        ]
+      ]
+    },
+    {
+      "id": "kxa39",
+      "term": "get up",
+      "translation": "kalkmak",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to leave your bed after sleeping",
+      "s": [
+        [
+          "I get up at 6:30 on weekdays.",
+          "Hafta içi 6:30'da kalkarım."
+        ],
+        [
+          "It's hard to get up in winter.",
+          "Kışın kalkmak zor."
+        ]
+      ]
+    },
+    {
+      "id": "kxa40",
+      "term": "turn off",
+      "translation": "kapatmak",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to stop a machine or light working",
+      "s": [
+        [
+          "Please turn off the lights when you leave.",
+          "Çıkarken lütfen ışıkları kapat."
+        ],
+        [
+          "Turn off your phone in the meeting.",
+          "Toplantıda telefonunu kapat."
+        ]
+      ]
+    },
+    {
+      "id": "kxa41",
+      "term": "put on",
+      "translation": "giymek, takmak",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to dress yourself in clothes",
+      "s": [
+        [
+          "Put on your coat; it's cold.",
+          "Montunu giy, hava soğuk."
+        ],
+        [
+          "He put on his safety helmet.",
+          "Baretini taktı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa42",
+      "term": "take off",
+      "translation": "çıkarmak; havalanmak",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to remove clothes; for a plane to leave the ground",
+      "s": [
+        [
+          "Please take off your shoes.",
+          "Lütfen ayakkabılarınızı çıkarın."
+        ],
+        [
+          "The plane took off on time.",
+          "Uçak zamanında kalktı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa43",
+      "term": "fill in",
+      "translation": "doldurmak (form)",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to write information in the spaces of a form",
+      "s": [
+        [
+          "Please fill in this form.",
+          "Lütfen bu formu doldurun."
+        ],
+        [
+          "I filled in the application online.",
+          "Başvuruyu internetten doldurdum."
+        ]
+      ]
+    },
+    {
+      "id": "kxa44",
+      "term": "give back",
+      "translation": "geri vermek",
+      "level": "A2",
+      "topic": "pv",
+      "def": "to return something to its owner",
+      "s": [
+        [
+          "I'll give back your book tomorrow.",
+          "Kitabını yarın geri vereceğim."
+        ],
+        [
+          "Please give back the keys after work.",
+          "İşten sonra anahtarları lütfen geri ver."
+        ]
+      ]
+    },
+    {
+      "id": "kxa45",
+      "term": "on time",
+      "translation": "zamanında",
+      "level": "A2",
+      "topic": "expr",
+      "def": "at the planned time, not late",
+      "s": [
+        [
+          "The project was finished on time.",
+          "Proje zamanında bitirildi."
+        ],
+        [
+          "Please be on time for the meeting.",
+          "Lütfen toplantıya zamanında gelin."
+        ]
+      ]
+    },
+    {
+      "id": "kxa46",
+      "term": "at the moment",
+      "translation": "şu anda",
+      "level": "A2",
+      "topic": "expr",
+      "def": "now",
+      "s": [
+        [
+          "I'm busy at the moment.",
+          "Şu anda meşgulüm."
+        ],
+        [
+          "At the moment, we are working on the drawings.",
+          "Şu anda çizimler üzerinde çalışıyoruz."
+        ]
+      ]
+    },
+    {
+      "id": "kxa47",
+      "term": "by the way",
+      "translation": "bu arada",
+      "level": "A2",
+      "topic": "expr",
+      "def": "used to add something to the conversation",
+      "s": [
+        [
+          "By the way, did you call the client?",
+          "Bu arada, müşteriyi aradın mı?"
+        ],
+        [
+          "By the way, the meeting is at 3.",
+          "Bu arada, toplantı saat 3'te."
+        ]
+      ]
+    },
+    {
+      "id": "kxa48",
+      "term": "in a hurry",
+      "translation": "acelesi olmak",
+      "level": "A2",
+      "topic": "expr",
+      "def": "needing to do something quickly",
+      "s": [
+        [
+          "Sorry, I'm in a hurry.",
+          "Kusura bakma, acelem var."
+        ],
+        [
+          "She left in a hurry.",
+          "Aceleyle çıktı."
+        ]
+      ]
+    },
+    {
+      "id": "kxa49",
+      "term": "weather",
+      "translation": "hava durumu",
+      "level": "A2",
+      "topic": "travel",
+      "def": "the conditions of sun, rain, wind and temperature",
+      "s": [
+        [
+          "The weather is nice today.",
+          "Bugün hava güzel."
+        ],
+        [
+          "We cancelled the trip because of bad weather.",
+          "Kötü hava yüzünden geziyi iptal ettik."
+        ]
+      ]
+    },
+    {
+      "id": "kxa50",
+      "term": "invite",
+      "translation": "davet etmek",
+      "level": "A2",
+      "topic": "people",
+      "def": "to ask someone to come to an event",
+      "s": [
+        [
+          "They invited us to dinner.",
+          "Bizi akşam yemeğine davet ettiler."
+        ],
+        [
+          "I invited my colleagues to my birthday party.",
+          "İş arkadaşlarımı doğum günü partime davet ettim."
+        ]
+      ]
+    },
+    {
+      "id": "kxb01",
+      "term": "argue",
+      "translation": "tartışmak",
+      "level": "B1",
+      "topic": "people",
+      "def": "to speak angrily to someone because you disagree",
+      "s": [
+        [
+          "My neighbours argue every night.",
+          "Komşularım her gece tartışıyor."
+        ],
+        [
+          "Don't argue with the client; explain the problem.",
+          "Müşteriyle tartışma, sorunu açıkla."
+        ]
+      ]
+    },
+    {
+      "id": "kxb02",
+      "term": "complain",
+      "translation": "şikayet etmek",
+      "level": "B1",
+      "topic": "verb",
+      "def": "to say that you are not satisfied with something",
+      "s": [
+        [
+          "He complained about the noise.",
+          "Gürültüden şikayet etti."
+        ],
+        [
+          "Customers complained about the late delivery.",
+          "Müşteriler geç teslimattan şikayet etti."
+        ]
+      ]
+    },
+    {
+      "id": "kxb03",
+      "term": "achieve",
+      "translation": "başarmak, elde etmek",
+      "level": "B1",
+      "topic": "verb",
+      "def": "to succeed in doing something after effort",
+      "s": [
+        [
+          "We achieved our target this month.",
+          "Bu ay hedefimize ulaştık."
+        ],
+        [
+          "She achieved a lot in her career.",
+          "Kariyerinde çok şey başardı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb04",
+      "term": "improve",
+      "translation": "geliştirmek, iyileştirmek",
+      "level": "B1",
+      "topic": "verb",
+      "def": "to make or become better",
+      "s": [
+        [
+          "I want to improve my English.",
+          "İngilizcemi geliştirmek istiyorum."
+        ],
+        [
+          "The new design improved safety.",
+          "Yeni tasarım güvenliği iyileştirdi."
+        ]
+      ]
+    },
+    {
+      "id": "kxb05",
+      "term": "increase",
+      "translation": "artmak, artırmak",
+      "level": "B1",
+      "topic": "verb",
+      "def": "to become or make larger",
+      "s": [
+        [
+          "Prices increased by 10 percent.",
+          "Fiyatlar yüzde 10 arttı."
+        ],
+        [
+          "We need to increase production.",
+          "Üretimi artırmamız gerekiyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxb06",
+      "term": "reduce",
+      "translation": "azaltmak",
+      "level": "B1",
+      "topic": "verb",
+      "def": "to make something smaller or less",
+      "s": [
+        [
+          "We reduced costs by changing the supplier.",
+          "Tedarikçiyi değiştirerek maliyetleri azalttık."
+        ],
+        [
+          "Try to reduce sugar in your diet.",
+          "Diyetindeki şekeri azaltmaya çalış."
+        ]
+      ]
+    },
+    {
+      "id": "kxb07",
+      "term": "deal with",
+      "translation": "ilgilenmek, halletmek",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to take action to solve a problem",
+      "s": [
+        [
+          "I'll deal with the customer's complaint.",
+          "Müşterinin şikayetiyle ben ilgileneceğim."
+        ],
+        [
+          "She deals with difficult situations very well.",
+          "Zor durumlarla çok iyi başa çıkar."
+        ]
+      ]
+    },
+    {
+      "id": "kxb08",
+      "term": "find out",
+      "translation": "öğrenmek, ortaya çıkarmak",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to discover information",
+      "s": [
+        [
+          "I found out that the meeting was cancelled.",
+          "Toplantının iptal edildiğini öğrendim."
+        ],
+        [
+          "Can you find out the delivery date?",
+          "Teslim tarihini öğrenebilir misin?"
+        ]
+      ]
+    },
+    {
+      "id": "kxb09",
+      "term": "give up",
+      "translation": "vazgeçmek, bırakmak",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to stop trying or stop a habit",
+      "s": [
+        [
+          "Don't give up; you're almost there.",
+          "Vazgeçme, neredeyse bitti."
+        ],
+        [
+          "He gave up smoking last year.",
+          "Geçen yıl sigarayı bıraktı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb10",
+      "term": "set up",
+      "translation": "kurmak",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to start or arrange something such as a company or system",
+      "s": [
+        [
+          "She set up her own business.",
+          "Kendi işini kurdu."
+        ],
+        [
+          "We set up the new printer in the office.",
+          "Yeni yazıcıyı ofiste kurduk."
+        ]
+      ]
+    },
+    {
+      "id": "kxb11",
+      "term": "carry on",
+      "translation": "devam etmek",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to continue doing something",
+      "s": [
+        [
+          "Carry on with your work; I'll be back soon.",
+          "İşine devam et, birazdan dönerim."
+        ],
+        [
+          "They carried on talking after the meeting.",
+          "Toplantıdan sonra konuşmaya devam ettiler."
+        ]
+      ]
+    },
+    {
+      "id": "kxb12",
+      "term": "put off",
+      "translation": "ertelemek",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to delay doing something",
+      "s": [
+        [
+          "Don't put off your homework.",
+          "Ödevini erteleme."
+        ],
+        [
+          "The site visit was put off until next week.",
+          "Saha ziyareti gelecek haftaya ertelendi."
+        ]
+      ]
+    },
+    {
+      "id": "kxb13",
+      "term": "turn down",
+      "translation": "reddetmek; kısmak",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to refuse an offer; to lower the volume",
+      "s": [
+        [
+          "She turned down the job offer.",
+          "İş teklifini reddetti."
+        ],
+        [
+          "Please turn down the music.",
+          "Lütfen müziğin sesini kıs."
+        ]
+      ]
+    },
+    {
+      "id": "kxb14",
+      "term": "get along with",
+      "translation": "iyi geçinmek",
+      "level": "B1",
+      "topic": "pv",
+      "def": "to have a friendly relationship with someone",
+      "s": [
+        [
+          "I get along with all my colleagues.",
+          "Tüm iş arkadaşlarımla iyi geçinirim."
+        ],
+        [
+          "She doesn't get along with her sister.",
+          "Kız kardeşiyle iyi geçinemiyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxb15",
+      "term": "experience",
+      "translation": "deneyim; yaşamak",
+      "level": "B1",
+      "topic": "work",
+      "def": "knowledge gained by doing something; to live through something",
+      "s": [
+        [
+          "He has ten years of experience in piping.",
+          "Boru tasarımında on yıllık deneyimi var."
+        ],
+        [
+          "Many people experience stress at work.",
+          "Birçok insan işte stres yaşar."
+        ]
+      ]
+    },
+    {
+      "id": "kxb16",
+      "term": "responsible",
+      "translation": "sorumlu",
+      "level": "B1",
+      "topic": "work",
+      "def": "having the duty to take care of something",
+      "s": [
+        [
+          "I'm responsible for the piping drawings.",
+          "Boru çizimlerinden ben sorumluyum."
+        ],
+        [
+          "Who is responsible for this mistake?",
+          "Bu hatadan kim sorumlu?"
+        ]
+      ]
+    },
+    {
+      "id": "kxb17",
+      "term": "career",
+      "translation": "kariyer",
+      "level": "B1",
+      "topic": "work",
+      "def": "the series of jobs you do during your working life",
+      "s": [
+        [
+          "She has a successful career in engineering.",
+          "Mühendislikte başarılı bir kariyeri var."
+        ],
+        [
+          "He started his career as a draughtsman.",
+          "Kariyerine teknik ressam olarak başladı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb18",
+      "term": "deadline",
+      "translation": "son teslim tarihi",
+      "level": "B1",
+      "topic": "work",
+      "def": "the time by which something must be finished",
+      "s": [
+        [
+          "The deadline for the report is Friday.",
+          "Raporun son teslim tarihi cuma."
+        ],
+        [
+          "We worked late to meet the deadline.",
+          "Teslim tarihine yetişmek için geç saate kadar çalıştık."
+        ]
+      ]
+    },
+    {
+      "id": "kxb19",
+      "term": "employee",
+      "translation": "çalışan",
+      "level": "B1",
+      "topic": "work",
+      "def": "a person who works for a company",
+      "s": [
+        [
+          "The company has 200 employees.",
+          "Şirketin 200 çalışanı var."
+        ],
+        [
+          "New employees get safety training.",
+          "Yeni çalışanlar güvenlik eğitimi alır."
+        ]
+      ]
+    },
+    {
+      "id": "kxb20",
+      "term": "advertisement",
+      "translation": "reklam, ilan",
+      "level": "B1",
+      "topic": "work",
+      "def": "a notice or video that promotes a product or job",
+      "s": [
+        [
+          "I saw the job advertisement online.",
+          "İş ilanını internette gördüm."
+        ],
+        [
+          "There are too many advertisements on TV.",
+          "Televizyonda çok fazla reklam var."
+        ]
+      ]
+    },
+    {
+      "id": "kxb21",
+      "term": "in charge of",
+      "translation": "sorumlu, başında",
+      "level": "B1",
+      "topic": "expr",
+      "def": "having control of or responsibility for something",
+      "s": [
+        [
+          "Who is in charge of the site?",
+          "Sahadan kim sorumlu?"
+        ],
+        [
+          "She is in charge of the procurement team.",
+          "Satın alma ekibinin başında o var."
+        ]
+      ]
+    },
+    {
+      "id": "kxb22",
+      "term": "on purpose",
+      "translation": "kasten",
+      "level": "B1",
+      "topic": "expr",
+      "def": "intentionally, not by accident",
+      "s": [
+        [
+          "He didn't break it on purpose.",
+          "Onu kasten kırmadı."
+        ],
+        [
+          "Did you leave the door open on purpose?",
+          "Kapıyı bilerek mi açık bıraktın?"
+        ]
+      ]
+    },
+    {
+      "id": "kxb23",
+      "term": "as soon as possible",
+      "translation": "en kısa sürede",
+      "level": "B1",
+      "topic": "expr",
+      "def": "as quickly as you can",
+      "s": [
+        [
+          "Please send the drawings as soon as possible.",
+          "Lütfen çizimleri en kısa sürede gönderin."
+        ],
+        [
+          "I'll call you back as soon as possible.",
+          "Seni en kısa sürede geri arayacağım."
+        ]
+      ]
+    },
+    {
+      "id": "kxb24",
+      "term": "in advance",
+      "translation": "önceden",
+      "level": "B1",
+      "topic": "expr",
+      "def": "before a particular time",
+      "s": [
+        [
+          "Book your tickets in advance.",
+          "Biletlerini önceden al."
+        ],
+        [
+          "Thank you in advance for your help.",
+          "Yardımınız için şimdiden teşekkürler."
+        ]
+      ]
+    },
+    {
+      "id": "kxb25",
+      "term": "have a look",
+      "translation": "bir göz atmak",
+      "level": "B1",
+      "topic": "expr",
+      "def": "to look at something quickly",
+      "s": [
+        [
+          "Can you have a look at my report?",
+          "Raporuma bir göz atabilir misin?"
+        ],
+        [
+          "Let me have a look at the drawing.",
+          "Çizime bir bakayım."
+        ]
+      ]
+    },
+    {
+      "id": "kxb26",
+      "term": "make a mistake",
+      "translation": "hata yapmak",
+      "level": "B1",
+      "topic": "expr",
+      "def": "to do something wrong by accident",
+      "s": [
+        [
+          "Everyone makes mistakes.",
+          "Herkes hata yapar."
+        ],
+        [
+          "I made a mistake in the calculation.",
+          "Hesaplamada bir hata yaptım."
+        ]
+      ]
+    },
+    {
+      "id": "kxb27",
+      "term": "anxious",
+      "translation": "kaygılı",
+      "level": "B1",
+      "topic": "feel",
+      "def": "worried and nervous",
+      "s": [
+        [
+          "She felt anxious before the interview.",
+          "Mülakattan önce kaygılıydı."
+        ],
+        [
+          "I get anxious when I fly.",
+          "Uçarken kaygılanırım."
+        ]
+      ]
+    },
+    {
+      "id": "kxb28",
+      "term": "confident",
+      "translation": "kendine güvenen, emin",
+      "level": "B1",
+      "topic": "feel",
+      "def": "sure about your abilities or that something will happen",
+      "s": [
+        [
+          "He sounded confident in the presentation.",
+          "Sunumda kendinden emin görünüyordu."
+        ],
+        [
+          "I'm confident that we will finish on time.",
+          "Zamanında bitireceğimizden eminim."
+        ]
+      ]
+    },
+    {
+      "id": "kxb29",
+      "term": "embarrassed",
+      "translation": "utanmış, mahcup",
+      "level": "B1",
+      "topic": "feel",
+      "def": "feeling shy or ashamed in front of others",
+      "s": [
+        [
+          "I was embarrassed when I forgot his name.",
+          "Adını unuttuğumda mahcup oldum."
+        ],
+        [
+          "Don't be embarrassed to ask questions.",
+          "Soru sormaktan utanma."
+        ]
+      ]
+    },
+    {
+      "id": "kxb30",
+      "term": "disappointed",
+      "translation": "hayal kırıklığına uğramış",
+      "level": "B1",
+      "topic": "feel",
+      "def": "unhappy because something was not as good as expected",
+      "s": [
+        [
+          "We were disappointed with the results.",
+          "Sonuçlardan hayal kırıklığına uğradık."
+        ],
+        [
+          "She was disappointed that he didn't come.",
+          "Onun gelmemesi onu hayal kırıklığına uğrattı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb31",
+      "term": "reliable",
+      "translation": "güvenilir",
+      "level": "B1",
+      "topic": "desc",
+      "def": "able to be trusted to work well or behave well",
+      "s": [
+        [
+          "We need a reliable supplier.",
+          "Güvenilir bir tedarikçiye ihtiyacımız var."
+        ],
+        [
+          "My old car is still reliable.",
+          "Eski arabam hâlâ güvenilir."
+        ]
+      ]
+    },
+    {
+      "id": "kxb32",
+      "term": "convenient",
+      "translation": "uygun, elverişli",
+      "level": "B1",
+      "topic": "desc",
+      "def": "easy, useful or suitable for your plans",
+      "s": [
+        [
+          "Is Monday convenient for you?",
+          "Pazartesi sizin için uygun mu?"
+        ],
+        [
+          "The hotel is in a convenient location.",
+          "Otel elverişli bir konumda."
+        ]
+      ]
+    },
+    {
+      "id": "kxb33",
+      "term": "crowd",
+      "translation": "kalabalık",
+      "level": "B1",
+      "topic": "soc",
+      "def": "a large group of people together",
+      "s": [
+        [
+          "A crowd gathered outside the stadium.",
+          "Stadyumun dışında bir kalabalık toplandı."
+        ],
+        [
+          "I lost my friend in the crowd.",
+          "Kalabalıkta arkadaşımı kaybettim."
+        ]
+      ]
+    },
+    {
+      "id": "kxb34",
+      "term": "pollution",
+      "translation": "kirlilik",
+      "level": "B1",
+      "topic": "soc",
+      "def": "harmful substances in air, water or soil",
+      "s": [
+        [
+          "Air pollution is a big problem in cities.",
+          "Hava kirliliği şehirlerde büyük bir sorun."
+        ],
+        [
+          "The factory reduced water pollution.",
+          "Fabrika su kirliliğini azalttı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb35",
+      "term": "environment",
+      "translation": "çevre",
+      "level": "B1",
+      "topic": "soc",
+      "def": "the natural world around us",
+      "s": [
+        [
+          "We must protect the environment.",
+          "Çevreyi korumalıyız."
+        ],
+        [
+          "The new plant meets environmental rules.",
+          "Yeni tesis çevre kurallarına uyuyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxb36",
+      "term": "diet",
+      "translation": "beslenme düzeni",
+      "level": "B1",
+      "topic": "health",
+      "def": "the food you usually eat",
+      "s": [
+        [
+          "A healthy diet includes vegetables.",
+          "Sağlıklı bir beslenme sebze içerir."
+        ],
+        [
+          "I'm on a diet this month.",
+          "Bu ay diyetteyim."
+        ]
+      ]
+    },
+    {
+      "id": "kxb37",
+      "term": "injury",
+      "translation": "yaralanma",
+      "level": "B1",
+      "topic": "health",
+      "def": "physical damage to the body",
+      "s": [
+        [
+          "He had a knee injury at football.",
+          "Futbolda dizinden sakatlandı."
+        ],
+        [
+          "Wear gloves to avoid hand injuries.",
+          "El yaralanmalarını önlemek için eldiven giy."
+        ]
+      ]
+    },
+    {
+      "id": "kxb38",
+      "term": "recover",
+      "translation": "iyileşmek, toparlanmak",
+      "level": "B1",
+      "topic": "health",
+      "def": "to become healthy or normal again",
+      "s": [
+        [
+          "She recovered quickly after the operation.",
+          "Ameliyattan sonra çabuk iyileşti."
+        ],
+        [
+          "The market recovered last year.",
+          "Piyasa geçen yıl toparlandı."
+        ]
+      ]
+    },
+    {
+      "id": "kxb39",
+      "term": "sightseeing",
+      "translation": "gezip görme",
+      "level": "B1",
+      "topic": "travel",
+      "def": "visiting interesting places as a tourist",
+      "s": [
+        [
+          "We went sightseeing in Rome.",
+          "Roma'da gezip görmeye çıktık."
+        ],
+        [
+          "There's no time for sightseeing on business trips.",
+          "İş seyahatlerinde gezmeye vakit olmuyor."
+        ]
+      ]
+    },
+    {
+      "id": "kxb40",
+      "term": "accommodation",
+      "translation": "konaklama",
+      "level": "B1",
+      "topic": "travel",
+      "def": "a place to stay, such as a hotel",
+      "s": [
+        [
+          "The company paid for our accommodation.",
+          "Konaklamamızı şirket ödedi."
+        ],
+        [
+          "Accommodation near the site is limited.",
+          "Sahaya yakın konaklama sınırlı."
+        ]
+      ]
+    }
+  ]
+}

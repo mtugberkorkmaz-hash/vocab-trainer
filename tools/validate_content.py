@@ -114,7 +114,7 @@ def main():
     errors, warnings = [], []
 
     for name in ('lessons.json', 'review.json', 'words.json', 'patterns.json', 'meetings.json',
-                 'grammar.json', 'tenses.json', 'engvocab.json'):
+                 'grammar.json', 'tenses.json', 'engvocab.json', 'kelimelik.json'):
         if (ROOT / 'data' / name).read_bytes() != (ROOT / 'docs/data' / name).read_bytes():
             errors.append(f'data/{name} and docs/data/{name} differ')
 
@@ -143,6 +143,20 @@ def main():
                 seen_t.add(w['term'].lower())
                 if len(w['s']) != 2 or any(len(x) != 2 or not all(x) for x in w['s']):
                     errors.append(f"engvocab.json {w['term']}: needs 2 EN/TR sentence pairs")
+        kl = load('data/kelimelik.json')
+        ktop = {t['id'] for t in kl['topics']} | {c['id'] for c in ev['categories']}
+        kids = [w['id'] for v in load('data/words.json').values() for w in v] + \
+               [w['id'] for l in load('data/lessons.json') for w in l['words']] + \
+               [c['id'] + 'w' + str(i + 1).zfill(3) for c in ev['categories'] for i in range(len(c['words']))]
+        for i in kids:
+            m = kl['meta'].get(i)
+            if not m:
+                warnings.append(f'kelimelik.json: {i} için seviye/tanım yok (Kelimelik\'te görünmez)')
+            elif m[0] not in ('A2', 'B1', 'B2', 'C1', 'TK') or m[1] not in ktop or not m[2]:
+                errors.append(f'kelimelik.json {i}: bad meta {m}')
+        for x in kl['extra']:
+            if len(x['s']) != 2 or x['topic'] not in ktop:
+                errors.append(f"kelimelik.json {x['id']}: bad extra word")
         print(f"grammar: {len(gr['topics'])} topics, {len(gr['bank'])} questions | tenses: {len(tn['tenses'])} + {len(tn['structs'])} structs | engvocab: {len(seen_t)} terms")
     except FileNotFoundError:
         warnings.append('grammar/tenses/engvocab json missing')

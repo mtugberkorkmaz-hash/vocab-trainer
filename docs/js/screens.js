@@ -12,6 +12,7 @@ const CATEGORY_LABELS = {
   weak: 'Zayıf Havuz',
   patterns: 'Günlük Kalıp',
   lessons: 'Tüm Dersler',
+  kel: 'Kelimelik',
 };
 
 function catLabel(cat) {
@@ -104,6 +105,7 @@ function renderMenu() {
     </div>
     <div class="section-title">Kelime pratiği</div>
     <div class="list-group">
+      ${listRow('kel', 'book', 'Kelimelik', `${kelAll().length} kelime · A2 · B1 · B2 · C1 · Teknik · konu konu, sayfada 10`)}
       ${listRow('bank', 'book', 'Kelime Bankası', 'Kart · test · boşluk doldurma — kategoriye göre')}
       ${weakN ? listRow('weak', 'close', 'Zayıf Havuz', 'Bilmediğin kelimeleri kartla tekrar et', weakN) : ''}
       ${listRow('hizli', 'bolt', 'Hızlı Tur', '10 round, skorlu')}
@@ -117,7 +119,7 @@ function renderMenu() {
     <div class="list-group" style="margin-top:14px">
       ${listRow('stats', 'chart', 'İstatistikler', `${studied} kelime çalışıldı — en çok yanlışlar`)}
     </div>
-    <p class="footnote">Tamamen offline çalışır · ilerlemen bu telefonda saklanır.</p>
+    <p class="footnote">Tamamen offline çalışır · telefonda ve PC'de açılır · ilerlemen her cihazda ayrı saklanır.</p>
   `);
   $all('[data-key]').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -128,6 +130,7 @@ function renderMenu() {
       else if (key === 'tenses') Router.push('tenseHub');
       else if (key === 'structs') Router.push('structsPage');
       else if (key === 'eng') Router.push('engHub');
+      else if (key === 'kel') Router.push('kelHub');
       else if (key === 'bank') Router.push('categorySelect', { title: 'Kelime Bankası' });
       else if (key === 'weak') startFlashcards('weak', 'words');
       else if (key === 'meeting') Router.push('meetingList');
@@ -849,6 +852,7 @@ function renderHizliTurSummary() {
 const Screens = {
   render(state, canGoBack) {
     setBackVisible(canGoBack);
+    document.body.classList.toggle('wide', state.screen === 'kelHub' || state.screen === 'kelPage');
     switch (state.screen) {
       case 'menu': renderMenu(); break;
       case 'categorySelect': renderCategorySelect(state.params); break;
@@ -875,6 +879,8 @@ const Screens = {
       case 'structsPage': renderStructs(); break;
       case 'engHub': renderEngHub(); break;
       case 'engCat': renderEngCat(state.params); break;
+      case 'kelHub': renderKelHub(); break;
+      case 'kelPage': renderKelPage(state.params); break;
       case 'stats': renderStats(state.params); break;
       case 'correctionSession': renderCorrection(); break;
       case 'correctionSummary': renderReviewSummary('corrections'); break;

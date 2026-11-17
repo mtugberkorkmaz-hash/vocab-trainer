@@ -149,7 +149,7 @@ function renderStructs() {
 /* ---------- Mühendislik Kelimeleri ---------- */
 function engWordCard(w, showCat) {
   const cat = showCat ? Data.engCats.find((c) => c.id === w.category.slice(4)) : null;
-  return `<div class="wcard"><div class="wh"><span class="wt">${escapeHtml(w.term)}</span> <span class="wtr">${escapeHtml(w.translation)}</span>${w.docHits ? `<span class="wbadge" title="Kaynak belgelerde geçiş sayısı">📄 ${w.docHits}</span>` : ''}</div>
+  return `<div class="wcard"><div class="wh"><span class="wt">${escapeHtml(w.term)}</span>${kelPosTag(w.id)} <span class="wtr">${escapeHtml(w.translation)}</span>${w.docHits ? `<span class="wbadge" title="Kaynak belgelerde geçiş sayısı">📄 ${w.docHits}</span>` : ''}</div>
     ${w.sentences.map((s, i) => `<div class="ws"><div class="en">${escapeHtml(s)}</div><div class="trl tr-only">${escapeHtml(w.translations[i])}</div></div>`).join('')}
     ${cat ? `<div class="wcat">${escapeHtml(cat.short)}</div>` : ''}</div>`;
 }

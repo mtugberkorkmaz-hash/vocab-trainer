@@ -103,9 +103,10 @@
     },
     {
       "key": "WISH",
-      "title": "Wish / If only (4A ön çalışma)",
+      "title": "Wish / If only",
       "units": [
-        4
+        4,
+        6
       ],
       "tip": "Şimdi → wish + V2/were; geçmiş → wish + had V3; şikâyet → wish + sb + would. 'I wish I would…' yanlış.",
       "grammar": {
@@ -120,7 +121,7 @@
           "If only we had stayed at home with pizza and Netflix."
         ]
       },
-      "lesson": "L4A"
+      "lesson": "L6C"
     },
     {
       "key": "COND03",
@@ -254,6 +255,42 @@
       ],
       "lesson": "L5D",
       "tip": "Ön ek anlamı değiştirir (dis-satisfied, multi-national), son ek türü değiştirir (help → helpful, attract → attraction, grow → growth)."
+    },
+    {
+      "key": "SOSUCH",
+      "title": "So / such (that)",
+      "units": [
+        6
+      ],
+      "lesson": "L6A",
+      "tip": "so + sıfat/zarf (so old, so quickly) · such + a/an + sıfat + tekil isim (such a big school) · such + çoğul/sayılamayan (such foolish things, such cold weather) · so much/many + isim. 'a so beautiful' ✗, 'a such beautiful' ✗."
+    },
+    {
+      "key": "RESULT",
+      "title": "Conjunctions of result (as a result, therefore…)",
+      "units": [
+        6
+      ],
+      "lesson": "L6B",
+      "tip": "Önceki cümle sebep, bu cümle sonuç. As a result (nötr) · Therefore (mantıksal çıkarım) · Consequently (resmî) · Thus (resmî, kısa, yazılı). Cümle başında + virgül; 'so' ise iki cümleyi virgülle bağlar."
+    },
+    {
+      "key": "ROOTS",
+      "title": "Latin & Greek roots",
+      "units": [
+        6
+      ],
+      "lesson": "L6B",
+      "tip": "geo earth · astro star · bio life · therm heat · spir breathe · photo light · psych mind · aqu water · audi hear · capit head · spect sight · crypt secret · phob fear · phil love · scrib write · phon sound · loc place."
+    },
+    {
+      "key": "PVSEP",
+      "title": "Separable & inseparable phrasal verbs",
+      "units": [
+        6
+      ],
+      "lesson": "L6C",
+      "tip": "Ayrılabilen: mix up the words / mix the words up / mix them up (zamir HEP ortada). Ayrılamayan: get up, come back, break in, pass away, look after sb, take off (uçak)."
     }
   ],
   "quizTopics": {
@@ -284,7 +321,12 @@
     "Passive voice": "PASS",
     "Gerund / infinitive": "GERINF",
     "Intensifiers": "INTENS",
-    "Word formation": "AFFIX"
+    "Word formation": "AFFIX",
+    "So / such": "SOSUCH",
+    "Conjunctions of result": "RESULT",
+    "Latin & Greek roots": "ROOTS",
+    "Separable phrasal verbs": "PVSEP",
+    "Wish / if only": "WISH"
   },
   "bank": [
     {
@@ -7600,6 +7642,966 @@
         "active before"
       ],
       "e": "hyper- = aşırı."
+    },
+    {
+      "id": "G600",
+      "topic": "SOSUCH",
+      "q": "It was ___ dark that I couldn't see her face.",
+      "o": [
+        "so",
+        "such",
+        "such a",
+        "too"
+      ],
+      "e": "so + sıfat."
+    },
+    {
+      "id": "G601",
+      "topic": "SOSUCH",
+      "q": "We had ___ long and tiring trip that we just wanted to go home.",
+      "o": [
+        "such a",
+        "so",
+        "such",
+        "so a"
+      ],
+      "e": "such a + sıfat + tekil isim."
+    },
+    {
+      "id": "G602",
+      "topic": "SOSUCH",
+      "q": "He has done ___ foolish things that he will get into serious trouble.",
+      "o": [
+        "such",
+        "such a",
+        "so",
+        "so many a"
+      ],
+      "e": "Çoğul isimde a yok: such foolish things."
+    },
+    {
+      "id": "G603",
+      "topic": "SOSUCH",
+      "q": "The earthquake caused ___ damage that most people lost their homes.",
+      "o": [
+        "such",
+        "such a",
+        "so",
+        "so many"
+      ],
+      "e": "damage sayılamaz: such damage."
+    },
+    {
+      "id": "G604",
+      "topic": "SOSUCH",
+      "q": "I'm having ___ wonderful time that I don't want to go home.",
+      "o": [
+        "such a",
+        "so",
+        "such",
+        "so much"
+      ],
+      "e": "such a + sıfat + tekil isim."
+    },
+    {
+      "id": "G605",
+      "topic": "SOSUCH",
+      "q": "He wastes ___ time watching TV that he never finishes his homework.",
+      "o": [
+        "so much",
+        "so many",
+        "such",
+        "such a"
+      ],
+      "e": "time sayılamaz: so much time."
+    },
+    {
+      "id": "G606",
+      "topic": "SOSUCH",
+      "q": "He has read that book ___ times that he knows it by heart.",
+      "o": [
+        "so many",
+        "so much",
+        "such",
+        "such a"
+      ],
+      "e": "times sayılabilir: so many times."
+    },
+    {
+      "id": "G607",
+      "topic": "SOSUCH",
+      "q": "The thief came in ___ quietly that the couple never heard him.",
+      "o": [
+        "so",
+        "such",
+        "such a",
+        "so much"
+      ],
+      "e": "so + zarf."
+    },
+    {
+      "id": "G608",
+      "topic": "SOSUCH",
+      "q": "It was ___ cold weather that nobody could go outside.",
+      "o": [
+        "such",
+        "such a",
+        "so",
+        "so much a"
+      ],
+      "e": "weather sayılamaz: such cold weather."
+    },
+    {
+      "id": "G609",
+      "topic": "SOSUCH",
+      "q": "Which sentence is correct?",
+      "o": [
+        "She was such a beautiful woman.",
+        "She was a so beautiful woman.",
+        "She was a such beautiful woman.",
+        "She was so a beautiful woman."
+      ],
+      "e": "a/an such'ten sonra."
+    },
+    {
+      "id": "G610",
+      "topic": "SOSUCH",
+      "q": "This hedge grows ___ fast that we have to trim it often.",
+      "o": [
+        "so",
+        "such",
+        "such a",
+        "so much"
+      ],
+      "e": "so + zarf."
+    },
+    {
+      "id": "G611",
+      "topic": "SOSUCH",
+      "q": "Those are ___ great pictures that I never want to throw them away.",
+      "o": [
+        "such",
+        "such a",
+        "so",
+        "so much"
+      ],
+      "e": "Çoğul: such great pictures."
+    },
+    {
+      "id": "G612",
+      "topic": "SOSUCH",
+      "q": "Jimmy and Ken are ___ alike that I can't tell one from another.",
+      "o": [
+        "so",
+        "such",
+        "such a",
+        "so much"
+      ],
+      "e": "alike sıfat/zarf: so alike."
+    },
+    {
+      "id": "G613",
+      "topic": "SOSUCH",
+      "q": "Rewrite: 'The teacher was so kind to him.' → 'He was ___ kind teacher.'",
+      "o": [
+        "such a",
+        "so",
+        "such",
+        "so a"
+      ],
+      "e": "such a + sıfat + isim."
+    },
+    {
+      "id": "G614",
+      "topic": "SOSUCH",
+      "q": "It was ___ delicious meal that we asked the chef for the recipe.",
+      "o": [
+        "such a",
+        "so",
+        "such",
+        "so much"
+      ],
+      "e": "Tekil sayılabilen isim: such a meal."
+    },
+    {
+      "id": "G615",
+      "topic": "SOSUCH",
+      "q": "They are ___ stingy that they never want to eat out.",
+      "o": [
+        "so",
+        "such",
+        "such a",
+        "so much"
+      ],
+      "e": "so + sıfat."
+    },
+    {
+      "id": "G616",
+      "topic": "SOSUCH",
+      "q": "There were ___ people in the hall that we couldn't find a seat.",
+      "o": [
+        "so many",
+        "so much",
+        "such a",
+        "so"
+      ],
+      "e": "people çoğul: so many."
+    },
+    {
+      "id": "G617",
+      "topic": "SOSUCH",
+      "q": "She earns ___ money that she can't pay the rent.",
+      "o": [
+        "so little",
+        "so few",
+        "such little a",
+        "so many"
+      ],
+      "e": "money sayılamaz: so little."
+    },
+    {
+      "id": "G618",
+      "topic": "RESULT",
+      "q": "Which conjunction has a formal, academic tone and shows a result?",
+      "o": [
+        "Consequently",
+        "So",
+        "Because",
+        "Although"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G619",
+      "topic": "RESULT",
+      "q": "Which conjunction is formal, concise and used in written English?",
+      "o": [
+        "Thus",
+        "As a result",
+        "So",
+        "And"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G620",
+      "topic": "RESULT",
+      "q": "Which conjunction is neutral and often used to show cause-effect?",
+      "o": [
+        "As a result",
+        "Thus",
+        "Although",
+        "Unless"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G621",
+      "topic": "RESULT",
+      "q": "Which conjunction shows a logical conclusion, common in essays?",
+      "o": [
+        "Therefore",
+        "Because",
+        "However",
+        "Unless"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G622",
+      "topic": "RESULT",
+      "q": "The pump was too small. ___, we changed the impeller.",
+      "o": [
+        "Therefore",
+        "Because",
+        "Although",
+        "Despite"
+      ],
+      "e": "Sebep önceki cümlede."
+    },
+    {
+      "id": "G623",
+      "topic": "RESULT",
+      "q": "It tracks progress. ___, students get help when they need it.",
+      "o": [
+        "As a result",
+        "However",
+        "Although",
+        "Because of"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G624",
+      "topic": "RESULT",
+      "q": "Which punctuation is correct?",
+      "o": [
+        "It rained; therefore, we stayed home.",
+        "It rained, therefore we stayed home.",
+        "It rained therefore, we stayed home.",
+        "It rained. Therefore we, stayed home."
+      ],
+      "e": "therefore iki cümleyi virgülle bağlayamaz."
+    },
+    {
+      "id": "G625",
+      "topic": "RESULT",
+      "q": "'Consequently' is closest in meaning to:",
+      "o": [
+        "as a result",
+        "however",
+        "in addition",
+        "for example"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G626",
+      "topic": "RESULT",
+      "q": "Which word does NOT show a result?",
+      "o": [
+        "however",
+        "thus",
+        "therefore",
+        "consequently"
+      ],
+      "e": "however = zıtlık."
+    },
+    {
+      "id": "G627",
+      "topic": "RESULT",
+      "q": "The vendor was late. ___, the start-up was delayed by a week.",
+      "o": [
+        "Consequently",
+        "Moreover",
+        "Although",
+        "Instead"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G628",
+      "topic": "RESULT",
+      "q": "Teachers save time with AI. ___, they can focus on classroom interaction.",
+      "o": [
+        "Thus",
+        "However",
+        "Unless",
+        "Whereas"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G629",
+      "topic": "RESULT",
+      "q": "I was tired, ___ I went home early.",
+      "o": [
+        "so",
+        "therefore",
+        "thus",
+        "consequently"
+      ],
+      "e": "Virgülle iki cümle → so."
+    },
+    {
+      "id": "G630",
+      "topic": "RESULT",
+      "q": "Choose the most formal option: 'The data was incomplete; ___, the results are not reliable.'",
+      "o": [
+        "thus",
+        "so",
+        "because",
+        "but"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G631",
+      "topic": "RESULT",
+      "q": "Learners become more fluent. ___, they gain confidence.",
+      "o": [
+        "Consequently",
+        "Because",
+        "Unless",
+        "Although"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G632",
+      "topic": "RESULT",
+      "q": "Which is the cause in: 'AI gives hints. Thus, students improve problem-solving.'?",
+      "o": [
+        "AI gives hints",
+        "students improve",
+        "thus",
+        "problem-solving"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G633",
+      "topic": "RESULT",
+      "q": "Which conjunction can also start a spoken sentence naturally?",
+      "o": [
+        "As a result",
+        "Thus",
+        "Hence",
+        "Whereby"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G634",
+      "topic": "ROOTS",
+      "q": "The root 'geo' means:",
+      "o": [
+        "earth",
+        "star",
+        "life",
+        "water"
+      ],
+      "e": "geography, geology"
+    },
+    {
+      "id": "G635",
+      "topic": "ROOTS",
+      "q": "The root 'astro' means:",
+      "o": [
+        "star",
+        "sun",
+        "earth",
+        "air"
+      ],
+      "e": "astronomy"
+    },
+    {
+      "id": "G636",
+      "topic": "ROOTS",
+      "q": "The root 'therm' means:",
+      "o": [
+        "heat",
+        "light",
+        "sound",
+        "mind"
+      ],
+      "e": "thermometer"
+    },
+    {
+      "id": "G637",
+      "topic": "ROOTS",
+      "q": "The root 'spir' (respiration) means:",
+      "o": [
+        "breathing",
+        "writing",
+        "seeing",
+        "hearing"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G638",
+      "topic": "ROOTS",
+      "q": "The root 'photo' means:",
+      "o": [
+        "light",
+        "heat",
+        "picture",
+        "life"
+      ],
+      "e": "photosynthesis"
+    },
+    {
+      "id": "G639",
+      "topic": "ROOTS",
+      "q": "The root 'psych' means:",
+      "o": [
+        "mind",
+        "body",
+        "fear",
+        "book"
+      ],
+      "e": "psychiatrist, psychology"
+    },
+    {
+      "id": "G640",
+      "topic": "ROOTS",
+      "q": "'aqu' as in aquarium means:",
+      "o": [
+        "water",
+        "air",
+        "fish",
+        "glass"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G641",
+      "topic": "ROOTS",
+      "q": "'audi' as in audible means:",
+      "o": [
+        "hear",
+        "see",
+        "speak",
+        "write"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G642",
+      "topic": "ROOTS",
+      "q": "'decapitated' (capit = head) most likely means:",
+      "o": [
+        "had the head cut off",
+        "was put in prison",
+        "was crowned",
+        "lost an arm"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G643",
+      "topic": "ROOTS",
+      "q": "'crypt' as in cryptographer means:",
+      "o": [
+        "secret, hidden",
+        "old",
+        "number",
+        "money"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G644",
+      "topic": "ROOTS",
+      "q": "'claustrophobia' is a fear of:",
+      "o": [
+        "closed spaces",
+        "heights",
+        "spiders",
+        "water"
+      ],
+      "e": "claus = kapalı + phob = korku"
+    },
+    {
+      "id": "G645",
+      "topic": "ROOTS",
+      "q": "'phil' as in philosophy means:",
+      "o": [
+        "like, love",
+        "fear",
+        "think",
+        "write"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G646",
+      "topic": "ROOTS",
+      "q": "'bespectacled' (spect = sight) means:",
+      "o": [
+        "wearing glasses",
+        "very surprised",
+        "watching TV",
+        "blind"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G647",
+      "topic": "ROOTS",
+      "q": "'homophonic' words:",
+      "o": [
+        "sound the same",
+        "mean the same",
+        "are spelled the same",
+        "are very long"
+      ],
+      "e": "homo = aynı, phon = ses"
+    },
+    {
+      "id": "G648",
+      "topic": "ROOTS",
+      "q": "'prescribed' (scrib = write) in 'The doctor prescribed medicine' means:",
+      "o": [
+        "wrote an order for",
+        "refused",
+        "described",
+        "sold"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G649",
+      "topic": "ROOTS",
+      "q": "'aero' as in aerospace means:",
+      "o": [
+        "air",
+        "water",
+        "earth",
+        "fire"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G650",
+      "topic": "PVSEP",
+      "q": "Which sentence is correct?",
+      "o": [
+        "I was trying to speak, but he cut me off.",
+        "I was trying to speak, but he cut off me.",
+        "I was trying to speak, but he me cut off.",
+        "I was trying to speak, but he off cut me."
+      ],
+      "e": "Zamir ortada."
+    },
+    {
+      "id": "G651",
+      "topic": "PVSEP",
+      "q": "Which sentence is correct?",
+      "o": [
+        "Thomas' grandfather passed away last month.",
+        "Thomas' grandfather passed last month away.",
+        "Thomas' grandfather away passed last month.",
+        "Thomas' grandfather passed away it last month."
+      ],
+      "e": "pass away ayrılamaz."
+    },
+    {
+      "id": "G652",
+      "topic": "PVSEP",
+      "q": "Which sentence is NOT correct?",
+      "o": [
+        "The thieves broke at around midnight in.",
+        "The thieves broke in at around midnight.",
+        "Thieves broke in last night.",
+        "Someone broke in."
+      ],
+      "e": "break in ayrılamaz."
+    },
+    {
+      "id": "G653",
+      "topic": "PVSEP",
+      "q": "Which sentence is NOT correct?",
+      "o": [
+        "Are you going to come later back?",
+        "Are you going to come back later?",
+        "Come back soon!",
+        "She came back at six."
+      ],
+      "e": "come back ayrılamaz."
+    },
+    {
+      "id": "G654",
+      "topic": "PVSEP",
+      "q": "Which sentence is NOT correct?",
+      "o": [
+        "I drove to his house up.",
+        "I drove up to his house.",
+        "He drove up in a red car.",
+        "We drove up the hill."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G655",
+      "topic": "PVSEP",
+      "q": "Which sentence is NOT correct?",
+      "o": [
+        "We took after breakfast off.",
+        "We took off after breakfast.",
+        "The plane took off.",
+        "We took off early."
+      ],
+      "e": "take off (ayrılmak) nesnesiz → bölünmez."
+    },
+    {
+      "id": "G656",
+      "topic": "PVSEP",
+      "q": "I'd never heard that joke before. Did you ___?",
+      "o": [
+        "make it up",
+        "make up it",
+        "it make up",
+        "make it upon"
+      ],
+      "e": "Zamir ortada."
+    },
+    {
+      "id": "G657",
+      "topic": "PVSEP",
+      "q": "First put the ingredients in the bowl, then ___.",
+      "o": [
+        "mix them up",
+        "mix up them",
+        "them mix up",
+        "up mix them"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G658",
+      "topic": "PVSEP",
+      "q": "Both are correct EXCEPT:",
+      "o": [
+        "I mix up them all the time.",
+        "I mix up those words all the time.",
+        "I mix those words up all the time.",
+        "I mix them up all the time."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G659",
+      "topic": "PVSEP",
+      "q": "Which phrasal verb is inseparable?",
+      "o": [
+        "get up",
+        "mix up",
+        "make up",
+        "tidy up"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G660",
+      "topic": "PVSEP",
+      "q": "Which phrasal verb is separable?",
+      "o": [
+        "try out",
+        "pass away",
+        "come back",
+        "break in"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G661",
+      "topic": "PVSEP",
+      "q": "We've all done our parts. We need to ___.",
+      "o": [
+        "put them together",
+        "put together them",
+        "together put them",
+        "put them along"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G662",
+      "topic": "PVSEP",
+      "q": "Could you ___? Your room is a mess.",
+      "o": [
+        "tidy your things up",
+        "tidy up them",
+        "up tidy your things",
+        "tidy your up things"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G663",
+      "topic": "PVSEP",
+      "q": "Both are correct: 'The police blew up the car.' and:",
+      "o": [
+        "The police blew the car up.",
+        "The police blew up it.",
+        "The police up blew the car.",
+        "The police blew the up car."
+      ],
+      "e": ""
+    },
+    {
+      "id": "G664",
+      "topic": "PVSEP",
+      "q": "Let's ___ that new restaurant.",
+      "o": [
+        "try out",
+        "try it out that",
+        "out try",
+        "try that out it"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G665",
+      "topic": "PVSEP",
+      "q": "'Pass out these forms!' can also be:",
+      "o": [
+        "Pass these forms out!",
+        "Pass out them!",
+        "Out pass these forms!",
+        "Pass these out forms!"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G666",
+      "topic": "WISH",
+      "q": "I wish I ___ see my girlfriend during my stay in Rome.",
+      "o": [
+        "could",
+        "would",
+        "can",
+        "will"
+      ],
+      "e": "Kendin için would değil could."
+    },
+    {
+      "id": "G667",
+      "topic": "WISH",
+      "q": "She wishes she ___ a holiday now.",
+      "o": [
+        "had",
+        "had had",
+        "has",
+        "would have"
+      ],
+      "e": "Şimdi → V2."
+    },
+    {
+      "id": "G668",
+      "topic": "WISH",
+      "q": "If only George ___ all these old CDs last year.",
+      "o": [
+        "hadn't sold",
+        "didn't sell",
+        "doesn't sell",
+        "wouldn't sell"
+      ],
+      "e": "Geçmiş → had V3."
+    },
+    {
+      "id": "G669",
+      "topic": "WISH",
+      "q": "I wish it ___ raining tomorrow.",
+      "o": [
+        "would stop",
+        "had stopped",
+        "stops",
+        "stopped"
+      ],
+      "e": "Gelecek / şikâyet → would."
+    },
+    {
+      "id": "G670",
+      "topic": "WISH",
+      "q": "If only I ___ English when I was younger.",
+      "o": [
+        "had learnt",
+        "learnt",
+        "learn",
+        "would learn"
+      ],
+      "e": "Geçmiş → had V3."
+    },
+    {
+      "id": "G671",
+      "topic": "WISH",
+      "q": "I wish she ___ right now.",
+      "o": [
+        "wasn't leaving",
+        "didn't leave",
+        "hadn't left",
+        "doesn't leave"
+      ],
+      "e": "Şu an süren eylem → was + V-ing."
+    },
+    {
+      "id": "G672",
+      "topic": "WISH",
+      "q": "If only I ___ about the meeting yesterday.",
+      "o": [
+        "had been told",
+        "was told",
+        "were told",
+        "would be told"
+      ],
+      "e": "Geçmiş + edilgen."
+    },
+    {
+      "id": "G673",
+      "topic": "WISH",
+      "q": "I wish you ___ quiet.",
+      "o": [
+        "would be",
+        "could be",
+        "are",
+        "will be"
+      ],
+      "e": "Başkasının davranışından şikâyet → would."
+    },
+    {
+      "id": "G674",
+      "topic": "WISH",
+      "q": "She wishes she ___ more beautiful.",
+      "o": [
+        "was",
+        "would be",
+        "is",
+        "had"
+      ],
+      "e": "Durum → V2 (was / were)."
+    },
+    {
+      "id": "G675",
+      "topic": "WISH",
+      "q": "I wish I ___ in the sea now.",
+      "o": [
+        "was swimming",
+        "had been swimming",
+        "swim",
+        "would swim"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G676",
+      "topic": "WISH",
+      "q": "I wish Graham ___ the children now.",
+      "o": [
+        "could see",
+        "had seen",
+        "sees",
+        "would see"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G677",
+      "topic": "WISH",
+      "q": "I wish I ___ famous now.",
+      "o": [
+        "were",
+        "would be",
+        "am",
+        "had been"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G678",
+      "topic": "WISH",
+      "q": "I feel sick. I wish I ___ all those chocolates.",
+      "o": [
+        "hadn't eaten",
+        "didn't eat",
+        "wouldn't eat",
+        "don't eat"
+      ],
+      "e": ""
+    },
+    {
+      "id": "G679",
+      "topic": "WISH",
+      "q": "Oh no, it's raining. I wish I ___ my umbrella.",
+      "o": [
+        "had remembered",
+        "remembered",
+        "would remember",
+        "remember"
+      ],
+      "e": ""
     }
   ]
 }

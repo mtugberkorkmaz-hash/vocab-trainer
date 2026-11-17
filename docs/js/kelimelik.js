@@ -8,6 +8,16 @@ const KEL_LEVELS = [
 ];
 const KEL_LV_ORDER = { A2: 0, B1: 1, B2: 2, C1: 3, TK: 4 };
 let kelCache = null;
+const KEL_POS = { n: 'noun', v: 'verb', adj: 'adjective', adv: 'adverb', pv: 'phrasal verb', phr: 'phrase', conj: 'conjunction' };
+function kelPosLabel(p) { return p ? p.split('·').map((x) => KEL_POS[x] || x).join(' · ') : ''; }
+// Kelime kartı vb. için: id'den kelime türü etiketi (kelimelik verisi yoksa boş)
+function kelPosTag(id) {
+  const K = Data.kel;
+  if (!K) return '';
+  const m = K.meta[id];
+  const p = m ? m[3] : (K.extra.find((x) => x.id === id) || {}).pos;
+  return p ? `<span class="kpos">${escapeHtml(kelPosLabel(p))}</span>` : '';
+}
 
 function kelStore(key, val) {
   try {
@@ -22,7 +32,7 @@ function kelAll() {
   const K = Data.kel || { meta: {}, extra: [], topics: [] };
   const list = [];
   const add = (w, m) => list.push({
-    w, lv: m[0], topic: m[1], def: m[2],
+    w, lv: m[0], topic: m[1], def: m[2], pos: m[3] || '',
     s: w.sentences.slice(0, 2).map((s, i) => [s, w.translations[i] || '']),
   });
   Data.words.forEach((w) => { const m = K.meta[w.id]; if (m) add(w, m); });
@@ -31,7 +41,7 @@ function kelAll() {
       id: x.id, term: x.term, pronunciation: '', translation: x.translation, explanation: '',
       sentences: x.s.map((p) => p[0]), translations: x.s.map((p) => p[1]), category: 'kel:extra',
     };
-    add(w, [x.level, x.topic, x.def]);
+    add(w, [x.level, x.topic, x.def, x.pos]);
   });
   list.sort((a, b) => (KEL_LV_ORDER[a.lv] - KEL_LV_ORDER[b.lv]) || a.w.term.localeCompare(b.w.term, 'en', { sensitivity: 'base' }));
   kelCache = list;
@@ -61,7 +71,7 @@ function kelSrc(w) {
 function kelCard(e, n) {
   const w = e.w;
   return `<div class="kcard" data-id="${escapeHtml(w.id)}">
-    <div class="kh">${n ? `<span class="knum">${n}</span>` : ''}<span class="kt" lang="en">${escapeHtml(w.term)}</span><span class="klv lv-${e.lv}">${kelLvLabel(e.lv)}</span></div>
+    <div class="kh">${n ? `<span class="knum">${n}</span>` : ''}<span class="kt" lang="en">${escapeHtml(w.term)}</span>${e.pos ? `<span class="kpos">${escapeHtml(kelPosLabel(e.pos))}</span>` : ''}<span class="klv lv-${e.lv}">${kelLvLabel(e.lv)}</span></div>
     <div class="ktr tr-only k-hide">${escapeHtml(w.translation)}</div>
     <div class="kdef k-hide" lang="en"><b>Meaning:</b> ${escapeHtml(e.def)}</div>
     ${e.s.map((p) => `<div class="ws"><div class="en" lang="en">${escapeHtml(p[0])}</div><div class="trl tr-only k-hide">${escapeHtml(p[1])}</div></div>`).join('')}
@@ -104,7 +114,7 @@ function renderKelHub() {
   $('#kel-q').addEventListener('input', (ev) => {
     const q = ev.target.value.trim().toLowerCase();
     if (q.length < 2) { res.innerHTML = ''; return; }
-    const m = all.filter((e) => (e.w.term + ' ' + e.w.translation + ' ' + e.def).toLowerCase().includes(q));
+    const m = all.filter((e) => (e.w.term + ' ' + e.w.translation + ' ' + e.def + ' ' + kelPosLabel(e.pos)).toLowerCase().includes(q));
     res.innerHTML = `<div class="mut-sub" style="margin:8px 0">${m.length} sonuç${m.length > 30 ? ' (ilk 30 gösteriliyor)' : ''}</div><div class="kgrid">${m.slice(0, 30).map((e) => kelCard(e)).join('')}</div>`;
   });
 }

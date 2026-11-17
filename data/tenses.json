@@ -1437,6 +1437,218 @@
         ]
       ],
       "tip": "polite → politeness (isim) · confident → confidence (isim) · grow → growth (isim) · crowd → crowded (sıfat)."
+    },
+    {
+      "k": "SOSUCH",
+      "title": "So / such (that)",
+      "sub": "öylesine… ki · vurgu + sonuç",
+      "def": "so ve such 'çok, öylesine' anlamında vurgu yapar; arkasından that + sonuç gelebilir. so sıfat/zarfla, such isimle kullanılır.",
+      "forms": [
+        [
+          "so + sıfat / zarf (+ that)",
+          "It was so old that… · He ran so quickly that…"
+        ],
+        [
+          "such + a/an + (sıfat) + tekil isim",
+          "She was such a beautiful woman. · such an easy test"
+        ],
+        [
+          "such + (sıfat) + çoğul / sayılamayan",
+          "such foolish things · such cold weather · such damage"
+        ],
+        [
+          "so much / so little + sayılamayan",
+          "so much time · so little money"
+        ],
+        [
+          "so many / so few + çoğul",
+          "so many times · so few people"
+        ]
+      ],
+      "ex": [
+        [
+          "The school's so old that it looks like something from a Harry Potter film.",
+          "Okul o kadar eski ki Harry Potter filminden bir şeye benziyor."
+        ],
+        [
+          "It's such a big school that it's impossible to heat in winter.",
+          "O kadar büyük bir okul ki kışın ısıtmak imkânsız."
+        ],
+        [
+          "I have such great friends in my neighbourhood that I never consider living elsewhere.",
+          "Mahallemde o kadar iyi arkadaşlarım var ki başka yerde yaşamayı hiç düşünmüyorum."
+        ],
+        [
+          "The earthquake caused such damage that most people lost their homes.",
+          "Deprem o kadar hasar verdi ki çoğu insan evini kaybetti."
+        ],
+        [
+          "He has read that book so many times that he knows it by heart.",
+          "O kitabı o kadar çok okudu ki ezbere biliyor."
+        ]
+      ],
+      "tip": "a/an such'ten sonra gelir: such a long trip ✓ · so long trip ✗ · a so long trip ✗. Çoğulda a yok: such foolish things ✓ (such a foolish things ✗)."
+    },
+    {
+      "k": "RESULT",
+      "title": "Conjunctions of result",
+      "sub": "as a result · therefore · consequently · thus",
+      "def": "Bir önceki cümledeki sebebin sonucunu bildirir. Genelde yeni cümlenin başında, arkasından virgülle kullanılır.",
+      "forms": [
+        [
+          "As a result,",
+          "Nötr ton; konuşma ve yazıda sebep-sonuç"
+        ],
+        [
+          "Therefore,",
+          "Mantıksal çıkarım; makale ve analizlerde yaygın"
+        ],
+        [
+          "Consequently,",
+          "Sonuç; resmî / akademik ton"
+        ],
+        [
+          "Thus,",
+          "Resmî ve kısa; yazılı İngilizce"
+        ],
+        [
+          "…; therefore, …",
+          "Tek cümlede noktalı virgülden sonra da gelebilir"
+        ],
+        [
+          "so (karşılaştırma)",
+          "Gündelik: I was tired, so I went home. (virgül + so)"
+        ]
+      ],
+      "ex": [
+        [
+          "Many schools now use AI tools daily. As a result, learning has become faster.",
+          "Birçok okul artık her gün yapay zekâ araçları kullanıyor. Sonuç olarak öğrenme hızlandı."
+        ],
+        [
+          "Socratic explains questions clearly. Therefore, students can study alone.",
+          "Socratic soruları açıkça anlatıyor. Bu yüzden öğrenciler tek başına çalışabiliyor."
+        ],
+        [
+          "Learners become more fluent in less time. Consequently, they gain confidence.",
+          "Öğrenenler daha kısa sürede akıcılaşıyor. Dolayısıyla özgüven kazanıyorlar."
+        ],
+        [
+          "It gives hints. Thus, students improve their problem-solving skills.",
+          "İpucu veriyor. Böylece öğrenciler problem çözme becerilerini geliştiriyor."
+        ],
+        [
+          "The vendor missed the delivery date; therefore, the start-up was delayed.",
+          "Tedarikçi teslim tarihini kaçırdı; bu yüzden devreye alma ertelendi."
+        ]
+      ],
+      "tip": "Bunlar bağlaç gibi çalışan zarflardır: iki cümleyi virgülle bağlayamazsın. 'It rained, therefore we stayed.' yerine 'It rained; therefore, we stayed.' ya da iki ayrı cümle."
+    },
+    {
+      "k": "ROOTS",
+      "title": "Latin & Greek roots",
+      "sub": "kökten anlam tahmini",
+      "def": "Bilimsel ve teknik kelimelerin çoğu Latince ve Yunanca köklerden gelir. Kökü bilen, yeni kelimenin anlamını tahmin edebilir.",
+      "forms": [
+        [
+          "geo · astro · sol · bio",
+          "earth · star · sun · life → geology, astronomy, solar, biology"
+        ],
+        [
+          "therm · spir · photo · psych",
+          "heat · breathe · light · mind → thermometer, respiration, photosynthesis, psychiatrist"
+        ],
+        [
+          "aqu · audi · cap/capit · sci",
+          "water · hear · head · know → aquarium, audible, decapitate, conscious"
+        ],
+        [
+          "spect · aero · bibli · crypt",
+          "sight · air · book · secret → spectator, aerospace, bibliography, cryptic"
+        ],
+        [
+          "phob · phil · phon · scrib",
+          "fear · love · sound · write → claustrophobia, philosophy, homophone, prescribe"
+        ],
+        [
+          "loc · spec(s) · homo",
+          "place · see/eyes · same → dislocate, bespectacled, homophonic"
+        ]
+      ],
+      "ex": [
+        [
+          "A thermometer is used to measure changes in temperature.",
+          "Termometre sıcaklıktaki değişimleri ölçmek için kullanılır."
+        ],
+        [
+          "Without spacesuits, respiration is impossible in space.",
+          "Uzay giysisi olmadan uzayda solunum imkânsızdır."
+        ],
+        [
+          "The bespectacled manager was reading a business magazine.",
+          "Gözlüklü müdür bir iş dergisi okuyordu."
+        ],
+        [
+          "The doctor examined the boy's elbow dislocated during the accident.",
+          "Doktor kazada çıkan çocuğun dirseğini muayene etti."
+        ],
+        [
+          "I was trying to overcome my claustrophobia in the broken elevator.",
+          "Bozuk asansörde kapalı alan korkumu yenmeye çalışıyordum."
+        ]
+      ],
+      "tip": "Kök tahmini başlangıçtır, kesin anlam için bağlama bak: 'prescribe' (pre = önce + scrib = yazmak) = reçete yazmak."
+    },
+    {
+      "k": "PVSEP",
+      "title": "Separable & inseparable phrasal verbs",
+      "sub": "nesne nereye gelir?",
+      "def": "Ayrılabilen phrasal verb'de nesne fiil ile edatın arasına girebilir; ayrılamayanda giremez. Nesne zamirse (it, them) ayrılabilen fiilde mutlaka ortaya gelir.",
+      "forms": [
+        [
+          "Ayrılabilen + isim",
+          "mix up the words = mix the words up"
+        ],
+        [
+          "Ayrılabilen + zamir",
+          "mix them up ✓ · mix up them ✗"
+        ],
+        [
+          "Ayrılamayan (nesnesiz)",
+          "get up · come back · break in · pass away · take off (uçak)"
+        ],
+        [
+          "Ayrılamayan (nesneli)",
+          "look after the kids · get over it · come across a problem"
+        ],
+        [
+          "Örnek ayrılabilenler",
+          "make up · tidy up · try out · put together · cut off · hand out · blow up · pass out"
+        ]
+      ],
+      "ex": [
+        [
+          "I made up that story. / I made that story up.",
+          "O hikâyeyi ben uydurdum."
+        ],
+        [
+          "Pass these forms out, please.",
+          "Bu formları dağıtın lütfen."
+        ],
+        [
+          "I was trying to speak, but he cut me off.",
+          "Konuşmaya çalışıyordum ama sözümü kesti."
+        ],
+        [
+          "The thieves broke in at around midnight.",
+          "Hırsızlar gece yarısı civarında içeri girdi."
+        ],
+        [
+          "We took off after breakfast.",
+          "Kahvaltıdan sonra yola çıktık."
+        ]
+      ],
+      "tip": "Zamir kuralı en çok yapılan hata: 'he cut off me' ✗ → 'he cut me off' ✓. Ayrılamayanı bölme: 'passed last month away' ✗."
     }
   ],
   "work": [

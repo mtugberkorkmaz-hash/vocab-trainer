@@ -351,6 +351,62 @@
       "correct": "Intended audience: those who want to prolong their life time.",
       "rule": "The article is for anyone who wants a longer, healthier life.",
       "rule_tr": "Metin 100 yaşını hedefleyenlere değil, ömrünü uzatmak isteyen herkese yazılmıştır ('Read on if you want to lead a long and healthy life')."
+    },
+    {
+      "id": "E45",
+      "page": "6A Revision #9",
+      "wrong": "We had so long and tiring trip that we just wanted to go home.",
+      "correct": "We had such a long and tiring trip that we just wanted to go home.",
+      "rule": "such a + adjective + singular noun; so + adjective only.",
+      "rule_tr": "Arkada isim (trip) varsa such kullanılır ve a/an such'ten sonra gelir: such a long trip. so yalnızca sıfat/zarfla gelir (so long)."
+    },
+    {
+      "id": "E46",
+      "page": "6A Revision (ilk alıştırma) #3–4",
+      "wrong": "He has done such a foolish things… / He made such a generous contributions…",
+      "correct": "He has done such foolish things… / He made such generous contributions…",
+      "rule": "No a/an with plural or uncountable nouns after such.",
+      "rule_tr": "Çoğul ya da sayılamayan isimde a yok: such foolish things, such generous contributions, such damage."
+    },
+    {
+      "id": "E47",
+      "page": "6B Reading (eşleştirme)",
+      "wrong": "1 Duolingo Max · 3 Khanmigo · 4 MagicSchool AI · 5 Curipod",
+      "correct": "1 MagicSchool AI · 3 Curipod · 4 Khanmigo · 5 Duolingo Max (2 Socratic doğruydu)",
+      "rule": "Read the key verbs: saves teachers time → MagicSchool; slides → Curipod; hints, not answers → Khanmigo; language speaking + feedback → Duolingo Max.",
+      "rule_tr": "Anahtar ifadeleri metinle eşleştir: öğretmenin zamanını kurtarır → MagicSchool AI; konu → slayt → Curipod; cevap yerine ipucu → Khanmigo; dil konuşma pratiği + düzeltme → Duolingo Max."
+    },
+    {
+      "id": "E48",
+      "page": "6B Warm-up (not)",
+      "wrong": "The advances of technology has revolutionized our learning way, by discovering internet, the internet is used everyday.",
+      "correct": "Advances in technology have revolutionized the way we learn; since the internet appeared, we use it every day.",
+      "rule": "advances in (plural → have) · the way we learn · every day (adverb) vs everyday (adjective).",
+      "rule_tr": "advances in technology (çoğul özne → have) · 'our learning way' değil 'the way we learn' · zarf olarak 'every day' (iki kelime); 'everyday' sıfattır (everyday life)."
+    },
+    {
+      "id": "E49",
+      "page": "6B Revision #5",
+      "wrong": "The company has new prosedure for dealing with complaints.",
+      "correct": "The company has new procedures for dealing with complaints.",
+      "rule": "Spelling: procedure (c, not s); 'new' + plural here.",
+      "rule_tr": "Yazım: procedure (s değil c). Burada 'new procedures' çoğul olmalı."
+    },
+    {
+      "id": "E50",
+      "page": "6A Reading T/F #3",
+      "wrong": "Paintings of great artists were hung on the walls. → TRUE",
+      "correct": "FALSE — the pictures were of great scientists (Einstein, Curie, Newton, Turing).",
+      "rule": "Check the exact noun in the text: scientists ≠ artists.",
+      "rule_tr": "Metinde 'black and white pictures of great scientists' yazıyor; sanatçı değil bilim insanları. Doğru/yanlış sorularında isimleri birebir karşılaştır."
+    },
+    {
+      "id": "E51",
+      "page": "6B Revision #12",
+      "wrong": "The detectives search the house from top to bottom, but they found no sign of the stolen goods.",
+      "correct": "The detectives searched the house from top to bottom, but they found no sign of the stolen goods.",
+      "rule": "Keep the tense consistent: found (past) → searched (past).",
+      "rule_tr": "Cümlenin devamı geçmiş zamanda (found), bu yüzden fiil de geçmiş olmalı: searched."
     }
   ],
   "quiz": [
@@ -810,6 +866,133 @@
       "question": "Before planning your trip, check the local weather and any ___ (TRAVEL) advice.",
       "answers": [
         "travel"
+      ]
+    },
+    {
+      "id": "Q55",
+      "topic": "So / such",
+      "question": "We had ___ long and tiring trip that we just wanted to go home. (so / such a)",
+      "answers": [
+        "such a"
+      ]
+    },
+    {
+      "id": "Q56",
+      "topic": "So / such",
+      "question": "He has read that book so ___ times that he knows it by heart. (much / many)",
+      "answers": [
+        "many"
+      ]
+    },
+    {
+      "id": "Q57",
+      "topic": "So / such",
+      "question": "Rewrite with 'so': They're such naughty kids that their teacher can't control them. (Those kids …)",
+      "answers": [
+        "Those kids are so naughty that their teacher can't control them.",
+        "Those kids are so naughty that their teacher can't control them",
+        "so naughty"
+      ]
+    },
+    {
+      "id": "Q58",
+      "topic": "Conjunctions of result",
+      "question": "Learners become more fluent in less time. ___, they gain confidence. (formal, academic)",
+      "answers": [
+        "Consequently",
+        "consequently"
+      ]
+    },
+    {
+      "id": "Q59",
+      "topic": "Conjunctions of result",
+      "question": "It gives hints. ___, students improve problem-solving. (formal, concise, written)",
+      "answers": [
+        "Thus",
+        "thus"
+      ]
+    },
+    {
+      "id": "Q60",
+      "topic": "Latin & Greek roots",
+      "question": "Which root means 'heat'? (as in thermometer)",
+      "answers": [
+        "therm",
+        "thermo"
+      ]
+    },
+    {
+      "id": "Q61",
+      "topic": "Latin & Greek roots",
+      "question": "Which root means 'mind'? (as in psychology)",
+      "answers": [
+        "psych",
+        "psycho"
+      ]
+    },
+    {
+      "id": "Q62",
+      "topic": "Separable phrasal verbs",
+      "question": "Unscramble: up / could / tidy / you / your / things",
+      "answers": [
+        "Could you tidy up your things?",
+        "Could you tidy your things up?",
+        "could you tidy your things up",
+        "could you tidy up your things"
+      ]
+    },
+    {
+      "id": "Q63",
+      "topic": "Separable phrasal verbs",
+      "question": "Unscramble: it / you / up / make / did?",
+      "answers": [
+        "Did you make it up?",
+        "did you make it up"
+      ]
+    },
+    {
+      "id": "Q64",
+      "topic": "Wish / if only",
+      "question": "I'm so tired. I wish I ___ (go) to bed earlier.",
+      "answers": [
+        "had gone"
+      ]
+    },
+    {
+      "id": "Q65",
+      "topic": "Wish / if only",
+      "question": "My boyfriend's still at the office. I wish he ___ (not work) such long hours.",
+      "answers": [
+        "didn't work",
+        "did not work",
+        "wouldn't work",
+        "wasn't working"
+      ]
+    },
+    {
+      "id": "Q66",
+      "topic": "Wish / if only",
+      "question": "My hair looks terrible! If only I ___ (not dye) it red.",
+      "answers": [
+        "hadn't dyed",
+        "had not dyed"
+      ]
+    },
+    {
+      "id": "Q67",
+      "topic": "Wish / if only",
+      "question": "Kids love Christmas. I wish I still ___ (believe) in Father Christmas.",
+      "answers": [
+        "believed"
+      ]
+    },
+    {
+      "id": "Q68",
+      "topic": "Wish / if only",
+      "question": "If only I ___ (speak) German. I would get the job in Germany.",
+      "answers": [
+        "spoke",
+        "could speak"
       ]
     }
   ]

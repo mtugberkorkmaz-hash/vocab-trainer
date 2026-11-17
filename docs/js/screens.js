@@ -191,6 +191,7 @@ function renderFlashcard() {
     <div class="card">
       ${prev ? `<span class="ans-badge ${prev}">${ANSWER_LABELS[prev]}</span>` : ''}
       <div class="card-term">${escapeHtml(w.term)}</div>
+      ${kelPosTag(w.id) ? `<div class="card-pos">${kelPosTag(w.id)}</div>` : ''}
       ${w.pronunciation ? `<div class="card-pron">[${escapeHtml(w.pronunciation)}]</div>` : ''}
       ${wordStatHtml(w.id)}
       <div class="sent-list">${sentHtml}</div>

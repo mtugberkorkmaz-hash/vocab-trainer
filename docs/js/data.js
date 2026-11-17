@@ -143,6 +143,14 @@ function escapeHtml(str) {
  * infinitive/copula prefix, tolerates common irregular verb forms, and
  * lets "someone/something" match whatever word(s) were actually used. */
 const IRREGULAR_VERBS = {
+  know: ['know', 'knows', 'knew', 'known', 'knowing'],
+  break: ['break', 'breaks', 'broke', 'broken', 'breaking'],
+  blow: ['blow', 'blows', 'blew', 'blown', 'blowing'],
+  think: ['think', 'thinks', 'thought', 'thinking'],
+  try: ['try', 'tries', 'tried', 'trying'],
+  tidy: ['tidy', 'tidies', 'tidied', 'tidying'],
+  rely: ['rely', 'relies', 'relied', 'relying'],
+  cut: ['cut', 'cuts', 'cutting'],
   give: ['give', 'gives', 'gave', 'given', 'giving'],
   make: ['make', 'makes', 'made', 'making'],
   bring: ['bring', 'brings', 'brought', 'bringing'],

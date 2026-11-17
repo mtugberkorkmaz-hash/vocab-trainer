@@ -7767,5 +7767,1316 @@
         "explanation": "immediately; at that moment."
       }
     ]
+  },
+  {
+    "id": "L6A",
+    "code": "6A",
+    "title": "Education",
+    "date": "",
+    "pages": "Unit 6A",
+    "grammar": {
+      "title": "So / such (that)",
+      "formula": "so + sıfat / zarf (+ that + sonuç) · such + a/an + (sıfat) + tekil isim (+ that) · such + (sıfat) + çoğul / sayılamayan isim (+ that) · so much / so many / so few / so little + isim",
+      "note": "İkisi de 'çok, öylesine' anlamında vurgu yapar; that ile sonucu bağlar. so isim almaz: so + sıfat/zarf (so old, so quickly). such isim ister: such a beautiful woman (a/an such'ten SONRA gelir). Çoğul ve sayılamayan isimde a yok: such foolish things, such cold weather, such damage. Miktar için so much (sayılamayan) / so many (sayılabilen): so much time, so many times. 'a so beautiful woman' ve 'a such beautiful woman' yanlıştır.",
+      "examples": [
+        "My school was so old that it was built in 1750.",
+        "It was such a remarkable fountain that I'll never forget it.",
+        "They're such naughty kids that their teacher can't control them.",
+        "It was such cold weather that nobody could go outside.",
+        "He wastes so much time watching TV that he never finishes his homework."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l6a01",
+        "term": "spacious",
+        "pronunciation": "",
+        "translation": "geniş, ferah",
+        "sentences": [
+          "The classrooms were very spacious.",
+          "We need a spacious office for the new team.",
+          "The control room is spacious and bright."
+        ],
+        "translations": [
+          "Sınıflar çok genişti.",
+          "Yeni ekip için ferah bir ofise ihtiyacımız var.",
+          "Kontrol odası geniş ve aydınlık."
+        ],
+        "explanation": "having a lot of space (place has a lot of space)."
+      },
+      {
+        "id": "b2l6a02",
+        "term": "well equipped",
+        "pronunciation": "",
+        "translation": "donanımlı, iyi teçhizatlı",
+        "sentences": [
+          "The school wasn't well equipped, just a blackboard and chalk.",
+          "Our workshop is well equipped for small repairs.",
+          "A well equipped lab makes experiments easier."
+        ],
+        "translations": [
+          "Okul iyi donanımlı değildi; sadece bir kara tahta ve tebeşir vardı.",
+          "Atölyemiz küçük onarımlar için iyi donanımlı.",
+          "İyi donanımlı bir laboratuvar deneyleri kolaylaştırır."
+        ],
+        "explanation": "having all the tools and machines that are needed."
+      },
+      {
+        "id": "b2l6a03",
+        "term": "exclusive",
+        "pronunciation": "",
+        "translation": "seçkin, özel; ayrıcalıklı",
+        "sentences": [
+          "It was an exclusive school for rich families.",
+          "The hotel has an exclusive lounge for members.",
+          "We got exclusive access to the new software."
+        ],
+        "translations": [
+          "Zengin aileler için seçkin bir okuldu.",
+          "Otelin üyelere özel bir salonu var.",
+          "Yeni yazılıma özel erişim aldık."
+        ],
+        "explanation": "expensive and only for a small group of people."
+      },
+      {
+        "id": "b2l6a04",
+        "term": "futuristic",
+        "pronunciation": "",
+        "translation": "fütüristik, geleceğe dönük",
+        "sentences": [
+          "The new campus has a futuristic design.",
+          "The lecture hall looked futuristic with its blue seats.",
+          "Self-driving cars no longer seem futuristic."
+        ],
+        "translations": [
+          "Yeni kampüsün fütüristik bir tasarımı var.",
+          "Amfi mavi koltuklarıyla fütüristik görünüyordu.",
+          "Sürücüsüz arabalar artık fütüristik görünmüyor."
+        ],
+        "explanation": "very modern; looking as if it comes from the future."
+      },
+      {
+        "id": "b2l6a05",
+        "term": "dull",
+        "pronunciation": "",
+        "translation": "sıkıcı; donuk",
+        "sentences": [
+          "The lesson was so dull that I almost fell asleep.",
+          "The classroom walls were painted a dull grey.",
+          "Reading the specification can be dull but necessary."
+        ],
+        "translations": [
+          "Ders o kadar sıkıcıydı ki neredeyse uyuyakalıyordum.",
+          "Sınıfın duvarları donuk bir griye boyanmıştı.",
+          "Şartnameyi okumak sıkıcı ama gerekli olabilir."
+        ],
+        "explanation": "not interesting or exciting; not bright."
+      },
+      {
+        "id": "b2l6a06",
+        "term": "intimidating",
+        "pronunciation": "",
+        "translation": "korkutucu, gözünü korkutan",
+        "sentences": [
+          "Those pictures were so intimidating.",
+          "The first design review can be intimidating.",
+          "He has an intimidating way of asking questions."
+        ],
+        "translations": [
+          "O resimler çok ürkütücüydü.",
+          "İlk tasarım incelemesi insanın gözünü korkutabilir.",
+          "Soru sorarken insanı korkutan bir tarzı var."
+        ],
+        "explanation": "making you feel nervous or less confident."
+      },
+      {
+        "id": "b2l6a07",
+        "term": "courtyard",
+        "pronunciation": "",
+        "translation": "avlu",
+        "sentences": [
+          "The school had a courtyard with a marble fountain.",
+          "Students played football in the courtyard.",
+          "The courtyard was full of parents on graduation day."
+        ],
+        "translations": [
+          "Okulun mermer çeşmeli bir avlusu vardı.",
+          "Öğrenciler avluda futbol oynadı.",
+          "Mezuniyet günü avlu velilerle doluydu."
+        ],
+        "explanation": "an open area surrounded by walls or buildings."
+      },
+      {
+        "id": "b2l6a08",
+        "term": "remarkable",
+        "pronunciation": "",
+        "translation": "dikkat çekici, olağanüstü",
+        "sentences": [
+          "It was such a remarkable fountain.",
+          "She made remarkable progress in English.",
+          "The team finished the project in a remarkable time."
+        ],
+        "translations": [
+          "O kadar dikkat çekici bir çeşmeydi ki.",
+          "İngilizcede olağanüstü bir ilerleme kaydetti.",
+          "Ekip projeyi dikkat çekici bir sürede bitirdi."
+        ],
+        "explanation": "unusual or special in a way that makes people notice."
+      },
+      {
+        "id": "b2l6a09",
+        "term": "struggle",
+        "pronunciation": "",
+        "translation": "zorlanmak, mücadele etmek",
+        "sentences": [
+          "We struggled with our simple maths problems.",
+          "Many students struggle with grammar at first.",
+          "The new engineer struggled to read the isometrics."
+        ],
+        "translations": [
+          "Basit matematik problemlerimizle boğuştuk.",
+          "Birçok öğrenci başta gramerde zorlanır.",
+          "Yeni mühendis izometrikleri okumakta zorlandı."
+        ],
+        "explanation": "to try very hard to do something difficult (struggle with + isim)."
+      },
+      {
+        "id": "b2l6a10",
+        "term": "humanities",
+        "pronunciation": "",
+        "translation": "beşerî bilimler, sosyal bilimler",
+        "sentences": [
+          "History and art are humanities subjects.",
+          "She studied humanities at university.",
+          "The school offers science, humanities and vocational courses."
+        ],
+        "translations": [
+          "Tarih ve sanat beşerî bilim dersleridir.",
+          "Üniversitede sosyal bilimler okudu.",
+          "Okul fen, sosyal bilimler ve meslek dersleri sunuyor."
+        ],
+        "explanation": "subjects such as history, literature, art and languages."
+      },
+      {
+        "id": "b2l6a11",
+        "term": "vocational",
+        "pronunciation": "",
+        "translation": "mesleki",
+        "sentences": [
+          "Cooking and welding are vocational skills.",
+          "He went to a vocational school after middle school.",
+          "Vocational training helps young people find jobs."
+        ],
+        "translations": [
+          "Aşçılık ve kaynakçılık mesleki becerilerdir.",
+          "Ortaokuldan sonra meslek lisesine gitti.",
+          "Mesleki eğitim gençlerin iş bulmasına yardım eder."
+        ],
+        "explanation": "connected with the skills you need for a particular job."
+      },
+      {
+        "id": "b2l6a12",
+        "term": "kinesthetic",
+        "pronunciation": "",
+        "translation": "kinestetik, yaparak öğrenen",
+        "sentences": [
+          "Kinesthetic learners love acting things out.",
+          "I'm a kinesthetic learner; I learn by doing.",
+          "Site visits suit kinesthetic engineers."
+        ],
+        "translations": [
+          "Kinestetik öğrenenler canlandırma yapmayı sever.",
+          "Ben kinestetik öğreniyorum; yaparak öğrenirim.",
+          "Saha ziyaretleri yaparak öğrenen mühendislere uygundur."
+        ],
+        "explanation": "learning best by moving, touching and doing things."
+      },
+      {
+        "id": "b2l6a13",
+        "term": "methodical",
+        "pronunciation": "",
+        "translation": "sistemli, yöntemli",
+        "sentences": [
+          "Logical learners are methodical and think in order.",
+          "She is very methodical when she checks drawings.",
+          "A methodical approach saves time on site."
+        ],
+        "translations": [
+          "Mantıksal öğrenenler sistemlidir ve sırayla düşünür.",
+          "Çizimleri kontrol ederken çok sistemlidir.",
+          "Yöntemli bir yaklaşım sahada zaman kazandırır."
+        ],
+        "explanation": "doing things carefully and in a logical order."
+      },
+      {
+        "id": "b2l6a14",
+        "term": "expert",
+        "pronunciation": "",
+        "translation": "uzman",
+        "sentences": [
+          "She is an expert in pipe stress analysis.",
+          "We asked an expert to check the design.",
+          "You don't need to be an expert to use this tool."
+        ],
+        "translations": [
+          "Boru gerilme analizinde uzmandır.",
+          "Tasarımı kontrol etmesi için bir uzmana danıştık.",
+          "Bu aracı kullanmak için uzman olmana gerek yok."
+        ],
+        "explanation": "someone with a lot of skill or knowledge about something."
+      },
+      {
+        "id": "b2l6a15",
+        "term": "virtual",
+        "pronunciation": "",
+        "translation": "sanal",
+        "sentences": [
+          "Virtual reality may make online learning feel more real.",
+          "We had a virtual meeting with the client.",
+          "The 3D model allows a virtual walk-down of the plant."
+        ],
+        "translations": [
+          "Sanal gerçeklik çevrimiçi öğrenmeyi daha gerçek hissettirebilir.",
+          "Müşteriyle sanal bir toplantı yaptık.",
+          "3D model tesisin sanal olarak gezilmesini sağlar."
+        ],
+        "explanation": "done or seen using computers or the internet instead of in person."
+      },
+      {
+        "id": "b2l6a16",
+        "term": "advanced",
+        "pronunciation": "",
+        "translation": "ileri, gelişmiş",
+        "sentences": [
+          "This is an advanced English course.",
+          "The factory uses very advanced machines.",
+          "Advanced students can study at their own pace."
+        ],
+        "translations": [
+          "Bu ileri seviye bir İngilizce kursu.",
+          "Fabrika çok gelişmiş makineler kullanıyor.",
+          "İleri seviye öğrenciler kendi hızlarında çalışabilir."
+        ],
+        "explanation": "having developed or progressed to a late stage."
+      },
+      {
+        "id": "b2l6a17",
+        "term": "artificial",
+        "pronunciation": "",
+        "translation": "yapay",
+        "sentences": [
+          "Artificial intelligence is changing education.",
+          "The garden has an artificial lake.",
+          "These flowers are artificial, not real."
+        ],
+        "translations": [
+          "Yapay zekâ eğitimi değiştiriyor.",
+          "Bahçede yapay bir göl var.",
+          "Bu çiçekler yapay, gerçek değil."
+        ],
+        "explanation": "not natural, but made by people."
+      },
+      {
+        "id": "b2l6a18",
+        "term": "disappear",
+        "pronunciation": "",
+        "translation": "ortadan kalkmak, kaybolmak",
+        "sentences": [
+          "Some traditional classrooms may disappear in the future.",
+          "My keys disappeared from the desk.",
+          "Paper drawings have almost disappeared from the office."
+        ],
+        "translations": [
+          "Bazı geleneksel sınıflar gelecekte ortadan kalkabilir.",
+          "Anahtarlarım masadan kayboldu.",
+          "Kâğıt çizimler ofisten neredeyse kalktı."
+        ],
+        "explanation": "to stop existing or to stop being seen."
+      },
+      {
+        "id": "b2l6a19",
+        "term": "challenge",
+        "pronunciation": "",
+        "translation": "zorluk, meydan okuma",
+        "sentences": [
+          "One possible challenge is too much screen time.",
+          "Learning a language is a big challenge.",
+          "The tight schedule was the biggest challenge of the project."
+        ],
+        "translations": [
+          "Olası bir zorluk çok fazla ekran süresidir.",
+          "Bir dil öğrenmek büyük bir meydan okumadır.",
+          "Sıkışık program projenin en büyük zorluğuydu."
+        ],
+        "explanation": "something difficult that tests your ability or determination."
+      },
+      {
+        "id": "b2l6a20",
+        "term": "naughty",
+        "pronunciation": "",
+        "translation": "yaramaz",
+        "sentences": [
+          "They're such naughty kids that their teacher can't control them.",
+          "The naughty boy hid his sister's shoes.",
+          "Don't be naughty in the classroom."
+        ],
+        "translations": [
+          "O kadar yaramaz çocuklar ki öğretmenleri onları kontrol edemiyor.",
+          "Yaramaz çocuk kız kardeşinin ayakkabılarını sakladı.",
+          "Sınıfta yaramazlık yapma."
+        ],
+        "explanation": "behaving badly (usually about children)."
+      },
+      {
+        "id": "b2l6a21",
+        "term": "extravagant",
+        "pronunciation": "",
+        "translation": "savurgan, müsrif",
+        "sentences": [
+          "He is so extravagant that his money is gone before payday.",
+          "It was an extravagant wedding with five hundred guests.",
+          "Don't be extravagant with the project budget."
+        ],
+        "translations": [
+          "O kadar savurgan ki parası maaş gününden önce bitiyor.",
+          "Beş yüz davetlili gösterişli bir düğündü.",
+          "Proje bütçesinde savurgan olma."
+        ],
+        "explanation": "spending too much money or using too much of something."
+      },
+      {
+        "id": "b2l6a22",
+        "term": "stingy",
+        "pronunciation": "",
+        "translation": "cimri",
+        "sentences": [
+          "They are so stingy that they never want to eat out.",
+          "My stingy uncle never buys anyone a coffee.",
+          "The company was stingy with salary increases."
+        ],
+        "translations": [
+          "O kadar cimriler ki hiç dışarıda yemek istemiyorlar.",
+          "Cimri amcam kimseye bir kahve bile ısmarlamaz.",
+          "Şirket maaş zamlarında cimri davrandı."
+        ],
+        "explanation": "not wanting to spend or give money."
+      },
+      {
+        "id": "b2l6a23",
+        "term": "alike",
+        "pronunciation": "",
+        "translation": "birbirine benzer, aynı",
+        "sentences": [
+          "Jimmy and Ken are so alike that I can't tell one from another.",
+          "The two valves look alike but have different ratings.",
+          "Teachers and students alike enjoyed the trip."
+        ],
+        "translations": [
+          "Jimmy ve Ken o kadar benzer ki birini diğerinden ayıramıyorum.",
+          "İki vana birbirine benziyor ama basınç sınıfları farklı.",
+          "Öğretmenler de öğrenciler de geziden keyif aldı."
+        ],
+        "explanation": "similar; in the same way (used after the verb)."
+      },
+      {
+        "id": "b2l6a24",
+        "term": "know something by heart",
+        "pronunciation": "",
+        "translation": "ezbere bilmek",
+        "sentences": [
+          "He has read that book so many times that he knows it by heart.",
+          "I know the safety rules by heart.",
+          "She knew the whole poem by heart."
+        ],
+        "translations": [
+          "O kitabı o kadar çok okudu ki ezbere biliyor.",
+          "Güvenlik kurallarını ezbere biliyorum.",
+          "Bütün şiiri ezbere biliyordu."
+        ],
+        "explanation": "to remember something perfectly, word for word."
+      }
+    ]
+  },
+  {
+    "id": "L6B",
+    "code": "6B",
+    "title": "Smart Learning",
+    "date": "",
+    "pages": "Unit 6B",
+    "grammar": {
+      "title": "Conjunctions of result (sonuç bağlaçları)",
+      "formula": "Sebep. As a result, sonuç. · Sebep. Therefore, sonuç. · Sebep. Consequently, sonuç. · Sebep. Thus, sonuç. · (cümle içinde: …; therefore, … / …, and as a result, …)",
+      "note": "Dördü de 'bu yüzden, sonuç olarak' demektir; bir önceki cümlede sebep, kendi cümlelerinde sonuç vardır. Genelde cümle başında + virgül. As a result: nötr, sebep-sonuç (konuşmada da). Therefore: mantıksal çıkarım, makale/analiz. Consequently: sonuç, resmî/akademik ton. Thus: resmî ve kısa, yazılı İngilizcede. 'so' ise gündelik ve iki cümleyi virgülle bağlar: I was tired, so I went home.",
+      "examples": [
+        "Many schools now use AI tools daily. As a result, learning has become faster.",
+        "Socratic explains questions clearly. Therefore, students can study alone.",
+        "Learners become more fluent in less time. Consequently, they gain confidence.",
+        "Khanmigo gives hints instead of answers. Thus, students improve their problem-solving skills.",
+        "The pump was too small; therefore, we changed the impeller."
+      ]
+    },
+    "grammar2": {
+      "title": "Latin & Greek roots (kökler)",
+      "formula": "geo = earth · astro = star · sol = sun · bio = life · therm = heat · spir = breathe · photo = light · psych = mind · aqu = water · audi = hear · cap / capit = head · sci = know · spect = sight · aero = air · bibli = book · crypt = secret · phob = fear · phil = love · scrib / script = write · loc = place · phon = sound · claus / claud = close",
+      "note": "Bilimsel ve teknik kelimelerin çoğu Latince/Yunanca köklerden gelir. Kökü tanıyan, kelimeyi hiç görmese de anlamını tahmin edebilir: thermometer (ısı + ölçer), aquatics (su sporları), decapitate (baş + kesmek), claustrophobia (kapalı + korku), cryptographer (gizli + yazan), homophonic (aynı + ses).",
+      "examples": [
+        "A thermometer is used to measure changes in temperature.",
+        "Without spacesuits, respiration is impossible in space.",
+        "Plants create their own food through photosynthesis.",
+        "The cryptographer was deep in thought.",
+        "I was trying to overcome my claustrophobia in the broken elevator."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l6b01",
+        "term": "personalized",
+        "pronunciation": "",
+        "translation": "kişiselleştirilmiş",
+        "sentences": [
+          "Learning has become faster and more personalized.",
+          "AI can create personalized learning plans.",
+          "Students get personalized exercises."
+        ],
+        "translations": [
+          "Öğrenme daha hızlı ve daha kişisel hale geldi.",
+          "Yapay zekâ kişiselleştirilmiş öğrenme planları oluşturabilir.",
+          "Öğrenciler kişiye özel alıştırmalar alıyor."
+        ],
+        "explanation": "designed for one particular person's needs."
+      },
+      {
+        "id": "b2l6b02",
+        "term": "master",
+        "pronunciation": "",
+        "translation": "ustalaşmak, iyice öğrenmek",
+        "sentences": [
+          "Duolingo Max helps students master foreign languages.",
+          "It takes years to master piping design.",
+          "She mastered the new software in a week."
+        ],
+        "translations": [
+          "Duolingo Max öğrencilerin yabancı dillerde ustalaşmasına yardım eder.",
+          "Boru tasarımında ustalaşmak yıllar alır.",
+          "Yeni yazılımı bir haftada iyice öğrendi."
+        ],
+        "explanation": "to learn something completely so you can do it well."
+      },
+      {
+        "id": "b2l6b03",
+        "term": "fluent",
+        "pronunciation": "",
+        "translation": "akıcı",
+        "sentences": [
+          "Learners become more fluent in less time.",
+          "He is fluent in English and German.",
+          "I want to be fluent before my next site visit abroad."
+        ],
+        "translations": [
+          "Öğrenenler daha kısa sürede daha akıcı hale gelir.",
+          "İngilizce ve Almancayı akıcı konuşuyor.",
+          "Bir sonraki yurt dışı saha ziyaretimden önce akıcı olmak istiyorum."
+        ],
+        "explanation": "able to speak a language easily and well."
+      },
+      {
+        "id": "b2l6b04",
+        "term": "comprehension",
+        "pronunciation": "",
+        "translation": "anlama, kavrama",
+        "sentences": [
+          "Short stories improve vocabulary and comprehension.",
+          "The test has a reading comprehension part.",
+          "His comprehension of the contract was excellent."
+        ],
+        "translations": [
+          "Kısa hikâyeler kelime bilgisini ve anlamayı geliştirir.",
+          "Testin bir okuduğunu anlama bölümü var.",
+          "Sözleşmeyi kavrayışı mükemmeldi."
+        ],
+        "explanation": "the ability to understand something, especially text or speech."
+      },
+      {
+        "id": "b2l6b05",
+        "term": "feedback",
+        "pronunciation": "",
+        "translation": "geri bildirim",
+        "sentences": [
+          "The AI tutor provides feedback on pronunciation.",
+          "Automated quizzes let her give more individual feedback.",
+          "We received feedback from the client on the layout."
+        ],
+        "translations": [
+          "Yapay zekâ öğretmeni telaffuz hakkında geri bildirim verir.",
+          "Otomatik sınavlar daha fazla bireysel geri bildirim vermesini sağlıyor.",
+          "Yerleşim planı için müşteriden geri bildirim aldık."
+        ],
+        "explanation": "comments about how well someone is doing something."
+      },
+      {
+        "id": "b2l6b06",
+        "term": "step-by-step",
+        "pronunciation": "",
+        "translation": "adım adım",
+        "sentences": [
+          "Socratic explains questions with step-by-step answers.",
+          "Follow the step-by-step guide to install the app.",
+          "The manual gives a step-by-step test procedure."
+        ],
+        "translations": [
+          "Socratic soruları adım adım cevaplarla açıklar.",
+          "Uygulamayı kurmak için adım adım rehberi izle.",
+          "Kılavuz adım adım bir test prosedürü veriyor."
+        ],
+        "explanation": "explaining or doing something in a series of stages."
+      },
+      {
+        "id": "b2l6b07",
+        "term": "independently",
+        "pronunciation": "",
+        "translation": "bağımsız olarak, kendi başına",
+        "sentences": [
+          "Students can study independently and build confidence.",
+          "The new engineer can now work independently.",
+          "Each unit operates independently of the others."
+        ],
+        "translations": [
+          "Öğrenciler kendi başlarına çalışıp özgüven kazanabilir.",
+          "Yeni mühendis artık bağımsız çalışabiliyor.",
+          "Her ünite diğerlerinden bağımsız çalışır."
+        ],
+        "explanation": "without help or control from other people."
+      },
+      {
+        "id": "b2l6b08",
+        "term": "hint",
+        "pronunciation": "",
+        "translation": "ipucu",
+        "sentences": [
+          "Khanmigo gives hints instead of answers.",
+          "Can you give me a hint?",
+          "The teacher dropped a hint about the exam topics."
+        ],
+        "translations": [
+          "Khanmigo cevap yerine ipucu verir.",
+          "Bana bir ipucu verebilir misin?",
+          "Öğretmen sınav konuları hakkında bir ipucu verdi."
+        ],
+        "explanation": "a small piece of help that leads you to the answer."
+      },
+      {
+        "id": "b2l6b09",
+        "term": "problem-solving",
+        "pronunciation": "",
+        "translation": "problem çözme",
+        "sentences": [
+          "Students improve their problem-solving skills.",
+          "Engineers need strong problem-solving skills.",
+          "The workshop focused on creative problem-solving."
+        ],
+        "translations": [
+          "Öğrenciler problem çözme becerilerini geliştirir.",
+          "Mühendislerin güçlü problem çözme becerilerine ihtiyacı var.",
+          "Atölye yaratıcı problem çözmeye odaklandı."
+        ],
+        "explanation": "the process of finding solutions to difficult issues."
+      },
+      {
+        "id": "b2l6b10",
+        "term": "generate",
+        "pronunciation": "",
+        "translation": "üretmek, oluşturmak",
+        "sentences": [
+          "MagicSchool AI generates report card comments.",
+          "The software can generate isometrics from the 3D model.",
+          "Solar panels generate electricity from sunlight."
+        ],
+        "translations": [
+          "MagicSchool AI karne yorumları oluşturur.",
+          "Yazılım 3D modelden izometrik üretebilir.",
+          "Güneş panelleri güneş ışığından elektrik üretir."
+        ],
+        "explanation": "to produce or create something."
+      },
+      {
+        "id": "b2l6b11",
+        "term": "engaging",
+        "pronunciation": "",
+        "translation": "ilgi çekici, sürükleyici",
+        "sentences": [
+          "Complex topics can be turned into engaging lessons.",
+          "Her presentation was short and engaging.",
+          "Games make vocabulary practice more engaging."
+        ],
+        "translations": [
+          "Karmaşık konular ilgi çekici derslere dönüştürülebilir.",
+          "Sunumu kısa ve sürükleyiciydi.",
+          "Oyunlar kelime çalışmasını daha ilgi çekici yapar."
+        ],
+        "explanation": "interesting and able to hold your attention."
+      },
+      {
+        "id": "b2l6b12",
+        "term": "reshape",
+        "pronunciation": "",
+        "translation": "yeniden şekillendirmek",
+        "sentences": [
+          "Clearly, AI reshapes education.",
+          "Remote work has reshaped office life.",
+          "The new manager reshaped the team."
+        ],
+        "translations": [
+          "Açıkça yapay zekâ eğitimi yeniden şekillendiriyor.",
+          "Uzaktan çalışma ofis hayatını yeniden şekillendirdi.",
+          "Yeni müdür ekibi yeniden yapılandırdı."
+        ],
+        "explanation": "to change the form or structure of something."
+      },
+      {
+        "id": "b2l6b13",
+        "term": "skeptical",
+        "pronunciation": "",
+        "translation": "şüpheci",
+        "sentences": [
+          "Emma was skeptical when she first heard about AI in education.",
+          "I'm skeptical about the new delivery date.",
+          "Many teachers are still skeptical of AI essays."
+        ],
+        "translations": [
+          "Emma eğitimde yapay zekâyı ilk duyduğunda şüpheciydi.",
+          "Yeni teslim tarihine şüpheyle bakıyorum.",
+          "Birçok öğretmen yapay zekâ ile yazılan makalelere hâlâ şüpheyle bakıyor."
+        ],
+        "explanation": "having doubts that something is true or useful (negative attitude)."
+      },
+      {
+        "id": "b2l6b14",
+        "term": "rely on",
+        "pronunciation": "",
+        "translation": "güvenmek, bel bağlamak",
+        "sentences": [
+          "What happens if students rely on AI too much?",
+          "We rely on our vendors to deliver on time.",
+          "You can't rely on old drawings."
+        ],
+        "translations": [
+          "Öğrenciler yapay zekâya fazla bel bağlarsa ne olur?",
+          "Tedarikçilerimizin zamanında teslim etmesine güveniyoruz.",
+          "Eski çizimlere güvenemezsin."
+        ],
+        "explanation": "to depend on someone or something."
+      },
+      {
+        "id": "b2l6b15",
+        "term": "confine",
+        "pronunciation": "",
+        "translation": "sınırlamak, kısıtlamak",
+        "sentences": [
+          "Please confine your use of the phone to business calls.",
+          "Let's confine the discussion to the piping scope.",
+          "The fire was confined to one room."
+        ],
+        "translations": [
+          "Lütfen telefon kullanımınızı iş görüşmeleriyle sınırlayın.",
+          "Tartışmayı boru kapsamıyla sınırlayalım.",
+          "Yangın tek bir odada sınırlı kaldı."
+        ],
+        "explanation": "to keep something within limits (confine something to …)."
+      },
+      {
+        "id": "b2l6b16",
+        "term": "adolescent",
+        "pronunciation": "",
+        "translation": "ergen",
+        "sentences": [
+          "I'm looking after six adolescents for a week.",
+          "Adolescents need a lot of sleep.",
+          "The book is about an adolescent boy in a small town."
+        ],
+        "translations": [
+          "Bir haftalığına altı ergene bakıyorum.",
+          "Ergenlerin çok uykuya ihtiyacı vardır.",
+          "Kitap küçük bir kasabadaki ergen bir çocuğu anlatıyor."
+        ],
+        "explanation": "a young person between childhood and adulthood."
+      },
+      {
+        "id": "b2l6b17",
+        "term": "quest",
+        "pronunciation": "",
+        "translation": "arayış, uzun arayış yolculuğu",
+        "sentences": [
+          "She went to India on a spiritual quest.",
+          "Our quest for a cheaper supplier continues.",
+          "The quest for clean energy is a global challenge."
+        ],
+        "translations": [
+          "Manevi bir arayış için Hindistan'a gitti.",
+          "Daha ucuz tedarikçi arayışımız sürüyor.",
+          "Temiz enerji arayışı küresel bir zorluktur."
+        ],
+        "explanation": "a long search for something important."
+      },
+      {
+        "id": "b2l6b18",
+        "term": "enclose",
+        "pronunciation": "",
+        "translation": "çevrelemek; ekte göndermek",
+        "sentences": [
+          "The park that encloses the monument has been enlarged.",
+          "A wall encloses the tank area.",
+          "I have enclosed a copy of the invoice."
+        ],
+        "translations": [
+          "Anıtı çevreleyen park genişletildi.",
+          "Tank alanını bir duvar çevreliyor.",
+          "Faturanın bir kopyasını ekledim."
+        ],
+        "explanation": "to surround an area; to put something in an envelope with a letter."
+      },
+      {
+        "id": "b2l6b19",
+        "term": "procedure",
+        "pronunciation": "",
+        "translation": "prosedür, işlem sırası",
+        "sentences": [
+          "The company has new procedures for dealing with complaints.",
+          "Follow the welding procedure exactly.",
+          "The test procedure must be approved first."
+        ],
+        "translations": [
+          "Şirketin şikâyetlerle ilgilenmek için yeni prosedürleri var.",
+          "Kaynak prosedürüne harfiyen uy.",
+          "Önce test prosedürü onaylanmalı."
+        ],
+        "explanation": "an official or correct way of doing something."
+      },
+      {
+        "id": "b2l6b20",
+        "term": "prospect",
+        "pronunciation": "",
+        "translation": "olasılık, ihtimal; beklenti",
+        "sentences": [
+          "There's not much prospect that this war will be over soon.",
+          "The job has good career prospects.",
+          "The prospect of a long delay worried the client."
+        ],
+        "translations": [
+          "Bu savaşın yakında biteceğine dair pek ihtimal yok.",
+          "İşin iyi kariyer olanakları var.",
+          "Uzun bir gecikme ihtimali müşteriyi endişelendirdi."
+        ],
+        "explanation": "the possibility that something will happen (prospects = future chances)."
+      },
+      {
+        "id": "b2l6b21",
+        "term": "potential",
+        "pronunciation": "",
+        "translation": "olası, potansiyel",
+        "sentences": [
+          "People should be alerted to potential dangers.",
+          "We discussed potential risks in the HAZOP.",
+          "She has great potential as a designer."
+        ],
+        "translations": [
+          "İnsanlar olası tehlikelere karşı uyarılmalı.",
+          "HAZOP'ta olası riskleri konuştuk.",
+          "Tasarımcı olarak büyük bir potansiyeli var."
+        ],
+        "explanation": "possible in the future; able to develop."
+      },
+      {
+        "id": "b2l6b22",
+        "term": "come up",
+        "pronunciation": "",
+        "translation": "gündeme gelmek, ortaya çıkmak",
+        "sentences": [
+          "At a meeting, why does a topic come up?",
+          "Your name came up in the meeting.",
+          "Call me if any problem comes up."
+        ],
+        "translations": [
+          "Bir toplantıda bir konu neden gündeme gelir?",
+          "Adın toplantıda geçti.",
+          "Bir sorun çıkarsa beni ara."
+        ],
+        "explanation": "to be mentioned or to appear, often unexpectedly."
+      },
+      {
+        "id": "b2l6b23",
+        "term": "stir up",
+        "pronunciation": "",
+        "translation": "kışkırtmak, karıştırmak",
+        "sentences": [
+          "Some people stir up trouble.",
+          "His comments stirred up a lot of anger.",
+          "Don't stir up the old argument again."
+        ],
+        "translations": [
+          "Bazı insanlar sorun çıkarır.",
+          "Yorumları çok öfke uyandırdı.",
+          "Eski tartışmayı yeniden alevlendirme."
+        ],
+        "explanation": "to cause trouble or strong feelings."
+      },
+      {
+        "id": "b2l6b24",
+        "term": "think up",
+        "pronunciation": "",
+        "translation": "uydurmak, (fikir) bulmak",
+        "sentences": [
+          "People think up excuses when they are late.",
+          "We need to think up a new name for the product.",
+          "She thought up a clever solution."
+        ],
+        "translations": [
+          "İnsanlar geç kalınca bahaneler uydurur.",
+          "Ürün için yeni bir isim bulmamız lazım.",
+          "Akıllıca bir çözüm buldu."
+        ],
+        "explanation": "to invent an idea, plan or excuse."
+      },
+      {
+        "id": "b2l6b25",
+        "term": "wrap up",
+        "pronunciation": "",
+        "translation": "toparlamak, bitirmek",
+        "sentences": [
+          "One could go on and on, but I'll wrap up now.",
+          "Let's wrap up the meeting by five.",
+          "We wrapped up the project with a short report."
+        ],
+        "translations": [
+          "Uzar gider ama artık toparlayayım.",
+          "Toplantıyı beşe kadar bitirelim.",
+          "Projeyi kısa bir raporla tamamladık."
+        ],
+        "explanation": "to finish something such as a meeting or a speech."
+      },
+      {
+        "id": "b2l6b26",
+        "term": "clear up",
+        "pronunciation": "",
+        "translation": "(hava) açılmak; toparlamak",
+        "sentences": [
+          "When the sun comes out, we say it is clearing up.",
+          "I hope the weather clears up before the lift.",
+          "Please clear up the meeting room after lunch."
+        ],
+        "translations": [
+          "Güneş çıkınca havanın açıldığını söyleriz.",
+          "Umarım kaldırma işinden önce hava açılır.",
+          "Lütfen öğle yemeğinden sonra toplantı odasını toparla."
+        ],
+        "explanation": "for the weather to become sunny; to make a place tidy."
+      }
+    ]
+  },
+  {
+    "id": "L6C",
+    "code": "6C",
+    "title": "Regret",
+    "date": "",
+    "pages": "Unit 6C",
+    "grammar": {
+      "title": "Expressing regrets: wish / if only",
+      "formula": "Şimdi (gerçeğin tersi): wish / if only + V2 (were) · Yetenek: wish + could + V1 · Geçmiş pişmanlık: wish / if only + had + V3 · Şu an devam eden: wish + was/were + V-ing · Şikâyet / başkasının davranışı: wish + sb + would + V1",
+      "note": "wish'ten sonra bir zaman geri gidilir: şimdiki durum → past simple (I wish I spoke German), geçmiş → past perfect (I wish I had studied harder). wish'ten sonra present tense kullanılmaz. Kendi davranışın için would kullanılmaz (I wish I would ✗ → I wish I could ✓). Gelecekteki bir olay için would: I wish it would stop raining. If only = wish, ama biraz daha güçlü.",
+      "examples": [
+        "I wish I had spent more time playing sport when I was younger.",
+        "If only I could speak a foreign language.",
+        "If only I were rich, I wouldn't have these problems.",
+        "My dad wishes he hadn't made an investment on racing horses.",
+        "I wish it would stop raining tomorrow."
+      ]
+    },
+    "grammar2": {
+      "title": "Separable & inseparable phrasal verbs",
+      "formula": "Ayrılabilen: mix up the words = mix the words up = mix them up (zamir ARADA) · Ayrılamayan: get up, come back, break in, pass away, look after sb, take off (uçak)",
+      "note": "Nesne alan (geçişli) phrasal verb'lerin çoğu ayrılabilir: nesne isimse iki yere de gelebilir, zamirse (it, them, me) mutlaka ortaya gelir: make it up ✓, make up it ✗. Nesne almayanlar (get up, come back, pass away, break in) ayrılamaz; bazı geçişli olanlar da ayrılamaz (look after the kids, get over it).",
+      "examples": [
+        "I always mix up phrasal verbs. / I always mix phrasal verbs up.",
+        "Could you tidy your things up?",
+        "I'd never heard that joke before. Did you make it up?",
+        "We need to put them together.",
+        "Thomas' grandfather passed away last month."
+      ]
+    },
+    "words": [
+      {
+        "id": "b2l6c01",
+        "term": "repentant",
+        "pronunciation": "",
+        "translation": "pişman, tövbekâr",
+        "sentences": [
+          "He looked truly repentant after the argument.",
+          "Regret means feeling sad, repentant or disappointed.",
+          "The repentant driver apologized to the family."
+        ],
+        "translations": [
+          "Tartışmadan sonra gerçekten pişman görünüyordu.",
+          "Pişmanlık üzgün, pişman ya da hayal kırıklığına uğramış hissetmektir.",
+          "Pişman sürücü aileden özür diledi."
+        ],
+        "explanation": "expressing or feeling sincere regret."
+      },
+      {
+        "id": "b2l6c02",
+        "term": "descending",
+        "pronunciation": "",
+        "translation": "azalan, inen (sıra)",
+        "sentences": [
+          "These are the things we regret most, in descending order.",
+          "Sort the lines by size in descending order.",
+          "We walked down the descending path to the beach."
+        ],
+        "translations": [
+          "En çok pişman olduğumuz şeyler azalan sırayla bunlardır.",
+          "Hatları boyuta göre azalan sırada sırala.",
+          "Plaja inen patikadan yürüdük."
+        ],
+        "explanation": "moving downward; in a decreasing order."
+      },
+      {
+        "id": "b2l6c03",
+        "term": "whopping",
+        "pronunciation": "",
+        "translation": "kocaman, muazzam",
+        "sentences": [
+          "Education and career make up a whopping 54% of our regrets.",
+          "The repair cost a whopping 20,000 euros.",
+          "He ate a whopping three burgers."
+        ],
+        "translations": [
+          "Eğitim ve kariyer pişmanlıklarımızın koca bir %54'ünü oluşturuyor.",
+          "Onarım tam 20.000 avroya mal oldu.",
+          "Tam üç hamburger yedi."
+        ],
+        "explanation": "very large (informal)."
+      },
+      {
+        "id": "b2l6c04",
+        "term": "constant",
+        "pronunciation": "",
+        "translation": "sürekli, değişmeyen",
+        "sentences": [
+          "You have the constant opportunity to progress your knowledge.",
+          "The pump runs at a constant speed.",
+          "Constant noise from the site made it hard to sleep."
+        ],
+        "translations": [
+          "Bilgini geliştirmek için sürekli fırsatın var.",
+          "Pompa sabit bir hızda çalışır.",
+          "Şantiyeden gelen sürekli gürültü uyumayı zorlaştırdı."
+        ],
+        "explanation": "happening all the time and not changing."
+      },
+      {
+        "id": "b2l6c05",
+        "term": "numerous",
+        "pronunciation": "",
+        "translation": "çok sayıda",
+        "sentences": [
+          "Education is a gateway to numerous other valued consequences.",
+          "We found numerous clashes in the 3D model.",
+          "She has won numerous awards."
+        ],
+        "translations": [
+          "Eğitim pek çok başka değerli sonuca açılan bir kapıdır.",
+          "3D modelde çok sayıda çakışma bulduk.",
+          "Çok sayıda ödül kazandı."
+        ],
+        "explanation": "great in number; many."
+      },
+      {
+        "id": "b2l6c06",
+        "term": "unaccomplished",
+        "pronunciation": "",
+        "translation": "tamamlanmamış, gerçekleşmemiş",
+        "sentences": [
+          "Any of these ends left unaccomplished might result in regret.",
+          "What's a goal that, if left unaccomplished, will result in regret?",
+          "Several tasks were still unaccomplished at the deadline."
+        ],
+        "translations": [
+          "Bu hedeflerden gerçekleşmeden kalan her biri pişmanlığa yol açabilir.",
+          "Gerçekleşmezse pişmanlık yaratacak bir hedef ne?",
+          "Teslim tarihinde birkaç görev hâlâ tamamlanmamıştı."
+        ],
+        "explanation": "incomplete; not finished or achieved."
+      },
+      {
+        "id": "b2l6c07",
+        "term": "comfort zone",
+        "pronunciation": "",
+        "translation": "konfor alanı",
+        "sentences": [
+          "Get out of your comfort zone before you regret it.",
+          "Speaking English at meetings pushed me out of my comfort zone.",
+          "Growth starts at the edge of your comfort zone."
+        ],
+        "translations": [
+          "Pişman olmadan önce konfor alanından çık.",
+          "Toplantılarda İngilizce konuşmak beni konfor alanımın dışına itti.",
+          "Gelişim konfor alanının sınırında başlar."
+        ],
+        "explanation": "a situation where you feel safe and relaxed but do not develop."
+      },
+      {
+        "id": "b2l6c08",
+        "term": "game plan",
+        "pronunciation": "",
+        "translation": "eylem planı, strateji",
+        "sentences": [
+          "Get a game plan to prevent future regrets.",
+          "What's our game plan for the client meeting?",
+          "Her game plan was to study one unit every week."
+        ],
+        "translations": [
+          "Gelecekteki pişmanlıkları önlemek için bir plan yap.",
+          "Müşteri toplantısı için stratejimiz ne?",
+          "Planı her hafta bir ünite çalışmaktı."
+        ],
+        "explanation": "a plan for achieving something."
+      },
+      {
+        "id": "b2l6c09",
+        "term": "gateway",
+        "pronunciation": "",
+        "translation": "kapı, geçit",
+        "sentences": [
+          "Education is a gateway to a better career.",
+          "English is a gateway to international projects.",
+          "The city is the gateway to the national park."
+        ],
+        "translations": [
+          "Eğitim daha iyi bir kariyere açılan kapıdır.",
+          "İngilizce uluslararası projelere açılan bir kapıdır.",
+          "Şehir milli parkın giriş kapısıdır."
+        ],
+        "explanation": "a way to reach or achieve something (gateway to …)."
+      },
+      {
+        "id": "b2l6c10",
+        "term": "take action",
+        "pronunciation": "",
+        "translation": "harekete geçmek",
+        "sentences": [
+          "It won't be comfortable to take action, but that's where the magic happens.",
+          "We must take action before the schedule slips.",
+          "The council took action to reduce pollution."
+        ],
+        "translations": [
+          "Harekete geçmek rahat olmayacak ama sihir orada başlar.",
+          "Program kaymadan harekete geçmeliyiz.",
+          "Belediye kirliliği azaltmak için harekete geçti."
+        ],
+        "explanation": "to do something to deal with a problem."
+      },
+      {
+        "id": "b2l6c11",
+        "term": "leisure",
+        "pronunciation": "",
+        "translation": "boş zaman",
+        "sentences": [
+          "Leisure is one of the things people regret.",
+          "What do you do in your leisure time?",
+          "The hotel has excellent leisure facilities."
+        ],
+        "translations": [
+          "Boş zaman insanların pişman olduğu şeylerden biridir.",
+          "Boş zamanlarında ne yaparsın?",
+          "Otelin harika eğlence ve dinlenme olanakları var."
+        ],
+        "explanation": "free time when you are not working."
+      },
+      {
+        "id": "b2l6c12",
+        "term": "parenting",
+        "pronunciation": "",
+        "translation": "ebeveynlik, çocuk yetiştirme",
+        "sentences": [
+          "Parenting is the fourth biggest regret in the survey.",
+          "Good parenting takes a lot of patience.",
+          "She reads books about parenting."
+        ],
+        "translations": [
+          "Ebeveynlik ankette dördüncü en büyük pişmanlık.",
+          "İyi ebeveynlik çok sabır ister.",
+          "Çocuk yetiştirme üzerine kitaplar okuyor."
+        ],
+        "explanation": "the activity of raising children."
+      },
+      {
+        "id": "b2l6c13",
+        "term": "make something up",
+        "pronunciation": "",
+        "translation": "(hikâye, bahane) uydurmak",
+        "sentences": [
+          "I'd never heard that joke before. Did you make it up?",
+          "He made the whole story up.",
+          "Don't make excuses up; just tell the truth."
+        ],
+        "translations": [
+          "O fıkrayı daha önce hiç duymamıştım. Sen mi uydurdun?",
+          "Bütün hikâyeyi uydurdu.",
+          "Bahane uydurma, sadece doğruyu söyle."
+        ],
+        "explanation": "to invent a story or excuse that is not true."
+      },
+      {
+        "id": "b2l6c14",
+        "term": "mix something up",
+        "pronunciation": "",
+        "translation": "karıştırmak",
+        "sentences": [
+          "I always mix the phrasal verbs up.",
+          "Put the ingredients in the bowl, then mix them up.",
+          "Don't mix the drawing numbers up."
+        ],
+        "translations": [
+          "Phrasal verb'leri hep karıştırıyorum.",
+          "Malzemeleri kaseye koy, sonra karıştır.",
+          "Çizim numaralarını karıştırma."
+        ],
+        "explanation": "to confuse two things; to mix things together."
+      },
+      {
+        "id": "b2l6c15",
+        "term": "tidy something up",
+        "pronunciation": "",
+        "translation": "toplamak, derleyip toparlamak",
+        "sentences": [
+          "Could you tidy your things up?",
+          "She tidied her desk up before the audit.",
+          "Let's tidy the folder up before we send it."
+        ],
+        "translations": [
+          "Eşyalarını toparlar mısın?",
+          "Denetimden önce masasını toparladı.",
+          "Göndermeden önce klasörü düzenleyelim."
+        ],
+        "explanation": "to make a place or things neat."
+      },
+      {
+        "id": "b2l6c16",
+        "term": "try something out",
+        "pronunciation": "",
+        "translation": "denemek",
+        "sentences": [
+          "Let's try that new restaurant out.",
+          "We tried the new software out on one project.",
+          "You should try these shoes out before buying them."
+        ],
+        "translations": [
+          "Şu yeni restoranı bir deneyelim.",
+          "Yeni yazılımı bir projede denedik.",
+          "Bu ayakkabıları almadan önce denemelisin."
+        ],
+        "explanation": "to test something to see if it works or if you like it."
+      },
+      {
+        "id": "b2l6c17",
+        "term": "put something together",
+        "pronunciation": "",
+        "translation": "bir araya getirmek, birleştirmek",
+        "sentences": [
+          "We've done our parts; now we need to put them together.",
+          "He put the furniture together in an hour.",
+          "Can you put the report together by Friday?"
+        ],
+        "translations": [
+          "Herkes kendi kısmını yaptı; şimdi onları birleştirmemiz gerek.",
+          "Mobilyayı bir saatte kurdu.",
+          "Raporu cumaya kadar derleyebilir misin?"
+        ],
+        "explanation": "to join parts to make something whole."
+      },
+      {
+        "id": "b2l6c18",
+        "term": "cut someone off",
+        "pronunciation": "",
+        "translation": "sözünü kesmek; bağlantıyı kesmek",
+        "sentences": [
+          "I was trying to speak, but he cut me off.",
+          "Please don't cut the client off when he is talking.",
+          "The storm cut the village off for two days."
+        ],
+        "translations": [
+          "Konuşmaya çalışıyordum ama sözümü kesti.",
+          "Lütfen müşteri konuşurken sözünü kesme.",
+          "Fırtına köyün bağlantısını iki gün kesti."
+        ],
+        "explanation": "to interrupt someone; to stop a supply or connection."
+      },
+      {
+        "id": "b2l6c19",
+        "term": "pass away",
+        "pronunciation": "",
+        "translation": "vefat etmek",
+        "sentences": [
+          "Thomas' grandfather passed away last month.",
+          "She passed away peacefully at home.",
+          "His father passed away when he was young."
+        ],
+        "translations": [
+          "Thomas'ın dedesi geçen ay vefat etti.",
+          "Evde huzur içinde vefat etti.",
+          "Babası o gençken vefat etti."
+        ],
+        "explanation": "to die (polite)."
+      },
+      {
+        "id": "b2l6c20",
+        "term": "hand something out",
+        "pronunciation": "",
+        "translation": "dağıtmak",
+        "sentences": [
+          "Please hand these forms out to the visitors.",
+          "The teacher handed the exams out.",
+          "We hand helmets out at the site entrance."
+        ],
+        "translations": [
+          "Lütfen bu formları ziyaretçilere dağıt.",
+          "Öğretmen sınav kâğıtlarını dağıttı.",
+          "Saha girişinde baret dağıtıyoruz."
+        ],
+        "explanation": "to give something to each person in a group."
+      },
+      {
+        "id": "b2l6c21",
+        "term": "break in",
+        "pronunciation": "",
+        "translation": "(zorla) içeri girmek",
+        "sentences": [
+          "The thieves broke in at around midnight.",
+          "Someone broke in and stole the laptops.",
+          "The alarm rings if anyone breaks in."
+        ],
+        "translations": [
+          "Hırsızlar gece yarısı civarında içeri girdi.",
+          "Biri zorla girip dizüstü bilgisayarları çaldı.",
+          "Biri zorla girerse alarm çalar."
+        ],
+        "explanation": "to enter a building illegally, usually by force."
+      },
+      {
+        "id": "b2l6c22",
+        "term": "blow something up",
+        "pronunciation": "",
+        "translation": "havaya uçurmak; şişirmek",
+        "sentences": [
+          "The police blew the car up.",
+          "They blew the old bridge up to build a new one.",
+          "Can you blow these balloons up for the party?"
+        ],
+        "translations": [
+          "Polis arabayı havaya uçurdu.",
+          "Yenisini yapmak için eski köprüyü havaya uçurdular.",
+          "Parti için bu balonları şişirebilir misin?"
+        ],
+        "explanation": "to destroy something with an explosion; to fill with air."
+      }
+    ]
   }
 ]

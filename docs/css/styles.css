@@ -528,3 +528,8 @@ body.tr-off .tr-only { display: none !important; }
   body.wide #screen { max-width: 1040px; }
   body.wide .kgrid { grid-template-columns: 1fr 1fr; }
 }
+
+.kpos { display: inline-block; font-size: 11px; font-style: italic; font-weight: 600; color: var(--text-dim); border: 1px solid var(--border); border-radius: 999px; padding: 0 7px; line-height: 18px; vertical-align: middle; white-space: nowrap; }
+.kcard .kh { flex-wrap: wrap; }
+.card-pos { text-align: center; margin-top: 4px; }
+.card-pos .kpos { font-size: 12.5px; padding: 1px 10px; }
